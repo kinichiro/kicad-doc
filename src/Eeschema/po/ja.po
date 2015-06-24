@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: EeSchema-ja\n"
 "POT-Creation-Date: 2015-06-23 00:41+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-25 01:19+0900\n"
+"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"Language-Team: kicad.jp <kicad@kicad.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title =
 #: Eeschema.adoc:8
 #, no-wrap
 msgid "Eeschema"
-msgstr ""
+msgstr "Eeschema"
 
 #. image::images/logo.png[KiCad Logo]
 #. type: Plain text
@@ -43,11 +43,11 @@ msgstr ""
 #. type: Plain text
 #: Eeschema.adoc:24
 msgid ""
-"This document is Copyright © 2010–2015 by its contributors as listed "
-"below. You may distribute it and/or modify it under the terms of either the "
-"GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 "
-"or later, or the Creative Commons Attribution License "
-"(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
+"This document is Copyright © 2010–2015 by its contributors as listed below. "
+"You may distribute it and/or modify it under the terms of either the GNU "
+"General Public License (http://www.gnu.org/licenses/gpl.html), version 3 or "
+"later, or the Creative Commons Attribution License (http://creativecommons."
+"org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 
 #. type: Plain text
@@ -119,7 +119,12 @@ msgid "Automatic classification Annotation"
 msgstr ""
 
 #. type: Title ~
-#: Eeschema_automatic_classification_annotation.adoc:7 Eeschema_creating_customized_netlists_and_bom_files.adoc:1229 Eeschema_design_verification_with_erc.adoc:7 Eeschema_hierarchical_schematics.adoc:8 Eeschema_plot_and_print.adoc:7 Eeschema_schematic_creation_and_editing.adoc:7 Eeschema_schematic_creation_and_editing.adoc:139 Eeschema_viewlib.adoc:7
+#: Eeschema_automatic_classification_annotation.adoc:7
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:1229
+#: Eeschema_design_verification_with_erc.adoc:7
+#: Eeschema_hierarchical_schematics.adoc:8 Eeschema_plot_and_print.adoc:7
+#: Eeschema_schematic_creation_and_editing.adoc:7
+#: Eeschema_schematic_creation_and_editing.adoc:139 Eeschema_viewlib.adoc:7
 #, no-wrap
 msgid "Introduction"
 msgstr ""
@@ -136,7 +141,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_automatic_classification_annotation.adoc:18 Eeschema_general_top_toolbar.adoc:116
+#: Eeschema_automatic_classification_annotation.adoc:18
+#: Eeschema_general_top_toolbar.adoc:116
 msgid "image:images/en/annotate-dialog.png[annotate-dialog_img]"
 msgstr ""
 
@@ -153,8 +159,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:24
 msgid ""
-"Annotate all the components, but do not swap any previously annotated "
-"multi-unit parts."
+"Annotate all the components, but do not swap any previously annotated multi-"
+"unit parts."
 msgstr ""
 
 #. type: Plain text
@@ -244,7 +250,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:65
-msgid "image:images/2000000800003E6E0000154B2A71537E.png[2000000800003E6E0000154B2A71537E_png]"
+msgid ""
+"image:images/2000000800003E6E0000154B2A71537E.png"
+"[2000000800003E6E0000154B2A71537E_png]"
 msgstr ""
 
 #. type: Plain text
@@ -254,12 +262,15 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:69
-msgid "After the annotation tool Is executed, the following result is obtained."
+msgid ""
+"After the annotation tool Is executed, the following result is obtained."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:71
-msgid "image:images/100000000000022C000000B9BA2E1A94.png[100000000000022C000000B9BA2E1A94_png]"
+msgid ""
+"image:images/100000000000022C000000B9BA2E1A94.png"
+"[100000000000022C000000B9BA2E1A94_png]"
 msgstr ""
 
 #. type: Plain text
@@ -269,7 +280,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:75
-msgid "image:images/100000000000023D000000BC05569580.png[100000000000023D000000BC05569580_png]"
+msgid ""
+"image:images/100000000000023D000000BC05569580.png"
+"[100000000000023D000000BC05569580_png]"
 msgstr ""
 
 #. type: Plain text
@@ -299,7 +312,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:89
-msgid "image:images/100000000000014300000137E6B02665.png[100000000000014300000137E6B02665_png]"
+msgid ""
+"image:images/100000000000014300000137E6B02665.png"
+"[100000000000014300000137E6B02665_png]"
 msgstr ""
 
 #. type: Plain text
@@ -311,7 +326,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:94
-msgid "image:images/1000000000000138000001495A2E0270.png[1000000000000138000001495A2E0270_png]"
+msgid ""
+"image:images/1000000000000138000001495A2E0270.png"
+"[1000000000000138000001495A2E0270_png]"
 msgstr ""
 
 #. type: Plain text
@@ -323,7 +340,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:98
-msgid "image:images/1000000000000117000001359D8B03B1.png[1000000000000117000001359D8B03B1_png]"
+msgid ""
+"image:images/1000000000000117000001359D8B03B1.png"
+"[1000000000000117000001359D8B03B1_png]"
 msgstr ""
 
 #. type: Title -
@@ -342,13 +361,12 @@ msgstr ""
 #: Eeschema_component_library_editor.adoc:18
 msgid ""
 "A component is a schematic element which contains a graphical "
-"representation, electrical connections, and fields defining the "
-"component. Components used in a schematic are stored in component "
-"libraries. Eeschema provides a component library editing tool that allows "
-"you to create libraries, add, delete or transfer components between "
-"libraries, export components to files, and import components from files. The "
-"library editing tool provides a simple way to manage component library "
-"files."
+"representation, electrical connections, and fields defining the component. "
+"Components used in a schematic are stored in component libraries. Eeschema "
+"provides a component library editing tool that allows you to create "
+"libraries, add, delete or transfer components between libraries, export "
+"components to files, and import components from files. The library editing "
+"tool provides a simple way to manage component library files."
 msgstr ""
 
 #. type: Title ~
@@ -427,8 +445,7 @@ msgstr ""
 #: Eeschema_component_library_editor.adoc:49
 msgid ""
 "Adding pins by carefully defining each pin's graphical elements, name, "
-"number, and electrical property (input, output, tri-state, power port, "
-"etc.)."
+"number, and electrical property (input, output, tri-state, power port, etc.)."
 msgstr ""
 
 #. type: Plain text
@@ -467,14 +484,16 @@ msgstr ""
 #: Eeschema_component_library_editor.adoc:66
 msgid ""
 "The component library editor main window is shown below. It consists three "
-"tool bars for quick access to common features and a component "
-"viewing/editing area. Not all commands are available on the tool bars but "
-"can be accessed using the menus."
+"tool bars for quick access to common features and a component viewing/"
+"editing area. Not all commands are available on the tool bars but can be "
+"accessed using the menus."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:68
-msgid "image:images/100000000000049F000002C20FF41347.png[100000000000049F000002C20FF41347_png]"
+msgid ""
+"image:images/100000000000049F000002C20FF41347.png"
+"[100000000000049F000002C20FF41347_png]"
 msgstr ""
 
 #. type: Title ^
@@ -493,7 +512,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:78
-msgid "image:images/100000000000040000000027C376CA0E.png[100000000000040000000027C376CA0E_png]"
+msgid ""
+"image:images/100000000000040000000027C376CA0E.png"
+"[100000000000040000000027C376CA0E_png]"
 msgstr ""
 
 #. type: delimited block |
@@ -574,7 +595,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block |
-#: Eeschema_component_library_editor.adoc:115 Eeschema_component_library_editor.adoc:219
+#: Eeschema_component_library_editor.adoc:115
+#: Eeschema_component_library_editor.adoc:219
 #, no-wrap
 msgid ""
 "|image:images/100002010000001A0000001A4F9201B5.png[100002010000001A0000001A4F9201B5_png]\n"
@@ -651,9 +673,7 @@ msgstr ""
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:142
 #, no-wrap
-msgid ""
-"|image:images/icons/zoom_fit_in_page.png[]|Zoom to fit component in "
-"display.\n"
+msgid "|image:images/icons/zoom_fit_in_page.png[]|Zoom to fit component in display.\n"
 msgstr ""
 
 #. type: delimited block |
@@ -871,15 +891,20 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:256
 msgid ""
-"The selection of the current library is possible via the "
-"image:images/100002010000001A0000001ACED60702.png[100002010000001A0000001ACED60702_png] "
-"which shows you all available libraries and allows you to select one.  When "
-"a component is loaded or saved, it will be put in this library. The library "
-"name of component is the contents of it's value field."
+"The selection of the current library is possible via the image:"
+"images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png] which shows you all available "
+"libraries and allows you to select one.  When a component is loaded or "
+"saved, it will be put in this library. The library name of component is the "
+"contents of it's value field."
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_component_library_editor.adoc:258 Eeschema_component_library_editor.adoc:286 Eeschema_component_library_editor.adoc:296 Eeschema_component_library_editor.adoc:327 Eeschema_schematic_creation_and_editing.adoc:250
+#: Eeschema_component_library_editor.adoc:258
+#: Eeschema_component_library_editor.adoc:286
+#: Eeschema_component_library_editor.adoc:296
+#: Eeschema_component_library_editor.adoc:327
+#: Eeschema_schematic_creation_and_editing.adoc:250
 #, no-wrap
 msgid "*Note:*\n"
 msgstr ""
@@ -893,16 +918,16 @@ msgstr ""
 #: Eeschema_component_library_editor.adoc:264
 msgid ""
 "The content of the current library can be saved after modification, by "
-"clicking on the "
-"image:images/100002010000001A0000001AC05D217E.png[100002010000001A0000001AC05D217E_png] "
-"on the main tool bar."
+"clicking on the image:images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png] on the main tool bar."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:266
 msgid ""
-"A component can be removed from any library by clicking on the "
-"image:images/100002010000001A0000001AB1BB0D48.png[100002010000001A0000001AB1BB0D48_png]."
+"A component can be removed from any library by clicking on the image:"
+"images/100002010000001A0000001AB1BB0D48.png"
+"[100002010000001A0000001AB1BB0D48_png]."
 msgstr ""
 
 #. type: Title ^
@@ -929,10 +954,10 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:284
 msgid ""
-"Clicking the "
-"image:images/100002010000001A0000001AE03E3808.png[100002010000001A0000001AE03E3808_png] "
-"on the main tool bar displays the list of the available components that you "
-"can select and load from the currently selected library."
+"Clicking the image:images/100002010000001A0000001AE03E3808.png"
+"[100002010000001A0000001AE03E3808_png] on the main tool bar displays the "
+"list of the available components that you can select and load from the "
+"currently selected library."
 msgstr ""
 
 #. type: Plain text
@@ -940,20 +965,21 @@ msgstr ""
 msgid ""
 "If a component selected by it's alias, the name of the loaded component is "
 "displayed on the window title bar instead of selected alias. The list of "
-"component aliases is always loaded with each component and can be "
-"edited. You can create a new component by selecting an alias of the current "
-"component from the "
-"image:images/100000000000007A00000026D48F1971.png[100000000000007A00000026D48F1971_png].  "
-"The first item in the alias list is the root name of the component."
+"component aliases is always loaded with each component and can be edited. "
+"You can create a new component by selecting an alias of the current "
+"component from the image:images/100000000000007A00000026D48F1971.png"
+"[100000000000007A00000026D48F1971_png].  The first item in the alias list is "
+"the root name of the component."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:302
 msgid ""
-"Alternatively, clicking the "
-"image:images/100002010000001A0000001A34D5E878.png[100002010000001A0000001A34D5E878_png] "
-"allows you to load a component which has been previously saved by the "
-"image:images/100002010000001A0000001A4F9201B5.png[100002010000001A0000001A4F9201B5_png]."
+"Alternatively, clicking the image:images/100002010000001A0000001A34D5E878.png"
+"[100002010000001A0000001A34D5E878_png] allows you to load a component which "
+"has been previously saved by the image:"
+"images/100002010000001A0000001A4F9201B5.png"
+"[100002010000001A0000001A4F9201B5_png]."
 msgstr ""
 
 #. type: Title +
@@ -972,28 +998,29 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:315
 msgid ""
-"To save the modified component in the current library, click the "
-"image:images/100002010000001A0000001A7C9F9F5F.png[100002010000001A0000001A7C9F9F5F_png].  "
-"Please note that the update command only saves the component changes in the "
-"local memory. This way, you can make up your mind before you save the "
-"library."
+"To save the modified component in the current library, click the image:"
+"images/100002010000001A0000001A7C9F9F5F.png"
+"[100002010000001A0000001A7C9F9F5F_png].  Please note that the update command "
+"only saves the component changes in the local memory. This way, you can make "
+"up your mind before you save the library."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:320
 msgid ""
 "To permanently save the component changes to the library file, click the "
-"image:images/100002010000001A0000001AC05D217E.png[100002010000001A0000001AC05D217E_png] "
-"which will overwrite the existing library file with the component changes."
+"image:images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png] which will overwrite the existing "
+"library file with the component changes."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:325
 msgid ""
 "If you want to create a new library containing the current component, click "
-"the "
-"image:images/100002010000001A0000001AA50256B5.png[100002010000001A0000001AA50256B5_png].  "
-"You will be asked to enter a new library name."
+"the image:images/100002010000001A0000001AA50256B5.png"
+"[100002010000001A0000001AA50256B5_png].  You will be asked to enter a new "
+"library name."
 msgstr ""
 
 #. type: Plain text
@@ -1016,12 +1043,12 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:342
 msgid ""
-"Click the "
-"image:images/100002010000001A0000001A4F9201B5.png[100002010000001A0000001A4F9201B5_png] "
-"to create a file containing only the current component. This file will be a "
-"standard library file which will contains only one component.  This file can "
-"be used to import the component into another library. In fact the create new "
-"library command and the export command are basically identical."
+"Click the image:images/100002010000001A0000001A4F9201B5.png"
+"[100002010000001A0000001A4F9201B5_png] to create a file containing only the "
+"current component. This file will be a standard library file which will "
+"contains only one component.  This file can be used to import the component "
+"into another library. In fact the create new library command and the export "
+"command are basically identical."
 msgstr ""
 
 #. type: Title +
@@ -1040,38 +1067,42 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:352
 msgid ""
-"Select the source library by clicking the "
-"image:images/100002010000001A0000001ACED60702.png[100002010000001A0000001ACED60702_png]."
+"Select the source library by clicking the image:"
+"images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png]."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:355
 msgid ""
-"Load the component to be transferred by clicking the "
-"image:images/100002010000001A0000001AE03E3808.png[100002010000001A0000001AE03E3808_png].  "
-"The component will be displayed in the editing area."
+"Load the component to be transferred by clicking the image:"
+"images/100002010000001A0000001AE03E3808.png"
+"[100002010000001A0000001AE03E3808_png].  The component will be displayed in "
+"the editing area."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:357
 msgid ""
-"Select the destination library by clicking the "
-"image:images/100002010000001A0000001ACED60702.png[100002010000001A0000001ACED60702_png]."
+"Select the destination library by clicking the image:"
+"images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png]."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:360
 msgid ""
 "Save the current component to the new library in the local memory by "
-"clicking the "
-"image:images/100002010000001A0000001A7C9F9F5F.png[100002010000001A0000001A7C9F9F5F_png]."
+"clicking the image:images/100002010000001A0000001A7C9F9F5F.png"
+"[100002010000001A0000001A7C9F9F5F_png]."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:362
 msgid ""
-"Save the component in the current local library file by clicking the "
-"image:images/100002010000001A0000001AC05D217E.png[100002010000001A0000001AC05D217E_png]."
+"Save the component in the current local library file by clicking the image:"
+"images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png]."
 msgstr ""
 
 #. type: Title +
@@ -1106,20 +1137,23 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:391
 msgid ""
-"A new component can be created clicking the "
-"image:images/100002010000001A0000001AAE4A6891.png[100002010000001A0000001AAE4A6891_png].  "
-"You will be asked for a component name (this name is used as default value "
-"for the value field in the schematic editor), the reference designator (U, "
-"IC, R...), the number of units per package (for example a 7400 is made of 4 "
-"units per package) and if an alternate body style (sometimes referred to as "
-"DeMorgan) is desired. If the reference designator field is left empty, it "
-"will default to “U”. These properties changed later, but it is preferable to "
-"set them correctly at the creation of the component."
+"A new component can be created clicking the image:"
+"images/100002010000001A0000001AAE4A6891.png"
+"[100002010000001A0000001AAE4A6891_png].  You will be asked for a component "
+"name (this name is used as default value for the value field in the "
+"schematic editor), the reference designator (U, IC, R...), the number of "
+"units per package (for example a 7400 is made of 4 units per package) and if "
+"an alternate body style (sometimes referred to as DeMorgan) is desired. If "
+"the reference designator field is left empty, it will default to “U”. These "
+"properties changed later, but it is preferable to set them correctly at the "
+"creation of the component."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:393
-msgid "image:images/1000000000000153000001795877268E.png[1000000000000153000001795877268E_png]"
+msgid ""
+"image:images/1000000000000153000001795877268E.png"
+"[1000000000000153000001795877268E_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1131,7 +1165,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:398
-msgid "image:images/100000000000030A00000205F0A88B4F.png[100000000000030A00000205F0A88B4F_png]"
+msgid ""
+"image:images/100000000000030A00000205F0A88B4F.png"
+"[100000000000030A00000205F0A88B4F_png]"
 msgstr ""
 
 #. type: Title ^
@@ -1156,11 +1192,10 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:413
 msgid ""
-"Click on the "
-"image:images/100002010000001A0000001A2D043F72.png[100002010000001A0000001A2D043F72_png] "
-"or modify its name by right click on the value field and editing the text.  "
-"If you chose to duplicate the current component, you will be prompted for a "
-"new component name."
+"Click on the image:images/100002010000001A0000001A2D043F72.png"
+"[100002010000001A0000001A2D043F72_png] or modify its name by right click on "
+"the value field and editing the text.  If you chose to duplicate the current "
+"component, you will be prompted for a new component name."
 msgstr ""
 
 #. type: Plain text
@@ -1180,21 +1215,22 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:426
 msgid ""
-"Update the new component in the current library by clicking the "
-"image:images/100002010000001A0000001A7C9F9F5F.png[100002010000001A0000001A7C9F9F5F_png] "
-"or save to a new library by clicking the "
-"image:images/100002010000001A0000001AA50256B5.png[100002010000001A0000001AA50256B5_png] "
-"or if you want to save this new component in an other existing library "
-"select the other library by clicking on the "
-"image:images/100002010000001A0000001ACED60702.png[100002010000001A0000001ACED60702_png] "
-"and save the new component."
+"Update the new component in the current library by clicking the image:"
+"images/100002010000001A0000001A7C9F9F5F.png"
+"[100002010000001A0000001A7C9F9F5F_png] or save to a new library by clicking "
+"the image:images/100002010000001A0000001AA50256B5.png"
+"[100002010000001A0000001AA50256B5_png] or if you want to save this new "
+"component in an other existing library select the other library by clicking "
+"on the image:images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png] and save the new component."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:428
 msgid ""
-"Save the current library file to disk by clicking the "
-"image:images/100002010000001A0000001AC05D217E.png[100002010000001A0000001AC05D217E_png]."
+"Save the current library file to disk by clicking the image:"
+"images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png]."
 msgstr ""
 
 #. type: Title ^
@@ -1208,14 +1244,16 @@ msgstr ""
 msgid ""
 "Component properties should be carefully set during the component creation "
 "or alternatively they are inherited from copied component. To change the "
-"component properties, click on the "
-"image:images/100002010000001A0000001A80C75DC5.png[100002010000001A0000001A80C75DC5_png] "
-"to show the dialog below."
+"component properties, click on the image:"
+"images/100002010000001A0000001A80C75DC5.png"
+"[100002010000001A0000001A80C75DC5_png] to show the dialog below."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:440
-msgid "image:images/10000000000001B2000001509F311F99.png[10000000000001B2000001509F311F99_png]"
+msgid ""
+"image:images/10000000000001B2000001509F311F99.png"
+"[10000000000001B2000001509F311F99_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1252,7 +1290,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:462
-msgid "image:images/2000000800003D8000002550D6E11DAF.png[2000000800003D8000002550D6E11DAF_png]"
+msgid ""
+"image:images/2000000800003D8000002550D6E11DAF.png"
+"[2000000800003D8000002550D6E11DAF_png]"
 msgstr ""
 
 #. type: Title ^
@@ -1266,23 +1306,27 @@ msgstr ""
 msgid ""
 "If the component has more than one symbolic repersentation, you will have to "
 "select the different symbols of th e component in order to edit them. To "
-"edit the normal symbol, click the "
-"image:images/100002010000001A0000001A93F5F714.png[100002010000001A0000001A93F5F714_png]."
+"edit the normal symbol, click the image:"
+"images/100002010000001A0000001A93F5F714.png"
+"[100002010000001A0000001A93F5F714_png]."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:477
 msgid ""
-"To edit the alternate symbol click on the "
-"image:images/100002010000001A0000001A67B02101.png[100002010000001A0000001A67B02101_png].  "
-"Use the "
-"image:images/100000000000007A0000002651F79CA5.png[100000000000007A0000002651F79CA5_png] "
-"show below to select the unit you wish to edit."
+"To edit the alternate symbol click on the image:"
+"images/100002010000001A0000001A67B02101.png"
+"[100002010000001A0000001A67B02101_png].  Use the image:"
+"images/100000000000007A0000002651F79CA5.png"
+"[100000000000007A0000002651F79CA5_png] show below to select the unit you "
+"wish to edit."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:479
-msgid "image:images/1000000000000456000002680D968591.png[1000000000000456000002680D968591_png]"
+msgid ""
+"image:images/1000000000000456000002680D968591.png"
+"[1000000000000456000002680D968591_png]"
 msgstr ""
 
 #. type: Title ~
@@ -1339,15 +1383,17 @@ msgstr ""
 #: Eeschema_component_library_editor.adoc:507
 msgid ""
 "Each graphic element (line, arc, circle, etc.) can be defined as common to "
-"all units and/or body styles or specific to a given unit and/or body "
-"style. Element options can be quickly accessed by the right clicking on the "
-"element to display the context menu for the selected element. Below is the "
-"context menu for a line element."
+"all units and/or body styles or specific to a given unit and/or body style. "
+"Element options can be quickly accessed by the right clicking on the element "
+"to display the context menu for the selected element. Below is the context "
+"menu for a line element."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:509
-msgid "image:images/20000009000056D200003432E4789F12.png[20000009000056D200003432E4789F12_png]"
+msgid ""
+"image:images/20000009000056D200003432E4789F12.png"
+"[20000009000056D200003432E4789F12_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1359,7 +1405,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:514
-msgid "image:images/100000000000012100000146E8D1DDCE.png[100000000000012100000146E8D1DDCE_png]"
+msgid ""
+"image:images/100000000000012100000146E8D1DDCE.png"
+"[100000000000012100000146E8D1DDCE_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1407,11 +1455,10 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:540
 msgid ""
-"The "
-"image:images/100002010000001A0000001A65CFC162.png[100002010000001A0000001A65CFC162_png] "
-"allows for the creation of graphical text. Graphical text is always "
-"readable, even when the component is mirrored. Please note that graphical "
-"text items are not fields."
+"The image:images/100002010000001A0000001A65CFC162.png"
+"[100002010000001A0000001A65CFC162_png] allows for the creation of graphical "
+"text. Graphical text is always readable, even when the component is "
+"mirrored. Please note that graphical text items are not fields."
 msgstr ""
 
 #. type: Title ~
@@ -1426,8 +1473,7 @@ msgid ""
 "Components can have two symbolic representations (a standard symbol and an "
 "alternate symbol often referred to as “DeMorgan”) and/or have more than one "
 "unit per package (logic gates for example). Some components can have more "
-"than one unit per package each with different symbols and pin "
-"configurations."
+"than one unit per package each with different symbols and pin configurations."
 msgstr ""
 
 #. type: Plain text
@@ -1539,7 +1585,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:609
-msgid "image:images/2000000900003855000027B1F162801F.png[2000000900003855000027B1F162801F_png]"
+msgid ""
+"image:images/2000000900003855000027B1F162801F.png"
+"[2000000900003855000027B1F162801F_png]"
 msgstr ""
 
 #. type: Title ~
@@ -1551,13 +1599,12 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:621
 msgid ""
-"You can click on the "
-"image:images/100002010000001A0000001AF33889E5.png[100002010000001A0000001AF33889E5_png] "
-"to create and insert a pin. The editing of all pin properties is done by "
-"double-clicking on the pin or right-click ing on the pin to open the pin "
-"context menu. Pins must be created carefully, because any error will have "
-"consequences on the PCB design. Any pin already placed can be edited, "
-"deleted, and / or moved."
+"You can click on the image:images/100002010000001A0000001AF33889E5.png"
+"[100002010000001A0000001AF33889E5_png] to create and insert a pin. The "
+"editing of all pin properties is done by double-clicking on the pin or right-"
+"click ing on the pin to open the pin context menu. Pins must be created "
+"carefully, because any error will have consequences on the PCB design. Any "
+"pin already placed can be edited, deleted, and / or moved."
 msgstr ""
 
 #. type: Title ^
@@ -1578,7 +1625,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_component_library_editor.adoc:634 Eeschema_component_library_editor.adoc:793
+#: Eeschema_component_library_editor.adoc:634
+#: Eeschema_component_library_editor.adoc:793
 msgid "Important notes:"
 msgstr ""
 
@@ -1627,15 +1675,17 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:651
-msgid "image:images/100000000000031000000198EA7FCC88.png[100000000000031000000198EA7FCC88_png]"
+msgid ""
+"image:images/100000000000031000000198EA7FCC88.png"
+"[100000000000031000000198EA7FCC88_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:655
 msgid ""
 "The pin properties dialog allows you to edit all of the characteristics of a "
-"pin. This dialog pops up automatically when you create a pin or when "
-"double-clicking on an existing pin. This dialog allows you modify:"
+"pin. This dialog pops up automatically when you create a pin or when double-"
+"clicking on an existing pin. This dialog allows you modify:"
 msgstr ""
 
 #. type: Plain text
@@ -1684,7 +1734,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:672
-msgid "image:images/10000000000003100000019800B8A351.png[10000000000003100000019800B8A351_png]"
+msgid ""
+"image:images/10000000000003100000019800B8A351.png"
+"[10000000000003100000019800B8A351_png]"
 msgstr ""
 
 #. type: Title ^
@@ -1765,7 +1817,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:705
-msgid "image:images/100000000000018D000001023AE0F5CF.png[100000000000018D000001023AE0F5CF_png]"
+msgid ""
+"image:images/100000000000018D000001023AE0F5CF.png"
+"[100000000000018D000001023AE0F5CF_png]"
 msgstr ""
 
 #. type: Title ^
@@ -1794,10 +1848,10 @@ msgstr ""
 msgid ""
 "The only exception to this is the pin's graphical type and name. This "
 "dependency was established to allow for easier pin creation and editing in "
-"most of the cases. This dependency can be disabled by toggling the "
-"image:images/100002010000001A0000001A2096B8A2.png[100002010000001A0000001A2096B8A2_png] "
-"on the main tool bar. This will allow you to create pins for each unit and "
-"representation completely independently."
+"most of the cases. This dependency can be disabled by toggling the image:"
+"images/100002010000001A0000001A2096B8A2.png"
+"[100002010000001A0000001A2096B8A2_png] on the main tool bar. This will allow "
+"you to create pins for each unit and representation completely independently."
 msgstr ""
 
 #. type: Plain text
@@ -1837,12 +1891,12 @@ msgid ""
 "pins defined in the component definition. When creating a new 7400 "
 "component, unit A of the normal symbolic representation will be shown in the "
 "library editor. To edit the pin style in alternate symbolic representation, "
-"it must first be enabled by clicking the "
-"image:images/100002010000001A0000001A67B02101.png[100002010000001A0000001A67B02101_png] "
-"button on the tool bar. To edit the pin number for each unit, select the "
-"appropriate unit using the "
-"image:images/100000000000007A0000002651F79CA5.png[100000000000007A0000002651F79CA5_png] "
-"drop down control."
+"it must first be enabled by clicking the image:"
+"images/100002010000001A0000001A67B02101.png"
+"[100002010000001A0000001A67B02101_png] button on the tool bar. To edit the "
+"pin number for each unit, select the appropriate unit using the image:"
+"images/100000000000007A0000002651F79CA5.png"
+"[100000000000007A0000002651F79CA5_png] drop down control."
 msgstr ""
 
 #. type: Title ~
@@ -1859,11 +1913,11 @@ msgid ""
 "are created whenever a component is created or copied.  Only the reference "
 "designator and value fields are required. For existing fields, you can use "
 "the context menu commands by right click ing on the pin. Components defined "
-"in libraries typically are defined with these four default "
-"fields. Additional fields such as vendor, part number, unit cost, etc. can "
-"be added to library components but generally this is done in the schematic "
-"editor so the additional fields can be applied to all of the components in "
-"the schematic."
+"in libraries typically are defined with these four default fields. "
+"Additional fields such as vendor, part number, unit cost, etc. can be added "
+"to library components but generally this is done in the schematic editor so "
+"the additional fields can be applied to all of the components in the "
+"schematic."
 msgstr ""
 
 #. type: Title ^
@@ -1881,20 +1935,25 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:781
-msgid "image:images/200000090000154B000027E6496104E3.png[200000090000154B000027E6496104E3_png]"
+msgid ""
+"image:images/200000090000154B000027E6496104E3.png"
+"[200000090000154B000027E6496104E3_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:785
 msgid ""
-"To edit undefined fields, add new fields, or delete optional fields "
-"image:images/100002010000001A0000001A65CFC162.png[100002010000001A0000001A65CFC162_png] "
-"on the main tool bar to open the field properties dialog shown below."
+"To edit undefined fields, add new fields, or delete optional fields image:"
+"images/100002010000001A0000001A65CFC162.png"
+"[100002010000001A0000001A65CFC162_png] on the main tool bar to open the "
+"field properties dialog shown below."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:787
-msgid "image:images/1000000000000208000002211F585317.png[1000000000000208000002211F585317_png]"
+msgid ""
+"image:images/1000000000000208000002211F585317.png"
+"[1000000000000208000002211F585317_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1941,15 +2000,17 @@ msgstr ""
 msgid ""
 "Power symbols are created the same way as normal components. It may be "
 "useful to place them in a dedicated library such as power.lib. Power symbols "
-"consist of a graphical symbol a nd a pin of the type “Power "
-"Invisible”. Power port symbols are handled like any other component by the "
-"schematic capture software. Some precautions are essential. Below is an "
-"example of a power +5V symbol."
+"consist of a graphical symbol a nd a pin of the type “Power Invisible”. "
+"Power port symbols are handled like any other component by the schematic "
+"capture software. Some precautions are essential. Below is an example of a "
+"power +5V symbol."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:818
-msgid "image:images/1000000000000438000002C20F7CD114.png[1000000000000438000002C20F7CD114_png]"
+msgid ""
+"image:images/1000000000000438000002C20F7CD114.png"
+"[1000000000000438000002C20F7CD114_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2050,15 +2111,16 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:15
-msgid "The list of connections between components, called equip-potential nets."
+msgid ""
+"The list of connections between components, called equip-potential nets."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:20
 msgid ""
-"Different netlist formats exist. Sometimes the components list and the "
-"equi-potential list are two separate files. This netlist is fundamental in "
-"the use of schematic capture software, because the netlist is the link with "
+"Different netlist formats exist. Sometimes the components list and the equi-"
+"potential list are two separate files. This netlist is fundamental in the "
+"use of schematic capture software, because the netlist is the link with "
 "other electronic CAD software, like:"
 msgstr ""
 
@@ -2166,7 +2228,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:67
-msgid "image:images/10000000000002BE0000017EB6C97C72.png[10000000000002BE0000017EB6C97C72_png]"
+msgid ""
+"image:images/10000000000002BE0000017EB6C97C72.png"
+"[10000000000002BE0000017EB6C97C72_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2246,9 +2310,7 @@ msgstr ""
 #. type: delimited block -
 #: Eeschema_create_a_netlist.adoc:135
 #, no-wrap
-msgid ""
-"* Eeschema Netlist Version 1.1 (Spice format) creation date: "
-"18/6/2008-08:38:03\n"
+msgid "* Eeschema Netlist Version 1.1 (Spice format) creation date: 18/6/2008-08:38:03\n"
 msgstr ""
 
 #. type: delimited block -
@@ -2345,16 +2407,16 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:195
 msgid ""
-"Any text line included in the schematic diagram starting with the keyword "
-"*-pspice* or *-gnucap* will be inserted (without the keyword) at the top of "
+"Any text line included in the schematic diagram starting with the keyword *-"
+"pspice* or *-gnucap* will be inserted (without the keyword) at the top of "
 "the netlist."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:199
 msgid ""
-"Any text line included in the schematic diagram starting with the keyword "
-"*+pspice* or *+gnucap* will be inserted (without the keyword) at the end of "
+"Any text line included in the schematic diagram starting with the keyword *"
+"+pspice* or *+gnucap* will be inserted (without the keyword) at the end of "
 "the netlist."
 msgstr ""
 
@@ -2365,7 +2427,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:203
-msgid "image:images/100000000000021B000001BDEA9ADDBA.png[100000000000021B000001BDEA9ADDBA_png]"
+msgid ""
+"image:images/100000000000021B000001BDEA9ADDBA.png"
+"[100000000000021B000001BDEA9ADDBA_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2473,7 +2537,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:257
-msgid "image:images/10000000000000DA000000C6E73B58D7.png[10000000000000DA000000C6E73B58D7_png]"
+msgid ""
+"image:images/10000000000000DA000000C6E73B58D7.png"
+"[10000000000000DA000000C6E73B58D7_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2483,7 +2549,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:261
-msgid "image:images/100000000000021300000103755CDB21.png[100000000000021300000103755CDB21_png]"
+msgid ""
+"image:images/100000000000021300000103755CDB21.png"
+"[100000000000021300000103755CDB21_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2578,8 +2646,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:301
 msgid ""
-"f:/kicad/bin/xsltproc.exe -o test.net "
-"f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl test.tmp."
+"f:/kicad/bin/xsltproc.exe -o test.net f:/kicad/bin/plugins/netlist_form_pads-"
+"pcb.xsl test.tmp."
 msgstr ""
 
 #. type: Title ^
@@ -2599,8 +2667,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:313
 msgid ""
-"When using xsltproc as converter tool only the sheet style will be "
-"generated."
+"When using xsltproc as converter tool only the sheet style will be generated."
 msgstr ""
 
 #. type: Title ^
@@ -2882,12 +2949,12 @@ msgstr ""
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:235
 msgid ""
 "XSLT itself is a an XML language very suitable for XML transformations.  "
-"There is a free program called _xsltproc_ that you can download and "
-"install. The xsltproc program can be used to read the Intermediate XML "
-"netlist input file, apply a style-sheet to transform the input, and save the "
-"results in an output file. Use of xsltproc requires a style-sheet file using "
-"XSLT conventions. The full conversion process is handle d by Eeschema, after "
-"it is configured once to run xsltproc in a specific way."
+"There is a free program called _xsltproc_ that you can download and install. "
+"The xsltproc program can be used to read the Intermediate XML netlist input "
+"file, apply a style-sheet to transform the input, and save the results in an "
+"output file. Use of xsltproc requires a style-sheet file using XSLT "
+"conventions. The full conversion process is handle d by Eeschema, after it "
+"is configured once to run xsltproc in a specific way."
 msgstr ""
 
 #. type: Title ~
@@ -2898,7 +2965,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:242
-msgid "The document that describes XSL Transformations (XSLT) is available here:"
+msgid ""
+"The document that describes XSL Transformations (XSLT) is available here:"
 msgstr ""
 
 #. type: Plain text
@@ -2919,12 +2987,14 @@ msgid "The pads-pcb format is comprise d of two sections."
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_creating_customized_netlists_and_bom_files.adoc:252 Eeschema_creating_customized_netlists_and_bom_files.adoc:381
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:252
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:381
 msgid "The footprint list."
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_creating_customized_netlists_and_bom_files.adoc:253 Eeschema_creating_customized_netlists_and_bom_files.adoc:382
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:253
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:382
 msgid "The Nets list: grouping pads references by nets."
 msgstr ""
 
@@ -2940,14 +3010,14 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
-"<!--XSL style sheet to Eeschema Generic Netlist Format to PADS netlist "
-"format\n"
+"<!--XSL style sheet to Eeschema Generic Netlist Format to PADS netlist format\n"
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
 
 #. type: delimited block -
-#: Eeschema_creating_customized_netlists_and_bom_files.adoc:266 Eeschema_creating_customized_netlists_and_bom_files.adoc:550
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:266
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:550
 #, no-wrap
 msgid ""
 "    How to use:\n"
@@ -2956,7 +3026,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: Eeschema_creating_customized_netlists_and_bom_files.adoc:270 Eeschema_creating_customized_netlists_and_bom_files.adoc:395 Eeschema_creating_customized_netlists_and_bom_files.adoc:554
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:270
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:395
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:554
 #, no-wrap
 msgid ""
 "<!DOCTYPE xsl:stylesheet [\n"
@@ -2965,11 +3037,12 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: Eeschema_creating_customized_netlists_and_bom_files.adoc:273 Eeschema_creating_customized_netlists_and_bom_files.adoc:398 Eeschema_creating_customized_netlists_and_bom_files.adoc:557
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:273
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:398
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:557
 #, no-wrap
 msgid ""
-"<xsl:stylesheet version=\"1.0\" "
-"xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n"
+"<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n"
 "<xsl:output method=\"text\" omit-xml-declaration=\"yes\" indent=\"no\"/>\n"
 msgstr ""
 
@@ -3046,7 +3119,9 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: Eeschema_creating_customized_netlists_and_bom_files.adoc:327 Eeschema_creating_customized_netlists_and_bom_files.adoc:494 Eeschema_creating_customized_netlists_and_bom_files.adoc:752
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:327
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:494
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:752
 #, no-wrap
 msgid "</xsl:stylesheet>\n"
 msgstr ""
@@ -3108,9 +3183,7 @@ msgstr ""
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:372
 #, no-wrap
-msgid ""
-"kicad\\\\bin\\\\xsltproc.exe -o test.net "
-"kicad\\\\bin\\\\plugins\\\\netlist_form_pads-pcb.xsl test.tmp\n"
+msgid "kicad\\\\bin\\\\xsltproc.exe -o test.net kicad\\\\bin\\\\plugins\\\\netlist_form_pads-pcb.xsl test.tmp\n"
 msgstr ""
 
 #. type: Title ^
@@ -3134,8 +3207,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
-"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist "
-"format\n"
+"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist format\n"
 "    Copyright (C) 2010, Jean-Pierre Charras.\n"
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
@@ -3148,15 +3220,11 @@ msgid ""
 "<!-- Netlist header -->\n"
 "<xsl:template match=\"/export\">\n"
 "    <xsl:text>.HEA&nl;</xsl:text>\n"
-"    <xsl:apply-templates select=\"design/date\"/>  <!-- Generate line .TIM "
-"<time> -->\n"
-"    <xsl:apply-templates select=\"design/tool\"/>  <!-- Generate line .APP "
-"<eeschema version> -->\n"
-"    <xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of "
-"components -->\n"
+"    <xsl:apply-templates select=\"design/date\"/>  <!-- Generate line .TIM <time> -->\n"
+"    <xsl:apply-templates select=\"design/tool\"/>  <!-- Generate line .APP <eeschema version> -->\n"
+"    <xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
 "    <xsl:text>&nl;&nl;</xsl:text>\n"
-"    <xsl:apply-templates select=\"nets/net\"/>          <!-- Generate list "
-"of nets and connections -->\n"
+"    <xsl:apply-templates select=\"nets/net\"/>          <!-- Generate list of nets and connections -->\n"
 "    <xsl:text>&nl;.END&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
@@ -3196,8 +3264,7 @@ msgid ""
 "    <xsl:text> </xsl:text>\n"
 "    <xsl:choose>\n"
 "        <xsl:when test = \"value != '' \">\n"
-"            <xsl:text>\"</xsl:text> <xsl:apply-templates select=\"value\"/> "
-"<xsl:text>\"</xsl:text>\n"
+"            <xsl:text>\"</xsl:text> <xsl:apply-templates select=\"value\"/> <xsl:text>\"</xsl:text>\n"
 "        </xsl:when>\n"
 "        <xsl:otherwise>\n"
 "            <xsl:text>\"\"</xsl:text>\n"
@@ -3348,8 +3415,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
-"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist "
-"format\n"
+"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist format\n"
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
@@ -3377,8 +3443,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<!-- Generate the list of components -->\n"
-"<xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of "
-"components -->\n"
+"<xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
 msgstr ""
 
 #. type: delimited block -
@@ -3485,8 +3550,7 @@ msgid ""
 "    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
 "        <xsl:for-each select=\"/export/libparts/libpart\">\n"
 "            <xsl:if test = \"@part = $cmplib_id \">\n"
-"                <xsl:apply-templates name=\"build_pin_list\" "
-"select=\"pins/pin\">\n"
+"                <xsl:apply-templates name=\"build_pin_list\" select=\"pins/pin\">\n"
 "                    <xsl:with-param name=\"cmp_ref\" select=\"$cmp_ref\"/>\n"
 "                </xsl:apply-templates>\n"
 "            </xsl:if>\n"
@@ -3539,8 +3603,7 @@ msgid ""
 "        <xsl:apply-templates name=\"Search_pin_netname\" select=\"node\">\n"
 "            <xsl:with-param name=\"cmp_ref\" select=\"$cmp_ref\"/>\n"
 "            <xsl:with-param name=\"pin_cnt_in_net\" select=\"$pinCnt\"/>\n"
-"            <xsl:with-param name=\"pin_num\"> <xsl:value-of "
-"select=\"$pinNum\"/>\n"
+"            <xsl:with-param name=\"pin_num\"> <xsl:value-of select=\"$pinNum\"/>\n"
 "            </xsl:with-param>\n"
 "        </xsl:apply-templates>\n"
 "    </xsl:for-each>\n"
@@ -3560,8 +3623,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<!--\n"
-"    This template writes the pin netname of a given pin of a given "
-"component\n"
+"    This template writes the pin netname of a given pin of a given component\n"
 "    from the nets list\n"
 "    The nets list description is something like\n"
 "      <nets>\n"
@@ -3607,8 +3669,7 @@ msgid ""
 "                        <xsl:value-of select=\"../@name\"/>\n"
 "                    </xsl:when>\n"
 "                    <xsl:otherwise>\n"
-"                        <xsl:text>$N-0</xsl:text><xsl:value-of "
-"select=\"../@code\"/>\n"
+"                        <xsl:text>$N-0</xsl:text><xsl:value-of select=\"../@code\"/>\n"
 "                    </xsl:otherwise>\n"
 "                </xsl:choose>\n"
 "            </xsl:if>\n"
@@ -3698,7 +3759,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:808
-msgid "image:images/10000000000000FC000000C867B9348F.png[10000000000000FC000000C867B9348F_png]"
+msgid ""
+"image:images/10000000000000FC000000C867B9348F.png"
+"[10000000000000FC000000C867B9348F_png]"
 msgstr ""
 
 #. type: Plain text
@@ -3708,7 +3771,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:812
-msgid "image:images/100000000000026D000001272BA6B200.png[100000000000026D000001272BA6B200_png]"
+msgid ""
+"image:images/100000000000026D000001272BA6B200.png"
+"[100000000000026D000001272BA6B200_png]"
 msgstr ""
 
 #. type: Title +
@@ -3720,8 +3785,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:819
 msgid ""
-"The Eeschema plug-in configuration dialog requires the following "
-"information:"
+"The Eeschema plug-in configuration dialog requires the following information:"
 msgstr ""
 
 #. type: Plain text
@@ -3742,8 +3806,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:827
 msgid ""
-"Eeschema creates an intermediate netlist file __.xml, for "
-"instance__test.xml.*"
+"Eeschema creates an intermediate netlist file __.xml, for instance__test.xml."
+"*"
 msgstr ""
 
 #. type: Plain text
@@ -3761,8 +3825,7 @@ msgstr ""
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:836
 msgid ""
 "Assuming we are using the program _xsltproc.exe_ to apply the sheet style to "
-"the intermediate file, _xsltproc.exe_ is executed with the following "
-"command."
+"the intermediate file, _xsltproc.exe_ is executed with the following command."
 msgstr ""
 
 #. type: Plain text
@@ -3780,8 +3843,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:844
 msgid ""
-"_f:/kicad/bin/xsltproc.exe -o “%O” "
-"f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl “%I”_"
+"_f:/kicad/bin/xsltproc.exe -o “%O” f:/kicad/bin/plugins/netlist_form_pads-"
+"pcb.xsl “%I”_"
 msgstr ""
 
 #. type: Plain text
@@ -3799,9 +3862,9 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:853
 msgid ""
-"Where _netlist_form_pads-pcb.xsl_ is the style-sheet that you are "
-"applying. Do not forget the double quotes around the file names, this allows "
-"them to have spaces after the substitution by Eeschema."
+"Where _netlist_form_pads-pcb.xsl_ is the style-sheet that you are applying. "
+"Do not forget the double quotes around the file names, this allows them to "
+"have spaces after the substitution by Eeschema."
 msgstr ""
 
 #. type: Plain text
@@ -3873,7 +3936,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_creating_customized_netlists_and_bom_files.adoc:882 Eeschema_creating_customized_netlists_and_bom_files.adoc:919
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:882
+#: Eeschema_creating_customized_netlists_and_bom_files.adoc:919
 msgid "under Linux:"
 msgstr ""
 
@@ -3915,10 +3979,9 @@ msgstr ""
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:905
 msgid ""
 "The path to the style sheet bom2csv.xsl is system dependent. The currently "
-"best XSLT style-sheet for BOM generation at this time is called "
-"__bom2csv.xsl__. You are free to modify it according to your needs, and if "
-"you develop something generally useful, ask that it become part of the KiCad "
-"project."
+"best XSLT style-sheet for BOM generation at this time is called __bom2csv."
+"xsl__. You are free to modify it according to your needs, and if you develop "
+"something generally useful, ask that it become part of the KiCad project."
 msgstr ""
 
 #. type: Title ~
@@ -4225,8 +4288,7 @@ msgstr ""
 msgid ""
 "A time stamp is an unique identifier for each component or sheet in a "
 "schematic project. However, in complex hierarchies, the same sheet is used "
-"more than once, so this sheet contains components having the same time "
-"stamp."
+"more than once, so this sheet contains components having the same time stamp."
 msgstr ""
 
 #. type: Plain text
@@ -4428,8 +4490,8 @@ msgstr ""
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1239
 msgid ""
 "xsltproc is invoked from the command line with the name of the style-sheet "
-"to be used followed by the name of the file or files to which the "
-"style-sheet is to be applied. It will use the standard input if a filename "
+"to be used followed by the name of the file or files to which the style-"
+"sheet is to be applied. It will use the standard input if a filename "
 "provided is - ."
 msgstr ""
 
@@ -4458,8 +4520,7 @@ msgid ""
 "[--param *name* *value* ] | [--stringparam *name* *value* ] | [--nonet] |\n"
 "[--path *paths* ] | [--load-trace] | [--catalogs] | [--xinclude] |\n"
 "[--profile] | [--dumpextensions] | [--nowrite] | [--nomkdir] |\n"
-"[--writesubtree] | [--nodtdattr]] [ *stylesheet* ] [ *file1* ] [ *file2* ] "
-"\n"
+"[--writesubtree] | [--nodtdattr]] [ *stylesheet* ] [ *file1* ] [ *file2* ] \n"
 "[ *....* ]\n"
 msgstr ""
 
@@ -4657,8 +4718,8 @@ msgstr ""
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1347
 msgid ""
 "Process the input document using the Xinclude specification. More details on "
-"this can be found in the Xinclude specification: "
-"http://www.w3.org/TR/xinclude/[http://www.w3.org/TR/xinclude/]"
+"this can be found in the Xinclude specification: http://www.w3.org/TR/"
+"xinclude/[http://www.w3.org/TR/xinclude/]"
 msgstr ""
 
 #. type: Plain text
@@ -4839,7 +4900,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_design_verification_with_erc.adoc:23 Eeschema_general_top_toolbar.adoc:163
+#: Eeschema_design_verification_with_erc.adoc:23
+#: Eeschema_general_top_toolbar.adoc:163
 msgid "image:images/en/dialog_erc.png[ERC dialog]"
 msgstr ""
 
@@ -4947,7 +5009,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:69
-msgid "image:images/1000000000000250000000D72B1E53C2.png[1000000000000250000000D72B1E53C2_png]"
+msgid ""
+"image:images/1000000000000250000000D72B1E53C2.png"
+"[1000000000000250000000D72B1E53C2_png]"
 msgstr ""
 
 #. type: Plain text
@@ -4964,7 +5028,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:102
-msgid "image:images/10000000000002810000024A2E8220E0.png[10000000000002810000024A2E8220E0_png]"
+msgid ""
+"image:images/10000000000002810000024A2E8220E0.png"
+"[10000000000002810000024A2E8220E0_png]"
 msgstr ""
 
 #. type: Plain text
@@ -5224,9 +5290,9 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:111
 msgid ""
-"For multi-part components (such as 7400 TTL which contains 4 gates), a "
-"multi-part suffix is also allocated (thus a 7400 TTL designated U3 will be "
-"divided into U3A, U3B, U3C and U3D)."
+"For multi-part components (such as 7400 TTL which contains 4 gates), a multi-"
+"part suffix is also allocated (thus a 7400 TTL designated U3 will be divided "
+"into U3A, U3B, U3C and U3D)."
 msgstr ""
 
 #. type: Plain text
@@ -5244,7 +5310,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:121
-msgid "Use the entire schematic. All the sheets are re-annotated (usual Option)."
+msgid ""
+"Use the entire schematic. All the sheets are re-annotated (usual Option)."
 msgstr ""
 
 #. type: Plain text
@@ -5355,7 +5422,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:173
-msgid "Create ERC file report: check this option to generate an ERC report file."
+msgid ""
+"Create ERC file report: check this option to generate an ERC report file."
 msgstr ""
 
 #. type: Plain text
@@ -5379,7 +5447,8 @@ msgid "Close: to exit this dialog box."
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_general_top_toolbar.adoc:181 Eeschema_schematic_creation_and_editing.adoc:301
+#: Eeschema_general_top_toolbar.adoc:181
+#: Eeschema_schematic_creation_and_editing.adoc:301
 msgid "Note:"
 msgstr ""
 
@@ -5491,8 +5560,10 @@ msgid "For example:"
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_general_top_toolbar.adoc:227 Eeschema_schematic_creation_and_editing.adoc:123
-msgid "image:images/en/dialog_component_properties.png[Component Properties dialog]"
+#: Eeschema_general_top_toolbar.adoc:227
+#: Eeschema_schematic_creation_and_editing.adoc:123
+msgid ""
+"image:images/en/dialog_component_properties.png[Component Properties dialog]"
 msgstr ""
 
 #. type: Title ~
@@ -5636,14 +5707,14 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:49
-msgid "You can move, drag, copy and delete selected areas in all Eeschema menus."
+msgid ""
+"You can move, drag, copy and delete selected areas in all Eeschema menus."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:51
 msgid ""
-"Areas are selected by dragging a box around them using the left mouse "
-"button."
+"Areas are selected by dragging a box around them using the left mouse button."
 msgstr ""
 
 #. type: Plain text
@@ -5699,15 +5770,15 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:92
 msgid ""
-"In Eeschema, the cursor moves over a grid, which can be displayed or "
-"hidden. The grid is always displayed in the library manager."
+"In Eeschema, the cursor moves over a grid, which can be displayed or hidden. "
+"The grid is always displayed in the library manager."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:94
 msgid ""
-"You can change the grid size via the pop-up menu or via the "
-"Preferences/Options menu."
+"You can change the grid size via the pop-up menu or via the Preferences/"
+"Options menu."
 msgstr ""
 
 #. type: Plain text
@@ -5766,9 +5837,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:118
 #, no-wrap
-msgid ""
-"** F4 or simple click on the mouse middle button (without moving the mouse): "
-"Center the view around the cursor pointer position\n"
+msgid "** F4 or simple click on the mouse middle button (without moving the mouse): Center the view around the cursor pointer position\n"
 msgstr ""
 
 #. type: Plain text
@@ -5882,7 +5951,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:164
-msgid "If Eeschema is run from the project manager (kicad), available tools are:"
+msgid ""
+"If Eeschema is run from the project manager (kicad), available tools are:"
 msgstr ""
 
 #. type: Plain text
@@ -6025,8 +6095,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|image:images/100000000000002300000025F2BC99A5.png[100000000000002300000025F2BC99A5_png]\n"
-"|Call component editor _Libedit_ to view and modify libraries and component "
-"symbols.\n"
+"|Call component editor _Libedit_ to view and modify libraries and component symbols.\n"
 msgstr ""
 
 #. type: delimited block |
@@ -6090,10 +6159,8 @@ msgstr ""
 #: Eeschema_generic_commands.adoc:244
 #, no-wrap
 msgid ""
-"|image:images/en/icon_import_footprint_names.png[Import Footprint Names "
-"icon]\n"
-"|Back-import component footprints (selected using CvPcb) into the "
-"\"footprint\" fields.\n"
+"|image:images/en/icon_import_footprint_names.png[Import Footprint Names icon]\n"
+"|Back-import component footprints (selected using CvPcb) into the \"footprint\" fields.\n"
 msgstr ""
 
 #. type: Title ~
@@ -6184,8 +6251,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|image:images/10000000000000210000001FF831ADEC.png[10000000000000210000001FF831ADEC_png]\n"
-"|Draw wire-to-bus entry points. These elements are only graphical and do not "
-"create\n"
+"|Draw wire-to-bus entry points. These elements are only graphical and do not create\n"
 "a connection, thus they should not be used to connect wires together.\n"
 msgstr ""
 
@@ -6202,8 +6268,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|image:images/10000000000000210000001E229A5031.png[10000000000000210000001E229A5031_png]\n"
-"|Place a \"no connection\" symbol. These are placed on component pins "
-"which\n"
+"|Place a \"no connection\" symbol. These are placed on component pins which\n"
 "are not to be connected. This is useful in the ERC function to check if\n"
 "pins are intentionally left not connected or are missed.\n"
 msgstr ""
@@ -6224,8 +6289,7 @@ msgstr ""
 msgid ""
 "|image:images/icons/global-label.png[Global label icon]\n"
 "a|\n"
-"Place a global label. All global labels with the same name are connected, "
-"even between\n"
+"Place a global label. All global labels with the same name are connected, even between\n"
 "different sheets.\n"
 msgstr ""
 
@@ -6253,8 +6317,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|image:images/100000000000002100000020F9992133.png[100000000000002100000020F9992133_png]\n"
-"|Place a hierarchical subsheet. You must specify the file name for this "
-"subsheet.\n"
+"|Place a hierarchical subsheet. You must specify the file name for this subsheet.\n"
 msgstr ""
 
 #. type: delimited block |
@@ -6263,10 +6326,8 @@ msgstr ""
 msgid ""
 "|image:images/100000000000002100000021C98460F6.png[100000000000002100000021C98460F6_png]\n"
 "a|\n"
-"Import hierarchical labels from a subsheet. These hierarchical labels must "
-"already be\n"
-"placed in the subsheet. These are equivalent to pins on a component, and "
-"must be connected\n"
+"Import hierarchical labels from a subsheet. These hierarchical labels must already be\n"
+"placed in the subsheet. These are equivalent to pins on a component, and must be connected\n"
 "using wires.\n"
 msgstr ""
 
@@ -6275,8 +6336,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|image:images/1000000000000021000000239C3EC480.png[1000000000000021000000239C3EC480_png]\n"
-"|Place hierarchical label in a subsheet symbol. This is placed by name and "
-"does not require the\n"
+"|Place hierarchical label in a subsheet symbol. This is placed by name and does not require the\n"
 "label to already exist in the subsheet itself.\n"
 msgstr ""
 
@@ -6440,9 +6500,8 @@ msgstr ""
 msgid ""
 "From the root sheet, you must be able to find all sub-sheets.  Hierarchical "
 "schematics management is very easy with Eeschema, thanks to an integrated "
-"“hierarchy navigator” accessible via the icon "
-"image:images/icon-subsheet.png[icon-subsheet_png] of the upper and right "
-"toolbar."
+"“hierarchy navigator” accessible via the icon image:images/icon-subsheet.png"
+"[icon-subsheet_png] of the upper and right toolbar."
 msgstr ""
 
 #. type: Plain text
@@ -6532,7 +6591,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:68
-msgid "image:images/100000000000010C00000104307CA6BA.png[100000000000010C00000104307CA6BA_png]"
+msgid ""
+"image:images/100000000000010C00000104307CA6BA.png"
+"[100000000000010C00000104307CA6BA_png]"
 msgstr ""
 
 #. type: Plain text
@@ -6575,12 +6636,12 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:94
 msgid ""
-"Local labels, tool "
-"image:images/10000000000000210000001F09B8170C.png[10000000000000210000001F09B8170C_png], "
-"are connecting signals only within a sheet. Hierarchical labels (tool "
-"image:images/1000000000000021000000209B84B124.png[1000000000000021000000209B84B124_png])  "
-"are connecting signals only within a sheet and to a hierarchical pin placed "
-"in the parent sheet."
+"Local labels, tool image:images/10000000000000210000001F09B8170C.png"
+"[10000000000000210000001F09B8170C_png], are connecting signals only within a "
+"sheet. Hierarchical labels (tool image:"
+"images/1000000000000021000000209B84B124.png"
+"[1000000000000021000000209B84B124_png])  are connecting signals only within "
+"a sheet and to a hierarchical pin placed in the parent sheet."
 msgstr ""
 
 #. type: Plain text
@@ -6646,22 +6707,24 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:129
-msgid "Draw a rectangle defined by two diagonal points symbolizing the sub-sheet."
+msgid ""
+"Draw a rectangle defined by two diagonal points symbolizing the sub-sheet."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:133
 msgid ""
 "The size of this rectangle must allow you to place later particular labels, "
-"hierarchy pins, corresponding to the global labels (HLabels) in the "
-"sub-sheet."
+"hierarchy pins, corresponding to the global labels (HLabels) in the sub-"
+"sheet."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:136
 msgid ""
-"These labels are similar to usual component pins. Select the tool "
-"image:images/100000000000002100000020F9992133.png[100000000000002100000020F9992133_png]."
+"These labels are similar to usual component pins. Select the tool image:"
+"images/100000000000002100000020F9992133.png"
+"[100000000000002100000020F9992133_png]."
 msgstr ""
 
 #. type: Plain text
@@ -6677,16 +6740,19 @@ msgid "Example:"
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_hierarchical_schematics.adoc:143 Eeschema_hierarchical_schematics.adoc:149
-msgid "image:images/20000008000024130000119315BBAF66.png[20000008000024130000119315BBAF66_png]"
+#: Eeschema_hierarchical_schematics.adoc:143
+#: Eeschema_hierarchical_schematics.adoc:149
+msgid ""
+"image:images/20000008000024130000119315BBAF66.png"
+"[20000008000024130000119315BBAF66_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:147
 msgid ""
-"You will then be prompted to type a file name and a sheet name for this "
-"sub-sheet (in order to reach the corresponding schematic, using the "
-"hierarchy navigator)."
+"You will then be prompted to type a file name and a sheet name for this sub-"
+"sheet (in order to reach the corresponding schematic, using the hierarchy "
+"navigator)."
 msgstr ""
 
 #. type: Plain text
@@ -6724,7 +6790,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:168
-msgid "Place the different pins before drawing the sub-sheet (manual placement)."
+msgid ""
+"Place the different pins before drawing the sub-sheet (manual placement)."
 msgstr ""
 
 #. type: Plain text
@@ -6748,8 +6815,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:177
 msgid ""
-"To select the tool "
-"image:images/1000000000000021000000239C3EC480.png[1000000000000021000000239C3EC480_png]."
+"To select the tool image:images/1000000000000021000000239C3EC480.png"
+"[1000000000000021000000239C3EC480_png]."
 msgstr ""
 
 #. type: Plain text
@@ -6766,7 +6833,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:183
-msgid "image:images/1000000000000160000000CD797712D0.png[1000000000000160000000CD797712D0_png]"
+msgid ""
+"image:images/1000000000000160000000CD797712D0.png"
+"[1000000000000160000000CD797712D0_png]"
 msgstr ""
 
 #. type: Plain text
@@ -6808,7 +6877,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:196
-msgid "These pin symbols are only graphic enhancements, and have no other role."
+msgid ""
+"These pin symbols are only graphic enhancements, and have no other role."
 msgstr ""
 
 #. type: Plain text
@@ -6820,8 +6890,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:201
 msgid ""
-"Select the tool "
-"image:images/100000000000002100000021C98460F6.png[100000000000002100000021C98460F6_png]."
+"Select the tool image:images/100000000000002100000021C98460F6.png"
+"[100000000000002100000021C98460F6_png]."
 msgstr ""
 
 #. type: Plain text
@@ -6858,8 +6928,9 @@ msgid ""
 "hierarchical Label in the sub-sheet. Hierarchical labels are similar to "
 "labels, but they provide connections between sub-sheet and root sheet. The "
 "graphical representation of the two complementary labels (pin and HLabel) is "
-"similar. Hierarchical labels creation is made with the tool "
-"image:images/1000000000000021000000209B84B124.png[1000000000000021000000209B84B124_png]."
+"similar. Hierarchical labels creation is made with the tool image:"
+"images/1000000000000021000000209B84B124.png"
+"[1000000000000021000000209B84B124_png]."
 msgstr ""
 
 #. type: Plain text
@@ -6868,8 +6939,11 @@ msgid "See below a root sheet example:"
 msgstr ""
 
 #. type: Plain text
-#: Eeschema_hierarchical_schematics.adoc:225 Eeschema_hierarchical_schematics.adoc:231
-msgid "image:images/20000008000041D700001D9077DCC816.png[20000008000041D700001D9077DCC816_png]"
+#: Eeschema_hierarchical_schematics.adoc:225
+#: Eeschema_hierarchical_schematics.adoc:231
+msgid ""
+"image:images/20000008000041D700001D9077DCC816.png"
+"[20000008000041D700001D9077DCC816_png]"
 msgstr ""
 
 #. type: Plain text
@@ -6949,7 +7023,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:267
-msgid "What is said for the simple labels is also true for hierarchical labels."
+msgid ""
+"What is said for the simple labels is also true for hierarchical labels."
 msgstr ""
 
 #. type: Plain text
@@ -7032,7 +7107,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:311
-msgid "image:images/10000000000001C6000001CAAC972C0B.png[10000000000001C6000001CAAC972C0B_png]"
+msgid ""
+"image:images/10000000000001C6000001CAAC972C0B.png"
+"[10000000000001C6000001CAAC972C0B_png]"
 msgstr ""
 
 #. type: Title ~
@@ -7074,7 +7151,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:328
-msgid "image:images/10000000000002C800000134F8E86C51.png[10000000000002C800000134F8E86C51_png]"
+msgid ""
+"image:images/10000000000002C800000134F8E86C51.png"
+"[10000000000002C800000134F8E86C51_png]"
 msgstr ""
 
 #. type: Plain text
@@ -7084,21 +7163,25 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:332
-msgid "image:images/100000000000020B000001B70A60DECC.png[100000000000020B000001B70A60DECC_png]"
+msgid ""
+"image:images/100000000000020B000001B70A60DECC.png"
+"[100000000000020B000001B70A60DECC_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:334
-msgid "image:images/1000000000000272000001C015CA854E.png[1000000000000272000001C015CA854E_png]"
+msgid ""
+"image:images/1000000000000272000001C015CA854E.png"
+"[1000000000000272000001C015CA854E_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_hierarchical_schematics.adoc:337
 msgid ""
 "+-----------------------+----------------------------------------+ | Look at "
-"global labels | "
-"image:images/100000000000009B00000079AC689E05.png[100000000000009B00000079AC689E05_png] "
-"+-----------------------+----------------------------------------+"
+"global labels | image:images/100000000000009B00000079AC689E05.png"
+"[100000000000009B00000079AC689E05_png] +-----------------------"
+"+----------------------------------------+"
 msgstr ""
 
 #. type: Title -
@@ -7371,16 +7454,19 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:71
-msgid "image:images/10000000000003830000027F3B1EDABD.png[10000000000003830000027F3B1EDABD_png]"
+msgid ""
+"image:images/10000000000003830000027F3B1EDABD.png"
+"[10000000000003830000027F3B1EDABD_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:76
 msgid ""
-"The anchor can be repositioned by selecting the icon "
-"image:images/100000000000002300000023B57C73D3.png[100000000000002300000023B57C73D3_png] "
-"and clicking on the new desired anchor position. The drawing will be "
-"automatically re-centered on the new anchor point."
+"The anchor can be repositioned by selecting the icon image:"
+"images/100000000000002300000023B57C73D3.png"
+"[100000000000002300000023B57C73D3_png] and clicking on the new desired "
+"anchor position. The drawing will be automatically re-centered on the new "
+"anchor point."
 msgstr ""
 
 #. type: Title ~
@@ -7392,10 +7478,10 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:85
 msgid ""
-"An alias is another name corresponding to the same component in the "
-"library. Components with similar pin-out and representation can then be "
-"represented by only one component, having several aliases (e.g. 7400 with "
-"alias 74LS00, 74HC00, 74LS37 )."
+"An alias is another name corresponding to the same component in the library. "
+"Components with similar pin-out and representation can then be represented "
+"by only one component, having several aliases (e.g. 7400 with alias 74LS00, "
+"74HC00, 74LS37 )."
 msgstr ""
 
 #. type: Plain text
@@ -7410,14 +7496,15 @@ msgstr ""
 #: Eeschema_libedit_complements.adoc:94
 msgid ""
 "To modify the list of aliases, you have to select the main editing window "
-"via the icon "
-"image:images/10000000000000270000002682890866.png[10000000000000270000002682890866_png] "
-"and select the alias folder."
+"via the icon image:images/10000000000000270000002682890866.png"
+"[10000000000000270000002682890866_png] and select the alias folder."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:96
-msgid "image:images/10000000000001B50000013E8AB145A7.png[10000000000001B50000013E8AB145A7_png]"
+msgid ""
+"image:images/10000000000001B50000013E8AB145A7.png"
+"[10000000000001B50000013E8AB145A7_png]"
 msgstr ""
 
 #. type: Plain text
@@ -7444,8 +7531,9 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:110
 msgid ""
-"The field editor is called via the icon "
-"image:images/10000000000000240000002612FF054A.png[10000000000000240000002612FF054A_png]."
+"The field editor is called via the icon image:"
+"images/10000000000000240000002612FF054A.png"
+"[10000000000000240000002612FF054A_png]."
 msgstr ""
 
 #. type: Plain text
@@ -7457,7 +7545,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:115
-msgid "image:images/10000000000002870000021DEC5337FC.png[10000000000002870000021DEC5337FC_png]"
+msgid ""
+"image:images/10000000000002870000021DEC5337FC.png"
+"[10000000000002870000021DEC5337FC_png]"
 msgstr ""
 
 #. type: Plain text
@@ -7499,14 +7589,16 @@ msgstr ""
 #: Eeschema_libedit_complements.adoc:134
 msgid ""
 "To edit documentation information, it is necessary to call the main editing "
-"window of the component via the icon "
-"image:images/10000000000000270000002682890866.png[10000000000000270000002682890866_png] "
-"and to select the document folder."
+"window of the component via the icon image:"
+"images/10000000000000270000002682890866.png"
+"[10000000000000270000002682890866_png] and to select the document folder."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:136
-msgid "image:images/10000000000001B70000014140B7CFE4.png[10000000000001B70000014140B7CFE4_png]"
+msgid ""
+"image:images/10000000000001B70000014140B7CFE4.png"
+"[10000000000001B70000014140B7CFE4_png]"
 msgstr ""
 
 #. type: Plain text
@@ -7618,7 +7710,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:191
-msgid "image:images/10000000000001B8000001406BAFF1AF.png[10000000000001B8000001406BAFF1AF_png]"
+msgid ""
+"image:images/10000000000001B8000001406BAFF1AF.png"
+"[10000000000001B8000001406BAFF1AF_png]"
 msgstr ""
 
 #. type: Plain text
@@ -7628,7 +7722,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:196
-msgid "S014* allows CvPcb to show all the footprints with a name starting by SO14."
+msgid ""
+"S014* allows CvPcb to show all the footprints with a name starting by SO14."
 msgstr ""
 
 #. type: Plain text
@@ -7670,8 +7765,8 @@ msgstr ""
 msgid ""
 "You can easily compile a graphic symbols library file containing frequently "
 "used symbols .This can be used for the creation of components (triangles, "
-"the shape of AND, OR, Exclusive OR gates, etc.) for saving and subsequent "
-"re-use."
+"the shape of AND, OR, Exclusive OR gates, etc.) for saving and subsequent re-"
+"use."
 msgstr ""
 
 #. type: Plain text
@@ -7699,10 +7794,10 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:232
 msgid ""
-"A component can be exported as a symbol with the button "
-"image:images/10000000000000220000002619461B92.png[10000000000000220000002619461B92_png].  "
-"You can generally create only one graphic, also it will be a good idea to "
-"delete all pins, if they exist."
+"A component can be exported as a symbol with the button image:"
+"images/10000000000000220000002619461B92.png"
+"[10000000000000220000002619461B92_png].  You can generally create only one "
+"graphic, also it will be a good idea to delete all pins, if they exist."
 msgstr ""
 
 #. type: Title ^
@@ -7715,9 +7810,9 @@ msgstr ""
 #: Eeschema_libedit_complements.adoc:241
 msgid ""
 "Importing allows you to add graphics to a component you are editing. A "
-"symbol is imported with the button "
-"image:images/icons/import-graphic.png[Import graphic icon].  Imported "
-"graphics are added as they were created in existing graphics."
+"symbol is imported with the button image:images/icons/import-graphic.png"
+"[Import graphic icon].  Imported graphics are added as they were created in "
+"existing graphics."
 msgstr ""
 
 #. type: Title -
@@ -7758,9 +7853,7 @@ msgstr ""
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:21
 #, no-wrap
-msgid ""
-"|Append Schematic Sheet |Insert the contents of another sheet into the "
-"current one\n"
+msgid "|Append Schematic Sheet |Insert the contents of another sheet into the current one\n"
 msgstr ""
 
 #. type: delimited block |
@@ -7792,17 +7885,13 @@ msgstr ""
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:32
 #, no-wrap
-msgid ""
-"|Print |Print schematic hierarchy (See also chapter <<plot-and-print,Plot "
-"and Print>>).\n"
+msgid "|Print |Print schematic hierarchy (See also chapter <<plot-and-print,Plot and Print>>).\n"
 msgstr ""
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:34
 #, no-wrap
-msgid ""
-"|Plot |Export to PDF, PostScript, HPGL or SVG format (See chapter "
-"<<plot-and-print,Plot and Print>>).\n"
+msgid "|Plot |Export to PDF, PostScript, HPGL or SVG format (See chapter <<plot-and-print,Plot and Print>>).\n"
 msgstr ""
 
 #. type: delimited block |
@@ -7835,8 +7924,7 @@ msgstr ""
 msgid ""
 "|Component Libraries |Select libraries and library search path.\n"
 "|Set Colors Scheme |Select colors for display, print and plot.\n"
-"|Schematic Editor Options |General options (units, grid size, field names, "
-"etc.).\n"
+"|Schematic Editor Options |General options (units, grid size, field names, etc.).\n"
 "|Language |Select interface language.\n"
 "|Hotkeys |List, edit, export, and import hotkey settings.\n"
 "|Save Preferences |Save the project settings to the .pro file.\n"
@@ -7885,9 +7973,8 @@ msgstr ""
 #: Eeschema_main_top_menu.adoc:80
 msgid ""
 "The 'Check for cache/library conflicts at schematic load' box is used to "
-"configure the library conflict rescue behavior. See "
-"<<rescuing-cached-components,Rescuing Cached Components>> for more "
-"information about that."
+"configure the library conflict rescue behavior. See <<rescuing-cached-"
+"components,Rescuing Cached Components>> for more information about that."
 msgstr ""
 
 #. type: Title ^
@@ -7934,8 +8021,7 @@ msgstr ""
 #: Eeschema_main_top_menu.adoc:106
 #, no-wrap
 msgid ""
-"**It is recommended to work with normal grid (0.050 inches or 1,27 "
-"mm)**. __Smaller\n"
+"**It is recommended to work with normal grid (0.050 inches or 1,27 mm)**. __Smaller\n"
 "grids are used for component building__.\n"
 msgstr ""
 
@@ -7987,8 +8073,7 @@ msgstr ""
 #: Eeschema_main_top_menu.adoc:125
 #, no-wrap
 msgid ""
-"|Repeat label increment: |Increment of label value during duplication of "
-"texts ending\n"
+"|Repeat label increment: |Increment of label value during duplication of texts ending\n"
 "in a number, such as bus members (usual value 1 or -1).\n"
 msgstr ""
 
@@ -8001,9 +8086,7 @@ msgstr ""
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:129
 #, no-wrap
-msgid ""
-"|Part id notation: |Style of suffix that is used to denote component parts "
-"(U1A, U1.A, U1-1, etc.)\n"
+msgid "|Part id notation: |Style of suffix that is used to denote component parts (U1A, U1.A, U1-1, etc.)\n"
 msgstr ""
 
 #. type: delimited block |
@@ -8016,25 +8099,20 @@ msgstr ""
 #: Eeschema_main_top_menu.adoc:134
 #, no-wrap
 msgid ""
-"|Show hidden pins: |Display invisible (or __hidden__) pins, typically power "
-"pins. If checked,\n"
+"|Show hidden pins: |Display invisible (or __hidden__) pins, typically power pins. If checked,\n"
 "allows the display of power pins.\n"
 msgstr ""
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:136
 #, no-wrap
-msgid ""
-"|Do not center and warp cursor on zoom: |When zooming, keep the position and "
-"cursor where they are.\n"
+msgid "|Do not center and warp cursor on zoom: |When zooming, keep the position and cursor where they are.\n"
 msgstr ""
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:138
 #, no-wrap
-msgid ""
-"|Use middle mouse button to pan |When enabled, the sheet can be dragged "
-"around using the middle mouse button.\n"
+msgid "|Use middle mouse button to pan |When enabled, the sheet can be dragged around using the middle mouse button.\n"
 msgstr ""
 
 #. type: delimited block |
@@ -8113,7 +8191,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:12
-msgid "image:images/100000000000017E000001109CDAC612.png[100000000000017E000001109CDAC612_png]"
+msgid ""
+"image:images/100000000000017E000001109CDAC612.png"
+"[100000000000017E000001109CDAC612_png]"
 msgstr ""
 
 #. type: Plain text
@@ -8157,9 +8237,8 @@ msgstr ""
 #: Eeschema_plot_and_print.adoc:34
 msgid ""
 "This command allows you to create an HPGL file. This option is available via "
-"the icon "
-"image:images/10000000000000220000001E69EFEAC6.png[10000000000000220000001E69EFEAC6_png].  "
-"In this format you can define."
+"the icon image:images/10000000000000220000001E69EFEAC6.png"
+"[10000000000000220000001E69EFEAC6_png].  In this format you can define."
 msgstr ""
 
 #. type: Plain text
@@ -8194,7 +8273,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:44
-msgid "image:images/1000000000000196000001CC52FEA30B.png[1000000000000196000001CC52FEA30B_png]"
+msgid ""
+"image:images/1000000000000196000001CC52FEA30B.png"
+"[1000000000000196000001CC52FEA30B_png]"
 msgstr ""
 
 #. type: Plain text
@@ -8281,13 +8362,15 @@ msgstr ""
 #: Eeschema_plot_and_print.adoc:85
 msgid ""
 "This command allows you to create PostScript files. This option is available "
-"via the icon "
-"image:images/100000000000002200000022A6211250.png[100000000000002200000022A6211250_png]."
+"via the icon image:images/100000000000002200000022A6211250.png"
+"[100000000000002200000022A6211250_png]."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:87
-msgid "image:images/100000000000017A000001555B390DD5.png[100000000000017A000001555B390DD5_png]"
+msgid ""
+"image:images/100000000000017A000001555B390DD5.png"
+"[100000000000017A000001555B390DD5_png]"
 msgstr ""
 
 #. type: Plain text
@@ -8308,16 +8391,18 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:99
-msgid "image:images/10000000000001D8000001A61AC74D2A.png[10000000000001D8000001A61AC74D2A_png]"
+msgid ""
+"image:images/10000000000001D8000001A61AC74D2A.png"
+"[10000000000001D8000001A61AC74D2A_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:104
 msgid ""
 "Allows you to create plot files using the vectored format SVG. This option "
-"is available via the icon "
-"image:images/10000000000000220000001D43940ADA.png[10000000000000220000001D43940ADA_png].  "
-"The file name is the sheet name with an extension .svg."
+"is available via the icon image:images/10000000000000220000001D43940ADA.png"
+"[10000000000000220000001D43940ADA_png].  The file name is the sheet name "
+"with an extension .svg."
 msgstr ""
 
 #. type: Title ~
@@ -8328,16 +8413,18 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:110
-msgid "image:images/10000000000000FB00000191F3D6461D.png[10000000000000FB00000191F3D6461D_png]"
+msgid ""
+"image:images/10000000000000FB00000191F3D6461D.png"
+"[10000000000000FB00000191F3D6461D_png]"
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:115
 msgid ""
 "Allows you to create plot files using the format DXF. This option is "
-"available via the icon "
-"image:images/10000000000000220000001D43940ADA.png[10000000000000220000001D43940ADA_png].  "
-"The file name is the sheet name with an extension .dxf."
+"available via the icon image:images/10000000000000220000001D43940ADA.png"
+"[10000000000000220000001D43940ADA_png].  The file name is the sheet name "
+"with an extension .dxf."
 msgstr ""
 
 #. type: Title ~
@@ -8349,14 +8436,17 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:124
 msgid ""
-"This command, available via the icon "
-"image:images/1000000000000022000000227E318ED2.png[1000000000000022000000227E318ED2_png], "
-"allows you to visualize and generate design files for the standard printer."
+"This command, available via the icon image:"
+"images/1000000000000022000000227E318ED2.png"
+"[1000000000000022000000227E318ED2_png], allows you to visualize and generate "
+"design files for the standard printer."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:126
-msgid "image:images/100000000000015A000000C1CF6CC2C5.png[100000000000015A000000C1CF6CC2C5_png]"
+msgid ""
+"image:images/100000000000015A000000C1CF6CC2C5.png"
+"[100000000000015A000000C1CF6CC2C5_png]"
 msgstr ""
 
 #. type: Plain text
@@ -8420,8 +8510,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:28
 msgid ""
-"Automatically generating a bill of materials "
-"(<<creating-customized-netlists-and-bom-files,BOM>>)."
+"Automatically generating a bill of materials (<<creating-customized-netlists-"
+"and-bom-files,BOM>>)."
 msgstr ""
 
 #. type: Plain text
@@ -8480,9 +8570,9 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:56
 msgid ""
-"To load a component into your schematic you can use the icon "
-"image:images/en/icon_new_component.png[New Component icon].  A dialog box "
-"allows you to type the name of the module to load."
+"To load a component into your schematic you can use the icon image:images/en/"
+"icon_new_component.png[New Component icon].  A dialog box allows you to type "
+"the name of the module to load."
 msgstr ""
 
 #. type: Plain text
@@ -8512,7 +8602,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:69
-msgid "image:images/en/component_during_placement.png[component during placement]"
+msgid ""
+"image:images/en/component_during_placement.png[component during placement]"
 msgstr ""
 
 #. type: Title ^
@@ -8686,9 +8777,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:151
 #, no-wrap
-msgid ""
-"*Bus entries:* to show connections between wires and buses. Graphical "
-"only!\n"
+msgid "*Bus entries:* to show connections between wires and buses. Graphical only!\n"
 msgstr ""
 
 #. type: Plain text
@@ -8712,9 +8801,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:155
 #, no-wrap
-msgid ""
-"*“No Connection” symbols:* to terminate a pin that does not need any "
-"connection.\n"
+msgid "*“No Connection” symbols:* to terminate a pin that does not need any connection.\n"
 msgstr ""
 
 #. type: Plain text
@@ -8943,7 +9030,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:257
-msgid "Label increment (which can thus be incremented by 2, 3. or decremented)."
+msgid ""
+"Label increment (which can thus be incremented by 2, 3. or decremented)."
 msgstr ""
 
 #. type: Title +
@@ -8990,7 +9078,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:281
-msgid "PCA8 and BUS8 are also connected (just as PCA9 and BUS9, PCA10 and BUS10)"
+msgid ""
+"PCA8 and BUS8 are also connected (just as PCA9 and BUS9, PCA10 and BUS10)"
 msgstr ""
 
 #. type: Title ^
@@ -9103,10 +9192,10 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:343
 msgid ""
-"If pins must really remain unconnected, it is necessary to place a "
-"No-Connection symbol (tool image:images/icons/no-connection.png[No "
-"connection icon])  on these pins. These symbols do not have any influence on "
-"the generated netlists."
+"If pins must really remain unconnected, it is necessary to place a No-"
+"Connection symbol (tool image:images/icons/no-connection.png[No connection "
+"icon])  on these pins. These symbols do not have any influence on the "
+"generated netlists."
 msgstr ""
 
 #. type: Title ~
@@ -9125,10 +9214,10 @@ msgstr ""
 #: Eeschema_schematic_creation_and_editing.adoc:359
 msgid ""
 "It can be useful (to aid in understanding the schematic) to place "
-"annotations such as text fields and frames. Text fields (tool "
-"image:images/icons/add_text.png[])  and dotted lines (tool "
-"image:images/icons/add_dashed_line.png[])  are intended for this use, "
-"contrary to labels and wires, which are connection elements."
+"annotations such as text fields and frames. Text fields (tool image:images/"
+"icons/add_text.png[])  and dotted lines (tool image:images/icons/"
+"add_dashed_line.png[])  are intended for this use, contrary to labels and "
+"wires, which are connection elements."
 msgstr ""
 
 #. type: Plain text
@@ -9150,8 +9239,8 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:370
 msgid ""
-"The title block is edited with the tool "
-"image:images/en/icon_sheetset.png[Page Settings tool]."
+"The title block is edited with the tool image:images/en/icon_sheetset.png"
+"[Page Settings tool]."
 msgstr ""
 
 #. type: Plain text
@@ -9189,11 +9278,11 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:391
 msgid ""
-"However, when a project is saved, a cache library is saved along with "
-"it. This allows the project to be distributed without the full libraries. If "
-"you load a project where symbols are present both in its cache and in the "
-"system libraries, Eeschema will scan the libraries for conflicts. Any "
-"conflicts found will be listed in the following dialog:"
+"However, when a project is saved, a cache library is saved along with it. "
+"This allows the project to be distributed without the full libraries. If you "
+"load a project where symbols are present both in its cache and in the system "
+"libraries, Eeschema will scan the libraries for conflicts. Any conflicts "
+"found will be listed in the following dialog:"
 msgstr ""
 
 #. type: Plain text
@@ -9223,9 +9312,9 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:405
 msgid ""
-"If you would prefer not to see this dialog, you can press \"Never Show "
-"Again\". The default will be to do nothing and allow the new components to "
-"be loaded. This option can be changed back in the Component Libraries "
+"If you would prefer not to see this dialog, you can press \"Never Show Again"
+"\". The default will be to do nothing and allow the new components to be "
+"loaded. This option can be changed back in the Component Libraries "
 "preferences."
 msgstr ""
 
@@ -9239,14 +9328,16 @@ msgstr ""
 #: Eeschema_viewlib.adoc:14
 msgid ""
 "Viewlib allows you to quickly examine the content of libraries. Viewlib is "
-"called by the tool "
-"image:images/100000000000002400000023C03F2AE4.png[100000000000002400000023C03F2AE4_png] "
-"or by the “place component” tool available from the right-hand side toolbar."
+"called by the tool image:images/100000000000002400000023C03F2AE4.png"
+"[100000000000002400000023C03F2AE4_png] or by the “place component” tool "
+"available from the right-hand side toolbar."
 msgstr ""
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:16
-msgid "image:images/100000000000016D000000E7007BA5B8.png[100000000000016D000000E7007BA5B8_png]"
+msgid ""
+"image:images/100000000000016D000000E7007BA5B8.png"
+"[100000000000016D000000E7007BA5B8_png]"
 msgstr ""
 
 #. type: Title ~
@@ -9257,7 +9348,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:22
-msgid "image:images/100000000000028A000001DC54042D35.png[100000000000028A000001DC54042D35_png]"
+msgid ""
+"image:images/100000000000028A000001DC54042D35.png"
+"[100000000000028A000001DC54042D35_png]"
 msgstr ""
 
 #. type: Plain text
@@ -9270,7 +9363,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:28
-msgid "image:images/100000000000028B000001DD9FC13E33.png[100000000000028B000001DD9FC13E33_png]"
+msgid ""
+"image:images/100000000000028B000001DD9FC13E33.png"
+"[100000000000028B000001DD9FC13E33_png]"
 msgstr ""
 
 #. type: Title ~
@@ -9286,7 +9381,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:36
-msgid "image:images/100000000000022F00000022F66E0B1E.png[100000000000022F00000022F66E0B1E_png]"
+msgid ""
+"image:images/100000000000022F00000022F66E0B1E.png"
+"[100000000000022F00000022F66E0B1E_png]"
 msgstr ""
 
 #. type: Plain text
@@ -9298,7 +9395,9 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:41
-msgid "image:images/1000000000000235000000254D7A0B58.png[1000000000000235000000254D7A0B58_png]"
+msgid ""
+"image:images/1000000000000235000000254D7A0B58.png"
+"[1000000000000235000000254D7A0B58_png]"
 msgstr ""
 
 #. type: Plain text

@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-25 01:21+0900\n"
+"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"Language-Team: kicad.jp <kicad@kicad.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title =
 #: Getting_Started_in_KiCad.adoc:8
 #, no-wrap
 msgid "Getting Started in Kicad"
-msgstr ""
+msgstr "KiCadことはじめ"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:12
@@ -38,11 +38,11 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:21
 msgid ""
-"This document is Copyright © 2010–2015 by its contributors as listed "
-"below. You may distribute it and/or modify it under the terms of either the "
-"GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 "
-"or later, or the Creative Commons Attribution License "
-"(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
+"This document is Copyright © 2010–2015 by its contributors as listed below. "
+"You may distribute it and/or modify it under the terms of either the GNU "
+"General Public License (http://www.gnu.org/licenses/gpl.html), version 3 or "
+"later, or the Creative Commons Attribution License (http://creativecommons."
+"org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 
 #. type: Plain text
@@ -135,8 +135,7 @@ msgstr ""
 msgid ""
 "KiCad is an open-source software tool for the creation of electronic "
 "schematic diagrams and PCB artwork. Beneath its singular surface, KiCad "
-"incorporates an elegant ensemble of the following stand-alone software "
-"tools:"
+"incorporates an elegant ensemble of the following stand-alone software tools:"
 msgstr ""
 
 #. type: delimited block |
@@ -145,15 +144,12 @@ msgstr ""
 msgid ""
 "|Program name|Description|File extension\n"
 "|KiCad |Project manager|+*.pro+\n"
-"|Eeschema |Schematic editor (both schematic and component)|+*.sch, *.lib, "
-"*.net+\n"
+"|Eeschema |Schematic editor (both schematic and component)|+*.sch, *.lib, *.net+\n"
 "|CvPcb |Footprint selector|+*.net, *.cmp+\n"
 "|Pcbnew |Circuit board board editor|+*.kicad_pcb+\n"
 "|GerbView |Gerber viewer|All the usual gerbers\n"
-"|Bitmap2Component |Convert bitmap images to components or footprints|+*.lib, "
-"*.kicad_mod, *.kicad_wks+\n"
-"|PCB Calculator |Calculator for components, track width, electrical spacing, "
-"color codes, and more...|None\n"
+"|Bitmap2Component |Convert bitmap images to components or footprints|+*.lib, *.kicad_mod, *.kicad_wks+\n"
+"|PCB Calculator |Calculator for components, track width, electrical spacing, color codes, and more...|None\n"
 "|Pl Editor |Page layout editor|+*.kicad_wks+\n"
 msgstr ""
 
@@ -177,16 +173,16 @@ msgstr ""
 msgid ""
 "KiCad does not present any board-size limitation and it can easily handle up "
 "to 16 copper layers and up to 12 technical layers.  KiCad can create all the "
-"files necessary for building printed boards, Gerber files for "
-"photo-plotters, drilling files, component location files and a lot more."
+"files necessary for building printed boards, Gerber files for photo-"
+"plotters, drilling files, component location files and a lot more."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:94
 msgid ""
 "Being open source (GPL licensed), KiCad represents the ideal tool for "
-"projects oriented towards the creation of electronic hardware with an "
-"open-source flavour."
+"projects oriented towards the creation of electronic hardware with an open-"
+"source flavour."
 msgstr ""
 
 #. type: Plain text
@@ -325,8 +321,8 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:158
 msgid ""
-"Read the "
-"http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions[FAQ]"
+"Read the http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions"
+"[FAQ]"
 msgstr ""
 
 #. type: Plain text
@@ -389,8 +385,8 @@ msgid ""
 "For more information about creating a component, see section of this "
 "document titled <<make-schematic-components-in-kicad,Make schematic "
 "components in KiCad>>. And for more info about how to create a new "
-"footprint, see section of this document titled "
-"<<make-component-footprints,Make component footprints>>."
+"footprint, see section of this document titled <<make-component-footprints,"
+"Make component footprints>>."
 msgstr ""
 
 #. type: Plain text
@@ -465,8 +461,8 @@ msgid ""
 "are now in the main window of the KiCad project manager.  From here you have "
 "access to eight stand-alone software tools: __EESchema__, __Schematic "
 "Library Editor__, __PCBnew__, __PCB Footprint Editor__, __GerbView__, "
-"__Bitmap2Component__, __PCB Calulator__ and __Pl Editor__. Refer to the "
-"work-flow chart to give you an idea how the main tools are used."
+"__Bitmap2Component__, __PCB Calulator__ and __Pl Editor__. Refer to the work-"
+"flow chart to give you an idea how the main tools are used."
 msgstr ""
 
 #. type: Plain text
@@ -497,12 +493,11 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:255
 msgid ""
 "First thing, save the whole schematic project: *File* -> **Save Whole "
-"Schematic Project**. Click on the 'Page Settings' icon "
-"image:images/sheetset.png[Sheet settings icon] on the top toolbar. Set the "
-"Page Size as 'A4' and enter the Title as 'Tute 1'. You will see that more "
-"information can be entered here if necessary. Click OK. This information "
-"will populate the schematic sheet at the bottom right corner. Use the mouse "
-"wheel to zoom in."
+"Schematic Project**. Click on the 'Page Settings' icon image:images/sheetset."
+"png[Sheet settings icon] on the top toolbar. Set the Page Size as 'A4' and "
+"enter the Title as 'Tute 1'. You will see that more information can be "
+"entered here if necessary. Click OK. This information will populate the "
+"schematic sheet at the bottom right corner. Use the mouse wheel to zoom in."
 msgstr ""
 
 #. type: Plain text
@@ -516,7 +511,8 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:264
-msgid "You can see a list of all available shortcut keys by pressing the ? key."
+msgid ""
+"You can see a list of all available shortcut keys by pressing the ? key."
 msgstr ""
 
 #. type: Plain text
@@ -710,17 +706,19 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:360
-msgid "image:images/1000000000000279000001D2A3715F27.png[1000000000000279000001D2A3715F27_png]"
+msgid ""
+"image:images/1000000000000279000001D2A3715F27.png"
+"[1000000000000279000001D2A3715F27_png]"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:366
 msgid ""
 "We now need to create the schematic component 'MYCONN3' for our 3-pin "
-"connector. You can jump to the section titled "
-"<<make-schematic-components-in-kicad,Make Schematic Components in KiCad>> to "
-"learn how to make this component from scratch and then return to this "
-"section to continue with the board."
+"connector. You can jump to the section titled <<make-schematic-components-in-"
+"kicad,Make Schematic Components in KiCad>> to learn how to make this "
+"component from scratch and then return to this section to continue with the "
+"board."
 msgstr ""
 
 #. type: Plain text
@@ -734,15 +732,17 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:376
 msgid ""
 "The component identifier 'J?' will appear under the 'MYCONN3' label.  If you "
-"want to change its position, right click on 'J?' and click on 'Move Field' "
-"(equivalent to the m key option). It might be helpful to zoom in "
-"before/while doing this. Reposition 'J?' under the component as shown "
-"below. Labels can be moved around as many times as you please."
+"want to change its position, right click on 'J?' and click on 'Move "
+"Field' (equivalent to the m key option). It might be helpful to zoom in "
+"before/while doing this. Reposition 'J?' under the component as shown below. "
+"Labels can be moved around as many times as you please."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:378
-msgid "image:images/10000000000000950000007B843ADE6A.png[10000000000000950000007B843ADE6A_png]"
+msgid ""
+"image:images/10000000000000950000007B843ADE6A.png"
+"[10000000000000950000007B843ADE6A_png]"
 msgstr ""
 
 #. type: Plain text
@@ -775,17 +775,19 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:398
-msgid "image:images/1000000000000303000002A0130916D9.png[1000000000000303000002A0130916D9_png]"
+msgid ""
+"image:images/1000000000000303000002A0130916D9.png"
+"[1000000000000303000002A0130916D9_png]"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:406
 msgid ""
-"Next, we will wire all our components. Click on the 'Place wire' icon "
-"image:images/add_line.png[Place wire] on the right toolbar. **NOTE**: Be "
-"careful not to pick 'Place a bus', which appears directly beneath this "
-"button but has thicker lines. The section <<bus-connections-in-kicad,Bus "
-"Connections in KiCad>> will explain how to use a bus section."
+"Next, we will wire all our components. Click on the 'Place wire' icon image:"
+"images/add_line.png[Place wire] on the right toolbar. **NOTE**: Be careful "
+"not to pick 'Place a bus', which appears directly beneath this button but "
+"has thicker lines. The section <<bus-connections-in-kicad,Bus Connections in "
+"KiCad>> will explain how to use a bus section."
 msgstr ""
 
 #. type: Plain text
@@ -807,7 +809,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:417
-msgid "image:images/1000000000000134000000D9A9B4ED54.png[1000000000000134000000D9A9B4ED54_png]"
+msgid ""
+"image:images/1000000000000134000000D9A9B4ED54.png"
+"[1000000000000134000000D9A9B4ED54_png]"
 msgstr ""
 
 #. type: Plain text
@@ -821,23 +825,24 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:424
-msgid "image:images/100000000000033200000294961F4BAD.png[100000000000033200000294961F4BAD_png]"
+msgid ""
+"image:images/100000000000033200000294961F4BAD.png"
+"[100000000000033200000294961F4BAD_png]"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:429
 msgid ""
-"We will now consider an alternative way of making a connection using "
-"labels. Pick a net labelling tool by clicking on the 'Place net name' icon "
-"image:images/label.png[label_png] on the right toolbar. You can also use the "
-"l key."
+"We will now consider an alternative way of making a connection using labels. "
+"Pick a net labelling tool by clicking on the 'Place net name' icon image:"
+"images/label.png[label_png] on the right toolbar. You can also use the l key."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:432
 msgid ""
-"Click in the middle of the wire connected to pin 6 of the "
-"microcontroller. Name this label 'INPUT'."
+"Click in the middle of the wire connected to pin 6 of the microcontroller. "
+"Name this label 'INPUT'."
 msgstr ""
 
 #. type: Plain text
@@ -855,9 +860,9 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:445
 msgid ""
-"Labels can also be used to simply label wires for informative "
-"purposes. Place a label on pin 7 of the PIC. Enter the name 'uCtoLED'.  Name "
-"the wire between the resistor and the LED as 'LEDtoR'. Name the wire between "
+"Labels can also be used to simply label wires for informative purposes. "
+"Place a label on pin 7 of the PIC. Enter the name 'uCtoLED'.  Name the wire "
+"between the resistor and the LED as 'LEDtoR'. Name the wire between "
 "'MYCONN3' and the resistor as 'INPUTtoR'."
 msgstr ""
 
@@ -875,7 +880,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:452
-msgid "image:images/1000000000000340000002A2DDE0F6DA.png[1000000000000340000002A2DDE0F6DA_png]"
+msgid ""
+"image:images/1000000000000340000002A2DDE0F6DA.png"
+"[1000000000000340000002A2DDE0F6DA_png]"
 msgstr ""
 
 #. type: Plain text
@@ -890,25 +897,26 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:463
 msgid ""
-"Click on the 'Place no connect flag' icon "
-"image:images/noconn.png[noconn_png] on the right toolbar. Click on pins 2, "
-"3, 4 and 5. An X will appear to signify that the lack of a wire connection "
-"is intentional."
+"Click on the 'Place no connect flag' icon image:images/noconn.png"
+"[noconn_png] on the right toolbar. Click on pins 2, 3, 4 and 5. An X will "
+"appear to signify that the lack of a wire connection is intentional."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:465
-msgid "image:images/10000000000001C8000000FEEDCB5FB8.png[10000000000001C8000000FEEDCB5FB8_png]"
+msgid ""
+"image:images/10000000000001C8000000FEEDCB5FB8.png"
+"[10000000000001C8000000FEEDCB5FB8_png]"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:472
 msgid ""
 "Some components have power pins that are invisible. You can make them "
-"visible by clicking on the 'Show hidden pins' icon "
-"image:images/hidden_pin.png[hidden_pin_png] on the left toolbar. Hidden "
-"power pins get automatically connected if VCC and GND naming is "
-"respected. Generally speaking, you should try not to make hidden power pins."
+"visible by clicking on the 'Show hidden pins' icon image:images/hidden_pin."
+"png[hidden_pin_png] on the left toolbar. Hidden power pins get automatically "
+"connected if VCC and GND naming is respected. Generally speaking, you should "
+"try not to make hidden power pins."
 msgstr ""
 
 #. type: Plain text
@@ -922,7 +930,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:479
-msgid "image:images/100000000000010700000125A4376EBB.png[100000000000010700000125A4376EBB_png]"
+msgid ""
+"image:images/100000000000010700000125A4376EBB.png"
+"[100000000000010700000125A4376EBB_png]"
 msgstr ""
 
 #. type: Plain text
@@ -936,8 +946,8 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:486
 msgid ""
 "Sometimes it is good to write comments here and there. To add comments on "
-"the schematic use the 'Place graphic text (comment)' icon "
-"image:images/add_text.png[add_text_png] on the right toolbar."
+"the schematic use the 'Place graphic text (comment)' icon image:images/"
+"add_text.png[add_text_png] on the right toolbar."
 msgstr ""
 
 #. type: Plain text
@@ -945,8 +955,8 @@ msgstr ""
 msgid ""
 "All components now need to have unique identifiers. In fact, many of our "
 "components are still named 'R?' or 'J?'. Identifier assignation can be done "
-"automatically by clicking on the 'Annotate schematic' icon "
-"image:images/annotate.png[annotate_png]."
+"automatically by clicking on the 'Annotate schematic' icon image:images/"
+"annotate.png[annotate_png]."
 msgstr ""
 
 #. type: Plain text
@@ -954,9 +964,9 @@ msgstr ""
 msgid ""
 "In the Annotate Schematic window, select 'Use the entire schematic' and "
 "click on the 'Annotation' button. Click OK in the confirmation message and "
-"then click 'Close'. Notice how all the '?' have been replaced with "
-"numbers. Each identifier is now unique. In our example, they have been named "
-"'R1', 'R2', 'U1', 'D1' and 'J1'."
+"then click 'Close'. Notice how all the '?' have been replaced with numbers. "
+"Each identifier is now unique. In our example, they have been named 'R1', "
+"'R2', 'U1', 'D1' and 'J1'."
 msgstr ""
 
 #. type: Plain text
@@ -986,8 +996,7 @@ msgstr ""
 msgid ""
 "You can now quit the schematic editor. From KiCad, click on the 'Run Cvpcb' "
 "icon image:images/icon_cvpcb_small.png[icon_cvpcb_small_png] on the top "
-"toolbar. If a missing file error window pops up, just ignore it and click "
-"OK."
+"toolbar. If a missing file error window pops up, just ignore it and click OK."
 msgstr ""
 
 #. type: Plain text
@@ -1005,9 +1014,8 @@ msgstr ""
 msgid ""
 "It is possible that the pane on the right shows only a selected subgroup of "
 "available footprints. This is because KiCad is trying to suggest to you a "
-"subset of suitable footprints. Click on the icon "
-"image:images/module_full_list.png[module_full_list_png] to deselect this "
-"filter."
+"subset of suitable footprints. Click on the icon image:images/"
+"module_full_list.png[module_full_list_png] to deselect this filter."
 msgstr ""
 
 #. type: Plain text
@@ -1100,9 +1108,7 @@ msgstr ""
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:578
 #, no-wrap
-msgid ""
-"wget "
-"https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/plugins/bom2csv.xsl\n"
+msgid "wget https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/plugins/bom2csv.xsl\n"
 msgstr ""
 
 #. type: Block title
@@ -1114,9 +1120,7 @@ msgstr ""
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:584
 #, no-wrap
-msgid ""
-"xsltproc -o \"%O\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" "
-"\"%I\"\n"
+msgid "xsltproc -o \"%O\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
 msgstr ""
 
 #. type: Block title
@@ -1128,9 +1132,7 @@ msgstr ""
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:589
 #, no-wrap
-msgid ""
-"xsltproc -o \"%O.csv\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" "
-"\"%I\"\n"
+msgid "xsltproc -o \"%O.csv\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -1171,8 +1173,8 @@ msgstr ""
 msgid ""
 "Sometimes you might need to connect several sequential pins of component A "
 "with some other sequential pins of component B. In this case you have two "
-"options: the labelling method we already saw or the use of a bus "
-"connection. Let's see how to do it."
+"options: the labelling method we already saw or the use of a bus connection. "
+"Let's see how to do it."
 msgstr ""
 
 #. type: Plain text
@@ -1181,8 +1183,8 @@ msgid ""
 "Let us suppose that you have three 4-pin connectors that you want to connect "
 "together pin to pin. Use the label option (press the l key) to label pin 4 "
 "of the P4 part. Name this label 'a1'. Now let's press the Ins key to have "
-"the same action automatically performed on the pin below pin 4 (PIN "
-"3). Notice how the label is automatically renamed 'a2'."
+"the same action automatically performed on the pin below pin 4 (PIN 3). "
+"Notice how the label is automatically renamed 'a2'."
 msgstr ""
 
 #. type: Plain text
@@ -1200,10 +1202,10 @@ msgid ""
 "CONN_3 and you are done. If you proceed and make a PCB you will see that the "
 "three connectors are connected to each other. Figure 2 shows the result of "
 "what we described. For aesthetic purposes it is also possible to add a "
-"series of 'Place wire to bus entry' using the icon "
-"image:images/add_line2bus.png[Place wire to bus entry] and bus line using "
-"the icon image:images/add_bus2bus.png[Place bus to bus entry], as shown in "
-"Figure 3. Mind, however, that there will be no effect on the PCB."
+"series of 'Place wire to bus entry' using the icon image:images/add_line2bus."
+"png[Place wire to bus entry] and bus line using the icon image:images/"
+"add_bus2bus.png[Place bus to bus entry], as shown in Figure 3. Mind, "
+"however, that there will be no effect on the PCB."
 msgstr ""
 
 #. type: Plain text
@@ -1238,15 +1240,15 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:650
 msgid ""
-"Put a label (press the l key option) on the bus of CONN_4 and name it "
-"'b[1..4]'."
+"Put a label (press the l key option) on the bus of CONN_4 and name it 'b"
+"[1..4]'."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:653
 msgid ""
-"Put a label (press the l key option) on the previous a bus and name it "
-"'a[1..4]'."
+"Put a label (press the l key option) on the previous a bus and name it 'a"
+"[1..4]'."
 msgstr ""
 
 #. type: Plain text
@@ -1278,7 +1280,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:670
-msgid "image:images/10000000000004A2000001E05B3D8DFF.png[10000000000004A2000001E05B3D8DFF_png]"
+msgid ""
+"image:images/10000000000004A2000001E05B3D8DFF.png"
+"[10000000000004A2000001E05B3D8DFF_png]"
 msgstr ""
 
 #. type: Title -
@@ -1297,10 +1301,10 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:682
 msgid ""
-"From the KiCad project manager, click on the 'PCBNew' icon "
-"image:images/pcbnew.png[pcbnew_png]. The 'PCBNew' window will open. If you "
-"get an error message saying that a _*.kicad_pcb_ file does not exist just "
-"ignore it and click Yes."
+"From the KiCad project manager, click on the 'PCBNew' icon image:images/"
+"pcbnew.png[pcbnew_png]. The 'PCBNew' window will open. If you get an error "
+"message saying that a _*.kicad_pcb_ file does not exist just ignore it and "
+"click Yes."
 msgstr ""
 
 #. type: Plain text
@@ -1319,8 +1323,8 @@ msgid ""
 "the clearance to '0.25' and the minimum track width to '0.25'. Click on the "
 "*Design Rules* -> *Design Rules* menu. If it does not show already, click on "
 "the 'Net Classes Editor' tab. Change the 'Clearance' field at the top of the "
-"window to '0.25' and the 'Track Width' field to '0.25' as shown "
-"below. Measurements here are in mm."
+"window to '0.25' and the 'Track Width' field to '0.25' as shown below. "
+"Measurements here are in mm."
 msgstr ""
 
 #. type: Plain text
@@ -1331,19 +1335,18 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:700
 msgid ""
-"Click on the 'Global Design Rules' tab and set 'Min track width' to "
-"0.25'. Click the OK button to commit your changes and close the Design Rules "
-"Editor window."
+"Click on the 'Global Design Rules' tab and set 'Min track width' to 0.25'. "
+"Click the OK button to commit your changes and close the Design Rules Editor "
+"window."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:706
 msgid ""
-"Now we will import the netlist file. Click on the 'Read Netlist' icon "
-"image:images/netlist.png[netlist_png] on the top toolbar. Click on the "
-"'Browse Netlist Files' button, select 'tute1.net' in the File selection "
-"dialogue, and click on 'Read Current Netlist'. Then click the 'Close' "
-"button."
+"Now we will import the netlist file. Click on the 'Read Netlist' icon image:"
+"images/netlist.png[netlist_png] on the top toolbar. Click on the 'Browse "
+"Netlist Files' button, select 'tute1.net' in the File selection dialogue, "
+"and click on 'Read Current Netlist'. Then click the 'Close' button."
 msgstr ""
 
 #. type: Plain text
@@ -1363,19 +1366,19 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:720
 msgid ""
-"All components are connected via a thin group of wires called "
-"__ratsnest__. Make sure that the 'Hide board ratsnest' button "
-"image:images/general_ratsnest.png[general_ratsnest_png] is pressed. In this "
-"way you can see the ratsnest linking all components. NOTE: The tool-tip is "
-"backwards; pressing this button actually displays the ratsnest."
+"All components are connected via a thin group of wires called __ratsnest__. "
+"Make sure that the 'Hide board ratsnest' button image:images/"
+"general_ratsnest.png[general_ratsnest_png] is pressed. In this way you can "
+"see the ratsnest linking all components. NOTE: The tool-tip is backwards; "
+"pressing this button actually displays the ratsnest."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:728
 msgid ""
-"You can move each component by hovering over it and pressing the g "
-"key. Click where you want to place them. Move all components around until "
-"you minimise the number of wire crossovers. NOTE: If instead of grabbing the "
+"You can move each component by hovering over it and pressing the g key. "
+"Click where you want to place them. Move all components around until you "
+"minimise the number of wire crossovers. NOTE: If instead of grabbing the "
 "components (with the g key ) you move them around using the m key you will "
 "later note that you lose the track connection (the same occurs in the "
 "schematic editor). Bottom line, always use the g key option."
@@ -1383,7 +1386,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:730
-msgid "image:images/10000000000001FD000001B15F2BA74A.png[10000000000001FD000001B15F2BA74A_png]"
+msgid ""
+"image:images/10000000000001FD000001B15F2BA74A.png"
+"[10000000000001FD000001B15F2BA74A_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1441,12 +1446,12 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:767
 msgid ""
-"Click on the 'Add Tracks and vias' icon "
-"image:images/add_tracks.png[add_tracks_png] on the right toolbar. Click on "
-"pin 1 of 'J1' and run a track to pad 'R2'. Double-click to set the point "
-"where the track will end. The width of this track will be the default 0.250 "
-"mm. You can change the track width from the drop-down menu in the top "
-"toolbar. Mind that by default you have only one track width available."
+"Click on the 'Add Tracks and vias' icon image:images/add_tracks.png"
+"[add_tracks_png] on the right toolbar. Click on pin 1 of 'J1' and run a "
+"track to pad 'R2'. Double-click to set the point where the track will end. "
+"The width of this track will be the default 0.250 mm. You can change the "
+"track width from the drop-down menu in the top toolbar. Mind that by default "
+"you have only one track width available."
 msgstr ""
 
 #. type: Plain text
@@ -1466,7 +1471,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:777
-msgid "image:images/1000000000000169000001178613965A.png[1000000000000169000001178613965A_png]"
+msgid ""
+"image:images/1000000000000169000001178613965A.png"
+"[1000000000000169000001178613965A_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1505,7 +1512,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:797
-msgid "image:images/10000000000001F8000001B32F1802F1.png[10000000000001F8000001B32F1802F1_png]"
+msgid ""
+"image:images/10000000000001F8000001B32F1802F1.png"
+"[10000000000001F8000001B32F1802F1_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1547,26 +1556,28 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:825
 msgid ""
-"Now we will make a ground plane that will be connected to all GND "
-"pins. Click on the 'Add Zones' icon image:images/add_zone.png[add_zone_png] "
-"on the right toolbar. We are going to trace a rectangle around the board, so "
-"click where you want one of the corners to be. In the dialogue that appears, "
-"set 'Pad in Zone' to 'Thermal relief' and 'Zone edges orient' to 'H,V' and "
-"click OK."
+"Now we will make a ground plane that will be connected to all GND pins. "
+"Click on the 'Add Zones' icon image:images/add_zone.png[add_zone_png] on the "
+"right toolbar. We are going to trace a rectangle around the board, so click "
+"where you want one of the corners to be. In the dialogue that appears, set "
+"'Pad in Zone' to 'Thermal relief' and 'Zone edges orient' to 'H,V' and click "
+"OK."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:830
 msgid ""
-"Trace around the outline of the board by clicking each corner in "
-"rotation. Double-click to finish your rectangle. Right click inside the area "
-"you have just traced. Click on 'Fill or Refill All Zones'. The board should "
-"fill in with green and look something like this:"
+"Trace around the outline of the board by clicking each corner in rotation. "
+"Double-click to finish your rectangle. Right click inside the area you have "
+"just traced. Click on 'Fill or Refill All Zones'. The board should fill in "
+"with green and look something like this:"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:832
-msgid "image:images/10000000000001830000015C1D559586.png[10000000000001830000015C1D559586_png]"
+msgid ""
+"image:images/10000000000001830000015C1D559586.png"
+"[10000000000001830000015C1D559586_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1627,7 +1638,8 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:864
-msgid "These are the layers you need to select for making a typical 2-layer PCB:"
+msgid ""
+"These are the layers you need to select for making a typical 2-layer PCB:"
 msgstr ""
 
 #. type: delimited block |
@@ -1687,8 +1699,8 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:908
 msgid ""
-"From _PCBNew_ click on *File* -> *Export* -> *Specctra DNS* and save the "
-"_.dsn_ file locally. Next, click on *Tools* -> **FreeRoute**. A menu with "
+"From _PCBNew_ click on *File* -> *Export* -> *Specctra DNS* and save the _."
+"dsn_ file locally. Next, click on *Tools* -> **FreeRoute**. A menu with "
 "several options will open, click on the 'Launch FreeRouter with Java Web "
 "Start' button. Give it some seconds (you will need to be connected to the "
 "Internet) and the FreeRouter main window will open.  Click on the 'Open Your "
@@ -1743,8 +1755,8 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:941
 msgid ""
-"If there is any routed trace that you do not like, you can delete it and "
-"re-route it again, using the del key and the routing tool, which is the 'Add "
+"If there is any routed trace that you do not like, you can delete it and re-"
+"route it again, using the del key and the routing tool, which is the 'Add "
 "tracks' icon image:images/add_tracks.png[Add Track icon] on the right "
 "toolbar."
 msgstr ""
@@ -1793,20 +1805,20 @@ msgstr ""
 msgid ""
 "Now we can start creating our new component. From KiCad, start __EESchema__, "
 "click on the 'Library Editor' icon image:images/libedit.png[libedit_png] and "
-"then click on the 'New component' icon "
-"image:images/new_component.png[new_component_png]. The Component Properties "
-"window will appear. Name the new component 'MYCONN3', set the 'Default "
-"reference designator' as 'J', and the 'Number of parts per package' as "
-"'1'. Click OK. If the warning appears just click yes."
+"then click on the 'New component' icon image:images/new_component.png"
+"[new_component_png]. The Component Properties window will appear. Name the "
+"new component 'MYCONN3', set the 'Default reference designator' as 'J', and "
+"the 'Number of parts per package' as '1'. Click OK. If the warning appears "
+"just click yes."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:977
 msgid ""
-"At this point the component is only made of its labels. Let's add some "
-"pins. Click on the 'Add Pins' icon image:images/pin.png[pin_png] on the "
-"right toolbar. To place the pin, left click in the centre of the part editor "
-"sheet just below the 'MYCONN3' label."
+"At this point the component is only made of its labels. Let's add some pins. "
+"Click on the 'Add Pins' icon image:images/pin.png[pin_png] on the right "
+"toolbar. To place the pin, left click in the centre of the part editor sheet "
+"just below the 'MYCONN3' label."
 msgstr ""
 
 #. type: Plain text
@@ -1840,9 +1852,9 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:996
 msgid ""
 "Repeat the place-pin steps, this time 'Pin name' should be 'GND', 'Pin "
-"number' should be '3', and 'Electrical Type' should be 'Power "
-"output'. Arrange the pins one on top of the other. The component label "
-"'MYCONN3' should be in the centre of the page (where the blue lines cross)."
+"number' should be '3', and 'Electrical Type' should be 'Power output'. "
+"Arrange the pins one on top of the other. The component label 'MYCONN3' "
+"should be in the centre of the page (where the blue lines cross)."
 msgstr ""
 
 #. type: Plain text
@@ -1857,16 +1869,17 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1004
-msgid "image:images/10000000000000DD000000946E66C399.png[10000000000000DD000000946E66C399_png]"
+msgid ""
+"image:images/10000000000000DD000000946E66C399.png"
+"[10000000000000DD000000946E66C399_png]"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1009
 msgid ""
 "Save the component in your library __myLib.lib__. Click on the 'New Library' "
-"icon image:images/new_library.png[new_library_png], navigate into "
-"_demo1/library/_ folder and save the new library file with the name "
-"__myLib.lib__."
+"icon image:images/new_library.png[new_library_png], navigate into _demo1/"
+"library/_ folder and save the new library file with the name __myLib.lib__."
 msgstr ""
 
 #. type: Plain text
@@ -1879,22 +1892,21 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1017
 msgid ""
-"Click on the 'Select working library' icon "
-"image:images/library.png[library_png]. In the Select Library window click on "
-"_myLib_ and click OK. Notice how the heading of the window indicates the "
-"library currently in use, which now should be __myLib__."
+"Click on the 'Select working library' icon image:images/library.png"
+"[library_png]. In the Select Library window click on _myLib_ and click OK. "
+"Notice how the heading of the window indicates the library currently in use, "
+"which now should be __myLib__."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1025
 msgid ""
-"Click on the 'Update current component in current library' icon "
-"image:images/save_part_in_mem.png[save_part_in_mem_png] in the top "
-"toolbar. Save all changes by clicking on the 'Save current loaded library on "
-"disk' icon image:images/save_library.png[save_library_png] in the top "
-"toolbar. Click 'Yes' in any confirmation messages that appear.  The new "
-"schematic component is now done and available in the library indicated in "
-"the window title bar."
+"Click on the 'Update current component in current library' icon image:images/"
+"save_part_in_mem.png[save_part_in_mem_png] in the top toolbar. Save all "
+"changes by clicking on the 'Save current loaded library on disk' icon image:"
+"images/save_library.png[save_library_png] in the top toolbar. Click 'Yes' in "
+"any confirmation messages that appear.  The new schematic component is now "
+"done and available in the library indicated in the window title bar."
 msgstr ""
 
 #. type: Plain text
@@ -1932,12 +1944,11 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1050
 msgid ""
-"From KiCad, start __EESchema__, click on the 'Library Editor' icon "
-"image:images/libedit.png[libedit_png], click on the 'Select working library' "
-"icon image:images/library.png[library_png] and choose the library "
-"'device'. Click on 'Load component to edit from the current lib' icon "
-"image:images/import_cmp_from_lib.png[import_cmp_from_lib_png] and import the "
-"'RELAY_2RT'."
+"From KiCad, start __EESchema__, click on the 'Library Editor' icon image:"
+"images/libedit.png[libedit_png], click on the 'Select working library' icon "
+"image:images/library.png[library_png] and choose the library 'device'. Click "
+"on 'Load component to edit from the current lib' icon image:images/"
+"import_cmp_from_lib.png[import_cmp_from_lib_png] and import the 'RELAY_2RT'."
 msgstr ""
 
 #. type: Plain text
@@ -1960,18 +1971,17 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1064
 msgid ""
-"Click on the 'Select working library' icon "
-"image:images/library.png[library_png]. In the Select Library window click on "
-"_myOwnLib_ and click OK. Notice how the heading of the window indicates the "
-"library currently in use, it should be __myOwnLib__."
+"Click on the 'Select working library' icon image:images/library.png"
+"[library_png]. In the Select Library window click on _myOwnLib_ and click "
+"OK. Notice how the heading of the window indicates the library currently in "
+"use, it should be __myOwnLib__."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1068
 msgid ""
-"Click on the 'Load component to edit from the current lib' icon "
-"image:images/import_cmp_from_lib.png[import_cmp_from_lib_png] and import the "
-"'RELAY_2RT'."
+"Click on the 'Load component to edit from the current lib' icon image:images/"
+"import_cmp_from_lib.png[import_cmp_from_lib_png] and import the 'RELAY_2RT'."
 msgstr ""
 
 #. type: Plain text
@@ -1984,11 +1994,10 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1077
 msgid ""
-"Click on 'Update current component in current library' icon "
-"image:images/save_part_in_mem.png[save_part_in_mem_png] in the top "
-"toolbar. Save all changes by clicking on the 'Save current loaded library on "
-"disk' icon image:images/save_library.png[save_library_png] in the top "
-"toolbar."
+"Click on 'Update current component in current library' icon image:images/"
+"save_part_in_mem.png[save_part_in_mem_png] in the top toolbar. Save all "
+"changes by clicking on the 'Save current loaded library on disk' icon image:"
+"images/save_library.png[save_library_png] in the top toolbar."
 msgstr ""
 
 #. type: Title -
@@ -2006,7 +2015,8 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1088
-msgid "Head to the _quicklib_ we bpage: http://kicad.rohrbacher.net/quicklib.php"
+msgid ""
+"Head to the _quicklib_ we bpage: http://kicad.rohrbacher.net/quicklib.php"
 msgstr ""
 
 #. type: Plain text
@@ -2027,23 +2037,24 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1098
 msgid ""
 "Click on the icon 'Preview it' and, if you are satisfied, click on the "
-"'Build Library Component'. Download the file and rename it "
-"__demo1/library/myLib.lib.__. You are done!"
+"'Build Library Component'. Download the file and rename it __demo1/library/"
+"myLib.lib.__. You are done!"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1104
 msgid ""
 "Have a look at it using KiCad. From the KiCad project manager, start "
-"__EESchema__, click on the 'Library Editor' icon "
-"image:images/libedit.png[libedit_png], click on the 'Import Component' icon "
-"image:images/import.png[import_png], navigate to _demo1/library/_ and select "
-"_myLib.lib._"
+"__EESchema__, click on the 'Library Editor' icon image:images/libedit.png"
+"[libedit_png], click on the 'Import Component' icon image:images/import.png"
+"[import_png], navigate to _demo1/library/_ and select _myLib.lib._"
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1106
-msgid "image:images/10000000000002EE00000177A7337383.png[10000000000002EE00000177A7337383_png]"
+msgid ""
+"image:images/10000000000002EE00000177A7337383.png"
+"[10000000000002EE00000177A7337383_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2090,8 +2101,8 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1136
 msgid ""
-"The best way to create our component is to use _quicklib_ to generate two "
-"25-pin components separately, re-number their pins using a Python script and "
+"The best way to create our component is to use _quicklib_ to generate two 25-"
+"pin components separately, re-number their pins using a Python script and "
 "finally merge the two by using copy and paste to make them into one single "
 "DEF and ENDDEF component."
 msgstr ""
@@ -2122,20 +2133,17 @@ msgid ""
 "    fin=open(sys.argv[1],'r')\n"
 "    fout=open(sys.argv[2],'w')\n"
 "except:\n"
-"    print \"oh, wrong use of this app, try:\", sys.argv[0], \"in.txt "
-"out.txt\"\n"
+"    print \"oh, wrong use of this app, try:\", sys.argv[0], \"in.txt out.txt\"\n"
 "    sys.exit()\n"
 "for ln in fin.readlines():\n"
 "    obj=re.search(\"(X PIN)(\\d*)(\\s)(\\d*)(\\s.*)\",ln)\n"
 "if obj:\n"
 "    num = int(obj.group(2))+25\n"
-"    ln=obj.group(1) + str(num) + obj.group(3) + str(num) + obj.group(5) "
-"+'\\n'\n"
+"    ln=obj.group(1) + str(num) + obj.group(3) + str(num) + obj.group(5) +'\\n'\n"
 "    fout.write(ln)\n"
 "fin.close(); fout.close()\n"
 "#\n"
-"# for more info about regular expression syntax and KiCad component "
-"generation:\n"
+"# for more info about regular expression syntax and KiCad component generation:\n"
 "# http://gskinner.com/RegExr/\n"
 "# http://kicad.rohrbacher.net/quicklib.php\n"
 msgstr ""
@@ -2189,7 +2197,9 @@ msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1195
-msgid "image:images/10000000000004800000026769DAE0A4.png[10000000000004800000026769DAE0A4_png]"
+msgid ""
+"image:images/10000000000004800000026769DAE0A4.png"
+"[10000000000004800000026769DAE0A4_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2197,8 +2207,8 @@ msgstr ""
 msgid ""
 "The Python script presented here is a very powerful tool for manipulating "
 "both pin numbers and pin labels. Mind, however, that all its power comes for "
-"the arcane and yet amazingly useful Regular Expression syntax: "
-"_http://gskinner.com/RegExr/._"
+"the arcane and yet amazingly useful Regular Expression syntax: _http://"
+"gskinner.com/RegExr/._"
 msgstr ""
 
 #. type: Title -
@@ -2211,9 +2221,9 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1210
 msgid ""
 "Unlike other EDA software tools, which have one type of library that "
-"contains both the schematic symbol and the footprint variations, KiCad "
-"_.lib_ files contain schematic symbols and _.mod_ files contain footprints, "
-"or modules. _Cvpcb_ is used to successfully map footprints to symbols."
+"contains both the schematic symbol and the footprint variations, KiCad _."
+"lib_ files contain schematic symbols and _.mod_ files contain footprints, or "
+"modules. _Cvpcb_ is used to successfully map footprints to symbols."
 msgstr ""
 
 #. type: Plain text
@@ -2242,22 +2252,21 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1227
 msgid ""
-"We are going to save the new footprint in the footprint library "
-"'connect'. Click on the 'Select working library' icon "
-"image:images/library.png[library_png] on the top toolbar. Select the "
-"'connect' library, though you can choose a different location if you want."
+"We are going to save the new footprint in the footprint library 'connect'. "
+"Click on the 'Select working library' icon image:images/library.png"
+"[library_png] on the top toolbar. Select the 'connect' library, though you "
+"can choose a different location if you want."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1235
 msgid ""
-"Click on the 'New Module' icon "
-"image:images/new_footprint.png[new_footprint_png] on the top toolbar.  Type "
-"'MYCONN3' as the 'module reference'. In the middle of the screen the "
-"'MYCONN3' label will appear. Under the label you can can see the 'VAL*__' "
-"label. Right click on 'MYCONN3' and move it above 'VAL'. Right click on "
-"'VAL__*', select 'Edit Text Mod' and rename it to 'SMD'. Set the 'Display' "
-"value to 'Invisible'."
+"Click on the 'New Module' icon image:images/new_footprint.png"
+"[new_footprint_png] on the top toolbar.  Type 'MYCONN3' as the 'module "
+"reference'. In the middle of the screen the 'MYCONN3' label will appear. "
+"Under the label you can can see the 'VAL*__' label. Right click on 'MYCONN3' "
+"and move it above 'VAL'. Right click on 'VAL__*', select 'Edit Text Mod' and "
+"rename it to 'SMD'. Set the 'Display' value to 'Invisible'."
 msgstr ""
 
 #. type: Plain text
@@ -2309,16 +2318,16 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1268
 msgid ""
 "Now add a footprint contour. Click on the 'Add graphic line or polygon' "
-"button image:images/add_polygon.png[add_polygon_png] in the right "
-"toolbar. Draw an outline of the connector around the component."
+"button image:images/add_polygon.png[add_polygon_png] in the right toolbar. "
+"Draw an outline of the connector around the component."
 msgstr ""
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1272
 msgid ""
-"Click on the 'Save Module in working directory' icon "
-"image:images/save_library.png[save_library_png] on the top toolbar, using "
-"the default name MYCONN3."
+"Click on the 'Save Module in working directory' icon image:images/"
+"save_library.png[save_library_png] on the top toolbar, using the default "
+"name MYCONN3."
 msgstr ""
 
 #. type: Title -
@@ -2419,8 +2428,8 @@ msgid ""
 "instance, when you have to modify/extend a board for which you or others "
 "have already completed this work-flow, it is possible that you need to move "
 "components around, replace them with others, change footprints and much "
-"more. During this modification process, what you do not want to do is to "
-"re-route the whole board again from scratch. Instead, this is how you do it:"
+"more. During this modification process, what you do not want to do is to re-"
+"route the whole board again from scratch. Instead, this is how you do it:"
 msgstr ""
 
 #. type: Plain text
@@ -2439,9 +2448,9 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1355
 msgid ""
 "From KiCad, start __EESchema__, make your modifications by deleting CON1 and "
-"adding CON2. Save your schematic project with the icon "
-"image:images/save.png[Save icon] and c lick on the 'Netlist generation' icon "
-"image:images/netlist.png[netlist_png] on the top toolbar."
+"adding CON2. Save your schematic project with the icon image:images/save.png"
+"[Save icon] and c lick on the 'Netlist generation' icon image:images/netlist."
+"png[netlist_png] on the top toolbar."
 msgstr ""
 
 #. type: Plain text
@@ -2454,11 +2463,10 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1364
 msgid ""
-"Now assign a footprint to CON2. Click on the 'Run Cvpcb' icon "
-"image:images/icon_cvpcb_small.png[icon_cvpcb_small_png] on the top "
-"toolbar. Assign the footprint to the new device CON2. The rest of the "
-"components still have the previous footprints assigned to them. Close "
-"__Cvpcb__."
+"Now assign a footprint to CON2. Click on the 'Run Cvpcb' icon image:images/"
+"icon_cvpcb_small.png[icon_cvpcb_small_png] on the top toolbar. Assign the "
+"footprint to the new device CON2. The rest of the components still have the "
+"previous footprints assigned to them. Close __Cvpcb__."
 msgstr ""
 
 #. type: Plain text
@@ -2479,8 +2487,8 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1374
 msgid ""
 "The old, already routed, board should automatically open. Let's import the "
-"new netlist file. Click on the 'Read Netlist' icon "
-"image:images/netlist.png[netlist_png] on the top toolbar."
+"new netlist file. Click on the 'Read Netlist' icon image:images/netlist.png"
+"[netlist_png] on the top toolbar."
 msgstr ""
 
 #. type: Plain text
@@ -2510,8 +2518,8 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1394
 msgid ""
-"The process described here can easily be repeated as many times as you "
-"need. Beside the Forward Annotation method described above, there is another "
+"The process described here can easily be repeated as many times as you need. "
+"Beside the Forward Annotation method described above, there is another "
 "method known as Backward Annotation. This method allows you to make "
 "modifications to your already routed PCB from PCBNew and updates those "
 "modifications in your schematic and netlist file. The Backward Annotation "
@@ -2557,8 +2565,8 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1416
 msgid ""
-"/usr/share/doc/kicad/en/ /usr/share/doc/kicad/help/en/ "
-"/usr/local/kicad/doc/tutorials/en/ kicad/doc/tutorials/en/"
+"/usr/share/doc/kicad/en/ /usr/share/doc/kicad/help/en/ /usr/local/kicad/doc/"
+"tutorials/en/ kicad/doc/tutorials/en/"
 msgstr ""
 
 #. type: Title ~
@@ -2570,7 +2578,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1423
 msgid ""
-"A very good and frequently updated source of information is the KiCad "
-"http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions[FAQ] list "
+"A very good and frequently updated source of information is the KiCad http://"
+"www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions[FAQ] list "
 "available."
 msgstr ""

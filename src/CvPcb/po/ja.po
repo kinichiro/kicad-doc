@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: CvPcb-ja\n"
 "POT-Creation-Date: 2015-06-23 00:40+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-25 01:19+0900\n"
+"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: ja\n"
 
 #. type: Title =
 #: CvPcb.adoc:7
 #, no-wrap
 msgid "CvPcb"
-msgstr ""
+msgstr "CvPcb"
 
 #. type: Plain text
 #: CvPcb.adoc:10
@@ -42,11 +42,11 @@ msgstr ""
 #. type: Plain text
 #: CvPcb.adoc:21
 msgid ""
-"This document is Copyright © 2010–2015 by it’s contributors as listed "
-"below. You may distribute it and/or modify it under the terms of either the "
-"GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 "
-"or later, or the Creative Commons Attribution License "
-"(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
+"This document is Copyright © 2010–2015 by it’s contributors as listed below. "
+"You may distribute it and/or modify it under the terms of either the GNU "
+"General Public License (http://www.gnu.org/licenses/gpl.html), version 3 or "
+"later, or the Creative Commons Attribution License (http://creativecommons."
+"org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 
 #. type: Plain text
@@ -194,7 +194,8 @@ msgstr ""
 
 #. type: Plain text
 #: CvPcb.adoc:90
-msgid "Cvpcb needs the project config file to know the footprint libraries to load."
+msgid ""
+"Cvpcb needs the project config file to know the footprint libraries to load."
 msgstr ""
 
 #. type: Plain text
@@ -232,9 +233,7 @@ msgstr ""
 #. type: Plain text
 #: CvPcb.adoc:107
 #, no-wrap
-msgid ""
-"*CvPcb is only invoked from the schematic capture program Eeschema*, by the "
-"tool:\n"
+msgid "*CvPcb is only invoked from the schematic capture program Eeschema*, by the tool:\n"
 msgstr ""
 
 #. type: Plain text
@@ -304,8 +303,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|image:images/icons/save.png[]\n"
-"|Transfert the current footprint association to Eeschema (this is the "
-"content of footprint fields).\n"
+"|Transfert the current footprint association to Eeschema (this is the content of footprint fields).\n"
 msgstr ""
 
 #. type: delimited block |
@@ -411,8 +409,7 @@ msgstr ""
 #: CvPcb.adoc:191
 #, no-wrap
 msgid ""
-"|Right Arrow / Tab|Activate the next pane to the right of the currently "
-"activated pane.\n"
+"|Right Arrow / Tab|Activate the next pane to the right of the currently activated pane.\n"
 "Wrap around to the first pane if the last pane is currently activated.\n"
 msgstr ""
 
@@ -421,8 +418,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|Left Arrow |Activate the next pane to the left of the currently activated\n"
-"pane. Wrap around to the last pane if the first pane is currently "
-"activated.\n"
+"pane. Wrap around to the last pane if the first pane is currently activated.\n"
 msgstr ""
 
 #. type: delimited block |
@@ -492,7 +488,8 @@ msgstr ""
 
 #. type: Plain text
 #: CvPcb.adoc:223
-msgid "Depending of the CvPcb version, there are 2 different libraries management:"
+msgid ""
+"Depending of the CvPcb version, there are 2 different libraries management:"
 msgstr ""
 
 #. type: Plain text
@@ -909,9 +906,9 @@ msgstr ""
 msgid ""
 "To manually associate a footprint with a component first select a component "
 "in the component pane. Then select a footprint in the footprint pane by "
-"double-clicking the left mouse button on the name of the desired "
-"footprint. The unassigned next component in the list is automatically "
-"selected. Changing the component footprint is performed in the same manner."
+"double-clicking the left mouse button on the name of the desired footprint. "
+"The unassigned next component in the list is automatically selected. "
+"Changing the component footprint is performed in the same manner."
 msgstr ""
 
 #. type: Title ~
@@ -932,8 +929,7 @@ msgstr ""
 #: CvPcb.adoc:459
 msgid ""
 "The icons image:images/icons_filter.png[] enable and disable the filtering "
-"feature. When the filtering is not enabled, the full footprint list is "
-"shown."
+"feature. When the filtering is not enabled, the full footprint list is shown."
 msgstr ""
 
 #. type: Plain text
@@ -949,9 +945,9 @@ msgstr ""
 #. type: Plain text
 #: CvPcb.adoc:467
 msgid ""
-"Filtered by list of footprint filters assigned to the selected "
-"component. The component filters are listed on the center pane of the status "
-"bar at the bottom of the main window."
+"Filtered by list of footprint filters assigned to the selected component. "
+"The component filters are listed on the center pane of the status bar at the "
+"bottom of the main window."
 msgstr ""
 
 #. type: Plain text
@@ -1029,8 +1025,7 @@ msgstr ""
 #. type: Plain text
 #: CvPcb.adoc:501
 msgid ""
-"Equivalence files allow for automatic assignment of footprints to "
-"components."
+"Equivalence files allow for automatic assignment of footprints to components."
 msgstr ""
 
 #. type: Plain text
@@ -1167,19 +1162,19 @@ msgid ""
 msgstr ""
 
 #
+#
+#
+#
+#
 #. [index]
 #. Index
 #. =====
-#
-#
 #. [[indices-and-tables]]
 #. Indices and tables
 #. ==================
-#
 #. - genindex
 #. - modindex
 #. - search
-#
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:4
 msgid ""
@@ -1200,8 +1195,8 @@ msgstr ""
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:10
 msgid ""
-"KiCad New _.pretty_ footprint libraries (on your local disk)  (folders with "
-".pretty extension, containing .kicad_mod files)"
+"KiCad New _.pretty_ footprint libraries (on your local disk)  (folders with ."
+"pretty extension, containing .kicad_mod files)"
 msgstr ""
 
 #. type: Plain text
@@ -1393,9 +1388,9 @@ msgstr ""
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:101
 msgid ""
-"There is also a description field to add a description of the library "
-"entry. The option field is not used at this time so adding options will have "
-"no effect when loading libraries."
+"There is also a description field to add a description of the library entry. "
+"The option field is not used at this time so adding options will have no "
+"effect when loading libraries."
 msgstr ""
 
 #. type: Plain text
@@ -1492,10 +1487,10 @@ msgid ""
 "of the KiCad footprint file format) footprints and optionally provides "
 "``Copy On Write'' (COW) support for editing footprints read from the GitHub "
 "repo and saving them locally. Therefore the ``Git Hub'' plugin is for *read "
-"only for accessing remote pretty footprint libraries at* "
-"https://github.com/[https://github.com]. To add a GitHub entry to the "
-"footprint library table the ``Library Path'' in the footprint library table "
-"row for a must be set to a valid GitHub URL."
+"only for accessing remote pretty footprint libraries at* https://github.com/"
+"[https://github.com]. To add a GitHub entry to the footprint library table "
+"the ``Library Path'' in the footprint library table row for a must be set to "
+"a valid GitHub URL."
 msgstr ""
 
 #. type: Plain text
@@ -1505,7 +1500,9 @@ msgstr ""
 
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:156
-msgid "https://github.com/liftoff-sr/pretty_footprints[https://github.com/liftoff-sr/pretty_footprints]"
+msgid ""
+"https://github.com/liftoff-sr/pretty_footprints[https://github.com/liftoff-"
+"sr/pretty_footprints]"
 msgstr ""
 
 #. type: Plain text
@@ -1525,7 +1522,9 @@ msgstr ""
 
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:165
-msgid "https://github.com/user_name/repo_name[https://github.com/user_name/repo_name]"
+msgid ""
+"https://github.com/user_name/repo_name[https://github.com/user_name/"
+"repo_name]"
 msgstr ""
 
 #. type: Plain text
@@ -1555,7 +1554,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block |
-#: CvPcb_footprint_libraries_tables.adoc:188 CvPcb_footprint_libraries_tables.adoc:204
+#: CvPcb_footprint_libraries_tables.adoc:188
+#: CvPcb_footprint_libraries_tables.adoc:204
 #, no-wrap
 msgid "|Nickname |Library Path |Plugin Type |Options |Description\n"
 msgstr ""
@@ -1586,8 +1586,7 @@ msgstr ""
 msgid ""
 "|github\n"
 "|https://github.com/liftoff-sr/pretty_footprints[https://github.com/liftoff-sr/pretty_footprints]\n"
-"|Github |allow_pretty_writing_to_this_dir= "
-"$\\{HOME\\}/pretty/github.pretty\n"
+"|Github |allow_pretty_writing_to_this_dir= $\\{HOME\\}/pretty/github.pretty\n"
 "|Liftoff's GH footprints\n"
 msgstr ""
 
@@ -1598,8 +1597,7 @@ msgid ""
 "the path given by the option *allow_pretty_writing_to_this_dir*. Once you "
 "have saved a footprint to the COW library's local directory by doing a "
 "footprint save in the footprint editor, no Git Hub updates will be seen when "
-"loading a footprint with the same name as one for which you've saved "
-"locally."
+"loading a footprint with the same name as one for which you've saved locally."
 msgstr ""
 
 #. type: Plain text
@@ -1626,7 +1624,8 @@ msgstr ""
 
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:229
-msgid "What is the point of COW? It is to turbo-charge the sharing of footprints."
+msgid ""
+"What is the point of COW? It is to turbo-charge the sharing of footprints."
 msgstr ""
 
 #. type: Plain text
@@ -1675,9 +1674,9 @@ msgstr ""
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:256
 msgid ""
-"The project specific footprint library table is saved in the file "
-"fp-lib-table in the path of the currently open net list . You are free to "
-"define libraries in either table."
+"The project specific footprint library table is saved in the file fp-lib-"
+"table in the path of the currently open net list . You are free to define "
+"libraries in either table."
 msgstr ""
 
 #. type: Plain text
@@ -1729,7 +1728,8 @@ msgstr ""
 
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:284
-msgid "Note also libraries can be any type of footprint library supported by Kicad."
+msgid ""
+"Note also libraries can be any type of footprint library supported by Kicad."
 msgstr ""
 
 #. type: Plain text
@@ -1801,7 +1801,8 @@ msgstr ""
 
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:310
-msgid "After a set of libraries is selected, the next page validates the choice:"
+msgid ""
+"After a set of libraries is selected, the next page validates the choice:"
 msgstr ""
 
 #. type: Plain text

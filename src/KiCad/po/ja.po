@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KiCad-ja\n"
 "POT-Creation-Date: 2015-06-23 00:44+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-25 01:22+0900\n"
+"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"Language-Team: kicad.jp <kicad@kicad.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title ~
 #: KiCad.adoc:7 KiCad.adoc:57
 #, no-wrap
 msgid "KiCad"
-msgstr ""
+msgstr "KiCad"
 
 #. type: Plain text
 #: KiCad.adoc:10
@@ -42,11 +42,11 @@ msgstr ""
 #. type: Plain text
 #: KiCad.adoc:21
 msgid ""
-"This document is Copyright © 2010–2015 by its contributors as listed "
-"below. You may distribute it and/or modify it under the terms of either the "
-"GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 "
-"or later, or the Creative Commons Attribution License "
-"(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
+"This document is Copyright © 2010–2015 by its contributors as listed below. "
+"You may distribute it and/or modify it under the terms of either the GNU "
+"General Public License (http://www.gnu.org/licenses/gpl.html), version 3 or "
+"later, or the Creative Commons Attribution License (http://creativecommons."
+"org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 
 #. type: Plain text
@@ -239,8 +239,8 @@ msgstr ""
 #: KiCad.adoc:97
 msgid ""
 "Being open source (GPL licensed), kicad represents the ideal tool for "
-"projects oriented towards the creation of electronic hardware with an "
-"open-source flavour."
+"projects oriented towards the creation of electronic hardware with an open-"
+"source flavour."
 msgstr ""
 
 #. type: Plain text
@@ -272,9 +272,7 @@ msgstr ""
 #. type: delimited block |
 #: KiCad.adoc:110
 #, no-wrap
-msgid ""
-"|*.pro |Small file containing a few parameters for the current project, "
-"including the schematic library list.\n"
+msgid "|*.pro |Small file containing a few parameters for the current project, including the schematic library list.\n"
 msgstr ""
 
 #. type: Plain text
@@ -288,13 +286,10 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|*.sch |Schematic files, which do not contain the components themselves.\n"
-"|*.lib |Schematic component library files, containing the component "
-"descriptions: graphic shape, pins, fields.\n"
-"|*.dcm |Schematic component library documentation, containing some component "
-"descriptions:\n"
+"|*.lib |Schematic component library files, containing the component descriptions: graphic shape, pins, fields.\n"
+"|*.dcm |Schematic component library documentation, containing some component descriptions:\n"
 "comments, keywords, reference to data sheets.\n"
-"|*_cache.lib |Schematic component library cache file, containing a copy of "
-"components used in the schematic project.\n"
+"|*_cache.lib |Schematic component library cache file, containing a copy of components used in the schematic project.\n"
 msgstr ""
 
 #. type: Plain text
@@ -308,8 +303,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "|*.kicad_pcb |Board file containing all info but the page layout.\n"
-"|*.pretty |Footprint **library folders**. The folder itself is the "
-"library.\n"
+"|*.pretty |Footprint **library folders**. The folder itself is the library.\n"
 "|*.kicad_mod |Footprint files, containing one footprint description each.\n"
 "|*.brd |Board file in the legacy format.\n"
 "Can be read, but not written by the board editor.\n"
@@ -330,13 +324,10 @@ msgstr ""
 #: KiCad.adoc:145
 #, no-wrap
 msgid ""
-"|*.kicad_wks |The page layout description files, for people who want a "
-"worksheet\n"
+"|*.kicad_wks |The page layout description files, for people who want a worksheet\n"
 "with a custom look.\n"
-"|*.net |Netlist file created by the schematic, and read by the board "
-"editor.\n"
-"This file is associated to the .cmp file, for users who prefer a separate "
-"file\n"
+"|*.net |Netlist file created by the schematic, and read by the board editor.\n"
+"This file is associated to the .cmp file, for users who prefer a separate file\n"
 "for the component/footprint association.\n"
 msgstr ""
 
@@ -349,9 +340,7 @@ msgstr ""
 #. type: delimited block |
 #: KiCad.adoc:151
 #, no-wrap
-msgid ""
-"|*.cmp |Stores the association between components used in the schematic and "
-"their footprints.\n"
+msgid "|*.cmp |Stores the association between components used in the schematic and their footprints.\n"
 msgstr ""
 
 #. type: delimited block |
@@ -365,8 +354,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "The purpose is a back import from Pcbnew to Eeschema, for users\n"
-"who change footprints inside Pcbnew (for instance using _Exchange "
-"Footprints_ command)\n"
+"who change footprints inside Pcbnew (for instance using _Exchange Footprints_ command)\n"
 "and want to import these changes in schematic.\n"
 msgstr ""
 
@@ -422,8 +410,8 @@ msgstr ""
 #. type: Plain text
 #: KiCad.adoc:189
 msgid ""
-"A default configuration file named _kicad.pro_ is supplied in "
-"kicad/template. It serves as a template for any new project."
+"A default configuration file named _kicad.pro_ is supplied in kicad/"
+"template. It serves as a template for any new project."
 msgstr ""
 
 #. type: Plain text
@@ -583,8 +571,7 @@ msgid ""
 "|KISYS3DMOD |default base path of 3D shapes files,\n"
 "and must be defined, because an absolute path is not usually used.\n"
 "|KISYSMOD |default base path of footprint library folders,\n"
-"and must be defined, if an absolute path is not used in footprint library "
-"names.\n"
+"and must be defined, if an absolute path is not used in footprint library names.\n"
 msgstr ""
 
 #. type: Plain text
@@ -613,9 +600,9 @@ msgstr ""
 #. type: Plain text
 #: KiCad.adoc:276
 msgid ""
-"For instance, *_$\\{KIPRJMOD\\}/connect.pretty_* is always the "
-"*_connect.pretty_* folder (the pretty footprint library) found **_inside the "
-"current project folder_**."
+"For instance, *_$\\{KIPRJMOD\\}/connect.pretty_* is always the *_connect."
+"pretty_* folder (the pretty footprint library) found **_inside the current "
+"project folder_**."
 msgstr ""
 
 #. type: Plain text
@@ -802,7 +789,8 @@ msgstr ""
 
 #. type: Plain text
 #: KiCad.adoc:371
-msgid "Kicad allows you to run all stand alone software tools that come with it."
+msgid ""
+"Kicad allows you to run all stand alone software tools that come with it."
 msgstr ""
 
 #. type: Plain text
@@ -880,8 +868,7 @@ msgstr ""
 #. type: Plain text
 #: KiCad.adoc:415
 msgid ""
-"Kicad top toolbar allows for some basic files operation (from left to "
-"right)."
+"Kicad top toolbar allows for some basic files operation (from left to right)."
 msgstr ""
 
 #. type: delimited block |
@@ -918,15 +905,16 @@ msgstr ""
 
 #. type: Plain text
 #: KiCad.adoc:442
-msgid "A template is a directory of files, which includes a directory of metadata."
+msgid ""
+"A template is a directory of files, which includes a directory of metadata."
 msgstr ""
 
 #. type: Plain text
 #: KiCad.adoc:446
 msgid ""
 "The template system name (SYSNAME) is the directory name under which the "
-"template files are stored. The metadata directory (METADIR) contains "
-"pre-defined files which provide information about the template."
+"template files are stored. The metadata directory (METADIR) contains pre-"
+"defined files which provide information about the template."
 msgstr ""
 
 #. type: Plain text
@@ -1150,7 +1138,8 @@ msgstr ""
 
 #. type: Plain text
 #: KiCad.adoc:561
-msgid "The list of available templates are gathered from the following sources:"
+msgid ""
+"The list of available templates are gathered from the following sources:"
 msgstr ""
 
 #. type: Plain text

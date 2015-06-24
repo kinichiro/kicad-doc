@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-06-23 00:44+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-25 01:23+0900\n"
+"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"Language-Team: kicad.jp <kicad@kicad.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title =
 #: Pcbnew.adoc:7
 #, no-wrap
 msgid "Pcbnew"
-msgstr ""
+msgstr "Pcbnew"
 
 #. type: Plain text
 #: Pcbnew.adoc:10
@@ -42,11 +42,11 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew.adoc:21
 msgid ""
-"This document is Copyright © 2010–2014 by its contributors as listed "
-"below. You may distribute it and/or modify it under the terms of either the "
-"GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 "
-"or later, or the Creative Commons Attribution License "
-"(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
+"This document is Copyright © 2010–2014 by its contributors as listed below. "
+"You may distribute it and/or modify it under the terms of either the GNU "
+"General Public License (http://www.gnu.org/licenses/gpl.html), version 3 or "
+"later, or the Creative Commons Attribution License (http://creativecommons."
+"org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 
 #. type: Plain text
@@ -137,11 +137,11 @@ msgid ""
 "active layer and use the 'Add graphic line or polygon' tool to trace the "
 "edge, clicking at the position of each vertex and double-clicking to finish "
 "the outline. Boards usually have very precise dimensions, so it may be "
-"necessary to use the displayed cursor coordinates while tracing the "
-"outline. Remember that the relative coordinates can be zeroed at any time "
-"using the space bar, and that the display units can also be toggled using "
-"'Alt-U'.  Relative coordinates enable very precise dimensions to be "
-"drawn. It is possible to draw a circular (or arc) outline:"
+"necessary to use the displayed cursor coordinates while tracing the outline. "
+"Remember that the relative coordinates can be zeroed at any time using the "
+"space bar, and that the display units can also be toggled using 'Alt-U'.  "
+"Relative coordinates enable very precise dimensions to be drawn. It is "
+"possible to draw a circular (or arc) outline:"
 msgstr ""
 
 #. type: Plain text
@@ -256,7 +256,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:67
-msgid "There are some limitations on the DXF formats that are supported in KiCad."
+msgid ""
+"There are some limitations on the DXF formats that are supported in KiCad."
 msgstr ""
 
 #. type: Plain text
@@ -308,9 +309,9 @@ msgstr ""
 #: Pcbnew_create_and_modify_board.adoc:96
 msgid ""
 "If the name (path) of the netlist in the window title is incorrect, use the "
-"'Select' button to browse to the desired netlist. Then 'Read' the "
-"netlist. Any modules not already loaded will appear, superimposed one upon "
-"another (we shall see below how to move them automatically)."
+"'Select' button to browse to the desired netlist. Then 'Read' the netlist. "
+"Any modules not already loaded will appear, superimposed one upon another "
+"(we shall see below how to move them automatically)."
 msgstr ""
 
 #. type: Plain text
@@ -483,8 +484,8 @@ msgstr ""
 #: Pcbnew_create_and_modify_board.adoc:184
 msgid ""
 "Sometimes the notation of the schematic is changed, without any material "
-"changes in the circuit (this would concern the references - like R5, "
-"U4...).The PCB is therefore unchanged (except possibly for the silkscreen "
+"changes in the circuit (this would concern the references - like R5, U4...)."
+"The PCB is therefore unchanged (except possibly for the silkscreen "
 "markings). Nevertheless, internally, components and modules are represented "
 "by their reference. In this situation, the 'Timestamp' option of the netlist "
 "dialog may be selected before re-reading the netlist:"
@@ -509,10 +510,10 @@ msgstr ""
 msgid ""
 "Great care should be exercised when using this option (save the file "
 "first!). This is because the technique is complicated in the case of "
-"components containing multiple parts (e.g. a 7400 has 4 parts and one "
-"case). In this situation, the time stamp is not uniquely defined (for the "
-"7400 there would be up to four – one for each part). Nevertheless, the time "
-"stamp option usually resolves re-annotation problems."
+"components containing multiple parts (e.g. a 7400 has 4 parts and one case). "
+"In this situation, the time stamp is not uniquely defined (for the 7400 "
+"there would be up to four – one for each part). Nevertheless, the time stamp "
+"option usually resolves re-annotation problems."
 msgstr ""
 
 #. type: Title ~
@@ -684,11 +685,11 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:43
 msgid ""
-"The pad number, which is constituted by up to four alphanumeric "
-"characters. Thus, the following are all valid pad numbers: 1, 45 and 9999, "
-"but also AA56 and ANOD. The pad number must be identical to that of the "
-"corresponding pin number in the schematic, because it defines the matching "
-"pin and pad numbers that Pcbnew links pins and pads with."
+"The pad number, which is constituted by up to four alphanumeric characters. "
+"Thus, the following are all valid pad numbers: 1, 45 and 9999, but also AA56 "
+"and ANOD. The pad number must be identical to that of the corresponding pin "
+"number in the schematic, because it defines the matching pin and pad numbers "
+"that Pcbnew links pins and pads with."
 msgstr ""
 
 #. type: Title ^
@@ -700,10 +701,10 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:51
 msgid ""
-"Graphical contours are used to draw the physical shape of the "
-"module. Several different types of contour are available: lines, circles, "
-"arcs, and text. Contours have no electrical significance, they are simply "
-"graphical aids."
+"Graphical contours are used to draw the physical shape of the module. "
+"Several different types of contour are available: lines, circles, arcs, and "
+"text. Contours have no electrical significance, they are simply graphical "
+"aids."
 msgstr ""
 
 #. type: Title ^
@@ -720,8 +721,8 @@ msgid ""
 "automatically read and updated by Pcbnew when a netlist is read during the "
 "loading of modules into your board. The reference is replaced by the "
 "appropriate schematic reference (U1, IC3, etc.). The value is replaced by "
-"the value of the corresponding part in the schematic (47K, 74LS02, "
-"etc.). Other fields can be added and these will behave like graphical text."
+"the value of the corresponding part in the schematic (47K, 74LS02, etc.). "
+"Other fields can be added and these will behave like graphical text."
 msgstr ""
 
 #. type: Title ~
@@ -939,10 +940,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:182
 msgid ""
-"A new module can be created via the button "
-"image:images/icons/new_footprint.png[]. The name of the new module will be "
-"requested. This will be the name by which the module will be identified in "
-"the library."
+"A new module can be created via the button image:images/icons/new_footprint."
+"png[]. The name of the new module will be requested. This will be the name "
+"by which the module will be identified in the library."
 msgstr ""
 
 #. type: Plain text
@@ -988,14 +988,15 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:201
 msgid ""
-"Load the similar module (image:images/icons/load_module_lib.png[], "
-"image:images/icons/load_module_board.png[] or "
-"image:images/icons/import_module.png[])."
+"Load the similar module (image:images/icons/load_module_lib.png[], image:"
+"images/icons/load_module_board.png[] or image:images/icons/import_module.png"
+"[])."
 msgstr ""
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:202
-msgid "Modify the reference field in order to generate a new identifier (name)."
+msgid ""
+"Modify the reference field in order to generate a new identifier (name)."
 msgstr ""
 
 #. type: Plain text
@@ -1012,9 +1013,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:210
 msgid ""
-"Once a module has been created, pads can be added, deleted or "
-"modified. Modification of pads can be local, affecting only the pad under "
-"the cursor, or global, affecting all pads of the module."
+"Once a module has been created, pads can be added, deleted or modified. "
+"Modification of pads can be local, affecting only the pad under the cursor, "
+"or global, affecting all pads of the module."
 msgstr ""
 
 #. type: Title ^
@@ -1026,9 +1027,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:218
 msgid ""
-"Select the image:images/icons/pad.png[] icon from the right hand "
-"toolbar. Pads can be added by clicking in the desired position with the left "
-"mouse button. Pad properties are predefined in the pad properties menu."
+"Select the image:images/icons/pad.png[] icon from the right hand toolbar. "
+"Pads can be added by clicking in the desired position with the left mouse "
+"button. Pad properties are predefined in the pad properties menu."
 msgstr ""
 
 #. type: Plain text
@@ -1347,9 +1348,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:357
 msgid ""
-"If the user wishes to exploit the the full capabilities of the "
-"auto-placement functions, it is necessary to define the allowed orientations "
-"of the module (Module Properties dialog)."
+"If the user wishes to exploit the the full capabilities of the auto-"
+"placement functions, it is necessary to define the allowed orientations of "
+"the module (Module Properties dialog)."
 msgstr ""
 
 #. type: Plain text
@@ -1414,9 +1415,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:388
 msgid ""
-"Virtual indicates that a component is directly formed by the circuit "
-"board. Examples would be edge connectors or inductors created by a "
-"particular track shape (as sometimes seen in microwave modules)."
+"Virtual indicates that a component is directly formed by the circuit board. "
+"Examples would be edge connectors or inductors created by a particular track "
+"shape (as sometimes seen in microwave modules)."
 msgstr ""
 
 #. type: Title ~
@@ -1521,7 +1522,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:434
-msgid "The offset with respect to the anchor point of the module (usually zero)."
+msgid ""
+"The offset with respect to the anchor point of the module (usually zero)."
 msgstr ""
 
 #. type: Plain text
@@ -1605,9 +1607,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:464
 msgid ""
-"If the edited footprint comes from the current board, the button "
-"image:images/icons/update_module_board.png[] will update this footprint on "
-"the board."
+"If the edited footprint comes from the current board, the button image:"
+"images/icons/update_module_board.png[] will update this footprint on the "
+"board."
 msgstr ""
 
 #. type: Title -
@@ -1632,10 +1634,10 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:15
 msgid ""
-"Duplication is a method to clone an item and pick it up in the same "
-"action. It is broadly similar to copy-and-pasting, but it allows you to "
-"\"sprinkle\" components over the PCB and it allows you to manually lay out "
-"components using the \"Move Exact\" tool (see below) more easily."
+"Duplication is a method to clone an item and pick it up in the same action. "
+"It is broadly similar to copy-and-pasting, but it allows you to \"sprinkle\" "
+"components over the PCB and it allows you to manually lay out components "
+"using the \"Move Exact\" tool (see below) more easily."
 msgstr ""
 
 #. type: Plain text
@@ -1649,12 +1651,10 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:26
 msgid ""
-"image:images/icons/duplicate_pad.png[] "
-"image:images/icons/duplicate_line.png[] "
-"image:images/icons/duplicate_text.png[] "
-"image:images/icons/duplicate_module.png[] "
-"image:images/icons/duplicate_target.png[] "
-"image:images/icons/duplicate_zone.png[]"
+"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line.png"
+"[] image:images/icons/duplicate_text.png[] image:images/icons/"
+"duplicate_module.png[] image:images/icons/duplicate_target.png[] image:"
+"images/icons/duplicate_zone.png[]"
 msgstr ""
 
 #. type: Title ~
@@ -1677,10 +1677,10 @@ msgstr ""
 #: Pcbnew_editing_tools.adoc:41
 msgid ""
 "To use this tools, select the items you with to move and use either the "
-"hotkey (defaults to Ctrl-M) or the context menu items to invoke the "
-"dialog. You can also invoke the dialog with the hotkey which moving or "
-"duplicating items, which can make it easy to repeatedly apply an offset to "
-"multiple components."
+"hotkey (defaults to Ctrl-M) or the context menu items to invoke the dialog. "
+"You can also invoke the dialog with the hotkey which moving or duplicating "
+"items, which can make it easy to repeatedly apply an offset to multiple "
+"components."
 msgstr ""
 
 #. type: Block title
@@ -1762,9 +1762,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:83
 msgid ""
-"image:images/icons/array_pad.png[] image:images/icons/array_line.png[] "
-"image:images/icons/array_text.png[] image:images/icons/array_module.png[] "
-"image:images/icons/array_target.png[] image:images/icons/array_zone.png[]"
+"image:images/icons/array_pad.png[] image:images/icons/array_line.png[] image:"
+"images/icons/array_text.png[] image:images/icons/array_module.png[] image:"
+"images/icons/array_target.png[] image:images/icons/array_zone.png[]"
 msgstr ""
 
 #. type: Plain text
@@ -1834,8 +1834,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*x Spacing*: the horizontal distance from item to the item in the same row\n"
-"and next column. If this is negative, the grid progresses from right to "
-"left.\n"
+"and next column. If this is negative, the grid progresses from right to left.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1916,12 +1915,9 @@ msgstr ""
 #: Pcbnew_editing_tools.adoc:139
 #, no-wrap
 msgid ""
-"*Numbering direction*: Determines whether numbers proceed along rows and "
-"then\n"
-"moves to the next row, or down columns and then to the next column. Note "
-"that\n"
-"the direction on numbering is defined by the sign of the spacing: a "
-"negative\n"
+"*Numbering direction*: Determines whether numbers proceed along rows and then\n"
+"moves to the next row, or down columns and then to the next column. Note that\n"
+"the direction on numbering is defined by the sign of the spacing: a negative\n"
 "spacing will result in right-to-left or bottom-to-top numbering.  i\n"
 msgstr ""
 
@@ -1929,13 +1925,10 @@ msgstr ""
 #: Pcbnew_editing_tools.adoc:144
 #, no-wrap
 msgid ""
-"*Reverse numbering on alternate row/columns*: If selected, the numbering "
-"order\n"
-"(left-to-right or right-to-left, for example) on alternate rows or "
-"columns.\n"
+"*Reverse numbering on alternate row/columns*: If selected, the numbering order\n"
+"(left-to-right or right-to-left, for example) on alternate rows or columns.\n"
 "Whether rows or columns alternate depends on the numbering direction. This\n"
-"option is useful for packages like DIPs where the numbering proceeds up "
-"one\n"
+"option is useful for packages like DIPs where the numbering proceeds up one\n"
 "side and down the other.\n"
 msgstr ""
 
@@ -1956,10 +1949,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Numbering scheme*\n"
-"** *Continuous*: the numbering just continues across a row/column break - "
-"if\n"
-"  the last item in the first row is numbered \"7\", the first item in the "
-"second\n"
+"** *Continuous*: the numbering just continues across a row/column break - if\n"
+"  the last item in the first row is numbered \"7\", the first item in the second\n"
 "  row will be \"8\".\n"
 "** *Co-ordinate*: the numbering uses a two-axis scheme where the\n"
 "  number is made up of the row and column index. Which one comes first\n"
@@ -1970,13 +1961,11 @@ msgstr ""
 #: Pcbnew_editing_tools.adoc:160
 #, no-wrap
 msgid ""
-"*Axis numberings*: what \"alphabet\" to use to number the axes. Choices "
-"are\n"
+"*Axis numberings*: what \"alphabet\" to use to number the axes. Choices are\n"
 "** *Numerals* for normal integer indices\n"
 "** *Hexadecimal* for base-16 indexing\n"
 "** *Alphabetic, minus IOSQXZ*, a common scheme for electronic components,\n"
-"  recommended by ASME Y14.35M-1997 sec. 5.2 (previously MIL-STD-100 "
-"sec. 406.5)\n"
+"  recommended by ASME Y14.35M-1997 sec. 5.2 (previously MIL-STD-100 sec. 406.5)\n"
 "  to avoid confusion with numerals.\n"
 "** *Full alphabet* from A-Z.\n"
 msgstr ""
@@ -2014,8 +2003,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*Angle*: The angular difference between two adjacent items in the\n"
-"array. Set this to zero to event divide the circle with \"count\" "
-"elements.\n"
+"array. Set this to zero to event divide the circle with \"count\" elements.\n"
 msgstr ""
 
 #. type: Plain text
@@ -2036,10 +2024,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:190
 msgid ""
-"Circular arrays have only one dimension and a simpler geometry than "
-"grids. The meanings of the available options are the same as for grids.  "
-"Items are numbered clockwise - for an anticlockwise array, specify a "
-"negative angle."
+"Circular arrays have only one dimension and a simpler geometry than grids. "
+"The meanings of the available options are the same as for grids.  Items are "
+"numbered clockwise - for an anticlockwise array, specify a negative angle."
 msgstr ""
 
 #. type: Title -
@@ -2119,8 +2106,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:24
 msgid ""
-"A color key for the 4 copper layers has also been included: "
-"image:images/Pcbnew_layer_colour_key.png[]"
+"A color key for the 4 copper layers has also been included: image:images/"
+"Pcbnew_layer_colour_key.png[]"
 msgstr ""
 
 #. type: Title ~
@@ -2139,8 +2126,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:34
 msgid ""
-"Zones are filled or refilled when starting a DRC. Press the button "
-"image:images/icons/drc.png[[] to launch the following DRC dialog:"
+"Zones are filled or refilled when starting a DRC. Press the button image:"
+"images/icons/drc.png[[] to launch the following DRC dialog:"
 msgstr ""
 
 #. type: Plain text
@@ -2168,9 +2155,9 @@ msgstr ""
 #: Pcbnew_fabrication_files.adoc:48
 msgid ""
 "Set the coordinates origin for the photo plot and drill files, one must "
-"place the auxiliary axis on this origin. Activate the icon "
-"image:images/icons/pcb_offset.png. Move the auxiliary axis to the chosen "
-"location by clicking for instance on this location."
+"place the auxiliary axis on this origin. Activate the icon image:images/"
+"icons/pcb_offset.png. Move the auxiliary axis to the chosen location by "
+"clicking for instance on this location."
 msgstr ""
 
 #. type: Plain text
@@ -2187,8 +2174,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:56
 msgid ""
-"This is done via the Files/Plot menu option and invokes the following "
-"dialog:"
+"This is done via the Files/Plot menu option and invokes the following dialog:"
 msgstr ""
 
 #. type: Plain text
@@ -2512,7 +2498,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:199
-msgid "This value is negative because the mask usually is smaller than the pad."
+msgid ""
+"This value is negative because the mask usually is smaller than the pad."
 msgstr ""
 
 #. type: Title ~
@@ -2530,7 +2517,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:208
-msgid "One can also produce an optional drill report, and an optional drill map."
+msgid ""
+"One can also produce an optional drill report, and an optional drill map."
 msgstr ""
 
 #. type: Plain text
@@ -2614,12 +2602,12 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:246
 msgid ""
-"This option is accessed via the Postprocess/Create Cmp file menu "
-"option. However, no file will be generated unless at least one module has "
-"the Normal+Insert attribute activated (see Editing Modules). One or two "
-"files will be produced, depending upon whether insertable components are "
-"present on one or both sides of the PCB. A dialogue box will display the "
-"names of the file(s) created."
+"This option is accessed via the Postprocess/Create Cmp file menu option. "
+"However, no file will be generated unless at least one module has the Normal"
+"+Insert attribute activated (see Editing Modules). One or two files will be "
+"produced, depending upon whether insertable components are present on one or "
+"both sides of the PCB. A dialogue box will display the names of the file(s) "
+"created."
 msgstr ""
 
 #. type: Title ~
@@ -2631,9 +2619,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:254
 msgid ""
-"The options described below (part of the Files/Plot dialogue) allow for "
-"fine-grained control of the tracing process. They are particularly useful "
-"when printing the silkscreen markings for cabling documentation."
+"The options described below (part of the Files/Plot dialogue) allow for fine-"
+"grained control of the tracing process. They are particularly useful when "
+"printing the silkscreen markings for cabling documentation."
 msgstr ""
 
 #. type: Plain text
@@ -2660,9 +2648,7 @@ msgid ""
 "|Print Sheet Ref\n"
 "|Trace sheet outline and the cartridge.\n"
 "|Print Pads on Silkscreen\n"
-"|Enables/disables printing of pad outlines on the silkscreen layers (if the "
-"pads have already been declared to appear on these layers). In fact useful "
-"for preventing any pads from being printed, in the disabled mode.\n"
+"|Enables/disables printing of pad outlines on the silkscreen layers (if the pads have already been declared to appear on these layers). In fact useful for preventing any pads from being printed, in the disabled mode.\n"
 "|Print Module Value\n"
 "|Enables printing of VALUE text on the silkscreen.\n"
 "|Print Module Reference\n"
@@ -2670,11 +2656,7 @@ msgid ""
 "|Print other module texts\n"
 "|Enables the printing of other text fields on the silkscreen.\n"
 "|Force Print Invisible Texts\n"
-"|Forces printing of fields (reference, value) declared as invisible. In "
-"combination with Print Module Reference and Print Module Value, this option "
-"enables production of documents for guiding cabling and repair. These "
-"options have proven necessary for circuits using components that are too "
-"small (CMS) to allow readable placement of two separate text fields.\n"
+"|Forces printing of fields (reference, value) declared as invisible. In combination with Print Module Reference and Print Module Value, this option enables production of documents for guiding cabling and repair. These options have proven necessary for circuits using components that are too small (CMS) to allow readable placement of two separate text fields.\n"
 msgstr ""
 
 #. type: Title -
@@ -2799,8 +2781,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:56
 msgid ""
 "The framework of the block is traced by moving the mouse whilst holding down "
-"the left mouse button. The operation is executed when the button is "
-"released."
+"the left mouse button. The operation is executed when the button is released."
 msgstr ""
 
 #. type: Plain text
@@ -3051,9 +3032,9 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:190
 msgid ""
 "Units used to display dimensions values are inch and mm. The desired unit "
-"can be selected by pressing the icon located in left toolbar: "
-"image:images/Inch mm combo icon.png[] However one can enter the unit used to "
-"define a value, when entering a new value."
+"can be selected by pressing the icon located in left toolbar: image:images/"
+"Inch mm combo icon.png[] However one can enter the unit used to define a "
+"value, when entering a new value."
 msgstr ""
 
 #. type: Plain text
@@ -3318,7 +3299,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:297
-msgid "Brings up the 3D viewer used to display the circuit board in 3 dimensions."
+msgid ""
+"Brings up the 3D viewer used to display the circuit board in 3 dimensions."
 msgstr ""
 
 #. type: Plain text
@@ -3368,8 +3350,7 @@ msgid ""
 "| image:images/icons/sheetset.png[]\n"
 "    | Selection of the page size and modification of the file properties.\n"
 "| image:images/icons/module_editor.png[]\n"
-"    | Opens module editor (Modedit) to display/edit library or pcb "
-"modules.\n"
+"    | Opens module editor (Modedit) to display/edit library or pcb modules.\n"
 "| image:images/icons/undo.png[] image:images/icons/redo.png[]\n"
 "    | Undo/Redo last commands (10 levels)\n"
 "| image:images/icons/print_button.png[]\n"
@@ -3649,7 +3630,8 @@ msgid "Normal mode"
 msgstr ""
 
 #. type: Plain text
-#: Pcbnew_general_operations.adoc:523 Pcbnew_general_operations.adoc:540 Pcbnew_general_operations.adoc:557
+#: Pcbnew_general_operations.adoc:523 Pcbnew_general_operations.adoc:540
+#: Pcbnew_general_operations.adoc:557
 msgid "Pop-up menu with no selection:"
 msgstr ""
 
@@ -3659,7 +3641,8 @@ msgid "image:images/Pcbnew_popup_normal_mode.png[]"
 msgstr ""
 
 #. type: Plain text
-#: Pcbnew_general_operations.adoc:527 Pcbnew_general_operations.adoc:544 Pcbnew_general_operations.adoc:561
+#: Pcbnew_general_operations.adoc:527 Pcbnew_general_operations.adoc:544
+#: Pcbnew_general_operations.adoc:561
 msgid "Pop-up menu with track selected:"
 msgstr ""
 
@@ -3669,7 +3652,8 @@ msgid "image:images/Pcbnew_popup_normal_mode_track.png[]"
 msgstr ""
 
 #. type: Plain text
-#: Pcbnew_general_operations.adoc:531 Pcbnew_general_operations.adoc:548 Pcbnew_general_operations.adoc:565
+#: Pcbnew_general_operations.adoc:531 Pcbnew_general_operations.adoc:548
+#: Pcbnew_general_operations.adoc:565
 msgid "Pop-up menu with footprint selected:"
 msgstr ""
 
@@ -3686,7 +3670,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:538
-msgid "Same cases in Footprint Mode (image:images/icons/mode_module.png[] enabled)"
+msgid ""
+"Same cases in Footprint Mode (image:images/icons/mode_module.png[] enabled)"
 msgstr ""
 
 #. type: Plain text
@@ -3756,14 +3741,15 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_installation.adoc:16
 msgid ""
-"A default configuration file `kicad.pro` is provided in "
-"`kicad/share/template`. This file is used as the initial configuration for "
-"all new projects."
+"A default configuration file `kicad.pro` is provided in `kicad/share/"
+"template`. This file is used as the initial configuration for all new "
+"projects."
 msgstr ""
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:19
-msgid "This configuration file can be modified to change libraries to be loaded"
+msgid ""
+"This configuration file can be modified to change libraries to be loaded"
 msgstr ""
 
 #. type: Plain text
@@ -3774,10 +3760,10 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_installation.adoc:26
 msgid ""
-"Launch Pcbnew using kicad or directly. On Windows is in "
-"`C:\\kicad\\bin\\pcbnew.exe` and on Linux you can run "
-"`/usr/local/kicad/bin/kicad` or `/usr/local/kicad/bin/pcbnew` if the "
-"binaries are located in `/usr/local/kicad/bin`."
+"Launch Pcbnew using kicad or directly. On Windows is in `C:\\kicad\\bin"
+"\\pcbnew.exe` and on Linux you can run `/usr/local/kicad/bin/kicad` or `/usr/"
+"local/kicad/bin/pcbnew` if the binaries are located in `/usr/local/kicad/"
+"bin`."
 msgstr ""
 
 #. type: Plain text
@@ -3793,8 +3779,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_installation.adoc:30
 msgid ""
-"Save the modified configuration (Save Cfg) to "
-"`kicad/share/template/kicad.pro`."
+"Save the modified configuration (Save Cfg) to `kicad/share/template/kicad."
+"pro`."
 msgstr ""
 
 #. type: Title ~
@@ -3805,7 +3791,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:36
-msgid "You can access to the library list initialization from the Preferences menu:"
+msgid ""
+"You can access to the library list initialization from the Preferences menu:"
 msgstr ""
 
 #. type: Plain text
@@ -3863,8 +3850,7 @@ msgstr ""
 #: Pcbnew_installation.adoc:68
 msgid ""
 "The image below shows the footprint library table editing dialog which can "
-"be opened by invoking the “Library Tables” entry from the “Preferences” "
-"menu."
+"be opened by invoking the “Library Tables” entry from the “Preferences” menu."
 msgstr ""
 
 #. type: Plain text
@@ -3980,13 +3966,13 @@ msgid ""
 "environment variable substitution.  This allows you to define custom paths "
 "to where your libraries are stored in environment variables.  Environment "
 "variable substitution is supported by using the syntax `${ENV_VAR_NAME}` in "
-"the footprint library path.  By default, at run time Pcbnew defines the "
-"`$KISYSMOD` environment variable.  This points to where the default "
-"footprint libraries that were installed with KiCad are located.  You can "
-"override `$KISYSMOD` by defining it yourself which allows you to substitute "
-"your own libraries in place of the default KiCad footprint libraries.  When "
-"a board file is loaded, Pcbnew also defines the `$KPRJMOD` using the board "
-"file path.  This allows you to create libraries in the project path without "
+"the footprint library path.  By default, at run time Pcbnew defines the `"
+"$KISYSMOD` environment variable.  This points to where the default footprint "
+"libraries that were installed with KiCad are located.  You can override `"
+"$KISYSMOD` by defining it yourself which allows you to substitute your own "
+"libraries in place of the default KiCad footprint libraries.  When a board "
+"file is loaded, Pcbnew also defines the `$KPRJMOD` using the board file "
+"path.  This allows you to create libraries in the project path without "
 "having to define the absolute path to the library in the project specific "
 "footprint library table."
 msgstr ""
@@ -4005,10 +3991,10 @@ msgid ""
 "name of the KiCad footprint file format) footprints and optionally provides "
 "\"Copy On Write\" (COW) support for editing footprints read from the GitHub "
 "repo and saving them locally.  Therefore the \"GitHub\" plugin is for *read "
-"only for accessing remote pretty footprint libraries* at "
-"https://github.com.  To add a GitHub entry to the footprint library table "
-"the \"Library Path\" in the footprint library table row for a must be set to "
-"a valid GitHub URL."
+"only for accessing remote pretty footprint libraries* at https://github."
+"com.  To add a GitHub entry to the footprint library table the \"Library Path"
+"\" in the footprint library table row for a must be set to a valid GitHub "
+"URL."
 msgstr ""
 
 #. type: Plain text
@@ -4036,12 +4022,12 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_installation.adoc:194
 msgid ""
-"The \"Plugin Type\" must be set to \"Github\".  To enable the “Copy On "
-"Write\" feature the option `allow_pretty_writing_to_this_dir` must be added "
-"to the “Options” setting of the footprint library table entry.  This option "
-"is the \"Library Path\" for local storage of modified copies of footprints "
-"read from the GitHub repo.  The footprints saved to this path are combined "
-"with the read only part of the GitHub repository to create the footprint "
+"The \"Plugin Type\" must be set to \"Github\".  To enable the “Copy On Write"
+"\" feature the option `allow_pretty_writing_to_this_dir` must be added to "
+"the “Options” setting of the footprint library table entry.  This option is "
+"the \"Library Path\" for local storage of modified copies of footprints read "
+"from the GitHub repo.  The footprints saved to this path are combined with "
+"the read only part of the GitHub repository to create the footprint "
 "library.  If this option is missing, then the GitHub library is read only.  "
 "If the option is present for a GitHub library, then any writes to this "
 "hybrid library will go to the local `*.pretty` directory.  Note that the "
@@ -4101,8 +4087,7 @@ msgid ""
 "the path given by the option `allow_pretty_writing_to_this_dir`.  Once you "
 "have saved a footprint to the COW library's local directory by doing a "
 "footprint save in the footprint editor, no GitHub updates will be seen when "
-"loading a footprint with the same name as one for which you've saved "
-"locally."
+"loading a footprint with the same name as one for which you've saved locally."
 msgstr ""
 
 #. type: Plain text
@@ -4125,23 +4110,23 @@ msgid ""
 "GitHub repository maintainer, you can help update the GitHub copy.  Simply "
 "email the individual `*.kicad_mod` files you find in your COW directories to "
 "the maintainer of the GitHub repository.  After you've received confirmation "
-"that your changes have been committed, you can safely delete your COW "
-"file(s)  and the updated footprint from the read only part of GitHub library "
+"that your changes have been committed, you can safely delete your COW file"
+"(s)  and the updated footprint from the read only part of GitHub library "
 "will flow down.  Your goal should be to keep the COW file set as small as "
-"possible by contributing frequently to the shared master copies at "
-"https://github.com."
+"possible by contributing frequently to the shared master copies at https://"
+"github.com."
 msgstr ""
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:259
 msgid ""
 "Finally, Nginx can be used as a cache to the github server to speed up the "
-"loading of footprints. It can be installed locally or on a network "
-"server. There is an example configuration in Kicad sources at "
-"pcbnew/github/nginx.conf. The most straightforward way to get this working "
-"is to overwrite the default nginx.conf with this one and `export "
-"KIGITHUB=http://my_server:54321/KiCad`, where `my_server` is the IP or "
-"domain name of the machine running nginx."
+"loading of footprints. It can be installed locally or on a network server. "
+"There is an example configuration in Kicad sources at pcbnew/github/nginx."
+"conf. The most straightforward way to get this working is to overwrite the "
+"default nginx.conf with this one and `export KIGITHUB=http://my_server:54321/"
+"KiCad`, where `my_server` is the IP or domain name of the machine running "
+"nginx."
 msgstr ""
 
 #. type: Title ^
@@ -4296,10 +4281,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:44
 msgid ""
-"To activate the router tool press the _Interactive Router_ button "
-"image:images/route_icon.png[Interactive Router Button] or the *X* key.  The "
-"cursor will turn into a cross and the tool name, will appear in the status "
-"bar."
+"To activate the router tool press the _Interactive Router_ button image:"
+"images/route_icon.png[Interactive Router Button] or the *X* key.  The cursor "
+"will turn into a cross and the tool name, will appear in the status bar."
 msgstr ""
 
 #. type: Plain text
@@ -4324,8 +4308,7 @@ msgstr ""
 #: Pcbnew_interactive_router.adoc:59
 msgid ""
 "Clicking on a pad/track/via in the same net finishes routing. Clicking in "
-"empty space fixes the segments routed so far and continues routing the "
-"trace."
+"empty space fixes the segments routed so far and continues routing the trace."
 msgstr ""
 
 #. type: Plain text
@@ -4339,9 +4322,9 @@ msgstr ""
 #: Pcbnew_interactive_router.adoc:67
 msgid ""
 "Pressing *V* or selecting _Place Through Via_ from the context menu while "
-"routing a track attaches a via at the end of the trace being "
-"routed. Pressing *V* again disables via placement. Clicking in any spot "
-"establishes the via and continues routing."
+"routing a track attaches a via at the end of the trace being routed. "
+"Pressing *V* again disables via placement. Clicking in any spot establishes "
+"the via and continues routing."
 msgstr ""
 
 #. type: Plain text
@@ -4705,7 +4688,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:99
-msgid "Pcbnew generates in an extremely simple way all the documents necessary:"
+msgid ""
+"Pcbnew generates in an extremely simple way all the documents necessary:"
 msgstr ""
 
 #. type: Plain text
@@ -4821,8 +4805,8 @@ msgstr ""
 #: Pcbnew_layers.adoc:31
 msgid ""
 "To enable navigation between layers, it is necessary to select the number of "
-"working layers. To do this you can use the menu bar and select Preferences "
-"-> Layers Setup."
+"working layers. To do this you can use the menu bar and select Preferences -"
+"> Layers Setup."
 msgstr ""
 
 #. type: Plain text
@@ -5110,8 +5094,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_layers.adoc:154
 msgid ""
-"This mode is entered when the tool (in the left toolbar) is activated: "
-"image:images/icons/contrast_mode.png[]"
+"This mode is entered when the tool (in the left toolbar) is activated: image:"
+"images/icons/contrast_mode.png[]"
 msgstr ""
 
 #. type: Plain text
@@ -5435,10 +5419,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:139
 msgid ""
-"Load the similar module via the buttons "
-"image:images/icons/load_module_lib.png[], "
-"image:images/icons/load_module_board.png[] or "
-"image:images/icons/import_module.png[]."
+"Load the similar module via the buttons image:images/icons/load_module_lib."
+"png[], image:images/icons/load_module_board.png[] or image:images/icons/"
+"import_module.png[]."
 msgstr ""
 
 #. type: Plain text
@@ -5455,11 +5438,10 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:150
 msgid ""
-"The creation of a new library is done via the button "
-"image:images/icons/new_library.png[], in this case the file is created by "
-"default in the library directory or via the button "
-"image:images/icons/export_module.png[], in which case the file is created by "
-"default in your working directory."
+"The creation of a new library is done via the button image:images/icons/"
+"new_library.png[], in this case the file is created by default in the "
+"library directory or via the button image:images/icons/export_module.png[], "
+"in which case the file is created by default in your working directory."
 msgstr ""
 
 #. type: Plain text
@@ -5487,10 +5469,10 @@ msgstr ""
 #: Pcbnew_managing_libs.adoc:167
 msgid ""
 "The action of saving a module (thereby modifying the file of the active "
-"library) is performed using this button "
-"image:images/icons/save_library.png[]. If a module of the same name already "
-"exists, it will be replaced. Since you will depend upon the accuracy of the "
-"library modules, it is worth double-checking the module before saving."
+"library) is performed using this button image:images/icons/save_library.png"
+"[]. If a module of the same name already exists, it will be replaced. Since "
+"you will depend upon the accuracy of the library modules, it is worth double-"
+"checking the module before saving."
 msgstr ""
 
 #. type: Plain text
@@ -5508,19 +5490,21 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:176
-msgid "Select the source library via the button image:images/icons/library.png[]."
+msgid ""
+"Select the source library via the button image:images/icons/library.png[]."
 msgstr ""
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:178
-msgid "Load the module via the button image:images/icons/load_module_lib.png[]."
+msgid ""
+"Load the module via the button image:images/icons/load_module_lib.png[]."
 msgstr ""
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:180
 msgid ""
-"Select the destination library via the button "
-"image:images/icons/library.png[]."
+"Select the destination library via the button image:images/icons/library.png"
+"[]."
 msgstr ""
 
 #. type: Plain text
@@ -5625,8 +5609,8 @@ msgstr ""
 #: Pcbnew_managing_libs.adoc:227
 msgid ""
 "When directly loading a module (the icon image:images/icons/module.png[] of "
-"the right-hand Pcbnew toolbar), keywords may be entered in the dialog "
-"box. Thus, entering the text `=CONN` will cause the display of the list of "
+"the right-hand Pcbnew toolbar), keywords may be entered in the dialog box. "
+"Thus, entering the text `=CONN` will cause the display of the list of "
 "modules whose keyword lists contain the word `CONN`."
 msgstr ""
 
@@ -5722,8 +5706,8 @@ msgstr ""
 #: Pcbnew_module_placement.adoc:12
 msgid ""
 "Whilst moving modules the module ratsnest (the net connections) can be "
-"displayed to assist the placement. To enable this the icon "
-"image:images/icons/modratsnest.png[] of the left toolbar must be activated."
+"displayed to assist the placement. To enable this the icon image:images/"
+"icons/modratsnest.png[] of the left toolbar must be activated."
 msgstr ""
 
 #. type: Title ~
@@ -5798,10 +5782,10 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:51
 msgid ""
-"Generally speaking, modules can only be moved if they have not been "
-"\"Fixed\".  This attribute can be turned on and off from the pop-up window "
-"(click right mouse button over module) whilst in Module Mode, or through the "
-"Edit Module Menu."
+"Generally speaking, modules can only be moved if they have not been \"Fixed"
+"\".  This attribute can be turned on and off from the pop-up window (click "
+"right mouse button over module) whilst in Module Mode, or through the Edit "
+"Module Menu."
 msgstr ""
 
 #. type: Plain text
@@ -5892,11 +5876,11 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:96
 msgid ""
-"It also seeks the best orientation (0, 90, -90, 180 degrees) of the "
-"module. The placement is made according to an optimization algorithm, which "
-"seeks to minimize the length of the ratsnest, and which seeks to create "
-"space between the larger modules with with many pads. The order of placement "
-"is optimized to initially place these larger modules with many pads."
+"It also seeks the best orientation (0, 90, -90, 180 degrees) of the module. "
+"The placement is made according to an optimization algorithm, which seeks to "
+"minimize the length of the ratsnest, and which seeks to create space between "
+"the larger modules with with many pads. The order of placement is optimized "
+"to initially place these larger modules with many pads."
 msgstr ""
 
 #. type: Title ^
@@ -5944,10 +5928,10 @@ msgstr ""
 #: Pcbnew_module_placement.adoc:118
 msgid ""
 "Having completed any manual placement these modules must be \"Fixed\" to "
-"prevent them being moved. With the Module Mode icon "
-"image:images/icons/mode_module.png selected right click on the module and "
-"pick \"Fix Module\" on the Pop-up menu. This can also be done through the "
-"Edit/Module Pop-up menu."
+"prevent them being moved. With the Module Mode icon image:images/icons/"
+"mode_module.png selected right click on the module and pick \"Fix Module\" "
+"on the Pop-up menu. This can also be done through the Edit/Module Pop-up "
+"menu."
 msgstr ""
 
 #. type: Plain text
@@ -6072,8 +6056,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:13
 msgid ""
-"The most important parameters are accessed from the following drop-down "
-"menu:"
+"The most important parameters are accessed from the following drop-down menu:"
 msgstr ""
 
 #. type: Plain text
@@ -6166,8 +6149,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:52
 msgid ""
-"Pcbnew allows you to define different routing parameters foe each "
-"net. Parameters are defined by a group of nets."
+"Pcbnew allows you to define different routing parameters foe each net. "
+"Parameters are defined by a group of nets."
 msgstr ""
 
 #. type: Plain text
@@ -6392,7 +6375,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:142
-msgid "Use the largest possible value and conform to the minimum sizes given here."
+msgid ""
+"Use the largest possible value and conform to the minimum sizes given here."
 msgstr ""
 
 #. type: delimited block |
@@ -6421,7 +6405,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:162
-msgid "Usually, the minimum clearance is very similar to the minimum track width."
+msgid ""
+"Usually, the minimum clearance is very similar to the minimum track width."
 msgstr ""
 
 #. type: Title ~
@@ -6508,11 +6493,11 @@ msgid ""
 "control over routing priorities. For example, is is preferable to start by "
 "routing power tracks, making them wide and short and keeping analog and "
 "digital supplies well separated. Later, sensitive signal tracks should be "
-"routed. Amongst other problems, automatic routing often requires many "
-"vias. However, automatic routing can offer useful insight into the "
-"positioning of modules.  With experience, you will probably find that the "
-"automatic router is useful for quickly routing the 'obvious' tracks, but the "
-"remaining tracks will best be routed by hand."
+"routed. Amongst other problems, automatic routing often requires many vias. "
+"However, automatic routing can offer useful insight into the positioning of "
+"modules.  With experience, you will probably find that the automatic router "
+"is useful for quickly routing the 'obvious' tracks, but the remaining tracks "
+"will best be routed by hand."
 msgstr ""
 
 #. type: Title ~
@@ -6524,8 +6509,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:206
 msgid ""
-"Pcbnew can display the full ratsnest, if the button "
-"image:images/icons/modratsnest.png[] is activated."
+"Pcbnew can display the full ratsnest, if the button image:images/icons/"
+"modratsnest.png[] is activated."
 msgstr ""
 
 #. type: Plain text
@@ -6553,10 +6538,10 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:223
 msgid ""
-"A track can be created by clicking on the button "
-"image:images/icons/add_tracks.png[]. A new track must start on a pad or on "
-"an other track, because Pcbnew must know the net used for the new track (in "
-"order to match the DRC rules)."
+"A track can be created by clicking on the button image:images/icons/"
+"add_tracks.png[]. A new track must start on a pad or on an other track, "
+"because Pcbnew must know the net used for the new track (in order to match "
+"the DRC rules)."
 msgstr ""
 
 #. type: Plain text
@@ -6657,7 +6642,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:263
-msgid "The user can utilize the default Netclasses values or a specified value."
+msgid ""
+"The user can utilize the default Netclasses values or a specified value."
 msgstr ""
 
 #. type: Title ^
@@ -6681,27 +6667,23 @@ msgid ""
 "| image:images/Pcbnew_track_toolbar_track_width_selection_in_use.png[]\n"
 "| Selecting a specific track width value.\n"
 "The first value in list is always the netclass value.\n"
-"Others values are tracks widths entered from the Global Design Rules "
-"editor.\n"
+"Others values are tracks widths entered from the Global Design Rules editor.\n"
 "| image:images/Pcbnew_track_toolbar_via_size_selection.png[]\n"
 "| Via size selection.\n"
 "The symbol * is a mark for default Netclass value selection.\n"
 "| image:images/Pcbnew_track_toolbar_via_size_selection_in_use.png[]\n"
 "| Selecting a specific via dimension value.\n"
 "The first value in list is always the netclass value.\n"
-"Others values are vias dimensions entered from the Global Design Rules "
-"editor.\n"
+"Others values are vias dimensions entered from the Global Design Rules editor.\n"
 "| image:images/Pcbnew_track_toolbar_clearance_value.png[]\n"
 "| Display the current clearance value.\n"
 "This is the clearance value set in the current selected Netclass.\n"
 "| image:images/Pcbnew_track_toolbar_netclass.png[]\n"
 "| Current selected Netclass.\n"
-"When clicking on a track or a pad, Pcbnew automatically selects the "
-"corresponding Netclass, and displays its name.\n"
+"When clicking on a track or a pad, Pcbnew automatically selects the corresponding Netclass, and displays its name.\n"
 "| image:images/icons/auto_track_width.png[]\n"
 "| When enabled: Automatic track width selection.\n"
-"When starting a track on an existing track, the new track has the same width "
-"as the existing track.\n"
+"When starting a track on an existing track, the new track has the same width as the existing track.\n"
 msgstr ""
 
 #. type: Title ^
@@ -6726,8 +6708,7 @@ msgstr ""
 #: Pcbnew_routing.adoc:307
 msgid ""
 "If you want to change many vias (or tracks) size, the best way is to use a "
-"specific Netclass to for the net(s) that must be edited (see global "
-"changes)."
+"specific Netclass to for the net(s) that must be edited (see global changes)."
 msgstr ""
 
 #. type: Title ~
@@ -7103,9 +7084,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:29
 msgid ""
-"Copper zones must be filled or refilled after changes in tracks or "
-"pads. Copper zones (usually ground and power planes) are usually attached to "
-"a net."
+"Copper zones must be filled or refilled after changes in tracks or pads. "
+"Copper zones (usually ground and power planes) are usually attached to a net."
 msgstr ""
 
 #. type: Plain text
@@ -7250,8 +7230,8 @@ msgstr ""
 #: Pcbnew_zones.adoc:89
 msgid ""
 "This is possible if the small zone has a higher priority level than the "
-"large zone. Level setting: "
-"image:images/Pcbnew_zone_priority_level_setting.png[]"
+"large zone. Level setting: image:images/Pcbnew_zone_priority_level_setting."
+"png[]"
 msgstr ""
 
 #. type: Plain text
@@ -7651,12 +7631,14 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:255
-msgid "When the board is finished, one must fill or refill all zones. To do that:"
+msgid ""
+"When the board is finished, one must fill or refill all zones. To do that:"
 msgstr ""
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:257
-msgid "Activate the tool zones via the button image:images/icons/add_zone.png[]."
+msgid ""
+"Activate the tool zones via the button image:images/icons/add_zone.png[]."
 msgstr ""
 
 #. type: Plain text
@@ -7667,8 +7649,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:259
 msgid ""
-"Use Fill or Refill All Zones: "
-"image:images/Pcbnew_fill_refill_all_zones.png[]"
+"Use Fill or Refill All Zones: image:images/Pcbnew_fill_refill_all_zones.png[]"
 msgstr ""
 
 #. type: Plain text
@@ -7717,7 +7698,8 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:282
-msgid "This is done using the button . The active layer must be a technical layer."
+msgid ""
+"This is done using the button . The active layer must be a technical layer."
 msgstr ""
 
 #. type: Plain text

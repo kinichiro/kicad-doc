@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: GerbView-ja\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-06-25 01:20+0900\n"
+"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"Language-Team: kicad.jp <kicad@kicad.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title =
 #: GerbView.adoc:8
 #, no-wrap
 msgid "GerbView"
-msgstr ""
+msgstr "GerbView"
 
 #. type: Plain text
 #: GerbView.adoc:11
@@ -42,11 +42,11 @@ msgstr ""
 #. type: Plain text
 #: GerbView.adoc:22
 msgid ""
-"This document is Copyright © 2010–2014 by it’s contributors as listed "
-"below. You may distribute it and/or modify it under the terms of either the "
-"GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 "
-"or later, or the Creative Commons Attribution License "
-"(http://creativecommons.org/licenses/by/3.0/), version 3.0 or later."
+"This document is Copyright © 2010–2014 by it’s contributors as listed below. "
+"You may distribute it and/or modify it under the terms of either the GNU "
+"General Public License (http://www.gnu.org/licenses/gpl.html), version 3 or "
+"later, or the Creative Commons Attribution License (http://creativecommons."
+"org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 
 #. type: Plain text
@@ -526,9 +526,8 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:190
 msgid ""
-"To print layers, use the "
-"image:images/02400000024A913E3D7.png[02400000024A913E3D7_png] tool, or the "
-"main menu (files)"
+"To print layers, use the image:images/02400000024A913E3D7.png"
+"[02400000024A913E3D7_png] tool, or the main menu (files)"
 msgstr ""
 
 #. type: Title ^
@@ -540,9 +539,9 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:197
 msgid ""
-"But be sure items are inside the printable area (select by "
-"image:images/02200000024BE5ADAA7.png[02200000024BE5ADAA7_png] a suitable "
-"page format)."
+"But be sure items are inside the printable area (select by image:"
+"images/02200000024BE5ADAA7.png[02200000024BE5ADAA7_png] a suitable page "
+"format)."
 msgstr ""
 
 #. type: Plain text
@@ -716,8 +715,9 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_02.adoc:6
 msgid ""
-"image:images/dcodes_5EB0000016B59714152.png[dcodes_5EB0000016B59714152_png,scaledwidth=\"50%\"] "
-"image:images/dcodes_09D000000A3540174CA.png[dcodes_09D000000A3540174CA_png,scaledwidth=\"50%\"]"
+"image:images/dcodes_5EB0000016B59714152.png[dcodes_5EB0000016B59714152_png,"
+"scaledwidth=\"50%\"] image:images/dcodes_09D000000A3540174CA.png"
+"[dcodes_09D000000A3540174CA_png,scaledwidth=\"50%\"]"
 msgstr ""
 
 #. type: Plain text
@@ -756,9 +756,9 @@ msgstr ""
 msgid ""
 "No matter how powerful your design software may be, you must eventually "
 "create a photoplot file in Gerber format to create film. Aggravation can be "
-"reduced by better understanding what is contained in a photoplot "
-"file. Misunderstandings between the PCB designer and photoplot operator "
-"account for a large percent of the bad film produced in this industry."
+"reduced by better understanding what is contained in a photoplot file. "
+"Misunderstandings between the PCB designer and photoplot operator account "
+"for a large percent of the bad film produced in this industry."
 msgstr ""
 
 #. type: Title ~
@@ -909,10 +909,9 @@ msgstr ""
 #: GerbView_chapter_02.adoc:112
 msgid ""
 "The G90 command in line 1 tells the machine that data coordinates are "
-"absolute. Each set of coordinates is referenced to the table's origin "
-"(0,0). The converse to absolute is incremental-each coordinate is measured "
-"relative the previous coordinate value and is set by issuing the G91 "
-"command."
+"absolute. Each set of coordinates is referenced to the table's origin (0,0). "
+"The converse to absolute is incremental-each coordinate is measured relative "
+"the previous coordinate value and is set by issuing the G91 command."
 msgstr ""
 
 #. type: Plain text
@@ -944,7 +943,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:130
-msgid "image:images/dcodes_0F5000000796F138525.png[dcodes_0F5000000796F138525_png]"
+msgid ""
+"image:images/dcodes_0F5000000796F138525.png[dcodes_0F5000000796F138525_png]"
 msgstr ""
 
 #. type: Plain text
@@ -993,12 +993,14 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:155
-msgid "D02 (D2): move to the x-y location specified with the shutter *closed* ."
+msgid ""
+"D02 (D2): move to the x-y location specified with the shutter *closed* ."
 msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:157
-msgid "D03 (D3): move to the x-y location specified with the shutter *closed* ;"
+msgid ""
+"D03 (D3): move to the x-y location specified with the shutter *closed* ;"
 msgstr ""
 
 #. type: Plain text
@@ -1057,8 +1059,8 @@ msgstr ""
 #: GerbView_chapter_02.adoc:188
 msgid ""
 "Unlike D01, D02 and D03 the D-codes with values from 10-999 are data, not "
-"commands. They represent apertures or positions on the photoplotter's "
-"wheel. Early photoplotters used a wheel with 24 positions."
+"commands. They represent apertures or positions on the photoplotter's wheel. "
+"Early photoplotters used a wheel with 24 positions."
 msgstr ""
 
 #. type: Plain text
@@ -1118,11 +1120,11 @@ msgstr ""
 msgid ""
 "At the end of the file we see the command M02*. Gerber calls the M codes, "
 "miscellaneous codes. The only common M-code used is at the end of the file- "
-"M00, M01 and M02 which are all different types of program \"stop\" "
-"commands. Occasionally one sees an M02 at the beginning of a Gerber "
-"file. Apparently some applications issue this to insure that any previous "
-"file running is stopped - however many CAM softwares see the M02 at the "
-"beginning of the file and ignore anything following it."
+"M00, M01 and M02 which are all different types of program \"stop\" commands. "
+"Occasionally one sees an M02 at the beginning of a Gerber file. Apparently "
+"some applications issue this to insure that any previous file running is "
+"stopped - however many CAM softwares see the M02 at the beginning of the "
+"file and ignore anything following it."
 msgstr ""
 
 #. type: Title ~
@@ -1136,8 +1138,8 @@ msgstr ""
 msgid ""
 "Coordinate data makes up the bulk of the Gerber file. It is difficult to "
 "manually follow table motion from a printout because Gerber uses several "
-"techniques to minimize the number of bytes required to represent the "
-"data. These are:"
+"techniques to minimize the number of bytes required to represent the data. "
+"These are:"
 msgstr ""
 
 #. type: Plain text
@@ -1183,12 +1185,12 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_02.adoc:262
 msgid ""
-"The table moves along X from 00560 to 00670 during the first two "
-"commands. But what does 00560 represent? It could be 5.6 inches, 0.56 "
-"inches, 0.056 inches or even (but not likely) 0.0056 inches. No way to "
-"tell. If the designer tells you that there are two integers before the "
-"decimal point and 4 integers after the decimal point then you know that "
-"00560 represents 0.56 inch."
+"The table moves along X from 00560 to 00670 during the first two commands. "
+"But what does 00560 represent? It could be 5.6 inches, 0.56 inches, 0.056 "
+"inches or even (but not likely) 0.0056 inches. No way to tell. If the "
+"designer tells you that there are two integers before the decimal point and "
+"4 integers after the decimal point then you know that 00560 represents 0.56 "
+"inch."
 msgstr ""
 
 #. type: Plain text
@@ -1293,7 +1295,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:321
-msgid "It turns out that leading zero suppression is more commonly encountered."
+msgid ""
+"It turns out that leading zero suppression is more commonly encountered."
 msgstr ""
 
 #. type: Title ~
@@ -1336,9 +1339,8 @@ msgid ""
 "and a properly sorted Gerber file will be much smaller when the redundant "
 "coordinate is eliminated. This is such a fundamental concept that coordinate "
 "data is always modal. You don't need to inform your target site that data is "
-"modal or nonmodal - every photoplotter and CAM software supports modal "
-"data. In this example an additional 4 bytes were save by using modal "
-"coordinates."
+"modal or nonmodal - every photoplotter and CAM software supports modal data. "
+"In this example an additional 4 bytes were save by using modal coordinates."
 msgstr ""
 
 #. type: Title ~
@@ -1374,8 +1376,8 @@ msgstr ""
 msgid ""
 "It would appear that all commands in Gerber ought to be modal. Once issued "
 "the command is in effect until otherwise superseded or turned off. However "
-"there are a couple of erratic exceptions that occasionally cause "
-"trouble. The most curious is the D03 flash command."
+"there are a couple of erratic exceptions that occasionally cause trouble. "
+"The most curious is the D03 flash command."
 msgstr ""
 
 #. type: Plain text
@@ -1389,10 +1391,10 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_02.adoc:382
 msgid ""
-"Flashes that were displayed on our CAM software didn't appear on the "
-"film. The problem is easily solved by re-outing the Gerber data with "
-"explicit D03's - Lavenir has a utility that does this and many CAM "
-"software's can be configured to treat D03 as either modal or non-modal."
+"Flashes that were displayed on our CAM software didn't appear on the film. "
+"The problem is easily solved by re-outing the Gerber data with explicit "
+"D03's - Lavenir has a utility that does this and many CAM software's can be "
+"configured to treat D03 as either modal or non-modal."
 msgstr ""
 
 #. type: Plain text
@@ -1601,7 +1603,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:71
-msgid "image:images/rs274x_1E80000005C6AC0D0B8.png[rs274x_1E80000005C6AC0D0B8_png]"
+msgid ""
+"image:images/rs274x_1E80000005C6AC0D0B8.png[rs274x_1E80000005C6AC0D0B8_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1676,13 +1679,15 @@ msgid "Examples"
 msgstr ""
 
 #. type: Plain text
-#: GerbView_chapter_03.adoc:102 GerbView_chapter_03.adoc:405 GerbView_chapter_03.adoc:526
+#: GerbView_chapter_03.adoc:102 GerbView_chapter_03.adoc:405
+#: GerbView_chapter_03.adoc:526
 msgid "%FSLAX24Y24*%"
 msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:105
-msgid "Format Statement Leading Zeros Suppression, Absolute Coordinates format=2.4"
+msgid ""
+"Format Statement Leading Zeros Suppression, Absolute Coordinates format=2.4"
 msgstr ""
 
 #. type: Plain text
@@ -1737,7 +1742,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:130
-msgid "image:images/rs274x_1F700000047006E6E3A.png[rs274x_1F700000047006E6E3A_png]"
+msgid ""
+"image:images/rs274x_1F700000047006E6E3A.png[rs274x_1F700000047006E6E3A_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1818,7 +1824,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:167
-msgid "image:images/rs274x_1540000006E37B1F5CF.png[rs274x_1540000006E37B1F5CF_png]"
+msgid ""
+"image:images/rs274x_1540000006E37B1F5CF.png[rs274x_1540000006E37B1F5CF_png]"
 msgstr ""
 
 #. type: Plain text
@@ -1893,7 +1900,8 @@ msgid "%ADD\\{code}C,\\{$1}X\\{$2}X\\{$3}*%"
 msgstr ""
 
 #. type: Plain text
-#: GerbView_chapter_03.adoc:197 GerbView_chapter_03.adoc:237 GerbView_chapter_03.adoc:330
+#: GerbView_chapter_03.adoc:197 GerbView_chapter_03.adoc:237
+#: GerbView_chapter_03.adoc:330
 msgid "where"
 msgstr ""
 
@@ -1940,7 +1948,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:216
-msgid "image:images/rs274x_20300000099C4F54E0A.png[rs274x_20300000099C4F54E0A_png]"
+msgid ""
+"image:images/rs274x_20300000099C4F54E0A.png[rs274x_20300000099C4F54E0A_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2170,7 +2179,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:324
-msgid "image:images/rs274x_1E8000000787CC18D07.png[rs274x_1E8000000787CC18D07_png]"
+msgid ""
+"image:images/rs274x_1E8000000787CC18D07.png[rs274x_1E8000000787CC18D07_png]"
 msgstr ""
 
 #. type: Plain text
@@ -2312,10 +2322,10 @@ msgstr ""
 #: GerbView_chapter_03.adoc:396
 msgid ""
 "The main difficulty with putting a circuit trace on a power plane is "
-"clearing away the metal around the circuit trace and it's associated "
-"pads. With standard Gerber the layout software often had to fill in with "
-"small strokes the entire powerplane metal area except where the clearance "
-"would be. This results in a very large and unwieldy Gerber file."
+"clearing away the metal around the circuit trace and it's associated pads. "
+"With standard Gerber the layout software often had to fill in with small "
+"strokes the entire powerplane metal area except where the clearance would "
+"be. This results in a very large and unwieldy Gerber file."
 msgstr ""
 
 #. type: Plain text
@@ -2421,7 +2431,9 @@ msgid "G54D10*"
 msgstr ""
 
 #. type: Plain text
-#: GerbView_chapter_03.adoc:441 GerbView_chapter_03.adoc:443 GerbView_chapter_03.adoc:445 GerbView_chapter_03.adoc:459 GerbView_chapter_03.adoc:461 GerbView_chapter_03.adoc:463
+#: GerbView_chapter_03.adoc:441 GerbView_chapter_03.adoc:443
+#: GerbView_chapter_03.adoc:445 GerbView_chapter_03.adoc:459
+#: GerbView_chapter_03.adoc:461 GerbView_chapter_03.adoc:463
 msgid "data"
 msgstr ""
 
@@ -2534,7 +2546,8 @@ msgstr ""
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:517
-msgid "image:images/rs274x_20B000000D366AAA274.png[rs274x_20B000000D366AAA274_png]"
+msgid ""
+"image:images/rs274x_20B000000D366AAA274.png[rs274x_20B000000D366AAA274_png]"
 msgstr ""
 
 #. type: Title +
