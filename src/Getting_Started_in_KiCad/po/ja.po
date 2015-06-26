@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-25 01:21+0900\n"
-"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"PO-Revision-Date: 2015-06-27 01:03+0900\n"
+"Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -28,12 +28,14 @@ msgid ""
 "_Essential and concise guide to mastering KiCad for the successful "
 "development of sophisticated electronic printed circuit boards._"
 msgstr ""
+"_洗練された電子プリント回路基板の開発を成功に導く、KiCadをマスターするための"
+"必須で簡潔なガイド_"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:15
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr ""
+msgstr "*著作権*\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:21
@@ -44,17 +46,22 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
+"このドキュメントは以下の貢献者により著作権所有(© 2015)されています。あなた"
+"は、GNU General Public License (http://www.gnu.org/licenses/gpl.html)のバー"
+"ジョン3以降、あるいはクリエイティブ・コモンズライセンス(http://"
+"creativecommons.org/licenses/by/3.0/)のバージョン3以降のいずれかの条件の下"
+"で、配布または変更することができます 。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:23
 msgid "All trademarks within this guide belong to their legitimate owners."
-msgstr ""
+msgstr "このガイドに含まれるすべての商標はそれぞれの所有者に帰属しています。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:26
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr ""
+msgstr "*貢献者*\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:28
@@ -62,17 +69,19 @@ msgid ""
 "David Jahshan, Phil Hutchinson, Fabrizio Tappero, Christina Jarron, Melroy "
 "van den Berg."
 msgstr ""
+"David Jahshan, Phil Hutchinson, Fabrizio Tappero, Christina Jarron, Melroy "
+"van den Berg."
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:31
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr ""
+msgstr "*フィードバック*\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:33
 msgid "Please direct any comments or suggestions about this document to:"
-msgstr ""
+msgstr "このドキュメントに関するコメントや提案は以下へお知らせください:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:36
@@ -80,55 +89,57 @@ msgid ""
 "Fabrizio Tappero: fabrizio.tappero<at>gmail.com, David Jahshan: "
 "kicad<at>iridec.com.au, or Melroy van den Berg: webmaster1989<at>gmail.com"
 msgstr ""
+"Fabrizio Tappero: fabrizio.tappero<at>gmail.com, David Jahshan: "
+"kicad<at>iridec.com.au, or Melroy van den Berg: webmaster1989<at>gmail.com"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:38
 msgid "Alternatively, submit comments or your new version to:"
-msgstr ""
+msgstr "あるいは、コメントやあなたの新しいバージョンを以下へお送り下さい:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:40
 msgid "https://github.com/ciampix/kicad-doc"
-msgstr ""
+msgstr "https://github.com/ciampix/kicad-doc"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:43
 #, no-wrap
 msgid "*Acknowledgments*\n"
-msgstr ""
+msgstr "*謝辞*\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:45
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:47
 #, no-wrap
 msgid "*Publication date*\n"
-msgstr ""
+msgstr "*発行日*\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:49
 msgid "2015, May 16."
-msgstr ""
+msgstr "2015年5月16日"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:51
 #, no-wrap
 msgid "*Note for Mac users*\n"
-msgstr ""
+msgstr "*Macユーザへの注意*\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:53
 msgid "The KiCad support for the Apple OS X operating system is experimental."
-msgstr ""
+msgstr "Apple OS Xに対するKiCadのサポートは実験的です。"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:56
 #, no-wrap
 msgid "Introduction to KiCad"
-msgstr ""
+msgstr "KiCadのご紹介"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:62
@@ -137,6 +148,9 @@ msgid ""
 "schematic diagrams and PCB artwork. Beneath its singular surface, KiCad "
 "incorporates an elegant ensemble of the following stand-alone software tools:"
 msgstr ""
+"KiCadは、電子回路図とPCBレイアウトを作成するためのオープンソースのソフトウェ"
+"ア・ツールです。その単一の面の下に、KiCadは、以下の独立したソフトウェア・ツー"
+"ル群のすばらしい組み合わせを実現しています:"
 
 #. type: delimited block |
 #: Getting_Started_in_KiCad.adoc:74
@@ -152,6 +166,15 @@ msgid ""
 "|PCB Calculator |Calculator for components, track width, electrical spacing, color codes, and more...|None\n"
 "|Pl Editor |Page layout editor|+*.kicad_wks+\n"
 msgstr ""
+"|プログラム名|説明|拡張子\n"
+"|KiCad |プロジェクト・マネージャ|+*.pro+\n"
+"|Eeschema |回路図エディタ (回路図とコンポーネント)|+*.sch, *.lib, *.net+\n"
+"|CvPcb |フットプリント・セレクタ|+*.net, *.cmp+\n"
+"|Pcbnew |PCBレイアウト|+*.kicad_pcb+\n"
+"|GerbView |ガーバー・ビューア|All the usual gerbers\n"
+"|Bitmap2Component |ビットマップ・イメージをコンポーネントやフットプリントに変換|+*.lib, *.kicad_mod, *.kicad_wks+\n"
+"|PCB Calculator |コンポーネント、線幅、電気的安全間隔、カラーコード等のための計算機|None\n"
+"|Pl Editor |ページ・レイアウト・エディタ|+*.kicad_wks+\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:80
@@ -160,6 +183,9 @@ msgid ""
 "files that kicad works with that is useful for the basic understanding of "
 "which files are used for each KiCad unique application."
 msgstr ""
+"拡張子の一覧は完全ではなく、KiCadが連携するファイルの一部のみを含んでおり、ど"
+"のファイルがどのKiCad固有のアプリケーションで使われるのかの基本的な理解に役立"
+"ちます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:84
@@ -167,6 +193,8 @@ msgid ""
 "KiCad can be considered mature enough to be used for the successful "
 "development and maintenance of complex electronic boards."
 msgstr ""
+"KiCadは、複雑な電子基板の開発やメンテナンスに十分使えるほどに成熟していると考"
+"えることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:90
@@ -176,6 +204,10 @@ msgid ""
 "files necessary for building printed boards, Gerber files for photo-"
 "plotters, drilling files, component location files and a lot more."
 msgstr ""
+"KiCadには基板サイズの制限がなく、最大16の配線層と最大12のテクニカル層を容易に"
+"扱えます。KiCadは、ガーバー・ファイル、ドリル・ファイル、コンポーネント・ロ"
+"ケーション・ファイル等のプリント基板作成に必要な全てのファイルを作ることがで"
+"きます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:94
@@ -184,32 +216,34 @@ msgid ""
 "projects oriented towards the creation of electronic hardware with an open-"
 "source flavour."
 msgstr ""
+"オープンソース(GPLライセンスに基づく)であるため、KiCadは、オープンソース志向"
+"の電子機器作成プロジェクトに理想的なツールです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:96
 msgid "On the Internet, the home of KiCad is:"
-msgstr ""
+msgstr "インターネット上のKiCadのホームページ:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:98
 msgid "http://www.kicad-pcb.org/"
-msgstr ""
+msgstr "http://www.kicad-pcb.org/"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:100
 msgid "The old and original site was:"
-msgstr ""
+msgstr "オリジナルの旧サイト:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:102
 msgid "http://iut-tice.ujf-grenoble.fr/kicad/index.html"
-msgstr ""
+msgstr "http://iut-tice.ujf-grenoble.fr/kicad/index.html"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:105
 #, no-wrap
 msgid "Download and install KiCad"
-msgstr ""
+msgstr "KiCadのダウンロードとインストール"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:109
@@ -217,11 +251,13 @@ msgid ""
 "KiCad runs on GNU/Linux, Apple OS X and Windows. You can download a copy of "
 "KiCad from:"
 msgstr ""
+"KiCadはGNU/Linux、Apple OS X、Windowsで動きます。KiCadは次の場所からダウン"
+"ロードできます:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:111
 msgid "http://www.kicad-pcb.org/display/KICAD/Installing+KiCad"
-msgstr ""
+msgstr "http://www.kicad-pcb.org/display/KICAD/Installing+KiCad"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:114
@@ -229,13 +265,13 @@ msgstr ""
 msgid ""
 "*Whatever installation method you choose, always go for a recent\n"
 "version of KiCad.*\n"
-msgstr ""
+msgstr "*どのインストール方法を選んでも、いつでも最新のバージョンのKiCadを取りに行きます。*\n"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:117
 #, no-wrap
 msgid "Under GNU/Linux"
-msgstr ""
+msgstr "GNU/Linuxの場合"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:121
@@ -243,21 +279,23 @@ msgid ""
 "Under GNU/Linux, the easiest way to install KiCad (daily build) is via _PPA_ "
 "and __Aptitude__. Type into your Terminal:"
 msgstr ""
+"GNU/Linuxの場合、KiCad (daily build) をインストールする最も簡単な方法は "
+"_PPA_ と __Aptitude__ によるものです。端末で次のようにタイプします:"
 
 #. type: delimited block _
 #: Getting_Started_in_KiCad.adoc:124
 msgid "sudo add-apt-repository ppa:js-reynaud/ppa-kicad"
-msgstr ""
+msgstr "sudo add-apt-repository ppa:js-reynaud/ppa-kicad"
 
 #. type: delimited block _
 #: Getting_Started_in_KiCad.adoc:126
 msgid "sudo aptitude update && sudo aptitude safe-upgrade"
-msgstr ""
+msgstr "sudo aptitude update && sudo aptitude safe-upgrade"
 
 #. type: delimited block _
 #: Getting_Started_in_KiCad.adoc:128
 msgid "sudo aptitude install kicad kicad-doc-en"
-msgstr ""
+msgstr "sudo aptitude install kicad kicad-doc-en"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:132
@@ -265,6 +303,8 @@ msgid ""
 "At the time of writing, the standard _apt-get_ repository of Ubuntu offers a "
 "version of KiCad that is about two years old."
 msgstr ""
+"執筆時点では、Ubuntuの標準の _apt-get_ レポジトリは約2年前のバージョンのKiCad"
+"を提供しています。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:135
@@ -272,12 +312,15 @@ msgid ""
 "Alternatively, you can download and install a pre-compiled version of KiCad, "
 "or directly download the source code, compile and install KiCad."
 msgstr ""
+"あるいは、コンパイル済みバージョンのKiCadをダウンロードしてインストールした"
+"り、直接KiCadのソースコードをダウンロードしてコンパイルしてインストールするこ"
+"ともできます。"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:138
 #, no-wrap
 msgid "Under Apple OS X"
-msgstr ""
+msgstr "Apple OS Xの場合"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:142
@@ -285,38 +328,42 @@ msgid ""
 "At the time of writing, the best way to install KiCad on Apple OS X is to "
 "download a nightly pre-build binary from:"
 msgstr ""
+"執筆時点では、Apple OS XにKiCadをインストールする最良の方法は夜間の事前ビルド"
+"のバイナリを以下からダウンロードすることです:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:144
 msgid "http://downloads.kicad-pcb.org/osx/"
-msgstr ""
+msgstr "http://downloads.kicad-pcb.org/osx/"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:147
 #, no-wrap
 msgid "Under Windows"
-msgstr ""
+msgstr "Windowsの場合"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:149
 msgid "For Windows you can find the most recent build at:"
-msgstr ""
+msgstr "以下でWindows用の最新ビルドを見つけられます:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:151
 msgid "http://www2.futureware.at/~nickoe/"
-msgstr ""
+msgstr "http://www2.futureware.at/~nickoe/"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:154
 #, no-wrap
 msgid "Support"
-msgstr ""
+msgstr "サポート"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:156
 msgid "If you got ideas, remarks or questions / you need help... Either:"
 msgstr ""
+"もしあなたが何か思いついたり、発言したいことがあったり、質問があったり、ヘル"
+"プが必要だったり ... いずれの場合でも:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:158
@@ -324,11 +371,13 @@ msgid ""
 "Read the http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions"
 "[FAQ]"
 msgstr ""
+"読んでみましょう。 http://www.kicad-pcb.org/display/KICAD/Frequently+Asked"
+"+Questions [FAQ]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:159
 msgid "Visit the https://forum.kicad.info/[Forum]"
-msgstr ""
+msgstr "訪れてみましょう。 https://forum.kicad.info/ [Forum]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:160
@@ -336,11 +385,15 @@ msgid ""
 "Join the http://webchat.freenode.net/?channels=kicad[#kicad IRC channel] on "
 "Freenode"
 msgstr ""
+"参加してみましょう。 http://webchat.freenode.net/?channels=kicad [#kicad IRC "
+"channel] on Freenode"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:161
 msgid "Watch http://www.kicad-pcb.org/display/KICAD/Tutorials[Tutorials]"
 msgstr ""
+"熟読してみましょう。 http://www.kicad-pcb.org/display/KICAD/Tutorials "
+"[Tutorials]"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:165
@@ -377,7 +430,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:183
 msgid "image:images/kicad_flowchart.png[\"KiCad Flowchart\"]"
-msgstr ""
+msgstr "image:images/kicad_flowchart.png[\"KiCad Flowchart\"]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:189
@@ -397,7 +450,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:194
 msgid "http://kicad.rohrbacher.net/quicklib.php"
-msgstr ""
+msgstr "http://kicad.rohrbacher.net/quicklib.php"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:199
@@ -468,7 +521,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:236
 msgid "image:images/kicad_main_window.png[KiCad Main Window]"
-msgstr ""
+msgstr "image:images/kicad_main_window.png[KiCad Main Window]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:242
@@ -534,7 +587,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:272
 msgid "image:images/choose_component.png[Choose Component]"
-msgstr ""
+msgstr "image:images/choose_component.png[Choose Component]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:276
@@ -576,7 +629,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:293
 msgid "image:images/edit_component_dropdown.png[Edit component menu]"
-msgstr ""
+msgstr "image:images/edit_component_dropdown.png[Edit component menu]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:296
@@ -595,7 +648,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:302
 msgid "image:images/resistor_value.png[Resistor Value]"
-msgstr ""
+msgstr "image:images/resistor_value.png[Resistor Value]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:305
@@ -614,7 +667,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:310
 msgid "image:images/component_history.png[Component history]"
-msgstr ""
+msgstr "image:images/component_history.png[Component history]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:315
@@ -710,6 +763,8 @@ msgid ""
 "image:images/1000000000000279000001D2A3715F27.png"
 "[1000000000000279000001D2A3715F27_png]"
 msgstr ""
+"image:images/1000000000000279000001D2A3715F27.png"
+"[1000000000000279000001D2A3715F27_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:366
@@ -744,6 +799,8 @@ msgid ""
 "image:images/10000000000000950000007B843ADE6A.png"
 "[10000000000000950000007B843ADE6A_png]"
 msgstr ""
+"image:images/10000000000000950000007B843ADE6A.png"
+"[10000000000000950000007B843ADE6A_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:385
@@ -779,6 +836,8 @@ msgid ""
 "image:images/1000000000000303000002A0130916D9.png"
 "[1000000000000303000002A0130916D9_png]"
 msgstr ""
+"image:images/1000000000000303000002A0130916D9.png"
+"[1000000000000303000002A0130916D9_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:406
@@ -813,6 +872,8 @@ msgid ""
 "image:images/1000000000000134000000D9A9B4ED54.png"
 "[1000000000000134000000D9A9B4ED54_png]"
 msgstr ""
+"image:images/1000000000000134000000D9A9B4ED54.png"
+"[1000000000000134000000D9A9B4ED54_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:422
@@ -829,6 +890,8 @@ msgid ""
 "image:images/100000000000033200000294961F4BAD.png"
 "[100000000000033200000294961F4BAD_png]"
 msgstr ""
+"image:images/100000000000033200000294961F4BAD.png"
+"[100000000000033200000294961F4BAD_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:429
@@ -884,6 +947,8 @@ msgid ""
 "image:images/1000000000000340000002A2DDE0F6DA.png"
 "[1000000000000340000002A2DDE0F6DA_png]"
 msgstr ""
+"image:images/1000000000000340000002A2DDE0F6DA.png"
+"[1000000000000340000002A2DDE0F6DA_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:458
@@ -908,6 +973,8 @@ msgid ""
 "image:images/10000000000001C8000000FEEDCB5FB8.png"
 "[10000000000001C8000000FEEDCB5FB8_png]"
 msgstr ""
+"image:images/10000000000001C8000000FEEDCB5FB8.png"
+"[10000000000001C8000000FEEDCB5FB8_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:472
@@ -934,6 +1001,8 @@ msgid ""
 "image:images/100000000000010700000125A4376EBB.png"
 "[100000000000010700000125A4376EBB_png]"
 msgstr ""
+"image:images/100000000000010700000125A4376EBB.png"
+"[100000000000010700000125A4376EBB_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:482
@@ -1109,7 +1178,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:578
 #, no-wrap
 msgid "wget https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/plugins/bom2csv.xsl\n"
-msgstr ""
+msgstr "wget https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/eeschema/plugins/bom2csv.xsl\n"
 
 #. type: Block title
 #: Getting_Started_in_KiCad.adoc:581
@@ -1121,7 +1190,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:584
 #, no-wrap
 msgid "xsltproc -o \"%O\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
-msgstr ""
+msgstr "xsltproc -o \"%O\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
 
 #. type: Block title
 #: Getting_Started_in_KiCad.adoc:586
@@ -1133,7 +1202,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:589
 #, no-wrap
 msgid "xsltproc -o \"%O.csv\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
-msgstr ""
+msgstr "xsltproc -o \"%O.csv\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \"%I\"\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:592
@@ -1284,6 +1353,8 @@ msgid ""
 "image:images/10000000000004A2000001E05B3D8DFF.png"
 "[10000000000004A2000001E05B3D8DFF_png]"
 msgstr ""
+"image:images/10000000000004A2000001E05B3D8DFF.png"
+"[10000000000004A2000001E05B3D8DFF_png]"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:673
@@ -1330,7 +1401,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:696
 msgid "image:images/design_rules.png[Design Rules Window]"
-msgstr ""
+msgstr "image:images/design_rules.png[Design Rules Window]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:700
@@ -1390,6 +1461,8 @@ msgid ""
 "image:images/10000000000001FD000001B15F2BA74A.png"
 "[10000000000001FD000001B15F2BA74A_png]"
 msgstr ""
+"image:images/10000000000001FD000001B15F2BA74A.png"
+"[10000000000001FD000001B15F2BA74A_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:736
@@ -1431,7 +1504,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:753
 msgid "image:images/select_top_copper.png[Select the Front top copper layer]"
-msgstr ""
+msgstr "image:images/select_top_copper.png[Select the Front top copper layer]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:759
@@ -1457,7 +1530,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:769
 msgid "image:images/pcbnew_1.png[pcbnew_1_png]"
-msgstr ""
+msgstr "image:images/pcbnew_1.png[pcbnew_1_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:775
@@ -1475,6 +1548,8 @@ msgid ""
 "image:images/1000000000000169000001178613965A.png"
 "[1000000000000169000001178613965A_png]"
 msgstr ""
+"image:images/1000000000000169000001178613965A.png"
+"[1000000000000169000001178613965A_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:784
@@ -1516,6 +1591,8 @@ msgid ""
 "image:images/10000000000001F8000001B32F1802F1.png"
 "[10000000000001F8000001B32F1802F1_png]"
 msgstr ""
+"image:images/10000000000001F8000001B32F1802F1.png"
+"[10000000000001F8000001B32F1802F1_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:804
@@ -1542,7 +1619,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:812
 #, no-wrap
 msgid "image:images/100000000000026E000002155D41D893.png[100000000000026E000002155D41D893_png]\n"
-msgstr ""
+msgstr "image:images/100000000000026E000002155D41D893.png[100000000000026E000002155D41D893_png]\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:818
@@ -1579,6 +1656,8 @@ msgid ""
 "image:images/10000000000001830000015C1D559586.png"
 "[10000000000001830000015C1D559586_png]"
 msgstr ""
+"image:images/10000000000001830000015C1D559586.png"
+"[10000000000001830000015C1D559586_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:838
@@ -1780,7 +1859,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:953
 msgid "http://per.launay.free.fr/kicad/kicad_php/composant.php"
-msgstr ""
+msgstr "http://per.launay.free.fr/kicad/kicad_php/composant.php"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:958
@@ -1832,7 +1911,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:983
 msgid "image:images/pin_properties.png[Pin Properties]"
-msgstr ""
+msgstr "image:images/pin_properties.png[Pin Properties]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:986
@@ -1873,6 +1952,8 @@ msgid ""
 "image:images/10000000000000DD000000946E66C399.png"
 "[10000000000000DD000000946E66C399_png]"
 msgstr ""
+"image:images/10000000000000DD000000946E66C399.png"
+"[10000000000000DD000000946E66C399_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1009
@@ -2056,6 +2137,8 @@ msgid ""
 "image:images/10000000000002EE00000177A7337383.png"
 "[10000000000002EE00000177A7337383_png]"
 msgstr ""
+"image:images/10000000000002EE00000177A7337383.png"
+"[10000000000002EE00000177A7337383_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1112
@@ -2147,6 +2230,26 @@ msgid ""
 "# http://gskinner.com/RegExr/\n"
 "# http://kicad.rohrbacher.net/quicklib.php\n"
 msgstr ""
+"#!/usr/bin/env python\n"
+"''' simple script to manipulate KiCad component pins numbering'''\n"
+"import sys, re\n"
+"try:\n"
+"    fin=open(sys.argv[1],'r')\n"
+"    fout=open(sys.argv[2],'w')\n"
+"except:\n"
+"    print \"oh, wrong use of this app, try:\", sys.argv[0], \"in.txt out.txt\"\n"
+"    sys.exit()\n"
+"for ln in fin.readlines():\n"
+"    obj=re.search(\"(X PIN)(\\d*)(\\s)(\\d*)(\\s.*)\",ln)\n"
+"if obj:\n"
+"    num = int(obj.group(2))+25\n"
+"    ln=obj.group(1) + str(num) + obj.group(3) + str(num) + obj.group(5) +'\\n'\n"
+"    fout.write(ln)\n"
+"fin.close(); fout.close()\n"
+"#\n"
+"# for more info about regular expression syntax and KiCad component generation:\n"
+"# http://gskinner.com/RegExr/\n"
+"# http://kicad.rohrbacher.net/quicklib.php\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1172
@@ -2178,12 +2281,22 @@ msgid ""
 "S -450 -800 450 800 0 0 0 N\n"
 "X PIN1 1 -2550 600 300 R 50 50 1 1 I\n"
 msgstr ""
+"EESchema-LIBRARY Version 2.3\n"
+"#encoding utf-8\n"
+"# COMP\n"
+"DEF COMP U 0 40 Y Y 1 F N\n"
+"F0 \"U\" -1800 -100 50 H V C CNN\n"
+"F1 \"COMP\" -1800 100 50 H V C CNN\n"
+"DRAW\n"
+"S -2250 -800 -1350 800 0 0 0 N\n"
+"S -450 -800 450 800 0 0 0 N\n"
+"X PIN1 1 -2550 600 300 R 50 50 1 1 I\n"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:1187
 #, no-wrap
 msgid "...\n"
-msgstr ""
+msgstr "...\n"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:1192
@@ -2194,6 +2307,10 @@ msgid ""
 "ENDDEF\n"
 "#End Library\n"
 msgstr ""
+"X PIN49 49 750 -500 300 L 50 50 1 1 I\n"
+"ENDDRAW\n"
+"ENDDEF\n"
+"#End Library\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1195
@@ -2201,6 +2318,8 @@ msgid ""
 "image:images/10000000000004800000026769DAE0A4.png"
 "[10000000000004800000026769DAE0A4_png]"
 msgstr ""
+"image:images/10000000000004800000026769DAE0A4.png"
+"[10000000000004800000026769DAE0A4_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1200
@@ -2280,7 +2399,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1242
 msgid "image:images/pad_properties.png[Pad Properties]"
-msgstr ""
+msgstr "image:images/pad_properties.png[Pad Properties]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1246
@@ -2406,6 +2525,18 @@ msgid ""
 "    |-- ...\n"
 "    \\-- ...\n"
 msgstr ""
+"foxy_board/\n"
+"|-- foxy_board.pro\n"
+"|-- foxy_board.sch\n"
+"|-- foxy_board.kicad_pcb\n"
+"|-- foxy_board.net\n"
+"|-- lib/\n"
+"|   |-- foxy_board.lib\n"
+"|   \\-- foxy_board.mod\n"
+"|\n"
+"\\-- gerber/\n"
+"    |-- ...\n"
+"    \\-- ...\n"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:1330
@@ -2568,6 +2699,8 @@ msgid ""
 "/usr/share/doc/kicad/en/ /usr/share/doc/kicad/help/en/ /usr/local/kicad/doc/"
 "tutorials/en/ kicad/doc/tutorials/en/"
 msgstr ""
+"/usr/share/doc/kicad/en/ /usr/share/doc/kicad/help/en/ /usr/local/kicad/doc/"
+"tutorials/en/ kicad/doc/tutorials/en/"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:1419
