@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-06-23 00:44+0900\n"
-"PO-Revision-Date: 2015-06-25 01:23+0900\n"
+"PO-Revision-Date: 2015-06-27 21:21+0900\n"
 "Last-Translator: yoneken <yoneken@kicad.jp>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.1\n"
 
 #. type: Title =
 #: Pcbnew.adoc:7
@@ -26,18 +26,18 @@ msgstr "Pcbnew"
 #: Pcbnew.adoc:10
 #, no-wrap
 msgid "*Pcbnew*\n"
-msgstr ""
+msgstr "Pcbnew\n"
 
 #. type: Plain text
 #: Pcbnew.adoc:12
 msgid "_Reference manual_"
-msgstr ""
+msgstr "リファレンス・マニュアル"
 
 #. type: Plain text
 #: Pcbnew.adoc:15
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr ""
+msgstr "著作権\n"
 
 #. type: Plain text
 #: Pcbnew.adoc:21
@@ -48,28 +48,35 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
+"このドキュメントは以下の貢献者により著作権所有©2010–2014されています。あなた"
+"は、GNUGeneralPublicLicense(http://wwwgnuorg/licenses/gplhtml),version3以降、"
+"あるいはクリエイティブ·コモンズライセンス(http://creativecommonsorg/licenses/"
+"by/30/),version30以降のいずれかの条件の下で、それを配布し、そして/または、そ"
+"れを変更することができます。"
 
 #. type: Plain text
 #: Pcbnew.adoc:23
 msgid "All trademarks within this guide belong to their legitimate owners."
-msgstr ""
+msgstr "このガイドの中のすべての商標は、正当な所有者に帰属します。"
 
 #. type: Plain text
 #: Pcbnew.adoc:26
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr ""
+msgstr "貢献者\n"
 
 #. type: Plain text
 #: Pcbnew.adoc:28
 msgid "Jean-Pierre Charras, Fabrizio Tappero."
 msgstr ""
+"JeanPierreCharras,FabrizioTappero\n"
+"日本語翻訳:Silvermoon,Zenyouji,Yoneken,Millo,Nenokuni(順不同、kicadjp)"
 
 #. type: Plain text
 #: Pcbnew.adoc:31
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr ""
+msgstr "フィードバック\n"
 
 #. type: Plain text
 #: Pcbnew.adoc:34
@@ -77,39 +84,46 @@ msgid ""
 "Please direct any comments or suggestions about this document to the kicad "
 "mailing list: _https://launchpad.net/~kicad-developers_"
 msgstr ""
+"このドキュメントに関するコメントや提案をKiCadメーリングリストに送ってくださ"
+"い:https://launchpadnet/~kicad\n"
+"developers\n"
+"http://kicadjp/(日本語ユーザコミュニティ)"
 
 #. type: Plain text
 #: Pcbnew.adoc:37
 #, no-wrap
 msgid "*Acknowledgments*\n"
-msgstr ""
+msgstr "謝辞\n"
 
 #. type: Plain text
 #: Pcbnew.adoc:39
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #. type: Plain text
 #: Pcbnew.adoc:42
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr ""
+msgstr "発行日とソフトウエアのバージョン\n"
 
 #. type: Plain text
 #: Pcbnew.adoc:44
 msgid "2014, march 17."
 msgstr ""
+"英語版:2011年11月13日にLibreOffice332により発行されました。日本語版:2014年5月"
+"14日にLibreOffice354により発行されました。"
 
 #. type: Plain text
 #: Pcbnew.adoc:47
 #, no-wrap
 msgid "*Note for Mac users*\n"
-msgstr ""
+msgstr "Macユーザへの注記\n"
 
 #. type: Plain text
 #: Pcbnew.adoc:49
 msgid "The KiCad support for the Apple OS X operating system is experimental."
 msgstr ""
+"AppleOSXのオペレーティングシステム用のKiCadのサポートは実験的なものです。"
 
 #. type: Title -
 #: Pcbnew_create_and_modify_board.adoc:3
@@ -121,13 +135,13 @@ msgstr ""
 #: Pcbnew_create_and_modify_board.adoc:6
 #, no-wrap
 msgid "Creating a board"
-msgstr ""
+msgstr "基板の作成"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:9
 #, no-wrap
 msgid "Drawing the board outline"
-msgstr ""
+msgstr "基板外形の作成"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:22
@@ -143,26 +157,35 @@ msgid ""
 "Relative coordinates enable very precise dimensions to be drawn. It is "
 "possible to draw a circular (or arc) outline:"
 msgstr ""
+"通常、基板の外形を最初に定義するのがよい考えです。外形は一連のラインセグメン"
+"トとして作成されます。アクティブな層として'pcb外形'を選択し、'図形ラインまた"
+"はポリゴンを入力'ツールを使用して外形を描画します。この時、各頂点の位置でク"
+"リックし、ダブルクリックして外形線を終了させます。通常基板には非常に正確な寸"
+"法があり、そのため外形を描画中に、表示されたカーソル座標の使用が必要になるか"
+"もしれません。相対座標はスペースバーを使用していつでもゼロになることがありま"
+"す。また、'AltU'を使用して表示単位をトグルさせることが可能であることを覚えて"
+"おいて下さい。相対座標により非常に正確な寸法で描画することができます。円(また"
+"は円弧)の外形の作成が可能です:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:24
 msgid "Select the 'Add graphic circle' or 'Add graphic arc' tool"
-msgstr ""
+msgstr "'円入力'または'円弧入力'を選択します"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:25
 msgid "Click to fix the circle centre"
-msgstr ""
+msgstr "クリックして円の中心を固定します"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:26
 msgid "Adjust the radius by moving the mouse"
-msgstr ""
+msgstr "マウスを移動して半径を調節します"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:27
 msgid "Finish by clicking again."
-msgstr ""
+msgstr "再度クリックして終了します。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:32
@@ -171,11 +194,14 @@ msgid ""
 "(recommended width = 150 in 1/10 mils) or via the Options, but this will not "
 "be visible unless the graphics are displayed in other than outline mode."
 msgstr ""
+"パラメータメニュー(1/10mil単位で幅=150を推奨)またはオプションで、外形線の幅を"
+"調節することが可能ですが、アウトラインモード以外でグラフィックが表示されてい"
+"なければそれは見えないということに注意して下さい。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:34
 msgid "The resulting outline might look something like this:"
-msgstr ""
+msgstr "得られた外形はこのようなものになるかもしれません:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:36
@@ -299,6 +325,8 @@ msgid ""
 "Activate the image:images/icons/netlist.png[] icon to display the netlist "
 "dialog window:"
 msgstr ""
+"回路図から生成したネットリストの読み込みアイコンをアクティブにしてネットリス"
+"トダイアログウィンドウを表示します: TODO"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:90 Pcbnew_schematics.adoc:74
@@ -313,6 +341,10 @@ msgid ""
 "Any modules not already loaded will appear, superimposed one upon another "
 "(we shall see below how to move them automatically)."
 msgstr ""
+"ウィンドウタイトルに表示されるネットリストの名前(パス)が間違っている場合、選"
+"択ボタンを使用して望ましい(desired)ネットリストを見て行きます。それからネット"
+"リストを読み込みます。読み込み済みでないすべてのモジュールが互いに重ねられて"
+"現れます(それらを自動的に移動させる方法を以下に示します)。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:98
@@ -328,6 +360,10 @@ msgid ""
 "module' accessed via the right mouse button). Here is the result of such "
 "automatic arrangement:"
 msgstr ""
+"モジュールが1つも配置されていない場合、全てのモジュールは基板上の同じ場所に現"
+"れ、識別が困難になります。(マウスの右ボタンでアクセスするグローバル配置/モ"
+"ジュールの移動コマンドを使用して)それらを自動的に並べることが可能です。以下は"
+"その自動配置の結果です:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:106
@@ -344,30 +380,35 @@ msgid ""
 "is easier to do using the module dialog accessed by clicking the right mouse "
 "button over the module in question."
 msgstr ""
+"CVPCBで既存のモジュールを新しいもの(例えば、1/8W抵抗を1/2Wに変更)に置き換えて"
+"基板を修正する場合、置き換えるモジュールをPCBNEWが読み込む前に既存のモジュー"
+"ルを削除することが必要です。しかし、あるモジュールを既存のモジュールで置き換"
+"える場合、問題のモジュール上でマウスの右ボタンをクリックしてアクセスするモ"
+"ジュールダイアログを使用して行うとより容易です。"
 
 #. type: Title ~
 #: Pcbnew_create_and_modify_board.adoc:116
 #, no-wrap
 msgid "Correcting a board"
-msgstr ""
+msgstr "基板の修正"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:120
 msgid ""
 "It is very often necessary to correct a board following a corresponding "
 "change in the schematic."
-msgstr ""
+msgstr "回路図での変更に応じて基板を修正することが極めて頻繁に必要です。"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:122
 #, no-wrap
 msgid "Steps to follow"
-msgstr ""
+msgstr "修正手順"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:125
 msgid "Create a new netlist from the modified schematic."
-msgstr ""
+msgstr "修正した回路図から新しいネットリストを作成します。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:127
@@ -375,17 +416,19 @@ msgid ""
 "If new components have been added, link these to their corresponding modules "
 "in CvPcb."
 msgstr ""
+"新しいコンポーネントが追加された場合、cvpcbで対応するモジュールにそれらをリン"
+"クします。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:128
 msgid "Read the new netlist in Pcbnew."
-msgstr ""
+msgstr "Pcbnewで新しいネットリストを読み込みます。"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:130
 #, no-wrap
 msgid "Deleting incorrect tracks"
-msgstr ""
+msgstr "不正確な配線の削除"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:136
@@ -394,6 +437,10 @@ msgid ""
 "a result of modifications. To do this, check the 'Delete' option in the 'Bad "
 "tracks deletion' box of the netlist dialog:"
 msgstr ""
+"Pcbnewは修正の結果不適当となった配線を自動的に削除することが可能です。これを"
+"行うには、ネットリス\n"
+"トダイアログのバッドトラックの削除ボックスの削除オプションにチェックを付けま"
+"す:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:138
@@ -406,12 +453,14 @@ msgid ""
 "However, it is often quicker to modify such tracks by hand (the DRC function "
 "allows their identification)."
 msgstr ""
+"しかしながら、そのような配線を手作業で修正する方がしばしば速いことがあります"
+"(DRC機能によりそれらを特定することができます)。"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:143
 #, no-wrap
 msgid "Deleted components"
-msgstr ""
+msgstr "コンポーネントの削除"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:147
@@ -419,6 +468,8 @@ msgid ""
 "Pcbnew can delete modules corresponding to components that have been removed "
 "from the schematic. This is optional."
 msgstr ""
+"Pcbnewは回路図から削除したコンポーネントに対応するモジュールを削除することが"
+"可能です。これはオプションです。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:151
@@ -427,6 +478,8 @@ msgid ""
 "screws, for instance) that are added to the PCB that never appear in the "
 "schematic."
 msgstr ""
+"PCBに追加されていて回路図には現れないモジュール(例えば、固定ネジ用の穴)がしば"
+"しば存在するのでこれが必要になります。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:153
@@ -441,6 +494,11 @@ msgid ""
 "they have the option \"Locked\" active. It is a good idea to activate this "
 "option for \"mechanical\" footprints:"
 msgstr ""
+"余分なフットプリントの削除オプションにチェックが付いている場合、ネットリスト"
+"には見つからないコンポーネントに対応するフットプリントは、そのロックのオプ"
+"ションがアクティブでなければ、削除されます。\n"
+"\"機械的\"フットプリント用にこのオプションをアクティブにするのはよい考えで"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:160
@@ -451,7 +509,7 @@ msgstr ""
 #: Pcbnew_create_and_modify_board.adoc:162
 #, no-wrap
 msgid "Modified modules"
-msgstr ""
+msgstr "修正済みモジュール"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:168
@@ -461,6 +519,9 @@ msgid ""
 "corresponding option of the 'Exchange module' box of the netlist dialog is "
 "checked:"
 msgstr ""
+"(Cvpcbを使用して)ネットリスト内のモジュールを修正する場合で、そのモジュールが"
+"すでに配置済みの場合、ネットリストダイアログの対応するモジュール交換ボックス"
+"のオプションにチェックが付いていなければ、Pcbnewではそれは修正されません:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:170
@@ -473,12 +534,14 @@ msgid ""
 "Changing a module (replacing a resistance with one of a different size, for "
 "instance) can be effected directly by editing the module."
 msgstr ""
+"モジュールを編集することによりモジュールの変更(例えば、抵抗器を異なるサイズの"
+"ものと置き換える)を直接的に行うことが可能です。"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:175
 #, no-wrap
 msgid "Advanced options - selection using time stamps"
-msgstr ""
+msgstr "詳細オプション - タイムスタンプを使用した選択"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:184
@@ -490,6 +553,12 @@ msgid ""
 "by their reference. In this situation, the 'Timestamp' option of the netlist "
 "dialog may be selected before re-reading the netlist:"
 msgstr ""
+"回路の部品を変更せずに回路図の記述を変更することが時々あります(これはR5、U4の"
+"ようなリファレンスに関わることになります)。そのためPCBには(多分、シルクスク"
+"リーン表示を除いて)変更がありません。そうは言っても、内部的にはコンポーネント"
+"とモジュールはリファレンスで表現されます。この状況では、ネットリストを再読み"
+"込みする前に、ネットリストダイアログの'タイムスタンプ'オプションが選択される"
+"かもしれません:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:186
@@ -504,6 +573,10 @@ msgid ""
 "by Eeschema (it is the time and date when the component was placed in the "
 "schematic)."
 msgstr ""
+"このオプションを使用すると、Pcbnewはリファレンスでモジュールを認識することは"
+"なくなりますが、その代わりにタイムスタンプで認識します。タイムスタンプは"
+"Eeschemaが自動的に生成します(回路図にコンポーネントを配置した時の時刻および日"
+"付です)。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:199
@@ -515,12 +588,18 @@ msgid ""
 "there would be up to four – one for each part). Nevertheless, the time stamp "
 "option usually resolves re-annotation problems."
 msgstr ""
+"このオプションを使用する場合、大きな注意を要します(先にファイルを保存します!)"
+"これは複数パーツを含むコンポーネントの場合にそのやり方が複雑だからです(例え"
+"ば、7400にはパーツが4個と1つのパッケージがあります)。この状況では、タイムスタ"
+"ンプが一意に定義されません(7400の場合、4つまで\n"
+"各パーツに1つ存在するということになります)。そうは言っても、タイムスタンプオ"
+"プションは通常再アノテーション問題を解決します。"
 
 #. type: Title ~
 #: Pcbnew_create_and_modify_board.adoc:201
 #, no-wrap
 msgid "Direct exchange for footprints already placed on board"
-msgstr ""
+msgstr "基板上に配置済みのフットプリントの直接交換"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:204
@@ -528,16 +607,20 @@ msgid ""
 "Changing a footprint ( or some identical footprints) to another footprint is "
 "very useful, and is very easy:"
 msgstr ""
+"フットプリント(または同じフットプリントをいくつか)を別のフットプリントに変更"
+"することは非常に便利ですこれは非常に簡単です:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:206
 msgid "Click on a footprint to open the Edit dialog box."
 msgstr ""
+"フットプリントをクリックし、編集ダイアログボックスを開きます。モジュールの変"
+"更を実行します。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:207
 msgid "Activate Change Modules."
-msgstr ""
+msgstr "モジュールの変更にアクセスします"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:209
@@ -547,7 +630,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:211
 msgid "Options for footprint exchange:"
-msgstr ""
+msgstr "フットプリント交換用オプション:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:213
@@ -557,19 +640,19 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:215
 msgid "One must choose a new footprint name and use:"
-msgstr ""
+msgstr "新しいフットプリントの名前を選択し、以下を使用しなければなりません:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:217
 #, no-wrap
 msgid "*Change Module* for the current footprint\n"
-msgstr ""
+msgstr "モジュールの変更:現在のフットプリントの場合\n"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:218
 #, no-wrap
 msgid "*Change same modules* for all footprints like the current footprint.\n"
-msgstr ""
+msgstr "同じモジュールを変更:現在のフットプリントのような全てのフットプリントの場合。\n"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:220
@@ -577,13 +660,13 @@ msgstr ""
 msgid ""
 "*Change same module+value* for all footprints like the current \n"
 "footprint, restricted to components which have the same value.\n"
-msgstr ""
+msgstr "同じモジュール+値の変更:現在のフットプリントのような全てのフットプリントの場合で、同じ値を持つコンポーネントに限る。\n"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:221
 #, no-wrap
 msgid "*Change all* reloads all footprints on board.\n"
-msgstr ""
+msgstr "全てを変更は基板上のすべてのフットプリントを再読み込みします。\n"
 
 #. type: Title -
 #: Pcbnew_creating_editing_modules.adoc:2
@@ -595,17 +678,19 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:5
 #, no-wrap
 msgid "ModEdit overview"
-msgstr ""
+msgstr "ModEditの概要"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:8
 msgid "ModEdit is used for editing and creating PCB modules. This includes:"
 msgstr ""
+"PCBのモジュールを編集したり作成するためにModEditを使用します。これは以下を含"
+"みます:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:10 Pcbnew_managing_libs.adoc:17
 msgid "Adding and removing pads."
-msgstr ""
+msgstr "パッドの追加および削除。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:12
@@ -613,27 +698,29 @@ msgid ""
 "Changing pad properties (shape, layer), for individual pads or for all pads "
 "in a module."
 msgstr ""
+"モジュールの個々のパッドまたは全てのパッドのプロパティ(形状、レイヤー)の変"
+"更。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:13
 msgid "Adding and editing graphic elements (contours, text)."
-msgstr ""
+msgstr "その他図形要素(ライン、テキスト)の追加および編集。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:14
 msgid "Editing fields (value, reference, etc.)."
-msgstr ""
+msgstr "フィールド(値、リファレンスなど)の編集。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:15 Pcbnew_managing_libs.adoc:22
 msgid "Editing the associated documentation (description, keywords)."
-msgstr ""
+msgstr "関連ドキュメント(説明、キーワード)の編集。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:17
 #, no-wrap
 msgid "Module elements"
-msgstr ""
+msgstr "モジュール"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:23
@@ -642,21 +729,25 @@ msgid ""
 "inserted in the PCB and it must be linked to the relative component in your "
 "schematic. Each module includes three different elements:"
 msgstr ""
+"モジュールとは、プリント基板上に追加した部品の物理的な表現(フットプリント)で"
+"あり、回路図内の関連す\n"
+"るコンポーネントにリンクしていなければなりません。各モジュールは3つの異なる要"
+"素を含んでいます:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:25 Pcbnew_managing_libs.adoc:130
 msgid "The pads."
-msgstr ""
+msgstr "パッド"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:26
 msgid "Graphical contours and text."
-msgstr ""
+msgstr "グラフィカルな外形およびテキスト"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:27
 msgid "Fields."
-msgstr ""
+msgstr "フィールド"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:31
@@ -665,22 +756,24 @@ msgid ""
 "auto-placement function will be used. The same holds for the generation of "
 "auto-insertion files."
 msgstr ""
+"さらに、自動配置機能を使用するのであれば、他の多くのパラメータを正しく定義し"
+"なれければなりません。同じことが自動実装ファイルの生成の場合にも言えます。"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:33
 #, no-wrap
 msgid "Pads"
-msgstr ""
+msgstr "パッド"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:36
 msgid "Two pad properties are important:"
-msgstr ""
+msgstr "2つの重要なパッドの設定があります:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:38
 msgid "Geometry (shape, layers, drill holes)."
-msgstr ""
+msgstr "ジオメトリ(形状、レイヤー、ドリル穴)。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:43
@@ -691,12 +784,17 @@ msgid ""
 "number in the schematic, because it defines the matching pin and pad numbers "
 "that Pcbnew links pins and pads with."
 msgstr ""
+"パッド番号。これは回路図コンポーネントのピン番号に相当するもので、4文字以内の"
+"英数字から構成されます。例えば、次のものはすべて有効なパッド番号です:1、45、"
+"9999、そのほかAA56、ANODなども有効です。パッド番号は回路図内の対応するピン番"
+"号のそれと同じでなければなりません。それは、パッド番号によりピンとパッド番号"
+"の認識を行い、それによってPcbnewがピンとパッドをリンクさせるからです。"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:45
 #, no-wrap
 msgid "Contours"
-msgstr ""
+msgstr "外形線"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:51
@@ -706,12 +804,16 @@ msgid ""
 "text. Contours have no electrical significance, they are simply graphical "
 "aids."
 msgstr ""
+"モジュールの物理的な形状を作成するためにグラフィカルな外形線を使用します。異"
+"なる種類の外形線をいくつか使用することが可能です。利用できる要素は、ライン、"
+"円、弧、およびテキストです。外形線は電気的な意味はなく、装飾や表示上の補助と"
+"してのみ利用される情報となります。"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:53
 #, no-wrap
 msgid "Fields"
-msgstr ""
+msgstr "フィールド"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:63
@@ -724,17 +826,24 @@ msgid ""
 "the value of the corresponding part in the schematic (47K, 74LS02, etc.). "
 "Other fields can be added and these will behave like graphical text."
 msgstr ""
+"これらはモジュールに関連するテキスト要素です。リファレンスフィールドと定数"
+"フィールドの2つは必須であり、、これらはどのモジュールでも設定されている必要が"
+"あります。ネットリストをPcbnewへ読み込んだ時点で、Pcbnewは自動的にこれら"
+"フィールドを元に、ネットリスト情報から実際の値へ更新します。リファレンスは回"
+"路図の適切なリファレンス(U1、IC3など)に置き換えられます。定数は回路図の対応す"
+"る部品の値に置き換えられます(47K、74LS02など)。他のフィールドを追加することも"
+"可能で、それらはグラフィックのテキストのように振舞います。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:65
 #, no-wrap
 msgid "Starting ModEdit and selecting a module to edit"
-msgstr ""
+msgstr "モジュールエディタの開始および編集用モジュールの選択"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:68
 msgid "ModEdit can be started in two ways:"
-msgstr ""
+msgstr "モジュールエディタは次の3つの方法で使用することが可能です:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:72
@@ -742,7 +851,7 @@ msgid ""
 "Directly via the image:images/icons/module_editor.png[] icon from the main "
 "toolbar of Pcbnew. This allows creation or modification of a module in the "
 "library."
-msgstr ""
+msgstr "直接、Pcbnewの上部ツールバーのアイコンより起動する方法。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:76
@@ -773,37 +882,37 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:85
 #, no-wrap
 msgid "Edit toolbar (right-hand side)"
-msgstr ""
+msgstr "編集ツールバー(右側ツールバー)"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:88
 msgid "This toolbar contains tools for:"
-msgstr ""
+msgstr "このツールバーには以下を行うためのツールが含まれています:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:90
 msgid "Placing pads."
-msgstr ""
+msgstr "パッドの配置。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:91
 msgid "Adding graphic elements (contours, text)."
-msgstr ""
+msgstr "グラフィック要素(外形線、テキスト)の追加。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:92
 msgid "Positioning the anchor."
-msgstr ""
+msgstr "アンカーの設定。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:93 Pcbnew_general_operations.adoc:388
 msgid "Deleting elements."
-msgstr ""
+msgstr "要素の削除。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:95
 msgid "The specific functions are the following:"
-msgstr ""
+msgstr "個別の機能は次の通りです:"
 
 #. type: delimited block |
 #: Pcbnew_creating_editing_modules.adoc:119
@@ -831,17 +940,35 @@ msgid ""
 "and after the grid size can be set to the pad pitch.\n"
 "Placing pads is therefore very easy\n"
 msgstr ""
+"| image:images/icons/cursor.png[]\n"
+"| ツールなし。\n"
+"| image:images/icons/pad.png[]\n"
+"| パッドの追加。\n"
+"| image:images/icons/add_polygon.png[]\n"
+"| ラインセグメントおよびポリゴンの作成。\n"
+"| image:images/icons/add_circle.png[]\n"
+"| 円の作成。\n"
+"| image:images/icons/add_arc.png[]\n"
+"| 円弧の作成。\n"
+"| image:images/icons/add_text.png[]\n"
+"| グラフィックのテキスト(フィールド情報ではなく、あくまで装飾用のテキストになります)の入力。\n"
+"| image:images/icons/anchor.png[]\n"
+"| モジュールのアンカーの設定。\n"
+"| image:images/icons/delete.png[]\n"
+"| 要素の削除。\n"
+"| image:images/icons/grid_select_axis.png[]\n"
+"| グリッドの原点(グリッドのオフセット)。パッドの配置に役立ちます。グリッドの原点は任意の位置に置くことが可能で(配置する最初のパッド)、また、グリッドのサイズをパッド間隔に設定することが可能です。これら機能を使うことで、パッドの配置は非常に容易になります。\n"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:122
 #, no-wrap
 msgid "Display toolbar (left-hand side)"
-msgstr ""
+msgstr "表示ツールバー(左側ツールバー)"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:125
 msgid "These tools manage the display options in ModEdit:"
-msgstr ""
+msgstr "これらのツールはモジュールエディタの表示設定を行います。"
 
 #. type: delimited block |
 #: Pcbnew_creating_editing_modules.adoc:144
@@ -864,12 +991,28 @@ msgid ""
 "| image:images/icons/contrast_mode.png[]\n"
 "| Toggle high-contrast mode\n"
 msgstr ""
+"| image:images/icons/grid.png[]\n"
+"| グリッドの表示。\n"
+"| image:images/icons/polar_coord.png[]\n"
+"| 直交座標系/極座標系切り替え。\n"
+"| image:images/icons/unit_mm.png[] image:images/icons/unit_inch.png[]\n"
+"| 単位系の切り替え(インチ/ミリメートル)\n"
+"| image:images/icons/cursor_shape.png[]\n"
+"| 十字カーソルの表示。\n"
+"| image:images/icons/pad_sketch.png[]\n"
+"| アウトラインモード(輪郭線)でパッドを表示する。\n"
+"| image:images/icons/text_sketch.png[]\n"
+"| アウトラインモード(輪郭線)でテキストを表示する。\n"
+"| image:images/icons/show_mod_edge.png[]\n"
+"| アウトラインモード(輪郭線)で外形シルクを表示する。\n"
+"| image:images/icons/contrast_mode.png[]\n"
+"| TODO\n"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:147
 #, no-wrap
 msgid "Context Menus"
-msgstr ""
+msgstr "コンテキストメニュー"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:151
@@ -877,11 +1020,12 @@ msgid ""
 "The right mouse button calls up menus that depend upon the element beneath "
 "the cursor."
 msgstr ""
+"マウスの右ボタンによりカーソルの下の要素に応じたメニューを呼び出します。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:153
 msgid "The context menu for editing module parameters:"
-msgstr ""
+msgstr "モジュールパラメータ編集用のコンテキストメニュー。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:155
@@ -891,7 +1035,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:157
 msgid "The context menu for editing pads:"
-msgstr ""
+msgstr "パッド編集用のコンテキストメニュー。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:159
@@ -901,7 +1045,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:161
 msgid "The context menu for editing graphic elements:"
-msgstr ""
+msgstr "グラフィック要素編集用のコンテキストメニュー。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:163
@@ -912,7 +1056,7 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:166
 #, no-wrap
 msgid "Module properties dialog"
-msgstr ""
+msgstr "モジュールプロパティダイアログ"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:170
@@ -920,6 +1064,8 @@ msgid ""
 "This dialog can be launched when the cursor is over a module by clicking on "
 "the right mouse button and then selecting 'Edit Module'."
 msgstr ""
+"モジュール上にカーソルがある時に、マウスの右ボタンをクリックし、'モジュール編"
+"集'を選択するとこのダイアログを開くことが可能です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:172
@@ -929,13 +1075,13 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:174
 msgid "The dialog can be used to define the main module parameters."
-msgstr ""
+msgstr "モジュールパラメータを設定する際には、このダイアログを使用します。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:176 Pcbnew_managing_libs.adoc:118
 #, no-wrap
 msgid "Creating a new module"
-msgstr ""
+msgstr "新規モジュールの作成"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:182
@@ -944,6 +1090,8 @@ msgid ""
 "png[]. The name of the new module will be requested. This will be the name "
 "by which the module will be identified in the library."
 msgstr ""
+"ボタンにより新規モジュールを作成することが可能です。新規モジュールの名前が必"
+"要になります。これは、ライブラリ内でモジュールを識別するための名前です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:185
@@ -951,31 +1099,33 @@ msgid ""
 "This text also serves as the module reference, which is ultimately replaced "
 "by the real reference (U1, IC3...)."
 msgstr ""
+"このテキストはモジュールのリファレンスとしても機能しますが、最終的に、それは"
+"正しいリファレンス(U1、IC3、)に置き換えられます。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:187
 msgid "The new module will require:"
-msgstr ""
+msgstr "新規モジュールには以下が必要です:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:189
 msgid "Contours (and possibly graphic text)."
-msgstr ""
+msgstr "外形線(また場合によりグラフィックのテキスト)。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:190
 msgid "Pads."
-msgstr ""
+msgstr "パッド。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:191
 msgid "A value (hidden text that is replaced by the true value when used)."
-msgstr ""
+msgstr "値(使用する時に正しい値に置き換えられる非表示テキスト)。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:193
 msgid "Alternative method:"
-msgstr ""
+msgstr "別の方法です:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:197
@@ -984,31 +1134,33 @@ msgid ""
 "board, an alternative and quicker method of creating the new module is as "
 "follows:"
 msgstr ""
+"新規モジュールがライブラリまたは回路基板に存在するモジュールと同じようなもの"
+"である時、新規モジュールを作成する別のより速い方法は次の通りです:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:201
 msgid ""
 "Load the similar module (image:images/icons/load_module_lib.png[], image:"
-"images/icons/load_module_board.png[] or image:images/icons/import_module.png"
-"[])."
-msgstr ""
+"images/icons/load_module_board.png[] or image:images/icons/import_module."
+"png[])."
+msgstr "似たようなモジュールを読み込む(、または) TODO"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:202
 msgid ""
 "Modify the reference field in order to generate a new identifier (name)."
-msgstr ""
+msgstr "新しい識別子(名前)を生成するために、リファレンスフィールドを変更する。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:203 Pcbnew_managing_libs.adoc:141
 msgid "Edit and save the new module."
-msgstr ""
+msgstr "新規モジュールを編集し、保存する。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:205
 #, no-wrap
 msgid "Adding and editing pads"
-msgstr ""
+msgstr "パッドの追加および編集"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:210
@@ -1017,12 +1169,16 @@ msgid ""
 "Modification of pads can be local, affecting only the pad under the cursor, "
 "or global, affecting all pads of the module."
 msgstr ""
+"一旦モジュールが作成されると、パッドを追加、削除、または修正することが可能で"
+"す。パッドの修正をローカルにできますが、\n"
+"カーソル下のパッドだけが影響を受けます。あるいはグローバルにすると、モジュー"
+"ルの全てのパッドが影響を受けます。"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:212
 #, no-wrap
 msgid "Adding pads"
-msgstr ""
+msgstr "パッドの追加"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:218
@@ -1031,29 +1187,32 @@ msgid ""
 "Pads can be added by clicking in the desired position with the left mouse "
 "button. Pad properties are predefined in the pad properties menu."
 msgstr ""
+"右側ツールバーからアイコンを選択します。希望する位置でマウスの左ボタンをク"
+"リックして、パッドを追加することが可\n"
+"能です。パッドプロパティメニューでパッドプロパティを事前に定義します。TODO"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:220
 msgid "Do not forget to enter the pad number."
-msgstr ""
+msgstr "パッド番号を入力するのを忘れないで下さい。 "
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:222
 #, no-wrap
 msgid "Setting pad properties"
-msgstr ""
+msgstr "パッドプロパティの設定"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:225
 msgid "This can be done in three different ways:"
-msgstr ""
+msgstr "これは3つの異なる方法で行うことが可能です:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:228
 msgid ""
 "Selecting the image:images/icons/options_pad.png[] icon from the horizontal "
 "toolbar."
-msgstr ""
+msgstr "水平ツールバーからアイコンを選択する。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:230
@@ -1061,6 +1220,9 @@ msgid ""
 "Clicking on an existing pad and selecting 'Edit Pad'. The pad's settings can "
 "then be edited."
 msgstr ""
+"既存のパッドをクリックし、'パッドの編集'を選択する。それにより、パッドの設定"
+"を編集することが可能になり\n"
+"ます。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:233
@@ -1069,11 +1231,14 @@ msgid ""
 "case, the geometrical properties of the selected pad will become the default "
 "pad properties."
 msgstr ""
+"既存のパッドをクリックし、'パッドの設定をエクスポート'を選択する。この場合、"
+"選択されたパッドのジオメトリプロパティがデフォルトのパッドプロパティになりま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:235
 msgid "In the first two cases, the following dialog window will be displayed:"
-msgstr ""
+msgstr "最初の2つケースでは、次のダイアログウィンドウが表示されます:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:237
@@ -1088,6 +1253,9 @@ msgid ""
 "management of non-copper layers (solder mask, solder pads...) is equally "
 "important for circuit manufacture and documentation."
 msgstr ""
+"パッドが属する層を正しく定義することに注意した方がよいでしょう。特に、導体層"
+"は定義が容易ですが、非導体層(ハンダレジスト、ハンダパッド)の管理は、回路製作"
+"およびドキュメントのために同様に重要です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:246
@@ -1095,12 +1263,13 @@ msgid ""
 "The Pad Type selector triggers an automatic selection of layers that is "
 "generally sufficient."
 msgstr ""
+"パッドタイプセレクターは通常は適合する(sufficient)層の自動選択を行います。"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:248
 #, no-wrap
 msgid "Rectangular pads"
-msgstr ""
+msgstr "矩形パッド"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:256
@@ -1111,12 +1280,16 @@ msgid ""
 "orientations (0 for horizontal and 90 degrees for vertical). Global resizing "
 "of pads can then be done in a single operation."
 msgstr ""
+"4辺すべて(水平および垂直の両方)に矩形のパッドを持つVQFP/PQFPタイプのSMDモ"
+"ジュールの場合、形状(例えば、水平の矩形)を1つだけ使用して、それを異なる角度で"
+"(0は水平用にまた、90度は垂直用に)配置することを推奨します。パッドの全体的なサ"
+"イズ変更が1つの操作で行うことが可能です。"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:258
 #, no-wrap
 msgid "Rotate pads"
-msgstr ""
+msgstr "パッドの回転"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:262
@@ -1124,17 +1297,20 @@ msgid ""
 "Rotations of -90 or -180 are only required for trapezoidal pads used in "
 "microwave modules."
 msgstr ""
+"90度または-180度の回転は、マイクロ波モジュールで使用する台形パッドに必要で"
+"す。"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:264
 #, no-wrap
 msgid "Non-plated through hole pads"
-msgstr ""
+msgstr "非メッキのスルーホールパッド"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:267
 msgid "Pads can be defined as Non-Plated Through Hole pads (NPTH pads)."
 msgstr ""
+"パッドを非メッキスルーホールパッド(NPTHパッド)として定義することが可能です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:270
@@ -1142,6 +1318,9 @@ msgid ""
 "These pads must be defined on one or all copper layers (obviously, the hole "
 "exists on all copper layers)."
 msgstr ""
+"これらのパッドは1つまたはすべての導体層(明らかに穴はすべての導体層に存在する)"
+"に定義しなけれ\n"
+"ばなりません。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:273
@@ -1149,6 +1328,8 @@ msgid ""
 "This requirement allows you to define specific clearance parameters ( for "
 "instance clearance for a screw)."
 msgstr ""
+"この要件により特定のクリアランスパラメータ(例えば、ネジのクリアランス)を定義"
+"することができます。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:276
@@ -1156,6 +1337,8 @@ msgid ""
 "When the pad hole size is the same as the pad size, for a round or oval pad, "
 "this pad is NOT plotted on copper layers in GERBER files."
 msgstr ""
+"円形か長円形のパッドで、パッド穴のサイズがパッドサイズと同じ場合、このパッド"
+"はガーバーファイル内の導体層には作成されません。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:279
@@ -1163,12 +1346,14 @@ msgid ""
 "These pads are used for mechanical purposes, therefore no pad name or net "
 "name is allowed. A connection to a net is not possible."
 msgstr ""
+"これらのパッドは機械処理の目的に使用されます。そのため、パッド名またはネット"
+"名がなくても問題ありません。ネットへの接続はできません。"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:281
 #, no-wrap
 msgid "Pads not on copper layers"
-msgstr ""
+msgstr "非導体層のパッド"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:285
@@ -1176,17 +1361,19 @@ msgid ""
 "These are unusual pads. This option can be used to create fiducials or masks "
 "on technical layers."
 msgstr ""
+"これらは特殊なパッドです。テクニカル層上にフィディシャルあるいはマスクを作成"
+"するためにこのオプションを使用することが可能です。"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:287
 #, no-wrap
 msgid "Offset parameter"
-msgstr ""
+msgstr "オフセットパラメータ"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:290
 msgid "Pad 3 has an offset Y = 15 mils:"
-msgstr ""
+msgstr "パッド3はオフセットがY=15milです。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:292
@@ -1197,12 +1384,12 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:294
 #, no-wrap
 msgid "Delta Parameter (trapezoidal pads)"
-msgstr ""
+msgstr "デルタパラメータ(台形パッド)"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:297
 msgid "Pad 1 has its parameter Delta X = 10 mils"
-msgstr ""
+msgstr "パッド1はパラメータがDeltaX=10milです。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:299
@@ -1213,53 +1400,53 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:301
 #, no-wrap
 msgid "Setting clearance for solder mask and solder paste mask layers"
-msgstr ""
+msgstr "ハンダレジストおよびパンダペーストマスク(メタルマスク)層用のクリアランスの設定"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:304
 msgid "Setting clearance can be made at 3 levels:"
-msgstr ""
+msgstr "クリアランスの設定は3つのレベルで行うことが可能です:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:306
 msgid "Global level."
-msgstr ""
+msgstr "グローバルレベル。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:307
 msgid "Footprint level."
-msgstr ""
+msgstr "フットプリントレベル。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:308
 msgid "Pad level."
-msgstr ""
+msgstr "パッドレベル。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:310
 msgid "Pcbnew uses the following to calculate clearance:"
-msgstr ""
+msgstr "Pcbnewはクリアランスを計算するために以下を使用します:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:312
 msgid "Pad settings. If null,"
-msgstr ""
+msgstr "パッド設定。これが0の場合は、"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:313
 msgid "Footprint settings. If null,"
-msgstr ""
+msgstr "フットプリント設定。これが0の場合は、"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:314
 msgid "Global settings."
-msgstr ""
+msgstr "グローバル設定。"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:316
 #, no-wrap
 msgid "Remarks"
-msgstr ""
+msgstr "注"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:321
@@ -1268,37 +1455,40 @@ msgid ""
 "clearance value is positive. The solder paste mask pad shape is usually "
 "smaller than the pad itself. So the clearance value is negative."
 msgstr ""
+"ハンダレジストのパッド形状は、パッドそのものよりも通常は大きくなります。その"
+"ためクリアランス値は正の値です。メタルマスクのパッド形状は、パッドそのものよ"
+"りも通常は小さくなります。そのためクリアランス値は負の値です。"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:323
 #, no-wrap
 msgid "Solder paste mask parameters"
-msgstr ""
+msgstr "ハンダペーストマスク(メタルマスク)パラメータ"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:326
 msgid "For solder paste mask there are two parameters:"
-msgstr ""
+msgstr "ハンダペーストマスク(メタルマスク)用に2つのパラメータがあります:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:328
 msgid "A fixed value."
-msgstr ""
+msgstr "固定値。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:329
 msgid "A percentage of the pad size."
-msgstr ""
+msgstr "パッドサイズの比率。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:331
 msgid "The real value is the sum of these two values."
-msgstr ""
+msgstr "実際の値はこれら2つの値の合計です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:333
 msgid "Footprint level settings:"
-msgstr ""
+msgstr "フットプリントレベルの設定"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:335
@@ -1308,7 +1498,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:337
 msgid "Pad level settings:"
-msgstr ""
+msgstr "パッドレベルの設定:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:339
@@ -1319,12 +1509,12 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:341
 #, no-wrap
 msgid "Fields Properties"
-msgstr ""
+msgstr "フィールドプロパティ"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:344
 msgid "There are at least two fields: reference and value."
-msgstr ""
+msgstr "少なくとも2つのフィールドがあります:リファレンスと値です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:348
@@ -1333,6 +1523,9 @@ msgid ""
 "the dialog box from the pop-up menu, by double clicking on the field, or by "
 "the footprint properties dialog box:"
 msgstr ""
+"それらのパラメータ(属性、サイズ、幅)を更新しなければなりません。champをダブル"
+"クリックしてポップアップメニューを表示し、そこからダイアログボックスにアクセ"
+"スすることが可能です。あるいはフットプリントダイアログボックスを使用します。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:350
@@ -1343,7 +1536,7 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:352
 #, no-wrap
 msgid "Automatic placement of a module"
-msgstr ""
+msgstr "モジュールの自動配置"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:357
@@ -1352,6 +1545,9 @@ msgid ""
 "placement functions, it is necessary to define the allowed orientations of "
 "the module (Module Properties dialog)."
 msgstr ""
+"自動配置機能の全機能を有効活用したい場合、モジュールの可能な角度を定義するこ"
+"とが必要です(モ\n"
+"ジュールプロパティダイアログ)。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:359
@@ -1364,6 +1560,8 @@ msgid ""
 "Usually, rotation of 180 degrees is permitted for resistors, non-polarized "
 "capacitors and other symmetrical elements."
 msgstr ""
+"通常、抵抗器、無極性コンデンサー、および他の対称的な素子の場合に180度の回転が"
+"可能です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:367
@@ -1373,6 +1571,9 @@ msgid ""
 "permissions set to zero. This can be adjusted according to the following "
 "rule:"
 msgstr ""
+"あるモジュール(例えば、小さなトランジスタ)は±90度または180度の回転をさせるこ"
+"とがしばしばあります。デフォルトでは、新規モジュールは回転許可設定が0になって"
+"います。これは次のルールに従って調整することが可能です:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:373
@@ -1382,17 +1583,20 @@ msgid ""
 "might have a permission of 10 to rotate 180 degrees (unrestrained) and a "
 "permission of 5 for a +/- 90 degree rotation (allowed, but discouraged)."
 msgstr ""
+"0の値は回転不可で、10は完全にそれが可能で、それ以外の中間値は限られた回転を表"
+"します。例えば、抵抗器は回転許可設定を10にして180度(自由な)回転させたり、また"
+"回転許可設定を5にして±90度回転(可能、であるが非推奨)させるかも知れません。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:375
 #, no-wrap
 msgid "Attributes"
-msgstr ""
+msgstr "属性"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:378
 msgid "The attributes window is the following:"
-msgstr ""
+msgstr "属性ウィンドウは次の通りです:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:380
@@ -1402,7 +1606,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:382
 msgid "Normal is the standard attribute."
-msgstr ""
+msgstr "ノーマルは標準属性です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:385
@@ -1411,6 +1615,10 @@ msgid ""
 "insertion file (for automatic insertion machines). This attribute is most "
 "useful for surface mount components (SMDs)."
 msgstr ""
+"ノーマル+挿入部品はモジュールが(自動挿入機用の)自動挿入ファイルの中に現れてい"
+"なければな\n"
+"らないことを示しています。この属性は表面実装コンポーネント(SMD)の場合に最も有"
+"用です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:388
@@ -1419,12 +1627,15 @@ msgid ""
 "Examples would be edge connectors or inductors created by a particular track "
 "shape (as sometimes seen in microwave modules)."
 msgstr ""
+"バーチャルはコンポーネントが直接回路基板により形成されることを示しています。"
+"この例としては、エッジコネクタまたは特定の配線形状により作成される(マイクロ波"
+"モジュールで時折見られるような)コイルがあります。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:390
 #, no-wrap
 msgid "Documenting modules in a library"
-msgstr ""
+msgstr "ライブラリへのモジュールのドキュメント化"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:395
@@ -1433,6 +1644,10 @@ msgid ""
 "facilitate their rapid and accurate retrieval. Who is able to recall the "
 "multiple pin-out variants of a TO92 module?"
 msgstr ""
+"モジュールを速やかにかつ正確に回復させ易くするために、新規に作成したモジュー"
+"ルのドキュメント化を強く推\n"
+"奨します。TO92モジュールでピン配置の違うものはたくさんありますがそれを覚えて"
+"いる者はいないでしょう。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:398
@@ -1440,6 +1655,8 @@ msgid ""
 "The Module Properties dialog offers a simple and yet powerful means for "
 "documentation generation."
 msgstr ""
+"モジュールのプロパティダイアログはドキュメントの生成のためのシンプルではある"
+"が強力な手段を提供します。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:400
@@ -1449,17 +1666,17 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:402
 msgid "This menu allows:"
-msgstr ""
+msgstr "このメニューにより以下を行うことができます:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:404
 msgid "The entry of a comment line (description)."
-msgstr ""
+msgstr "コメント行(説明)の入力。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:405 Pcbnew_managing_libs.adoc:215
 msgid "Multiple keywords."
-msgstr ""
+msgstr "複数のキーワードの入力。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:409
@@ -1468,6 +1685,9 @@ msgid ""
 "module selection menus in Pcbnew. The keywords can be used to restrict "
 "searches to those parts possessing the given keywords."
 msgstr ""
+"CVPCBおよびPCBNEWのモジュール選択メニューではコメント行はコンポーネントのリス"
+"トと一緒に表示されます。キーワードを使用して、当該キーワードを持つ部品に検索"
+"を限定することが可能です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:414
@@ -1476,12 +1696,15 @@ msgid ""
 "Pcbnew), it is possible to type the text `=TO220` into the dialog box to "
 "have Pcbnew display a list of the modules possessing the keyword `TO220`"
 msgstr ""
+"このため、モジュールの読み込みコマンド(Pcbnewの右側ツールバーアイコン)を使用"
+"中に、テキスト=TO220をダイアログボックスに入力してPCBNEWにキーワードTO220を持"
+"つモジュールの一覧を表示させることが可能です。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:416
 #, no-wrap
 msgid "3-dimensional visualisation"
-msgstr ""
+msgstr "3次元的な可視化"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:422
@@ -1490,6 +1713,9 @@ msgid ""
 "representation of itself. In order to associate such a file with a module, "
 "select the 3D Settings tab. The options panel is the following:"
 msgstr ""
+"モジュールをその3次元的な表現を含んだファイルと関連付けることができます。その"
+"ようなファイルをモジュール\n"
+"と関連付けるために、3D設定タブを選択します。オプションパネルは次の通りです:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:424
@@ -1499,7 +1725,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:426
 msgid "The data information should be provided:"
-msgstr ""
+msgstr "データ情報を与えなければなりません:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:429
@@ -1507,6 +1733,8 @@ msgid ""
 "The file containing the 3D representation (created by the 3D modeler "
 "Wings3D, in vrml format, via the export to vrml command)."
 msgstr ""
+"3D表現を含む(vrmlへエクスポートコマンドにより、3Dモデラーのwings3dが作成する"
+"vrmlフォーマットの)ファイル。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:431
@@ -1514,27 +1742,29 @@ msgid ""
 "The default path is kicad/modules/package3d. In the example, the file name "
 "is discret/to_220horiz.wrl, using the default path)"
 msgstr ""
+"デフォルトパスはkicad/modules/package3dです。例では、ファイル名はdiscret/"
+"to_220horizwrlで、デフォルトパスを使用しています。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:432
 msgid "The x, y and z scales."
-msgstr ""
+msgstr "x、y、およびzスケール。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:434
 msgid ""
 "The offset with respect to the anchor point of the module (usually zero)."
-msgstr ""
+msgstr "モジュールのアンカーポイントに関するオフセット(通常はゼロ)。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:435
 msgid "The initial rotation in degrees about each axis (usually zero)."
-msgstr ""
+msgstr "各軸周りの度数での初期回転(通常はゼロ)。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:437
 msgid "Setting scale allows:"
-msgstr ""
+msgstr "スケールの設定により次のことができます:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:440
@@ -1542,6 +1772,8 @@ msgid ""
 "To use the same 3D file for footprints which have similar shapes b ut "
 "different sizes (resistors, capacitors, SMD components...)"
 msgstr ""
+"同じような形状でサイズの異なるフットプリント(抵抗器、コンデンサー、SMDコン"
+"ポーネント)には同じ3Dファイルを使用。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:442
@@ -1549,6 +1781,8 @@ msgid ""
 "For small (or very large) packages, a better use of the Wings3D grid is to "
 "scale *0.1 inch in Pcbnew = 1 grid unit* in Wings3D."
 msgstr ""
+"小さいパッケージの場合、wings3Dグリッドの活用。スケール1→Pcbnewでの01インチ"
+"=wings3Dでの1グリッドに相当"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:445
@@ -1556,6 +1790,7 @@ msgid ""
 "If such a file has been specified, it is possible to view the component in "
 "3D."
 msgstr ""
+"そのようなファイルを指定すると、コンポーネントを3Dで見ることが可能です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:447
@@ -1567,13 +1802,13 @@ msgstr ""
 msgid ""
 "The 3D model will automatically appear in the 3D representation of the "
 "printed circuit board."
-msgstr ""
+msgstr "3Dモデルはプリント基板の3D表現の中に自動的に現れます。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:451
 #, no-wrap
 msgid "Saving a module into the active library"
-msgstr ""
+msgstr "アクティブなライブラリへのモジュールの保存"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:454
@@ -1581,6 +1816,8 @@ msgid ""
 "The save command (modification of the file of the active library) is "
 "activated by the image:images/icons/save_library.png[] button."
 msgstr ""
+"保存コマンド(アクティブなライブラリのファイルの修正)はボタンで実行します。 "
+"TODO"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:456
@@ -1590,6 +1827,9 @@ msgid ""
 "library modules, it is worth double-checking the module for errors before "
 "saving."
 msgstr ""
+"同じ名前のモジュール(旧バージョン)が存在する場合は、上書きされます。ライブラ"
+"リのモジュールに信頼性があるということは重要なので、保存する前にエラーが無い"
+"ようにモジュールをダブルチェックする価値があります。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:458
@@ -1597,12 +1837,14 @@ msgid ""
 "Before saving, it is also recommended to change the reference or value of "
 "the module to be equal to the library name of the module."
 msgstr ""
+"保存する前に、モジュールのリファレンスまたは値を変更してモジュールのライブラ"
+"リ名と同じにすることを推奨します。"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:460
 #, no-wrap
 msgid "Saving a module to the board"
-msgstr ""
+msgstr "基板へのモジュールの保存"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:464
@@ -1611,6 +1853,8 @@ msgid ""
 "images/icons/update_module_board.png[] will update this footprint on the "
 "board."
 msgstr ""
+"編集したフットプリントが現在の基板からのものである場合、ボタンにより基板上の"
+"このフットプリントを更新します。"
 
 #. type: Title -
 #: Pcbnew_editing_tools.adoc:2
@@ -1651,8 +1895,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:26
 msgid ""
-"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line.png"
-"[] image:images/icons/duplicate_text.png[] image:images/icons/"
+"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line."
+"png[] image:images/icons/duplicate_text.png[] image:images/icons/"
 "duplicate_module.png[] image:images/icons/duplicate_target.png[] image:"
 "images/icons/duplicate_zone.png[]"
 msgstr ""
@@ -2114,7 +2358,7 @@ msgstr ""
 #: Pcbnew_fabrication_files.adoc:26
 #, no-wrap
 msgid "Final DRC test"
-msgstr ""
+msgstr "最終的なDRCテスト"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:30
@@ -2122,6 +2366,8 @@ msgid ""
 "Before generating the output files, a global DRC test is very strongly "
 "recommended."
 msgstr ""
+"ファイルを生成する前に、グローバルDRCテストを実施することを強くおすすめしま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:34
@@ -2129,6 +2375,8 @@ msgid ""
 "Zones are filled or refilled when starting a DRC. Press the button image:"
 "images/icons/drc.png[[] to launch the following DRC dialog:"
 msgstr ""
+"DRCテストを開始する際に、領域が塗りつぶされます。ボタンをクリックし、以下に示"
+"すようなDRCダイアログを表示させます。 TODO"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:36
@@ -2138,18 +2386,18 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:38
 msgid "Adjust parameters accordingly and then press the \"Start DRC\" button."
-msgstr ""
+msgstr "パラメータを適宜変更し、をクリックします。 TODO"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:40
 msgid "This final check will prevent any unpleasant surprises."
-msgstr ""
+msgstr "この最終チェックで、つまらないミスを未然に防止することができます。"
 
 #. type: Title ~
 #: Pcbnew_fabrication_files.adoc:42
 #, no-wrap
 msgid "Setting coordinates origin"
-msgstr ""
+msgstr "原点座標の設定"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:48
@@ -2159,6 +2407,11 @@ msgid ""
 "icons/pcb_offset.png. Move the auxiliary axis to the chosen location by "
 "clicking for instance on this location."
 msgstr ""
+"フォトプロッタやドリル穴あけ機のための原点座標を設定します。右部ツールバーよ"
+"り、\n"
+"置としたい座標でクリックすることにより、補助軸を移動させます。\n"
+"アイコンを選択し、原点位\n"
+"ファイルメニューよりプロットを選択し、作業を行います。 TODO"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:50
@@ -2170,6 +2423,8 @@ msgstr ""
 #, no-wrap
 msgid "Generating files for photo-tracing"
 msgstr ""
+"104\n"
+"フォトプロッタのためのファイル生成"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:56
@@ -2189,6 +2444,10 @@ msgid ""
 "produce output in both HPGL and POSTSCRIPT formats. When Postscript format "
 "is selected, this dialog will appear."
 msgstr ""
+"通常、これらのファイルはガーバーフォーマットで出力されます。他にもHPGLや"
+"PostScript、DXFフォーマットなどで出力することが可能です。Postscriptファイルが"
+"選択された場合、ダイアログは下記のようになります。\n"
+"PostScriptの場合、高精度なスケール調整を下記の設定から行うことが出来ます。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:64
@@ -2211,7 +2470,7 @@ msgstr ""
 #: Pcbnew_fabrication_files.adoc:71
 #, no-wrap
 msgid "GERBER format"
-msgstr ""
+msgstr "ガーバーフォーマット"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:78
@@ -2221,6 +2480,9 @@ msgid ""
 "represented by 7 digits, of which 3 are before the decimal point and 4 "
 "follow it; the units are inches). The tracing is always drawn to scale 1)"
 msgstr ""
+"Pcbnewはデフォルトで3:4フォーマット(整数3桁、小数点以下4桁の合計7桁で示される"
+"インチ単位の座標値)によるRS274X標準に準拠したファイルをレイヤごとに生成しま"
+"す。これらは常にスケール1(等倍寸)の値となります。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:84
@@ -2230,6 +2492,9 @@ msgid ""
 "silkscreen (component markings) layers. All of these files can be produced "
 "in one go, by selecting the appropriate check boxes."
 msgstr ""
+"通常、全ての導体層、および必要に応じてレジスト層、シルクなどについてファイル"
+"生成する必要があります。これらすべてのファイルは、チェックボックスの設定次第"
+"で一度に生成することができます。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:88
@@ -2238,51 +2503,53 @@ msgid ""
 "solder mask (for CMS components), 8 files should be generated ('xxxx' "
 "represents the name of the .brd file)."
 msgstr ""
+"例えば、レジスト層、シルク、ハンダマスクを含んだ両面基板では、下記の8ファイル"
+"が生成されることとなります(xxxx部分には、brdファイルのファイル名が入ります)。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:90
 msgid "xxxx.copper.pho for the copper side."
-msgstr ""
+msgstr "xxxxcopperpho(ハンダ面)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:91
 msgid "xxxx.cmp.pho for the component side."
-msgstr ""
+msgstr "xxxxcmppho(部品面)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:92
 msgid "xxxx.silkscmp.pho for the component-side silkscreen markings."
-msgstr ""
+msgstr "xxxxsilkscmppho(部品面シルク印刷)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:93
 msgid "xxxx.silkscu.pho for the copper-side silkscreen markings."
-msgstr ""
+msgstr "xxxxsilkscupho(ハンダ面シルク印刷)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:94
 msgid "xxxx.soldpcmp.pho for the component-side solder mask."
-msgstr ""
+msgstr "xxxxsoldpcmppho(部品面ハンダマスク)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:95
 msgid "xxxx.soldpcu.pho for the copper-side solder mask."
-msgstr ""
+msgstr "xxxxsoldpcupho(ハンダ面ハンダマスク)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:96
 msgid "xxxx.maskcmp.pho for the component-side solder stop mask."
-msgstr ""
+msgstr "xxxxmaskcmppho(部品面レジストマスク)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:97
 msgid "xxxx.maskcu.pho for the copper-side solder stop mask."
-msgstr ""
+msgstr "xxxxmaskcupho(ハンダ面レジストマスク)"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:99
 msgid "GERBER file format:"
-msgstr ""
+msgstr "ガーバーファイルフォーマット:"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:102
@@ -2290,12 +2557,15 @@ msgid ""
 "The format used by Pcbnew is RS274X format 3.4, Imperial, Leading zero "
 "omitted, Abs format. These are very usual settings."
 msgstr ""
+"Pcbnewで利用されるフォーマットは、ゼロサプレス(先方、後方ゼロ省略)、絶対値表"
+"記のRS\n"
+"274X34フォーマットです。"
 
 #. type: Title ^
 #: Pcbnew_fabrication_files.adoc:104
 #, no-wrap
 msgid "POSTSCRIPT format"
-msgstr ""
+msgstr "POSTSCRIPTフォーマット"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:111
@@ -2306,22 +2576,27 @@ msgid ""
 "coordinates of the tracing table is assumed to be in the centre of the "
 "drawing."
 msgstr ""
+"PostScript形式の場合、標準のファイル拡張子はpsとなります。\n"
+"HPGL出力と同様に、ユーザが選択したスケールと反転/非反転の設定で出力が可能で"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:113 Pcbnew_fabrication_files.adoc:151
 msgid "If the Print Sheet Ref option is active, the sheet cartridge is traced."
 msgstr ""
+"「全てのレイヤーにシートリファレンスを出力」オプションが有効になっていた場"
+"合、図枠もトレースされます。"
 
 #. type: Title ^
 #: Pcbnew_fabrication_files.adoc:115
 #, no-wrap
 msgid "Plot options"
-msgstr ""
+msgstr "プロットオプション"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:118
 msgid "Gerber format:"
-msgstr ""
+msgstr "ガーバーフォーマット"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:120
@@ -2846,7 +3121,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:92
 #, no-wrap
 msgid "Selection of grid size"
-msgstr ""
+msgstr "グリッドサイズの選択"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:95
@@ -2854,6 +3129,8 @@ msgid ""
 "During elements layout the cursor moves on a grid. The grid can be turned on "
 "or off using the icon on the left toolbar."
 msgstr ""
+"要素のレイアウト際、カーソルはグリッド上を移動します.左のツールバーのアイコン"
+"を使用してグリッドのオンオフ を切り替えることができます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:100
@@ -2863,17 +3140,21 @@ msgid ""
 "of the screen. The size of the User Defined grid is set using the menu bar "
 "option Dimensions -> User Grid Size."
 msgstr ""
+"定義済のグリッド·サイズとするか、ユーザー定義のグリッドサイズとするかは、画面"
+"の上部のツールバーのドロップ ダウンセレクター、あるいはポップアップウィンド"
+"ウ を使用して選択することができます.ユーザー定義のグリッドサ イズは、メニュー"
+"·バーから、設定-寸法-グリッドを選択して設定します."
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:102
 #, no-wrap
 msgid "Adjustment of the zoom level"
-msgstr ""
+msgstr "ズームレベルの調整"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:105
 msgid "To change the zoom level:"
-msgstr ""
+msgstr "ズームレベルを変更するには"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:107
@@ -2881,6 +3162,8 @@ msgid ""
 "Open the pop-up window (using the right mouse button) and to select the "
 "desired zoom."
 msgstr ""
+"ポップアップウインドウを開き (マウス右ボタンを使って) 、希望するズームを選択"
+"します. "
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:112
@@ -2889,11 +3172,13 @@ msgid ""
 "out)  ** `F3`: Redraw the display ** `F4`: Centre view at the current cursor "
 "position"
 msgstr ""
+"あるいはファンクションキーを使います: F1: 拡大 (ズームイン)，F2: 縮小 (ズーム"
+"アウト)，F3: 画面を再描画します，F4: 現在のカーソル位置を中央にして表示します"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:113
 msgid "Or rotate the mouse wheel."
-msgstr ""
+msgstr "あるいはマウスホイールを回転させます. "
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:114
@@ -2901,12 +3186,13 @@ msgid ""
 "Or hold down the middle mouse button and draw a rectangle to zoom to the "
 "described area."
 msgstr ""
+"あるいはマウス中央ボタンを押して、四角形を描きその領域をズームインします."
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:116
 #, no-wrap
 msgid "Displaying cursor coordinates"
-msgstr ""
+msgstr "カーソル座標の表示"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:119
@@ -2914,6 +3200,8 @@ msgid ""
 "The cursor coordinates are displayed in inches or millimetres as selected "
 "using the 'In' or 'mm' icons on the left hand side toolbar."
 msgstr ""
+"左側のツールバーにあるインチミリ切り替えアイコンによる選択に従い、カーソル座"
+"標はインチまたはミリメートルで表示されます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:121
@@ -2921,21 +3209,22 @@ msgid ""
 "Whichever unit is selected Pcbnew always works to a precision of 1/10,000 of "
 "inch."
 msgstr ""
+"どちらの単位が選択されようと Pcbnew は、常に 1/10,000 インチ精度で稼働します."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:123
 msgid "The status bar at the bottom of the screen gives:"
-msgstr ""
+msgstr "画面下部のステータスバーには下記が表示されます "
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:125
 msgid "The current zoom setting."
-msgstr ""
+msgstr "現在のズーム設定"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:126
 msgid "The absolute position of the cursor."
-msgstr ""
+msgstr "カーソルの絶対位置"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:127
@@ -2944,6 +3233,9 @@ msgid ""
 "be set to (0,0) at any position by pressing the space bar. The cursor "
 "position is then displayed relative to this new datum."
 msgstr ""
+"カーソルの相対位置.スペースバーを押すことで、相対座標(x、y)を任意の位置で"
+"(0,0)に設定することができますので注意してください.以降、カーソルの位置はこの"
+"新しい基準から相対表示されます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:129
@@ -2952,6 +3244,8 @@ msgid ""
 "polar co-ordinates (ray + angle). This can be turned on and off using the "
 "icon on the left hand side toolbar."
 msgstr ""
+"さらに、カーソルの相対位置は、極座標(半径+角度)を使用して表示できます.これ"
+"は、左側のツールバーのアイコ ンを使用して切り替えることができます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:131
@@ -2961,7 +3255,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:133
 msgid "Keyboard commands - hotkeys"
-msgstr ""
+msgstr "キーボードコマンド - ホットキー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:149
@@ -2970,6 +3264,8 @@ msgid ""
 "available from the pop-up menu. In addition the view can zoom to that "
 "described by the block."
 msgstr ""
+"ブロックを移動、反転(鏡像)、複写、回転、削除する操作は全てポップアップメ"
+"ニューから可能です.さらにブロック で囲まれた領域へビューをズームできます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:153
@@ -2977,6 +3273,8 @@ msgid ""
 "The framework of the block is traced by moving the mouse whilst holding down "
 "the left mouse button. The operation is carried out on releasing the button."
 msgstr ""
+"ブロックの枠は左マウスボタンを押しながらマウスを動かすことにより指定されます."
+"その操作はボタンを放すことで 実行されます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:158
@@ -2985,6 +3283,9 @@ msgid ""
 "together or “Alt”, whilst the block is drawn the operation invert, rotate, "
 "delete or copy is automatically selected as shown in the table below:"
 msgstr ""
+"“Shift” か “Ctrl”のホットキーの一つ, あるいは “Shflt と Ctrl” 両方のキー一緒"
+"に押すことにより、ブロック全体に 反転、回転、削除の操作が下記表に示されるよう"
+"に自動的に選択されます."
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:172
@@ -3002,6 +3303,17 @@ msgid ""
 "| Alt + Left mouse button held down\n"
 "| Copy the block\n"
 msgstr ""
+"| 動作 | 効果\n"
+"|マウス左ボタンを押したまま\n"
+"|ブロックを移動します\n"
+"|Shift + マウス左ボタンを押したまま\n"
+"|ブロックを反転(ミラー)します\n"
+"|Ctrl + マウス左ボタンを押したまま\n"
+"|ブロックを 90°回転させます\n"
+"|Shft+Ctrl + マウス左ボタンを押したまま\n"
+"|ブロックを削除します\n"
+"|Alt + マウス左ボタン押したまま\n"
+"|ブロックを複写します\n"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:176
@@ -3009,6 +3321,8 @@ msgid ""
 "When a block command is made, a dialog window is displayed, and items "
 "involved in this command can be chosen."
 msgstr ""
+"ブロックコマンドとなると、ダイアログウインドウが表示され、このコマンドで含ま"
+"れるアイテムを選択することができ ます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:179
@@ -3016,6 +3330,8 @@ msgid ""
 "Any of the commands above can be cancelled via the same pop-up menu or by "
 "pressing the Escape key (`Esc`)."
 msgstr ""
+"上記のどのコマンドも、同じポップアップメニュー、またはエスケープキー (Esc)を"
+"押すことで取り消すことができます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:181
@@ -3026,7 +3342,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:183
 #, no-wrap
 msgid "Units used in dialogs"
-msgstr ""
+msgstr "ダイアログで使われる単位"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:190
@@ -3036,11 +3352,14 @@ msgid ""
 "Inch mm combo icon.png[] However one can enter the unit used to define a "
 "value, when entering a new value."
 msgstr ""
+"寸法値を表示するのに使用される単位はインチと mm です.必要な単位は、左側ツール"
+"バーにあるアイコンを押して選択することができます.新しい値を入力する際には、値"
+"を定義する単位を入力することができます"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:192
 msgid "Accepted units are:"
-msgstr ""
+msgstr "利用可能な単位は次のとおりです.:"
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:199
@@ -3052,16 +3371,21 @@ msgid ""
 "| 25 *mi* | 25 mils, same as thou\n"
 "| 6 *mm*  | 6 mm\n"
 msgstr ""
+"|1in | 1 inch\n"
+"|1\" | 1 inch\n"
+"|25th | 25 thou (1/1000 inch)\n"
+"|25mi | 25 mils, thou と同じ\n"
+"|6mm | 6 mm\n"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:202
 msgid "The rules are:"
-msgstr ""
+msgstr "ルールは次のとおりです:"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:204
 msgid "Spaces between the number and the unit are accepted."
-msgstr ""
+msgstr "数値と単位の間にスペースを入れられます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:205
@@ -3074,13 +3398,13 @@ msgid ""
 "In countries using an alternative decimal separator than the period, the "
 "period (`.`) can be used as well. Therefore `1,5` and `1.5` are the same in "
 "French."
-msgstr ""
+msgstr "最初の二文字だけが重要."
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:208
 #, no-wrap
 msgid "Top menu bar"
-msgstr ""
+msgstr "トップメニューバー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:211
@@ -3088,6 +3412,8 @@ msgid ""
 "The top menu bar provides access to the files (loading and saving), "
 "configuration options, printing, plotting and the help files."
 msgstr ""
+"上部のメニューバーは、ファイル(読み込みと保存)、設定オプション、印刷、プロッ"
+"トやヘルプファイルへのアクセス を提供します."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:213
@@ -3098,7 +3424,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:215
 #, no-wrap
 msgid "The File menu"
-msgstr ""
+msgstr "ファイルメニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:218
@@ -3112,17 +3438,20 @@ msgid ""
 "well as printing and plotting the circuit board. It enables the export (with "
 "the format GenCAD 1.4) of the circuit for use with automatic testers."
 msgstr ""
+"ファイルメニューでは回路基板の印刷、プロットだけでなく、プリント回路ファイル"
+"の読み込み、書き込みができます. 自動テスターで使用する回路を出力(GenCAD1.4 形"
+"式)することができます."
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:223
 #, no-wrap
 msgid "Edit menu"
-msgstr ""
+msgstr "編集メニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:226
 msgid "Allows some global edit actions:"
-msgstr ""
+msgstr "包括的な編集ができます."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:228
@@ -3133,7 +3462,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:231
 #, no-wrap
 msgid "View menu"
-msgstr ""
+msgstr "表示メニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:234
@@ -3143,18 +3472,18 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:236
 msgid "Zoom functions and 3D board display."
-msgstr ""
+msgstr "ズーム機能と3D基板表示ができます."
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:238
 #, no-wrap
 msgid "Sub menu View/3D display"
-msgstr ""
+msgstr "表示/3D Display サブメニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:241
 msgid "Opens the 3D board viewer. Here is a sample:"
-msgstr ""
+msgstr "3D 基板ビュアを開きます.サンプルを示します."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:243
@@ -3165,12 +3494,12 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:245
 #, no-wrap
 msgid "Place menu"
-msgstr ""
+msgstr "配置メニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:248
 msgid "Same function as the right-hand toolbar."
-msgstr ""
+msgstr "右のツールバーと同じ機能のものです."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:250
@@ -3181,7 +3510,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:252
 #, no-wrap
 msgid "The Preferences menu"
-msgstr ""
+msgstr "設定メニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:255 Pcbnew_routing.adoc:30
@@ -3191,12 +3520,12 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:257
 msgid "Allows:"
-msgstr ""
+msgstr "次のことを行うことができます:"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:259
 msgid "Selection of the module libraries."
-msgstr ""
+msgstr "モジュール·ライブラリーの選択"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:260
@@ -3205,63 +3534,65 @@ msgid ""
 "other elements. Also enables the display of elements to be turned on and "
 "off.)"
 msgstr ""
+"レイヤマネージャの表示/非表示( 表示するレイヤやその他要素への色の選択、 要素"
+"の表示の有無の切り替え)"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:261
 msgid "Management of general options (units, etc.)."
-msgstr ""
+msgstr "一般的オプションの管理(単位など)"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:262
 msgid "The management of other display options."
-msgstr ""
+msgstr "その他表示オプションの管理"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:263
 msgid "Creation, edition (and re-read) of the hot keys file."
-msgstr ""
+msgstr "ホットキーファイルの作成、編集(及び再読込)"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:265
 #, no-wrap
 msgid "Dimensions menu"
-msgstr ""
+msgstr "寸法メニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:269
 msgid "An important menu.  image:images/Pcbnew_dimensions_menu.png[]"
-msgstr ""
+msgstr "重要なメニューです.  TODO"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:271
 msgid "Allows adjustment of:"
-msgstr ""
+msgstr "下記の調整ができます:"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:273
 msgid "User grid size."
-msgstr ""
+msgstr "ユーザーグリッドサイズ"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:274
 msgid "Size of texts and the line width for drawings."
-msgstr ""
+msgstr "テキストの大きさと図形の線幅"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:275
 msgid "Dimensions and characteristic of pads."
-msgstr ""
+msgstr "パッドの寸法と特性"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:276
 msgid "Setting the global values for solder mask and solder paste layers"
-msgstr ""
+msgstr "ハンダレジスト層とハンダペースト層のグローバル値の設定"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:278
 #, no-wrap
 msgid "Tools menu"
-msgstr ""
+msgstr "ツールメニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:281
@@ -3272,7 +3603,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:283
 #, no-wrap
 msgid "The Design Rules menu"
-msgstr ""
+msgstr "デザインルールメニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:286
@@ -3285,23 +3616,25 @@ msgid ""
 "Provides access to 2 dialogs: Setting the Design rules (tracks and vias "
 "sizes, clerances)."
 msgstr ""
+"2 つのダイアログボックスが利用できます.:デザインルールの設定 (配線と ビアサイ"
+"ズ、クリアランス) "
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:290
 msgid "Setting layers (Number, enabled and layers names)"
-msgstr ""
+msgstr "レイヤの設定 (層数、有効化 とレイヤ名)"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:293
 #, no-wrap
 msgid "The Display 3D Model menu"
-msgstr ""
+msgstr "3D モデル表示メニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:297
 msgid ""
 "Brings up the 3D viewer used to display the circuit board in 3 dimensions."
-msgstr ""
+msgstr "回路基板を 3 次元で表示する際に使用する3 D ビューアを起動します."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:299
@@ -3312,7 +3645,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:301
 #, no-wrap
 msgid "The Help menu"
-msgstr ""
+msgstr "ヘルプメニュー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:305
@@ -3320,12 +3653,14 @@ msgid ""
 "Provides access to the user manuals and to the version information menu "
 "(Pcbnew About)."
 msgstr ""
+"ユーザーマニュアルとバージョン情報メニューへのアクセスを提供します.(Pcbnew に"
+"ついて)"
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:307
 #, no-wrap
 msgid "Using icons on the top toolbar"
-msgstr ""
+msgstr "トップツールバーのアイコンの使用"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:310
@@ -3387,7 +3722,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:358
 #, no-wrap
 msgid "Auxiliary toolbar"
-msgstr ""
+msgstr "補助ツールバー"
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:374
@@ -3411,7 +3746,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:377
 #, no-wrap
 msgid "Right-hand side toolbar"
-msgstr ""
+msgstr "右手側のツールバー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:380
@@ -3423,22 +3758,22 @@ msgstr ""
 msgid ""
 "This toolbar gives access to the editing tool to change the PCB shown in "
 "Pcbnew:"
-msgstr ""
+msgstr "このツールバーは、次の用途のツールへのアクセスを提供します: "
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:385
 msgid "Placement of modules, tracks, zones of copper, texts, etc."
-msgstr ""
+msgstr "モジュール、トラック、銅のゾーン、 テキストなどの配置"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:386
 msgid "Net Highlighting."
-msgstr ""
+msgstr "ネットをハイライト表示"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:387
 msgid "Creating notes, graphic elements, etc."
-msgstr ""
+msgstr "ノート、グラフィック要素などの作成"
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:421
@@ -3497,7 +3832,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:437
 #, no-wrap
 msgid "Left-hand side toolbar"
-msgstr ""
+msgstr "左手側のツールバー"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:440
@@ -3509,7 +3844,7 @@ msgstr ""
 msgid ""
 "The left hand-side toolbar provides display and control options that affect "
 "Pcbnew's interface."
-msgstr ""
+msgstr "この左手側のツールバーは表示と制御オプションを提供します."
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:484
@@ -3559,7 +3894,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:487
 #, no-wrap
 msgid "Pop-up windows and fast editing"
-msgstr ""
+msgstr "ポップアップウィンドウと高速編集"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:491
@@ -3567,11 +3902,15 @@ msgid ""
 "A right click of the mouse open a pop-up window. Its contents depends on the "
 "element pointed at by the cursor."
 msgstr ""
+"マウスを右クリックすると、ポップアップウィンドウを開きます.その内容はカーソル"
+"が指し示す要素により異なります."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:493
 msgid "This gives immediate access to:"
 msgstr ""
+"マウスを右クリックすると、ポップアップウィンドウを開きます.その内容はカーソル"
+"が指し示す要素により異なります."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:496
@@ -3579,11 +3918,13 @@ msgid ""
 "Changing the display (centre display on cursor, zoom in or out or selecting "
 "the zoom)."
 msgstr ""
+"表示の変更 (カーソル位置を画面中央に表示、ズームイン、ズームアウト、あるいは"
+"ズームの選択)."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:497
 msgid "Setting the grid size."
-msgstr ""
+msgstr "グリッドサイズの設定"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:499
@@ -3591,17 +3932,20 @@ msgid ""
 "Additionally a right click on an element enables editing of the most usually "
 "modified element parameters."
 msgstr ""
+"更に要素上での右クリックにより、修正している要素のパラメータの編集が可能です."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:501
 msgid "The screenshot below shows what the pop-up window looks like."
 msgstr ""
+"このスクリーンショットはポップアップウインドウがどのように表示されるかを示し"
+"ています."
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:503
 #, no-wrap
 msgid "Available modes"
-msgstr ""
+msgstr "利用可能なモード"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:507
@@ -3609,6 +3953,8 @@ msgid ""
 "There are 3 modes when using pop up menus. In the pop-up menus, these modes "
 "add or remove some specific commands."
 msgstr ""
+"ポップ·アップ·メニューを使用した 3 つのモードがあります.これらのモードは、特"
+"定のコマンドを追加、あるいは削除します."
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:517
@@ -3627,7 +3973,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:520
 #, no-wrap
 msgid "Normal mode"
-msgstr ""
+msgstr "ノーマルモード"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:523 Pcbnew_general_operations.adoc:540
@@ -3644,7 +3990,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:527 Pcbnew_general_operations.adoc:544
 #: Pcbnew_general_operations.adoc:561
 msgid "Pop-up menu with track selected:"
-msgstr ""
+msgstr "未選択時のポップアップ."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:529
@@ -3655,7 +4001,7 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:531 Pcbnew_general_operations.adoc:548
 #: Pcbnew_general_operations.adoc:565
 msgid "Pop-up menu with footprint selected:"
-msgstr ""
+msgstr "トラック上でポップアップ."
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:533
@@ -3666,13 +4012,13 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:535
 #, no-wrap
 msgid "Footprint mode"
-msgstr ""
+msgstr "フットプリントモード"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:538
 msgid ""
 "Same cases in Footprint Mode (image:images/icons/mode_module.png[] enabled)"
-msgstr ""
+msgstr "フットプリントモードでの同じ例 TODO ( オン)"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:542
@@ -3693,12 +4039,12 @@ msgstr ""
 #: Pcbnew_general_operations.adoc:552
 #, no-wrap
 msgid "Tracks mode"
-msgstr ""
+msgstr "トラックモード"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:555
 msgid "Same cases in Track Mode (image:images/icons/mode_track.png[] enabled)"
-msgstr ""
+msgstr "トラックモードでの同じ例 TODO （オン）"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:559
@@ -3719,13 +4065,13 @@ msgstr ""
 #: Pcbnew_installation.adoc:3
 #, no-wrap
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #. type: Title ~
 #: Pcbnew_installation.adoc:6
 #, no-wrap
 msgid "Installation of the software"
-msgstr ""
+msgstr "ソフトウエアのインストール"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:9
@@ -3736,7 +4082,7 @@ msgstr ""
 #: Pcbnew_installation.adoc:11
 #, no-wrap
 msgid "Modifying the default configuration"
-msgstr ""
+msgstr "デフォルト設定の変更"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:16
@@ -3745,12 +4091,17 @@ msgid ""
 "template`. This file is used as the initial configuration for all new "
 "projects."
 msgstr ""
+"デフォルトの設定ファイルkicadproは、KiCadインストールディレクトリ下kicad/"
+"share/templateにあります。こ\n"
+"のファイルは、すべての新規プロジェクトの初期設定として使用されます。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:19
 msgid ""
 "This configuration file can be modified to change libraries to be loaded"
 msgstr ""
+"この設定により、ロードされるライブラリを変更するように変更することができま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:21
@@ -3765,16 +4116,20 @@ msgid ""
 "local/kicad/bin/pcbnew` if the binaries are located in `/usr/local/kicad/"
 "bin`."
 msgstr ""
+"直接あるいはkicadを使って、pcbnewを起動します。Windowsの場合には、c:\\kicad"
+"\\bin\\pcbnewexeそしてLinuxで、バイナリが/usr/local/kicad/binにある場合に"
+"は、/usr/local/kicad/bin/kicadあるいは/usr/local/kicad/bin/pcbnewで起動できま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:27
 msgid "Select Preferences - Libs and Dir."
-msgstr ""
+msgstr "“設定”メニューより”ライブラリ”を選択します。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:28
 msgid "Edit as required."
-msgstr ""
+msgstr "ロードするライブラリ一覧を編集します。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:30
@@ -3782,6 +4137,9 @@ msgid ""
 "Save the modified configuration (Save Cfg) to `kicad/share/template/kicad."
 "pro`."
 msgstr ""
+"変更されたコンフィグレーションをkicad/share/template/kicadproに保存します(“設"
+"定”メニューより”設\n"
+"定の保存”)"
 
 #. type: Title ~
 #: Pcbnew_installation.adoc:32
@@ -4110,8 +4468,8 @@ msgid ""
 "GitHub repository maintainer, you can help update the GitHub copy.  Simply "
 "email the individual `*.kicad_mod` files you find in your COW directories to "
 "the maintainer of the GitHub repository.  After you've received confirmation "
-"that your changes have been committed, you can safely delete your COW file"
-"(s)  and the updated footprint from the read only part of GitHub library "
+"that your changes have been committed, you can safely delete your COW "
+"file(s)  and the updated footprint from the read only part of GitHub library "
 "will flow down.  Your goal should be to keep the COW file set as small as "
 "possible by contributing frequently to the shared master copies at https://"
 "github.com."
@@ -4494,13 +4852,13 @@ msgstr ""
 #: Pcbnew_introduction.adoc:3
 #, no-wrap
 msgid "Introduction to Pcbnew"
-msgstr ""
+msgstr "Pcbnew入門"
 
 #. type: Title ~
 #: Pcbnew_introduction.adoc:6
 #, no-wrap
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:10
@@ -4508,6 +4866,9 @@ msgid ""
 "Pcbnew is a powerful printed circuit board software tool available for the "
 "Linux, Microsoft Windows and Apple OS X operating systems."
 msgstr ""
+"Pcbnewは、Linux、MicrosoftWindowsやAppleOSXオペレーティングシステムで使用可能"
+"な強力なプリン\n"
+"ト回路基板のソフトウェアツールです"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:14
@@ -4516,6 +4877,10 @@ msgid ""
 "Eeschema, which provides the Netlist file - this describes the electrical "
 "connections of the PCB to design."
 msgstr ""
+"Pcbnewは、回路図キャプチャソフトウェアプログラムEeschemaに関連付けて使用され"
+"ますEeschemaはネッ\n"
+"トリストファイル(これはPCBを設計するための電気的な接続について記述します)を提"
+"供します"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:19
@@ -4524,6 +4889,10 @@ msgid ""
 "produced by Eeschema, to a module that is used by Pcbnew.  This can be done "
 "either interactively or automatically using equivalence files."
 msgstr ""
+"第2のプログラムCvPcbはPcbnewによって使用されているモジュールに、Eeschemaに"
+"よって生成されたネットリスト内の各コンポーネントを割り当てるために使用されま"
+"すこれは、equivalenceファイルを使用して対話的に、または自動的に行うことができ"
+"ます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:25
@@ -4533,6 +4902,10 @@ msgid ""
 "connections to the component. The required modules are automatically loaded "
 "during the reading of the Netlist produced by CvPcb."
 msgstr ""
+"Pcbnewは、モジュールのライブラリを管理します各々のモジュールとは、フットプリ"
+"ント(部品への接続を提供するパッドのレイアウト)を含む物理的なコンポーネントを"
+"示す図です必要なモジュールはCvPcbによって生成されるネットリストの読み込み中に"
+"自動的にロードされます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:31
@@ -4543,6 +4916,9 @@ msgid ""
 "or new modules, according to the electrical connections appearing in the "
 "scheme."
 msgstr ""
+"Pcbnewは任意の回路修正、誤配線の削除、新しい部品の追加、また新旧のモジュール"
+"の値(及び条件付での任意のリファレンス)の修正、回路図上の電気的な接続など自動"
+"的そして直ちに取り込み、反映します。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:35
@@ -4551,6 +4927,9 @@ msgid ""
 "modules which are connected on the schematic. These connections move "
 "dynamically as track and module movements are made."
 msgstr ""
+"Pcbnewはラッツネスト表示という回路図上で接続されているモジュールのパッドを接"
+"続する細い線を提供しますこれらの接続は、配線とモジュールの移動が発生した途端"
+"に動的に動きます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:38
@@ -4558,6 +4937,8 @@ msgid ""
 "Pcbnew has an active Design Rules Check (DRC) which automatically indicates "
 "any error of track layout in real time."
 msgstr ""
+"Pcbnewは、リアルタイムにトラック・レイアウトの様々なエラーをアクティブに検出"
+"するデザインルールチェック(DRC)機能を持ちます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:41
@@ -4565,6 +4946,8 @@ msgid ""
 "Pcbnew can automatically generate a copper plane, with or without thermal "
 "breaks on the pads."
 msgstr ""
+"Pcbnewは基板への部品実装にハンダ付けを容易にするための、サーマル切り欠きを持"
+"つ(或いは持たない)銅箔面を自動的に生成することが出来ます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:45
@@ -4573,6 +4956,9 @@ msgid ""
 "the circuit. An Export/Import in SPECCTRA dsn format allows to use more "
 "advanced auto-routers."
 msgstr ""
+"Pcbnewは配線の設計をアシストするためのシンプルながら効果的なオートルーターを"
+"持っています．より高度な外部のオートルータを使用するため、SPECCTRAdsnフォー"
+"マットのファイルをインポート/エクスポートを使用することが出来ます．"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:49
@@ -4581,6 +4967,8 @@ msgid ""
 "frequency circuits (such as pads of trapezoidal and complex form, automatic "
 "layout of coils on the printed circuit, etc)."
 msgstr ""
+"Pcbnewは高周波回路基板設計のための特別なオプション(例えば台形や複雑な形のパッ"
+"ド、プリント基板上のコイルの自動レイアウトなど)も提供します"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:52
@@ -4588,27 +4976,29 @@ msgid ""
 "Pcbnew displays the elements (tracks, pads, texts, drawings and more) as "
 "actual size and according to personal preferences:"
 msgstr ""
+"Pcbnewは、その要素(配線、パッド、文字、図形、その他)を実際の大きさや個人の好"
+"みに応じて表示します"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:54
 msgid "Display in full or outline."
-msgstr ""
+msgstr "塗りつぶしまたはアウトライン(輪郭)表示"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:55
 msgid "Display of the track/pad clearance."
-msgstr ""
+msgstr "配線/パッドのクリアランスの表示"
 
 #. type: Title ~
 #: Pcbnew_introduction.adoc:57
 #, no-wrap
 msgid "Principal design features"
-msgstr ""
+msgstr "主要な設計上の特徴"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:60
 msgid "Pcbnew has an internal resolution of 1/10000 inch."
-msgstr ""
+msgstr "Pcbnewは1/10000インチの内部分解能を持っています"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:65
@@ -4617,23 +5007,26 @@ msgid ""
 "solder mask, component adhesive, solder paste, drawings and comments...) and "
 "manages in real time the hairline indication (rats nest) of missing tracks."
 msgstr ""
+"Pcbnewは16の導体層に加え、12のテクニカル層(シルクスクリーン、ソルダーマスク"
+"(レジスト)、コンポーネント接着剤、ソルダペースト、図形及びコメント・・・)を扱"
+"い、リアルタイムでの未配線の細線表示(ラッツネスト)を管理します"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:68
 msgid ""
 "The display of the PCB elements (tracks, pads, text, drawings...)  can be "
 "customizable:"
-msgstr ""
+msgstr "各要素(配線、パッド、文字、図形その他)の表示はカスタマイズが可能です:"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:70
 msgid "In full or outline."
-msgstr ""
+msgstr "塗りつぶしまたはアウトライン(輪郭)表示"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:71
 msgid "With or without track clearance."
-msgstr ""
+msgstr "配線クリアランスありまたはなし"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:74
@@ -4641,6 +5034,8 @@ msgid ""
 "By hiding certain elements (copper layers, technical layers, zones of "
 "copper, modules...), which is useful for high-density multi-layer circuits."
 msgstr ""
+"高密度多層回路のために便利な、特定の要素の非表示(導体層、テクニカル層、銅箔"
+"面、モジュール)"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:78
@@ -4648,11 +5043,13 @@ msgid ""
 "For the complex circuits, the display of layers, zones, components can be "
 "removed in a selective way for a better legibility of the screen."
 msgstr ""
+"複雑な回路の場合、レイヤー、ゾーン、コンポーネントの表示は、画面の見やすさの"
+"ために選択的に非表示にすることができます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:80
 msgid "Modules can be rotated to any angle, with a step of 0.1 degree."
-msgstr ""
+msgstr "モジュールは0.1°刻みで任意の角度で回転できます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:84
@@ -4661,6 +5058,8 @@ msgid ""
 "for the production of ultra high frequency circuits). In addition several "
 "basic pads can be grouped."
 msgstr ""
+"パッドは円形、長方形、楕円形や台形(高周波回路の製造に必要)にすることができま"
+"す．加えて、いくつかの基本的なパッドは、グループ化することができます．"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:87
@@ -4668,6 +5067,8 @@ msgid ""
 "Both the size of each pad, and the layers where they appear, can be "
 "adjusted. The drilling of holes can be offset."
 msgstr ""
+"各パッドのサイズや、パッドを配置する層などを設定・調整できます．ドリル穴をオ"
+"フセットすることができます。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:90
@@ -4675,6 +5076,8 @@ msgid ""
 "Pcbnew can automatically generate copper planes, with automatic generation "
 "of thermal breaks around the pads concerned."
 msgstr ""
+"Pcbnewは、パッド周辺のサーマル切り欠きを自動的に生成する銅箔パターンを自動的"
+"に生成することができます。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:96
@@ -4685,55 +5088,60 @@ msgid ""
 "to a library. In addition all footprints on the PCB can be saved to a "
 "library by creating a footprint archive."
 msgstr ""
+"モジュール・エディタはPcbnewツールバーからアクセスすることができますエディタ"
+"は、PCBまたはライブラリからモジュールの作成や変更を可能にし、その後のいずれか"
+"に保存されますPCBに保存されたモジュールは、その後、ライブラリに保存することが"
+"できますさらに、PCB上のすべてのモジュールは、フットプリントのアーカイブを作成"
+"することにより、ライブラリに保存することができます"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:99
 msgid ""
 "Pcbnew generates in an extremely simple way all the documents necessary:"
-msgstr ""
+msgstr "Pcbnewは、すべての必要なドキュメントを非常に単純な方法で生成します:"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:101
 msgid "Fabrication outputs:"
-msgstr ""
+msgstr "製造用出力:"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:103
 #, no-wrap
 msgid "** Files for Photoplotters in GERBER RS274X format.\n"
-msgstr ""
+msgstr "フォトプロッタ用ガーバーRS274Xフォーマットファイル\n"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:105
 #, no-wrap
 msgid "** Files for drilling in EXCELLON format.\n"
-msgstr ""
+msgstr "穴あけ用EXCELLONフォーマットファイル\n"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:107
 msgid "Plot files in HPGL, SVG and DXF format."
-msgstr ""
+msgstr "HPGL,SVG,DXFフォーマットでの作画ファイル"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:109
 msgid "Plot and drilling maps in POSTSCRIPT format."
-msgstr ""
+msgstr "POSTSCRIPTフォーマットでの作画とドリルマップ"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:111
 msgid "Local Printout."
-msgstr ""
+msgstr "ローカルプリンタ出力"
 
 #. type: Title ~
 #: Pcbnew_introduction.adoc:113
 #, no-wrap
 msgid "General remarks"
-msgstr ""
+msgstr "一般的な注意事項"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:116
 msgid "Pcbnew requires a 3 button mouse. The 3rd button is mandatory."
-msgstr ""
+msgstr "Pcbnewは3ボタンマウスが必要です3ボタンは必須です"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:118
@@ -4741,32 +5149,34 @@ msgid ""
 "Finally it should be noted that the diagrammatic tool Eeschema and CvPcb are "
 "needed to create the required netlists."
 msgstr ""
+"最終的に必要とされるネットリストを作成するには、回路図ツールEeschemaとCvPcbが"
+"必要になることに留意すべきです"
 
 #. type: Title -
 #: Pcbnew_layers.adoc:3
 #, no-wrap
 msgid "Setting up working layers"
-msgstr ""
+msgstr "作業層のセットアップ"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:6
 msgid "Pcbnew can work on 29 different layers:"
-msgstr ""
+msgstr "Pcbnewは29の異なる層で作業することが可能です:"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:8
 msgid "16 layers of copper (or of routing of tracks)"
-msgstr ""
+msgstr "16の導体(または布線)層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:9
 msgid "12 auxiliary technical layers."
-msgstr ""
+msgstr "12の予備テクニカル層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:10
 msgid "1 board outlines layer"
-msgstr ""
+msgstr "1つの基板外形層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:13
@@ -4774,18 +5184,20 @@ msgid ""
 "The number of copper layer, and, if needed, their names and attributes "
 "should be set. Unused technical layers can be disabled."
 msgstr ""
+"導体層の数および必要ならそれらの名前と属性を設定します。未使用のテクニカル層"
+"を禁止に設定することが可能です。"
 
 #. type: Title ~
 #: Pcbnew_layers.adoc:15
 #, no-wrap
 msgid "Select copper layers"
-msgstr ""
+msgstr "導体層の選択"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:18
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:24
@@ -4794,12 +5206,15 @@ msgid ""
 "place and re-arrange tracks. Layer 1 is the copper (solder) layer. Layer 16 "
 "is the component layer. Other layers are the inner layers, from L2 to L15."
 msgstr ""
+"導体層は配線の布線および再調整(rearrange)のための自動配線で使用される通常の作"
+"業層です。1層は導体(ハンダ)層です。16層はコンポーネント層です。他の層、L2~L15"
+"は内層です。"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:26
 #, no-wrap
 msgid "Select number of layers"
-msgstr ""
+msgstr "層数の選択"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:31
@@ -4808,6 +5223,9 @@ msgid ""
 "working layers. To do this you can use the menu bar and select Preferences -"
 "> Layers Setup."
 msgstr ""
+"層間のナビゲーションを可能にするために、作業層の数を選択することが必要です。"
+"これを行うために、メニューバーを使用して、”設定”“レイヤのセットアップ”を選択"
+"します。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:33
@@ -4817,7 +5235,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_layers.adoc:35
 msgid "Then select the number of layers wanted, from 2 to 16."
-msgstr ""
+msgstr "この時、2~16層の範囲で必要な配線層数を選択します。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:37
@@ -4828,7 +5246,7 @@ msgstr ""
 #: Pcbnew_layers.adoc:39
 #, no-wrap
 msgid "Copper layers"
-msgstr ""
+msgstr "導体層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:43
@@ -4836,6 +5254,8 @@ msgid ""
 "The name of any copper layer is editable. Copper layers have attributes "
 "useful when using the external router _FreeRouter_."
 msgstr ""
+"任意の導体層は名前が編集可能です。導体層は外部ルーター\"FreeRouter\"を使用す"
+"る場合に便利な属性を持ちます。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:45
@@ -4846,7 +5266,7 @@ msgstr ""
 #: Pcbnew_layers.adoc:47
 #, no-wrap
 msgid "Auxiliary technical layers"
-msgstr ""
+msgstr "予備テクニカル層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:54
@@ -4856,17 +5276,21 @@ msgid ""
 "drawing and text) appearing on a layer (solder or component), appear on the "
 "other complementary layer when the module is inverted (mirrored)."
 msgstr ""
+"ペアであるものと、そうでないものがあります。ペアである場合は、モジュールの挙"
+"動に影響を与えます。ある層(ハンダまたはコンポーネント)に現れているモジュール"
+"を構成している要素(パッド、図、テキスト)は、そのモジュールが反転(鏡像)される"
+"と、ペアのもう一方の層に現れます。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:56
 msgid "The technical layers are:"
-msgstr ""
+msgstr "テクニカル層は次のようなものです:"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:58
 #, no-wrap
 msgid "Paired layers"
-msgstr ""
+msgstr "ペアレイヤー"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:63
@@ -4875,6 +5299,9 @@ msgid ""
 "application of adhesive to stick SMD components to the circuit board, "
 "generally before wave soldering."
 msgstr ""
+"接着(導体およびコンポーネント)層:\n"
+"一般的にハンダディップの前に、SMDコンポーネントを回路基板に貼り付けるための接"
+"着アプリケーションで使用されます。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:67
@@ -4884,6 +5311,10 @@ msgid ""
 "mount components, generally before reflow soldering.  In theory only surface "
 "mount pads occupy these layers."
 msgstr ""
+"ハンダペースト層はSMDを貼り付けます(導体およびコンポーネント):一般的にはリフ"
+"ローハンダの前に、表面実装コンポーネントのパッド上にハンダペーストを塗布でき"
+"るようにするためのマスクを作成するために使用されます。理論上は、表面実装パッ"
+"ドのみがこれらの層を占めます。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:69
@@ -4891,6 +5322,8 @@ msgid ""
 "The *Silk Screen* layers (Copper and Component): ** They are the layers "
 "where the drawings of the components appear."
 msgstr ""
+"シルクスクリーン層(導体およびコンポーネント):コンポーネントの図を表示する層で"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:73
@@ -4899,32 +5332,35 @@ msgid ""
 "masks. Normally all the pads appear on one or the other of these layers (or "
 "both for through pads) to prevent the varnish covering the pads."
 msgstr ""
+"ハンダレジスト層(導体およびコンポーネント):ハンダレジストを定義します。通常、"
+"すべてのパッドはこれらの層のうち、どちらか一方(スルーホールのパッドの場合は両"
+"方)に現れ、レジスト膜がパッドを覆わないようにします。"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:75
 #, no-wrap
 msgid "Layers for general use"
-msgstr ""
+msgstr "汎用層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:78
 msgid "Comments"
-msgstr ""
+msgstr "コメント"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:79
 msgid "E.C.O. 1"
-msgstr ""
+msgstr "ECO1"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:80
 msgid "E.C.O. 2"
-msgstr ""
+msgstr "ECO2"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:81
 msgid "Drawings"
-msgstr ""
+msgstr "図"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:85
@@ -4933,12 +5369,15 @@ msgid ""
 "for assembly or wiring, or construction drawings, to be used to create a "
 "file for assembly or machining."
 msgstr ""
+"これらの層は任意の用途のためのものです。組み立てまたは機械加工用のファイルを"
+"作成するために使用する、組み立てまたは配線指示のようなテキスト、あるいは組み"
+"立て図用にこれらの層を使用することが可能です。"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:87
 #, no-wrap
 msgid "Special layer"
-msgstr ""
+msgstr "特殊層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:93
@@ -4949,48 +5388,51 @@ msgid ""
 "element (graphic, texts...) placed on this layer appears on all the\n"
 "other layers. Use this layer only to draw board outlines.\n"
 msgstr ""
+"PCB外形層:\n"
+"この層は回路基板外形図用に予約されています。この層に配置されているすべての要素(グラフィック、テキスト)は、他のすべての層に現れます。\n"
+"基板外形を作成するためにのみこの層を使用して下さい。\n"
 
 #. type: Title ~
 #: Pcbnew_layers.adoc:95
 #, no-wrap
 msgid "Selection of the active layer"
-msgstr ""
+msgstr "アクティブ層の選択"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:98
 msgid "The selection of the active working layer can be done in several ways:"
-msgstr ""
+msgstr "以下のようないくつかの方法でアクティブな作業層の選択が可能です:"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:100
 msgid "Using the right toolbar (Layer manager)."
-msgstr ""
+msgstr "右ツールバー(レイヤーマネジャー)を使用する。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:101
 msgid "Using the upper toolbar."
-msgstr ""
+msgstr "上部ツールバーを使用する。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:102
 msgid "With the pop-up window (activated with the right mouse button)."
-msgstr ""
+msgstr "(マウスの右ボタンで開く)ポップアップウィンドウ使用する。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:103
 msgid "Using the + and – keys (works on copper layers only)."
-msgstr ""
+msgstr "•+とキーを使用する(導体層上のみで動作)。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:104
 msgid "By hot keys."
-msgstr ""
+msgstr "ホットキーを使用する。"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:106
 #, no-wrap
 msgid "Selection using the layer manager"
-msgstr ""
+msgstr "レイヤーマネジャーを使用した選択"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:109
@@ -5001,7 +5443,7 @@ msgstr ""
 #: Pcbnew_layers.adoc:111
 #, no-wrap
 msgid "Selection using the upper toolbar"
-msgstr ""
+msgstr "上部ツールバーを使用した選択"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:114
@@ -5012,17 +5454,20 @@ msgstr ""
 #: Pcbnew_layers.adoc:116
 msgid "This directly selects the working layer."
 msgstr ""
+"レイヤーマネジャーにより色別けした層およびその可視性を変更することができます"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:118
 msgid "Hot keys to select the working layer are displayed."
 msgstr ""
+"これは作業層を直接選択します。作業層を選択するためのホットキーが表示されま"
+"す。"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:120
 #, no-wrap
 msgid "Selection using the pop-up window"
-msgstr ""
+msgstr "ポップアップウィンドウを使用した選択"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:123
@@ -5035,6 +5480,8 @@ msgid ""
 "The Pop-up window opens a menu window which provides a choice for the "
 "working layer"
 msgstr ""
+"ポップアップウィンドウにより作業層を選択するためのメニューウィンドウを開きま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:128
@@ -5045,7 +5492,7 @@ msgstr ""
 #: Pcbnew_layers.adoc:130
 #, no-wrap
 msgid "Selection of the Layers for Vias"
-msgstr ""
+msgstr "ビア用の層の選択"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:135
@@ -5053,6 +5500,8 @@ msgid ""
 "If the *Add Tracks and Vias* icon is selected on the right hand toolbar, the "
 "Pop-Up window provides the option to change the layer pair used for vias:"
 msgstr ""
+"右側のツールバーで配線とビアの追加アイコンが選択されている場合、ビア用に使用"
+"するレイヤーペアの変更オプションがポップアップウィンドウに表示されます:"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:137
@@ -5065,6 +5514,8 @@ msgid ""
 "This selection opens a menu window which provides choice of the layers used "
 "for vias."
 msgstr ""
+"この選択によりメニューウィンドウが開き\n"
+"ビア用に使用する層の選択を行います。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:142
@@ -5077,6 +5528,8 @@ msgid ""
 "When a via is placed the working (active) layer is automatically switched to "
 "the alternate layer of the layer pair used for the vias."
 msgstr ""
+"ビアが配置される場合、作業(アクティブ)層はビア用に使用されるレイヤーペアのも"
+"う一方の層に自動的に切り替えられます。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:148
@@ -5084,19 +5537,21 @@ msgid ""
 "One can also switch to an other active layer by hot keys, and if a track is "
 "in progress, a via will be inserted."
 msgstr ""
+"ホットキーにより他のアクティブな層に切り替えることも可能です。また、配線途中"
+"の場合には、ビアを挿入します。"
 
 #. type: Title ~
 #: Pcbnew_layers.adoc:150
 #, no-wrap
 msgid "Using the high-contrast mode"
-msgstr ""
+msgstr "ハイコントラストモードの使用"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:154
 msgid ""
 "This mode is entered when the tool (in the left toolbar) is activated: image:"
 "images/icons/contrast_mode.png[]"
-msgstr ""
+msgstr "ツール(左ツールバー)がアクティブの時、このモードになります。 TODO"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:157
@@ -5104,17 +5559,19 @@ msgid ""
 "When using this mode, the active layer is displayed like in the normal mode, "
 "but all others layers are displayed in gray color."
 msgstr ""
+"このモードを使用する場合、アクティブな層がノーマルモードであるように表示され"
+"ますが、他の全ての層はグレイカラーで表示されます。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:159
 msgid "There are two useful cases:"
-msgstr ""
+msgstr "2つの便利な場合があります:"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:161
 #, no-wrap
 msgid "Copper layers in high-contrast mode"
-msgstr ""
+msgstr "ハイコントラストモードの導体層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:165
@@ -5122,12 +5579,14 @@ msgid ""
 "When a board uses more than four layers, this option allows the active "
 "copper layer to seen more easily:"
 msgstr ""
+"4層を超える基板の場合、このオプションによりアクティブな導体層をより見やすくさ"
+"せることができます:"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:167
 #, no-wrap
 msgid "*Normal mode* (back side copper layer active):\n"
-msgstr ""
+msgstr "ノーマルモード(裏面導体層アクティブ)\n"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:169
@@ -5138,7 +5597,7 @@ msgstr ""
 #: Pcbnew_layers.adoc:171
 #, no-wrap
 msgid "*High-contrast mode* (back side copper layer active):\n"
-msgstr ""
+msgstr "ハイコントラストモード(裏面導体層アクティブ):\n"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:173
@@ -5149,7 +5608,7 @@ msgstr ""
 #: Pcbnew_layers.adoc:175
 #, no-wrap
 msgid "Technical layers"
-msgstr ""
+msgstr "テクニカル層"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:179
@@ -5157,17 +5616,20 @@ msgid ""
 "The other case is when it is necessary to examine solder paste layers and "
 "solder mask layers, that are usually not displayed."
 msgstr ""
+"もう一つのケースは、ハンダペースト層とハンダレジスト層を調べる必要がある場合"
+"で、それらは通常表示され\n"
+"ません。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:181
 msgid "Masks on pads are displayed if this mode is active."
-msgstr ""
+msgstr "このモードがアクティブの場合、パッド上のマスクが表示されます:"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:183
 #, no-wrap
 msgid "*Normal mode* (front side solder mask layer active):\n"
-msgstr ""
+msgstr "ノーマルモード(表面レジスト層アクティブ):\n"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:185
@@ -5178,7 +5640,7 @@ msgstr ""
 #: Pcbnew_layers.adoc:187
 #, no-wrap
 msgid "*High-contrast mode* (front side solder mask layer active):\n"
-msgstr ""
+msgstr "ハイコントラストモード(表面レジスト層アクティブ):\n"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:188
@@ -5469,10 +5931,10 @@ msgstr ""
 #: Pcbnew_managing_libs.adoc:167
 msgid ""
 "The action of saving a module (thereby modifying the file of the active "
-"library) is performed using this button image:images/icons/save_library.png"
-"[]. If a module of the same name already exists, it will be replaced. Since "
-"you will depend upon the accuracy of the library modules, it is worth double-"
-"checking the module before saving."
+"library) is performed using this button image:images/icons/save_library."
+"png[]. If a module of the same name already exists, it will be replaced. "
+"Since you will depend upon the accuracy of the library modules, it is worth "
+"double-checking the module before saving."
 msgstr ""
 
 #. type: Plain text
@@ -5503,8 +5965,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:180
 msgid ""
-"Select the destination library via the button image:images/icons/library.png"
-"[]."
+"Select the destination library via the button image:images/icons/library."
+"png[]."
 msgstr ""
 
 #. type: Plain text
@@ -7688,24 +8150,27 @@ msgstr ""
 #: Pcbnew_zones.adoc:275
 #, no-wrap
 msgid "Creating zones on technical layers"
-msgstr ""
+msgstr "テクニカル層でのゾーン作成"
 
 #. type: Title ^
 #: Pcbnew_zones.adoc:278
 #, no-wrap
 msgid "Creating zone limits"
-msgstr ""
+msgstr "ゾーン境界の作成"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:282
 msgid ""
 "This is done using the button . The active layer must be a technical layer."
 msgstr ""
+"ボタンを使用して行います。アクティブな層はテクニカル層でなければなりません。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:284
 msgid "When clicking to start the zone outline, this dialog box is opened."
 msgstr ""
+"これはクリックしてゾーン外形を開始する時に、このダイアログボックスが開きま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:286
@@ -7718,38 +8183,40 @@ msgid ""
 "Select the technical layer to place the zone and draw the zone outline like "
 "explained previously for copper layers."
 msgstr ""
+"ゾーンを配置するためのテクニカル層を選択し、前に導体層のところで説明したよう"
+"にゾーン外形を作成します。"
 
 #. type: Title ^
 #: Pcbnew_zones.adoc:291
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "注:"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:294
 msgid "For editing outlines use the same way as for copper zones."
-msgstr ""
+msgstr "外形を編集する場合は導体ゾーンの場合と同じ方法を使用して下さい。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:295
 msgid "In necessary, cutout areas can be added."
-msgstr ""
+msgstr "必要なら、切り抜き領域を追加することが可能です。"
 
 #. type: Title ~
 #: Pcbnew_zones.adoc:297
 #, no-wrap
 msgid "Creating a Keepout area"
-msgstr ""
+msgstr "キープアウトエリアの作成"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:300
 msgid "Select the tool image:images/icons/add_keepout_area.png[]"
-msgstr ""
+msgstr "ツールを選択します。TODO"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:302
 msgid "The active layer should be a copper layer."
-msgstr ""
+msgstr "アクティブレイヤーは導体層である必要があります。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:305
@@ -7757,6 +8224,8 @@ msgid ""
 "After clicking on the starting point of a new keepout area, the dialog box "
 "is opened:"
 msgstr ""
+"新しいキープアウトエリアの開始点をクリックすると、ダイアログボックスが開きま"
+"す:"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:307
@@ -7766,22 +8235,22 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:309
 msgid "One can select disallowed items:"
-msgstr ""
+msgstr "禁止するオプションを一つ以上選択することができます。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:311
 msgid "tracks"
-msgstr ""
+msgstr "配線"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:312
 msgid "vias"
-msgstr ""
+msgstr "ビア"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:313
 msgid "copper pours"
-msgstr ""
+msgstr "塗りつぶしゾーン(銅箔ベタ面)"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:316
@@ -7789,6 +8258,8 @@ msgid ""
 "When a track or a via is inside a keepout which does not allow it, a DRC "
 "error will be raised."
 msgstr ""
+"キープアウト内に許可されていない配線やビアがある場合にはDRCエラーが発生しま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:319
@@ -7797,3 +8268,6 @@ msgid ""
 "filled. A keep-out area is a like a zone, so editing its outline is analog "
 "to copper zone editing."
 msgstr ""
+"導体層の場合、塗りつぶしゾーンが禁止されたキープアウトエリアには導体層は配置"
+"されません。キープアウトエリアはゾーンのようであり、その輪郭の編集は導体層の"
+"編集同様にアナログです。"
