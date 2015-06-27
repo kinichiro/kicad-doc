@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad-ja\n"
 "POT-Creation-Date: 2015-06-23 00:44+0900\n"
-"PO-Revision-Date: 2015-06-26 23:23+0900\n"
+"PO-Revision-Date: 2015-06-27 12:12+0900\n"
 "Last-Translator: yoneken <yoneken@kicad.jp>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -592,6 +592,9 @@ msgid ""
 "few environment variables are internally defined by Kicad, and can be used "
 "to define paths (for libraries, 3D shapes, etc)."
 msgstr ""
+"Kicadでは、_環境変数_を使っていくつかのパスを設定することができます。いくつか"
+"の環境変数はKicad自身によって内部で設定され、使用するライブラリや3Dシェイプな"
+"どを指定するために使われます。"
 
 #. type: Plain text
 #: KiCad.adoc:241
@@ -599,16 +602,18 @@ msgid ""
 "This is usefull when absolute paths are not known or are subject to change.  "
 "This is the case for ``official'' libraries built for kicad:"
 msgstr ""
+"これは絶対パスが不明だったり変更できるようにする場合に便利です。例えばkicadの"
+"``公式''ライブラリがそうです。"
 
 #. type: Plain text
 #: KiCad.adoc:243
 msgid "for the path of these librairies, when installed on you disk"
-msgstr ""
+msgstr "ユーザのディスクにインストールされた時のこれらライブラリのパス"
 
 #. type: Plain text
 #: KiCad.adoc:244
 msgid "for the path of 3D shapes files used in footprint definitions."
-msgstr ""
+msgstr "フットプリントの定義で使用される3Dシェイプのパス"
 
 #. type: Plain text
 #: KiCad.adoc:249
@@ -617,6 +622,8 @@ msgid ""
 "like this, when using the KISYSMOD environment variable to define the full "
 "path: ${KISYSMOD}/connect.pretty"
 msgstr ""
+"例えばフットプリントライブラリ_connect.pretty_のフルパスを環境変数KISYSMODを"
+"使って定義すると次のようになります。${KISYSMOD}/connect.pretty"
 
 #. type: Plain text
 #: KiCad.adoc:252
@@ -624,6 +631,8 @@ msgid ""
 "Obvioulsy, one can use an usual full path definition, if this full path is "
 "well known, and never changes."
 msgstr ""
+"このフルパス指定が一般的となり変更されない場合は、便利なフルパスの定義として"
+"使用できます。"
 
 #. type: Plain text
 #: KiCad.adoc:255
@@ -631,6 +640,8 @@ msgid ""
 "This option allows you to define some paths from an environment variable, "
 "and add your own environment variables, to define personal paths, if needed."
 msgstr ""
+"このオプションは環境変数からいくつかのパスを決められるようにします。さらに必"
+"要ならばユーザが定義した環境変数を個人的なパス定義に使用できます。"
 
 #. type: delimited block |
 #: KiCad.adoc:264
@@ -643,6 +654,12 @@ msgid ""
 "|KISYSMOD |default base path of footprint library folders,\n"
 "and must be defined, if an absolute path is not used in footprint library names.\n"
 msgstr ""
+"|KIGITHUB |プットプリントライブラリのテーブルでよく使用されます。\n"
+"この変数を使用する場合には、ユーザが定義する必要があります。\n"
+"|KISYS3DMOD |3Dシェイプファイルのデフォルトベースパス。\n"
+"絶対パスは通常使用しないので定義する必要があります。\n"
+"|KISYSMOD |プットプリントライブラリ・フォルダのデフォルトベースパス。\n"
+"フットプリントライブラリの名前に絶対パスを使用しない場合は定義する必要があります。\n"
 
 #. type: Plain text
 #: KiCad.adoc:267
@@ -1018,6 +1035,21 @@ msgid ""
 "|image:images/icon_redraw_project_tree.png[]\n"
 "|Rebuild and redraw the tree list, sometimes needed after a tree change.\n"
 msgstr ""
+"|image:images/icon_new_project.png[]\n"
+"|プロジェクトファイルの作成。kicad/templateにテンプレート\n"
+"kicad.proがあると、これが作業ディレクトリにコピーされます。\n"
+"|image:images/icon_new_project_from_template.png[]\n"
+"|テンプレートからプロジェクトの作成。\n"
+"|image:images/icon_open_project.png[]\n"
+"|既存のプロジェクトを開く。\n"
+"|image:images/icon_save_project.png[]\n"
+"|現在のプロジェクトツリーの更新と保存。\n"
+"|image:images/icon_archive_project.png[]\n"
+"|プロジェクト全体のzipアーカイブを作成。回路図やライブラリ、\n"
+"pcbアートワークなどがzipアーカイブにまとめられます。\n"
+"|image:images/icon_redraw_project_tree.png[]\n"
+"|プロジェクトツリーの再作成と再表示。ツリーを変更した場合に\n"
+"必要になることがあります。\n"
 
 #. type: Title -
 #: KiCad.adoc:435
@@ -1046,6 +1078,9 @@ msgid ""
 "template files are stored. The metadata directory (METADIR) contains pre-"
 "defined files which provide information about the template."
 msgstr ""
+"テンプレートファイルはテンプレートシステム名(SYSNAME)で指定されるディレクトに"
+"置かれます。メタデータ・ディレクトリ(METADIR)にはテンプレート情報のファイルが"
+"あります。"
 
 #. type: Plain text
 #: KiCad.adoc:449
@@ -1053,6 +1088,9 @@ msgid ""
 "All files and directories in a template are copied to the new project path "
 "when a project is created using a template, except METADIR."
 msgstr ""
+"テンプレートからプロジェクトを作成すると、そのテンプレートのファイルとディレ"
+"クトリ(ただしMETADIRは除く)の内容はすべて新しいプロジェクト・パスにコピーされ"
+"ます。"
 
 #. type: Plain text
 #: KiCad.adoc:452
@@ -1060,6 +1098,8 @@ msgid ""
 "All files and directories which start with SYSNAME will have SYSNAME "
 "replaced by the new project file name, excluding the file extension."
 msgstr ""
+"SYSNAMEで始まるすべてのファイルとディレクトリは、名前が拡張子を除き新規プロ"
+"ジェクト名になります。"
 
 #. type: Title ~
 #: KiCad.adoc:454
@@ -1074,6 +1114,9 @@ msgid ""
 "as pre-defined board outlines, connector positions, schematic elements, "
 "design rules, etc. ."
 msgstr ""
+"テンプレートは、事前に決められている基板外形やコネクターの位置、回路図の要"
+"素、デザインルールなど共通部分があるプロジェクトのセットアップを簡単にしま"
+"す。"
 
 #. type: Title ^
 #: KiCad.adoc:461
@@ -1111,6 +1154,9 @@ msgid ""
 "determines the actual name of the template that is exposed to the user for "
 "template selection."
 msgstr ""
+"このファイルには、テンプレートが探しているものか判断するための情報がHTML形式"
+"で書かれています。<title>タグの内容が実際のテンプレート名となり、テンプレート"
+"選択時に表示されます。"
 
 #. type: Plain text
 #: KiCad.adoc:478
@@ -1118,6 +1164,8 @@ msgid ""
 "Using html to format this document means that images can be in-lined without "
 "having to invent a new scheme."
 msgstr ""
+"テンプレートの情報は HTML 形式で記述できるため、画像などを加えてわかりやすい"
+"説明を作成することが出来ます。"
 
 #. type: Plain text
 #: KiCad.adoc:480
@@ -1213,6 +1261,31 @@ msgid ""
 "</BODY>\n"
 "</HTML>\n"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n"
+"<HTML>\n"
+"<HEAD>\n"
+"<META HTTP-EQUIV=\"CONTENT-TYPE\" CONTENT=\"text/html;\n"
+"charset=windows-1252\">\n"
+"<TITLE>Raspberry Pi - Expansion Board</TITLE>\n"
+"<META NAME=\"GENERATOR\" CONTENT=\"LibreOffice 3.6 (Windows)\">\n"
+"<META NAME=\"CREATED\" CONTENT=\"0;0\">\n"
+"<META NAME=\"CHANGED\" CONTENT=\"20121015;19015295\">\n"
+"</HEAD>\n"
+"<BODY LANG=\"fr-FR\" DIR=\"LTR\">\n"
+"<P>This project template is the basis of an expansion board for the\n"
+"<A HREF=\"http://www.raspberrypi.org/\" TARGET=\"blank\">Raspberry Pi $25\n"
+"ARM board.</A> <BR><BR>This base project includes a PCB edge defined\n"
+"as the same size as the Raspberry-Pi PCB with the connectors placed\n"
+"correctly to align the two boards. All IO present on the Raspberry-Pi\n"
+"board is connected to the project through the 0.1&quot; expansion\n"
+"headers. <BR><BR>The board outline looks like the following:\n"
+"</P>\n"
+"<P><IMG SRC=\"brd.png\" NAME=\"brd\" ALIGN=BOTTOM WIDTH=680 HEIGHT=378\n"
+"BORDER=0><BR><BR><BR><BR>\n"
+"</P>\n"
+"<P>(c)2012 Brian Sidebotham<BR>(c)2012 Kicad Developers</P>\n"
+"</BODY>\n"
+"</HTML>\n"
 
 #. type: Title ^
 #: KiCad.adoc:534
