@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-27 01:03+0900\n"
+"PO-Revision-Date: 2015-06-27 21:07+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -399,7 +399,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:165
 #, no-wrap
 msgid "KiCad Workflow"
-msgstr ""
+msgstr "KiCad 作業の流れ"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:171
@@ -409,6 +409,10 @@ msgid ""
 "footprints are actually two separate entities. This is often the subject of "
 "discussion on Internet forums."
 msgstr ""
+"他のPCBソフトウェアツールとの類似性にも関わらず、KiCadは、回路図のコンポーネ"
+"ントとフットプリントを実際には別々の2つの実体とする、面白い作業の流れを特徴と"
+"しています。このことはよくインターネットのフォーラムでの議論の対象となりま"
+"す。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:177
@@ -418,6 +422,11 @@ msgid ""
 "necessary for these two tasks. KiCad has plenty of both.  Just in case that "
 "is not enough, KiCad also has the tools necessary to make new ones."
 msgstr ""
+"KiCadの作業の流れは２つの主要なタスクで構成されています。それは回路図の作成と"
+"基板への配置です。これら2つのタスクのためにコンポーネントのライブラリとフット"
+"プリントのライブラリの両方が必要とされます。KiCadはその両方の多くを持っていま"
+"す。それでは不十分な場合、KiCadは、新しいそれらを作るのに必要なツールも持って"
+"います。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:181
@@ -426,6 +435,9 @@ msgid ""
 "The picture explains which steps you need to take, in which order.  When "
 "applicable, the icon is added as well for convenience."
 msgstr ""
+"下の図はKiCadの作業の流れを示すフローチャートです。この図はあなたが取る必要の"
+"あるステップを、どんな順序で行うのかを説明しています。適用できる場合には便宜"
+"上アイコンを付け加えています。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:183
@@ -441,11 +453,16 @@ msgid ""
 "footprint, see section of this document titled <<make-component-footprints,"
 "Make component footprints>>."
 msgstr ""
+"コンポーネントの作成についての更なる情報は、この <<make-schematic-components-"
+"in-kicad,Make schematic components in KiCad>> というタイトルの文書の節を参照"
+"して下さい。また、どのように新しいフットプリントを作成するかについての更なる"
+"情報は、この <<make-component-footprints,Make component footprints>> というタ"
+"イトルの文書の節を参照して下さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:192
 msgid "On the following site:"
-msgstr ""
+msgstr "以下のサイト:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:194
@@ -459,12 +476,16 @@ msgid ""
 "library component. For more information about quicklib, refer to the section "
 "of this document titled __Make Schematic Component With quicklib__."
 msgstr ""
+"素早くKiCadのライブラリ・コンポーネントを作成することのできるツールの例を見つ"
+"けることができるでしょう。quicklib についての更なる情報は、この __Make "
+"Schematic Component With quicklib__ というタイトルの文書の節を参照して下さ"
+"い。"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:202
 #, no-wrap
 msgid "Forward and backward annotation"
-msgstr ""
+msgstr "前方向と後方向のアノテーション"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:210
@@ -475,6 +496,11 @@ msgid ""
 "might need to be added, parts moved around and much more. This can be done "
 "in two ways: Backward Annotation and Forward Annotation."
 msgstr ""
+"電子回路図を完全に描き終わったら、次のステップはKiCadの作業の流れに従い、それ"
+"をPCBに移すことです。基板レイアウトの工程を部分的にあるいは完全に終え、追加の"
+"コンポーネントやネットが付け足される必要があるかもしれませんし、部品達を並び"
+"替えたり、色々あるでしょう。これは2つの方法で行うことができます: 後方向アノ"
+"テーションと前方向アノテーション。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:214
@@ -483,6 +509,8 @@ msgid ""
 "its corresponding schematic. Some do not consider this particular feature "
 "especially useful."
 msgstr ""
+"後方向アノテーションは、PCBレイアウトの変更をその対応する回路図に送り戻す処理"
+"です。この特別な機能を特に便利と思わない人もいるでしょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:220
@@ -493,19 +521,23 @@ msgid ""
 "modification to your schematic. Forward Annotation is discussed in the "
 "section titled <<forward-annotation-in-kicad,Forward Annotation>>."
 msgstr ""
+"前方向アノテーションは回路図の変更を対応するPCBレイアウトに送る機能です。回路"
+"図に変更を加える度にPCBのレイアウト全体をやり直したくはないでしょうからこれは"
+"基本的な機能です。前方向アノテーションは <<forward-annotation-in-kicad,"
+"Forward Annotation>> という節で議論されています。"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:223
 #, no-wrap
 msgid "Draw electronic schematics"
-msgstr ""
+msgstr "電子回路図の描画"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:227
 msgid ""
 "In this section we are going to learn how to draw an electronic schematic "
 "using KiCad."
-msgstr ""
+msgstr "この節ではKiCadを使ってどのように電子回路図を描画するかを学びます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:234
@@ -517,6 +549,13 @@ msgid ""
 "__Bitmap2Component__, __PCB Calulator__ and __Pl Editor__. Refer to the work-"
 "flow chart to give you an idea how the main tools are used."
 msgstr ""
+"Windowsの場合、kicad.exeを実行して下さい。Linuxの場合、端末で 'kicad' とタイ"
+"プして下さい。KiCad プロジェクト・マネージャのメイン画面が現れるでしょう。こ"
+"こからあなたは次の8つの独立したソフトウェア・ツールを使うことができます: "
+"__EESchema__, __Schematic Library Editor__, __PCBnew__, __PCB Footprint "
+"Editor__, __GerbView__, __Bitmap2Component__, __PCB Calulator__ and __Pl "
+"Editor__ 。主要なツール群がどのように使われるのか理解するために作業の流れの図"
+"を参照して下さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:236
@@ -532,6 +571,11 @@ msgid ""
 "here. Name the project file 'tute1'. The project file will automatically "
 "take the extension .pro."
 msgstr ""
+"新規プロジェクト作成: *ファイル* -> **新規** 。'新規フォルダ'ボタンをクリック"
+"し、できた新しいフォルダにあなたのプロジェクトと同じ名前の 'tute1' と名前をつ"
+"けます。その上でダブルクリックして新しいフォルダを開きます。あなたのプロジェ"
+"クトのファイル達は全てここに保存されます。プロジェクト・ファイルを 'tute1' と"
+"名付けます。プロジェクト・ファイルは自動的に拡張子 .pro となります。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:247
@@ -541,6 +585,10 @@ msgid ""
 "from the left. If an error dialogue appears telling you that a project file "
 "was not found, ignore it and click OK."
 msgstr ""
+"回路図の作成から始めてみましょう。回路図エディタ __Eeschema__ を起動します "
+"image:images/eeschema.png[Eeschema] 。左から1番目のボタンです。「プロジェク"
+"ト・ファイルが見つかりません」というエラーダイアログが表示されたらOKをクリッ"
+"クします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:255
@@ -552,6 +600,12 @@ msgid ""
 "entered here if necessary. Click OK. This information will populate the "
 "schematic sheet at the bottom right corner. Use the mouse wheel to zoom in."
 msgstr ""
+"最初に回路図プロジェクトを保存します。*ファイル* -> **全ての回路図プロジェク"
+"トを保存する** 。トップツールバーの 'ページの設定' アイコン image:images/"
+"sheetset.png[Sheet settings icon] をクリックします。ページサイズを 'A4' に選"
+"択し、タイトルを 'Tute 1' と入力します。必要に応じて更に多くの情報をここで入"
+"力できることが分かるでしょう。OKをクリックします。この情報は回路図面の右下隅"
+"に取り込まれます。ズームインするにはマウスのホイールを使います。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:261
@@ -561,12 +615,16 @@ msgid ""
 "same functionality is achieved by pressing the 'Place component' shortcut a "
 "key."
 msgstr ""
+"では最初のコンポーネントを置いてみます。右ツールバーの 'コンポーネントの配"
+"置' アイコン image:images/add_component.png[Add component Icon] をクリックし"
+"ます。同じ機能はショートカットキーの 'コンポーネントの配置' によっても行えま"
+"す。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:264
 msgid ""
 "You can see a list of all available shortcut keys by pressing the ? key."
-msgstr ""
+msgstr "? キーを押すと利用できるショートカットキーの一覧を見ることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:267
@@ -575,6 +633,9 @@ msgid ""
 "will appear on the screen.  We're going to place a resistor. Search / filter "
 "on the 'R' of **R**esitor."
 msgstr ""
+"回路図シートの中央あたりをクリックします。 __コンポーネント選択__ ウィンドウ"
+"が表示されます。抵抗器を配置してみましょう。Search / filter on the 'R' of "
+"**R**esitor."
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:270
@@ -583,6 +644,9 @@ msgid ""
 "heading is the name of the library where the component is located, which is "
 "quite generic and useful library."
 msgstr ""
+"抵抗器の上に 'device' と見出しが出ることに気付いたと思います。この 'device' "
+"という見出しは、そのコンポーネントが存在するライブラリの名前で、それはとても"
+"汎用的で便利なライブラリです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:272
@@ -595,6 +659,9 @@ msgid ""
 "Double click on it. This will close the 'Choose Component' window.  Place "
 "the component in the schematic sheet by clicking where you want it to be."
 msgstr ""
+"その上でダブルクリックします。これにより 'コンポーネントの選択' ウィンドウが"
+"閉じられます。回路図シート上の置きたいと思う所をクリックすることでコンポーネ"
+"ントを配置します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:280
@@ -603,6 +670,9 @@ msgid ""
 "mouse wheel to zoom in and zoom out.  Unfortunately, the panning option has "
 "not yet been implemented."
 msgstr ""
+"ズームインするためにコンポーネント上で拡大鏡をクリックします。あるいは、ズー"
+"ムインとズームアウトをするためにマウスのホイールを使います。残念ながらパンニ"
+"ングのオプションはまだ実現されていません。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:283
@@ -610,11 +680,13 @@ msgid ""
 "Hover the mouse over the component 'R' and press the r key. Notice how the "
 "component rotates."
 msgstr ""
+"コンポーネント 'R' の上にマウスカーソルを合わせて、r キーを押します。コンポー"
+"ネントがどのように回転するか注目しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:285
 msgid "You do not need to actually click on the component to rotate it."
-msgstr ""
+msgstr "コンポーネントを回転するのにクリックする必要はありません。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:291
@@ -625,6 +697,11 @@ msgid ""
 "general Edit window. Notice how the right-click window below shows all "
 "possible shortcut keys for all available actions."
 msgstr ""
+"コンポーネントの中央で右クリックし、*コンポーネントの編集* -> **定数** を選択"
+"します。コンポーネントの上にマウスカーソルを合わせて v キーを押しても同じこと"
+"ができます。あるいは、e キーで更に全般的な編集ウィンドウを開けます。以下の右"
+"クリックのウィンドウが、全ての可能なアクションに対する全ての利用可能なショー"
+"トカットキーを見せてくれることに注目しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:293
@@ -637,6 +714,8 @@ msgid ""
 "The Component value window will appear. Replace the current value 'R' with "
 "'1k'. Click OK."
 msgstr ""
+"コンポーネント値のウィンドウが表示されます。現在の定数の 'R' を '1k' に置き換"
+"えます。OKをクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:300
@@ -644,6 +723,8 @@ msgid ""
 "Do not change the Reference field (R?), this will be done automatically "
 "later on. The value inside the resistor should now be '1k'."
 msgstr ""
+"リファレンス・フィールド (R?) を変更しないで下さい。これは後ほど自動的に行わ"
+"れます。これで抵抗器の中の定数は '1k' となりました。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:302
@@ -656,6 +737,8 @@ msgid ""
 "To place another resistor, simply click where you want the resistor to "
 "appear. The Component Selection window will appear again."
 msgstr ""
+"別の抵抗器を配置するには、抵抗器を置きたい場所を単にクリックします。コンポー"
+"ネント選択のウィンドウが再び表示されます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:308
@@ -663,6 +746,8 @@ msgid ""
 "The resistor you previously chose is now in your history list, appearing as "
 "'R'. Click OK and place the component."
 msgstr ""
+"前に選んだ抵抗器が履歴リスト上に 'R' として表示されています。OKをクリックして"
+"コンポーネントを配置します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:310
@@ -677,6 +762,10 @@ msgid ""
 "from the schematic. Alternatively, you can hover over the component you want "
 "to delete and press the del key."
 msgstr ""
+"間違えたコンポーネントを削除したい場合は、コンポーネント上で右クリックして "
+"'コンポーネント削除' をクリックします。これでコンポーネントは回路図から取り除"
+"かれます。あるいは、削除したいコンポーネント上にマウスカーソルを置いて del "
+"キーを押すこともできます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:319
@@ -684,6 +773,8 @@ msgid ""
 "You can edit any default shortcut key by going to *Preferences* -> *Hotkeys* "
 "-> **Edit hotkeys**. Any modification will be saved immediately."
 msgstr ""
+"デフォルトのショートカットキーは *Preferences* -> *Hotkeys* -> **Edit "
+"hotkeys** で編集できます。変更は即座に保存されます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:323
@@ -692,6 +783,9 @@ msgid ""
 "hovering over it and pressing the c key. Click where you want to place the "
 "new duplicated component."
 msgstr ""
+"既に回路図シート上にあるコンポーネントにマウスカーソルを合わせて c キーを押す"
+"ことにより、複製することができます。新しく複製したコンポーネントを置きたい場"
+"所をクリックして下さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:329
@@ -701,6 +795,10 @@ msgid ""
 "hovering over the component and by pressing the g key. Use the r key to "
 "rotate the component. The x key and the y key will flip the component."
 msgstr ""
+"2つ目の抵抗器を右クリックします。'コンポーネントの移動' を選択します。コン"
+"ポーネントを再配置して左クリックで置きます。同じ機能が、コンポーネントにマウ"
+"スカーソルを合わせて g キーを押すことでも可能です。回転させるためには r キー"
+"を使います。x キーと y キーはコンポーネントを反転させます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:334
@@ -711,6 +809,10 @@ msgid ""
 "to use this only for component labels and components yet to be\n"
 "connected. We will see later on why this is the case.\n"
 msgstr ""
+"*右クリック* -> *コンポーネントの移動* (m キーと同等)\n"
+"もまた色んなものを移動する貴重なオプションですが、\n"
+"コンポーネントのラベルや未接続のコンポーネントにのみ使うのが良いです。\n"
+"なぜそうなのかは後述します。\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:338
@@ -719,6 +821,8 @@ msgid ""
 "Replace 'R' with '100'. You can undo any of your editing actions with the "
 "ctrl+z key."
 msgstr ""
+"2つ目の抵抗器にマウスカーソルを置いて v キーを押して編集します。'R' を '100' "
+"で置き換えます。ctrl+z キーによってどんな編集操作も undo できます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:344
@@ -728,6 +832,10 @@ msgid ""
 "the size of the grid by *Right-Click* -> **Grid select**. __In general, it "
 "is recommendable to use a grid of 25.0 mils for the schematic sheet__."
 msgstr ""
+"グリッドのサイズを変更します。回路図シート上では、全てのコンポーネントが大き"
+"なマス目のグリッドに沿っていることに気付いていると思います。グリッドのサイズ"
+"は *右クリック* -> **グリッド選択** で変更することができます。__一般的に、回"
+"路図シートには25.0ミルのグリッドを使うことが推奨されます。__"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:348
@@ -736,6 +844,9 @@ msgid ""
 "'microcontrollers' library instead of the 'device' library and pick the "
 "'PIC12C508A' component instead of the 'R' component from it."
 msgstr ""
+"コンポーネント追加のステップを続けますが、今度は 'device' ライブラリの代わり"
+"に 'microcontrollers' ライブラリを選択して、'R' ではなく 'PIC12C508A' コン"
+"ポーネントを選びましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:353
@@ -744,6 +855,9 @@ msgid ""
 "key on the keyboard. Notice how the component is flipped over its x axis or "
 "its y axis. Press the key again to return it to its original orientation."
 msgstr ""
+"microcontroller コンポーネントにマウスカーソルを置きます。y キーか x キーを押"
+"します。コンポーネントがx軸、y軸でどのように反転するかが分かります。キーをも"
+"う一度押すと元の方向に戻ります。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:356
@@ -751,11 +865,13 @@ msgid ""
 "Repeat the add-component steps, this time choosing the 'device' library and "
 "picking the 'LED' component from it."
 msgstr ""
+"コンポーネント追加のステップを続けますが、今度は 'device' ライブラリを選択し"
+"て 'LED'コンポーネントを選びましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:358
 msgid "Organise all components on your schematic sheet as shown below."
-msgstr ""
+msgstr "回路図シート上の全てのコンポーネントを以下のように整理します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:360
@@ -775,6 +891,10 @@ msgid ""
 "component from scratch and then return to this section to continue with the "
 "board."
 msgstr ""
+"私達は3ピンのコネクタのために 'MYCONN3' という回路図コンポーネントを作る必要"
+"があります。<<make-schematic-components-in-kicad,Make Schematic Components "
+"in KiCad>> というタイトルの節にジャンプし、一からコンポーネントを作る方法を学"
+"び、この節に戻ってきて下さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:370
@@ -782,6 +902,9 @@ msgid ""
 "You can now place the freshly made component. Press the a key and select "
 "'List All'. Choose the library 'myLib' and pick the component 'MYCONN3'."
 msgstr ""
+"さあ、新たに作成されたコンポーネントを配置することができるようになりました。"
+"a キーを押して 'List All' を選択します。'myLib' ライブラリを選択して "
+"'MYCONN3' コンポーネントを選びます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:376
@@ -792,6 +915,11 @@ msgid ""
 "before/while doing this. Reposition 'J?' under the component as shown below. "
 "Labels can be moved around as many times as you please."
 msgstr ""
+"コンポーネントの識別子 'J?' が 'MYCONN3' ラベルの下に見えます。位置を変えたい"
+"なら、'J?' の上で右クリックして 'Move Field' (m キーと同等) をクリックしま"
+"す。これを行う前か最中にズームインすると便利かもしれません。コンポーネントの "
+"'J?' を以下に示すように再配置します。ラベルは何回でも好きなだけ動かすことがで"
+"きます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:378
@@ -811,6 +939,11 @@ msgid ""
 "the component selection window, click on the 'List All' button. Scroll down "
 "and select 'VCC' from the Select Component window.  Click OK."
 msgstr ""
+"電源とGNDのシンボルを配置します。右ツールバーにある '電源ポートの配置' ボタ"
+"ン image:images/add_power.png[add_power_png] をクリックします。あるいは、a "
+"キーを押して 'power' ライブラリを選択します。コンポーネント選択のウィンドウ"
+"で '全てのリスト' ボタンをクリックします。下方にスクロールし、コンポーネント"
+"選択のウィンドウで 'VCC' 選択します。OKをクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:391
@@ -820,6 +953,10 @@ msgid ""
 "section select 'VCC' and place it next to the VDD pin. Repeat the add "
 "process again and place a VCC part above the VCC pin of 'MYCONN3'."
 msgstr ""
+"VCC部品を配置するために、1kの抵抗器のピンの上方をクリックします。"
+"microcontroller 'VDD' 上方をクリックします。'コンポーネント選択履歴'の中から "
+"'VCC' を選び、VDDピンの隣に配置します。追加作業を繰り返して、VCC部品を "
+"'MYCONN3' のVCCピンの上方に配置します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:396
@@ -829,6 +966,9 @@ msgid ""
 "VSS pin of the microcontroller. Your schematic should now look something "
 "like this:"
 msgstr ""
+"ピン追加のステップを続けますが、今度はGND部品を選択します。GND部品を "
+"'MYCONN3' のGNDピンの下に配置します。別のGNDシンボルを、microcontrollerのVSS"
+"ピンの右に配置します。回路図はこのようになっているはずです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:398
@@ -848,6 +988,11 @@ msgid ""
 "has thicker lines. The section <<bus-connections-in-kicad,Bus Connections in "
 "KiCad>> will explain how to use a bus section."
 msgstr ""
+"次に、全てのコンポーネントの配線をします。右ツールバーの 'ワイヤの配置' アイ"
+"コン image:images/add_line.png[Place wire] をクリックします。**注意**: 'バス"
+"の配置' を選ばないように注意しましょう。このボタンの直ぐ下にあり線が太いで"
+"す。<<bus-connections-in-kicad,Bus Connections in KiCad>> の節でバスをどのよ"
+"うに使うか説明しています。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:410
@@ -856,6 +1001,8 @@ msgid ""
 "then click on the little circle on pin 2 of the LED.  You can zoom in while "
 "you are placing the connection."
 msgstr ""
+"マイクロコントローラのピン7の端の小丸をクリックし、それからLEDのピン2の小丸を"
+"クリックします。接続を配置する時にズームインすることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:415
@@ -865,6 +1012,10 @@ msgid ""
 "keep the wires connected. Review step 24 in case you have forgotten how to "
 "move a component."
 msgstr ""
+"配線されたコンポーネントを再配置したい場合、g キー (掴む) を使うことが重要"
+"で、m キー (移動) は使うべきではありません。(掴む) を使うことでワイヤの接続を"
+"維持できます。コンポーネントの移動方法を忘れたならステップ24を見直しましょ"
+"う。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:417
@@ -883,6 +1034,10 @@ msgid ""
 "the wire should touch the bottom of the VCC symbol and the middle top of the "
 "GND symbol. See the screenshot below."
 msgstr ""
+"この処理を繰り返して以下の全てのコンポーネントの配線を済ませます。ワイヤを終"
+"端するにはダブルクリックをします。VCCとGNDのシンボルへの配線は、VCCシンボルな"
+"ら下部に、GNDシンボルなら上部中央にタッチします。下のスクリーンショットを見て"
+"ください。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:424
@@ -900,6 +1055,9 @@ msgid ""
 "Pick a net labelling tool by clicking on the 'Place net name' icon image:"
 "images/label.png[label_png] on the right toolbar. You can also use the l key."
 msgstr ""
+"今度はラベルを使った別の接続方法を考えてみましょう。右ツールバーの 'ネット名"
+"の配置' アイコン image:images/label.png[label_png] をクリックして ネット名の"
+"配置ツールを選びます。l キーを使うこともできます。 "
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:432
@@ -907,6 +1065,8 @@ msgid ""
 "Click in the middle of the wire connected to pin 6 of the microcontroller. "
 "Name this label 'INPUT'."
 msgstr ""
+"マイクロコントローラーのピン6に接続されているワイヤの中程をクリックします。こ"
+"のラベルに 'INPUT' と名前をつけます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:440
@@ -919,6 +1079,11 @@ msgid ""
 "place a label you do not necessarily need a wire, you can simply attach the "
 "label to a pin."
 msgstr ""
+"同じ手順に従い100Ωの抵抗器の右にある配線に別のラベルを配置します。同様に "
+"'INPUT' と名前を付けます。2つの同じ名前を持つラベルは、見えない接続をPICのピ"
+"ン6と100Ω抵抗器の間に作ります。これは線が混雑した複雑なデザインの場合に便利な"
+"配線テクニックです。ラベルを配置するのに必ずしもワイヤは必要ではなく、単純に"
+"ピンにラベルを付けることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:445
@@ -928,6 +1093,10 @@ msgid ""
 "between the resistor and the LED as 'LEDtoR'. Name the wire between "
 "'MYCONN3' and the resistor as 'INPUTtoR'."
 msgstr ""
+"ラベルはまた、単に配線に有用な名前をつける目的で使うこともできます。PICのピン"
+"7にラベルを付けて 'uCtoLED' と名前をつけたり、抵抗器とLEDの間のワイヤに "
+"'LEDtoR' と名前をつけたり、'MYCONN3' と抵抗器の間のワイヤに 'INPUTtoR' つけた"
+"り、です。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:448
@@ -935,11 +1104,13 @@ msgid ""
 "You do not have to label the VCC and GND lines because the labels are "
 "implied from the power objects they are connected to."
 msgstr ""
+"VCCとGNDの線にラベルをつける必要はありません。そのラベルは、接続されている電"
+"源オブジェクトから暗黙的に定義されています。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:450
 msgid "Below you can see what the final result should look like."
-msgstr ""
+msgstr "下図に最終的な結果がどのように見えるかを示します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:452
