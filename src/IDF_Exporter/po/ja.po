@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -7,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: IDF_Exporter-ja\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-25 22:54+0900\n"
+"PO-Revision-Date: 2015-06-28 01:37+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "MIME-Version: 1.0\n"
@@ -312,6 +311,7 @@ msgstr ""
 "ドに含まれる全てのフィールドは単一行でなければなりません。; レコードは複数行"
 "に渡ってはいけません。"
 
+# "Record 1は"を"Record 1には"へ変更
 #. type: Plain text
 #: IDF_Exporter.adoc:142
 msgid ""
@@ -320,8 +320,8 @@ msgid ""
 "which has four fields:"
 msgstr ""
 "セクションの表題（.ELECTRICAL または .MECHANICAL）はセクションの最初の "
-"RECORD (Record 1) となるよう考慮して下さい。Record 1 は、４つのフィールドから"
-"成る Record 2 が続かなければなりません。"
+"RECORD (Record 1) となるよう考慮して下さい。Record 1 には、４つのフィールドか"
+"ら成る Record 2 が続かなければなりません。"
 
 # "～の外形"を"～アウトライン"へ変更
 #. type: Plain text
@@ -580,6 +580,7 @@ msgstr ""
 msgid "Pin orientation and positioning"
 msgstr "ピンの向きと配置"
 
+# "X軸の"を"X軸に"へ訂正
 #. type: Plain text
 #: IDF_Exporter.adoc:266
 msgid ""
@@ -595,7 +596,7 @@ msgid ""
 "place the anode at Pin 1."
 msgstr ""
 "スルーホールコンポーネントに対しては、3Dモデルの中心とピンの向きを決めるため"
-"に図面を使うことは一般的ではありません。一貫性のため、X軸の沿って水平に配置 "
+"に図面を使うことは一般的ではありません。一貫性のため、X軸に沿って水平に配置 "
 "(リンク参照:#figure-4[figure 4]) された２つのピンがあれば、３ピンに対してはＸ"
 "軸上に水平配置された２つのピンを保つようにします。電解コンデンサやタンタルコ"
 "ンデンサのような有極性部品は正極のリードを１ピンにする必要があります。またダ"
