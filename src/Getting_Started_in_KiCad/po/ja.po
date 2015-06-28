@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-27 21:07+0900\n"
+"PO-Revision-Date: 2015-06-29 00:32+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -47,9 +47,9 @@ msgid ""
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有(© 2015)されています。あなた"
-"は、GNU General Public License (http://www.gnu.org/licenses/gpl.html)のバー"
-"ジョン3以降、あるいはクリエイティブ・コモンズライセンス(http://"
-"creativecommons.org/licenses/by/3.0/)のバージョン3以降のいずれかの条件の下"
+"は、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
+"バージョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
 "で、配布または変更することができます 。"
 
 #. type: Plain text
@@ -133,7 +133,7 @@ msgstr "*Macユーザへの注意*\n"
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:53
 msgid "The KiCad support for the Apple OS X operating system is experimental."
-msgstr "Apple OS Xに対するKiCadのサポートは実験的です。"
+msgstr "KiCadのApple OS Xに対するサポートは実験的です。"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:56
@@ -1129,6 +1129,9 @@ msgid ""
 "can either instruct the program that the unconnected wires are deliberate or "
 "manually flag each unconnected wire or pin as unconnected."
 msgstr ""
+"それでは接続されていないワイヤに対処しましょう。接続されていないピンやワイヤ"
+"はKiCadにチェックされた時に警告されます。これらの警告を避けるため、ワイヤが接"
+"続されていないのが意図的であることをプログラムに指示することができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:463
@@ -1137,6 +1140,9 @@ msgid ""
 "[noconn_png] on the right toolbar. Click on pins 2, 3, 4 and 5. An X will "
 "appear to signify that the lack of a wire connection is intentional."
 msgstr ""
+"右ツールバーにある '空き端子フラグを配置' というアイコン  image:images/"
+"noconn.png[noconn_png] をクリックします。2, 3, 4 と 5 の線の端にある小丸の上"
+"でクリックします。 Xは未接続が意図的であることを示すために表示されます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:465
@@ -1156,6 +1162,11 @@ msgid ""
 "connected if VCC and GND naming is respected. Generally speaking, you should "
 "try not to make hidden power pins."
 msgstr ""
+"見えない電源ピンを持つコンポーネントがあります。左ツールバーの 'Show hidden "
+"pins' アイコン image:images/hidden_pin.png[hidden_pin_png] をクリックすること"
+"でそれらを見えるようにできます。VCCとGNDの名前付けが尊重される場合、隠れた電"
+"源ピンは自動的に接続されます。一般的には、隠れた電源ピンを作らないように努力"
+"すべきです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:477
@@ -1165,6 +1176,10 @@ msgid ""
 "the 'power' library and search for 'PWR_FLAG'. Place two of them. Connect "
 "them to a GND pin and to VCC as shown below."
 msgstr ""
+"KiCadに、どこから電源が来るのかを示すために、'電源フラグ' を追加する必要があ"
+"ります。a キーを押して 'List All' を選択し、'power' ライブラリの上でダブルク"
+"リックを行い、'PWR_FLAG' を探します。それを２つ配置します。以下に示すように"
+"GNDとVCCに接続しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:479
@@ -1181,6 +1196,8 @@ msgid ""
 "This will avoid the classic schematic checking warning: Warning Pin power_in "
 "not driven (Net xx)"
 msgstr ""
+"これにより典型的な回路図チェックの警告を避けることができます: 警告 power_in "
+"ピンは駆動されていません (Net xx)"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:486
@@ -1189,6 +1206,9 @@ msgid ""
 "the schematic use the 'Place graphic text (comment)' icon image:images/"
 "add_text.png[add_text_png] on the right toolbar."
 msgstr ""
+"あちこちにコメントを書いておくのが良いこともあります。回路図にコメントを追加"
+"するには、右ツールバーの 'グラフィックテキスト（コメント）配置' のアイコン "
+"image:images/add_text.png[add_text_png] を使います。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:491
@@ -1198,6 +1218,10 @@ msgid ""
 "automatically by clicking on the 'Annotate schematic' icon image:images/"
 "annotate.png[annotate_png]."
 msgstr ""
+"全てのコンポーネントはユニークな識別子を持つ必要があります。実際には私達のコ"
+"ンポーネントの多くはまだ 'R?' や 'J?' と名付けられています。識別子の割り当て"
+"は、'回路図のアノテート' のアイコン image:images/annotate.png[annotate_png] "
+"をクリックすることで自動的に行われます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:497
@@ -1208,6 +1232,11 @@ msgid ""
 "Each identifier is now unique. In our example, they have been named 'R1', "
 "'R2', 'U1', 'D1' and 'J1'."
 msgstr ""
+"'回路図のアノテーション' ウィンドウでは、 '回路図全体で使用' を選択し、'アノ"
+"テーション' ボタンをクリックします。確認のメッセージにOKをクリックし、'閉じ"
+"る' をクリックします。コンポーネントの全ての '?' が数字に置き換えられたことが"
+"わかります。各識別子はユニークです。私達の例では、'R1'、'R2'、'U1'、 'D1' と "
+"'J1' と名付けられました。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:506
@@ -1221,6 +1250,12 @@ msgid ""
 "report' and press the 'Test ERC' button again to receive more information "
 "about the errors."
 msgstr ""
+"ここで回路図のエラーをチェックします。'ERCの実行' アイコン image:images/erc."
+"png[erc_png] をクリックします。'ERCのテスト' ボタンをクリックします。接続され"
+"ていないワイヤ等のエラーや警告のレポートが通知されます。エラー０、警告０にし"
+"ましょう。エラーや警告がある場合には、小さな緑色の矢印が回路図上のエラーや警"
+"告のある場所に表示されます 。よりエラーの情報を得るため 'ERCレポートの作成' "
+"をクリックし、'ERCのテスト' ボタンを再度押します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:512
@@ -1230,6 +1265,11 @@ msgid ""
 "icon image:images/netlist.png[netlist_png] on the top toolbar. Click on "
 "'Netlist' then click on 'save'. Save under the default file name."
 msgstr ""
+"回路図は完成しました。これでコンポーネントに対応するフットプリントを付け足"
+"す、ネットリストのファイルを作成することができるようになりました。トップツー"
+"ルバーにある 'ネットリストの生成' のアイコン image:images/netlist.png"
+"[netlist_png] をクリックします。'ネットリスト' をクリックし、デフォルトのファ"
+"イル名で '保存' をクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:517
@@ -1238,6 +1278,10 @@ msgid ""
 "icon image:images/icon_cvpcb_small.png[icon_cvpcb_small_png] on the top "
 "toolbar. If a missing file error window pops up, just ignore it and click OK."
 msgstr ""
+"これで回路図エディタを終了します。KiCadから、トップツールバーにある 'Cvpcbを"
+"実行' のアイコン image:images/icon_cvpcb_small.png[icon_cvpcb_small_png] をク"
+"リックします。ファイルが存在しませんのエラーが表示されたらOKをクリックしま"
+"す。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:523
@@ -1248,6 +1292,11 @@ msgid ""
 "right you have all the available footprints, here scroll down to 'LEDV' and "
 "double click on it. image:images/cvpcb.png[cvpcb_png]"
 msgstr ""
+"_Cvpcb_ により、回路図の全てのコンポーネントに、KiCadライブラリ内のフットプリ"
+"ントをリンクすることができます。左側のペインは回路図で使われている全てのコン"
+"ポーネントを表示しています。まず 'D1' を選択します。右側のペインは全ての利用"
+"可能なフットプリントを表示しています。ここでは 'LEDV' までスクロールダウンし"
+"て、それをダブルクリックします。 image:images/cvpcb.png[cvpcb_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:529
@@ -1257,6 +1306,10 @@ msgid ""
 "subset of suitable footprints. Click on the icon image:images/"
 "module_full_list.png[module_full_list_png] to deselect this filter."
 msgstr ""
+"右側のペインに、利用可能なフットプリントの内、選択されたサブグループだけを表"
+"示することもできます。これはKiCadが適切なフットプリントだけをあなたに提示しよ"
+"うとするためです。このフィルタを解除にするにはこのアイコン image:images/"
+"module_full_list.png[module_full_list_png] をクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:532
@@ -1264,6 +1317,9 @@ msgid ""
 "For 'J1' select the '3PIN_6mm' footprint. For 'R1' and 'R2' select the 'R1' "
 "footprint. Select 'DIP-8_300' for 'U1'."
 msgstr ""
+"'J1' に対して '3PIN_6mm' というフットプリントを選択します。'R1' と 'R2' に対"
+"して 'R1'というフットプリントを選択します。'U1'に対して 'DIP-8_300' を選択し"
+"ます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:541
@@ -1276,6 +1332,12 @@ msgid ""
 "get a multi-page PDF document with all available footprints. You can print "
 "it out and check your components to make sure that the dimensions match."
 msgstr ""
+"選択したフットプリントがどんな風に見えるのかを知りたいなら2つの選択肢がありま"
+"す。現在のフットプリントのプレビューには 'View selected footprint' のアイコ"
+"ン image:images/show_footprint.png[show_footprint_png] をクリックします。ある"
+"いは 'Display footprint list documentation' のアイコン image:images/"
+"datasheet.png[datasheet_png] をクリックすると、全ての利用可能なフットプリント"
+"のPDF文書が得られます。印刷して部品の寸法が適合することを確認できます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:550
@@ -1288,6 +1350,13 @@ msgid ""
 "your own footprints. This will be explained in a later section of this "
 "document."
 msgstr ""
+"割り当てができました。これで全ての関連付けたフットプリントでもってネットリス"
+"トのファイルを更新することができます。 *ファイル* -> **名前を付けて保存** を"
+"クリックします。デフォルトの 'tute1.net' のままで保存をクリックします。あるい"
+"はアイコン image:images/save.png[Save icon] も使えます。これでネットリストの"
+"ファイルは全てのフットプリントで更新されました。フットプリントのない部品があ"
+"る場合、独自にフットプリントを作る必要があることに注意して下さい。このことに"
+"ついてはこの文書の後の節で説明されます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:554
@@ -1296,11 +1365,14 @@ msgid ""
 "the project by clicking on *File* -> **Save Whole Schematic Project**. Close "
 "the schematic editor."
 msgstr ""
+"_Cvpcb_ を閉じて _EESchema_ 回路図エディタに戻ります。 *ファイル* -> **全回路"
+"図プロジェクトを保存** をクリックしてプロジェクトを保存します。回路図エディタ"
+"を閉じます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:556
 msgid "Switch to the KiCad project manager."
-msgstr ""
+msgstr "KiCadプロジェクト・マネージャに切り替えます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:560
@@ -1309,6 +1381,9 @@ msgid ""
 "connections. The netlist file is actually a text file that you can easily "
 "inspect, edit or script."
 msgstr ""
+"ネットリストには、全てのコンポーネントとそのそれぞれのピン接続が記述されてい"
+"ます。ネットリストはテキストファイルなので、容易に検査したり編集したり書いた"
+"りすることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:563
@@ -1316,6 +1391,8 @@ msgid ""
 "Library files (__*.lib__) are text files too and they are also easily "
 "editable or scriptable."
 msgstr ""
+"ライブラリファイル (__*.lib__) もテキストファイルなので、同様に容易に編集した"
+"り記述することができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:567
@@ -1324,6 +1401,9 @@ msgid ""
 "and click on the 'Bill of materials' icon image:images/bom.png[bom_png] on "
 "the top toolbar."
 msgstr ""
+"部品表 (BOM) を作成するには _EESchema_ 回路図エディタを起動してトップツール"
+"バーにある '部品表' のアイコン image:images/bom.png[bom_png] をクリックkしま"
+"す。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:570
@@ -1332,6 +1412,9 @@ msgid ""
 "Plugin* button.  Select the *.xsl file you want to use, in this case, we "
 "select __bom2csv.xsl__."
 msgstr ""
+"デフォルトではプラグインは全て無効になっています。 *プラグインの追加* ボタン"
+"をクリックすることで追加することができます。使いたい *.xsl ファイルを選択しま"
+"す。この場合は __bom2csv.xsl__ を選択します。"
 
 #. type: delimited block =
 #: Getting_Started_in_KiCad.adoc:574
@@ -1339,11 +1422,13 @@ msgid ""
 "The *.xsl file is located in __plugins__ directory of the Kicad "
 "installation, which is located at: /usr/lib/kicad/plugins/."
 msgstr ""
+"*.xsl ファイルは、KiCadをインストールしたディレクトリの __plugins__ にあり、"
+"それは次の場所に位置します: /usr/lib/kicad/plugins/"
 
 #. type: delimited block =
 #: Getting_Started_in_KiCad.adoc:576
 msgid "Or get the file via:"
-msgstr ""
+msgstr "または次のようにしてファイルを入手します:"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:578
@@ -1355,7 +1440,7 @@ msgstr "wget https://raw.githubusercontent.com/KiCad/kicad-source-mirror/master/
 #: Getting_Started_in_KiCad.adoc:581
 #, no-wrap
 msgid "KiCad automatically generates the command, for example:"
-msgstr ""
+msgstr "KiCadは自動的にコマンドを生成します、例えばこのように:"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:584
@@ -1367,7 +1452,7 @@ msgstr "xsltproc -o \"%O\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl\" \
 #: Getting_Started_in_KiCad.adoc:586
 #, no-wrap
 msgid "You may want to add the extension, so change this command line to:"
-msgstr ""
+msgstr "拡張を与えたい場合、このコマンドラインを変更します:"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:589
@@ -1378,7 +1463,7 @@ msgstr "xsltproc -o \"%O.csv\" \"/home/<user>/kicad/eeschema/plugins/bom2csv.xsl
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:592
 msgid "Press Help button for more info."
-msgstr ""
+msgstr "ヘルプボタンを押すことで更に情報が得られます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:594
@@ -1386,6 +1471,8 @@ msgid ""
 "Now press 'Generate'. The file (same name as your project) is located in "
 "your project folder."
 msgstr ""
+"さあ '生成' を押してみましょう。ファイル(プロジェクトと同じ名前です)はプロ"
+"ジェクトフォルダの中にあります。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:596
@@ -1393,6 +1480,8 @@ msgid ""
 "Open the **.csv* file with LibreOffice Calc or Excel. An import window will "
 "appear, press OK."
 msgstr ""
+" **.csv* ファイルを LibreOffice Calc か Excel で開いてみましょう。インポート"
+"のウィンドウが表示されたらOKを押します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:600
@@ -1401,12 +1490,14 @@ msgid ""
 "next section. However, before moving on let's take a quick look at how to "
 "connect component pins using a bus line."
 msgstr ""
+"あなたはこれで次の節のPCBレイアウトのパートに進む準備ができました。ですが先に"
+"進む前に、コンポーネントのピンをバスで接続する方法をさっと見ておきましょう。"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:603
 #, no-wrap
 msgid "Bus connections in KiCad"
-msgstr ""
+msgstr "KiCadでのバス接続"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:609
@@ -1416,6 +1507,9 @@ msgid ""
 "options: the labelling method we already saw or the use of a bus connection. "
 "Let's see how to do it."
 msgstr ""
+"コンポーネントAの連続したピンと、別のコンポーネントBの連続したピンを接続しな"
+"ければならないことがあります。この場合2つの選択肢があります: 私達が既に見てき"
+"たラベルによる方法とバス接続です。どうするのか見てみましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:615
@@ -1426,6 +1520,10 @@ msgid ""
 "the same action automatically performed on the pin below pin 4 (PIN 3). "
 "Notice how the label is automatically renamed 'a2'."
 msgstr ""
+"4ピンのコネクタが3つあり、ピン同士を接続したいのだと仮定しましょう。ラベルを"
+"使って (l キーを押す) コネクタP4のピン4に 'a1' という名前のラベルを付けます。"
+"Ins キーを押して、ピン4の下のピン3に自動的に同様の処理を行います。ラベルは自"
+"動的に 'a2' とリネームされます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:619
@@ -1434,6 +1532,8 @@ msgid ""
 "'Repeat last action' and it is an infinitely useful command that can make "
 "your life a lot easier."
 msgstr ""
+"Ins キーを更に2回押してください。Ins キーは 'Repeat last action' 機能に対応し"
+"ており、あなたの仕事を楽にしてくれるとても便利なコマンドです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:630
@@ -1447,6 +1547,13 @@ msgid ""
 "add_bus2bus.png[Place bus to bus entry], as shown in Figure 3. Mind, "
 "however, that there will be no effect on the PCB."
 msgstr ""
+"ラベル付け作業を他の2つのコネクタ CONN_2 と CONN_3 にも繰り返して終えました。"
+"このまま進めてPCBを作成すると、3つのコネクタがお互い接続されていることでしょ"
+"う。図2に説明したことが表されています。美しく見せるために、図3に示すよう、ア"
+"イコン image:images/add_line2bus.png[Place wire to bus entry] を使った一連の "
+"'Place wire to bus entry' と、アイコン image:images/add_bus2bus.png[Place "
+"bus to bus entry] を使ったバスラインを付け加えることも可能です。PCBにはなんの"
+"影響もありませんが。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:634
@@ -1455,6 +1562,8 @@ msgid ""
 "2 is not strictly necessary. In fact, the labels could have been applied "
 "directly to the pins."
 msgstr ""
+"図2の、ピンに接触している短いワイヤは厳密には不要であることを指摘しておきま"
+"す。実際、ラベルはピンに直接付けることができるのでした。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:641
@@ -1466,6 +1575,11 @@ msgid ""
 "also possible) but by instead using labelling on the bus line, with one "
 "label per bus."
 msgstr ""
+"もう一歩進んで、4つ目のコネクタ CONN_4 を仮定します。何らかの理由により、その"
+"ラベル付けは少し異なっています(b1, b2, b3, b4)。私達は _Bus a_ と _Bus b_ を"
+"ピンとピンの方法で接続したいのです。ピンにラベル付けする方法(も可能ですが)は"
+"使わずに、代わりに、バス毎に1ラベルで、バスラインにラベル付けする方法で実現し"
+"たいわけです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:647
@@ -1476,20 +1590,25 @@ msgid ""
 "a bus line using the icon image:images/add_bus.png[add_bus_png]. See Figure "
 "4."
 msgstr ""
+"前に説明したラベル付けの方法を使って、CONN_4に接続してラベルを付けます。ピン"
+"には  b1, b2, b3 そして b4 と名前を付けます。アイコン image:images/"
+"add_line2bus.png[add_line2bus_png] を使った一連の 'Wire to bus entry' と、ア"
+"イコン image:images/add_bus.png[add_bus_png] を使ったバスラインに、ピンを接続"
+"します。図4を見て下さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:650
 msgid ""
 "Put a label (press the l key option) on the bus of CONN_4 and name it 'b"
 "[1..4]'."
-msgstr ""
+msgstr "CONN_4のバスにラベルを付けて(l キーを押して) 'b[1..4]' と名付けます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:653
 msgid ""
 "Put a label (press the l key option) on the previous a bus and name it 'a"
 "[1..4]'."
-msgstr ""
+msgstr "以前のバスにラベルを付けて(l キーを押して) 'a[1..4]' と名付けます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:656
@@ -1497,6 +1616,8 @@ msgid ""
 "What we can now do is connect bus a[1..4] with bus b[1..4] using a bus line "
 "with the button image:images/add_bus.png[add_bus_png]."
 msgstr ""
+"これでボタン image:images/add_bus.png[add_bus_png] を使って、バスa[1..4]とバ"
+"スb[1..4]を接続することでできるようになりました。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:664
@@ -1509,6 +1630,12 @@ msgid ""
 "Figure 4 have been placed with this option. Learn how to use it because it "
 "will make using KiCad easier."
 msgstr ""
+"2つのバスを接続することで、ピンa1は自動的にピンb1に接続され、a2はb2に接続さ"
+"れ、以下同様となります。図4は最終結果がどのように見えるか示しています。注記: "
+"Ins キーによる 'Repeat last action' 機能は、繰り返される周期的な作業にうまく"
+"使うことができます。例えば、短いワイヤを全てのピンに接続する図2、図3、図4 で"
+"の作業はこの機能でできました。KiCadを容易に使うためにその機能の使い方を学びま"
+"しょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:668
@@ -1517,6 +1644,9 @@ msgid ""
 "extensively used to place the many series of 'Wire to bus entry' using the "
 "icon image:images/add_line2bus.png[add_line2bus_png]."
 msgstr ""
+"Ins キーによる 'Repeat last action' 機能は、アイコン image:images/"
+"add_line2bus.png[add_line2bus_png] を使っての、たくさんの連続した 'Wire to "
+"bus entry' の配置にも適用できます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:670
@@ -1531,7 +1661,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:673
 #, no-wrap
 msgid "Layout printed circuit boards"
-msgstr ""
+msgstr "プリント基板のレイアウト"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:677
@@ -1539,6 +1669,8 @@ msgid ""
 "It is now time to use the netlist file you generated to lay out the PCB.  "
 "This is done with the _PCBnew_ tool."
 msgstr ""
+"生成したネットリストのファイルを使ってPCBのレイアウトを行う時が来ました。これ"
+"は _PCBnew_ ツールで行います。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:682
@@ -1548,6 +1680,10 @@ msgid ""
 "message saying that a _*.kicad_pcb_ file does not exist just ignore it and "
 "click Yes."
 msgstr ""
+"KiCadプロジェクト・マネージャから 'PCBNew' のアイコン image:images/pcbnew.png"
+"[pcbnew_png] をクリックします。 'PCBNew' ウィンドウが開きます。 _*."
+"kicad_pcb_ ファイルが存在しませんというエラーメッセージが出たらYesをクリック"
+"します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:686
@@ -1556,6 +1692,9 @@ msgid ""
 "icon image:images/sheetset.png[sheetset_png] on the top toolbar. Set 'paper "
 "size' as 'A4' and 'title' as 'Tute 1'."
 msgstr ""
+"いくつか回路図情報を入力することから始めます。トップツールバーの 'ページ設"
+"定' のアイコン image:images/sheetset.png[sheetset_png] をクリックしま"
+"す。'ページサイズ' を 'A4' に設定して、 'タイトル' を 'Tute 1' と設定します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:694
@@ -1568,6 +1707,13 @@ msgid ""
 "window to '0.25' and the 'Track Width' field to '0.25' as shown below. "
 "Measurements here are in mm."
 msgstr ""
+"PCBメーカーが要求する *クリアランス* と *最少配線幅* に設定することから始める"
+"のは良い考えです。一般的にクリアランスを '0.25' に、最少配線幅を '0.25' に設"
+"定します。メニューの *デザインルール* -> *デザインルール* をクリックします。"
+"もしまだ表示されていなければ 'ネットクラス・エディタ' のタブをクリックしま"
+"す。以下に示すように、ウィンドウの上部にある 'クリアランス' のフィールドを "
+"'0.25' に、 '配線幅' のフィールドを '0.25' に変更します。ここでの寸法は mm で"
+"す。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:696
@@ -1581,6 +1727,9 @@ msgid ""
 "Click the OK button to commit your changes and close the Design Rules Editor "
 "window."
 msgstr ""
+"'グローバルデザインルール' タブ上でクリックし、'最小の配線幅' を '0.25' に設"
+"定します。変更をコミットするためOKボタンをクリックし、デザインルールエディタ"
+"のウインドウを閉じます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:706
@@ -1590,6 +1739,11 @@ msgid ""
 "Netlist Files' button, select 'tute1.net' in the File selection dialogue, "
 "and click on 'Read Current Netlist'. Then click the 'Close' button."
 msgstr ""
+"さあネットリストのファイルをインポートしましょう。トップツールバーにある "
+"'ネットリストの読み込み' アイコン image:images/netlist.png[netlist_png] をク"
+"リックします。'ネットリストファイルを参照する' ボタンをクリックし、選択ダイア"
+"ログの中で 'tute1.net' を選択し、 '現在のネットリストを読み込む' をクリックし"
+"ます。その後、'閉じる' ボタンをクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:709
@@ -1597,6 +1751,8 @@ msgid ""
 "All components should now be visible in the top left hand corner just above "
 "the page. Scroll up if you cannot see them."
 msgstr ""
+"全てのコンポーネントはページ上の左上隅に表示されるはずです。見えない場合には"
+"スクロールアップしましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:713
@@ -1604,6 +1760,8 @@ msgid ""
 "Select all components with the mouse and move them to the middle of the "
 "board. If necessary you can zoom in and out while you move the components."
 msgstr ""
+"マウスで全てのコンポーネントを選択して基板の中央に移動します。必要であれば、"
+"コンポーネントの移動中にズームインやズームアウトすることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:720
@@ -1614,6 +1772,11 @@ msgid ""
 "see the ratsnest linking all components. NOTE: The tool-tip is backwards; "
 "pressing this button actually displays the ratsnest."
 msgstr ""
+"全てのコンポーネントは __ratsnest__ と呼ばれる細いワイヤで接続されていま"
+"す。'ボードのラッツネストを非表示' のボタン image:images/general_ratsnest.png"
+"[general_ratsnest_png] が押されていることを確認します。 これでラッツネストが"
+"全てのコンポーネントをつないでいるのが見えます。 注記: ツールチップは逆を示し"
+"ます; このボタンを押すことでラッツネストを表示します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:728
@@ -1625,6 +1788,11 @@ msgid ""
 "later note that you lose the track connection (the same occurs in the "
 "schematic editor). Bottom line, always use the g key option."
 msgstr ""
+"コンポーネントにマウスカーソルを置いて g キーを押すことで移動することができま"
+"す。配置したい所でクリックします。配線の交差数が最少になるまで全てのコンポー"
+"ネントを移動します。注記: コンポーネントを掴む(g キーで)代わりに m キーを使っ"
+"て移動すると接続が失われることに注意しましょう(同じことが回路図エディタでもお"
+"きます)。要するに、いつでも g キーを使いましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:730
@@ -1644,6 +1812,11 @@ msgid ""
 "connect pins. Labels are often preferred to actual wires because they make "
 "the schematic much less messy."
 msgstr ""
+"ラッツネストが消えたり画面が乱れてきた場合には、右クリックして 'ビューの再描"
+"画' をクリックします。どのように100Ωの抵抗器のピンがPICコンポーネントのピン6"
+"に接続されているかに注意しましょう。これがピンを接続するのに使ったラベル付け"
+"の結果です。ラベルは実際のワイヤより好まれます。実際のワイヤは回路図を乱雑に"
+"するからです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:743
@@ -1655,6 +1828,11 @@ msgid ""
 "remember to leave a small gap between the edge of the green and the edge of "
 "the PCB."
 msgstr ""
+"PCBの外形を定義しましょう。トップツールバーのドロップダウンメニューから '基板"
+"外形' を選択します。右ツールバーにある '図形ライン（またはポリゴン）を入力' "
+"のアイコン image:images/add_dashed_line.png[add_dashed_line_png] をクリックし"
+"ます。基板の各コーナーをクリックして基板外形をトレースします。緑色端部とPCBの"
+"端部の間には小さな隙間を残すことを覚えておきましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:747
@@ -1663,6 +1841,9 @@ msgid ""
 "connections in one go using a ground plane placed on the bottom copper "
 "(called __Back__) of the board."
 msgstr ""
+"次にGNDを除く全てのワイヤを接続してしまいましょう。実際の所、全てのGNDの接続"
+"は、基板の底部の銅面( __Back__ と呼ばれます)に配置されたグランドプレーンを"
+"使って一気に行います。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:751
@@ -1671,6 +1852,8 @@ msgid ""
 "(PgUp)' in the drag down menu on the top toolbar. This is the front top "
 "copper layer."
 msgstr ""
+"私達はどの銅のレイヤーで作業するかを選ばねばなりません。トップツールバーにあ"
+"るドラッグダウンメニューの 'F.Cu (PgUp)' を選択します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:753
@@ -1686,6 +1869,11 @@ msgid ""
 "there are very useful presets that can be selected via the 'Preset Layers "
 "Groupings' menu."
 msgstr ""
+"例えば 4レイヤーPCBで行くと決定したならば、 *デザインルール* -> *レイヤーの設"
+"定* を開いて '銅のレイヤー数' を4に変更します。 'レイヤー' の表ではレイヤーに"
+"名前を付けられ、それらを何に使うのかを決定することができます。 'プリセットレ"
+"イヤーグループ' メニューで、便利なプリセットが選択できることを覚えておきま"
+"しょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:767
@@ -1697,6 +1885,12 @@ msgid ""
 "track width from the drop-down menu in the top toolbar. Mind that by default "
 "you have only one track width available."
 msgstr ""
+"右ツールバーにある '配線とビアの追加' のアイコン image:images/add_tracks.png"
+"[add_tracks_png] をクリックします。 'J1' のピン１をクリックしパッド 'R2' への"
+"配線を引きます。配線の終点を設定するため、ダブルクリックします。この配線の幅"
+"はデフォルトで0.250mmです。トップツールバーのドロップダウンメニューから配線幅"
+"を変更できます。デフォルトではただ一つの配線幅が利用できることに気付いてくだ"
+"さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:769
@@ -1712,6 +1906,10 @@ msgid ""
 "the widths of the track from the drop-down menu while you lay out your "
 "board. See the example below (inches)."
 msgstr ""
+"もっと配線幅を追加したい場合: *デザインルール* -> *デザインルール* -> *グロー"
+"バルデザインルール* タブを表示し、このウィンドウの右下で利用したい配線幅を追"
+"加します。これで基板のレイアウトの時にドロップダウンメニューから配線幅を選ぶ"
+"ことができるようになります。以下の例(インチ単位)をご覧下さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:777
@@ -1732,6 +1930,11 @@ msgid ""
 "to the ‘power’ class (select 'default' at left and 'power' at right and use "
 "the arrows)."
 msgstr ""
+"あるいは、指定したオプションのセットの中でネットクラスを追加することができま"
+"す。 *デザインルール* -> *デザインルール* -> *ネットクラスエディタ* を表示し"
+"て 'power' という新しいクラスを追加します。配線幅を8ミル(0.0080と表示)から24"
+"ミル(0.0240と表示)に変更します。次に 'power' クラスにGND以外の全てを追加しま"
+"す(左で 'default' を選び、右で 'power' を選び、矢印を使います)。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:788
@@ -1740,6 +1943,9 @@ msgid ""
 "sure to select the appropriate grid size before or after laying down the "
 "components and connecting them together with tracks."
 msgstr ""
+"グリッドサイズを変更したい場合は *右クリック* -> **グリッド選択** です。コン"
+"ポーネントを配置して配線で接続する前か後に、最適なグリッドサイズを選択して下"
+"さい。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:792 Getting_Started_in_KiCad.adoc:1254
@@ -1748,6 +1954,9 @@ msgid ""
 "distance of about 30 mil (0.8mm), **it is generally commendable to set a "
 "grid size of 5 mil when you route**."
 msgstr ""
+"例えば、0.8mmのBGAコンポーネントのピン間は約30ミル(0.8mm)である場合を考慮する"
+"と、 **一般的には配線する時にグリッドサイズを5ミルに設定するのが良いでしょ"
+"う。**"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:795
@@ -1755,6 +1964,8 @@ msgid ""
 "Repeat this process until all wires, except pin 3 of J1, are connected. Your "
 "board should look like the example below."
 msgstr ""
+"J1のピン3を除く全ての配線が接続されるまで、この作業を繰り返します。あなたの基"
+"板は以下の例のようになるでしょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:797
@@ -1774,6 +1985,11 @@ msgid ""
 "of J1 and pin 8 of U1. This is actually not necessary since we could do this "
 "with the ground plane. Notice how the colour of the track has changed."
 msgstr ""
+"PCBの他の銅面側での配線を行いましょう。トップツールバーにあるドラッグダウンメ"
+"ニューで 'Back' を選択します。 '配線とビアの追加' のアイコン  image:images/"
+"add_tracks.png[add_tracks_png] をクリックします。J1のピン3とU1のピン8の間の配"
+"線を行います。実際の所、グラウンドプレーンですませるのでこの配線は必要ではあ"
+"りません。配線の色が変わっていることに注意しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:810
@@ -1785,6 +2001,11 @@ msgid ""
 "select 'Place Via' or simply press the v key. This will take you to the\n"
 "bottom layer where you can complete your track.\n"
 msgstr ""
+"**レイヤーの変更によってピンAからピンBに行きましょう。** \n"
+"ビアを配置することで、配線をしている銅プレーンを変更することが可能です。\n"
+"上面の銅プレーンに配線している時に、右クリックして 'ビアの配置' を選択するか\n"
+"単に v キーを押します。\n"
+"これにより配線を終えた所で底面のレイヤーに行くことができます。\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:812
@@ -1800,6 +2021,10 @@ msgid ""
 "right toolbar.  Click on pin 3 of J1. The track itself and all pads "
 "connected to it should become highlighted."
 msgstr ""
+"特定の接続を検査したい場合には右ツールバーにある 'ネットをハイライト' のアイ"
+"コン image:images/net_highlight.png[net_highlight_png] をクリックします。J1の"
+"ピン3をクリックします。配線そのものとそれに接続されている全てのパッドがハイラ"
+"イトされるでしょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:825
@@ -1811,6 +2036,11 @@ msgid ""
 "'Pad in Zone' to 'Thermal relief' and 'Zone edges orient' to 'H,V' and click "
 "OK."
 msgstr ""
+"全てのGNDピンに接続されるグランドプレーンを作りましょう。右ツールバーにある "
+"'塗りつぶしゾーンの追加' のアイコン image:images/add_zone.png[add_zone_png] "
+"をクリックします。基板の周囲に長方形を描くつもりで、想定するコーナーの１つを"
+"クリックします。表示されたダイアログの中で、 'Pad in Zone' を 'Thermal "
+"relief' に、'Zone edges orient' を 'H,V' に設定してOKをクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:830
@@ -1820,6 +2050,10 @@ msgid ""
 "just traced. Click on 'Fill or Refill All Zones'. The board should fill in "
 "with green and look something like this:"
 msgstr ""
+"順番にそれぞれのコーナーでクリックして基板の外形を描きます。ダブルクリックで"
+"長方形を完成させます。描いた領域の内側で右クリックします。 'Fill or Refill "
+"All Zones' をクリックすると、基板は緑色に塗りつぶされ、このように見えるでしょ"
+"う。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:832
@@ -1838,6 +2072,11 @@ msgid ""
 "DRC'. There should be no errors. Click on 'List Unconnected'. There should "
 "be no unconnected track. Click OK to close the DRC Control dialogue."
 msgstr ""
+"トップツールバーにある 'デザインルールチェックの実行' のアイコン image:"
+"images/erc.png[erc_png] をクリックして、デザインルールチェックを実行します。 "
+"'DRCの起動' をクリックします。 エラーはないはずです。 '未結線情報のリスト' を"
+"クリックします。未接続はないはずです。OKをクリックしてDRCコントロールダイアロ"
+"グを閉じます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:841
@@ -1845,11 +2084,13 @@ msgid ""
 "Save your file by clicking on *File* -> **Save**. To admire your board in "
 "3D, click on *View* -> **3D Display**."
 msgstr ""
+"*ファイル* -> **Save** をクリックしてファイルを保存します。3Dで基板を閲覧する"
+"ために *表示* -> **3D Display** をクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:843
 msgid "You can drag your mouse around to rotate the PCB."
-msgstr ""
+msgstr "PCBの周囲でマウスをドラッグしてPCBを回転させることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:846
@@ -1857,12 +2098,14 @@ msgid ""
 "Your board is complete. To send it off to a manufacturer you will need to "
 "generate all Gerber files."
 msgstr ""
+"基板はこれで完成です。メーカーに送るためにはガーバーファイルを生成する必要が"
+"あります。"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:849
 #, no-wrap
 msgid "Generate Gerber files"
-msgstr ""
+msgstr "ガーバーファイルの生成"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:854
@@ -1871,6 +2114,8 @@ msgid ""
 "send them to your favourite PCB manufacturer, who will make the board for "
 "you."
 msgstr ""
+"PCBが完成したら、全てのレイヤーのガーバーファイルを生成して、基板を製造してく"
+"れるあなたのお好みのPCBメーカーに送ることができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:858
@@ -1878,6 +2123,8 @@ msgid ""
 "From KiCad, open the _PCBNew_ software tool and load your board file by "
 "clicking on the icon image:images/open_document.png[open_document_png]."
 msgstr ""
+"KiCadから _PCBNew_ ツールを開き、アイコン image:images/open_document.png"
+"[open_document_png] をクリックして基板のファイルを読み込みます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:861
@@ -1885,12 +2132,14 @@ msgid ""
 "Click on *File* -> **Plot**. Select 'Gerber' as the 'Plot Format' and select "
 "the folder in which to put all Gerber files."
 msgstr ""
+"*ファイル* -> **プロット** をクリックします。 '作図フォーマット' として 'ガー"
+"バー' を選択し、ガーバーファイルを保存するフォルダを選択します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:864
 msgid ""
 "These are the layers you need to select for making a typical 2-layer PCB:"
-msgstr ""
+msgstr "これらは典型的な2層PCBを製造するために選択する必要があるレイヤーです:"
 
 #. type: delimited block |
 #: Getting_Started_in_KiCad.adoc:874
@@ -1904,6 +2153,13 @@ msgid ""
 "|Mask_Cmp |Top Solder Resist |.GTS\n"
 "|Edges_Pcb |Edges |N/A\n"
 msgstr ""
+"|*KiCadレイヤー名* |*説明* |*ガーバーファイル拡張子*\n"
+"|Copper |Bottom Layer |.GBL\n"
+"|Component |Top Layer |.GTL\n"
+"|SilkS_Cmp |Top Overlay |.GTO\n"
+"|Mask_Cop |Bottom Solder Resist |.GBS\n"
+"|Mask_Cmp |Top Solder Resist |.GTS\n"
+"|Edges_Pcb |Edges |N/A\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:883
@@ -1915,6 +2171,12 @@ msgid ""
 "generated Gerber files one at a time. Note how they all get displayed one on "
 "top of the other."
 msgstr ""
+"'Plot' ボタンをクリックして実行します。全てのガーバーファイルを見るためには"
+"KiCadプロジェクト・マネージャ上で 'GerbView' アイコンをクリックします。ドラッ"
+"グダウンメニューで 'Layer 1' を選択します。 *ファイル* -> *ガーバーファイルを"
+"読み込む* をクリックするか、アイコン image:images/gerber_file.png"
+"[gerber_file_png] をクリックします。生成された全てのガーバーファイルを一つず"
+"つ読み込みます。それら全てが積み重なって表示されることに注意しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:886
@@ -1922,6 +2184,8 @@ msgid ""
 "Use the menu on the right to select/deselect which layer to show.  Carefully "
 "inspect each layer before sending them for production."
 msgstr ""
+"どのレイヤーを表示するかの選択/非選択を右側のメニューで行います。メーカーに送"
+"る前に注意深く全てのレイヤーを検査しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:889
@@ -1929,12 +2193,14 @@ msgid ""
 "To generate the drill file, from _PCBNew_ go again for the *File* -> *Plot* "
 "option. Default settings should be fine."
 msgstr ""
+"ドリルファイルを生成するには、 _PCBNew_ から *ファイル* -> *Plot* を再び行い"
+"ます。デフォルトの設定でよいでしょう。"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:892
 #, no-wrap
 msgid "Automatically route with FreeRouter"
-msgstr ""
+msgstr "FreeRouterによる自動配線"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:900
@@ -1945,6 +2211,11 @@ msgid ""
 "boring bits. Its work will only account for the unrouted traces. The "
 "autorouter we will use here is FreeRouter from __freerouting.net__."
 msgstr ""
+"基板の手配線は手早くて楽しいですが、大量のコンポーネントを含む基板の場合には"
+"自動配線を使いたくなるかもしれません。最初に重要な配線を手で行ってから、退屈"
+"な仕事をさせるために自動配線をセットするということを覚えておきましょう。その"
+"仕事は未配線についてのみ応えてくれます。ここで私達が使う自動配線は "
+"__freerouting.net__ のFreeRouterです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:908
@@ -1956,6 +2227,13 @@ msgid ""
 "Internet) and the FreeRouter main window will open.  Click on the 'Open Your "
 "Own Design' button, browse for the _dsn_ file and load it."
 msgstr ""
+"_PCBNew_ から *ファイル* -> *Export* -> *Specctra DNS* をクリックしてローカル"
+"に _.dsn_ ファイルを保存します。次に *Tools* -> **FreeRoute** をクリックしま"
+"す。いくつかオプションの付いたメニューが開くので、 'Launch FreeRouter with "
+"Java Web Start' ボタンをクリックします。しばらく待っていると(あなたはインター"
+"ネットに接続している必要があります)、FreeRouterのメインウィンドウが開きま"
+"す。 'Open Your Own Design' ボタンをクリックして _dsn_ ファイルを読み込ませま"
+"す。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:914
@@ -1965,6 +2243,10 @@ msgid ""
 "steps: first, routing the board and then optimising it. Full optimisation "
 "can take a long time, however you can stop it at any time need be."
 msgstr ""
+"FreeRouterは、手配線と自動配線の両方で、KiCadが現時点で持っていない特徴を持っ"
+"ています。FreeRouterは2つの主要なステップで操作します: 最初に基板に配線を行"
+"い、次にそれを最適化します。完全最適化には時間がかかるかもしれませんが、いつ"
+"でも必要なら停止することができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:922
@@ -1976,6 +2258,12 @@ msgid ""
 "rotate them better and try again. The goal in rotation and position of parts "
 "is to lower the number of crossed airlines in the ratsnest."
 msgstr ""
+"トップバーにある 'Autorouter' ボタンをクリックすることで自動配線を開始できま"
+"す。下部のバーは実行中の配線作業の情報を知らせてくれます。もしも 'Pass' カウ"
+"ントが30以上になったら、あなたの基板はおそらくこのルーターでは自動配線できな"
+"いでしょう。コンポーネント間隔をもっと広げたり良い向きに回転させてから再挑戦"
+"しましょう。部品の回転と位置決めのゴールは、ラッツネストの空中交差の数を少な"
+"くすることです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:927
@@ -1985,6 +2273,10 @@ msgid ""
 "the optimisation process. Unless you really need to stop, it is better to "
 "let FreeRouter finish its job."
 msgstr ""
+"マウスの左クリックにより、自動配線を停止して最適化プロセスを自動的に開始させ"
+"ることができます。もう一度左クリックすると、最適化プロセスが停止します。停止"
+"する必要がないのであれば、FreeRouterが仕事を終えるのに任せるのが良いでしょ"
+"う。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:931
@@ -1993,6 +2285,9 @@ msgid ""
 "board file with the _.ses_ extension. You do not really need to save the "
 "FreeRouter rules file."
 msgstr ""
+"*ファイル* -> *Export Specctra Session File* メニューをクリックして基板ファイ"
+"ルを _.ses_ 拡張子で保存します。FreeRouterルールファイルは保存する必要があり"
+"ません。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:936
@@ -2001,6 +2296,9 @@ msgid ""
 "the link *Tools* -> *FreeRoute* and then on the icon 'Back Import the "
 "Spectra Session (__.ses) File' and selecting your__.ses* file."
 msgstr ""
+"__PCBnew__ に戻りましょう。*Tools* -> *FreeRoute* をクリックして新たに配線さ"
+"れた基板をインポートして、アイコン 'Back Import the Spectra Session (__.ses) "
+"File' をクリックして、あなたの __.ses* ファイルを選択します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:941
@@ -2010,6 +2308,9 @@ msgid ""
 "tracks' icon image:images/add_tracks.png[Add Track icon] on the right "
 "toolbar."
 msgstr ""
+"もし気に入らない配線があれば、配線を削除して再配線できます。del キーと、右"
+"ツールバーにある 'Add tracks' アイコン image:images/add_tracks.png[Add Track "
+"icon] の配線ツールを使いましょう。"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:944
