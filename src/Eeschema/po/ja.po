@@ -50,9 +50,9 @@ msgid ""
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あな"
-"たは、GNU General Public License (http://www.gnu.org/licenses/gpl.html), "
-"version 3以降、あるいはクリエイティブ·コモンズライセンス(http://"
-"creativecommons.org/licenses/by/3.0/), version 3.0 以降のいずれかの条件の下"
+"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ), "
+"version 3以降、あるいはクリエイティブ·コモンズライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ), version 3.0 以降のいずれかの条件の下"
 "で、それを配布し、そして/または、それを変更することができます。"
 
 #. type: Plain text
