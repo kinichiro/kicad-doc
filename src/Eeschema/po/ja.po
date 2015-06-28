@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -7,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EeSchema-ja\n"
 "POT-Creation-Date: 2015-06-23 00:41+0900\n"
-"PO-Revision-Date: 2015-06-25 01:19+0900\n"
-"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"PO-Revision-Date: 2015-06-28 08:15+0900\n"
+"Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
+# 1st:0800_06282015
 #. type: Title =
 #: Eeschema.adoc:8
 #, no-wrap
@@ -27,18 +27,18 @@ msgstr "Eeschema"
 #: Eeschema.adoc:13
 #, no-wrap
 msgid "*Eeschema*\n"
-msgstr ""
+msgstr "*Eeschema*\n"
 
 #. type: Plain text
 #: Eeschema.adoc:15
 msgid "_Reference manual_"
-msgstr ""
+msgstr "_リファレンス・マニュアル_"
 
 #. type: Plain text
 #: Eeschema.adoc:18
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr ""
+msgstr "*著作権*\n"
 
 #. type: Plain text
 #: Eeschema.adoc:24
@@ -49,28 +49,33 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
+"このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あな"
+"たは、GNU General Public License (http://www.gnu.org/licenses/gpl.html), "
+"version 3以降、あるいはクリエイティブ·コモンズライセンス(http://"
+"creativecommons.org/licenses/by/3.0/), version 3.0 以降のいずれかの条件の下"
+"で、それを配布し、そして/または、それを変更することができます。"
 
 #. type: Plain text
 #: Eeschema.adoc:26
 msgid "All trademarks within this guide belong to their legitimate owners."
-msgstr ""
+msgstr "このガイドの中のすべての商標は、正当な所有者に帰属します。"
 
 #. type: Plain text
 #: Eeschema.adoc:29
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr ""
+msgstr "*貢献者*\n"
 
 #. type: Plain text
 #: Eeschema.adoc:31
 msgid "Jean-Pierre Charras, Fabrizio Tappero."
-msgstr ""
+msgstr "Jean-Pierre Charras, Fabrizio Tappero."
 
 #. type: Plain text
 #: Eeschema.adoc:34
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr ""
+msgstr "*フィードバック*\n"
 
 #. type: Plain text
 #: Eeschema.adoc:37
@@ -78,45 +83,48 @@ msgid ""
 "Please direct any comments or suggestions about this document to the kicad "
 "mailing list: https://launchpad.net/~kicad-developers[]"
 msgstr ""
+"このドキュメントに関するコメントや提案をKiCad メーリングリストに送ってくださ"
+"い: https://launchpad.net/~kicad-developers[]"
 
 #. type: Plain text
 #: Eeschema.adoc:40
 #, no-wrap
 msgid "*Acknowledgments*\n"
-msgstr ""
+msgstr "*謝辞*\n"
 
 #. type: Plain text
 #: Eeschema.adoc:42
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #. type: Plain text
 #: Eeschema.adoc:45
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr ""
+msgstr "*発行日とソフトウエアのバージョン*\n"
 
 #. type: Plain text
 #: Eeschema.adoc:47
 msgid "Published on may 30, 2015."
-msgstr ""
+msgstr "2015年5月30日 発行"
 
 #. type: Plain text
 #: Eeschema.adoc:50
 #, no-wrap
 msgid "*Note for Mac users*\n"
-msgstr ""
+msgstr "*Mac ユーザへの注記*\n"
 
 #. type: Plain text
 #: Eeschema.adoc:52
 msgid "The kicad support for the Apple OS X operating system is experimental."
 msgstr ""
+"Apple OS X のオペレーティングシステム用のKiCad のサポートは実験的なものです。"
 
 #. type: Title -
 #: Eeschema_automatic_classification_annotation.adoc:4
 #, no-wrap
 msgid "Automatic classification Annotation"
-msgstr ""
+msgstr "自動アノテーション"
 
 #. type: Title ~
 #: Eeschema_automatic_classification_annotation.adoc:7
@@ -127,7 +135,7 @@ msgstr ""
 #: Eeschema_schematic_creation_and_editing.adoc:139 Eeschema_viewlib.adoc:7
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:16
@@ -139,22 +147,30 @@ msgid ""
 "icon image:images/icons/annotate.png[icons_annotate_png].  Here you find its "
 "main window."
 msgstr ""
+"アノテーションツールを用いることで、回路図中のコンポーネントに自動的に参照番"
+"号（Ref番号）を割り当てることができます。複数部品からなるコンポーネントについ"
+"ては，使用パッケージ数が最小になるように部品番号を割り当てます。アノテーショ"
+"ンツールは、アイコン  image:images/icons/annotate.png[icons_annotate_png] を"
+"クリックすることで利用できます。以下にアノテーションツールのメインウインドウ"
+"を示します。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:18
 #: Eeschema_general_top_toolbar.adoc:116
 msgid "image:images/en/annotate-dialog.png[annotate-dialog_img]"
-msgstr ""
+msgstr "image:images/en/annotate-dialog.png[annotate-dialog_img]"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:20
 msgid "Various possibilities are available:"
-msgstr ""
+msgstr "次に示すように、さまざまな利用方法があります。:"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:22
 msgid "Annotate all the components (reset existing annotation option)"
 msgstr ""
+"全てのコンポーネントをアノテート （「既存のアノテーションをリセット（R）」を"
+"選択）"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:24
@@ -162,6 +178,8 @@ msgid ""
 "Annotate all the components, but do not swap any previously annotated multi-"
 "unit parts."
 msgstr ""
+"既存の複数部品からなるコンポーネント内の順番を入れ替えないで、全てのコンポー"
+"ネントをアノテート。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:26
@@ -169,16 +187,18 @@ msgid ""
 "Annotate new components only (i.e. those whose reference finishes by? like "
 "IC? ) (keep existing annotation option)."
 msgstr ""
+"新しく追加したコンポーネントのみをアノテート（「既存のアノテーションをキープ"
+"（k）」を選択）。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:27
 msgid "Annotate the whole hierarchy (use the entire schematic option)."
-msgstr ""
+msgstr "全階層をアノテート （「全ての回路図，階層を使用（e）」を選択）。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:28
 msgid "Annotate the current sheet only (use current page only option)."
-msgstr ""
+msgstr "現在のシートのみをアノテート （「現在のページのみ使用（p）」を選択）。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:35
@@ -190,6 +210,12 @@ msgid ""
 "you want to ensure that pin groupings are maintained, if you have already "
 "decided by yourself which subunits are best placed where."
 msgstr ""
+"''既存の複数部品からなるコンポーネント内の順番を入れ替えずにリセット''オプ"
+"ションは、複数部品からなるコンポーネント内の全ての関連性を保存します。これ"
+"は、もし U2A と U2B があったなら、それぞれ U1A と U1B へと番号が振られること"
+"はあっても、 U1A と U2A、または U2B と U2A とはならないということです。これ"
+"は、ピングループを確実に維持したい時、配置するのに都合がいいように定義した子"
+"部品がある時に役立ちます。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:38
@@ -197,6 +223,8 @@ msgid ""
 "The annotation order choice gives the method used to set the reference "
 "number inside each sheet of the hierarchy."
 msgstr ""
+"「アノテーションの順番」オプションでは、それぞれのシート内での番号の振り方を"
+"指定することができます。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:42
@@ -205,11 +233,15 @@ msgid ""
 "project (all sheets) and to the new components, if you don't want to modify "
 "previous annotations."
 msgstr ""
+"特別な場合を除いて、以前のアノテーション結果を修正しない場合は、プロジェクト"
+"全体（全てのシート）と新しいコンポーネントが自動アノテーションの対象となりま"
+"す。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:44
 msgid "The Annotation Choice gives the method used to calculate reference Id:"
 msgstr ""
+"「アノテーションの選択」オプションでは、参照番号の計算方法を指定します。:"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:48
@@ -218,6 +250,9 @@ msgid ""
 "each reference prefix). If a previous annotation exists, not yet in use "
 "numbers will be used."
 msgstr ""
+"回路図中の最初の空き番号から使用する：コンポーネントは（各部品記号につき）1か"
+"ら参照番号が振られます。前回のアノテーションをキープする場合は、使われていな"
+"い番号から利用されます。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:53
@@ -228,6 +263,10 @@ msgid ""
 "annotation tool uses the number 200 and more, and annotation for sheet 2 "
 "will start from the next free number."
 msgstr ""
+"シートのRef番号を*100から開始し、最初の空き番号から使用する：シート1では101か"
+"ら，シート2では201から参照番号が振られます。それぞれ の部品記号（UやR）が1 "
+"シート内で99 を超えてしまった場合は、継続して200以降の参照番号が利用され、"
+"シート2では200番台の最初の空き数字から 参照番号が振られます。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:55
@@ -235,18 +274,20 @@ msgid ""
 "Start to sheet number*1000 and use first free number. Annotation start from "
 "1001 for the sheet 1, from 2001 for the sheet 2."
 msgstr ""
+"シートのRef番号を*1000から開始し、最初の空き番号から使用する：シート1では1001"
+"から参照番号が振られ、シート2では2001から参照番号が振られていきます。"
 
 #. type: Title ~
 #: Eeschema_automatic_classification_annotation.adoc:58
 #, no-wrap
 msgid "Some examples"
-msgstr ""
+msgstr "例"
 
 #. type: Title ^
 #: Eeschema_automatic_classification_annotation.adoc:62
 #, no-wrap
 msgid "Annotation order"
-msgstr ""
+msgstr "アノテーション順序"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:65
@@ -254,17 +295,19 @@ msgid ""
 "image:images/2000000800003E6E0000154B2A71537E.png"
 "[2000000800003E6E0000154B2A71537E_png]"
 msgstr ""
+"image:images/2000000800003E6E0000154B2A71537E.png"
+"[2000000800003E6E0000154B2A71537E_png]"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:67
 msgid "This example shows 5 elements placed, but not annotated."
-msgstr ""
+msgstr "部品配置後、未だ参照番号が振られていない5つの素子を例とします。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:69
 msgid ""
 "After the annotation tool Is executed, the following result is obtained."
-msgstr ""
+msgstr "アノテーションを実行すると、以下のような結果が得られます。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:71
@@ -272,11 +315,13 @@ msgid ""
 "image:images/100000000000022C000000B9BA2E1A94.png"
 "[100000000000022C000000B9BA2E1A94_png]"
 msgstr ""
+"image:images/100000000000022C000000B9BA2E1A94.png"
+"[100000000000022C000000B9BA2E1A94_png]"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:73
 msgid "Sort by X position."
-msgstr ""
+msgstr "コンポーネントをX位置でソートした場合："
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:75
@@ -284,11 +329,13 @@ msgid ""
 "image:images/100000000000023D000000BC05569580.png"
 "[100000000000023D000000BC05569580_png]"
 msgstr ""
+"image:images/100000000000023D000000BC05569580.png"
+"[100000000000023D000000BC05569580_png]"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:77
 msgid "Sort by Y position."
-msgstr ""
+msgstr "コンポーネントをY位置でソートした場合。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:80
@@ -296,12 +343,14 @@ msgid ""
 "You can see that four 74LS00 gates were distributed in U1 package, and that "
 "the fifth 74LS00 has been assigned to the next, U2."
 msgstr ""
+"これらアノテーションにより、74LS00 の４つのゲートが U1 パッケージにまとめら"
+"れ、５番目のゲートが次の U2 へ分類されました。"
 
 #. type: Title ^
 #: Eeschema_automatic_classification_annotation.adoc:83
 #, no-wrap
 msgid "Annotation Choice"
-msgstr ""
+msgstr "アノテーションの選択"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:87
@@ -309,6 +358,8 @@ msgid ""
 "Here is an annotation in sheet 2 where the option use first free number in "
 "schematic was set."
 msgstr ""
+"下記の図は、部品をシート2に配置し、「回路図中の最初の空き番号から使用する」オ"
+"プションを利用してアノテーションを行ったものです。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:89
@@ -316,6 +367,8 @@ msgid ""
 "image:images/100000000000014300000137E6B02665.png"
 "[100000000000014300000137E6B02665_png]"
 msgstr ""
+"image:images/100000000000014300000137E6B02665.png"
+"[100000000000014300000137E6B02665_png]"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:92
@@ -323,6 +376,8 @@ msgid ""
 "Option start to sheet number*100 and use first free number give the "
 "following result."
 msgstr ""
+"「シートのRef番号を*100 から開始し、最初の空き番号から使用する」オプションを"
+"利用しアノテーションを行うと、下記のようになります。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:94
@@ -330,6 +385,8 @@ msgid ""
 "image:images/1000000000000138000001495A2E0270.png"
 "[1000000000000138000001495A2E0270_png]"
 msgstr ""
+"image:images/1000000000000138000001495A2E0270.png"
+"[1000000000000138000001495A2E0270_png]"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:97
@@ -337,6 +394,8 @@ msgid ""
 "The option start to sheet number*1000 and use first free number gives the "
 "following result."
 msgstr ""
+"「シートのRef番号を*1000 から開始し、最初の空き番号から使用する」オプションを"
+"利用した場合は、下記のようになります。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:98
@@ -344,18 +403,20 @@ msgid ""
 "image:images/1000000000000117000001359D8B03B1.png"
 "[1000000000000117000001359D8B03B1_png]"
 msgstr ""
+"image:images/1000000000000117000001359D8B03B1.png"
+"[1000000000000117000001359D8B03B1_png]"
 
 #. type: Title -
 #: Eeschema_component_library_editor.adoc:4
 #, no-wrap
 msgid "Component Library Editor"
-msgstr ""
+msgstr "コンポーネント・ライブラリ・エディタ"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:8
 #, no-wrap
 msgid "General Information About Component Libraries"
-msgstr ""
+msgstr "コンポーネント・ライブラリに関する一般情報"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:18
@@ -368,12 +429,19 @@ msgid ""
 "components to files, and import components from files. The library editing "
 "tool provides a simple way to manage component library files."
 msgstr ""
+"コンポーネントは、図形表現、電気的接続、フィールド定義を含んだ図面要素です。"
+"回路図で使用するコンポーネントはすべてコンポーネントライブラリに保存されてい"
+"ます。Eeschema は、ライブラリの作成、ライブラリへのコンポーネントの追加／削"
+"除、ライブラリ間でのコンポーネントの移動、ファイルへのコンポーネントのエクス"
+"ポート、ファイルからのコンポーネントのインポートを行うためのコンポーネントラ"
+"イブラリ編集ツールを提供します。コンポーネントライブラリ編集ツールはコンポー"
+"ネントライブラリファイルを管理するシンプルな方法を提供します。"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:21
 #, no-wrap
 msgid "Component Library Overview"
-msgstr ""
+msgstr "コンポーネント・ライブラリの概要"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:25
@@ -381,18 +449,20 @@ msgid ""
 "A component library is composed of one or more components. Generally the "
 "components are logically grouped by function, type, and/or manufacturer."
 msgstr ""
+"コンポーネントライブラリは一つ以上のコンポーネントから構成されます。一般的"
+"に、コンポーネントは機能、種類、または製造者によってグループ分けされます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:27
 msgid "A component is composed of:"
-msgstr ""
+msgstr "コンポーネントは以下のものから構成されます。:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:30
 msgid ""
 "Graphical items (lines, circles, arcs, text, etc ) that provide the symbolic "
 "definition."
-msgstr ""
+msgstr "グラフィカルな型式(design)(ライン、円、テキストフィールド)。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:33
@@ -401,6 +471,9 @@ msgid ""
 "active, etc ) and electrical properties (input, output, bidirectional, etc.) "
 "used by the E lectrical R ules C heck (ERC) tool."
 msgstr ""
+"ピンは、図形的なプロパティ（線（通常のピン）、クロックピン、反転ピン、Low レ"
+"ベルアクティブピンなど）と ERC(Electrical Rules Check) ツールが使用する電気的"
+"なプロパティ（入力、出力、双方向など）の両方を持っています。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:35
@@ -408,6 +481,8 @@ msgid ""
 "Fields such as references, values, corresponding footprint names for PCB "
 "design, etc."
 msgstr ""
+"リファレンス、値、PCB設計用の対応するモジュール名などのようなテキストフィール"
+"ド。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:38
@@ -416,16 +491,19 @@ msgid ""
 "derivatives such as 74LS00, 74HC00, and 7437. All of these aliases share the "
 "same library component."
 msgstr ""
+"エイリアスは、7400のような通常のコンポーネントと共に、74LS00、74HC00、7437の"
+"ようなその全ての派生品で使用されます。これら全てのエイリアスは同じライブラリ"
+"コンポーネントを共有します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:40
 msgid "Proper component designing requires:"
-msgstr ""
+msgstr "適切なコンポーネント設計には以下のことが要求されます。:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:42
 msgid "Defining if the component is made up of one or more units."
-msgstr ""
+msgstr "コンポーネントは一つ以上のパーツで構成されるように定義する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:44
@@ -433,13 +511,15 @@ msgid ""
 "Defining if the component has an alternate body style also known as a De "
 "Morgan representation."
 msgstr ""
+"コンポーネントがド・モルガン表現として知られる別の図形表現を持つように定義す"
+"る。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:46
 msgid ""
 "Designing it 's symbolic representation using lines, rectangles, circles, "
 "polygons and text."
-msgstr ""
+msgstr "ライン、矩形、円、ポリゴンおよびテキストを使用して設計する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:49
@@ -447,6 +527,8 @@ msgid ""
 "Adding pins by carefully defining each pin's graphical elements, name, "
 "number, and electrical property (input, output, tri-state, power port, etc.)."
 msgstr ""
+"グラフィック要素、名前、ピン数、電気的プロパティ(入力、出力、３ステート、電源"
+"ポートなど)を慎重に定義して、ピンを追加する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:52
@@ -454,6 +536,9 @@ msgid ""
 "Adding an alias if other components have the same symbol and pin out or "
 "removing one if the component has been created from an other component."
 msgstr ""
+"他のコンポーネントの型式とピン配置が同じである場合、エイリアスを追加する。あ"
+"るいは他のコンポーネントからコンポーネントを作成した場合、エイリアスを削除す"
+"る。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:54
@@ -461,6 +546,8 @@ msgid ""
 "Adding optional fields such the name of the footprint used by the PCB design "
 "software and/or defining their visibility."
 msgstr ""
+"PCB 設計ソフトウェアが使用するフットプリント名のように補助的なフィールドを追"
+"加し、それらの可視性を定義する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:56
@@ -468,17 +555,18 @@ msgid ""
 "Documenting the component by adding a description string and links to data "
 "sheets, etc."
 msgstr ""
+"テキストやデータシートのwww リンクなどを付加してコンポーネントを記録する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:57
 msgid "Saving it in the desired library."
-msgstr ""
+msgstr "適切な(desired)ライブラリにそれを保存する。"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:60
 #, no-wrap
 msgid "Component Library Editor Overview"
-msgstr ""
+msgstr "コンポーネント・ライブラリ・エディタの概要"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:66
@@ -488,6 +576,10 @@ msgid ""
 "editing area. Not all commands are available on the tool bars but can be "
 "accessed using the menus."
 msgstr ""
+"コンポーネントライブラリエディタのメインウィンドウを以下に示します。よく使う"
+"機能を手早く使えるようにするための３つのツールバーとコンポーネントの閲覧／編"
+"集エリアで構成されます。ツールバーからは全てのコマンドを使うことができません"
+"が、メニューからは使用できます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:68
@@ -495,12 +587,14 @@ msgid ""
 "image:images/100000000000049F000002C20FF41347.png"
 "[100000000000049F000002C20FF41347_png]"
 msgstr ""
+"image:images/100000000000049F000002C20FF41347.png"
+"[100000000000049F000002C20FF41347_png]"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:71
 #, no-wrap
 msgid "Main Toolbar"
-msgstr ""
+msgstr "メイン・ツールバー"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:76
@@ -509,6 +603,9 @@ msgid ""
 "consists of the library management tools, undo/redo commands, zoom commands, "
 "and component properties dialogs."
 msgstr ""
+"基本的にメインウィンドウの最上部にあるメインツールバー（以下に示します）は、"
+"ライブラリ管理ツール、取り消し／やり直しコマンド、ズームコマンドとコンポーネ"
+"ントプロパティダイアログから成ります。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:78
@@ -516,6 +613,8 @@ msgid ""
 "image:images/100000000000040000000027C376CA0E.png"
 "[100000000000040000000027C376CA0E_png]"
 msgstr ""
+"image:images/100000000000040000000027C376CA0E.png"
+"[100000000000040000000027C376CA0E_png]"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:85
@@ -526,6 +625,10 @@ msgid ""
 "library is currently selected or no changes to the currently selected\n"
 "library have been made.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AC05D217E.png[100002010000001A0000001AC05D217E_png]\n"
+"|現在のライブラリをハードディスクに保存する。（ライブラリが\n"
+"選択されていないか、選択中のライブラリに変更がない場合、\n"
+"このボタンは無効です）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:88
@@ -534,6 +637,8 @@ msgid ""
 "|image:images/100002010000001A0000001ACED60702.png[100002010000001A0000001ACED60702_png]\n"
 "|Select the library to edit.\n"
 msgstr ""
+"|image:images/100002010000001A0000001ACED60702.png[100002010000001A0000001ACED60702_png]\n"
+"|現在のライブラリを選択する。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:92
@@ -543,6 +648,9 @@ msgid ""
 "|Delete a component from the currently selected library or any library\n"
 "defined by the project if no library is currently selected.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AB1BB0D48.png[100002010000001A0000001AB1BB0D48_png]\n"
+"|現在のライブラリ（ライブラリが選択されていない場合にはプロジェクトで\n"
+"定義されたライブラリ）内のコンポーネントを削除する。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:96
@@ -552,6 +660,9 @@ msgid ""
 "|Open the component library browser to select the library and component\n"
 "to edit.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AE10E5B9A.png[100002010000001A0000001AE10E5B9A_png]\n"
+"|（ライブラリと編集するコンポーネントを選択するための）\n"
+"コンポーネントライブラリブラウザを開く。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:99
@@ -560,6 +671,8 @@ msgid ""
 "|image:images/100002010000001A0000001AAE4A6891.png[100002010000001A0000001AAE4A6891_png]\n"
 "|Create a new component.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AAE4A6891.png[100002010000001A0000001AAE4A6891_png]\n"
+"|新規コンポーネントを作成する。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:102
@@ -568,6 +681,8 @@ msgid ""
 "|image:images/100002010000001A0000001AE03E3808.png[100002010000001A0000001AE03E3808_png]\n"
 "|Load component from currently selected library for editing.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AE03E3808.png[100002010000001A0000001AE03E3808_png]\n"
+"|現在のライブラリから編集用にコンポーネントを読み込む。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:105
@@ -576,6 +691,8 @@ msgid ""
 "|image:images/100002010000001A0000001A2D043F72.png[100002010000001A0000001A2D043F72_png]\n"
 "|Create a new component from the currently loaded component.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A2D043F72.png[100002010000001A0000001A2D043F72_png]\n"
+"|読み込んだ現在のコンポーネントから新規コンポーネントを作成する。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:109
@@ -585,6 +702,9 @@ msgid ""
 "|Save the current component changes in memory. The library file is not\n"
 "changed.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A7C9F9F5F.png[100002010000001A0000001A7C9F9F5F_png]\n"
+"|現在のコンポーネントに対する変更をメモリにのみ保存する。\n"
+"（ディスク上のライブラリファイルは変更されません）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:112
@@ -593,6 +713,8 @@ msgid ""
 "|image:images/100002010000001A0000001A34D5E878.png[100002010000001A0000001A34D5E878_png]\n"
 "|Import one component from a file.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A34D5E878.png[100002010000001A0000001A34D5E878_png]\n"
+"|コンポーネントを１つインポートする。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:115
@@ -602,6 +724,8 @@ msgid ""
 "|image:images/100002010000001A0000001A4F9201B5.png[100002010000001A0000001A4F9201B5_png]\n"
 "|Export the current component to a file.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A4F9201B5.png[100002010000001A0000001A4F9201B5_png]\n"
+"|現在のコンポーネントをファイルへエクスポートする。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:119
@@ -611,6 +735,9 @@ msgid ""
 "|Create a new library file containing the current component. Note: new\n"
 "libraries are not automatically added to the project.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AA50256B5.png[100002010000001A0000001AA50256B5_png]\n"
+"|現在のコンポーネントを使用して新規ライブラリファイルを作成する。（注: 新しい\n"
+"ライブラリは自動的にプロジェクトへ追加されません）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:122
@@ -619,6 +746,8 @@ msgid ""
 "|image:images/100002010000001A0000001AB26950B9.png[100002010000001A0000001AB26950B9_png]\n"
 "|Undo last edit.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AB26950B9.png[100002010000001A0000001AB26950B9_png]\n"
+"|元に戻す。(Undo)\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:125
@@ -627,6 +756,8 @@ msgid ""
 "|image:images/100002010000001A0000001AD04E6418.png[100002010000001A0000001AD04E6418_png]\n"
 "|Redo last undo.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AD04E6418.png[100002010000001A0000001AD04E6418_png]\n"
+"|やり直す。(Redo)\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:128
@@ -635,6 +766,8 @@ msgid ""
 "|image:images/100002010000001A0000001A80C75DC5.png[100002010000001A0000001A80C75DC5_png]\n"
 "|Edit the current component properties.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A80C75DC5.png[100002010000001A0000001A80C75DC5_png]\n"
+"|コンポーネントのプロパティを編集する。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:131
@@ -643,6 +776,8 @@ msgid ""
 "|image:images/100002010000001A0000001A65CFC162.png[100002010000001A0000001A65CFC162_png]\n"
 "|Edit the fields of current component.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A65CFC162.png[100002010000001A0000001A65CFC162_png]\n"
+"|コンポーネントのフィールドを編集する。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:134
@@ -651,30 +786,32 @@ msgid ""
 "|image:images/100002010000001A0000001A98E4437C.png[100002010000001A0000001A98E4437C_png]\n"
 "|Test the current component for design errors.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A98E4437C.png[100002010000001A0000001A98E4437C_png]\n"
+"|コンポーネントをテストする。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:136
 #, no-wrap
 msgid "|image:images/icons/zoom_in.png[]|Zoom in.\n"
-msgstr ""
+msgstr "|image:images/icons/zoom_in.png[]|ズームイン。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:138
 #, no-wrap
 msgid "|image:images/icons/zoom_out.png[]|Zoom out.\n"
-msgstr ""
+msgstr "|image:images/icons/zoom_out.png[]|ズームアウト。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:140
 #, no-wrap
 msgid "|image:images/icons/zoom_redraw.png[]|Refresh display.\n"
-msgstr ""
+msgstr "|image:images/icons/zoom_redraw.png[]|画面の再描画。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:142
 #, no-wrap
 msgid "|image:images/icons/zoom_fit_in_page.png[]|Zoom to fit component in display.\n"
-msgstr ""
+msgstr "|image:images/icons/zoom_fit_in_page.png[]|コンポーネントの大きさを画面に合わせる。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:146
@@ -684,6 +821,9 @@ msgid ""
 "|Select the normal body style. The button is disabled if the current\n"
 "component does not have an alternate body style.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A93F5F714.png[100002010000001A0000001A93F5F714_png]\n"
+"|通常の図形表現を表示する。（コンポーネントが別の図形表現を\n"
+"持っていない場合、このボタンは無効です）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:150
@@ -693,6 +833,9 @@ msgid ""
 "|Select the alternate body style. The button is disabled if the current\n"
 "component does not have an alternate body style.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A67B02101.png[100002010000001A0000001A67B02101_png]\n"
+"|別の図形表現を表示する。（コンポーネントが別の図形表現を\n"
+"持っていない場合、このボタンは無効です）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:154
@@ -702,6 +845,9 @@ msgid ""
 "|Show the associated documentation. The button will be disabled if no\n"
 "documentation is defined for the current component.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A8C78C95C.png[100002010000001A0000001A8C78C95C_png]\n"
+"|関連ドキュメントを表示する。(関連ドキュメントが定義されていない場合、\n"
+"このボタンは無効です）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:158
@@ -711,6 +857,9 @@ msgid ""
 "|Select the unit to display. The drop down control will be disable if\n"
 "the current component is not derived from multiple units.\n"
 msgstr ""
+"|image:images/100000000000007A0000002651F79CA5.png[100000000000007A0000002651F79CA5_png]\n"
+"|表示するパーツを選択する。（多パーツコンポーネントではない場合、\n"
+"ドロップダウンは無効です）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:162
@@ -720,6 +869,9 @@ msgid ""
 "|Selection the alias. The drop down control will be disabled if the\n"
 "current component does not have any aliases.\n"
 msgstr ""
+"|image:images/100000000000007A00000026D48F1971.png[100000000000007A00000026D48F1971_png]\n"
+"|エイリアスを選択する。（エイリアスを持っていない場合、\n"
+"ドロップダウンは無効です）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:166
@@ -729,12 +881,15 @@ msgid ""
 "|Pin editing: independent editing for pin shape and position for\n"
 "components with multiple units and alternate symbols.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A2096B8A2.png[100002010000001A0000001A2096B8A2_png]\n"
+"|ピンを編集する：多パーツコンポーネントおよび別の図形表現を持つ場合、\n"
+"ピンの形状と位置は個別に編集\n"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:170
 #, no-wrap
 msgid "Element Toolbar"
-msgstr ""
+msgstr "エレメント・ツールバー"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:175
@@ -743,6 +898,9 @@ msgid ""
 "window allows you to place all of the elements required to design a "
 "component. The table below defines each tool bar button."
 msgstr ""
+"基本的にメインウィンドウの右側に位置する縦のツールバーで、コンポーネント設計"
+"で必要とされる全ての要素を画面へ配置できます。ツールバーの各ボタンの定義は下"
+"表のとおりです。"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:185
@@ -756,6 +914,12 @@ msgid ""
 "select tool will open the properties dialog for the object under the\n"
 "cursor.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A34B52176.png[100002010000001A0000001A34B52176_png]\n"
+"|選択ツール。（右クリックでカーソルの下にコンテキストメニューが開きます。\n"
+"左クリックでカーソルのあるオブジェクトのアトリビュートが\n"
+"メインウィンドウの下にあるメッセージパネルへ表示されます。\n"
+"左ダブルクリックでカーソルのあるオブジェクトのプロパティ\n"
+"ダイアログが開きます。）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:188
@@ -764,6 +928,8 @@ msgid ""
 "|image:images/100002010000001A0000001AF33889E5.png[100002010000001A0000001AF33889E5_png]\n"
 "|Pin tool. Left click to add a new pin.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AF33889E5.png[100002010000001A0000001AF33889E5_png]\n"
+"|ピンツール。（左クリックで新しいピンを追加します）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:191
@@ -772,6 +938,8 @@ msgid ""
 "|image:images/100002010000001A0000001A65CFC162.png[100002010000001A0000001A65CFC162_png]\n"
 "|Graphical text tool. Left click to add a new graphical text item.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A65CFC162.png[100002010000001A0000001A65CFC162_png]\n"
+"|グラフィックテキストツール。（左クリックで新しいグラフィックテキストを追加します）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:196
@@ -782,6 +950,9 @@ msgid ""
 "graphical rectangle. Left click again to place the opposite corner of\n"
 "the rectangle.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A0A4070B9.png[100002010000001A0000001A0A4070B9_png]\n"
+"|矩形ツール。（左クリックで矩形の最初のコーナーから描画し始めます。\n"
+"次の左クリックで矩形の対頂点のコーナーが置かれます。）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:200
@@ -791,6 +962,9 @@ msgid ""
 "|Circle tool. Left click to begin drawing a new graphical circle from\n"
 "the center. Left click again to define the radius of the cicle.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A4D79A704.png[100002010000001A0000001A4D79A704_png]\n"
+"|円ツール。（左クリックで中心から円の描画を始めます。\n"
+"次の左クリックで円の半径が決まります。）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:205
@@ -801,6 +975,10 @@ msgid ""
 "center. Left click again to define the first arc end point. Left click\n"
 "again to defint the second arc end point.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A5735E244.png[100002010000001A0000001A5735E244_png]\n"
+"|弧ツール。（左クリックで中心から弧の描画を始めます。\n"
+"次の左クリックで弧の最初の終点が決まります。\n"
+"更に次の左クリックで弧の二つ目の終点を決めます。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:210
@@ -811,6 +989,10 @@ msgid ""
 "in the current component. Left click for each addition polygon line.\n"
 "Left double click to complete the polygon.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A9D16E38B.png[100002010000001A0000001A9D16E38B_png]\n"
+"|多角形ツール。（左クリックで多角形の描画を始めます。\n"
+"左クリックする毎に多角形の辺が追加されます。\n"
+"左ダブルクリックで多角形の描画を終了します。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:213
@@ -819,6 +1001,8 @@ msgid ""
 "|image:images/100002010000001A0000001A9D745AFD.png[100002010000001A0000001A9D745AFD_png]\n"
 "|Anchor tool. Left click to set the anchor position of the component.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A9D745AFD.png[100002010000001A0000001A9D745AFD_png]\n"
+"|アンカーツール。（左クリックでコンポーネントのアンカー位置がセットされます。）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:216
@@ -827,6 +1011,8 @@ msgid ""
 "|image:images/100002010000001A0000001A34D5E878.png[100002010000001A0000001A34D5E878_png]\n"
 "|Import a component from a file.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A34D5E878.png[100002010000001A0000001A34D5E878_png]\n"
+"|コンポーネントのインポート。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:222
@@ -835,12 +1021,14 @@ msgid ""
 "|image:images/100002010000001A0000001AB1BB0D48.png[100002010000001A0000001AB1BB0D48_png]\n"
 "|Delete tool. Left click to delete an object from the current component.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AB1BB0D48.png[100002010000001A0000001AB1BB0D48_png]\n"
+"|削除ツール。（左クリックで現在のコンポーネントからオブジェクトを削除します）\n"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:226
 #, no-wrap
 msgid "Options Toolbar"
-msgstr ""
+msgstr "オプション・ツールバー"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:231
@@ -849,6 +1037,9 @@ msgid ""
 "window allows you to set some of the editor drawing options. The table below "
 "defines each tool bar button."
 msgstr ""
+"基本的にメインウィンドウの左側に位置する縦のツールバーで、エディタの描画オプ"
+"ションのいくつかを設定できます。ツールバーの各ボタンの定義は下表のとおりで"
+"す。"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:236
@@ -857,6 +1048,8 @@ msgid ""
 "|image:images/100002010000001A0000001A1103DCA9.png[100002010000001A0000001A1103DCA9_png]\n"
 "|Toggle grid visibility on and off.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A1103DCA9.png[100002010000001A0000001A1103DCA9_png]\n"
+"|グリッド表示の切替。（グリッドの表示／非表示が交互に切り替わります）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:239
@@ -865,6 +1058,8 @@ msgid ""
 "|image:images/100002010000001A0000001AED35FAEC.png[100002010000001A0000001AED35FAEC_png]\n"
 "|Set units to inches.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AED35FAEC.png[100002010000001A0000001AED35FAEC_png]\n"
+"|単位をインチに設定。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:242
@@ -873,6 +1068,8 @@ msgid ""
 "|image:images/100002010000001A0000001AD542C4CF.png[100002010000001A0000001AD542C4CF_png]\n"
 "|Set units to millimeters.\n"
 msgstr ""
+"|image:images/100002010000001A0000001AD542C4CF.png[100002010000001A0000001AD542C4CF_png]\n"
+"|単位を mm に設定。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:245
@@ -881,12 +1078,14 @@ msgid ""
 "|image:images/100002010000001A0000001A4A78FB18.png[100002010000001A0000001A4A78FB18_png]\n"
 "|Toggle full screen cursor on and off.\n"
 msgstr ""
+"|image:images/100002010000001A0000001A4A78FB18.png[100002010000001A0000001A4A78FB18_png]\n"
+"|フルスクリーンカーソルの切替。（カーソルが通常／フルスクリーンと交互に切り替わります）\n"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:249
 #, no-wrap
 msgid "Library Selection and Maintenance"
-msgstr ""
+msgstr "ライブラリの選択および保守"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:256
@@ -898,6 +1097,12 @@ msgid ""
 "saved, it will be put in this library. The library name of component is the "
 "contents of it's value field."
 msgstr ""
+"アイコン image:images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png] で現在のライブラリを選択することが可能"
+"です。それにより使用可能なすべてのライブラリを表示し、ライブラリを選択するこ"
+"とができます。コンポーネントを読み込んだり保存する場合、このライブラリに対し"
+"て行われます。コンポーネントのライブラリ名はそのフィールド<<Value>>でもありま"
+"す。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:258
@@ -907,12 +1112,14 @@ msgstr ""
 #: Eeschema_schematic_creation_and_editing.adoc:250
 #, no-wrap
 msgid "*Note:*\n"
-msgstr ""
+msgstr "*注:*\n"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:260
 msgid "You must load a library in Eeschema, in order to access it's contents."
 msgstr ""
+"ライブラリの内容を使用するためには、Eeschema でライブラリを読み込まなければな"
+"りません。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:264
@@ -921,6 +1128,9 @@ msgid ""
 "clicking on the image:images/100002010000001A0000001AC05D217E.png"
 "[100002010000001A0000001AC05D217E_png] on the main tool bar."
 msgstr ""
+"現在のライブラリの内容は変更後にメインツールバーの image:"
+"images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png] をクリックして保存することが可能です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:266
@@ -929,12 +1139,15 @@ msgid ""
 "images/100002010000001A0000001AB1BB0D48.png"
 "[100002010000001A0000001AB1BB0D48_png]."
 msgstr ""
+"image:images/100002010000001A0000001AB1BB0D48.png"
+"[100002010000001A0000001AB1BB0D48_png] をクリックしてコンポーネントをライブラ"
+"リから削除することが可能です。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:269
 #, no-wrap
 msgid "Select and Save a Component"
-msgstr ""
+msgstr "コンポーネントの選択および保存"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:275
@@ -944,12 +1157,17 @@ msgid ""
 "undone easily. A component may be loaded from a local library or from an "
 "existing component."
 msgstr ""
+"コンポーネントの編集時には、実際にライブラリ内のコンポーネントに対して作業し"
+"ているのではなく、ローカルのメモリ内にあるそのコピーに対して作業しています。"
+"従って、どのような編集作業も容易に元に戻すことが可能です。また、コンポーネン"
+"トはローカルのライブラリから、あるいは既存のコンポーネントから作成することも"
+"できます。"
 
 #. type: Title +
 #: Eeschema_component_library_editor.adoc:278
 #, no-wrap
 msgid "Component Selection"
-msgstr ""
+msgstr "コンポーネントの選択"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:284
@@ -959,6 +1177,10 @@ msgid ""
 "list of the available components that you can select and load from the "
 "currently selected library."
 msgstr ""
+"メインツールバーのアイコン image:images/100002010000001A0000001AE03E3808.png"
+"[100002010000001A0000001AE03E3808_png] をクリックすると、利用可能なコンポーネ"
+"ントのリストが表示されます。そのコンポーネントは選択および読み込みが可能で"
+"す。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:294
@@ -971,6 +1193,14 @@ msgid ""
 "[100000000000007A00000026D48F1971_png].  The first item in the alias list is "
 "the root name of the component."
 msgstr ""
+"コンポーネントのエイリアスを選択すると、選択したエイリアスに代わって実際に読"
+"み込んだコンポーネントの名前が常にウィンドウのタイトルに表示されます。（メイ"
+"ンのコンポーネントが読み込まれます。）コンポーネントのエイリアスのリストは常"
+"に各コンポーネントと共に読み込まれ、このため編集することができます。 image:"
+"images/100000000000007A00000026D48F1971.png"
+"[100000000000007A00000026D48F1971_png] から現在のコンポーネントのエイリアスを"
+"選択することで、新しいコンポーネントを作ることができます。リストの最初の項目"
+"はルートコンポーネントです。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:302
@@ -981,12 +1211,17 @@ msgid ""
 "images/100002010000001A0000001A4F9201B5.png"
 "[100002010000001A0000001A4F9201B5_png]."
 msgstr ""
+"もう一つの方法として、エクスポートコマンド image:"
+"images/100002010000001A0000001A4F9201B5.png"
+"[100002010000001A0000001A4F9201B5_png] で前回保存したコンポーネントを、イン"
+"ポートコマンド image:images/100002010000001A0000001A34D5E878.png"
+"[100002010000001A0000001A34D5E878_png] により読み込むことができます。"
 
 #. type: Title +
 #: Eeschema_component_library_editor.adoc:305
 #, no-wrap
 msgid "Save a Component"
-msgstr ""
+msgstr "コンポーネントの保存"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:309
@@ -994,6 +1229,8 @@ msgid ""
 "After modification, a component can be saved in the current library or in a "
 "new library or exported to a backup file."
 msgstr ""
+"変更後、コンポーネントを現在のライブラリかまたは新規ライブラリに保存すること"
+"が可能です。あるいはバックアップファイルにエクスポートことが可能です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:315
@@ -1004,6 +1241,10 @@ msgid ""
 "only saves the component changes in the local memory. This way, you can make "
 "up your mind before you save the library."
 msgstr ""
+"現在のライブラリに保存するには、更新コマンド image:"
+"images/100002010000001A0000001A7C9F9F5F.png"
+"[100002010000001A0000001A7C9F9F5F_png] を使用します。更新コマンドはローカルメ"
+"モリ内にコンポーネントを保存するだけであるということを覚えておいて下さい。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:320
@@ -1013,6 +1254,10 @@ msgid ""
 "[100002010000001A0000001AC05D217E_png] which will overwrite the existing "
 "library file with the component changes."
 msgstr ""
+"コンポーネントを永続的に保存したい場合は、保存アイコン image:"
+"images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png] を使用しなければなりません。それはロー"
+"カルのハードディスク上のライブラリファイルに変更を加えます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:325
@@ -1022,11 +1267,15 @@ msgid ""
 "[100002010000001A0000001AA50256B5_png].  You will be asked to enter a new "
 "library name."
 msgstr ""
+"このコンポーネントで新規ライブラリを作成したい場合、NewLib コマンド image:"
+"images/100002010000001A0000001AA50256B5.png"
+"[100002010000001A0000001AA50256B5_png] を使用して下さい。そのとき、新規ライブ"
+"ラリ名が必要となります。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:329
 msgid "New libraries are not automatically added to the current project."
-msgstr ""
+msgstr "新しいライブラリは自動的に現在のプロジェクトへ追加されません。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:332
@@ -1034,11 +1283,14 @@ msgid ""
 "You must add any new library you wish to use in a schematic to the list of "
 "project libraries in Eeschema using the component configuration dialog."
 msgstr ""
+"回路図で使用したい全ての新しいライブラリを Eeschema のコンポーネント・コン"
+"フィグレーション・ダイアログを用いてプロジェクトライブラリのリストへ追加しな"
+"ければなりません。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:334 Eeschema_main_top_menu.adoc:64
 msgid "image:images/en/libsettings.png[Library settings]"
-msgstr ""
+msgstr "image:images/en/libsettings.png[Library settings]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:342
@@ -1050,12 +1302,18 @@ msgid ""
 "into another library. In fact the create new library command and the export "
 "command are basically identical."
 msgstr ""
+"エクスポートコマンド image:images/100002010000001A0000001A4F9201B5.png"
+"[100002010000001A0000001A4F9201B5_png] を使用して、そのコンポーネントだけを含"
+"むファイルを作成することが可能です。このファイルはコンポーネントを一つだけ含"
+"む標準ライブラリファイルになります。また、このファイルは別のライブラリへコン"
+"ポーネントをインポートするのに使うことができます。実際、NewLib コマンドとエク"
+"スポートコマンドは基本的に同じものです。"
 
 #. type: Title +
 #: Eeschema_component_library_editor.adoc:345
 #, no-wrap
 msgid "Transfer Components to Another Library"
-msgstr ""
+msgstr "ライブラリ間のコンポーネントの移動"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:349
@@ -1063,6 +1321,8 @@ msgid ""
 "You can very easily copy a component from a source library into a "
 "destination library using the following commands:"
 msgstr ""
+"コピー元のライブラリからコピー先のライブラリに簡単にコンポーネントをコピーす"
+"ることが可能です。それには次のコマンドを使用します:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:352
@@ -1071,6 +1331,8 @@ msgid ""
 "images/100002010000001A0000001ACED60702.png"
 "[100002010000001A0000001ACED60702_png]."
 msgstr ""
+"image:images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png] ボタンでコピー元ライブラリを選択する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:355
@@ -1080,6 +1342,9 @@ msgid ""
 "[100002010000001A0000001AE03E3808_png].  The component will be displayed in "
 "the editing area."
 msgstr ""
+" image:images/100002010000001A0000001AE03E3808.png"
+"[100002010000001A0000001AE03E3808_png] ボタンで移動するコンポーネントを読み込"
+"む。（そのコンポーネントが表示されます。）"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:357
@@ -1088,6 +1353,9 @@ msgid ""
 "images/100002010000001A0000001ACED60702.png"
 "[100002010000001A0000001ACED60702_png]."
 msgstr ""
+"image:images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png] ボタンでコピー先のライブラリを選択す"
+"る。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:360
@@ -1096,6 +1364,9 @@ msgid ""
 "clicking the image:images/100002010000001A0000001A7C9F9F5F.png"
 "[100002010000001A0000001A7C9F9F5F_png]."
 msgstr ""
+"image:images/100002010000001A0000001A7C9F9F5F.png"
+"[100002010000001A0000001A7C9F9F5F_png] ボタンで現在のコンポーネントをローカル"
+"メモリに保存する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:362
@@ -1104,12 +1375,15 @@ msgid ""
 "images/100002010000001A0000001AC05D217E.png"
 "[100002010000001A0000001AC05D217E_png]."
 msgstr ""
+"image:images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png] ボタンでコンポーネントをローカルライブ"
+"ラリ(コピー先のライブラリ)に保存する。"
 
 #. type: Title +
 #: Eeschema_component_library_editor.adoc:365
 #, no-wrap
 msgid "Discarding Component Changes"
-msgstr ""
+msgstr "コンポーネントの編集の取り消し"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:373
@@ -1121,6 +1395,12 @@ msgid ""
 "to the library file, you can always quit and start again. Eeschema will undo "
 "all the changes."
 msgstr ""
+"あるコンポーネントに対して作業している時には、その編集したコンポーネントとい"
+"うのは、単にそのライブラリ内の実際のコンポーネントの作業コピー です。このこと"
+"はメモリ内にそのコンポーネントを保存しない限り、それをただ再読み込みして、"
+"行ったすべての変更を取り消ことが可能です。ローカルのメモリ内にそれをすでに保"
+"存し、ハードディスク上のライブラリファイルには保存していない場合には、"
+"Eeschema を終了、再起動して、全ての変更を元に戻すことが常に可能です。"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:376
