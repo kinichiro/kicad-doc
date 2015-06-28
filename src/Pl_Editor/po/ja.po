@@ -48,9 +48,9 @@ msgid ""
 "licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有(© 2015)されています。あなた"
-"は、GNU General Public License (http://www.gnu.org/licenses/gpl.html)のバー"
-"ジョン3以降、あるいはクリエイティブ・コモンズライセンス(http://"
-"creativecommons.org/licenses/by/3.0/)のバージョン3以降のいずれかの条件の下"
+"は、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) のバー"
+"ジョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
 "で、配布または変更することができます 。"
 
 #. type: Plain text
