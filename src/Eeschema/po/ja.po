@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EeSchema-ja\n"
 "POT-Creation-Date: 2015-06-23 00:41+0900\n"
-"PO-Revision-Date: 2015-06-28 08:15+0900\n"
+"PO-Revision-Date: 2015-06-28 23:56+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -16,6 +16,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 
 # 1st:0800_06282015
+# 2nd:
 #. type: Title =
 #: Eeschema.adoc:8
 #, no-wrap
@@ -32,7 +33,7 @@ msgstr "*Eeschema*\n"
 #. type: Plain text
 #: Eeschema.adoc:15
 msgid "_Reference manual_"
-msgstr "_リファレンス・マニュアル_"
+msgstr "_リファレンス・マニュアル_ "
 
 #. type: Plain text
 #: Eeschema.adoc:18
@@ -511,8 +512,8 @@ msgid ""
 "Defining if the component has an alternate body style also known as a De "
 "Morgan representation."
 msgstr ""
-"コンポーネントがド・モルガン表現として知られる別の図形表現を持つように定義す"
-"る。"
+"コンポーネントがド・モルガン表現として知られる代替ボディスタイルを持つように"
+"定義する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:46
@@ -822,7 +823,7 @@ msgid ""
 "component does not have an alternate body style.\n"
 msgstr ""
 "|image:images/100002010000001A0000001A93F5F714.png[100002010000001A0000001A93F5F714_png]\n"
-"|通常の図形表現を表示する。（コンポーネントが別の図形表現を\n"
+"|通常のボディスタイルを表示する。（コンポーネントが代替ボディスタイルを\n"
 "持っていない場合、このボタンは無効です）\n"
 
 #. type: delimited block |
@@ -834,7 +835,7 @@ msgid ""
 "component does not have an alternate body style.\n"
 msgstr ""
 "|image:images/100002010000001A0000001A67B02101.png[100002010000001A0000001A67B02101_png]\n"
-"|別の図形表現を表示する。（コンポーネントが別の図形表現を\n"
+"|別のボディスタイルを表示する。（コンポーネントが代替ボディスタイルを\n"
 "持っていない場合、このボタンは無効です）\n"
 
 #. type: delimited block |
@@ -882,7 +883,7 @@ msgid ""
 "components with multiple units and alternate symbols.\n"
 msgstr ""
 "|image:images/100002010000001A0000001A2096B8A2.png[100002010000001A0000001A2096B8A2_png]\n"
-"|ピンを編集する：多パーツコンポーネントおよび別の図形表現を持つ場合、\n"
+"|ピンを編集する：多パーツコンポーネントおよび別のシンボルを持つ場合、\n"
 "ピンの形状と位置は個別に編集\n"
 
 #. type: Title ^
@@ -976,9 +977,9 @@ msgid ""
 "again to defint the second arc end point.\n"
 msgstr ""
 "|image:images/100002010000001A0000001A5735E244.png[100002010000001A0000001A5735E244_png]\n"
-"|弧ツール。（左クリックで中心から弧の描画を始めます。\n"
-"次の左クリックで弧の最初の終点が決まります。\n"
-"更に次の左クリックで弧の二つ目の終点を決めます。\n"
+"|円弧ツール。（左クリックで中心から円弧の描画を始めます。\n"
+"次の左クリックで円弧の最初の終点が決まります。\n"
+"更に次の左クリックで円弧の二つ目の終点を決めます。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:210
@@ -990,9 +991,9 @@ msgid ""
 "Left double click to complete the polygon.\n"
 msgstr ""
 "|image:images/100002010000001A0000001A9D16E38B.png[100002010000001A0000001A9D16E38B_png]\n"
-"|多角形ツール。（左クリックで多角形の描画を始めます。\n"
-"左クリックする毎に多角形の辺が追加されます。\n"
-"左ダブルクリックで多角形の描画を終了します。\n"
+"|ポリゴンツール。（左クリックでポリゴンの描画を始めます。\n"
+"左クリックする毎にポリゴンの辺が追加されます。\n"
+"左ダブルクリックでポリゴンの描画を終了します。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:213
@@ -1406,13 +1407,13 @@ msgstr ""
 #: Eeschema_component_library_editor.adoc:376
 #, no-wrap
 msgid "Creating Library Components"
-msgstr ""
+msgstr "ライブラリコンポーネントの作成"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:380
 #, no-wrap
 msgid "Create a New Component"
-msgstr ""
+msgstr "新規コンポーネントの作成"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:391
@@ -1428,6 +1429,15 @@ msgid ""
 "properties changed later, but it is preferable to set them correctly at the "
 "creation of the component."
 msgstr ""
+"image:images/100002010000001A0000001AAE4A6891.png"
+"[100002010000001A0000001AAE4A6891_png] ボタンの NewPart コマンドを使用して新"
+"規コンポーネントの作成が可能です。コンポーネント名(名前は回路図エディターで "
+"Value フィールドのデフォルト値として使用される)、リファレンス(U、IC、R ...)、"
+"パッケージ内のパーツ数(例えば、標準コンポーネントの 7400 は１つのパッケージに"
+"４つのパーツで構成されている)、(ド・モルガンと呼ぶこともある)代替ボディスタイ"
+"ルが存在するかどうかの入力が要求されます。もしリファレンスフィールドが空白の"
+"ままであると、デフォルトの“U“になります。これらのプロパティはすべて後で設定す"
+"ることが可能ですが、コンポーネントの作成時に設定する方が望ましいです。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:393
@@ -1435,13 +1445,15 @@ msgid ""
 "image:images/1000000000000153000001795877268E.png"
 "[1000000000000153000001795877268E_png]"
 msgstr ""
+"image:images/1000000000000153000001795877268E.png"
+"[1000000000000153000001795877268E_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:396
 msgid ""
 "A new component will be created using the properties above and will appear "
 "in the editor as shown below."
-msgstr ""
+msgstr "まず初めに、コンポーネントはこのように見えます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:398
@@ -1449,12 +1461,14 @@ msgid ""
 "image:images/100000000000030A00000205F0A88B4F.png"
 "[100000000000030A00000205F0A88B4F_png]"
 msgstr ""
+"image:images/100000000000030A00000205F0A88B4F.png"
+"[100000000000030A00000205F0A88B4F_png]"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:401
 #, no-wrap
 msgid "Create a Component from Another Component"
-msgstr ""
+msgstr "他のコンポーネントからコンポーネントを作成"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:406
@@ -1463,11 +1477,14 @@ msgid ""
 "component library. In this case it is easy to load and modify an already "
 "existing component."
 msgstr ""
+"作成したいと思っているコンポーネントがKiCadのライブラリにあるものと似ていると"
+"いうことがしばしばあります。この場合、既存のコンポーネントを読み込んで変更す"
+"るのがごく普通です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:408
 msgid "Load the component which will be used as a starting point."
-msgstr ""
+msgstr "出発点として使うコンポーネントを読み込みます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:413
@@ -1477,6 +1494,11 @@ msgid ""
 "the value field and editing the text.  If you chose to duplicate the current "
 "component, you will be prompted for a new component name."
 msgstr ""
+"アイコン image:images/100002010000001A0000001A2D043F72.png"
+"[100002010000001A0000001A2D043F72_png] をクリックするかまたは名前を右クリック"
+"してテキスト<<Value>>を編集し、その名前を変更します。もしも現在のコンポーネン"
+"トと重複した名前を選ぶと、新しいコンポーネント名を入力するように求められるで"
+"しょう。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:417
@@ -1486,11 +1508,15 @@ msgid ""
 "answer is no the new component creation will be aborted.  Component "
 "libraries cannot have any duplicate names or aliases."
 msgstr ""
+"型となるコンポーネントにエイリアスがある場合、新規コンポーネントからその型と"
+"衝突するエイリアスを削除するよう促されます。その答えがNOの場合、新規コンポー"
+"ネントの作成は中止されます。コンポーネントライブラリは重複した名前またはエイ"
+"リアスを持つことができません。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:418
 msgid "Edit the new component as required."
-msgstr ""
+msgstr "必要に応じて新規コンポーネントを編集します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:426
@@ -1504,6 +1530,14 @@ msgid ""
 "on the image:images/100002010000001A0000001ACED60702.png"
 "[100002010000001A0000001ACED60702_png] and save the new component."
 msgstr ""
+"image:images/100002010000001A0000001A7C9F9F5F.png"
+"[100002010000001A0000001A7C9F9F5F_png] ボタンでメモリに新規コンポーネントを保"
+"存するか、または image:images/100002010000001A0000001AA50256B5.png"
+"[100002010000001A0000001AA50256B5_png] ボタンで新規ライブラリに保存します。あ"
+"るいは他の既存のライブラリに新規コンポーネントを保存したい場合には、コマン"
+"ド  image:images/100002010000001A0000001ACED60702.png"
+"[100002010000001A0000001ACED60702_png] でそのライブラリを選択して、新規コン"
+"ポーネントを保存します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:428
@@ -1512,12 +1546,15 @@ msgid ""
 "images/100002010000001A0000001AC05D217E.png"
 "[100002010000001A0000001AC05D217E_png]."
 msgstr ""
+"image:images/100002010000001A0000001AC05D217E.png"
+"[100002010000001A0000001AC05D217E_png] ボタンのファイル更新コマンドでディスク"
+"にライブラリファイルを保存します。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:431
 #, no-wrap
 msgid "Component Properties"
-msgstr ""
+msgstr "コンポーネントプロパティの編集"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:438
@@ -1528,6 +1565,12 @@ msgid ""
 "images/100002010000001A0000001A80C75DC5.png"
 "[100002010000001A0000001A80C75DC5_png] to show the dialog below."
 msgstr ""
+"コンポーネントプロパティはコンポーネント作成時に注意深く追加すべきです。その"
+"ほかにも、それらは型となるコンポーネントから引き継がれます。コンポーネントプ"
+"ロパティを変更するには、編集コマンド image:"
+"images/100002010000001A0000001A80C75DC5.png"
+"[100002010000001A0000001A80C75DC5_png] をクリックします。編集ダイアログは次の"
+"ように見えます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:440
@@ -1535,6 +1578,8 @@ msgid ""
 "image:images/10000000000001B2000001509F311F99.png"
 "[10000000000001B2000001509F311F99_png]"
 msgstr ""
+"image:images/10000000000001B2000001509F311F99.png"
+"[10000000000001B2000001509F311F99_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:448
@@ -1547,6 +1592,12 @@ msgid ""
 "unit pins and symbols. Nevertheless, it is possible to modify these "
 "properies at any time."
 msgstr ""
+"パッケージあたりのパーツ数を正しく設定することはとても重要です。またコンポー"
+"ネントが代替シンボル表現を定義するパラメータを正確に持つなら、ピンが編集また"
+"は作成される時、各パーツに相当するピンが作成されるでしょう。ピンの作成／編集"
+"後にパッケージあたりのパーツ数を増やすと、新しいパーツへのピンとシンボルの追"
+"加という余計な仕事をする破目になるでしょう。そうなるとしても、これらのパラ"
+"メータの変更はいつでも可能です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:457
@@ -1560,6 +1611,13 @@ msgid ""
 "away from the body end of the pin. A value from 30 to 40 (in 1/1000 inch) is "
 "reasonable."
 msgstr ""
+"グラフィックオプション”ピン番号を表示”と”ピン名を表示”は、ピン番号とピン名の"
+"テキストの可視性を定義します。対応するオプションがチェックされている場合、そ"
+"のテキストが表示されます。オプション”ピン名を内側に配置”はピン名の位置を定義"
+"します。オプションがチェックされている場合、そのテキストはコンポーネントアウ"
+"トラインの内側 に表示されます。この場合、”ピン名の位置オフセット”プロパティは"
+"内側方向へのテキストの変位を定義します。値は(1/1000 インチ単位で)30～40が妥当"
+"です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:460
@@ -1567,6 +1625,8 @@ msgid ""
 "The example below shows a component with the “Place pin name inside” option "
 "unchecked. Notice the position of the names and pin numbers."
 msgstr ""
+"以下の例は、”ピン名を内側に配置”オプションにチェックをつけない状態で同じコン"
+"ポーネントを示しています。ピン名とピン番号の位置に注意して下さい。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:462
@@ -1574,12 +1634,14 @@ msgid ""
 "image:images/2000000800003D8000002550D6E11DAF.png"
 "[2000000800003D8000002550D6E11DAF_png]"
 msgstr ""
+"image:images/2000000800003D8000002550D6E11DAF.png"
+"[2000000800003D8000002550D6E11DAF_png]"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:465
 #, no-wrap
 msgid "Components with Alternate Symbols"
-msgstr ""
+msgstr "代替シンボルをもつコンポーネント"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:471
@@ -1590,6 +1652,10 @@ msgid ""
 "images/100002010000001A0000001A93F5F714.png"
 "[100002010000001A0000001A93F5F714_png]."
 msgstr ""
+"もしコンポーネントが一つ以上の代替シンボル表現を持つなら、それらを編集するた"
+"めにコンポーネントの別のシンボルを選択しなければならないでしょう。通常のシン"
+"ボルを編集するには、 image:images/100002010000001A0000001A93F5F714.png"
+"[100002010000001A0000001A93F5F714_png] をクリックします。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:477
@@ -1601,6 +1667,11 @@ msgid ""
 "[100000000000007A0000002651F79CA5_png] show below to select the unit you "
 "wish to edit."
 msgstr ""
+"代替シンボルを編集するには、image:images/100002010000001A0000001A67B02101.png"
+"[100002010000001A0000001A67B02101_png] をクリックします。image:"
+"images/100000000000007A0000002651F79CA5.png"
+"[100000000000007A0000002651F79CA5_png] を使って、編集したいシンボルを選択する"
+"ために下の画面を表示します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:479
@@ -1608,12 +1679,14 @@ msgid ""
 "image:images/1000000000000456000002680D968591.png"
 "[1000000000000456000002680D968591_png]"
 msgstr ""
+"image:images/1000000000000456000002680D968591.png"
+"[1000000000000456000002680D968591_png]"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:482
 #, no-wrap
 msgid "Graphical Elements"
-msgstr ""
+msgstr "グラフィック要素"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:487
@@ -1622,21 +1695,23 @@ msgid ""
 "contain no electrical connection information. Their design is possible using "
 "the following tools:"
 msgstr ""
+"グラフィック要素はコンポーネントのシンボルを作成し、電気的接続の情報を含みま"
+"せん。この設計には次のツールが使用可能です。:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:489
 msgid "Lines and polygons defined by start and end points."
-msgstr ""
+msgstr "始点と終点で定義されたラインとポリゴン。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:490
 msgid "Rectangles defined by two diagonal corners."
-msgstr ""
+msgstr "対角線にある２つのコーナーで定義された矩形。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:491
 msgid "Circles defined by the center and radius."
-msgstr ""
+msgstr "中心と半径で定義された円。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:493
@@ -1644,6 +1719,7 @@ msgid ""
 "Arcs defined by the starting and ending point of the arc and its center. An "
 "arc goes from 0° to 180°."
 msgstr ""
+"始点と終点および中心で定義された円弧。円弧は０°から１８０°まで描画されます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:497
@@ -1652,12 +1728,14 @@ msgid ""
 "place all of the graphical elements required to design a component's "
 "symbolic representation."
 msgstr ""
+"メインウィンドウの右側にある縦のツールバーで、コンポーネントのシンボル設計に"
+"必要な全てのグラフィック要素を配置できます。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:500
 #, no-wrap
 msgid "Graphical Element Membership"
-msgstr ""
+msgstr "グラフィック要素メンバーシップ"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:507
@@ -1668,6 +1746,10 @@ msgid ""
 "to display the context menu for the selected element. Below is the context "
 "menu for a line element."
 msgstr ""
+"個々のグラフィック要素（ライン、円弧、円など）は、全てのパーツで共通／全ての"
+"ボディスタイルで共通／パーツ毎／ボディスタイル毎に定義することが可能です。要"
+"素オプションは、選択した要素を右クリックしてコンテキストメニューを表示するこ"
+"とで簡単に設定できます。次にライン要素のコンテキストメニューの例を示します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:509
@@ -1675,6 +1757,8 @@ msgid ""
 "image:images/20000009000056D200003432E4789F12.png"
 "[20000009000056D200003432E4789F12_png]"
 msgstr ""
+"image:images/20000009000056D200003432E4789F12.png"
+"[20000009000056D200003432E4789F12_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:512
@@ -1682,6 +1766,8 @@ msgid ""
 "You can a lso double left click on an element to modify it's properties.  "
 "Below is the properties dialog for a polygon element."
 msgstr ""
+"またこの要素を左ダブルクリックすると要素のプロパティを変更できます。次にポリ"
+"ゴン要素のプロパティダイアログの例を示します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:514
@@ -1689,18 +1775,20 @@ msgid ""
 "image:images/100000000000012100000146E8D1DDCE.png"
 "[100000000000012100000146E8D1DDCE_png]"
 msgstr ""
+"image:images/100000000000012100000146E8D1DDCE.png"
+"[100000000000012100000146E8D1DDCE_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:516
 msgid "The properties of a graphic element are:"
-msgstr ""
+msgstr "グラフィック要素のプロパティは次の通りです。:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:519
 msgid ""
 "Line width which defines the width of the element's line in the current "
 "drawing units."
-msgstr ""
+msgstr "現在表示しているパーツにおけるライン要素の幅で定義されるライン幅"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:523
@@ -1709,6 +1797,9 @@ msgid ""
 "element is drawn for each unit in component with more than one unit per "
 "package or if the graphical element is only drawn for the current unit."
 msgstr ""
+"”コンポーネントの全てのパーツで共通”設定は、パッケージに一つ以上のパーツを持"
+"つコンポーネントの各パーツへ全てグラフィック要素を描く、または現在のパーツに"
+"のみグラフィック要素を描く、のどちらかを定義します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:527
@@ -1718,6 +1809,9 @@ msgid ""
 "alternate body style or if the graphical element is only drawn for the "
 "current body style."
 msgstr ""
+"”全てのボディスタイルで共通 (ド・モルガン)”設定は、代替ボディスタイルを持つコ"
+"ンポーネントの各ボディスタイルへ全てグラフィック要素を描く、または現在のボ"
+"ディスタイルにのみグラフィック要素を描く、のどちらかを定義します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:530
@@ -1725,12 +1819,14 @@ msgid ""
 "The fill style setting determines if the symbol defined by the graphical "
 "element is to be drawn unfilled, background filled, or foreground filled."
 msgstr ""
+"塗潰しスタイルの設定は、グラフィック要素で定義されるシンボルが塗潰しなし／背"
+"景を塗潰し／前景を塗潰しの何れかを決定します。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:533
 #, no-wrap
 msgid "Graphical Text Elements"
-msgstr ""
+msgstr "グラフィックタイプのテキスト要素"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:540
@@ -1740,12 +1836,17 @@ msgid ""
 "text. Graphical text is always readable, even when the component is "
 "mirrored. Please note that graphical text items are not fields."
 msgstr ""
+"アイコン image:images/100002010000001A0000001A65CFC162.png"
+"[100002010000001A0000001A65CFC162_png] により、グラフィックタイプのテキストを"
+"作成がすることができます。グラフィックタイプのテキストはコンポーネントが反転"
+"(mirrored)したとしても常に読むことができます。グラフィックタイプのテキストは"
+"フィールドではないことに注意しましょう。"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:543
 #, no-wrap
 msgid "Multiple Units per Component and Alternate Body Styles"
-msgstr ""
+msgstr "多パーツコンポーネントと代替ボディスタイル"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:550
@@ -1755,6 +1856,10 @@ msgid ""
 "unit per package (logic gates for example). Some components can have more "
 "than one unit per package each with different symbols and pin configurations."
 msgstr ""
+"コンポーネントは２つのシンボル表現（標準シンボルとド・モルガンと呼ばれる代替"
+"シンボル）を持つことができ、パッケージ（例えば論理ゲート）毎に１つ以上のパー"
+"ツを持ちます。いくつかのコンポーネントは、異なったシンボルとピン定義を持つ"
+"パーツを１つのパッケージ内に持っています。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:553
@@ -1762,6 +1867,8 @@ msgid ""
 "Consider for instance a relay with two switches which can be designed as a "
 "component with three diff e rent units: a coil, switch 1, and switch"
 msgstr ""
+"例として、３つの別のパーツ（コイル、スイッチ1、スイッチ2）として表現すること"
+"が可能な２つのスイッチを持つリレーを考えてみましょう。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:558
@@ -1771,6 +1878,10 @@ msgid ""
 "units or specific to a given unit or they can be common to both symbolic "
 "representation so r specific to a given symbol repr e sentation."
 msgstr ""
+"多パーツコンポーネントと代替ボディスタイルを持つコンポーネントの設計はとても"
+"柔軟に行えます。ピンまたはシンボルは、それぞれのパーツに共通または特定のパー"
+"ツのみ、もしくは両方のボディスタイルに共通または特定のボディスタイルのみ、に"
+"適用できます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:567
@@ -1784,12 +1895,18 @@ msgid ""
 "common to each unit (but typically are specific to each symbolic "
 "representation)."
 msgstr ""
+"デフォルトでは、ピンはそれぞれのパーツのそれぞれのシンボル表現に固有です。そ"
+"れは、ピンの数は各パーツで異なり、シンボル表現に依存した形状となるからです。"
+"ピンが各パーツまたは各シンボル表現で共通の場合、全てのパーツとシンボル表現に"
+"対して一度作成するだけで済みます(これは電源ピンの場合には一般的です)。これ"
+"は、それぞれのパーツで共通であるようなボディスタイルのグラフィックとテキスト"
+"の場合も同様です（しかし、典型的には各シンボル表現で固有です）。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:570
 #, no-wrap
 msgid "Example of a Component Having Multiple Units with Different Symbols:"
-msgstr ""
+msgstr "異なったシンボル表現を持つ多パーツコンポーネントの例:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:574
@@ -1797,6 +1914,8 @@ msgid ""
 "This is an example of a relay defined with three units per package, switch "
 "1, switch 2, and the coil:"
 msgstr ""
+"これはパッケージ毎に３つのパーツ（スイッチ1、スイッチ2、コイル）で定義される"
+"リレーの例です。:"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:580
@@ -1806,6 +1925,9 @@ msgid ""
 "|Option: pins are not linked. One can add or edit pins for each unit\n"
 "without any coupling with pins of other units.\n"
 msgstr ""
+"|image:images/2000000900003094000008CA41334F3B.png[2000000900003094000008CA41334F3B_png]\n"
+"|オプション: ピンはリンクしていない。別のパーツのいかなるピンとも同期せず、\n"
+"各パーツごとに単独でピンを追加／編集できる。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:583
@@ -1814,6 +1936,8 @@ msgid ""
 "|image:images/10000000000001B20000014F8449F983.png[10000000000001B20000014F8449F983_png]\n"
 "|All units are not interchangeable must be selected.\n"
 msgstr ""
+"|image:images/10000000000001B20000014F8449F983.png[10000000000001B20000014F8449F983_png]\n"
+"|選択されている全てのパーツは入れ替えできない。\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:586
@@ -1822,6 +1946,8 @@ msgid ""
 "|image:images/10000000000000FF000000A989993852.png[10000000000000FF000000A989993852_png]\n"
 "|Unit 1\n"
 msgstr ""
+"|image:images/10000000000000FF000000A989993852.png[10000000000000FF000000A989993852_png]\n"
+"|パーツ 1\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:589
@@ -1830,6 +1956,8 @@ msgid ""
 "|image:images/1000000000000114000000B804ED21E4.png[1000000000000114000000B804ED21E4_png]\n"
 "|Unit 2\n"
 msgstr ""
+"|image:images/1000000000000114000000B804ED21E4.png[1000000000000114000000B804ED21E4_png]\n"
+"|パーツ 2\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:593
@@ -1839,6 +1967,9 @@ msgid ""
 "a|\n"
 "Unit 3\n"
 msgstr ""
+"|image:images/100000000000010C000000B26BA7AD80.png[100000000000010C000000B26BA7AD80_png]\n"
+"a|\n"
+"パーツ 3\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:596
@@ -1847,12 +1978,14 @@ msgid ""
 "It does not have the same symbol and pin layout and therefore is not\n"
 "interchangeable with units 1 and 2.\n"
 msgstr ""
+"同じシンボルとピン配置を持たないので、\n"
+"ユニット１とユニット２は入れ替えできません。\n"
 
 #. type: Title +
 #: Eeschema_component_library_editor.adoc:601
 #, no-wrap
 msgid "Graphical Symbolic Elements"
-msgstr ""
+msgstr "グラフィックシンボル要素"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:607
@@ -1862,6 +1995,10 @@ msgid ""
 "Therefore, each unit was created separately and the graphical body elements "
 "must have the “Common to all units in component” disabled."
 msgstr ""
+"次にグラフィックシンボル要素のプロパティを示します。上のリレーの例ですが、３"
+"つのパーツは異なったシンボル表現を持っています。そのため、各パーツは個別に作"
+"成され、グラフィックシンボル要素は”コンポーネントの全てのパーツで共通”（のプ"
+"ロパティ）を無効としなければなりません。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:609
@@ -1869,12 +2006,14 @@ msgid ""
 "image:images/2000000900003855000027B1F162801F.png"
 "[2000000900003855000027B1F162801F_png]"
 msgstr ""
+"image:images/2000000900003855000027B1F162801F.png"
+"[2000000900003855000027B1F162801F_png]"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:612
 #, no-wrap
 msgid "Pin Creation and Editing"
-msgstr ""
+msgstr "ピンの作成および編集"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:621
@@ -1886,12 +2025,19 @@ msgid ""
 "carefully, because any error will have consequences on the PCB design. Any "
 "pin already placed can be edited, deleted, and / or moved."
 msgstr ""
+"アイコン image:images/100002010000001A0000001AF33889E5.png"
+"[100002010000001A0000001AF33889E5_png] をクリックしてピンの作成や挿入が可能で"
+"す。全てのピンのプロパティ編集はピンをダブルクリックして行います。もう一つの"
+"方法としては、ピンを右クリックしてピンのコンテキストメニューを開きます。ピン"
+"は慎重に作成しなければなりません。それは、どのようなエラーも基板（PCB）設計に"
+"影響するからです。すでに配置済みの任意のピンは再編集、削除または移動が可能で"
+"す。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:624
 #, no-wrap
 msgid "Pin Overview"
-msgstr ""
+msgstr "ピンの概要"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:632
@@ -1903,17 +2049,22 @@ msgid ""
 "correctly. If this type is not defined properly, the schematic ERC check "
 "results may be invalid."
 msgstr ""
+"ピンはその形状(長さ、グラフィックな外観)、名前および“番号“で定義されます。“番"
+"号“は４つまでの英文字または数字で定義されます。（番号は常に数字であるとは限り"
+"ません。）ERC(Electronic Rules Check)ツールを機能させるためには、“電気的“タイ"
+"プ(入力、出力、３ステート...)も定義されていなければなりません。このタイプがう"
+"まく定義されていない場合には、ERC チェックが非効率になります。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:634
 #: Eeschema_component_library_editor.adoc:793
 msgid "Important notes:"
-msgstr ""
+msgstr "重要な注意"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:636
 msgid "Do not use spaces in pin names and numbers."
-msgstr ""
+msgstr "ピン名とピン番号に空白(space)を使用しないで下さい。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:639
@@ -1922,6 +2073,9 @@ msgid ""
 "character. The next “~” character will turn off the overline. For example "
 "~FO~O would display FO O."
 msgstr ""
+"反転信号（上付き横線（overline）付信号）のピン名はチルダ記号“~“で始めます。次"
+"の“~“記号は上付き横線（overline）を無効にします。例えば、~FO~O は FO(overline"
+"付)O(overline無)と表示されます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:641
@@ -1929,11 +2083,13 @@ msgid ""
 "If the pin name is reduced to a single symbol, the pin is regarded as "
 "unnamed."
 msgstr ""
+"ピン名の文字数を減らしてこの信号のシンボルだけになった場合は、そのピンには名"
+"前がないと見なされます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:642
 msgid "Pin names starting with “#”, are reserved for power port symbols."
-msgstr ""
+msgstr "“#“で始まるピン名は電源ポート用に予約されています。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:644
@@ -1941,17 +2097,19 @@ msgid ""
 "A pin “number” consists of 1 to 4 letters and/ or numbers. 1,2,..9999 are "
 "valid numbers. A1, B3, Anod, Gnd, Wi r e, etc. are also valid."
 msgstr ""
+"ピン“番号“は1～4文字の英数字から成ります。1、2、...、9999は有効な数字ですが、"
+"A1、B3...(標準的なPGAの表記法)、あるいはAnod、Gnd、Wine なども有効です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:645
 msgid "Duplicate pin “numbers” cannot exist in a component."
-msgstr ""
+msgstr "コンポーネントで重複したピン“番号“を使うことはできません。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:648
 #, no-wrap
 msgid "Pin Properties"
-msgstr ""
+msgstr "ピンのプロパティ"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:651
@@ -1959,6 +2117,8 @@ msgid ""
 "image:images/100000000000031000000198EA7FCC88.png"
 "[100000000000031000000198EA7FCC88_png]"
 msgstr ""
+"image:images/100000000000031000000198EA7FCC88.png"
+"[100000000000031000000198EA7FCC88_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:655
@@ -1967,42 +2127,45 @@ msgid ""
 "pin. This dialog pops up automatically when you create a pin or when double-"
 "clicking on an existing pin. This dialog allows you modify:"
 msgstr ""
+"ピンプロパティダイアログでピンの全ての特性を編集することができます。このダイ"
+"アログは、ピンを作成したり、あるいは既存のピンをダブルクリックすると、自動的"
+"にポップアップします。このメニューで以下の定義または変更が可能です。:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:657
 msgid "Name and name's text size."
-msgstr ""
+msgstr "ピン名とピン名のサイズ。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:658
 msgid "Number and number's text size."
-msgstr ""
+msgstr "ピン番号と番号のテキストサイズ。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:659
 msgid "Length."
-msgstr ""
+msgstr "ピンの長さ。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:660
 msgid "Electrical and graphical types."
-msgstr ""
+msgstr "電気的およびグラフィックのタイプ。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:661
 msgid "Unit and alternate representation membership."
-msgstr ""
+msgstr "パーツおよび代替(シンボル)表現のメンバーシップ。（共通の設定）"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:662
 msgid "Visibility."
-msgstr ""
+msgstr "可視性。（電源ピンで使用される。）"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:665
 #, no-wrap
 msgid "Pins Graphical Styles"
-msgstr ""
+msgstr "ピンの形状（グラフィックスタイル）"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:670
@@ -2011,6 +2174,9 @@ msgid ""
 "choice of graphic styles does not have any influence on the pin's electrical "
 "type."
 msgstr ""
+"それぞれのピンの形状を下図に示します。形状の選択は単にグラフィック上の影響が"
+"あるだけで、電気的タイプへは影響を与えません。（ERCチェックあるいはネットリス"
+"ト機能には何の影響もありません。）"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:672
@@ -2018,12 +2184,14 @@ msgid ""
 "image:images/10000000000003100000019800B8A351.png"
 "[10000000000003100000019800B8A351_png]"
 msgstr ""
+"image:images/10000000000003100000019800B8A351.png"
+"[10000000000003100000019800B8A351_png]"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:675
 #, no-wrap
 msgid "Pin Electrical Types"
-msgstr ""
+msgstr "ピンの電気的タイプ"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:679
@@ -2031,6 +2199,8 @@ msgid ""
 "Choosing the correct electrical type is important for the schematic ERC "
 "tool. The electrical types defined are:"
 msgstr ""
+"電気的タイプの選択を正しく行うことは ERC ツールとって重要です。それぞれの電気"
+"的タイプを下図に示します。:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:682
@@ -2038,21 +2208,24 @@ msgid ""
 "Bidirectional which indicates bidirectional pins commutable between input "
 "and output (microprocessor data bus for example)."
 msgstr ""
+"双方向。入力および出力を切り替え可能な双方向ピン(例えばマイクロプロセッサの"
+"データバス)を表します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:683
 msgid "Tri-state is the usual 3 states output."
-msgstr ""
+msgstr "トライステート。通常の３ステート出力です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:685
 msgid "Passive is used for passive component pins, resistors, connectors, etc."
-msgstr ""
+msgstr "パッシブ。抵抗、コネクタなどの受動コンポーネントのピンに使用されます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:686
 msgid "Unspecified can be used when the ERC check doesn't matter."
 msgstr ""
+"不特定(＝指定なし)。ERCチェックが関係ない場合に使用することが可能です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:689
@@ -2060,31 +2233,33 @@ msgid ""
 "Power input is used for the component ' s power pins. Power pins are "
 "automatically connected to the other power input pins with the same name."
 msgstr ""
+"電源入力。コンポーネントの電源ピンに使用されます。自動的に同じタイプの同じ名"
+"前(非表示電源ピン)の他のピンに接続されます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:690
 msgid "Power out put is used for regulator outputs."
-msgstr ""
+msgstr "電源出力。レギュレータ出力用で使用されます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:692
 msgid ""
 "Open emitter and open collector types can be used for logic outputs defined "
 "as such."
-msgstr ""
+msgstr "オープンエミッタとオープンコレクタタイプ。論理回路の出力に使われます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:694
 msgid ""
 "Not connected is used when a component has a pin that has no internal "
 "connection."
-msgstr ""
+msgstr "未接続。コンポーネントの内部接続されていないピンに使われます。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:697
 #, no-wrap
 msgid "Pin Global Properties"
-msgstr ""
+msgstr "ピンのグローバルプロパティ"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:703
@@ -2094,6 +2269,11 @@ msgid ""
 "parameter you want to modify and type the new value which will then be "
 "applied to all of the current component's pins."
 msgstr ""
+"すべてのピンの長さ、あるいはテキストサイズ(名前、パーツ番号)を変更可能です。"
+"ポップアップされるピンコンテキストメニューのグローバルコマンドを使用してこれ"
+"ら３つのパラメータの一つを設定します。変更したいパラメータをクリックし、新し"
+"い値を入力します。その値は現在の表現のすべてのコンポーネントピンに適用されま"
+"す。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:705
@@ -2101,12 +2281,14 @@ msgid ""
 "image:images/100000000000018D000001023AE0F5CF.png"
 "[100000000000018D000001023AE0F5CF_png]"
 msgstr ""
+"image:images/100000000000018D000001023AE0F5CF.png"
+"[100000000000018D000001023AE0F5CF_png]"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:708
 #, no-wrap
 msgid "Defining Pins for Multiple Units and Alternate Symbolic Representations"
-msgstr ""
+msgstr "多パーツコンポーネントおよび代替シンボル表現におけるピンの定義"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:721
@@ -2122,6 +2304,14 @@ msgid ""
 "made for all units of a multiple unit component and both representations for "
 "components with an alternate representation."
 msgstr ""
+"ピンの作成、編集を行う場合、多パーツコンポーネントおよび代替シンボル表現をも"
+"つコンポーネントは特に問題を含んでいます。ピンの多数は個別のパーツ（ピン番号"
+"はパーツごとに指定されるので）と個別のシンボル表現（形状と位置はシンボル表現"
+"ごとに指定されるので）で指定されます。ピンの作成、編集は多パーツコンポーネン"
+"トと代替シンボル表現で問題があります。コンポーネントライブラリエディタはピン"
+"の作成を同時に行えます。デフォルトでは、ピンへの変更は、多パーツコンポーネン"
+"トの全てのパーツと代替シンボル表現をもつコンポーネントの両方の表現に対して行"
+"われます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:728
@@ -2133,6 +2323,12 @@ msgid ""
 "[100002010000001A0000001A2096B8A2_png] on the main tool bar. This will allow "
 "you to create pins for each unit and representation completely independently."
 msgstr ""
+"これに対して、ピンの形状（グラフィックスタイル）と名前は、例外です。この依存"
+"関係は、多くの場合、ピンの作成、編集を容易にします。この依存関係は、メイン"
+"ツールバーの image:images/100002010000001A0000001A2096B8A2.png"
+"[100002010000001A0000001A2096B8A2_png] で無効にできます（トグル動作です）。こ"
+"れにより、完全に独立して、各パーツと個別のシンボル表現に対してピンを作成する"
+"ことができます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:735
@@ -2144,6 +2340,12 @@ msgid ""
 "11.7.1, a relay can be represented three distinct units: a coil, switch "
 "contact 1, and switch contact 2."
 msgstr ""
+"コンポーネントは２つのシンボル表現（ド・モルガンとして知られる表現）を持つこ"
+"とができ、ロジックゲートのように複数のパーツから構成することができます。ある"
+"コンポーネントでは、いくつかの異なったグラフィック要素やピンを必要とすること"
+"もあるでしょう。セクション 11.7.1 にあるリレーのサンプルのように、リレーは３"
+"つの別のパーツ（コイル、スイッチ接点１、スイッチ接点２）で表現することができ"
+"ます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:740
@@ -2153,6 +2355,9 @@ msgid ""
 "specific to different units. A pin can also be common to both symbolic "
 "representations or specific to each symbolic representation."
 msgstr ""
+"多パーツコンポーネントと代替シンボル表現を持つコンポーネントの管理はとても柔"
+"軟に行えます。ピンは、全パーツで共通または各パーツで固有にできます。ピンはま"
+"た、両方のシンボル表現で共通または各シンボル表現で固有にできます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:745
@@ -2162,6 +2367,10 @@ msgid ""
 "symbolic representation. When a pin is common to all units, it only has to "
 "draw n once such as in the case of power pins."
 msgstr ""
+"デフォルトでは、ピンは各パーツのそれぞれの表現に固有です。それは、ピンの数は"
+"各パーツで異なり、それら(パーツ)のデザインは各シンボル表現で異なるからです。"
+"全てのパーツでピンが共通の場合は、（電源ピンのように）単に一度作成するだけで"
+"済みます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:757
@@ -2178,12 +2387,22 @@ msgid ""
 "images/100000000000007A0000002651F79CA5.png"
 "[100000000000007A0000002651F79CA5_png] drop down control."
 msgstr ""
+"例えば、４つの２入力 NAND ゲート 7400 の出力ピンです。４つの入力と２つのシン"
+"ボル表現があるので、コンポーネントの定義では８個の出力ピンを別々に定義しま"
+"す。新しい 7400 コンポーネントが作られると、通常シンボル表現のパーツＡがライ"
+"ブラリエディタに表示されるでしょう。別のシンボル表現のピン形状(スタイル)を編"
+"集するには、まずツールバーのボタン image:"
+"images/100002010000001A0000001A67B02101.png"
+"[100002010000001A0000001A67B02101_png] をクリックして有効にしなければなりませ"
+"ん。各パーツのピン番号を編集するには、ドロップダウン  image:"
+"images/100000000000007A0000002651F79CA5.png"
+"[100000000000007A0000002651F79CA5_png] を使って適切なパーツを選択します。"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:760
 #, no-wrap
 msgid "Component Fields"
-msgstr ""
+msgstr "コンポーネントのフィールド"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:772
@@ -2199,12 +2418,21 @@ msgid ""
 "the additional fields can be applied to all of the components in the "
 "schematic."
 msgstr ""
+"全てのライブラリコンポーネントには４つのデフォルトフィールドが定義されていま"
+"す。リファレンス、定数、フットプリント、データシートのフィールドは、コンポー"
+"ネントが作られるか、コピーされると必ず生成されます。リファレンス、定数の"
+"フィールドだけは、必須項目です。既存のフィールドに対しては、ピンを右クリック"
+"することでコンテキストメニューのコマンドを使うことができます。ライブラリにあ"
+"るコンポーネントは、通常、この４つのデフォルトフィールドで定義されています。"
+"製造業者名、品番、価格などのような追加フィールドをライブラリコンポーネントへ"
+"追加できますが、一般的にこれは、追加フィールドを回路図にある全てのコンポーネ"
+"ントに適用できるよう回路図エディタで行われます。"
 
 #. type: Title ^
 #: Eeschema_component_library_editor.adoc:775
 #, no-wrap
 msgid "Editing Component Fields"
-msgstr ""
+msgstr "コンポーネントフィールドの編集"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:779
@@ -2212,6 +2440,8 @@ msgid ""
 "To edit an existing component field, right click on the field text to show "
 "the field context menu shown below."
 msgstr ""
+"既存のフィールドを編集するには、フィールドテキストを右クリックして次のフィー"
+"ルドコンテキストメニューを表示します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:781
@@ -2219,6 +2449,8 @@ msgid ""
 "image:images/200000090000154B000027E6496104E3.png"
 "[200000090000154B000027E6496104E3_png]"
 msgstr ""
+"image:images/200000090000154B000027E6496104E3.png"
+"[200000090000154B000027E6496104E3_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:785
@@ -2228,6 +2460,11 @@ msgid ""
 "[100002010000001A0000001A65CFC162_png] on the main tool bar to open the "
 "field properties dialog shown below."
 msgstr ""
+"未定義フィールドの編集、新しいフィールドの追加、(追加された)オプションフィー"
+"ルドの削除を行うには、メインツールバーの  image:"
+"images/100002010000001A0000001A65CFC162.png"
+"[100002010000001A0000001A65CFC162_png] で、次のフィールドプロパティダイアログ"
+"を開きます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:787
@@ -2235,6 +2472,8 @@ msgid ""
 "image:images/1000000000000208000002211F585317.png"
 "[1000000000000208000002211F585317_png]"
 msgstr ""
+"image:images/1000000000000208000002211F585317.png"
+"[1000000000000208000002211F585317_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:791
@@ -2242,6 +2481,8 @@ msgid ""
 "Fields are text sections associated with the component. Do not confused them "
 "with the text belonging to the graphic representation of this component."
 msgstr ""
+"フィールドはコンポーネントに関連したテキストの区画(section)です。コンポーネン"
+"トのグラフィック表示に属するテキストと混同すべきではありません。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:798
@@ -2251,6 +2492,9 @@ msgid ""
 "component has the name contained in the value field when you save it to the "
 "currently selected library."
 msgstr ""
+"値フィールドのテキストを変更することは、型として使用する既存のコンポーネント"
+"を元にして新規コンポーネントを作成することに相当します。ライブラリに保存する"
+"場合、この新規コンポーネントは値フィールドに入っている名前を持ちます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:800
@@ -2258,6 +2502,8 @@ msgid ""
 "The field edit dialog above must be used to edit a field that is empty or "
 "has the i nvisible attribute enable."
 msgstr ""
+"空のフィールドや非表示属性を持つフィールドを編集するには、上のフィールドプロ"
+"パティダイアログを使用する必要があります。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:805
@@ -2268,6 +2514,11 @@ msgid ""
 "Pcbnew “Reference Manual”) and FPNAME is the name of the footprint in the "
 "library LIBNAME."
 msgstr ""
+"フットプリントは、LIBNAME:FPNAME フォーマットを用いた完全なフットプリントとし"
+"て定義される。ここでの、LIBNAME はフットプリントライブラリテーブル中で定義さ"
+"れたフットプリントライブラリの名前であり、FPNAME は LIBNAME ライブラリ中での"
+"フットプリントの名前を表す。（Pcbnew “リファレンス・マニュアル”の\"フットプリ"
+"ントライブラリテーブル\"を参照）"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:808
