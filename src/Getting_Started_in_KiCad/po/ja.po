@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-29 23:40+0900\n"
+"PO-Revision-Date: 2015-06-30 02:36+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -2942,7 +2942,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1203
 #, no-wrap
 msgid "Make component footprints"
-msgstr ""
+msgstr "フットプリントの作成"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1210
@@ -2952,6 +2952,10 @@ msgid ""
 "lib_ files contain schematic symbols and _.mod_ files contain footprints, or "
 "modules. _Cvpcb_ is used to successfully map footprints to symbols."
 msgstr ""
+"他の、一種類のライブラリに回路図記号とフットプリントの両方を含むEDAソフトウェ"
+"アツールと異なり、KiCadの _.lib_ ファイルは回路図記号を、 _.mod_ ファイルは"
+"フットプリントやモジュールを含んでいます。 _Cvpcb_ は回路図記号にフットプリン"
+"トを割り当てるのに使われます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1213
@@ -2959,6 +2963,8 @@ msgid ""
 "As for _.lib_ files, _.mod_ library files are text files that can contain "
 "anything from one to several parts."
 msgstr ""
+"_.lib_ と同様に、 _.mod_ ライブラリファイルはテキストファイルで、一つ以上の複"
+"数のパーツを含むことができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1217
@@ -2967,6 +2973,9 @@ msgid ""
 "might find that the footprint you need is not in the KiCad library.  Here "
 "are the steps for creating a new PCB footprint in KiCad:"
 msgstr ""
+"KiCadには豊富なフットプリントのライブラリがありますが、あなたが必要とするフッ"
+"トプリントがKiCadのライブラリ内にないこともあるでしょう。ここではKiCadで新し"
+"いPCBフットプリントを作成する手順を示します:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1221
@@ -2975,6 +2984,9 @@ msgid ""
 "Module Editor' icon image:images/edit_module.png[edit_module_png] on the top "
 "toolbar. This will open the 'Module Editor'."
 msgstr ""
+"KiCadプロジェクト・マネージャから _PCBnew_ ツールを起動します。トップツール"
+"バーにある 'モジュールエディタを開く' のアイコン image:images/edit_module.png"
+"[edit_module_png] をクリックします。 'モジュールエディタ' が開きます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1227
@@ -2984,6 +2996,10 @@ msgid ""
 "[library_png] on the top toolbar. Select the 'connect' library, though you "
 "can choose a different location if you want."
 msgstr ""
+"新しいフットプリントは 'connect' というフットプリントライブラリに保存します。"
+"トップツールバーにある 'アクティブなライブラリを選択してください' のアイコン "
+"image:images/library.png[library_png] をクリックします。 'connect' ライブラリ"
+"を選択します。他の場所でも構いません。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1235
@@ -2995,6 +3011,13 @@ msgid ""
 "and move it above 'VAL'. Right click on 'VAL__*', select 'Edit Text Mod' and "
 "rename it to 'SMD'. Set the 'Display' value to 'Invisible'."
 msgstr ""
+"トップツールバーにある '新規モジュール' のアイコン  image:images/"
+"new_footprint.png[new_footprint_png] をクリックします。 'モジュール設定' に "
+"'MYCONN3' を入力します。画面中央に 'MYCONN3' ラベルが表示されます。そのラベル"
+"の下に 'VAL*__' があります。 'MYCONN3' の上で右クリックし、 'VAL' の上方に移"
+"動します。 'VAL*__' 上で右クリックして、 'モジュールテキストの編集' を選び、 "
+"'SMD' にリネームします。テキストプロパティの '表示' の項目で '非表示' を選択"
+"します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1240
@@ -3003,6 +3026,9 @@ msgid ""
 "toolbar. Click on the working sheet to place the pad. Right click on the new "
 "pad and click 'Edit Pad'. You can otherwise use the e key shortcut."
 msgstr ""
+"右ツールバーにある 'パッド入力' のアイコン image:images/pad.png[pad_png] を選"
+"択します。パッドを配置するため画面をクリックします。新しいパッド上で右クリッ"
+"クし 'Edit Pad' をクリックします。代わりに e キーのショートカットも使えます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1242
@@ -3016,6 +3042,9 @@ msgid ""
 "Size X' to '0.4', and 'Shape Size Y' to '0.8'. Click OK.  Click on 'Add "
 "Pads' again and place two more pads."
 msgstr ""
+"'パッド番号' を '1' に、 'パッドの形' を '矩形' に、 'パッドのタイプ' を "
+"'SMD' に、 'パッド幅X' を '0.4' に、 'パッド幅Y' を '0.8' に設定し、OKをク"
+"リックします。再度 'パッド入力' をクリックし、 もう2つパッドを配置します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1250
@@ -3023,13 +3052,15 @@ msgid ""
 "If you want to change the grid size, *Right click* -> **Grid Select**. Be "
 "sure to select the appropriate grid size before laying down the components."
 msgstr ""
+"グリッドサイズを変更したいなら *右クリック* -> **グリッドの選択** とします。"
+"配置する前に適切なグリッドサイズを選択しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1257
 msgid ""
 "Move the 'MYCONN3' label and the 'SMD' label out of the way so that it looks "
 "like the image shown above."
-msgstr ""
+msgstr "上の図のように 'MYCONN3' と 'SMD' のラベルを外側に移動します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1264
@@ -3040,6 +3071,10 @@ msgid ""
 "indication of the position of the cursor at the bottom of the page. Press "
 "the space bar at any time to set the new origin."
 msgstr ""
+"パッドを配置する時には、相対的な距離を測る必要があります。相対座標軸の _(0,0)"
+"_ としたい所にカーソルを置き、スペースキーを押します。カーソルを動かすと、"
+"カーソル位置の相対的な指標がウィンドウの下方に見えるでしょう。新しい原点を設"
+"定するにはスペースキーを押しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1268
@@ -3048,6 +3083,9 @@ msgid ""
 "button image:images/add_polygon.png[add_polygon_png] in the right toolbar. "
 "Draw an outline of the connector around the component."
 msgstr ""
+"フットプリントの輪郭を加えましょう。右ツールバーにある '図形ライン（またはポ"
+"リゴン）を入力' のボタン image:images/add_polygon.png[add_polygon_png] をク"
+"リックします。パーツの周囲にコネクタの外形を描きます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1272
@@ -3056,12 +3094,15 @@ msgid ""
 "save_library.png[save_library_png] on the top toolbar, using the default "
 "name MYCONN3."
 msgstr ""
+"トップツールバーにある 'アクティブなライブラリにモジュールを保存' のアイコン "
+"image:images/save_library.png[save_library_png] をクリックし、デフォルト名の"
+"MYCONN3で保存します。"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:1275
 #, no-wrap
 msgid "Note about portability of KiCad project files"
-msgstr ""
+msgstr "KiCadプロジェクトファイルの移植性について"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1279
@@ -3069,6 +3110,8 @@ msgid ""
 "What files do you need to send to someone so that they can fully load and "
 "use your KiCad project?"
 msgstr ""
+"あなたのKiCadプロジェクトを、他の人が完全に取り込んで使えるために、どのファイ"
+"ルを送る必要があるでしょうか？"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1286
@@ -3079,6 +3122,11 @@ msgid ""
 "schematic parts file _.lib_ and the footprints file __.mod__. Only this way "
 "will people have total freedom to modify the schematic and the board."
 msgstr ""
+"誰かとKiCadのプロジェクトを共有する時、回路図ファイル __.sch__ 、基板ファイ"
+"ル __.kicad_pcb__ 、プロジェクトファイル _.pro_ 、ネットリストファイル __."
+"net__ を、コンポーネントライブラリファイル _.lib_ 及びフットプリントライブラ"
+"リファイル __.mod__ と一緒に送ることが重要です。この方法でのみ完全に自由に回"
+"路図と基板を変更することができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1298
@@ -3094,6 +3142,15 @@ msgid ""
 "necessary to load the _.mod_ files in the preferences of _Pcbnew_ in order "
 "for those modules to show up in __Cvpcb__."
 msgstr ""
+"KiCadの回路図では、回路図記号を含む _.lib_ ファイルが必要です。それらのライブ"
+"ラリファイルは _Eeschema_ の設定で読み込まれる必要があります。一方、基板( __."
+"kicad_pcb__ ファイル)では、モジュール(フットプリント)は _.kicad_pcb_ ファイル"
+"の中に保存させることができます。誰かに _.kicad_pcb_ ファイルだけを送っても、"
+"彼はその基板を見たり編集したりできるわけです。しかし、もし彼がネットリストか"
+"らコンポーネントを読み込みたいのであれば、モジュールライブラリ (__.mod__ ファ"
+"イル) が存在し、回路図の場合と同様に、 _Pcbnew_ の設定で読み込まれている必要"
+"があります。同様に、 __Cvpcb__ でモジュールが表示されるようにするためには、 "
+"_Pcbnew_ の設定で _.mod_ ファイルが読み込まれていることが必要です。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1306
@@ -3105,6 +3162,13 @@ msgid ""
 "*File* -> *Archive* -> *Footprints* -> **Create footprint archive**, which "
 "will create a new _.mod_ file with all the board's modules."
 msgstr ""
+"もし誰かが モジュール付きの _.kicad_pcb_ ファイルを送ってくれたら、あなたはそ"
+"れを他の基板でも利用したいでしょう。モジュールエディタを開き、現在の基板から"
+"モジュールを読み込み、保存するか別のモジュールライブラリファイルにエクスポー"
+"トします。 _.kicad_pcb_ ファイルから全てのモジュールを一度にエクスポートする"
+"こともできます。 *Pcbnew* -> *ファイル* -> *フットプリントのアーカイブ* -> *"
+"フットプリント* -> **フットプリントアーカイブの作成** で、基板の全てのモ"
+"ジュールを含んだ新しい _.mod_ ファイルが作成されます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1312
@@ -3115,6 +3179,10 @@ msgid ""
 "it is highly recommended that you zip and send the following project "
 "directory:"
 msgstr ""
+"結論として、PCBだけを配布したいのなら、基板ファイル _.kicad_pcb_ だけで十分で"
+"す。しかし、あなたが他の人に、回路図と部品と基板の、利用と変更の完全な自由を"
+"与えたいのならば、以下のプロジェクトディレクトリをzipして送ることをお勧めいた"
+"します。"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:1326
@@ -3150,7 +3218,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1330
 #, no-wrap
 msgid "Forward annotation in KiCad"
-msgstr ""
+msgstr "KiCadの前方向アノテーション"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1336
@@ -3159,6 +3227,9 @@ msgid ""
 "the board layout and generated the Gerber files, you are ready to send "
 "everything to a PCB manufacturer so that your board can become reality."
 msgstr ""
+"電子回路図、フットプリントの割り当て、基板レイアウト、ガーバーファイルの生成"
+"を完了したら、基板を現実のものとするために、PCBメーカーに全てを送る準備ができ"
+"ました。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1344
@@ -3170,18 +3241,23 @@ msgid ""
 "more. During this modification process, what you do not want to do is to re-"
 "route the whole board again from scratch. Instead, this is how you do it:"
 msgstr ""
+"しばしば、この線形の作業の流れは一方向ではなくなります。例えば、既にこの作業"
+"の流れを完了していたはずの基板を変更/拡張しなければならない時ですが、あなた"
+"は、部品を動かしたり、他のものと入れ替えたり、部品を変更したり、等々する必要"
+"が起こりえます。この変更の作業の中で、あなたがやりたくないことは基板全体を一"
+"から配線し直すことでしょう。代わりにこのようにすべきです:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1347
 msgid ""
 "Let's suppose that you want to replace a hypothetical connector CON1 with "
 "CON2."
-msgstr ""
+msgstr "仮想的なコネクタのCON1をCON2と入れ替えたいと想定しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1349
 msgid "You already have a completed schematic and a fully routed PCB."
-msgstr ""
+msgstr "あなたは既に完成した回路図と配線を終えたPCBを持っています。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1355
@@ -3191,6 +3267,10 @@ msgid ""
 "[Save icon] and c lick on the 'Netlist generation' icon image:images/netlist."
 "png[netlist_png] on the top toolbar."
 msgstr ""
+"KiCadから __EESchema__ を起動して、CON1を削除しCON2を追加して変更を行います。"
+"アイコン image:images/save.png[Save icon] で回路図プロジェクトを保存して、"
+"トップツールバーにある 'ネットリストの生成' のアイコン image:images/netlist."
+"png[netlist_png] をクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1358
@@ -3198,6 +3278,8 @@ msgid ""
 "Click on 'Netlist' then on 'save'. Save to the default file name.  You have "
 "to rewrite the old one."
 msgstr ""
+"'ネットリスト' をクリックし '保存' します。デフォルトのファイル名で保存しま"
+"しょう。古いファイルを上書きします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1364
@@ -3207,6 +3289,10 @@ msgid ""
 "footprint to the new device CON2. The rest of the components still have the "
 "previous footprints assigned to them. Close __Cvpcb__."
 msgstr ""
+"CON2にフットプリントを割り当てます。トップツールバーにある 'Cvpcbを実行' のア"
+"イコン image:images/icon_cvpcb_small.png[icon_cvpcb_small_png] をクリックしま"
+"す。新しいデバイスのCON2にフットプリントを割り当てます。残りのコンポーネント"
+"は以前に割り当てたフットプリントのままです。 __Cvpcb__ を閉じます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1367
@@ -3214,6 +3300,8 @@ msgid ""
 "Back in the schematic editor, save the project by clicking on 'File' -> "
 "'Save Whole Schematic Project'. Close the schematic editor."
 msgstr ""
+"回路図エディタに戻り、 'ファイル' -> 'Save Whole Schematic Project' をクリッ"
+"クしてプロジェクトを保存します。回路図エディタを閉じます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1370
@@ -3221,6 +3309,8 @@ msgid ""
 "From the KiCad project manager, click on the 'PCBNew' icon. The 'PCBNew' "
 "window will open."
 msgstr ""
+"KiCadプロジェクト・マネージャから 'PCBNew' のアイコンをクリックします。 "
+"'PCBNew' のウィンドウが開きます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1374
@@ -3229,6 +3319,9 @@ msgid ""
 "new netlist file. Click on the 'Read Netlist' icon image:images/netlist.png"
 "[netlist_png] on the top toolbar."
 msgstr ""
+"古い、配線済みの基板が自動的に開きます。新しいネットリストファイルをインポー"
+"トしましょう。トップツールバーにある 'ネットリストの読込み' のアイコン image:"
+"images/netlist.png[netlist_png] をクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1378
@@ -3237,6 +3330,9 @@ msgid ""
 "file selection dialogue, and click on 'Read Current Netlist'.  Then click "
 "the 'Close' button."
 msgstr ""
+"'ネットリストファイルを参照する' ボタンをクリックして、ネットリストファイルを"
+"選択し、 '現在のネットリストを読み込む' をクリックします。そして '閉じる' ボ"
+"タンをクリックします。 "
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1383
@@ -3246,6 +3342,9 @@ msgid ""
 "unrouted components, in our case the CON2. Select CON2 with the mouse.  Move "
 "the component to the middle of the board."
 msgstr ""
+"この時点で、以前の全ての部品が配線済みのレイアウトが見られます。左上の隅に全"
+"ての未配線の部品、今回の例ではCON2が見えるでしょう。マウスでCON2を選択しま"
+"す。基板の中央まで移動しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1386
@@ -3253,6 +3352,8 @@ msgid ""
 "Place CON2 and route it. Once done, save and proceed with the Gerber file "
 "generation as usual."
 msgstr ""
+"CON2を配置して配線します。完了したらいつものように保存してガーバーファイルの"
+"生成をしましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1394
@@ -3264,12 +3365,17 @@ msgid ""
 "modifications in your schematic and netlist file. The Backward Annotation "
 "method, however, is not that useful and is therefore not described here."
 msgstr ""
+"ここに書いた手順は必要に応じて何度でも容易に繰り返すことが可能です。上述した"
+"前方向アノテーションとは別に、後方向アノテーションとして知られる別の方法があ"
+"ります。この方法はPCBNewで配線済みにした基盤の変更を、回路図とネットリストに"
+"反映することを可能にします。が、後方向アノテーションはそんなに便利ではないの"
+"でここでは書きません。"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:1397
 #, no-wrap
 msgid "More about KiCad documentation"
-msgstr ""
+msgstr "KiCadドキュメントの詳細"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1402
@@ -3278,6 +3384,9 @@ msgid ""
 "detailed instructions consult the help files which you can access through "
 "each KiCad module. Click on *Help* -> **Contents** or **Manual**."
 msgstr ""
+"これはKiCadの大部分の機能のクイックガイドでした。より詳細な手順については、そ"
+"れぞれのKiCadツールから参照できるヘルプファイルを参照して下さい。 *ヘルプ* -"
+"> *内容* もしくは *マニュアル* をクリックです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1405
@@ -3285,11 +3394,13 @@ msgid ""
 "KiCad comes with a pretty good set of multi-language manuals for all its "
 "four software components."
 msgstr ""
+"KiCadには、その4つのソフトウェアコンポーネント全てに、とても良い多言語のマ"
+"ニュアルが付いてきます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1407
 msgid "The English version of all KiCad manuals are distributed with KiCad."
-msgstr ""
+msgstr "全KiCadマニュアルの英語版はKiCadと一緒に配布されます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1413
@@ -3300,6 +3411,10 @@ msgid ""
 "with all recent versions of KiCad. This tutorial as well as the manuals can "
 "be found in the following directories:"
 msgstr ""
+"それらのマニュアルの他、KiCadはこの部分的に他の言語に翻訳されたチュートリアル"
+"と一緒に配布されます。このチュートリアルのPDF版とlibreoffice(.odt)版が無料で"
+"全ての最新版のKiCadと共に配布されます。このチュートリアルとマニュアルは以下の"
+"ディレクトリで見つけられるでしょう:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1416
@@ -3314,7 +3429,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1419
 #, no-wrap
 msgid "KiCad Frequently Asked Questions (FAQ)"
-msgstr ""
+msgstr "KiCad よくある質問 (FAQ)"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1423
@@ -3323,3 +3438,5 @@ msgid ""
 "www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions[FAQ] list "
 "available."
 msgstr ""
+"とても良くて頻繫に更新される情報元としてKiCadのFAQのリストがあります。 "
+"http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions[FAQ]"
