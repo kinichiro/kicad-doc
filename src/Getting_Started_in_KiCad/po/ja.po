@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-29 00:32+0900\n"
+"PO-Revision-Date: 2015-06-29 22:18+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -2316,7 +2316,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:944
 #, no-wrap
 msgid "Make schematic components in KiCad"
-msgstr ""
+msgstr "KiCad回路図コンポーネントの作成"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:951
@@ -2327,6 +2327,11 @@ msgid ""
 "created with KiCad. Nevertheless, remember that you can always find KiCad "
 "components on the Internet. For instance from here:"
 msgstr ""
+"あなたが回路図に配置したいコンポーネントがKiCadのライブラリの中にないことがあ"
+"ります。これは当たり前のことで嘆くことではありません。この節では、新しい回路"
+"図コンポーネントがKiCadでいかに素早く作れるのかを見ていきましょう。しかし、"
+"KiCadコンポーネントはいつでもインターネット上で見つけられることも覚えておきま"
+"しょう。例えば、ここからです:"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:953
@@ -2341,6 +2346,10 @@ msgid ""
 "with the extension __.lib__. If you want to add components to a library file "
 "you can just use the cut and paste commands."
 msgstr ""
+"KiCadでは、コンポーネントは 'DEF' で始まり 'ENDDEF' で終わるテキストの断片で"
+"す。普通は一つ以上のコンポーネントが拡張子 __.lib__ のライブラリファイルに含"
+"まれています。コンポーネントをライブラリファイルに追加したいなら、あなたはた"
+"だカット＆ペーストを使えばよいのです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:963
@@ -2350,6 +2359,10 @@ msgid ""
 "'library'. Inside we will put our new library file _myLib.lib_ as soon as we "
 "have created our new component."
 msgstr ""
+"新しいコンポーネントの作成には _コンポーネント・ライブラリ・エディタ_ "
+"(__EESchema__ の一部) を使います。プロジェクトフォルダ 'demo1' 内に "
+"'library' というフォルダを作りましょう。新コンポーネントを作ったら、そこに新"
+"しいライブラリファイル _myLib.lib_ を置きましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:972
@@ -2362,6 +2375,13 @@ msgid ""
 "the 'Number of parts per package' as '1'. Click OK. If the warning appears "
 "just click yes."
 msgstr ""
+"さあ新しいコンポーネントの作成を始めましょう。KiCadから __EESchema__ を起動し"
+"て、'ライブラリ・エディタ' のアイコン image:images/libedit.png[libedit_png] "
+"をクリックし、'新規コンポーネント作成' のアイコン image:images/new_component."
+"png[new_component_png] をクリックします。コンポーネント・プロパティのウィンド"
+"ウが現れます。新しいコンポーネントを 'MYCONN3' と名付け、'標準のリファレンス"
+"のデジグネータ' を 'J' に、'パッケージごとのパーツ数' を '1' に設定します。OK"
+"をクリックします。警告が出たらyesをクリックしておきます。 "
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:977
@@ -2371,6 +2391,10 @@ msgid ""
 "toolbar. To place the pin, left click in the centre of the part editor sheet "
 "just below the 'MYCONN3' label."
 msgstr ""
+"この時点ではコンポーネントは、そのラベルだけで構成されています。ピンをいくつ"
+"か足してみましょう。右ツールバーにある 'コンポーネントにピンを追加' のアイコ"
+"ン image:images/pin.png[pin_png] をクリックします。ピンを配置するには、シート"
+"の 'MYCONN3' ラベルの下あたりを左クリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:981
@@ -2379,6 +2403,8 @@ msgid ""
 "the pin number to '1', and the 'Electrical type' to 'Power output' then "
 "click OK."
 msgstr ""
+"現れた 'ピンのプロパティ' ウィンドウで、ピン名を 'VCC' 、ピン番号を '1' 、'エ"
+"レクトリックタイプ' を '電源出力' と設定してOKをクリックします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:983
@@ -2391,6 +2417,7 @@ msgid ""
 "Place the pin by clicking on the location you would like it to go, right "
 "below the 'MYCONN3' label."
 msgstr ""
+"適当な場所、 'MYCONN3' ラベルの右下あたり、をクリックしてピンを配置します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:990
@@ -2398,6 +2425,8 @@ msgid ""
 "Repeat the place-pin steps, this time 'Pin name' should be 'INPUT', 'Pin "
 "number' should be '2', and 'Electrical Type' should be 'Power input'."
 msgstr ""
+"ピン配置のステップを繰り返します。今度は 'ピン名' は 'INPUT' で、 'ピン番号' "
+"は '2' で、 'エレクトリックタイプ' は '電源入力' とします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:996
@@ -2407,6 +2436,10 @@ msgid ""
 "Arrange the pins one on top of the other. The component label 'MYCONN3' "
 "should be in the centre of the page (where the blue lines cross)."
 msgstr ""
+"ピン配置のステップを繰り返します。今度は 'ピン名' は 'GND' で、 'ピン番号' "
+"は '3' で、 'エレクトリックタイプ' は '電源出力' とします。ピンを順に重ねて配"
+"置します。コンポーネントのラベルの 'MYCONN3' をページの中心(青いラインが交差"
+"する所)にします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1002
@@ -2417,6 +2450,11 @@ msgid ""
 "the top left corner of the rectangle to be. Click again where you want the "
 "bottom right corner of the rectangle to be."
 msgstr ""
+"次にコンポーネントの輪郭を描きましょう。 'コンポーネントのボディに矩形を入"
+"力' のアイコン image:images/add_rectangle.png[add_rectangle_png] をクリックし"
+"ます。以下に示すようにピンに隣接して長方形を描きます。まず、長方形の左上の角"
+"にしたい所をクリックします。そして、長方形の右下の角にしたい所をクリックしま"
+"す。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1004
@@ -2434,6 +2472,10 @@ msgid ""
 "icon image:images/new_library.png[new_library_png], navigate into _demo1/"
 "library/_ folder and save the new library file with the name __myLib.lib__."
 msgstr ""
+"コンポーネントをあなたのライブラリ __myLib.lib__ に保存しましょう。 '新規ライ"
+"ブラリ' のアイコン image:images/new_library.png[new_library_png] をクリックし"
+"て、フォルダ _demo1/library/_ を選び、新しいライブラリファイルを __myLib."
+"lib__ という名前で保存します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1012
@@ -2441,6 +2483,8 @@ msgid ""
 "Go to *Preferences* -> *Library* and add both _demo1/library/_ in 'User "
 "defined search path' and _myLib.lib in_ 'Component library files'."
 msgstr ""
+"*設定* -> *ライブラリ* で、 _demo1/library/_ を 'ユーザ定義の検索パス' に追加"
+"し、 _myLib.lib_ を 'コンポーネントライブラリファイル' に追加します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1017
@@ -2450,6 +2494,10 @@ msgid ""
 "Notice how the heading of the window indicates the library currently in use, "
 "which now should be __myLib__."
 msgstr ""
+"'作業ライブラリの選択' のアイコン image:images/library.png[library_png] をク"
+"リックします。ライブラリの選択ウィンドウ内で  _myLib_ を選択してOKをクリック"
+"します。ウィンドウの上部が現在使用中のライブラリを示しており、それが "
+"__myLib__ であることに注意しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1025
@@ -2461,6 +2509,13 @@ msgid ""
 "any confirmation messages that appear.  The new schematic component is now "
 "done and available in the library indicated in the window title bar."
 msgstr ""
+"トップツールバーにある '新しいライブラリへ現在のコンポーネントを保存' のアイ"
+"コン image:images/save_part_in_mem.png[save_part_in_mem_png] をクリックしま"
+"す。トップツールバーにある 'ディスクに現在のライブラリを保存' のアイコン "
+"image:images/save_library.png[save_library_png] をクリックして変更を全て保存"
+"します。どの確認メッセージにも 'はい' をクリックして下さい。新しい回路図コン"
+"ポーネントは完成して、ウィンドウのタイトルバーに示されているライブラリから使"
+"えます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1029
@@ -2469,6 +2524,9 @@ msgid ""
 "the schematic editor window. Your new component will now be available to you "
 "from the library __myLib__."
 msgstr ""
+"コンポーネントライブラリエディタのウィンドウを閉じます。回路図エディタのウィ"
+"ンドウに戻ります。あなたの新しいコンポーネントはライブラリ __myLib__ から利用"
+"できます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1034
@@ -2478,12 +2536,16 @@ msgid ""
 "add both the path to it in 'User defined search path' and _file.lib_ in "
 "'Component library files'."
 msgstr ""
+"ライブラリパスに追加することによって、ライブラリの _file.lib_ ファイルを利用"
+"できるようになります。 __EESchema__ から *設定* -> *ライブラリ* として、それ"
+"へのパスを 'ユーザ定義の検索パス' に追加し、 _file.lib_ を 'コンポーネントラ"
+"イブラリファイル' に追加します。"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:1037
 #, no-wrap
 msgid "Export, import and modify library components"
-msgstr ""
+msgstr "ライブラリコンポーネントのエクスポート、インポート、変更"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1043
@@ -2493,6 +2555,10 @@ msgid ""
 "how to export a component from the KiCad standard library 'device' to your "
 "own library _myOwnLib.lib_ and then modify it."
 msgstr ""
+"一からライブラリコンポーネントを作るよりも、既に作られたものから始めてそれを"
+"変更する方が簡単なこともあります。この節では、KiCadの標準ライブラリ 'device' "
+"から、あなた独自のライブラリ _myOwnLib.lib_ にコンポーネントをエクスポートし"
+"て、それを変更する方法を見ていきましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1050
@@ -2503,6 +2569,12 @@ msgid ""
 "on 'Load component to edit from the current lib' icon image:images/"
 "import_cmp_from_lib.png[import_cmp_from_lib_png] and import the 'RELAY_2RT'."
 msgstr ""
+"KiCadから __EESchema__ を起動して、 'ライブラリエディタ' のアイコン  image:"
+"images/libedit.png[libedit_png] をクリックして、 '作業ライブラリの選択' のア"
+"イコン image:images/library.png[library_png] をクリックし、 'device' ライブラ"
+"リを選びます。 'Load component to edit from the current lib' のアイコン "
+"image:images/import_cmp_from_lib.png[import_cmp_from_lib_png] をクリックして "
+"'RELAY_2RT' をインポートします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1054
@@ -2511,6 +2583,9 @@ msgid ""
 "navigate into the _library/_ folder and save the new library file with the "
 "name _myOwnLib.lib._"
 msgstr ""
+"'コンポーネントのエクスポート' のアイコン image:images/export.png"
+"[export_png] をクリックして、フォルダ _library/_ へ行き、新しいライブラリファ"
+"イルを _myOwnLib.lib_ という名前で保存します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1059
@@ -2520,6 +2595,10 @@ msgid ""
 "*Preferences* -> *Library* and add both _library/_ in 'User defined search "
 "path' and _myOwnLib.lib_ in the 'Component library files'."
 msgstr ""
+"ライブラリパスに追加することで、このコンポーネントとライブラリ全体 _myOwnLib."
+"lib_ が利用できるようになります。 __EESchema__ から *設定* -> *ライブラリ* と"
+"して、 _library/_ を 'ユーザ定義の検索パス' に追加し、 _myOwnLib.lib_ を 'コ"
+"ンポーネントライブラリファイル' に追加します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1064
@@ -2529,6 +2608,10 @@ msgid ""
 "OK. Notice how the heading of the window indicates the library currently in "
 "use, it should be __myOwnLib__."
 msgstr ""
+"'作業ライブラリの選択' のアイコン image:images/library.png[library_png] をク"
+"リックします。ライブラリの選択ウィンドウ内で  _myOwnLib_ を選択してOKをクリッ"
+"クします。ウィンドウの上部が現在使用中のライブラリを示しており、それが "
+"__myOwnLib__ であることに注意しましょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1068
@@ -2536,6 +2619,9 @@ msgid ""
 "Click on the 'Load component to edit from the current lib' icon image:images/"
 "import_cmp_from_lib.png[import_cmp_from_lib_png] and import the 'RELAY_2RT'."
 msgstr ""
+"'Load component to edit from the current lib' のアイコン image:images/"
+"import_cmp_from_lib.png[import_cmp_from_lib_png] をクリックして 'RELAY_2RT' "
+"をインポートします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1071
@@ -2543,6 +2629,8 @@ msgid ""
 "You can now modify the component as you like. Hover over the label "
 "'RELAY_2RT', press the e key and rename it 'MY_RELAY_2RT'."
 msgstr ""
+"これでコンポーネントを好きなように変更できます。マウスカーソルをラベル "
+"'RELAY_2RT' に重ねて e キーを押して 'MY_RELAY_2RT' にリネームします。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1077
@@ -2552,6 +2640,11 @@ msgid ""
 "changes by clicking on the 'Save current loaded library on disk' icon image:"
 "images/save_library.png[save_library_png] in the top toolbar."
 msgstr ""
+"トップツールバーにある '新しいライブラリへ現在のコンポーネントを保存' のアイ"
+"コン image:images/save_part_in_mem.png[save_part_in_mem_png] をクリックしま"
+"す。トップツールバーにある 'ディスクに現在のライブラリを保存' のアイコン "
+"image:images/save_library.png[save_library_png] をクリックして変更を全て保存"
+"します。"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:1080
