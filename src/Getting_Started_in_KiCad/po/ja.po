@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-29 22:18+0900\n"
+"PO-Revision-Date: 2015-06-29 23:40+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -2650,7 +2650,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:1080
 #, no-wrap
 msgid "Make schematic components with quicklib"
-msgstr ""
+msgstr "quicklibによる回路図コンポーネントの作成"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1085
@@ -2658,12 +2658,16 @@ msgid ""
 "This section presents an alternative way of creating the schematic component "
 "for MYCONN3 (refer to page 9) using the Internet tool __quicklib__."
 msgstr ""
+"この節では、インターネットのツール __quicklib__ を使った、回路図コンポーネン"
+"ト MYCONN3 (9ページ参照) の別の作成方法を紹介します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1088
 msgid ""
 "Head to the _quicklib_ we bpage: http://kicad.rohrbacher.net/quicklib.php"
 msgstr ""
+"_quicklib_ のウェブページに行きましょう: http://kicad.rohrbacher.net/"
+"quicklib.php"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1091
@@ -2671,6 +2675,8 @@ msgid ""
 "Fill out the page with the following information: Component name: MYCONN3 "
 "Reference Prefix: J Pin Layout Style: SIL Pin Count, N: 5"
 msgstr ""
+"ページに次の情報を入力しましょう: Component name: MYCONN3、 Reference "
+"Prefix: J、 Pin Layout Style: SIL、 Pin Count, N: 5"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1094
@@ -2678,6 +2684,8 @@ msgid ""
 "Click on the 'Assign Pins' icon. Fill out the page with the following "
 "information: Pin 1: VCC Pin 2: input Pin 3: GND"
 msgstr ""
+"'Assign Pins' をクリックします。ページに次の情報を入力しましょう: Pin 1: "
+"VCC、 Pin 2: input、 Pin 3: GND"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1098
@@ -2686,6 +2694,9 @@ msgid ""
 "'Build Library Component'. Download the file and rename it __demo1/library/"
 "myLib.lib.__. You are done!"
 msgstr ""
+"'Preview' をクリックします。満足なら 'Build Library Component' をクリックしま"
+"す。 ファイルをダウンロードして __demo1/library/myLib.lib__ と名付けます。で"
+"きました！"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1104
@@ -2695,6 +2706,11 @@ msgid ""
 "[libedit_png], click on the 'Import Component' icon image:images/import.png"
 "[import_png], navigate to _demo1/library/_ and select _myLib.lib._"
 msgstr ""
+"それをKiCadを使って見てみましょう。KiCadプロジェクト・マネージャから  "
+"__EESchema__ を起動して、 'ライブラリエディタ' のアイコン image:images/"
+"libedit.png[libedit_png] をクリックし、 'コンポーネントのインポート' のアイコ"
+"ン image:images/import.png[import_png] をクリックし、 _demo1/library/_ へ行"
+"き _myLib.lib_ を選択します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1106
@@ -2713,6 +2729,10 @@ msgid ""
 "*Preferences* -> *Library* and add both _library_ in 'User defined search "
 "path' and _myOwnLib.lib_ in 'Component library files'."
 msgstr ""
+"KiCadライブラリパスに追加することで、このコンポーネントとライブラリ全体 "
+"_myLib.lib_ が利用できるようになります。 __EESchema__ から *設定* -> *ライブ"
+"ラリ* として、 _library_ を 'ユーザ定義の検索パス' に追加し、 _myOwnLib.lib_ "
+"を 'コンポーネントライブラリファイル' に追加します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1116
@@ -2720,12 +2740,14 @@ msgid ""
 "As you might guess, this method of creating library components can be quite "
 "effective when you want to create components with a large pin count."
 msgstr ""
+"このライブラリコンポーネント作成方法は、たくさんのピンを持つコンポーネントを"
+"作りたい時に非常に効果的であると想像できるでしょう。"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:1119
 #, no-wrap
 msgid "Make a high pin count schematic component"
-msgstr ""
+msgstr "大量ピンの回路図コンポーネントの作成"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1126
@@ -2736,6 +2758,10 @@ msgid ""
 "with a high number of pins (some hundreds of pins). In KiCad, this is not a "
 "very complicated task."
 msgstr ""
+"_quicklibによる回路図コンポーネントの作成_ の節で、ウェブベースのツール "
+"_quicklib_ を使った回路図コンポーネントの作成方法を見ました。しかし、時に、大"
+"量ピン(数百のピン)を持つ回路図コンポーネントを作る必要があることに気付くで"
+"しょう。KiCadでは、これはそんなにややこしい仕事ではありません。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1131
@@ -2745,6 +2771,9 @@ msgid ""
 "drawings, for example two drawings with 25 pins each. This component "
 "representation allows for easy pin connection."
 msgstr ""
+"50ピンのデバイスのための回路図コンポーネントを作成したいとします。複数の少量"
+"ピンの図形、例えば25ピンの図形を2つ、を使ってそれを描くのが一般的な方法です。"
+"このコンポーネント表現はピン接続が容易でしょう。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1136
@@ -2754,6 +2783,9 @@ msgid ""
 "finally merge the two by using copy and paste to make them into one single "
 "DEF and ENDDEF component."
 msgstr ""
+"このコンポーネントを作成する最良の方法は、_quicklib_ を使って別々に25ピンのコ"
+"ンポーネントを生成して、Pythonスクリプトでそれらのピン番号を振り直し、最終的"
+"に2つを統合して一組のDEFとENDDEFの中にコピー＆ペーストすることです。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1142
@@ -2763,12 +2795,16 @@ msgid ""
 "line: +X PIN1 1 -750 600 300 R 50 50 1 1 I+ into +X PIN26 26 -750 600 300 R "
 "50 50 1 1 I+ this is done for all lines in the file __in.txt__."
 msgstr ""
+"以下に _in.txt_ ファイルと _out.txt_ ファイルと連動して使えるシンプルなPython"
+"スクリプトの例を示します。これは __in.txt__ ファイルの中の全ての行に対して、 "
+"+X PIN1 1 -750 600 300 R 50 50 1 1 I+ を +X PIN26 26 -750 600 300 R 50 50 1 "
+"1 I+ のように数字の振り替えをします。"
 
 #. type: Block title
 #: Getting_Started_in_KiCad.adoc:1143
 #, no-wrap
 msgid "Simple script"
-msgstr ""
+msgstr "シンプルなスクリプト"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:1166
@@ -2824,12 +2860,16 @@ msgid ""
 "does not end up on top of it. Below you will find the final .lib file and "
 "its representation in __EESchema__."
 msgstr ""
+"2つのコンポーネントを一つに統合するために、EESchemaからライブラリエディタを"
+"使って、1番目のコンポーネントを移動し、2番目に重ならないようにしてやる必要が"
+"あるでしょう。以下に最終的な .lib ファイルとその __EESchema__ での表現を示し"
+"ます。"
 
 #. type: Block title
 #: Getting_Started_in_KiCad.adoc:1173
 #, no-wrap
 msgid "Contents of a *.lib file"
-msgstr ""
+msgstr "*.lib ファイルの内容"
 
 #. type: delimited block -
 #: Getting_Started_in_KiCad.adoc:1185
@@ -2894,6 +2934,9 @@ msgid ""
 "the arcane and yet amazingly useful Regular Expression syntax: _http://"
 "gskinner.com/RegExr/._"
 msgstr ""
+"ここで紹介しているPythonスクリプトは、ピン番号とピンラベルを操作するとても強"
+"力なツールです。その威力が、難解だが驚くほど便利な正規表現構文によるというこ"
+"とを覚えておいて下さい: _http://gskinner.com/RegExr/_"
 
 #. type: Title -
 #: Getting_Started_in_KiCad.adoc:1203
