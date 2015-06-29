@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EeSchema-ja\n"
 "POT-Creation-Date: 2015-06-23 00:41+0900\n"
-"PO-Revision-Date: 2015-06-28 23:56+0900\n"
+"PO-Revision-Date: 2015-06-29 18:27+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -16,7 +16,8 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 
 # 1st:0800_06282015
-# 2nd:
+# 2nd:0000_06292015
+# 3rd:1800_06292015 - Freezed so far.
 #. type: Title =
 #: Eeschema.adoc:8
 #, no-wrap
@@ -51,9 +52,9 @@ msgid ""
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あな"
-"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ), "
-"version 3以降、あるいはクリエイティブ·コモンズライセンス ( http://"
-"creativecommons.org/licenses/by/3.0/ ), version 3.0 以降のいずれかの条件の下"
+"たは、GNU General Public License  (http://www.gnu.org/licenses/gpl.html), "
+"version 3以降、あるいはクリエイティブ·コモンズライセンス  (http://"
+"creativecommons.org/licenses/by/3.0/), version 3.0 以降のいずれかの条件の下"
 "で、それを配布し、そして/または、それを変更することができます。"
 
 #. type: Plain text
@@ -883,7 +884,7 @@ msgid ""
 "components with multiple units and alternate symbols.\n"
 msgstr ""
 "|image:images/100002010000001A0000001A2096B8A2.png[100002010000001A0000001A2096B8A2_png]\n"
-"|ピンを編集する：多パーツコンポーネントおよび別のシンボルを持つ場合、\n"
+"|ピンを編集する：多パーツコンポーネントおよび代替シンボルを持つ場合、\n"
 "ピンの形状と位置は個別に編集\n"
 
 #. type: Title ^
@@ -2089,7 +2090,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:642
 msgid "Pin names starting with “#”, are reserved for power port symbols."
-msgstr "“#“で始まるピン名は電源ポート用に予約されています。"
+msgstr "“#”で始まるピン名は電源ポート用に予約されています。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:644
@@ -2097,8 +2098,9 @@ msgid ""
 "A pin “number” consists of 1 to 4 letters and/ or numbers. 1,2,..9999 are "
 "valid numbers. A1, B3, Anod, Gnd, Wi r e, etc. are also valid."
 msgstr ""
-"ピン“番号“は1～4文字の英数字から成ります。1、2、...、9999は有効な数字ですが、"
-"A1、B3...(標準的なPGAの表記法)、あるいはAnod、Gnd、Wine なども有効です。"
+"ピン “番号” は１～４文字の英数字から成ります。1、2、...、9999 は有効な数字で"
+"すが、A1、B3 ...(標準的な PGA の表記法)、あるいは Anod、Gnd、Wine なども有効"
+"です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:645
@@ -2515,16 +2517,16 @@ msgid ""
 "library LIBNAME."
 msgstr ""
 "フットプリントは、LIBNAME:FPNAME フォーマットを用いた完全なフットプリントとし"
-"て定義される。ここでの、LIBNAME はフットプリントライブラリテーブル中で定義さ"
-"れたフットプリントライブラリの名前であり、FPNAME は LIBNAME ライブラリ中での"
-"フットプリントの名前を表す。（Pcbnew “リファレンス・マニュアル”の\"フットプリ"
-"ントライブラリテーブル\"を参照）"
+"て定義されます。ここでの、LIBNAME はフットプリントライブラリテーブル中で定義"
+"されたフットプリントライブラリの名前であり、FPNAME は LIBNAME ライブラリ中で"
+"のフットプリントの名前を表します。（Pcbnew “リファレンス・マニュアル”の“フッ"
+"トプリントライブラリテーブル“を参照）"
 
 #. type: Title ~
 #: Eeschema_component_library_editor.adoc:808
 #, no-wrap
 msgid "Power Symbols"
-msgstr ""
+msgstr "電源ポートシンボル"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:816
@@ -2536,6 +2538,12 @@ msgid ""
 "capture software. Some precautions are essential. Below is an example of a "
 "power +5V symbol."
 msgstr ""
+"電源ポートのシンボルは通常のコンポーネントと同様に作成します。Power.lib のよ"
+"うな専用のライブラリにそれらを集めるのが便利かもしれません。それらはグラフィ"
+"カルなシンボル(希望する形状)で構成され、“非表示電源“タイプのピンです。電源"
+"ポートのシンボルはこのため回路図入力ソフトウェアで 他のすべてのコンポーネント"
+"のように扱われます。いくつかの基本的な注意事項があります。以下は+5Vの電源シン"
+"ボルの例です。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:818
@@ -2543,11 +2551,13 @@ msgid ""
 "image:images/1000000000000438000002C20F7CD114.png"
 "[1000000000000438000002C20F7CD114_png]"
 msgstr ""
+"image:images/1000000000000438000002C20F7CD114.png"
+"[1000000000000438000002C20F7CD114_png]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:820
 msgid "To create a power symbol, use the following steps:"
-msgstr ""
+msgstr "以下のステップに従ってシンボルを作成します。:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:824
@@ -2556,21 +2566,24 @@ msgid ""
 "establish connection to the net +5V), with a pin number of 1 (number of no "
 "importance), a length of 0, and a “Line” “Graphic Style”."
 msgstr ""
+"+ 5V(+5Vのネットに接続を行う(establish)ので重要)という名前で “電源入力”タイプ"
+"のピンを追加します。ピンの番号は１(番号は重要ではない)で、長さは０、 形状（グ"
+"ラフィックスタイル）は“ライン”とします。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:826
 msgid "Place a small circle and a segment from the pin to the circle as shown."
-msgstr ""
+msgstr "小さな円とピンから円までの線分を配置します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:827
 msgid "The anchor of the symbol is on the pin."
-msgstr ""
+msgstr "ピン上にシンボルのアンカーを置きます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:828
 msgid "The component value is +5V."
-msgstr ""
+msgstr "コンポーネントの定数を+5Vとします。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:833
@@ -2581,6 +2594,11 @@ msgid ""
 "starts with a '#' will not appear in the component list or in the netlist "
 "and the reference is declared as invisible."
 msgstr ""
+"コンポーネントのリファレンスを#+5Vとします。リファレンスのテキストは、最初の"
+"文字を必ず\"#\"とします。それ以外の文字は重要ではありません。従来どおり、リ"
+"ファレンスがこのシンボルで始まるすべてのコンポーネントはコンポーネントリスト"
+"にもネットリストのどちらにも現れません。さらに、シンボルのオプションで、リ"
+"ファレンスは非表示として宣言されます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:836
@@ -2588,21 +2606,23 @@ msgid ""
 "An easier method to creat e of a new power port symbol is to use another "
 "symbol as model."
 msgstr ""
+"新規電源ポートシンボルの作成は、他のシンボルを型として使用すると容易にそして"
+"速くできます。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:838
 msgid "You just need to:"
-msgstr ""
+msgstr "単に以下のことをするだけです:"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:840
 msgid "Load an existing power symbol."
-msgstr ""
+msgstr "型となるシンボルを読み込む。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:841
 msgid "Edit the pin name with name of the new power symbol."
-msgstr ""
+msgstr "新規電源ポートの名前となるピン名を編集する。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:843
@@ -2610,23 +2630,25 @@ msgid ""
 "Edit the value field to the same name as the pin, if you want to display the "
 "power port value."
 msgstr ""
+"値フィールドを編集する(電源ポートの値を表示したい場合、ピン名と同じ名前にす"
+"る)。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:843
 msgid "Save the new component."
-msgstr ""
+msgstr "その新しいコンポーネントを保存する。"
 
 #. type: Title -
 #: Eeschema_create_a_netlist.adoc:4
 #, no-wrap
 msgid "Create a Netlist"
-msgstr ""
+msgstr "ネットリストの作成"
 
 #. type: Title ~
 #: Eeschema_create_a_netlist.adoc:7 Eeschema_libedit_complements.adoc:7
 #, no-wrap
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:11
@@ -2634,17 +2656,19 @@ msgid ""
 "A netlist is a file which describes electrical connections between "
 "components. In the netlist file you can find:"
 msgstr ""
+"ネットリストはコンポーネント間の電気的接続を記述したファイルです。ネットリス"
+"トのファイルには，次のものが含まれます:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:13
 msgid "The list of the components"
-msgstr ""
+msgstr "コンポーネントのリスト。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:15
 msgid ""
 "The list of connections between components, called equip-potential nets."
-msgstr ""
+msgstr "等電位ネットと呼ばれる、コンポーネント間の接続のリスト。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:20
@@ -2654,41 +2678,46 @@ msgid ""
 "use of schematic capture software, because the netlist is the link with "
 "other electronic CAD software, like:"
 msgstr ""
+"様々な異なるネットリストのフォーマットが存在します．コンポーネントのリストと"
+"等電位リストが２つの別々のファイルであることもあります．回路図入力 "
+"（capture）ソフトウェアの使用においては，このネットリストが基本となります．そ"
+"れはネットリストが次のような他の電子系CAD ソフトウェアとのリンクとなるからで"
+"す。:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:22
 msgid "PCB software."
-msgstr ""
+msgstr "PCB ソフトウェア。（基板設計ソフト）"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:23
 msgid "Schematic and PCB Simulators."
-msgstr ""
+msgstr "回路およびPCB シミュレータ。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:24
 msgid "CPLD (and other programmable IC's) compilers."
-msgstr ""
+msgstr "CPLD （および他のプログラマブルICの）コンパイラ。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:26
 msgid "Eeschema supports several netlist formats."
-msgstr ""
+msgstr "Eeschemaはいくつかのネットリストのフォーマットをサポートしています。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:28
 msgid "PCBNEW format (printed circuits)."
-msgstr ""
+msgstr "PCBNEWフォーマット（プリント配線）。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:29
 msgid "ORCAD PCB2 format (printed circuits)."
-msgstr ""
+msgstr "ORCAD PCB2 フォーマット（プリント配線）。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:30
 msgid "CADSTAR format (printed circuits)."
-msgstr ""
+msgstr "CADSTAR フォーマット（プリント配線）。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:32
@@ -2696,12 +2725,14 @@ msgid ""
 "Spice format, for various simulators (the Spice format is also used by other "
 "simulators)."
 msgstr ""
+"様々なシミュレータ用のSpice フォーマット（Spice フォーマットは他のシミュレー"
+"タにも使用される）。"
 
 #. type: Title ~
 #: Eeschema_create_a_netlist.adoc:35
 #, no-wrap
 msgid "Netlist format"
-msgstr ""
+msgstr "ネットリストフォーマット"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:40
@@ -2709,6 +2740,8 @@ msgid ""
 "Select the tool image:images/en/icon_netlist.png[Netlist icon] to open the "
 "netlist creation dialog box."
 msgstr ""
+"image:images/en/icon_netlist.png[Netlist icon] ツールを選択し、ネットリスト作"
+"成ダイアログボックスを開きます。"
 
 #. type: delimited block |
 #: Eeschema_create_a_netlist.adoc:45
@@ -2717,6 +2750,8 @@ msgid ""
 "|image:images/100000000000015B00000103C7B601A8.png[100000000000015B00000103C7B601A8_png]\n"
 "|Pcbnew selected\n"
 msgstr ""
+"|image:images/100000000000015B00000103C7B601A8.png[100000000000015B00000103C7B601A8_png]\n"
+"|Pcbnew を選択\n"
 
 #. type: delimited block |
 #: Eeschema_create_a_netlist.adoc:48
@@ -2725,6 +2760,8 @@ msgid ""
 "|image:images/100000000000015C0000010342AD04EC.png[100000000000015C0000010342AD04EC_png]\n"
 "|Spice selected\n"
 msgstr ""
+"|image:images/100000000000015C0000010342AD04EC.png[100000000000015C0000010342AD04EC_png]\n"
+"|Spice を選択\n"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:55
@@ -2734,28 +2771,33 @@ msgid ""
 "legible) or net numbers (old Spice versions accept numbers only). By "
 "clicking the Netlist button, you will be asked for a netlist file name."
 msgstr ""
+"それぞれのタブで希望するフォーマットを選択できます。Spice フォーマットでは、"
+"等電位の名称（その方が読みやすい）か、またはネット番号（Spiceの古いバージョン"
+"は番号のみ受け付ける）のどちらかでネットリストを生成することが可能です。ネッ"
+"トリストボタンをクリックすると、ネットリストファイルの名前を入力するよう促さ"
+"れます。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:57 Eeschema_hierarchical_schematics.adoc:236
 #, no-wrap
 msgid "*Note*\n"
-msgstr ""
+msgstr "* 注 *\n"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:59
 msgid "With big projects, the netlist generation can take up to few minutes."
-msgstr ""
+msgstr "大きなプロジェクトでは、ネットリストの生成に数分かかることがあります。"
 
 #. type: Title ~
 #: Eeschema_create_a_netlist.adoc:62
 #, no-wrap
 msgid "Netlist Examples"
-msgstr ""
+msgstr "ネットリストの例"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:65
 msgid "You can see below a schematic design using the PSPICE library."
-msgstr ""
+msgstr "PSPICE ライブラリを使用した回路設計は以下を参照して下さい。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:67
@@ -2763,11 +2805,13 @@ msgid ""
 "image:images/10000000000002BE0000017EB6C97C72.png"
 "[10000000000002BE0000017EB6C97C72_png]"
 msgstr ""
+"image:images/10000000000002BE0000017EB6C97C72.png"
+"[10000000000002BE0000017EB6C97C72_png]"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:69
 msgid "Example of a PCBNEW netlist file."
-msgstr ""
+msgstr "PCBNEWネットリストファイルの例です。"
 
 #. type: delimited block -
 #: Eeschema_create_a_netlist.adoc:129
@@ -2832,17 +2876,75 @@ msgid ""
 ")\n"
 "# End\n"
 msgstr ""
+"# Eeschema Netlist Version 1.0 generee le 21/1/1997-16:51:15\n"
+"(\n"
+"(32E35B76 $noname C2 1NF {Lib=C}\n"
+"(1 0)\n"
+"(2 VOUT_1)\n"
+")\n"
+"(32CFC454 $noname V2 AC_0.1 {Lib=VSOURCE}\n"
+"(1 N-000003)\n"
+"(2 0)\n"
+")\n"
+"(32CFC413 $noname C1 1UF {Lib=C}\n"
+"(1 INPUT_1)\n"
+"(2 N-000003)\n"
+")\n"
+"(32CFC337 $noname V1 DC_12V {Lib=VSOURCE}\n"
+"(1 +12V)\n"
+"(2 0)\n"
+")\n"
+"(32CFC293 $noname R2 10K {Lib=R}\n"
+"(1 INPUT_1)\n"
+"(2 0)\n"
+")\n"
+"(32CFC288 $noname R6 22K {Lib=R}\n"
+"(1 +12V)\n"
+"(2 INPUT_1)\n"
+")\n"
+"(32CFC27F $noname R5 22K {Lib=R}\n"
+"(1 +12V)\n"
+"(2 N-000008)\n"
+")\n"
+"(32CFC277 $noname R1 10K {Lib=R}\n"
+"(1 N-000008)\n"
+"(2 0)\n"
+")\n"
+"(32CFC25A $noname R7 470 {Lib=R}\n"
+"(1 EMET_1)\n"
+"(2 0)\n"
+")\n"
+"(32CFC254 $noname R4 1K {Lib=R}\n"
+"(1 +12V)\n"
+"(2 VOUT_1)\n"
+")\n"
+"(32CFC24C $noname R3 1K {Lib=R}\n"
+"(1 +12V)\n"
+"(2 N-000006)\n"
+")\n"
+"(32CFC230 $noname Q2 Q2N2222 {Lib=NPN}\n"
+"(1 VOUT_1)\n"
+"(2 N-000008)\n"
+"(3 EMET_1)\n"
+")\n"
+"(32CFC227 $noname Q1 Q2N2222 {Lib=NPN}\n"
+"(1 N-000006)\n"
+"(2 INPUT_1)\n"
+"(3 EMET_1)\n"
+")\n"
+")\n"
+"# End\n"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:132
 msgid "In PSPICE format, the netlist is as follows."
-msgstr ""
+msgstr "PSPICE フォーマットでは，ネットリストは次のようになります。"
 
 #. type: delimited block -
 #: Eeschema_create_a_netlist.adoc:135
 #, no-wrap
 msgid "* Eeschema Netlist Version 1.1 (Spice format) creation date: 18/6/2008-08:38:03\n"
-msgstr ""
+msgstr "* Eeschema Netlist Version 1.1 (Spice format) creation date: 18/6/2008-08:38:03\n"
 
 #. type: delimited block -
 #: Eeschema_create_a_netlist.adoc:139
@@ -2852,6 +2954,9 @@ msgid ""
 ".AC 10 1Meg \\*1.2\n"
 ".DC V1 10 12 0.5\n"
 msgstr ""
+".model Q2N2222 npn (bf=200)\n"
+".AC 10 1Meg \\*1.2\n"
+".DC V1 10 12 0.5\n"
 
 #. type: delimited block -
 #: Eeschema_create_a_netlist.adoc:161
@@ -2878,6 +2983,26 @@ msgid ""
 "Q2   N-000009 N-000012 N-000007 N-000007 Q2N2222\n"
 "Q1   N-000010 /VIN N-000007 N-000007 Q2N2222\n"
 msgstr ""
+"R12   /VOUT N-000003 22K\n"
+"R11   +12V N-000003 100\n"
+"L1   N-000003 /VOUT 100mH\n"
+"R10   N-000005 N-000004 220\n"
+"C3   N-000005 0 10uF\n"
+"C2   N-000009 0 1nF\n"
+"R8   N-000004 0 2.2K\n"
+"Q3   /VOUT N-000009 N-000004 N-000004 Q2N2222\n"
+"V2   N-000008 0 AC 0.1\n"
+"C1   /VIN N-000008 1UF\n"
+"V1   +12V 0 DC 12V\n"
+"R2   /VIN 0 10K\n"
+"R6   +12V /VIN 22K\n"
+"R5   +12V N-000012 22K\n"
+"R1   N-000012 0 10K\n"
+"R7   N-000007 0 470\n"
+"R4   +12V N-000009 1K\n"
+"R3   +12V N-000010 1K\n"
+"Q2   N-000009 N-000012 N-000007 N-000007 Q2N2222\n"
+"Q1   N-000010 /VIN N-000007 N-000007 Q2N2222\n"
 
 #. type: delimited block -
 #: Eeschema_create_a_netlist.adoc:164
@@ -2886,24 +3011,26 @@ msgid ""
 ".print ac v(vout)\n"
 ".plot ac v(nodes) (-1,5)\n"
 msgstr ""
+".print ac v(vout)\n"
+".plot ac v(nodes) (-1,5)\n"
 
 #. type: delimited block -
 #: Eeschema_create_a_netlist.adoc:166
 #, no-wrap
 msgid ".end\n"
-msgstr ""
+msgstr ".end\n"
 
 #. type: Title ~
 #: Eeschema_create_a_netlist.adoc:170
 #, no-wrap
 msgid "Note"
-msgstr ""
+msgstr "注"
 
 #. type: Title ^
 #: Eeschema_create_a_netlist.adoc:174
 #, no-wrap
 msgid "Netlist Name Precautions"
-msgstr ""
+msgstr "ネットリスト名の注意事項"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:179
@@ -2912,6 +3039,10 @@ msgid ""
 "names, pins, equipotentials or others. Systematically avoid spaces in "
 "labels, or names and value fields of components or their pins."
 msgstr ""
+"ネットリストを使用する多くのソフトウェアツールは，コンポーネント名，ピン名，"
+"等電位名（equipotentials）あるいは他の名前に空白（space）の使用を認めません。"
+"特に、ラベルあるいはコンポーネントやそのピンの名前と数値欄に空白を使用しない"
+"で下さい。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:184
@@ -2921,12 +3052,15 @@ msgid ""
 "to the netlist formats that can then become not translatable to softwares "
 "that use netlist files."
 msgstr ""
+"同様に、英数字以外の特殊文字の使用は問題を生じる可能性があります。この制限は "
+"Eeschema には無関係ですが、ネットリストを使用する他のソフトウェアが解釈できな"
+"くなるネットリスト・フォーマットであることに注意して下さい。"
 
 #. type: Title ^
 #: Eeschema_create_a_netlist.adoc:187
 #, no-wrap
 msgid "PSPICE netlists"
-msgstr ""
+msgstr "PSPICE ネットリスト"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:191
@@ -2934,6 +3068,8 @@ msgid ""
 "For the Pspice simulator, you have to include some command lines in the "
 "netlist itself (.PROBE, .AC, etc.)."
 msgstr ""
+"Pspice シミュレーターの場合、ネットリストの中にコマンド行（.PROBE, .AC など）"
+"をいくつか含める必要があります。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:195
@@ -2942,6 +3078,8 @@ msgid ""
 "pspice* or *-gnucap* will be inserted (without the keyword) at the top of "
 "the netlist."
 msgstr ""
+"回路図に含まれる-pspice または-gnucapのキーワードで始まるテキスト行は、ネット"
+"リストの先頭に（キーワードがない状態で）挿入されます。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:199
@@ -2950,11 +3088,13 @@ msgid ""
 "+pspice* or *+gnucap* will be inserted (without the keyword) at the end of "
 "the netlist."
 msgstr ""
+"回路図に含まれる+pspice または+gnucapのキーワードで始まるテキスト行は、ネット"
+"リストの先頭に（キーワードがない状態で）挿入されます。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:201
 msgid "Here is a sample using many one line texts and one multi-line text."
-msgstr ""
+msgstr "１行テキストを複数使用する例、複数行テキストを１つ使用する例です。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:203
@@ -2962,21 +3102,23 @@ msgid ""
 "image:images/100000000000021B000001BDEA9ADDBA.png"
 "[100000000000021B000001BDEA9ADDBA_png]"
 msgstr ""
+"image:images/100000000000021B000001BDEA9ADDBA.png"
+"[100000000000021B000001BDEA9ADDBA_png]"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:205
 msgid "For example: if you type the following text (do not use a label!):"
-msgstr ""
+msgstr "例えば：次のようなテキストを入力する場合（ラベルを使用しないこと！）:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:207
 msgid "-PSPICE .PROBE"
-msgstr ""
+msgstr "-PSPICE .PROBE"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:209
 msgid "a line .PROBE will be inserted in the netlist."
-msgstr ""
+msgstr ".PROBEの行はネットリストに挿入されます。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:212
@@ -2984,6 +3126,7 @@ msgid ""
 "In the previous example three lines were inserted at the beginning of the "
 "netlist and two at the end with this technique."
 msgstr ""
+"前述の例ではこの方法でネットリストの先頭に３行、末尾に２行挿入されました。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:215
@@ -2991,51 +3134,55 @@ msgid ""
 "If you are using multiline texts, *+pspice* or *+gnucap* keywords are needed "
 "only once:"
 msgstr ""
+"複数行テキストを使用している場合、+pspice または+gnucapのキーワードは１度だけ"
+"必要です:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:217
 msgid "+PSPICE .model NPN NPN"
-msgstr ""
+msgstr "+PSPICE .model NPN NPN"
 
 #. type: Block title
 #: Eeschema_create_a_netlist.adoc:218 Eeschema_create_a_netlist.adoc:228
 #, no-wrap
 msgid "model PNP PNP"
-msgstr ""
+msgstr "model PNP PNP"
 
 #. type: Block title
 #: Eeschema_create_a_netlist.adoc:220 Eeschema_create_a_netlist.adoc:230
 #, no-wrap
 msgid "lib C:\\Program Files\\LTC\\LTspiceIV\\lib\\cmp\\standard.bjt"
-msgstr ""
+msgstr "lib C:\\Program Files\\LTC\\LTspiceIV\\lib\\cmp\\standard.bjt"
 
 #. type: Block title
 #: Eeschema_create_a_netlist.adoc:222 Eeschema_create_a_netlist.adoc:232
 #, no-wrap
 msgid "backanno"
-msgstr ""
+msgstr "backanno"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:225
 msgid "creates the four lines:"
-msgstr ""
+msgstr "４行生成されます:"
 
 #. type: Block title
 #: Eeschema_create_a_netlist.adoc:226
 #, no-wrap
 msgid "model NPN NPN"
-msgstr ""
+msgstr "model NPN NPN"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:235
 msgid "Also note that the equipotential GND must be named 0 (zero) for Pspice."
 msgstr ""
+"またPspiceの場合、等電位のGNDは０（ゼロ）という名前にしなければならないことに"
+"注意して下さい。"
 
 #. type: Title ~
 #: Eeschema_create_a_netlist.adoc:238
 #, no-wrap
 msgid "Other formats, using plugins"
-msgstr ""
+msgstr "プラグインを使用する他のフォーマット"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:243
@@ -3044,6 +3191,9 @@ msgid ""
 "are automatically launched by Ee schema. Chapter 14 gives some explanations "
 "and examples of converters."
 msgstr ""
+"他のネットリスト・フォーマットの場合には、ネットリストコンバーターを追加する"
+"ことが可能です。Eeschema はそれらのコンバーターを自動的に起動します。コンバー"
+"ターの解説と例は14章にあります。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:249
@@ -3054,17 +3204,23 @@ msgid ""
 "the output file. In this case, the converter file (a sheet style) is very "
 "small and very easy to write."
 msgstr ""
+"コンバーターはテキストファイル（xsl フォーマット）ですが，Pythonのような他の"
+"言語を使用することが可能です。xsl フォーマットを使用する場合、ツール"
+"（xsltproc.exe あるいはxsltproc）は Eeschemaが生成した中間ファイルとコンバー"
+"ターファイルを読み込んで、出力ファイルを生成します。この場合、コンバーター"
+"ファイル（シートスタイル）は非常に小さく記述が容易です。"
 
 #. type: Title ^
 #: Eeschema_create_a_netlist.adoc:252
 #, no-wrap
 msgid "Init the dialog window"
-msgstr ""
+msgstr "ダイアログウィンドウの初期設定"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:255
 msgid "You can add a new netlist plug-in via the Add Plugin tab."
 msgstr ""
+"プラグイン追加タブで、新規ネットリスト・プラグインを追加することが可能です。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:257
@@ -3072,11 +3228,13 @@ msgid ""
 "image:images/10000000000000DA000000C6E73B58D7.png"
 "[10000000000000DA000000C6E73B58D7_png]"
 msgstr ""
+"image:images/10000000000000DA000000C6E73B58D7.png"
+"[10000000000000DA000000C6E73B58D7_png]"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:259
 msgid "Here is the plug-in PadsPcb setup window"
-msgstr ""
+msgstr "PadsPcb プラグインのセットアップウィンドウです。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:261
@@ -3084,42 +3242,45 @@ msgid ""
 "image:images/100000000000021300000103755CDB21.png"
 "[100000000000021300000103755CDB21_png]"
 msgstr ""
+"image:images/100000000000021300000103755CDB21.png"
+"[100000000000021300000103755CDB21_png]"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:263
 msgid "The setup will require:"
-msgstr ""
+msgstr "セットアップでは以下が必要です:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:265
 msgid "A title (for instance: the name of the netlist format)."
-msgstr ""
+msgstr "表題（例えば：ネットリスト・フォーマットの名前）。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:266
 msgid "The plug-in to launch."
-msgstr ""
+msgstr "起動するプラグイン。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:268
 msgid "When the netlist is generated:"
-msgstr ""
+msgstr "ネットリスト生成時に以下のことを行います:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:270
 msgid "Eeschema creates an intermediate file *.tmp, for instance test.tmp."
-msgstr ""
+msgstr "Eeschemaは中間ファイル*.tmp を生成します。例えば、test.tmp とします。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:271
 msgid "Eeschema run the plug-in, which reads test.tmp and creates test.net."
 msgstr ""
+"Eeschemaはプラグインを実行し、test.tmp を読み込んで test.net を生成します。"
 
 #. type: Title ^
 #: Eeschema_create_a_netlist.adoc:274
 #, no-wrap
 msgid "Command line format"
-msgstr ""
+msgstr "コマンドライン・フォーマット"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:278
@@ -3127,6 +3288,8 @@ msgid ""
 "Here is an example, using xsltproc.exe as tool to convert .xsl files, and a "
 "file netlist_form_pads-pcb.xsl as converter sheet style:"
 msgstr ""
+"xsltproc.exeを.xsl ファイルの変換ツールとして、ファイルnetlist_form_pads-pcb."
+"xslをコンバーターのシートスタイルとして使用する例です:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:281
@@ -3135,23 +3298,25 @@ msgid ""
 "*f:/kicad/bin/xsltproc.exe -o %O.net\n"
 "f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl %I*\n"
 msgstr ""
+"*f:/kicad/bin/xsltproc.exe -o %O.net\n"
+"f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl %I*\n"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:283
 msgid "With:"
-msgstr ""
+msgstr "各部の意味は次の通りです:"
 
 #. type: delimited block |
 #: Eeschema_create_a_netlist.adoc:287
 #, no-wrap
 msgid "|f:/kicad/bin/xsltproc.exe |A tool to read and convert xsl file\n"
-msgstr ""
+msgstr "|f:/kicad/bin/xsltproc.exe |xsl ファイルを読み込み、変換するツール\n"
 
 #. type: delimited block |
 #: Eeschema_create_a_netlist.adoc:289
 #, no-wrap
 msgid "|-o %O.net |Output file: %O will define the output file.\n"
-msgstr ""
+msgstr "|-o %O.net |出力ファイル: %O で出力ファイルを定義\n"
 
 #. type: delimited block |
 #: Eeschema_create_a_netlist.adoc:292
@@ -3160,6 +3325,8 @@ msgid ""
 "|f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl |File name converter (a\n"
 "sheet style, xsl format).\n"
 msgstr ""
+"|f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl |ファイル名コンバーター（ \n"
+"シートスタイル，xsl フォーマット） \n"
 
 #. type: delimited block |
 #: Eeschema_create_a_netlist.adoc:295
@@ -3168,11 +3335,13 @@ msgid ""
 "|%I |Will be replaced by the intermediate file created by Eeschema\n"
 "(*.tmp).\n"
 msgstr ""
+"|%I |Eeschemaが生成した中間ファイル(*.tmp)で \n"
+"置き換える \n"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:298
 msgid "For a schematic named test.sch, the actual command line is:"
-msgstr ""
+msgstr "test.sch という名前の回路図の場合，実際のコマンドラインは次の通りです:"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:301
@@ -3180,12 +3349,14 @@ msgid ""
 "f:/kicad/bin/xsltproc.exe -o test.net f:/kicad/bin/plugins/netlist_form_pads-"
 "pcb.xsl test.tmp."
 msgstr ""
+"f:/kicad/bin/xsltproc.exe -o test.net f:/kicad/bin/plugins/netlist_form_pads-"
+"pcb.xsl test.tmp."
 
 #. type: Title ^
 #: Eeschema_create_a_netlist.adoc:304
 #, no-wrap
 msgid "Converter and sheet style (plug in)"
-msgstr ""
+msgstr "コンバーターとシートスタイル（プラグイン）"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:310
@@ -3194,18 +3365,22 @@ msgid ""
 "convert an input text file (the intermediate text file) to an other text "
 "file. Moreover, from the intermediate text file, you can create a BOM list."
 msgstr ""
+"これは非常に単純なソフトウェアです。なぜなら、その目的が入力テキストファイル"
+"（中間テキストファイル）を別のテキストファイルに変換するだけだからです。さら"
+"に、中間テキストファイルから BOM リストの生成が可能です。"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:313
 msgid ""
 "When using xsltproc as converter tool only the sheet style will be generated."
 msgstr ""
+"xsltproc を変換ツールとして使用すると、シートスタイルのみが生成されます。"
 
 #. type: Title ^
 #: Eeschema_create_a_netlist.adoc:316
 #, no-wrap
 msgid "Intermediate netlist file format"
-msgstr ""
+msgstr "中間ネットリスト・ファイル・フォーマット"
 
 #. type: Plain text
 #: Eeschema_create_a_netlist.adoc:320
@@ -3213,18 +3388,20 @@ msgid ""
 "See Chapter 14 for more explanations about xslproc, the descriptions of "
 "intermediate file format, and some examples of sheet style for converters."
 msgstr ""
+"xslproc についてのさらに多くの説明、中間ファイルフォーマットの記述内容、各コ"
+"ンバーターの場合のシートスタイルの例は１４章を参照して下さい。"
 
 #. type: Title -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:4
 #, no-wrap
 msgid "Creating Customized Netlists and BOM Files"
-msgstr ""
+msgstr "カスタマイズされたネットリストと BOM （部品表）ファイルの生成"
 
 #. type: Title ~
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:8
 #, no-wrap
 msgid "Intermediate Netlist File"
-msgstr ""
+msgstr "中間ネットリスト"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:12
@@ -3232,6 +3409,8 @@ msgid ""
 "BOM files and netlist files can be converted from an Intermediate netlist "
 "file created by Eeschema."
 msgstr ""
+"部品表 (BOM) ファイルとネットリストファイルは、Eeschema が生成する中間ネット"
+"リストから変換されます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:17
@@ -3241,6 +3420,9 @@ msgid ""
 "because of this, it can be used with post-processing to create a BOM or "
 "other reports."
 msgstr ""
+"このファイルは XML フォーマットで書かれており、中間ネットリストと呼ばれていま"
+"す。この中間ネットリストには設計中の基板に関する大量のデータが含まれており、"
+"後処理で部品表 (BOM) やさまざまなレポートを生成することができます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:20
@@ -3248,23 +3430,25 @@ msgid ""
 "Depending on the output (BOM or netlist), different subsets of the complete "
 "Intermediate Netlist file will be used in the post-processing."
 msgstr ""
+"出力するファイル(部品表 (BOM) かネットリスト)次第で、中間ネットリストの利用さ"
+"れる部分が変わってきます。"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:23
 #, no-wrap
 msgid "Schematic sample"
-msgstr ""
+msgstr "回路図サンプル"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:26
 msgid "image:images/schematic-sample.png[\"Schematic sample\"]"
-msgstr ""
+msgstr "image:images/schematic-sample.png[\"Schematic sample\"]"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:29
 #, no-wrap
 msgid "The Intermediate Netlist file sample"
-msgstr ""
+msgstr "中間ネットリストのサンプル"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:33
@@ -3272,6 +3456,8 @@ msgid ""
 "The corresponding intermediate netlist (using XML syntax) of the circuit "
 "above is shown below."
 msgstr ""
+"上記回路図に対応する中間ネットリスト(XML文法を利用しています)を以下に示しま"
+"す。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:216
@@ -3459,12 +3645,193 @@ msgid ""
 "  </nets>\n"
 "</export>\n"
 msgstr ""
+"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+"<export version=\"D\">\n"
+"  <design>\n"
+"    <source>F:\\kicad_aux\\netlist_test\\netlist_test.sch</source>\n"
+"    <date>29/08/2010 20:35:21</date>\n"
+"    <tool>eeschema (2010-08-28 BZR 2458)-unstable</tool>\n"
+"  </design>\n"
+"  <components>\n"
+"    <comp ref=\"P1\">\n"
+"      <value>CONN_4</value>\n"
+"      <libsource lib=\"conn\" part=\"CONN_4\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E2141</tstamp>\n"
+"    </comp>\n"
+"    <comp ref=\"U2\">\n"
+"      <value>74LS74</value>\n"
+"      <libsource lib=\"74xx\" part=\"74LS74\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E20BA</tstamp>\n"
+"    </comp>\n"
+"    <comp ref=\"U1\">\n"
+"      <value>74LS04</value>\n"
+"      <libsource lib=\"74xx\" part=\"74LS04\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E20A6</tstamp>\n"
+"    </comp>\n"
+"    <comp ref=\"C1\">\n"
+"      <value>CP</value>\n"
+"      <libsource lib=\"device\" part=\"CP\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E2094</tstamp>\n"
+"    </comp>\n"
+"    <comp ref=\"R1\">\n"
+"      <value>R</value>\n"
+"      <libsource lib=\"device\" part=\"R\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E208A</tstamp>\n"
+"    </comp>\n"
+"  </components>\n"
+"  <libparts>\n"
+"    <libpart lib=\"device\" part=\"C\">\n"
+"      <description>Condensateur non polarise</description>\n"
+"      <footprints>\n"
+"        <fp>SM*</fp>\n"
+"        <fp>C?</fp>\n"
+"        <fp>C1-1</fp>\n"
+"      </footprints>\n"
+"      <fields>\n"
+"        <field name=\"Reference\">C</field>\n"
+"        <field name=\"Value\">C</field>\n"
+"      </fields>\n"
+"      <pins>\n"
+"        <pin num=\"1\" name=\"~\" type=\"passive\"/>\n"
+"        <pin num=\"2\" name=\"~\" type=\"passive\"/>\n"
+"      </pins>\n"
+"    </libpart>\n"
+"    <libpart lib=\"device\" part=\"R\">\n"
+"      <description>Resistance</description>\n"
+"      <footprints>\n"
+"        <fp>R?</fp>\n"
+"        <fp>SM0603</fp>\n"
+"        <fp>SM0805</fp>\n"
+"        <fp>R?-*</fp>\n"
+"        <fp>SM1206</fp>\n"
+"      </footprints>\n"
+"      <fields>\n"
+"        <field name=\"Reference\">R</field>\n"
+"        <field name=\"Value\">R</field>\n"
+"      </fields>\n"
+"      <pins>\n"
+"        <pin num=\"1\" name=\"~\" type=\"passive\"/>\n"
+"        <pin num=\"2\" name=\"~\" type=\"passive\"/>\n"
+"      </pins>\n"
+"    </libpart>\n"
+"    <libpart lib=\"conn\" part=\"CONN_4\">\n"
+"      <description>Symbole general de connecteur</description>\n"
+"      <fields>\n"
+"        <field name=\"Reference\">P</field>\n"
+"        <field name=\"Value\">CONN_4</field>\n"
+"      </fields>\n"
+"      <pins>\n"
+"        <pin num=\"1\" name=\"P1\" type=\"passive\"/>\n"
+"        <pin num=\"2\" name=\"P2\" type=\"passive\"/>\n"
+"        <pin num=\"3\" name=\"P3\" type=\"passive\"/>\n"
+"        <pin num=\"4\" name=\"P4\" type=\"passive\"/>\n"
+"      </pins>\n"
+"    </libpart>\n"
+"    <libpart lib=\"74xx\" part=\"74LS04\">\n"
+"      <description>Hex Inverseur</description>\n"
+"      <fields>\n"
+"        <field name=\"Reference\">U</field>\n"
+"        <field name=\"Value\">74LS04</field>\n"
+"      </fields>\n"
+"      <pins>\n"
+"        <pin num=\"1\" name=\"~\" type=\"input\"/>\n"
+"        <pin num=\"2\" name=\"~\" type=\"output\"/>\n"
+"        <pin num=\"3\" name=\"~\" type=\"input\"/>\n"
+"        <pin num=\"4\" name=\"~\" type=\"output\"/>\n"
+"        <pin num=\"5\" name=\"~\" type=\"input\"/>\n"
+"        <pin num=\"6\" name=\"~\" type=\"output\"/>\n"
+"        <pin num=\"7\" name=\"GND\" type=\"power_in\"/>\n"
+"        <pin num=\"8\" name=\"~\" type=\"output\"/>\n"
+"        <pin num=\"9\" name=\"~\" type=\"input\"/>\n"
+"        <pin num=\"10\" name=\"~\" type=\"output\"/>\n"
+"        <pin num=\"11\" name=\"~\" type=\"input\"/>\n"
+"        <pin num=\"12\" name=\"~\" type=\"output\"/>\n"
+"        <pin num=\"13\" name=\"~\" type=\"input\"/>\n"
+"        <pin num=\"14\" name=\"VCC\" type=\"power_in\"/>\n"
+"      </pins>\n"
+"    </libpart>\n"
+"    <libpart lib=\"74xx\" part=\"74LS74\">\n"
+"      <description>Dual D FlipFlop, Set &amp; Reset</description>\n"
+"      <docs>74xx/74hc_hct74.pdf</docs>\n"
+"      <fields>\n"
+"        <field name=\"Reference\">U</field>\n"
+"        <field name=\"Value\">74LS74</field>\n"
+"      </fields>\n"
+"      <pins>\n"
+"        <pin num=\"1\" name=\"Cd\" type=\"input\"/>\n"
+"        <pin num=\"2\" name=\"D\" type=\"input\"/>\n"
+"        <pin num=\"3\" name=\"Cp\" type=\"input\"/>\n"
+"        <pin num=\"4\" name=\"Sd\" type=\"input\"/>\n"
+"        <pin num=\"5\" name=\"Q\" type=\"output\"/>\n"
+"        <pin num=\"6\" name=\"~Q\" type=\"output\"/>\n"
+"        <pin num=\"7\" name=\"GND\" type=\"power_in\"/>\n"
+"        <pin num=\"8\" name=\"~Q\" type=\"output\"/>\n"
+"        <pin num=\"9\" name=\"Q\" type=\"output\"/>\n"
+"        <pin num=\"10\" name=\"Sd\" type=\"input\"/>\n"
+"        <pin num=\"11\" name=\"Cp\" type=\"input\"/>\n"
+"        <pin num=\"12\" name=\"D\" type=\"input\"/>\n"
+"        <pin num=\"13\" name=\"Cd\" type=\"input\"/>\n"
+"        <pin num=\"14\" name=\"VCC\" type=\"power_in\"/>\n"
+"      </pins>\n"
+"    </libpart>\n"
+"  </libparts>\n"
+"  <libraries>\n"
+"    <library logical=\"device\">\n"
+"      <uri>F:\\kicad\\share\\library\\device.lib</uri>\n"
+"    </library>\n"
+"    <library logical=\"conn\">\n"
+"      <uri>F:\\kicad\\share\\library\\conn.lib</uri>\n"
+"    </library>\n"
+"    <library logical=\"74xx\">\n"
+"      <uri>F:\\kicad\\share\\library\\74xx.lib</uri>\n"
+"    </library>\n"
+"  </libraries>\n"
+"  <nets>\n"
+"    <net code=\"1\" name=\"GND\">\n"
+"      <node ref=\"U1\" pin=\"7\"/>\n"
+"      <node ref=\"C1\" pin=\"2\"/>\n"
+"      <node ref=\"U2\" pin=\"7\"/>\n"
+"      <node ref=\"P1\" pin=\"4\"/>\n"
+"    </net>\n"
+"    <net code=\"2\" name=\"VCC\">\n"
+"      <node ref=\"R1\" pin=\"1\"/>\n"
+"      <node ref=\"U1\" pin=\"14\"/>\n"
+"      <node ref=\"U2\" pin=\"4\"/>\n"
+"      <node ref=\"U2\" pin=\"1\"/>\n"
+"      <node ref=\"U2\" pin=\"14\"/>\n"
+"      <node ref=\"P1\" pin=\"1\"/>\n"
+"    </net>\n"
+"    <net code=\"3\" name=\"\">\n"
+"      <node ref=\"U2\" pin=\"6\"/>\n"
+"    </net>\n"
+"    <net code=\"4\" name=\"\">\n"
+"      <node ref=\"U1\" pin=\"2\"/>\n"
+"      <node ref=\"U2\" pin=\"3\"/>\n"
+"    </net>\n"
+"    <net code=\"5\" name=\"/SIG_OUT\">\n"
+"      <node ref=\"P1\" pin=\"2\"/>\n"
+"      <node ref=\"U2\" pin=\"5\"/>\n"
+"      <node ref=\"U2\" pin=\"2\"/>\n"
+"    </net>\n"
+"    <net code=\"6\" name=\"/CLOCK_IN\">\n"
+"      <node ref=\"R1\" pin=\"2\"/>\n"
+"      <node ref=\"C1\" pin=\"1\"/>\n"
+"      <node ref=\"U1\" pin=\"1\"/>\n"
+"      <node ref=\"P1\" pin=\"3\"/>\n"
+"    </net>\n"
+"  </nets>\n"
+"</export>\n"
 
 #. type: Title ~
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:220
 #, no-wrap
 msgid "Conversion to a new netlist format"
-msgstr ""
+msgstr "新しいネットリスト形式への変換"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:227
@@ -3475,6 +3842,10 @@ msgid ""
 "be written using Python, XSLT, or any other tool capable of taking XML as "
 "input."
 msgstr ""
+"中間ネットリストファイルに後処理のフィルタリングをすることで、部品表 (BOM) "
+"ファイルのような他形式のファイルを生成できます。この変換はテキストからテキス"
+"トへの変換なので、この後処理フィルタは、Python や XSLT など、入力として XML "
+"を扱える処理系で記述できます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:235
@@ -3487,47 +3858,55 @@ msgid ""
 "conventions. The full conversion process is handle d by Eeschema, after it "
 "is configured once to run xsltproc in a specific way."
 msgstr ""
+"XSLT はそれ自身が XML 言語で書かれる、XML ファイルの処理に最適な言語です。 "
+"_xsltproc_ と呼ばれるフリーソフトがあり、ダウンロードしてインストールできま"
+"す。xsltproc は、中間ネットリスト入力ファイルを読み込むことができ、入力を変換"
+"するためにスタイルシートを適用して、結果をファイルへ保存します。xsltproc を使"
+"用するためには、XSLTによる変換処理のためのスタイルシートが必要となります。一"
+"度 xsltproc を設定して実行すると、これら全ての変換プロセスは、Eeschema によっ"
+"て制御されます。"
 
 #. type: Title ~
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:238
 #, no-wrap
 msgid "XSLT approach"
-msgstr ""
+msgstr "XSLT のアプローチ"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:242
 msgid ""
 "The document that describes XSL Transformations (XSLT) is available here:"
 msgstr ""
+"XSL 変換 (XSLT) に関するドキュメントは、下記より参照することが出来ます:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:244
 #, no-wrap
 msgid "*http://www.w3.org/TR/xslt*\n"
-msgstr ""
+msgstr "*http://www.w3.org/TR/xslt*\n"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:247
 #, no-wrap
 msgid "Create a Pads-Pcb netlist file"
-msgstr ""
+msgstr "Pads-Pcb形式ネットリストファイルの生成"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:250
 msgid "The pads-pcb format is comprise d of two sections."
-msgstr ""
+msgstr "pads-pcb 形式のネットリストは、次の２つのセクションより構成されます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:252
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:381
 msgid "The footprint list."
-msgstr ""
+msgstr "フットプリントの一覧"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:253
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:382
 msgid "The Nets list: grouping pads references by nets."
-msgstr ""
+msgstr "ネットリスト：ネット情報によりグループ化された、パッド情報"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:256
@@ -3535,6 +3914,8 @@ msgid ""
 "Immediately below is a style-sheet which converts the Intermediate Netlist "
 "file to a pads-pcb netlist format:"
 msgstr ""
+"以下に、中間ネットリストからpads-pcb形式へ変換するためのスタイルシートを掲載"
+"します。:"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:262
@@ -3545,6 +3926,10 @@ msgid ""
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
+"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
+"<!--XSL style sheet to Eeschema Generic Netlist Format to PADS netlist format\n"
+"    Copyright (C) 2010, SoftPLC Corporation.\n"
+"    GPL v2.\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:266
@@ -3555,6 +3940,9 @@ msgid ""
 "        https://lists.launchpad.net/kicad-developers/msg05157.html\n"
 "-->\n"
 msgstr ""
+"    How to use:\n"
+"        https://lists.launchpad.net/kicad-developers/msg05157.html\n"
+"-->\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:270
@@ -3566,6 +3954,9 @@ msgid ""
 "  <!ENTITY nl  \"&#xd;&#xa;\"> <!--new line CR, LF -->\n"
 "]>\n"
 msgstr ""
+"<!DOCTYPE xsl:stylesheet [\n"
+"  <!ENTITY nl  \"&#xd;&#xa;\"> <!--new line CR, LF -->\n"
+"]>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:273
@@ -3576,6 +3967,8 @@ msgid ""
 "<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n"
 "<xsl:output method=\"text\" omit-xml-declaration=\"yes\" indent=\"no\"/>\n"
 msgstr ""
+"<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n"
+"<xsl:output method=\"text\" omit-xml-declaration=\"yes\" indent=\"no\"/>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:281
@@ -3589,6 +3982,13 @@ msgid ""
 "    <xsl:text>*END*&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<xsl:template match=\"/export\">\n"
+"    <xsl:text>*PADS-PCB*&nl;*PART*&nl;</xsl:text>\n"
+"    <xsl:apply-templates select=\"components/comp\"/>\n"
+"    <xsl:text>&nl;*NET*&nl;</xsl:text>\n"
+"    <xsl:apply-templates select=\"nets/net\"/>\n"
+"    <xsl:text>*END*&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:297
@@ -3610,6 +4010,21 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- for each component -->\n"
+"<xsl:template match=\"comp\">\n"
+"    <xsl:text> </xsl:text>\n"
+"    <xsl:value-of select=\"@ref\"/>\n"
+"    <xsl:text> </xsl:text>\n"
+"    <xsl:choose>\n"
+"        <xsl:when test = \"footprint != '' \">\n"
+"            <xsl:apply-templates select=\"footprint\"/>\n"
+"        </xsl:when>\n"
+"        <xsl:otherwise>\n"
+"            <xsl:text>unknown</xsl:text>\n"
+"        </xsl:otherwise>\n"
+"    </xsl:choose>\n"
+"    <xsl:text>&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:316
@@ -3634,6 +4049,24 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- for each net -->\n"
+"<xsl:template match=\"net\">\n"
+"    <!-- nets are output only if there is more than one pin in net -->\n"
+"    <xsl:if test=\"count(node)>1\">\n"
+"        <xsl:text>*SIGNAL* </xsl:text>\n"
+"        <xsl:choose>\n"
+"            <xsl:when test = \"@name != '' \">\n"
+"                <xsl:value-of select=\"@name\"/>\n"
+"            </xsl:when>\n"
+"            <xsl:otherwise>\n"
+"                <xsl:text>N-</xsl:text>\n"
+"                <xsl:value-of select=\"@code\"/>\n"
+"            </xsl:otherwise>\n"
+"        </xsl:choose>\n"
+"        <xsl:text>&nl;</xsl:text>\n"
+"        <xsl:apply-templates select=\"node\"/>\n"
+"    </xsl:if>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:325
@@ -3648,6 +4081,14 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- for each node -->\n"
+"<xsl:template match=\"node\">\n"
+"    <xsl:text> </xsl:text>\n"
+"    <xsl:value-of select=\"@ref\"/>\n"
+"    <xsl:text>.</xsl:text>\n"
+"    <xsl:value-of select=\"@pin\"/>\n"
+"    <xsl:text>&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:327
@@ -3655,12 +4096,14 @@ msgstr ""
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:752
 #, no-wrap
 msgid "</xsl:stylesheet>\n"
-msgstr ""
+msgstr "</xsl:stylesheet>\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:330
 msgid "And here is the pads-pcb output file after running xsltproc:"
 msgstr ""
+"xsltproc を実行し得られた、pads-pcbの用のネットリストファイルを以下に示しま"
+"す。:"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:364
@@ -3699,39 +4142,71 @@ msgid ""
 "U1.1\n"
 "P1.3\n"
 msgstr ""
+"*PADS-PCB*\n"
+"*PART*\n"
+"P1 unknown\n"
+"U2 unknown\n"
+"U1 unknown\n"
+"C1 unknown\n"
+"R1 unknown\n"
+"*NET*\n"
+"*SIGNAL* GND\n"
+"U1.7\n"
+"C1.2\n"
+"U2.7\n"
+"P1.4\n"
+"*SIGNAL* VCC\n"
+"R1.1\n"
+"U1.14\n"
+"U2.4\n"
+"U2.1\n"
+"U2.14\n"
+"P1.1\n"
+"*SIGNAL* N-4\n"
+"U1.2\n"
+"U2.3\n"
+"*SIGNAL* /SIG_OUT\n"
+"P1.2\n"
+"U2.5\n"
+"U2.2\n"
+"*SIGNAL* /CLOCK_IN\n"
+"R1.2\n"
+"C1.1\n"
+"U1.1\n"
+"P1.3\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:366
 #, no-wrap
 msgid "*END*\n"
-msgstr ""
+msgstr "*END*\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:369
 msgid "The command line to make this conversion is:"
-msgstr ""
+msgstr "この変換は、次のコマンドラインにより実行することができます："
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:372
 #, no-wrap
 msgid "kicad\\\\bin\\\\xsltproc.exe -o test.net kicad\\\\bin\\\\plugins\\\\netlist_form_pads-pcb.xsl test.tmp\n"
-msgstr ""
+msgstr "kicad\\\\bin\\\\xsltproc.exe -o test.net kicad\\\\bin\\\\plugins\\\\netlist_form_pads-pcb.xsl test.tmp\n"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:376
 #, no-wrap
 msgid "Create a Cadstar netlist file"
-msgstr ""
+msgstr "Cadstar形式のネットリストファイルの生成"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:379
 msgid "The Cadstar format is comprized of two sections."
-msgstr ""
+msgstr "Cadstar 形式のネットリストは、下記の２セクションで構成されています。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:384
 msgid "Here is the style-sheet file to make this specific conversion:"
-msgstr ""
+msgstr "以下に変換するためのスタイルシートを掲載します。:"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:391
@@ -3743,6 +4218,11 @@ msgid ""
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
+"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
+"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist format\n"
+"    Copyright (C) 2010, Jean-Pierre Charras.\n"
+"    Copyright (C) 2010, SoftPLC Corporation.\n"
+"    GPL v2.\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:409
@@ -3759,6 +4239,16 @@ msgid ""
 "    <xsl:text>&nl;.END&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- Netlist header -->\n"
+"<xsl:template match=\"/export\">\n"
+"    <xsl:text>.HEA&nl;</xsl:text>\n"
+"    <xsl:apply-templates select=\"design/date\"/>  <!-- Generate line .TIM <time> -->\n"
+"    <xsl:apply-templates select=\"design/tool\"/>  <!-- Generate line .APP <eeschema version> -->\n"
+"    <xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
+"    <xsl:text>&nl;&nl;</xsl:text>\n"
+"    <xsl:apply-templates select=\"nets/net\"/>          <!-- Generate list of nets and connections -->\n"
+"    <xsl:text>&nl;.END&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:416
@@ -3771,6 +4261,12 @@ msgid ""
 "    <xsl:text>\"&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+" <!-- Generate line .TIM 20/08/2010 10:45:33 -->\n"
+"<xsl:template match=\"tool\">\n"
+"    <xsl:text>.APP \"</xsl:text>\n"
+"    <xsl:apply-templates/>\n"
+"    <xsl:text>\"&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:423
@@ -3783,6 +4279,12 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+" <!-- Generate line .APP \"eeschema (2010-08-17 BZR 2450)-unstable\" -->\n"
+"<xsl:template match=\"date\">\n"
+"    <xsl:text>.TIM </xsl:text>\n"
+"    <xsl:apply-templates/>\n"
+"    <xsl:text>&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:439
@@ -3804,6 +4306,21 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- for each component -->\n"
+"<xsl:template match=\"comp\">\n"
+"    <xsl:text>.ADD_COM </xsl:text>\n"
+"    <xsl:value-of select=\"@ref\"/>\n"
+"    <xsl:text> </xsl:text>\n"
+"    <xsl:choose>\n"
+"        <xsl:when test = \"value != '' \">\n"
+"            <xsl:text>\"</xsl:text> <xsl:apply-templates select=\"value\"/> <xsl:text>\"</xsl:text>\n"
+"        </xsl:when>\n"
+"        <xsl:otherwise>\n"
+"            <xsl:text>\"\"</xsl:text>\n"
+"        </xsl:otherwise>\n"
+"    </xsl:choose>\n"
+"    <xsl:text>&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:462
@@ -3832,6 +4349,28 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- for each net -->\n"
+"<xsl:template match=\"net\">\n"
+"    <!-- nets are output only if there is more than one pin in net -->\n"
+"    <xsl:if test=\"count(node)>1\">\n"
+"    <xsl:variable name=\"netname\">\n"
+"        <xsl:text>\"</xsl:text>\n"
+"        <xsl:choose>\n"
+"            <xsl:when test = \"@name != '' \">\n"
+"                <xsl:value-of select=\"@name\"/>\n"
+"            </xsl:when>\n"
+"            <xsl:otherwise>\n"
+"                <xsl:text>N-</xsl:text>\n"
+"                <xsl:value-of select=\"@code\"/>\n"
+"        </xsl:otherwise>\n"
+"        </xsl:choose>\n"
+"        <xsl:text>\"&nl;</xsl:text>\n"
+"        </xsl:variable>\n"
+"        <xsl:apply-templates select=\"node\" mode=\"first\"/>\n"
+"        <xsl:value-of select=\"$netname\"/>\n"
+"        <xsl:apply-templates select=\"node\" mode=\"others\"/>\n"
+"    </xsl:if>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:473
@@ -3848,6 +4387,16 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- for each node -->\n"
+"<xsl:template match=\"node\" mode=\"first\">\n"
+"    <xsl:if test=\"position()=1\">\n"
+"       <xsl:text>.ADD_TER </xsl:text>\n"
+"    <xsl:value-of select=\"@ref\"/>\n"
+"    <xsl:text>.</xsl:text>\n"
+"    <xsl:value-of select=\"@pin\"/>\n"
+"    <xsl:text> </xsl:text>\n"
+"    </xsl:if>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:492
@@ -3872,11 +4421,29 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
+"<xsl:template match=\"node\" mode=\"others\">\n"
+"    <xsl:choose>\n"
+"        <xsl:when test='position()=1'>\n"
+"        </xsl:when>\n"
+"        <xsl:when test='position()=2'>\n"
+"           <xsl:text>.TER     </xsl:text>\n"
+"        </xsl:when>\n"
+"        <xsl:otherwise>\n"
+"           <xsl:text>         </xsl:text>\n"
+"        </xsl:otherwise>\n"
+"    </xsl:choose>\n"
+"    <xsl:if test=\"position()>1\">\n"
+"        <xsl:value-of select=\"@ref\"/>\n"
+"        <xsl:text>.</xsl:text>\n"
+"        <xsl:value-of select=\"@pin\"/>\n"
+"        <xsl:text>&nl;</xsl:text>\n"
+"    </xsl:if>\n"
+"</xsl:template>\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:497
 msgid "Here is the Cadstar output file."
-msgstr ""
+msgstr "Cadstar 形式の出力ファイルです。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:507
@@ -3891,6 +4458,14 @@ msgid ""
 ".ADD_COM C1 \"CP\"\n"
 ".ADD_COM R1 \"R\"\n"
 msgstr ""
+".HEA\n"
+".TIM 21/08/2010 08:12:08\n"
+".APP \"eeschema (2010-08-09 BZR 2439)-unstable\"\n"
+".ADD_COM P1 \"CONN_4\"\n"
+".ADD_COM U2 \"74LS74\"\n"
+".ADD_COM U1 \"74LS04\"\n"
+".ADD_COM C1 \"CP\"\n"
+".ADD_COM R1 \"R\"\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:528
@@ -3916,18 +4491,37 @@ msgid ""
 "         U1.1\n"
 "         P1.3\n"
 msgstr ""
+".ADD_TER U1.7 \"GND\"\n"
+".TER     C1.2\n"
+"         U2.7\n"
+"         P1.4\n"
+".ADD_TER R1.1 \"VCC\"\n"
+".TER     U1.14\n"
+"         U2.4\n"
+"         U2.1\n"
+"         U2.14\n"
+"         P1.1\n"
+".ADD_TER U1.2 \"N-4\"\n"
+".TER     U2.3\n"
+".ADD_TER P1.2 \"/SIG_OUT\"\n"
+".TER     U2.5\n"
+"         U2.2\n"
+".ADD_TER R1.2 \"/CLOCK_IN\"\n"
+".TER     C1.1\n"
+"         U1.1\n"
+"         P1.3\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:530
 #, no-wrap
 msgid ".END\n"
-msgstr ""
+msgstr ".END\n"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:534
 #, no-wrap
 msgid "Create a OrcadPCB2 netlist file"
-msgstr ""
+msgstr "OrcadPCB2 形式ネットリストファイルの生成"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:538
@@ -3935,11 +4529,13 @@ msgid ""
 "This format has only one section which is the footprint list. Each footprint "
 "includes its list of pads with reference to a net."
 msgstr ""
+"このフォーマットは、フットプリントの一覧のみで構成されています。それぞれの"
+"フットプリントは接続されるネットの情報を含みます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:540
 msgid "Here is the style-sheet for this specific conversion:"
-msgstr ""
+msgstr "変換を行うためのスタイルシートファイルを、以下に示します。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:546
@@ -3950,6 +4546,10 @@ msgid ""
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
+"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
+"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist format\n"
+"    Copyright (C) 2010, SoftPLC Corporation.\n"
+"    GPL v2.\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:570
@@ -3968,6 +4568,18 @@ msgid ""
 "<xsl:apply-templates select=\"design/tool\"/>\n"
 "<xsl:text>}&nl;</xsl:text>\n"
 msgstr ""
+"<!--\n"
+"    Netlist header\n"
+"    Creates the entire netlist\n"
+"    (can be seen as equivalent to main function in C\n"
+"-->\n"
+"<xsl:template match=\"/export\">\n"
+"    <xsl:text>( { Eeschema Netlist Version 1.1  </xsl:text>\n"
+"    <!-- Generate line .TIM <time> -->\n"
+"<xsl:apply-templates select=\"design/date\"/>\n"
+"<!-- Generate line eeschema version ... -->\n"
+"<xsl:apply-templates select=\"design/tool\"/>\n"
+"<xsl:text>}&nl;</xsl:text>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:573
@@ -3976,6 +4588,8 @@ msgid ""
 "<!-- Generate the list of components -->\n"
 "<xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
 msgstr ""
+"<!-- Generate the list of components -->\n"
+"<xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:577
@@ -3985,6 +4599,9 @@ msgid ""
 "<xsl:text>)&nl;*&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!-- end of file -->\n"
+"<xsl:text>)&nl;*&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:584
@@ -3997,6 +4614,12 @@ msgid ""
 "    <xsl:apply-templates/>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!--\n"
+"    Generate id in header like \"eeschema (2010-08-17 BZR 2450)-unstable\"\n"
+"-->\n"
+"<xsl:template match=\"tool\">\n"
+"    <xsl:apply-templates/>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:592
@@ -4010,6 +4633,13 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!--\n"
+"    Generate date in header like \"20/08/2010 10:45:33\"\n"
+"-->\n"
+"<xsl:template match=\"date\">\n"
+"    <xsl:apply-templates/>\n"
+"    <xsl:text>&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:639
@@ -4062,6 +4692,52 @@ msgid ""
 "    <xsl:text> )&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!--\n"
+"    This template read each component\n"
+"    (path = /export/components/comp)\n"
+"    creates lines:\n"
+"     ( 3EBF7DBD $noname U1 74LS125\n"
+"      ... pin list ...\n"
+"      )\n"
+"    and calls \"create_pin_list\" template to build the pin list\n"
+"-->\n"
+"<xsl:template match=\"comp\">\n"
+"    <xsl:text> ( </xsl:text>\n"
+"    <xsl:choose>\n"
+"        <xsl:when test = \"tstamp != '' \">\n"
+"            <xsl:apply-templates select=\"tstamp\"/>\n"
+"        </xsl:when>\n"
+"        <xsl:otherwise>\n"
+"            <xsl:text>00000000</xsl:text>\n"
+"        </xsl:otherwise>\n"
+"    </xsl:choose>\n"
+"    <xsl:text> </xsl:text>\n"
+"    <xsl:choose>\n"
+"        <xsl:when test = \"footprint != '' \">\n"
+"            <xsl:apply-templates select=\"footprint\"/>\n"
+"        </xsl:when>\n"
+"        <xsl:otherwise>\n"
+"            <xsl:text>$noname</xsl:text>\n"
+"        </xsl:otherwise>\n"
+"    </xsl:choose>\n"
+"    <xsl:text> </xsl:text>\n"
+"    <xsl:value-of select=\"@ref\"/>\n"
+"    <xsl:text> </xsl:text>\n"
+"    <xsl:choose>\n"
+"        <xsl:when test = \"value != '' \">\n"
+"            <xsl:apply-templates select=\"value\"/>\n"
+"        </xsl:when>\n"
+"        <xsl:otherwise>\n"
+"            <xsl:text>\"~\"</xsl:text>\n"
+"        </xsl:otherwise>\n"
+"    </xsl:choose>\n"
+"    <xsl:text>&nl;</xsl:text>\n"
+"    <xsl:call-template name=\"Search_pin_list\" >\n"
+"        <xsl:with-param name=\"cmplib_id\" select=\"libsource/@part\"/>\n"
+"        <xsl:with-param name=\"cmp_ref\" select=\"@ref\"/>\n"
+"    </xsl:call-template>\n"
+"    <xsl:text> )&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:660
@@ -4088,6 +4764,26 @@ msgid ""
 "        </xsl:for-each>\n"
 "</xsl:template>\n"
 msgstr ""
+"<!--\n"
+"    This template search for a given lib component description in list\n"
+"    lib component descriptions are in /export/libparts,\n"
+"    and each description start at ./libpart\n"
+"    We search here for the list of pins of the given component\n"
+"    This template has 2 parameters:\n"
+"        \"cmplib_id\" (reference in libparts)\n"
+"        \"cmp_ref\"   (schematic reference of the given component)\n"
+"-->\n"
+"<xsl:template name=\"Search_pin_list\" >\n"
+"    <xsl:param name=\"cmplib_id\" select=\"0\" />\n"
+"    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
+"        <xsl:for-each select=\"/export/libparts/libpart\">\n"
+"            <xsl:if test = \"@part = $cmplib_id \">\n"
+"                <xsl:apply-templates name=\"build_pin_list\" select=\"pins/pin\">\n"
+"                    <xsl:with-param name=\"cmp_ref\" select=\"$cmp_ref\"/>\n"
+"                </xsl:apply-templates>\n"
+"            </xsl:if>\n"
+"        </xsl:for-each>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:677
@@ -4109,6 +4805,21 @@ msgid ""
 "<xsl:template name=\"build_pin_list\" match=\"pin\">\n"
 "    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
 msgstr ""
+"<!--\n"
+"    This template writes the pin list of a component\n"
+"    from the pin list of the library description\n"
+"    The pin list from library description is something like\n"
+"          <pins>\n"
+"            <pin num=\"1\" type=\"passive\"/>\n"
+"            <pin num=\"2\" type=\"passive\"/>\n"
+"          </pins>\n"
+"    Output pin list is ( <pin num> <net name> )\n"
+"    something like\n"
+"            ( 1 VCC )\n"
+"            ( 2 GND )\n"
+"-->\n"
+"<xsl:template name=\"build_pin_list\" match=\"pin\">\n"
+"    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:682
@@ -4119,6 +4830,10 @@ msgid ""
 "    <xsl:value-of select=\"@num\"/>\n"
 "    <xsl:text> </xsl:text>\n"
 msgstr ""
+"    <!-- write pin numner and separator -->\n"
+"    <xsl:text>  ( </xsl:text>\n"
+"    <xsl:value-of select=\"@num\"/>\n"
+"    <xsl:text> </xsl:text>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:697
@@ -4139,6 +4854,20 @@ msgid ""
 "        </xsl:apply-templates>\n"
 "    </xsl:for-each>\n"
 msgstr ""
+"    <!-- search net name in nets section and write it: -->\n"
+"    <xsl:variable name=\"pinNum\" select=\"@num\" />\n"
+"    <xsl:for-each select=\"/export/nets/net\">\n"
+"        <!-- net name is output only if there is more than one pin in net\n"
+"             else use \"?\" as net name, so count items in this net\n"
+"        -->\n"
+"        <xsl:variable name=\"pinCnt\" select=\"count(node)\" />\n"
+"        <xsl:apply-templates name=\"Search_pin_netname\" select=\"node\">\n"
+"            <xsl:with-param name=\"cmp_ref\" select=\"$cmp_ref\"/>\n"
+"            <xsl:with-param name=\"pin_cnt_in_net\" select=\"$pinCnt\"/>\n"
+"            <xsl:with-param name=\"pin_num\"> <xsl:value-of select=\"$pinNum\"/>\n"
+"            </xsl:with-param>\n"
+"        </xsl:apply-templates>\n"
+"    </xsl:for-each>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:701
@@ -4148,6 +4877,9 @@ msgid ""
 "    <xsl:text> )&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
+"    <!-- close line -->\n"
+"    <xsl:text> )&nl;</xsl:text>\n"
+"</xsl:template>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:719
@@ -4171,6 +4903,23 @@ msgid ""
 "        \"pin_num\"   (pin number)\n"
 "-->\n"
 msgstr ""
+"<!--\n"
+"    This template writes the pin netname of a given pin of a given component\n"
+"    from the nets list\n"
+"    The nets list description is something like\n"
+"      <nets>\n"
+"        <net code=\"1\" name=\"GND\">\n"
+"          <node ref=\"J1\" pin=\"20\"/>\n"
+"              <node ref=\"C2\" pin=\"2\"/>\n"
+"        </net>\n"
+"        <net code=\"2\" name=\"\">\n"
+"          <node ref=\"U2\" pin=\"11\"/>\n"
+"        </net>\n"
+"    </nets>\n"
+"    This template has 2 parameters:\n"
+"        \"cmp_ref\"   (schematic reference of the given component)\n"
+"        \"pin_num\"   (pin number)\n"
+"-->\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:724
@@ -4181,6 +4930,10 @@ msgid ""
 "    <xsl:param name=\"pin_num\" select=\"0\" />\n"
 "    <xsl:param name=\"pin_cnt_in_net\" select=\"0\" />\n"
 msgstr ""
+"<xsl:template name=\"Search_pin_netname\" match=\"node\">\n"
+"    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
+"    <xsl:param name=\"pin_num\" select=\"0\" />\n"
+"    <xsl:param name=\"pin_cnt_in_net\" select=\"0\" />\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:748
@@ -4210,17 +4963,40 @@ msgid ""
 "        </xsl:if>\n"
 "    </xsl:if>\n"
 msgstr ""
+"    <xsl:if test = \"@ref = $cmp_ref \">\n"
+"        <xsl:if test = \"@pin = $pin_num\">\n"
+"        <!-- net name is output only if there is more than one pin in net\n"
+"             else use \"?\" as net name\n"
+"        -->\n"
+"            <xsl:if test = \"$pin_cnt_in_net>1\">\n"
+"                <xsl:choose>\n"
+"                    <!-- if a net has a name, use it,\n"
+"                        else build a name from its net code\n"
+"                    -->\n"
+"                    <xsl:when test = \"../@name != '' \">\n"
+"                        <xsl:value-of select=\"../@name\"/>\n"
+"                    </xsl:when>\n"
+"                    <xsl:otherwise>\n"
+"                        <xsl:text>$N-0</xsl:text><xsl:value-of select=\"../@code\"/>\n"
+"                    </xsl:otherwise>\n"
+"                </xsl:choose>\n"
+"            </xsl:if>\n"
+"            <xsl:if test = \"$pin_cnt_in_net &lt;2\">\n"
+"                <xsl:text>?</xsl:text>\n"
+"            </xsl:if>\n"
+"        </xsl:if>\n"
+"    </xsl:if>\n"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:750
 #, no-wrap
 msgid "</xsl:template>\n"
-msgstr ""
+msgstr "</xsl:template>\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:755
 msgid "Here is the OrcadPCB2 output file."
-msgstr ""
+msgstr "OrcadPCB2 形式の出力ファイルです。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:791
@@ -4261,12 +5037,46 @@ msgid ""
 ")\n"
 "*\n"
 msgstr ""
+"( { Eeschema Netlist Version 1.1  29/08/2010 21:07:51\n"
+"eeschema (2010-08-28 BZR 2458)-unstable}\n"
+" ( 4C6E2141 $noname P1 CONN_4\n"
+"  (  1 VCC )\n"
+"  (  2 /SIG_OUT )\n"
+"  (  3 /CLOCK_IN )\n"
+"  (  4 GND )\n"
+" )\n"
+" ( 4C6E20BA $noname U2 74LS74\n"
+"  (  1 VCC )\n"
+"  (  2 /SIG_OUT )\n"
+"  (  3 N-04 )\n"
+"  (  4 VCC )\n"
+"  (  5 /SIG_OUT )\n"
+"  (  6 ? )\n"
+"  (  7 GND )\n"
+"  (  14 VCC )\n"
+" )\n"
+" ( 4C6E20A6 $noname U1 74LS04\n"
+"  (  1 /CLOCK_IN )\n"
+"  (  2 N-04 )\n"
+"  (  7 GND )\n"
+"  (  14 VCC )\n"
+" )\n"
+" ( 4C6E2094 $noname C1 CP\n"
+"  (  1 /CLOCK_IN )\n"
+"  (  2 GND )\n"
+" )\n"
+" ( 4C6E208A $noname R1 R\n"
+"  (  1 VCC )\n"
+"  (  2 /CLOCK_IN )\n"
+" )\n"
+")\n"
+"*\n"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:795
 #, no-wrap
 msgid "Eeschema plugins interface"
-msgstr ""
+msgstr "Eeschema プラグインインタフェイス"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:799
@@ -4274,12 +5084,13 @@ msgid ""
 "Intermediate Netlist converters can be automatically launched within "
 "Eeschema."
 msgstr ""
+"中間ネットリストの変換は Eeschema の中で自動的に実行させることができます。"
 
 #. type: Title +
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:802
 #, no-wrap
 msgid "Init the Dialog window"
-msgstr ""
+msgstr "ダイアログウインドウの初期化"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:806
@@ -4287,6 +5098,8 @@ msgid ""
 "One can add a new netlist plug-in user interface tab by clicking on the Add "
 "Plugin tab."
 msgstr ""
+"新しいネットリストプラグインをユーザーインタフェースへ追加するには、“プラグイ"
+"ンの追加” タブを利用します。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:808
@@ -4294,11 +5107,13 @@ msgid ""
 "image:images/10000000000000FC000000C867B9348F.png"
 "[10000000000000FC000000C867B9348F_png]"
 msgstr ""
+"image:images/10000000000000FC000000C867B9348F.png"
+"[10000000000000FC000000C867B9348F_png]"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:810
 msgid "Here is what the configuration data for the PadsPcb tab looks like:"
-msgstr ""
+msgstr "PadsPcb タブの設定は、下記のように見えます:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:812
@@ -4306,33 +5121,35 @@ msgid ""
 "image:images/100000000000026D000001272BA6B200.png"
 "[100000000000026D000001272BA6B200_png]"
 msgstr ""
+"image:images/100000000000026D000001272BA6B200.png"
+"[100000000000026D000001272BA6B200_png]"
 
 #. type: Title +
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:815
 #, no-wrap
 msgid "Plugin Configuration Parameters"
-msgstr ""
+msgstr "プラグインの設定パラメータ"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:819
 msgid ""
 "The Eeschema plug-in configuration dialog requires the following information:"
-msgstr ""
+msgstr "Eeschema のプラグインの設定ダイアログでは、下記の情報が必要になります:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:821
 msgid "The title: for instance, the name of the netlist format."
-msgstr ""
+msgstr "タイトル: ネットリストフォーマットの名前など"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:822
 msgid "The command line to launch the converter."
-msgstr ""
+msgstr "変換を行うためのコマンドライン"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:824
 msgid "Once you click on the netlist button the following will happen:"
-msgstr ""
+msgstr "ネットリストボタンをクリックすると、次のように実行されます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:827
@@ -4340,17 +5157,20 @@ msgid ""
 "Eeschema creates an intermediate netlist file __.xml, for instance__test.xml."
 "*"
 msgstr ""
+"Eeschema は __test.xml.* のように、中間ネットリスト __.xml を生成します。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:828
 msgid "Eeschema runs the plug-in by reading test.xml and creates test.net"
 msgstr ""
+"Eeschema は test.xml を読み込むことでプラグインを実行し、test.net を生成しま"
+"す。"
 
 #. type: Title +
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:831
 #, no-wrap
 msgid "Generate netlist files with the command line"
-msgstr ""
+msgstr "コマンドラインからのネットリストファイルの生成"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:836
@@ -4358,6 +5178,8 @@ msgid ""
 "Assuming we are using the program _xsltproc.exe_ to apply the sheet style to "
 "the intermediate file, _xsltproc.exe_ is executed with the following command."
 msgstr ""
+"_xsltproc.exe_ を利用して中間ネットリストへスタイルシートを適用する場合、下記"
+"のコマンドにより _xsltproc.exe_ が実行されます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:839
@@ -4365,11 +5187,15 @@ msgid ""
 "_xsltproc.exe -o <output filename> < style-sheet filename> <input XML file "
 "to convert>_"
 msgstr ""
+"_xsltproc.exe -o <output filename> < style-sheet filename> <input XML file "
+"to convert>_"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:841
 msgid "In Kicad under Windows the command line is the following."
 msgstr ""
+"Windows 環境で Kicad を利用している場合のコマンドラインは以下のようになりま"
+"す。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:844
@@ -4377,11 +5203,13 @@ msgid ""
 "_f:/kicad/bin/xsltproc.exe -o “%O” f:/kicad/bin/plugins/netlist_form_pads-"
 "pcb.xsl “%I”_"
 msgstr ""
+"_f:/kicad/bin/xsltproc.exe -o “%O” f:/kicad/bin/plugins/netlist_form_pads-"
+"pcb.xsl “%I”_"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:846
 msgid "Under Linux the command becomes as following."
-msgstr ""
+msgstr "Linux環境の場合のコマンドを以下に示します。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:849
@@ -4389,6 +5217,8 @@ msgid ""
 "_xsltproc -o “%O” /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.xsl "
 "“%I”_"
 msgstr ""
+"_xsltproc -o “%O” /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.xsl "
+"“%I”_"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:853
@@ -4397,16 +5227,20 @@ msgid ""
 "Do not forget the double quotes around the file names, this allows them to "
 "have spaces after the substitution by Eeschema."
 msgstr ""
+"_netlist_form_pads-pcb.xsl_ には、適用するスタイルシートのファイル名が入りま"
+"す。このスタイルシートのファイル名をダブルクオーテーション (\") で囲むのを忘"
+"れないようにしてください。これは、Eeschema による変換後のスペースの使用を許容"
+"します。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:855
 msgid "The command line format accepts parameters for filenames:"
-msgstr ""
+msgstr "コマンドラインフォーマットはファイル名のパラメータを受け付けます:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:857
 msgid "The supported formatting parameters are."
-msgstr ""
+msgstr "サポートしているフォーマットパラメータを下記に示します:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:860
@@ -4414,6 +5248,7 @@ msgid ""
 "%B => base filename and path of selected output file, minus path and "
 "extension."
 msgstr ""
+"%B => 選択された出力ファイルのパスとファイル名から、パスと拡張子を除いたもの"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:862
@@ -4421,42 +5256,44 @@ msgid ""
 "%I => complete filename and path of the temporary input file (the "
 "intermediate net file)."
 msgstr ""
+"%I => 現在の入力ファイル（中間ネットリストファイル）の完全なパスとファイル名"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:863
 msgid "%O => complete filename and path of the user chosen output file."
-msgstr ""
+msgstr "%O => ユーザーが選んだ出力ファイルの完全なパスとファイル名"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:865
 msgid "%I will be replaced by the actual intermediate file name"
-msgstr ""
+msgstr "%I は実際の中間ネットリストファイル名へ置換されます。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:867
 msgid "%O will be replaced by the actual output file name."
 msgstr ""
+"%O は実際の出力ファイル名へ置換され、最終的なネットリストファイルとなります。"
 
 #. type: Title +
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:870
 #, no-wrap
 msgid "Command line format: example for xsltproc"
-msgstr ""
+msgstr "コマンドラインフォーマット: xsltproc の例 "
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:873
 msgid "The command line format for xsltproc is the following:"
-msgstr ""
+msgstr "xsltproc のコマンドラインフォーマットは、下記のようになります："
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:875
 msgid "<path of xsltproc> xsltproc <xsltproc parameters>"
-msgstr ""
+msgstr "<path of xsltproc> xsltproc <xsltproc parameters>"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:877
 msgid "_under Windows._"
-msgstr ""
+msgstr "_under Windows._"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:880
@@ -4465,12 +5302,14 @@ msgid ""
 "*f:/kicad/bin/xsltproc.exe -o “%O”\n"
 "f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl “%I”*\n"
 msgstr ""
+"*f:/kicad/bin/xsltproc.exe -o “%O”\n"
+"f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl “%I”*\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:882
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:919
 msgid "under Linux:"
-msgstr ""
+msgstr "under Linux:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:885
@@ -4479,6 +5318,8 @@ msgid ""
 "*xsltproc -o “%O” /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.xsl\n"
 "“%I”*\n"
 msgstr ""
+"*xsltproc -o “%O” /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.xsl\n"
+"“%I”*\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:888
@@ -4486,12 +5327,14 @@ msgid ""
 "The above examples assume xsltproc is installed on your PC under Windows and "
 "all files located in kicad/bin."
 msgstr ""
+"上記は、xsltproc が Windows 環境下で kicad/bin 以下にインストールされていると"
+"仮定したものです。"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:891
 #, no-wrap
 msgid "Bill of Materials Generation"
-msgstr ""
+msgstr "BOM （部品表）の生成"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:897
@@ -4500,11 +5343,15 @@ msgid ""
 "components, a BOM can be extracted from it. Here is the plug-in setup window "
 "(on Linux) to create a customized Bill Of Materials (BOM)  file:"
 msgstr ""
+"中間ネットリストファイルは、使用されているコンポーネントのすべての情報を含ん"
+"でいるため、ここから BOM （部品表）を生成することができます。以下に BOM （部"
+"品表）を生成サせるための、Windows(Linux) 環境下でのプラグイン設定ウインドウを"
+"示します:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:899
 msgid "image:images/en/bom-netlist-tab.png[bom-netlist-tab_png]"
-msgstr ""
+msgstr "image:images/en/bom-netlist-tab.png[bom-netlist-tab_png]"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:905
@@ -4514,55 +5361,58 @@ msgid ""
 "xsl__. You are free to modify it according to your needs, and if you develop "
 "something generally useful, ask that it become part of the KiCad project."
 msgstr ""
+"bom2csv.xsl のパスは、システムによって異なります。現状で最適な BOM （部品表）"
+"を生成する XSLT スタイルシートは、ここでは __bom2csv.xsl__ とします。"
 
 #. type: Title ~
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:908
 #, no-wrap
 msgid "Command line format: example for python scripts"
-msgstr ""
+msgstr "コマンドラインフォーマット: python スクリプトの例"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:911
 msgid "The command line format for python is something like:"
 msgstr ""
+"python を使用した場合のコマンドラインフォーマットは、下記のようになります:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:913
 msgid "python <script file name> <input filename> <output filename>"
-msgstr ""
+msgstr "python <script file name> <input filename> <output filename>"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:915
 msgid "under Windows:"
-msgstr ""
+msgstr "Wiindows環境の場合:"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:917
 #, no-wrap
 msgid "*python *.exe f:/kicad/python/my_python_script.py “%I” “%O”*\n"
-msgstr ""
+msgstr "*python *.exe f:/kicad/python/my_python_script.py “%I” “%O”*\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:921
 #, no-wrap
 msgid "*python /usr/local/kicad/python/my_python_script.py “%I” “%O”*\n"
-msgstr ""
+msgstr "*python /usr/local/kicad/python/my_python_script.py “%I” “%O”*\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:923
 msgid "Assuming python is installed on your PC."
-msgstr ""
+msgstr "あなたの PC へ python がインストールされている必要があります。"
 
 #. type: Title ~
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:926
 #, no-wrap
 msgid "Intermediate Netlist structure"
-msgstr ""
+msgstr "中間ネットリストファイルの構造"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:929
 msgid "This sample gives an idea of the netlist file format."
-msgstr ""
+msgstr "ネットリストファイルの例を次に示します。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1006
@@ -4644,47 +5494,122 @@ msgid ""
 "  </nets>\n"
 "</export>\n"
 msgstr ""
+"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+"<export version=\"D\">\n"
+"  <design>\n"
+"    <source>F:\\kicad_aux\\netlist_test\\netlist_test.sch</source>\n"
+"    <date>29/08/2010 21:07:51</date>\n"
+"    <tool>eeschema (2010-08-28 BZR 2458)-unstable</tool>\n"
+"  </design>\n"
+"  <components>\n"
+"    <comp ref=\"P1\">\n"
+"      <value>CONN_4</value>\n"
+"      <libsource lib=\"conn\" part=\"CONN_4\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E2141</tstamp>\n"
+"    </comp>\n"
+"    <comp ref=\"U2\">\n"
+"      <value>74LS74</value>\n"
+"      <libsource lib=\"74xx\" part=\"74LS74\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E20BA</tstamp>\n"
+"    </comp>\n"
+"    <comp ref=\"U1\">\n"
+"      <value>74LS04</value>\n"
+"      <libsource lib=\"74xx\" part=\"74LS04\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E20A6</tstamp>\n"
+"    </comp>\n"
+"    <comp ref=\"C1\">\n"
+"      <value>CP</value>\n"
+"      <libsource lib=\"device\" part=\"CP\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E2094</tstamp>\n"
+"    <comp ref=\"R1\">\n"
+"      <value>R</value>\n"
+"      <libsource lib=\"device\" part=\"R\"/>\n"
+"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"      <tstamp>4C6E208A</tstamp>\n"
+"    </comp>\n"
+"  </components>\n"
+"  <libparts/>\n"
+"  <libraries/>\n"
+"  <nets>\n"
+"    <net code=\"1\" name=\"GND\">\n"
+"      <node ref=\"U1\" pin=\"7\"/>\n"
+"      <node ref=\"C1\" pin=\"2\"/>\n"
+"      <node ref=\"U2\" pin=\"7\"/>\n"
+"      <node ref=\"P1\" pin=\"4\"/>\n"
+"    </net>\n"
+"    <net code=\"2\" name=\"VCC\">\n"
+"      <node ref=\"R1\" pin=\"1\"/>\n"
+"      <node ref=\"U1\" pin=\"14\"/>\n"
+"      <node ref=\"U2\" pin=\"4\"/>\n"
+"      <node ref=\"U2\" pin=\"1\"/>\n"
+"      <node ref=\"U2\" pin=\"14\"/>\n"
+"      <node ref=\"P1\" pin=\"1\"/>\n"
+"    </net>\n"
+"    <net code=\"3\" name=\"\">\n"
+"      <node ref=\"U2\" pin=\"6\"/>\n"
+"    </net>\n"
+"    <net code=\"4\" name=\"\">\n"
+"      <node ref=\"U1\" pin=\"2\"/>\n"
+"      <node ref=\"U2\" pin=\"3\"/>\n"
+"    </net>\n"
+"    <net code=\"5\" name=\"/SIG_OUT\">\n"
+"      <node ref=\"P1\" pin=\"2\"/>\n"
+"      <node ref=\"U2\" pin=\"5\"/>\n"
+"      <node ref=\"U2\" pin=\"2\"/>\n"
+"    </net>\n"
+"    <net code=\"6\" name=\"/CLOCK_IN\">\n"
+"      <node ref=\"R1\" pin=\"2\"/>\n"
+"      <node ref=\"C1\" pin=\"1\"/>\n"
+"      <node ref=\"U1\" pin=\"1\"/>\n"
+"      <node ref=\"P1\" pin=\"3\"/>\n"
+"    </net>\n"
+"  </nets>\n"
+"</export>\n"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1010
 #, no-wrap
 msgid "General netlist file structure"
-msgstr ""
+msgstr "一般的なネットリストファイルの構造"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1013
 msgid "The intermediate Netlist accounts for five sections."
-msgstr ""
+msgstr "中間ネットリストファイルは、次の５つのセクションで構成されています。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1015
 msgid "The header section."
-msgstr ""
+msgstr "ヘッダーセクション"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1016
 msgid "The component section."
-msgstr ""
+msgstr "コンポーネントセクション"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1017
 msgid "The lib parts section."
-msgstr ""
+msgstr "ライブラリパーツセクション"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1018
 msgid "The libraries section."
-msgstr ""
+msgstr "ライブラリセクション"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1019
 msgid "The nets section."
-msgstr ""
+msgstr "ネットセクション"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1021
 msgid "The file content has the delimiter <export>"
-msgstr ""
+msgstr "このファイルは <export> タグで囲まれたものとなります。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1026
@@ -4694,17 +5619,20 @@ msgid ""
 "...\n"
 "</export>\n"
 msgstr ""
+"<export version=\"D\">\n"
+"...\n"
+"</export>\n"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1030
 #, no-wrap
 msgid "The header section"
-msgstr ""
+msgstr "ヘッダーセクション"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1033
 msgid "The header has the delimiter <design>"
-msgstr ""
+msgstr "このヘッダは <design> タグで囲まれます。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1040
@@ -4716,22 +5644,28 @@ msgid ""
 "<tool>eeschema (2010-08-09 BZR 2439)-unstable</tool>\n"
 "</design>\n"
 msgstr ""
+"<design>\n"
+"<source>F:\\kicad_aux\\netlist_test\\netlist_test.sch</source>\n"
+"<date>21/08/2010 08:12:08</date>\n"
+"<tool>eeschema (2010-08-09 BZR 2439)-unstable</tool>\n"
+"</design>\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1043
 msgid "This section can be considered a comment section."
-msgstr ""
+msgstr "このセクションはコメントセクションとして捉えることができます。"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1046
 #, no-wrap
 msgid "The components section"
-msgstr ""
+msgstr "コンポーネントセクション"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1049
 msgid "The component section has the delimiter <components>"
 msgstr ""
+"このコンポーネントセクションは <components> タグで囲まれたものとなります。"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1059
@@ -4746,6 +5680,14 @@ msgid ""
 "</comp>\n"
 "</components>\n"
 msgstr ""
+"<components>\n"
+"<comp ref=\"P1\">\n"
+"<value>CONN_4</value>\n"
+"<libsource lib=\"conn\" part=\"CONN_4\"/>\n"
+"<sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"<tstamp>4C6E2141</tstamp>\n"
+"</comp>\n"
+"</components>\n"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1063
@@ -4753,6 +5695,8 @@ msgid ""
 "This section contains the list of components in your schematic. Each "
 "component is described like this:"
 msgstr ""
+"このセクションには、回路図中で使用されているコンポーネントの一覧が含まれま"
+"す。それぞれのコンポーネントは、次のように記載されます。:"
 
 #. type: delimited block -
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1071
@@ -4765,18 +5709,24 @@ msgid ""
 "<tstamp>4C6E2141</tstamp>\n"
 "</comp>\n"
 msgstr ""
+"<comp ref=\"P1\">\n"
+"<value>CONN_4</value>\n"
+"<libsource lib=\"conn\" part=\"CONN_4\"/>\n"
+"<sheetpath names=\"/\" tstamps=\"/\"/>\n"
+"<tstamp>4C6E2141</tstamp>\n"
+"</comp>\n"
 
 #. type: delimited block |
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1076
 #, no-wrap
 msgid "|*libsource* |name of the lib where this component was found.\n"
-msgstr ""
+msgstr "|*libsource* | そのコンポーネントが含まれているライブラリ名 \n"
 
 #. type: delimited block |
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1078
 #, no-wrap
 msgid "|*part* |component name inside this library.\n"
-msgstr ""
+msgstr "|*part* | ライブラリ中に登録されているコンポーネント名 \n"
 
 #. type: delimited block |
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1081
@@ -4785,24 +5735,26 @@ msgid ""
 "|*sheetpath* |path of the sheet inside the hierarchy: identify the sheet\n"
 "within the full schematic hierarchy.\n"
 msgstr ""
+"|*sheetpath* | 階層内のシートのパス（回路図階層全体の中で、その回路図シートの位置を \n"
+"確にするために利用される） \n"
 
 #. type: delimited block |
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1083
 #, no-wrap
 msgid "|*tstamps (time stamps)* |time stamp of the schematic file.\n"
-msgstr ""
+msgstr "|*tstamps (time stamps)* | 回路図ファイルのタイムスタンプ \n"
 
 #. type: delimited block |
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1085
 #, no-wrap
 msgid "|*tstamp (time stamp)* |time stamp of the component.\n"
-msgstr ""
+msgstr "|*tstamp (time stamp)* | コンポーネントのタイムスタンプ \n"
 
 #. type: Title +
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1089
 #, no-wrap
 msgid "Note about time stamps for components"
-msgstr ""
+msgstr "コンポーネントのタイムスタンプに関する注意"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1097
@@ -4813,6 +5765,12 @@ msgid ""
 "on the board. This allows the re-annotation of components in a schematic "
 "project and does not loose the link between the component and its footprint."
 msgstr ""
+"ネットリスト（つまり基板上）のコンポーネントを識別する際、タイムスタンプ情報"
+"はコンポーネントに固有の情報となります。一方で、Kicad はコンポーネントを基板"
+"上の対応するフットプリントから識別する方法を補助的に用意しています。これは、"
+"回路図プロジェクト中のコンポーネントを再アノテーションできるようにし、コン"
+"ポーネントとフットプリント間の結びつき情報を消失しないようにするためのもので"
+"す。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1102
@@ -4821,6 +5779,10 @@ msgid ""
 "schematic project. However, in complex hierarchies, the same sheet is used "
 "more than once, so this sheet contains components having the same time stamp."
 msgstr ""
+"タイムスタンプは、それぞれのコンポーネントや回路図プロジェクト内のシートにお"
+"いて固有の識別子です。しかしながら、複雑な階層構造内で同じシートが複数回参照"
+"される場合、同じタイムスタンプを持つコンポーネントが存在することになってしま"
+"います。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1106
@@ -4829,6 +5791,9 @@ msgid ""
 "sheetpath. A given component (inside a complex hierarchy) has an unique "
 "identifier: the sheetpath + its tstamp"
 msgstr ""
+"このような複雑な階層構造を持つシートでは、シートのパス情報を利用して固有の識"
+"別子を持ちます。コンポーネントは、“そのシートのパス＋タイムスタンプ” を固有の"
+"識別子として持ちます。"
 
 #. type: Title ^
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:1109
