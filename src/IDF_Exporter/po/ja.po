@@ -221,7 +221,7 @@ msgstr "モジュールプロパティ、3D設定"
 #: IDF_Exporter.adoc:98
 #, no-wrap
 msgid "images/module_params.png"
-msgstr "images/module_params.png"
+msgstr "images/ja/module_params.png"
 
 #. type: Block title
 #: IDF_Exporter.adoc:102
@@ -245,7 +245,7 @@ msgstr "IDF 出力の設定"
 #: IDF_Exporter.adoc:108
 #, no-wrap
 msgid "images/idf_export.png"
-msgstr "images/idf_export.png"
+msgstr "images/ja/idf_export.png"
 
 #. type: Title -
 #: IDF_Exporter.adoc:112

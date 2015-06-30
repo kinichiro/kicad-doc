@@ -5127,7 +5127,7 @@ msgstr ""
 #: Pcbnew_interactive_router.adoc:30
 #, no-wrap
 msgid "images/en/rules_editor.png"
-msgstr "images/en/rules_editor.png"
+msgstr "images/ja/rules_editor.png"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:34
@@ -5143,7 +5143,7 @@ msgstr ""
 #: Pcbnew_interactive_router.adoc:35
 #, no-wrap
 msgid "images/en/opengl_menu.png"
-msgstr "images/en/opengl_menu.png"
+msgstr "images/ja/opengl_menu.png"
 
 #. type: Title ~
 #: Pcbnew_interactive_router.adoc:38
@@ -5325,7 +5325,7 @@ msgstr ""
 #: Pcbnew_interactive_router.adoc:108
 #, no-wrap
 msgid "images/en/router_options.png"
-msgstr "images/en/router_options.png"
+msgstr "images/ja/router_options.png"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:111

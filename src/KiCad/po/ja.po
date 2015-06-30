@@ -557,7 +557,7 @@ msgstr "これらの設定は、プレファレンス・メニューからアク
 #. type: Plain text
 #: KiCad.adoc:225
 msgid "image:images/preferences_menu.png[]"
-msgstr "image:images/preferences_menu.png[]"
+msgstr "image:images/ja/preferences_menu.png[]"
 
 #. type: Plain text
 #: KiCad.adoc:227
@@ -664,7 +664,7 @@ msgstr ""
 #. type: Plain text
 #: KiCad.adoc:267
 msgid "image:images/configure_path_dlg.png[]"
-msgstr "image:images/configure_path_dlg.png[]"
+msgstr "image:images/ja/configure_path_dlg.png[]"
 
 #. type: Plain text
 #: KiCad.adoc:269
@@ -895,7 +895,7 @@ msgstr "メインウィンドウ"
 #. type: Plain text
 #: KiCad.adoc:360
 msgid "image:images/main_window.png[]"
-msgstr "image:images/main_window.png[]"
+msgstr "image:images/ja/main_window.png[]"
 
 #. type: Plain text
 #: KiCad.adoc:365
@@ -1300,7 +1300,7 @@ msgstr "KiCadファイルメニューNewに２つの選択が表示されます:
 #. type: Plain text
 #: KiCad.adoc:539
 msgid "image:images/menu_file.png[]"
-msgstr "image:images/menu_file.png[]"
+msgstr "image:images/ja/menu_file.png[]"
 
 #. type: Plain text
 #: KiCad.adoc:542
@@ -1337,7 +1337,7 @@ msgstr ""
 #. type: Plain text
 #: KiCad.adoc:552
 msgid "image:images/template_selector.png[]"
-msgstr "image:images/template_selector.png[]"
+msgstr "image:images/ja/template_selector.png[]"
 
 #. type: Plain text
 #: KiCad.adoc:554
@@ -1347,7 +1347,7 @@ msgstr "テンプレートを選択した後で:"
 #. type: Plain text
 #: KiCad.adoc:556
 msgid "image:images/template_selected.png[]"
-msgstr "image:images/template_selected.png[]"
+msgstr "image:images/ja/template_selected.png[]"
 
 #. type: Title ^
 #: KiCad.adoc:558
