@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-06-23 00:44+0900\n"
-"PO-Revision-Date: 2015-06-29 02:00+0900\n"
+"PO-Revision-Date: 2015-06-30 21:35+0900\n"
 "Last-Translator: yoneken <yoneken@kicad.jp>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -49,10 +49,10 @@ msgid ""
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有©2010–2014されています。あなた"
-"は、GNUGeneralPublicLicense(http://wwwgnuorg/licenses/gpl.html),version3以"
-"降、あるいはクリエイティブ·コモンズライセンス(http://creativecommonsorg/"
-"licenses/by/30/),version30以降のいずれかの条件の下で、それを配布し、そして/ま"
-"たは、それを変更することができます。"
+"は、GNUGeneralPublicLicense(http://www.gnu.org/licenses/gpl.html),version3以"
+"降、あるいはクリエイティブ·コモンズライセンス(http://creativecommons.org/"
+"licenses/by/3.0/),version3.0以降のいずれかの条件の下で、それを配布し、そして/"
+"または、それを変更することができます。"
 
 #. type: Plain text
 #: Pcbnew.adoc:23
@@ -162,7 +162,7 @@ msgstr ""
 "リックし、ダブルクリックして外形線を終了させます。通常基板には非常に正確な寸"
 "法があり、そのため外形を描画中に、表示されたカーソル座標の使用が必要になるか"
 "もしれません。相対座標はスペースバーを使用していつでもゼロになることがありま"
-"す。また、'AltU'を使用して表示単位をトグルさせることが可能であることを覚えて"
+"す。また、'Alt-U'を使用して表示単位をトグルさせることが可能であることを覚えて"
 "おいて下さい。相対座標により非常に正確な寸法で描画することができます。円(また"
 "は円弧)の外形の作成が可能です:"
 
@@ -211,7 +211,7 @@ msgstr "image:images/ja/Pcbnew_simple_board_outline.png[]"
 #: Pcbnew_create_and_modify_board.adoc:38
 #, no-wrap
 msgid "Importing a DXF drawing for a board outline"
-msgstr ""
+msgstr "基板外形のためのDXF図形のインポート"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:43
@@ -220,6 +220,9 @@ msgid ""
 "outline can also be imported from a DXF drawing. Using this feature much "
 "more complex board shapes can be created."
 msgstr ""
+"Pcbnewに直接基板外形を作成する別の方法として、DXF図形から外形をインポートする"
+"ことが出来ます。この機能を用いて、より複雑な基板の形状を作成することが出来ま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:47
@@ -228,26 +231,29 @@ msgid ""
 "mechanical CAD package and then imported into Pcbnew to define the exact "
 "board shape required to fit an enclosure."
 msgstr ""
+"例えば、入れ物にピッタリとはめるために、必要とする基板形状を機械CADパッケージ"
+"からDXF図形としてエクスポートしてから、Pcbnewへインポートして正確な基板形状を"
+"定義できます。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:49
 msgid "To import a board shape from a DXF file:"
-msgstr ""
+msgstr "DXFファイルから基板形状を入力するためには:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:51
 msgid "File > Import > DXF File."
-msgstr ""
+msgstr "ファイル > インポート > DXFファイル。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:52
 msgid "Select the DXF file to be imported."
-msgstr ""
+msgstr "インポートするのにDXFファイルを選択する。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:53
 msgid "Select which origin is used by the DXF shape."
-msgstr ""
+msgstr "DXF形状の基準を選択する。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:56
@@ -255,35 +261,37 @@ msgid ""
 "Select the board layer for the import. Edge.Cuts is needed for the board "
 "outline, but DXF drawings can be imported onto other layers as well."
 msgstr ""
+"インポートする基板レイヤを選択する。 外形カットは基板外形のために必要とする"
+"が、DXF図形は他のレイヤーへも同様にインポートできる。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:57
 msgid "Click OK"
-msgstr ""
+msgstr "OKをクリック"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:60
 msgid ""
 "Here is an example of such an DXF import with a board that has several "
 "elliptical segments:"
-msgstr ""
+msgstr "以下はいくつかの楕円部分を持つ基板をDXFインポートする例です:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:62
 msgid "image:images/Pcbnew_board_outline_imported_from_a_DXF.png[]"
-msgstr ""
+msgstr "image:images/ja/Pcbnew_board_outline_imported_from_a_DXF.png[]"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:64
 #, no-wrap
 msgid "Notes on DXF imports"
-msgstr ""
+msgstr "DXFインポートの注意"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:67
 msgid ""
 "There are some limitations on the DXF formats that are supported in KiCad."
-msgstr ""
+msgstr "KiCadにおけるDXFフォーマットサポートにはいくつかの制限があります。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:73
@@ -295,6 +303,11 @@ msgid ""
 "line segments to 'approximate' an Ellipses. LibreCAD for example is known to "
 "do that."
 msgstr ""
+"例えば、楕円のインポートは現在サポートされていません。しかしながら、古いDXF"
+"フォーマットにおいてCADシステムからそのようなDXFをエクスポート可能なことがし"
+"ばしばあります。例えば、DXF R12フォーマットは楕円線分をサポートしていませ"
+"ん。 そのようなCADアプリケーションは楕円を近似した繋がった小さな線分をエクス"
+"ポートします。 例としてLibreCADはそうすることが知られています。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:77
@@ -303,6 +316,9 @@ msgid ""
 "'close' Ellipses. If the line segments lengths used to create the Ellipses "
 "are too big, this becomes visible as a gap in the board outline."
 msgstr ""
+"そしてまた、線分を用いたような楕円のCADエクスポートは ’閉じて’ いない傾向があ"
+"ります。もし、作成された楕円の線分が長すぎると、それは基板外形において隙間と"
+"して見えるようになります。"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:81
@@ -311,6 +327,9 @@ msgid ""
 "0.05mm in length. Even with the 'gap', this will make the end sufficiently "
 "close that the board outline can be regarded as 'closed'."
 msgstr ""
+"もしあなたのCADソフトウェアが0.05mmの長さの線分を生成できるのであれば、設定し"
+"て下さい。そうすれば、隙間があっても、十分に近い端は基板外形が ‘閉じて’ いる"
+"とみなされ閉じられます。"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:84
@@ -324,8 +343,8 @@ msgid ""
 "Activate the image:images/icons/netlist.png[] icon to display the netlist "
 "dialog window:"
 msgstr ""
-"回路図から生成したネットリストの読み込みアイコンをアクティブにしてネットリス"
-"トダイアログウィンドウを表示します: TODO"
+"image:images/ja/icons/netlist.png[] アイコンをアクティブにしてネットリストダ"
+"イアログウィンドウを表示します:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:90 Pcbnew_schematics.adoc:74
@@ -438,8 +457,8 @@ msgid ""
 "tracks deletion' box of the netlist dialog:"
 msgstr ""
 "Pcbnewは修正の結果不適当となった配線を自動的に削除することが可能です。これを"
-"行うには、ネットリストダイアログのバッドトラックの削除ボックスの削除オプショ"
-"ンにチェックを付けます:"
+"行うには、ネットリストダイアログのバッド配線の削除ボックスの削除オプションに"
+"チェックを付けます:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:138
@@ -848,7 +867,9 @@ msgid ""
 "Directly via the image:images/icons/module_editor.png[] icon from the main "
 "toolbar of Pcbnew. This allows creation or modification of a module in the "
 "library."
-msgstr "直接、Pcbnewの上部ツールバーのアイコンより起動する方法。 TODO"
+msgstr ""
+"直接、Pcbnewの上部ツールバーの image:images/ja/icons/module_editor.png[] アイ"
+"コンより起動する方法。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:76
@@ -988,22 +1009,22 @@ msgid ""
 "| image:images/icons/contrast_mode.png[]\n"
 "| Toggle high-contrast mode\n"
 msgstr ""
-"| image:images/icons/grid.png[]\n"
+"| image:images/ja/icons/grid.png[]\n"
 "| グリッドの表示。\n"
-"| image:images/icons/polar_coord.png[]\n"
+"| image:images/ja/icons/polar_coord.png[]\n"
 "| 直交座標系/極座標系切り替え。\n"
-"| image:images/icons/unit_mm.png[] image:images/icons/unit_inch.png[]\n"
+"| image:images/ja/icons/unit_mm.png[] image:images/icons/unit_inch.png[]\n"
 "| 単位系の切り替え(インチ/ミリメートル)\n"
-"| image:images/icons/cursor_shape.png[]\n"
+"| image:images/ja/icons/cursor_shape.png[]\n"
 "| 十字カーソルの表示。\n"
-"| image:images/icons/pad_sketch.png[]\n"
+"| image:images/ja/icons/pad_sketch.png[]\n"
 "| アウトラインモード(輪郭線)でパッドを表示する。\n"
-"| image:images/icons/text_sketch.png[]\n"
+"| image:images/ja/icons/text_sketch.png[]\n"
 "| アウトラインモード(輪郭線)でテキストを表示する。\n"
-"| image:images/icons/show_mod_edge.png[]\n"
+"| image:images/ja/icons/show_mod_edge.png[]\n"
 "| アウトラインモード(輪郭線)で外形シルクを表示する。\n"
-"| image:images/icons/contrast_mode.png[]\n"
-"| TODO\n"
+"| image:images/ja/icons/contrast_mode.png[]\n"
+"| ハイコントラストモードの切り替え\n"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:147
@@ -1087,8 +1108,9 @@ msgid ""
 "png[]. The name of the new module will be requested. This will be the name "
 "by which the module will be identified in the library."
 msgstr ""
-"ボタンにより新規モジュールを作成することが可能です。新規モジュールの名前が必"
-"要になります。これは、ライブラリ内でモジュールを識別するための名前です。 TODO"
+"ボタン image:images/ja/icons/new_footprint.png[]. により新規モジュールを作成"
+"することが可能です。新規モジュールの名前が必要になります。これは、ライブラリ"
+"内でモジュールを識別するための名前です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:185
@@ -1140,7 +1162,10 @@ msgid ""
 "Load the similar module (image:images/icons/load_module_lib.png[], image:"
 "images/icons/load_module_board.png[] or image:images/icons/import_module."
 "png[])."
-msgstr "似たようなモジュールを読み込む(または) TODO"
+msgstr ""
+"似たようなモジュールを読み込む(image:images/ja/icons/load_module_lib.png[], "
+"image:images/ja/icons/load_module_board.png[] または image:images/ja/icons/"
+"import_module.png[])。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:202
@@ -1183,9 +1208,9 @@ msgid ""
 "Pads can be added by clicking in the desired position with the left mouse "
 "button. Pad properties are predefined in the pad properties menu."
 msgstr ""
-"右側ツールバーからアイコンを選択します。希望する位置でマウスの左ボタンをク"
-"リックして、パッドを追加することが可能です。パッドプロパティメニューでパッド"
-"プロパティを事前に定義します。TODO"
+"右側ツールバーから image:images/ja/icons/pad.png[] アイコンを選択します。希望"
+"する位置でマウスの左ボタンをクリックして、パッドを追加することが可能です。"
+"パッドプロパティメニューでパッドプロパティを事前に定義します。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:220
@@ -1807,8 +1832,8 @@ msgid ""
 "The save command (modification of the file of the active library) is "
 "activated by the image:images/icons/save_library.png[] button."
 msgstr ""
-"保存コマンド(アクティブなライブラリのファイルの修正)はボタンで実行します。 "
-"TODO"
+"保存コマンド(アクティブなライブラリのファイルの修正)は image:images/ja/icons/"
+"save_library.png[] ボタンで実行します。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:456
@@ -1844,8 +1869,9 @@ msgid ""
 "images/icons/update_module_board.png[] will update this footprint on the "
 "board."
 msgstr ""
-"編集したフットプリントが現在の基板からのものである場合、ボタンにより基板上の"
-"このフットプリントを更新します。 TODO"
+"編集したフットプリントが現在の基板からのものである場合、ボタン image:images/"
+"ja/icons/update_module_board.png[] により基板上のこのフットプリントを更新しま"
+"す。"
 
 #. type: Title -
 #: Pcbnew_editing_tools.adoc:2
@@ -2310,8 +2336,8 @@ msgid ""
 "Mark any layer (e.g., 'top or front' and 'bottom or back') with the project "
 "name by placing appropriate text upon each of the layers."
 msgstr ""
-"部品面やハンダ面など各々の層へ、プロジェクト名などのテキストを配置します。 "
-"TODO"
+"‘部品面’ や ‘ハンダ面’ など各々の層へ、プロジェクト名などのテキストを配置しま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:15
@@ -2381,8 +2407,8 @@ msgid ""
 "Zones are filled or refilled when starting a DRC. Press the button image:"
 "images/icons/drc.png[[] to launch the following DRC dialog:"
 msgstr ""
-"DRCテストを開始する際に、領域が塗りつぶされます。ボタンをクリックし、以下に示"
-"すようなDRCダイアログを表示させます。 TODO"
+"DRCテストを開始する際に、領域が塗りつぶされます。ボタン image:images/ja/"
+"icons/drc.png[] をクリックし、以下に示すようなDRCダイアログを表示させます。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:36
@@ -2392,7 +2418,7 @@ msgstr "image:images/ja/Pcbnew_DRC_dialog.png[]"
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:38
 msgid "Adjust parameters accordingly and then press the \"Start DRC\" button."
-msgstr "パラメータを適宜変更し、 \"Start DRC\" をクリックします。 TODO"
+msgstr "パラメータを適宜変更し、 “DRC開始” をクリックします。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:40
@@ -2414,8 +2440,9 @@ msgid ""
 "clicking for instance on this location."
 msgstr ""
 "フォトプロッタやドリル穴あけ機のための原点座標を設定します。右部ツールバーよ"
-"り、置としたい座標でクリックすることにより、補助軸を移動させます。アイコンを"
-"選択し、原点位ファイルメニューよりプロットを選択し、作業を行います。 TODO"
+"り、置としたい座標でクリックすることにより、補助軸を移動させます。アイコン "
+"image:images/ja/icons/pcb_offset.png を選択し、原点位ファイルメニューよりプ"
+"ロットを選択し、作業を行います。 "
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:50
@@ -2836,14 +2863,14 @@ msgstr "これらの生成は、下記手順で行う事ができます"
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:214
 msgid "the \"Create Drill File\" button."
-msgstr "ボタンをクリック TODO"
+msgstr "“ドリルファイル作成”ボタンをクリック"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:215
 msgid "or the Files/Fabrication Outputs/Drill file menu selection."
 msgstr ""
 "もしくは、ファイルメニューより各種製造用ファイル出力、ドリルファイルと辿るこ"
-"とで表示することができます。 TODO"
+"とで表示することができます。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:217
@@ -3658,7 +3685,7 @@ msgstr "寸法メニュー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:269
 msgid "An important menu.  image:images/Pcbnew_dimensions_menu.png[]"
-msgstr "重要なメニューです。  TODO"
+msgstr "重要なメニューです。 image:images/ja/Pcbnew_dimensions_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:271
@@ -3841,7 +3868,7 @@ msgstr ""
 "| image:images/icons/netlist.png[]\n"
 "    | ネットリストの操作(選択、読込み、テスト、コンパイル)。\n"
 "| image:images/icons/drc.png[]\n"
-"    | DRC(デザインルールチェック): トラックの自動チェック。\n"
+"    | DRC(デザインルールチェック): 配線の自動チェック。\n"
 "| image:images/Pcbnew_toolbar_layer_select_dropdown.png[]\n"
 "    | ワーキングレイヤの選択。\n"
 "| image:images/Pcbnew_layer_pair_indicator.png[]\n"
@@ -3908,7 +3935,7 @@ msgstr "このツールバーは、次の用途のツールへのアクセスを
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:385
 msgid "Placement of modules, tracks, zones of copper, texts, etc."
-msgstr "モジュール、トラック、銅のゾーン、 テキストなどの配置。"
+msgstr "モジュール、配線、導体ゾーン、 テキストなどの配置。"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:386
@@ -3964,7 +3991,7 @@ msgstr ""
 "| image:images/icons/module.png[]\n"
 "    | ライブラリからモジュールを追加します。\n"
 "| image:images/icons/add_tracks.png[]\n"
-"    | トラックとビアの配置。\n"
+"    | 配線とビアの配置。\n"
 "| image:images/icons/add_zone.png[]\n"
 "    | 塗りつぶしゾーンの配置(copper planes)。\n"
 "| image:images/icons/add_keepout_area.png[]\n"
@@ -4008,9 +4035,9 @@ msgstr ""
 "    set of priorities tracks, text, module). The function “Undelete”\n"
 "    of the upper toolbar allows the cancellation of the last item\n"
 "    deleted.\n"
-"| image:images/icons/pcb_offset.png[]\n"
+"| image:images/ja/icons/pcb_offset.png[]\n"
 "    | ドリルの座標ファイルのためのオフセットを調整します。\n"
-"| image:images/icons/grid_select_axis.png[]\n"
+"| image:images/ja/icons/grid_select_axis.png[]\n"
 "    | Grid origin. (grid offset). Useful mainly for edition and\n"
 "    placement of footprints. Can also be set in Dimensions/Grid menu. TODO\n"
 
@@ -4198,7 +4225,7 @@ msgstr "ノーマルモード"
 #: Pcbnew_general_operations.adoc:523 Pcbnew_general_operations.adoc:540
 #: Pcbnew_general_operations.adoc:557
 msgid "Pop-up menu with no selection:"
-msgstr ""
+msgstr "未選択時のポップアップ:"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:525
@@ -4209,7 +4236,7 @@ msgstr "image:images/ja/Pcbnew_popup_normal_mode.png[]"
 #: Pcbnew_general_operations.adoc:527 Pcbnew_general_operations.adoc:544
 #: Pcbnew_general_operations.adoc:561
 msgid "Pop-up menu with track selected:"
-msgstr "未選択時のポップアップ:"
+msgstr "配線上でポップアップ:"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:529
@@ -4220,7 +4247,7 @@ msgstr "image:images/ja/Pcbnew_popup_normal_mode_track.png[]"
 #: Pcbnew_general_operations.adoc:531 Pcbnew_general_operations.adoc:548
 #: Pcbnew_general_operations.adoc:565
 msgid "Pop-up menu with footprint selected:"
-msgstr "トラック上でポップアップ:"
+msgstr "フットプリント上でポップアップ"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:533
@@ -4237,7 +4264,8 @@ msgstr "フットプリントモード"
 #: Pcbnew_general_operations.adoc:538
 msgid ""
 "Same cases in Footprint Mode (image:images/icons/mode_module.png[] enabled)"
-msgstr "フットプリントモードでの同じ例 (オン) TODO"
+msgstr ""
+"フットプリントモードでの同じ例 (image:images/ja/icons/mode_module.png[] オン)"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:542
@@ -4258,12 +4286,12 @@ msgstr "image:images/ja/Pcbnew_popup_footprint_mode_footprint.png[]"
 #: Pcbnew_general_operations.adoc:552
 #, no-wrap
 msgid "Tracks mode"
-msgstr "トラックモード"
+msgstr "配線モード"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:555
 msgid "Same cases in Track Mode (image:images/icons/mode_track.png[] enabled)"
-msgstr "トラックモードでの同じ例 (オン) TODO"
+msgstr "配線モードでの同じ例 (image:images/ja/icons/mode_track.png[] オン) "
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:559
@@ -4343,7 +4371,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_installation.adoc:27
 msgid "Select Preferences - Libs and Dir."
-msgstr "“設定”メニューより”ライブラリ”を選択します。 TODO"
+msgstr "“設定”メニューより”ライブラリ”を選択します。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:28
@@ -5153,8 +5181,8 @@ msgid ""
 "Pcbnew has an active Design Rules Check (DRC) which automatically indicates "
 "any error of track layout in real time."
 msgstr ""
-"Pcbnewは、リアルタイムにトラック・レイアウトの様々なエラーをアクティブに検出"
-"するデザインルールチェック(DRC)機能を持ちます。"
+"Pcbnewは、リアルタイムに配線レイアウトの様々なエラーをアクティブに検出するデ"
+"ザインルールチェック(DRC)機能を持ちます。"
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:41
@@ -5766,7 +5794,9 @@ msgstr "ハイコントラストモードの使用"
 msgid ""
 "This mode is entered when the tool (in the left toolbar) is activated: image:"
 "images/icons/contrast_mode.png[]"
-msgstr "ツール(左ツールバー)がアクティブの時、このモードになります。 TODO"
+msgstr ""
+"ツール(左ツールバー)がアクティブの時、このモードになります: image:images/ja/"
+"icons/contrast_mode.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:157
@@ -5955,14 +5985,16 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:39
 msgid "The Module Editor can be accessed in two different ways:"
-msgstr "モジュールエディターは次の3つの方法で使用することが可能です: TODO"
+msgstr "モジュールエディターは次の3つの方法で使用することが可能です:"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:42
 msgid ""
 "Directly, via the icon image:images/icons/module_editor.png[] in the main "
 "toolbar of Pcbnew."
-msgstr "直接、Pcbnewのメインツールバーのアイコンによる。 TODO"
+msgstr ""
+"直接、Pcbnewのメインツールバーのアイコン image:images/ja/icons/module_editor."
+"png[] による。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:44
@@ -6068,48 +6100,48 @@ msgid ""
 "| image:images/icons/module_check.png[]\n"
 "| Perform a check of module correctness\n"
 msgstr ""
-"| image:images/icons/library.png[]\n"
+"| image:images/ja/icons/library.png[]\n"
 "| アクティブなライブラリを選択する。\n"
-"| image:images/icons/save_library.png[]\n"
+"| image:images/ja/icons/save_library.png[]\n"
 "| アクティブなライブラリに現在のモジュールを保存し、ディスクに書き込む。\n"
-"| image:images/icons/new_library.png[]\n"
+"| image:images/ja/icons/new_library.png[]\n"
 "| 新規ライブラリを作成し、その中に現在のモジュールを保存する。\n"
-"| image:images/icons/modview_icon.png[]\n"
+"| image:images/ja/icons/modview_icon.png[]\n"
 "| モジュールビューアを開く\n"
-"| image:images/icons/delete.png[]\n"
+"| image:images/ja/icons/delete.png[]\n"
 "| アクティブなライブラリからモジュールを削除するためのダイアログにアクセスする。\n"
-"| image:images/icons/new_footprint.png[]\n"
+"| image:images/ja/icons/new_footprint.png[]\n"
 "| 新規モジュールを作成する。\n"
-"| image:images/icons/module_wizard.png[]\n"
+"| image:images/ja/icons/module_wizard.png[]\n"
 "| Create a module using a wizard TODO\n"
-"| image:images/icons/load_module_lib.png[]\n"
+"| image:images/ja/icons/load_module_lib.png[]\n"
 "| アクティブなライブラリからモジュールを読み込む。\n"
 "| image:images/icons/load_module_board.png[]\n"
 "| プリント基板からモジュールを読み込む(インポートする)。\n"
-"| image:images/icons/update_module_board.png[]\n"
+"| image:images/ja/icons/update_module_board.png[]\n"
 "| 現在の基板からあらかじめモジュールをインポートしてある場合に、プリント基板に現在のモジュールをエクスポートする。\n"
 "基板上の対応するモジュールを置き換えます(つまり、位置および角度に関して)。\n"
-"| image:images/icons/insert_module_board.png[]\n"
+"| image:images/ja/icons/insert_module_board.png[]\n"
 "| プリント基板上にモジュールをコピーして、位置0に配置します。\n"
 "| image:images/icons/import_module.png[]\n"
 "| ライブラリからモジュールを読み込んだ時に、その現在のモジュールをプリント基板にエクスポートする。\n"
-"| image:images/icons/export_module.png[]\n"
+"| image:images/ja/icons/export_module.png[]\n"
 "| エクスポートコマンド()で作成したファイルからモジュールをインポートする。\n"
 "モジュールをエクスポートする。このコマンドは本質的にライブラリを作成するコマンドと同じです。 TODO\n"
-"| image:images/icons/undo.png[] image:images/icons/redo.png[]\n"
+"| image:images/ja/icons/undo.png[] image:images/icons/redo.png[]\n"
 "| 元に戻す やり直し TODO\n"
-"| image:images/icons/module_options.png[]\n"
+"| image:images/ja/icons/module_options.png[]\n"
 "| モジュールプロパティダイアログを呼び出す。\n"
-"| image:images/icons/print_button.png[]\n"
+"| image:images/ja/icons/print_button.png[]\n"
 "| 印刷ダイアログを呼び出す。\n"
-"| image:images/icons/zoom_in.png[]\n"
-"image:images/icons/zoom_out.png[]\n"
-"image:images/icons/zoom_redraw.png[]\n"
-"image:images/icons/zoom_fit_in_page.png[]\n"
+"| image:images/ja/icons/zoom_in.png[]\n"
+"image:images/ja/icons/zoom_out.png[]\n"
+"image:images/ja/icons/zoom_redraw.png[]\n"
+"image:images/ja/icons/zoom_fit_in_page.png[]\n"
 "| 標準ズームコマンド。\n"
-"| image:images/icons/options_pad.png[]\n"
+"| image:images/ja/icons/options_pad.png[]\n"
 "| パッドエディターを呼び出す。\n"
-"| image:images/icons/module_check.png[]\n"
+"| image:images/ja/icons/module_check.png[]\n"
 "| モジュールのチェックを行う\n"
 
 #. type: Plain text
@@ -6121,10 +6153,11 @@ msgid ""
 "which will be replaced by the final reference on the printed circuit board "
 "(U1, IC3, etc.)"
 msgstr ""
-"ボタンにより新規モジュールを作成することができます。その時、モジュール名の入"
-"力が必要になります。これによりライブラリ内でモジュールを識別します。このテキ"
-"ストはモジュールのリファレンスとしての役割も果たしますが、プリント基板上で最"
-"終的なリファレンス((U1、IC3、など)に置き換えられます。 TODO"
+"ボタン image:images/ja/icons/new_footprint.png[] により新規モジュールを作成す"
+"ることができます。その時、モジュール名の入力が必要になります。これによりライ"
+"ブラリ内でモジュールを識別します。このテキストはモジュールのリファレンスとし"
+"ての役割も果たしますが、プリント基板上で最終的なリファレンス((U1、IC3、など)"
+"に置き換えられます。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:127
@@ -6160,7 +6193,10 @@ msgid ""
 "Load the similar module via the buttons image:images/icons/load_module_lib."
 "png[], image:images/icons/load_module_board.png[] or image:images/icons/"
 "import_module.png[]."
-msgstr "およびボタンにより似たようなモジュールを読み込む。 TODO"
+msgstr ""
+"image:images/ja/icons/load_module_lib.png[], image:images/ja/icons/"
+"load_module_board.png[] および image:images/ja/icons/import_module.png[] ボタ"
+"ンにより似たようなモジュールを読み込む。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:140
@@ -6181,9 +6217,10 @@ msgid ""
 "library directory or via the button image:images/icons/export_module.png[], "
 "in which case the file is created by default in your working directory."
 msgstr ""
-"新規ライブラリの作成はボタンで行います。この場合、ファイルはデフォルトでライ"
-"ブラリのディレクトリに作成されます。あるいはボタンを用います。その場合には"
-"ファイルはデフォルトで作業ディレクトリに作成されます。 TODO"
+"新規ライブラリの作成はボタン image:images/ja/icons/new_library.png[] で行いま"
+"す。この場合、ファイルはデフォルトでライブラリのディレクトリに作成されます。"
+"あるいはボタン image:images/ja/icons/export_module.png[] を用います。その場合"
+"にはファイルはデフォルトで作業ディレクトリに作成されます。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:154
@@ -6218,10 +6255,11 @@ msgid ""
 "Since you will depend upon the accuracy of the library modules, it is worth "
 "double-checking the module before saving."
 msgstr ""
-"モジュールの保存(アクティブなライブラリのファイルの変更)動作は、ボタンを使用"
-"して実行します。同じ名前のモジュールが既に存在する場合は、置き換えられます。"
-"今後の作業がライブラリのモジュールの正確さに左右されるので、モジュールを保存"
-"する前にチェックを怠らないようにしてください。 TODO"
+"モジュールの保存(アクティブなライブラリのファイルの変更)動作は、 image:"
+"images/ja/icons/save_library.png[] ボタンを使用して実行します。同じ名前のモ"
+"ジュールが既に存在する場合は、置き換えられます。今後の作業がライブラリのモ"
+"ジュールの正確さに左右されるので、モジュールを保存する前にチェックを怠らない"
+"ようにしてください。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:170
@@ -6230,37 +6268,43 @@ msgid ""
 "name of the module as identified in the library."
 msgstr ""
 "リファレンスかまたはライブラリ内で識別されるモジュール名に対する値フィールド"
-"のテキストのどちらかを編集することを推奨します。 TODO"
+"のテキストのどちらかを編集することを推奨します。"
 
 #. type: Title ~
 #: Pcbnew_managing_libs.adoc:172
 #, no-wrap
 msgid "Transferring a module from one library to another"
-msgstr "ライブラリ間のモジュールの移動ボタンで"
+msgstr "ライブラリ間のモジュールの移動"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:176
 msgid ""
 "Select the source library via the button image:images/icons/library.png[]."
-msgstr "移動元ライブラリを選択します。 TODO"
+msgstr ""
+"ボタン image:images/ja/icons/library.png[] で移動元ライブラリを選択します。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:178
 msgid ""
 "Load the module via the button image:images/icons/load_module_lib.png[]."
-msgstr "ボタンでモジュールを読み込みます。 TODO"
+msgstr ""
+"ボタン image:images/ja/icons/load_module_lib.png[] でモジュールを読み込みま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:180
 msgid ""
 "Select the destination library via the button image:images/icons/library."
 "png[]."
-msgstr "ボタンで移動先ライブラリを選択します。 TODO"
+msgstr ""
+"ボタン image:images/ja/icons/library.png[] で移動先ライブラリを選択します。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:181
 msgid "Save the module via the button image:images/icons/save_library.png[]"
-msgstr "ボタンで当該モジュールを保存します。 TODO"
+msgstr ""
+"ボタン image:images/ja/icons/save_library.png[] で当該モジュールを保存しま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:183
@@ -6270,12 +6314,14 @@ msgstr "移動元のモジュールを削除したいと思うかもしれませ
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:185
 msgid "Reselect the source library with image:images/icons/library.png[]"
-msgstr "移動元ライブラリを再度選択し、 TODO"
+msgstr "移動元ライブラリを再度選択し、 image:images/ja/icons/library.png[]"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:186
 msgid "Delete the old module via the button image:images/icons/delete.png[]"
-msgstr "ボタンとボタンにより古いモジュールを削除します。 TODO"
+msgstr ""
+"ボタンとボタン image:images/ja/icons/delete.png[] により古いモジュールを削除"
+"します。"
 
 #. type: Title ~
 #: Pcbnew_managing_libs.adoc:188
@@ -6502,8 +6548,8 @@ msgid ""
 msgstr ""
 "配置補助モジュールを移動中、配置を補助するためにモジュールのラッツネスト(ネッ"
 "ト状の結線)を表示させることが可能\n"
-"です。これを有効にするには、左ツールバーのアイコンをアクティブにしなければな"
-"りません。 TODO"
+"です。これを有効にするには、左ツールバーの image:images/ja/icons/modratsnest."
+"png[] アイコンをアクティブにしなければなりません。"
 
 #. type: Title ~
 #: Pcbnew_module_placement.adoc:14
@@ -7424,8 +7470,8 @@ msgid ""
 "Pcbnew can display the full ratsnest, if the button image:images/icons/"
 "modratsnest.png[] is activated."
 msgstr ""
-"ボタンがアクティブである場合にPcbnewで全ラッツネストを表示させることが可能で"
-"す。 TODO"
+"image:images/ja/icons/modratsnest.png[] ボタンがアクティブである場合にPcbnew"
+"で全ラッツネストを表示させることが可能です。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:210
@@ -7433,8 +7479,9 @@ msgid ""
 "The button image:images/icons/net_highlight.png[] allows to highlight a net "
 "(click to a pad or an existing track to highlight the corresponding net)."
 msgstr ""
-"ボタンによりネットをハイライトにすることができます(パッドまたは既存の配線をク"
-"リックし、対応するネットをハイライトにします)。 TODO"
+"image:images/ja/icons/net_highlight.png[] ボタンによりネットをハイライトにす"
+"ることができます(パッドまたは既存の配線をクリックし、対応するネットをハイライ"
+"トにします)。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:215
@@ -7462,9 +7509,10 @@ msgid ""
 "because Pcbnew must know the net used for the new track (in order to match "
 "the DRC rules)."
 msgstr ""
-"ボタンをクリックして配線を作成することが可能です。新規配線はパッドまたは他の"
-"配線上で開始しなければなりません。それは(DRCルールに適合させるために)Pcbnewが"
-"新規配線に使用するネットを知っているはずだからです。 TODO"
+"image:images/ja/icons/add_tracks.png[] ボタンをクリックして配線を作成すること"
+"が可能です。新規配線はパッドまたは他の配線上で開始しなければなりません。それ"
+"は(DRCルールに適合させるために)Pcbnewが新規配線に使用するネットを知っているは"
+"ずだからです。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:225
@@ -7504,9 +7552,9 @@ msgid ""
 "where the cursor is positioned can be moved with the hotkey 'm'.  If you "
 "want to drag the track you can use the hotkey 'g'."
 msgstr ""
-"ボアたんがアクティブの時、カーソルが置かれた所の配線はホットキー 'm' で移動さ"
-"せることが可能です。配線をドラッグしたい場合、ホットキー 'g' を使用することが"
-"できます。 TODO"
+"image:images/ja/icons/add_tracks.png[] ボタンがアクティブの時、カーソルが置か"
+"れた所の配線はホットキー 'm' で移動させることが可能です。配線をドラッグしたい"
+"場合、ホットキー ‘g’ を使用することができます。"
 
 #. type: Title ^
 #: Pcbnew_routing.adoc:242
@@ -7571,8 +7619,8 @@ msgid ""
 "track width can be selected from the pop-up menu (accessible as well when "
 "creating a track)."
 msgstr ""
-"ボタンがアクティブの時、(配線の作成時にもアクセス可能な)ポップアップメニュー"
-"から現在の配線幅を選択可能です。 TODO"
+"image:images/ja/icons/add_tracks.png[] ボタンがアクティブの時、(配線の作成時"
+"にもアクセス可能な)ポップアップメニューから現在の配線幅を選択可能です。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:263
@@ -7942,7 +7990,7 @@ msgstr "ダイアログボックス"
 #. type: Plain text
 #: Pcbnew_schematics.adoc:72
 msgid "Accessible from the icon image:images/icons/netlist.png[]"
-msgstr "アイコンからアクセスできます。 TODO"
+msgstr "アイコン image:images/ja/icons/netlist.png[] からアクセスできます。"
 
 #. type: Title ^
 #: Pcbnew_schematics.adoc:76
@@ -7973,7 +8021,7 @@ msgstr ""
 "通常のリンクはリファレンスです(通常オプション)前回のアノテーションが破壊された場合には、タイムスタンプを回路図の再アノテーション後に使用することが可能です(特別オプション)\n"
 "|モジュール交換:\n"
 "|ネットリスト内のフットプリントが変更された場合:古いフットプリントを維持するかまたは新しいものに変更します。\n"
-"|バッドトラックの削除\n"
+"|バッド配線の削除\n"
 "|既存の全配線を維持、またはエラーのある配線を削除します。\n"
 "|追加のフットプリント\n"
 "|基板上にあるが、ネットリストにはないフットプリントを削除します。\"ロック\"属性のあるフットプリントは削除されません。\n"
@@ -8010,7 +8058,9 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_schematics.adoc:106
 msgid "Activate footprint mode (image:images/icons/mode_module.png[])"
-msgstr "フットプリントモードをアクティブにします TODO"
+msgstr ""
+"フットプリントモードをアクティブにします (image:images/ja/icons/mode_module."
+"png[])"
 
 #. type: Plain text
 #: Pcbnew_schematics.adoc:109
@@ -8052,7 +8102,7 @@ msgstr "image:images/ja/Pcbnew_unstacked_footprints.png[]"
 #: Pcbnew_zones.adoc:3
 #, no-wrap
 msgid "Creating copper zones"
-msgstr ""
+msgstr "導体ゾーンの作成"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:8
@@ -8079,7 +8129,7 @@ msgid ""
 msgstr ""
 "塗り潰し導体領域によるパッド(および配線)の接続はDRCエンジンがチェックします。"
 "パッドを接続するためにゾーンを(作成するのではなく)塗り潰さなければなりませ"
-"ん。通常Pcbnewは現在の配線幅又はポリゴンを銅箔エリアの塗りつぶしに使用します"
+"ん。通常Pcbnewは現在の配線幅又はポリゴンを導体領域の塗りつぶしに使用します"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:19
@@ -8173,7 +8223,9 @@ msgid ""
 "Use the tool image:images/icons/add_zone.png[]. The active layer must be a "
 "copper layer. When clicking to start the zone outline, the following dialog "
 "box will be opened."
-msgstr "ツール次のダイアログボックスが開きます。を使用します。 TODO"
+msgstr ""
+"ツール image:images/ja/icons/add_zone.png[] 次のダイアログボックスが開きま"
+"す。を使用します。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:53
@@ -8278,7 +8330,7 @@ msgid ""
 "png[]"
 msgstr ""
 "これは小さなゾーンが大きなゾーンよりも優先度が高い場合に可能です。Lebel設定: "
-"TODO"
+"image:images/ja/Pcbnew_zone_priority_level_setting.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:91
@@ -8497,7 +8549,7 @@ msgid ""
 "width."
 msgstr ""
 "サーマルパターンは好ましい妥協です。 ** パッドは4つの配線セグメントにより接続"
-"されています。** セグメント幅は配線幅で使用している現在値です。 TODO"
+"されています。** セグメント幅は配線幅で使用している現在値です。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:173
@@ -8664,7 +8716,7 @@ msgstr "ポリゴンが結合されています。"
 #: Pcbnew_zones.adoc:235
 #, no-wrap
 msgid "Adding a similar zone"
-msgstr "ゾーンの追加TODO"
+msgstr "ゾーンの追加 TODO"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:238
@@ -8721,7 +8773,9 @@ msgstr ""
 #: Pcbnew_zones.adoc:257
 msgid ""
 "Activate the tool zones via the button image:images/icons/add_zone.png[]."
-msgstr "ボタンによりゾーンのツールを実行します。　TODO"
+msgstr ""
+"ボタン image:images/ja/icons/add_zone.png[] によりゾーンのツールを実行しま"
+"す。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:258
@@ -8732,7 +8786,9 @@ msgstr "右クリックしてポップアップメニューを表示します。
 #: Pcbnew_zones.adoc:259
 msgid ""
 "Use Fill or Refill All Zones: image:images/Pcbnew_fill_refill_all_zones.png[]"
-msgstr "“全てのゾーンを塗りつぶす” を使用します注意: TODO"
+msgstr ""
+"“全てのゾーンを塗りつぶす” を使用します注意: image:images/ja/"
+"Pcbnew_fill_refill_all_zones.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:261
@@ -8837,7 +8893,7 @@ msgstr "キープアウトエリアの作成"
 #. type: Plain text
 #: Pcbnew_zones.adoc:300
 msgid "Select the tool image:images/icons/add_keepout_area.png[]"
-msgstr "ツールを選択します。TODO"
+msgstr "ツール image:images/ja/icons/add_keepout_area.png[] を選択"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:302
