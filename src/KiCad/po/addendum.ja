@@ -3,5 +3,6 @@ PO4A-HEADER: mode=after; position=^\[\[contributors\]\]; beginboundary=\[\[
 *翻訳*
 
 //Translators put your names below here in the addendum file
-yoneken <yoneken@kicad.jp>, 2011-2015.
+silvermoon <silvermoon AT kicad.jp>, 2011-2015.
+yoneken <yoneken AT kicad.jp>, 2011-2015.
 

@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -14,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title =
 #: Pcbnew.adoc:7
@@ -1158,10 +1157,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:201
-msgid ""
-"Load the similar module (image:images/icons/load_module_lib.png[], image:"
-"images/icons/load_module_board.png[] or image:images/icons/import_module."
-"png[])."
 msgstr ""
 "似たようなモジュールを読み込む(image:images/ja/icons/load_module_lib.png[], "
 "image:images/ja/icons/load_module_board.png[] または image:images/ja/icons/"
@@ -1912,8 +1907,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:26
 msgid ""
-"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line."
-"png[] image:images/icons/duplicate_text.png[] image:images/icons/"
+"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line.png"
+"[] image:images/icons/duplicate_text.png[] image:images/icons/"
 "duplicate_module.png[] image:images/icons/duplicate_target.png[] image:"
 "images/icons/duplicate_zone.png[]"
 msgstr ""
@@ -4714,8 +4709,8 @@ msgid ""
 "GitHub repository maintainer, you can help update the GitHub copy.  Simply "
 "email the individual `*.kicad_mod` files you find in your COW directories to "
 "the maintainer of the GitHub repository.  After you've received confirmation "
-"that your changes have been committed, you can safely delete your COW "
-"file(s)  and the updated footprint from the read only part of GitHub library "
+"that your changes have been committed, you can safely delete your COW file"
+"(s)  and the updated footprint from the read only part of GitHub library "
 "will flow down.  Your goal should be to keep the COW file set as small as "
 "possible by contributing frequently to the shared master copies at https://"
 "github.com."
@@ -4797,7 +4792,7 @@ msgstr ""
 #: Pcbnew_interactive_router.adoc:3
 #, no-wrap
 msgid "Interactive Router"
-msgstr ""
+msgstr "インタラクティブ・ルーター"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:8
@@ -4806,11 +4801,14 @@ msgid ""
 "shoving off or walking around items on the PCB that collide with the trace "
 "you are currently drawing."
 msgstr ""
+"インタラクティブルーターを使うと、いま配線しようとしているパターンが衝突して"
+"いる基板上のアイテムを押し出すかその周りを回り込むので、基板をすばやく効果的"
+"に配線できます。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:10
 msgid "Following modes are supported:"
-msgstr ""
+msgstr "次のモードがサポートされます:"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:13
@@ -4819,6 +4817,8 @@ msgid ""
 "*Highlight collisions*, which highlights all violating objects with a\n"
 "nice, shiny green color and shows violating clearance regions.\n"
 msgstr ""
+"* 衝突箇所をハイライト表示 * 全ての抵触するオブジェクトをきれいな明るい緑色で\n"
+"ハイライト(強調表示)し、領域同士のクリアランス(間隔)が足りないことを示します。\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:16
@@ -4827,6 +4827,8 @@ msgid ""
 "*Shove*, attempting to push and shove all items colliding with the\n"
 "currently routed track.\n"
 msgstr ""
+"* 押しのけ * 引いた配線に抵触するアイテムを押し出そうと\n"
+"試みます\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:19
@@ -4835,17 +4837,19 @@ msgid ""
 "*Walk around*, trying to avoid obstacles by hugging/walking around\n"
 "them.\n"
 msgstr ""
+"* 速度優先探索 * 障害物の周りに沿って回り込むことで、避けようと\n"
+"試みます。\n"
 
 #. type: Title ~
 #: Pcbnew_interactive_router.adoc:22
 #, no-wrap
 msgid "Setting up"
-msgstr ""
+msgstr "設定"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:25
 msgid "Before using the Interactive Router, please set up these two things:"
-msgstr ""
+msgstr "インタラクティブルーターを使う前に、次の２つを設定して下さい。:"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:29
@@ -4855,12 +4859,14 @@ msgid ""
 "dialog and make sure at least the default clearance value looks\n"
 "sensible.\n"
 msgstr ""
+"* クリアランスの設定 * クリアランス(間隔)を設定するには _デザインルール_ ダイアログを開きます。\n"
+"少なくともクリアランスのデフォルト値は妥当と思われる値にしてください。\n"
 
 #. type: Target for macro image
 #: Pcbnew_interactive_router.adoc:30
 #, no-wrap
 msgid "images/en/rules_editor.png"
-msgstr ""
+msgstr "images/en/rules_editor.png"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:34
@@ -4869,18 +4875,20 @@ msgid ""
 "*Enable OpenGL mode* By selecting _View->Switch canvas to OpenGL_ menu\n"
 "option or pressing **F11**.\n"
 msgstr ""
+"* OpenGL モードの設定 * メニューオプション _表示->キャンバスを OpenGL へ切替_ を選択、\n"
+"または **F11** キーを押して設定します。\n"
 
 #. type: Target for macro image
 #: Pcbnew_interactive_router.adoc:35
 #, no-wrap
 msgid "images/en/opengl_menu.png"
-msgstr ""
+msgstr "images/en/opengl_menu.png"
 
 #. type: Title ~
 #: Pcbnew_interactive_router.adoc:38
 #, no-wrap
 msgid "Laying out tracks"
-msgstr ""
+msgstr "パターン配線"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:44
@@ -4889,6 +4897,9 @@ msgid ""
 "images/route_icon.png[Interactive Router Button] or the *X* key.  The cursor "
 "will turn into a cross and the tool name, will appear in the status bar."
 msgstr ""
+"ルーターツールを有効にするには、 _インタラクティブルーター_ ボタン image:"
+"images/route_icon.png[Interactive Router Button] か *X* key.を押します。カー"
+"ソルが十字に変わり、ツールの名前がステータスバーへ表示されます。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:49
@@ -4898,6 +4909,10 @@ msgid ""
 "of the starting item. Clicking or pressing *X* on empty PCB space starts a "
 "track with no net assigned."
 msgstr ""
+"配線を開始するには、アイテム（パッド、パターン、ビア(貫通孔)）上でクリックす"
+"るか、アイテムにマウスを合わせて *X* キーを押します。新しい配線は、開始された"
+"アイテムのネット(情報)を使うでしょう。基板上の何もない場所でクリックするか "
+"*X* キーを押すとネットを持たない配線を開始します。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:55
@@ -4907,6 +4922,10 @@ msgid ""
 "colliding traces/vias, depending on the mode. Retreating mouse cursor will "
 "cause the shoved items to spring back to their former locations."
 msgstr ""
+"配線パターンの形状を決めるためにマウスを動かします。ルーターはモードによっ"
+"て、（パッドのような）動かせない障害物に沿うか、衝突した配線パターンまたはビ"
+"ア（貫通穴）を押しのけて、マウスの軌跡を追いかけようとするでしょう。マウス"
+"カーソルを後退させると、押しのけられたアイテムは元の位置へ戻るでしょう。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:59
@@ -4914,6 +4933,9 @@ msgid ""
 "Clicking on a pad/track/via in the same net finishes routing. Clicking in "
 "empty space fixes the segments routed so far and continues routing the trace."
 msgstr ""
+"同じネット(情報)を持つパッド／配線パターン／ビア(貫通穴)上でクリックすること"
+"で、ルーティングを終了します。何もないところでクリックすると、それまでにルー"
+"トされたセグメントを固定し、配線のルーティングを続けます。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:62
@@ -4921,6 +4943,8 @@ msgid ""
 "In order to stop routing and undo all changes (shoved items, etc.), simply "
 "press **Esc**."
 msgstr ""
+"ルーティングを中止し、全ての変更（押しのけられたアイテムなど）を元に戻すに"
+"は、 **Esc** を押してください。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:67
@@ -4930,6 +4954,10 @@ msgid ""
 "Pressing *V* again disables via placement. Clicking in any spot establishes "
 "the via and continues routing."
 msgstr ""
+"配線のルーティング中に *V* を押すか、コンテキストメニューから _貫通ビアの配置"
+"_ を選択すると、ルートされた配線パターンの最後にビア(貫通穴)が置かれます。 "
+"*V* をもう一度押すと、置かれたビアは消えます。どこでクリックしてもビアが置か"
+"れ、ルーティングが続けられます。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:71
@@ -4938,6 +4966,9 @@ msgid ""
 "toggles the direction of the initial track segment between straight or "
 "diagonal."
 msgstr ""
+"*/* を押すか、コンテキストメニューから _配線の形を変える_ を選択するごとに、"
+"配線の最初のセグメントの方向を“ストレート(水平／垂直)”または“斜め(４５度)”に"
+"切替えます。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:75
@@ -4945,12 +4976,15 @@ msgid ""
 "By default, the router snaps to centers/axes of the items.  Snapping can be "
 "disabled by holding *Shift* while routing or selecting items."
 msgstr ""
+"デフォルトでは、ルーターはアイテムの中心／中心線へスナップします。スナップ"
+"は、ルーティング中またはアイテムの選択中に *Shift* を押し続けることで無効にで"
+"きます。"
 
 #. type: Title ~
 #: Pcbnew_interactive_router.adoc:77
 #, no-wrap
 msgid "Setting track widths and via sizes"
-msgstr ""
+msgstr "トラック幅とビアサイズの設定"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:81
@@ -4958,18 +4992,20 @@ msgid ""
 "There are several ways to pre-select a track width/via size or to change it "
 "during routing:"
 msgstr ""
+"トラック幅／ビアサイズを事前に設定またはルーティング中に変更するには、いくつ"
+"かの方法があります。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:83
 msgid "Use standard Kicad shortcuts."
-msgstr ""
+msgstr "標準の Kicad ショートカットを使用する。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:86
 msgid ""
 "Press *W* or select _Custom Track Width_ from the context menu to type in a "
 "custom track width/via size."
-msgstr ""
+msgstr "*W* を押すか、コンテキストメニューから _カスタム配線幅_ を選択する。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:89
@@ -4977,6 +5013,8 @@ msgid ""
 "Pick a predefined width from the _Select Track Width_ sub-menu of the "
 "context menu."
 msgstr ""
+"コンテキストメニューの _配線／ビア幅の選択_ の下にあるサブメニューから予め定"
+"義された幅を選ぶ。"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:93
@@ -4984,12 +5022,15 @@ msgid ""
 "Select _Use the starting track width_ in the _Select Track Width_ menu to "
 "pick the width from the start item (or the traces already connected to it)."
 msgstr ""
+"開始アイテム（または既に配線されたパターン）の幅と同じにするには、コンテキス"
+"トメニューの _配線／ビア幅の選択_ の下にあるサブメニューから  _開始トラック幅"
+"を使用_  を選ぶ。"
 
 #. type: Title ~
 #: Pcbnew_interactive_router.adoc:95
 #, no-wrap
 msgid "Dragging"
-msgstr ""
+msgstr "ドラッグ"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:101
@@ -4999,12 +5040,16 @@ msgid ""
 "Track/Via_ from the context menu. Finish dragging by clicking again or abort "
 "by pressing __Esc__."
 msgstr ""
+"ルーターは配線セグメント、コーナー、ビアをドラッグできます。アイテムをドラッ"
+"グするには、 *Ctrl* キーを押しながらアイテムをクリックするか、 *G* を押してマ"
+"ウスを動かすか、コンテキストメニューから _配線／ビア幅のドラッグ_ を選びま"
+"す。再度クリックすることでドラッグを終了するか、 __Esc__ を押して中止します。"
 
 #. type: Title ~
 #: Pcbnew_interactive_router.adoc:103
 #, no-wrap
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:107
@@ -5012,17 +5057,19 @@ msgid ""
 "The router behavior be configured by pressing _E_ or selecting _Routing "
 "Options_ from the context menu. It opens a window like the one below:"
 msgstr ""
+"ルーターは、_E_ を押すか、コンテキストメニューから _配線オプション_ を選ぶこ"
+"とで設定できます。次のようなウィンドウが開きます。:"
 
 #. type: Target for macro image
 #: Pcbnew_interactive_router.adoc:108
 #, no-wrap
 msgid "images/en/router_options.png"
-msgstr ""
+msgstr "images/en/router_options.png"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:111
 msgid "The options are:"
-msgstr ""
+msgstr "オプションは以下の通りです。:"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:114
@@ -5031,6 +5078,8 @@ msgid ""
 "*Mode* - select how the router handles DRC violation (shoving, walking\n"
 "around, etc.)\n"
 msgstr ""
+"*モード* ルーターが DRC 違反をどのように扱うか選択する(押しのけ、\n"
+"速度優先探索、等)\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:117
@@ -5039,6 +5088,8 @@ msgid ""
 "*Shove vias* - when disabled, vias are treated as un-movable objects\n"
 "and hugged instead of shoved.\n"
 msgstr ""
+"*ビアの押しのけ* 無効の場合、ビアは動かないものとして扱われ、\n"
+"押しのけに代わって周りに沿うように配線される\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:121
@@ -5048,6 +5099,9 @@ msgid ""
 "colliding traces behind solid obstacles (e.g. pads) instead of\n"
 "\"reflecting\" back the collision\n"
 msgstr ""
+"*障害ジャンプ* 有効化すると、ルーターは障害物を押しのける\n"
+"代わりに、衝突した配線を障害物（例えば、パッド）の後ろに\n"
+"迂回させる。\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:126
@@ -5058,6 +5112,10 @@ msgid ""
 "track is removed). Loop removal works locally (only between the start\n"
 "and end of the currently routed trace).\n"
 msgstr ""
+"*余分な配線を削除* ルーティング中に重複を削除する（例えば、新しい\n"
+"配線が既存の配線と同じ接続であることが確実な場合、古い配線は削除\n"
+"される）重複の削除は局所的に行われる（現在ルーティング中の配線の\n"
+"始点と終点の間にあるものだけが対象）\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:130
@@ -5067,6 +5125,8 @@ msgid ""
 "pads/vias in a clean way, avoiding acute angles and jagged breakout\n"
 "traces.\n"
 msgstr ""
+"*自動ネックダウン(線幅調整)* - 有効な場合、ルーターは、鋭角やギザギザした\n"
+"配線を避けるように、パッド／ビアを直線的に配置する。\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:133
@@ -5075,6 +5135,8 @@ msgid ""
 "*Smooth dragged segments* - when enabled, the router attempts to merge\n"
 "several jagged segments into a single straight one (dragging mode).\n"
 msgstr ""
+"*セグメントをスムーズに移動* 有効の場合、ルーターはいくつかのギザギザ\n"
+"した配線を一つの直線的な配線へ纏めようと試みる（ドラッグモード）\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:136
@@ -5083,6 +5145,8 @@ msgid ""
 "*Allow DRC violations* (_Highlight collisions_ mode only) - allows\n"
 "to establish a track even if is violating the DRC rules.\n"
 msgstr ""
+"*DRC 違反を許容する* (_衝突箇所をハイライト表示_ モードのみ) \n"
+"DRC ルール違反があっても配線することを許容する\n"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:140
@@ -5093,6 +5157,10 @@ msgid ""
 "(but slower), less effort means faster routing but somewhat jagged\n"
 "traces.\n"
 msgstr ""
+"*探索最適化レベル* ルーティングまたは押しのけされた配線をルーターが最適化\n"
+"する時間を定義する。高い探索最適化レベルは凸凹していないルーティング\n"
+"を行うことを意味し（だが遅い）、低い探索最適化レベルは幾分ギザギザした\n"
+"配線でもより早くルーティングすることを意味します。\n"
 
 #. type: Title -
 #: Pcbnew_introduction.adoc:3
@@ -6250,10 +6318,10 @@ msgstr "アクティブなライブラリへのモジュールの保存"
 #: Pcbnew_managing_libs.adoc:167
 msgid ""
 "The action of saving a module (thereby modifying the file of the active "
-"library) is performed using this button image:images/icons/save_library."
-"png[]. If a module of the same name already exists, it will be replaced. "
-"Since you will depend upon the accuracy of the library modules, it is worth "
-"double-checking the module before saving."
+"library) is performed using this button image:images/icons/save_library.png"
+"[]. If a module of the same name already exists, it will be replaced. Since "
+"you will depend upon the accuracy of the library modules, it is worth double-"
+"checking the module before saving."
 msgstr ""
 "モジュールの保存(アクティブなライブラリのファイルの変更)動作は、 image:"
 "images/ja/icons/save_library.png[] ボタンを使用して実行します。同じ名前のモ"
@@ -6293,9 +6361,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:180
-msgid ""
-"Select the destination library via the button image:images/icons/library."
-"png[]."
 msgstr ""
 "ボタン image:images/ja/icons/library.png[] で移動先ライブラリを選択します。"
 
@@ -7326,12 +7391,12 @@ msgstr "可能な値で最大のものを使用し、ここで与えた最小サ
 #, no-wrap
 msgid ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
-"| mils | 31 | 20 | 16 | 10 | 6\n"
+"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
+"| mils | 31 | 20 | 16 | 10 | 6\n"
 msgstr ""
 "| 単位 | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
-"| mils | 31 | 20 | 16 | 10 | 6\n"
+"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
+"| mils | 31 | 20 | 16 | 10 | 6\n"
 
 #. type: Title ^
 #: Pcbnew_routing.adoc:151
@@ -7344,12 +7409,12 @@ msgstr "絶縁(クリアランス)"
 #, no-wrap
 msgid ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
-"| mils | 27 | 20 | 14 | 9 | 6\n"
+"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
+"| mils | 27 | 20 | 14 | 9 | 6\n"
 msgstr ""
 "| 単位 | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
-"| mils | 27 | 20 | 14 | 9 | 6\n"
+"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
+"| mils | 27 | 20 | 14 | 9 | 6\n"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:162
