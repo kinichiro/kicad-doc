@@ -1155,6 +1155,10 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:201
+msgid ""
+"Load the similar module (image:images/icons/load_module_lib.png[], image:"
+"images/icons/load_module_board.png[] or image:images/icons/import_module.png"
+"[])."
 msgstr ""
 "似たようなモジュールを読み込む(image:images/ja/icons/load_module_lib.png[], "
 "image:images/ja/icons/load_module_board.png[] または image:images/ja/icons/"
@@ -6602,6 +6606,9 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:180
+msgid ""
+"Select the destination library via the button image:images/icons/library.png"
+"[]."
 msgstr ""
 "ボタン image:images/ja/icons/library.png[] で移動先ライブラリを選択します。"
 
