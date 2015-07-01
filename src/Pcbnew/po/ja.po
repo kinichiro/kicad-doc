@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-06-23 00:44+0900\n"
-"PO-Revision-Date: 2015-07-01 01:02+0900\n"
+"PO-Revision-Date: 2015-07-01 12:49+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. type: Title =
 #: Pcbnew.adoc:7
@@ -202,7 +202,7 @@ msgstr "得られた外形はこのようなものになるかもしれません
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:36
 msgid "image:images/Pcbnew_simple_board_outline.png[]"
-msgstr "image:images/ja/Pcbnew_simple_board_outline.png[]"
+msgstr "image:images/Pcbnew_simple_board_outline.png[]"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:38
@@ -276,7 +276,7 @@ msgstr "以下はいくつかの楕円部分を持つ基板をDXFインポート
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:62
 msgid "image:images/Pcbnew_board_outline_imported_from_a_DXF.png[]"
-msgstr "image:images/ja/Pcbnew_board_outline_imported_from_a_DXF.png[]"
+msgstr "image:images/Pcbnew_board_outline_imported_from_a_DXF.png[]"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:64
@@ -340,13 +340,13 @@ msgid ""
 "Activate the image:images/icons/netlist.png[] icon to display the netlist "
 "dialog window:"
 msgstr ""
-"image:images/ja/icons/netlist.png[] アイコンをアクティブにしてネットリストダ"
-"イアログウィンドウを表示します:"
+"image:images/icons/netlist.png[] アイコンをアクティブにしてネットリストダイア"
+"ログウィンドウを表示します:"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:90 Pcbnew_schematics.adoc:74
 msgid "image:images/Pcbnew_netlist_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_netlist_dialog.png[]"
+msgstr "image:images/Pcbnew_netlist_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:96
@@ -364,7 +364,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:98
 msgid "image:images/Pcbnew_board_outline_with_dogpile.png[]"
-msgstr "image:images/ja/Pcbnew_board_outline_with_dogpile.png[]"
+msgstr "image:images/Pcbnew_board_outline_with_dogpile.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:104
@@ -383,8 +383,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:106
 msgid "image:images/Pcbnew_board_outline_with_globally_placed_modules.png[]"
-msgstr ""
-"image:images/ja/Pcbnew_board_outline_with_globally_placed_modules.png[]"
+msgstr "image:images/Pcbnew_board_outline_with_globally_placed_modules.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:114
@@ -460,7 +459,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:138
 msgid "image:images/Pcbnew_bad_tracks_deletion_option.png[]"
-msgstr "image:images/ja/Pcbnew_bad_tracks_deletion_option.png[]"
+msgstr "image:images/Pcbnew_bad_tracks_deletion_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:141
@@ -499,7 +498,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:153
 msgid "image:images/Pcbnew_extra_footprints_deletion_option.png[]"
-msgstr "image:images/ja/Pcbnew_extra_footprints_deletion_option.png[]"
+msgstr "image:images/Pcbnew_extra_footprints_deletion_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:158
@@ -517,7 +516,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:160
 msgid "image:images/Pcbnew_unlock_footprint_option.png[]"
-msgstr "image:images/ja/Pcbnew_unlock_footprint_option.png[]"
+msgstr "image:images/Pcbnew_unlock_footprint_option.png[]"
 
 #. type: Title ^
 #: Pcbnew_create_and_modify_board.adoc:162
@@ -540,7 +539,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:170
 msgid "image:images/Pcbnew_exchange_module_option.png[]"
-msgstr "image:images/ja/Pcbnew_exchange_module_option.png[]"
+msgstr "image:images/Pcbnew_exchange_module_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:173
@@ -577,7 +576,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:186
 msgid "image:images/Pcbnew_module_selection_option.png[]"
-msgstr "image:images/ja/Pcbnew_module_selection_option.png[]"
+msgstr "image:images/Pcbnew_module_selection_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:191
@@ -639,7 +638,7 @@ msgstr "モジュールの変更にアクセスします"
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:209
 msgid "image:images/Pcbnew_change_modules_button.png[]"
-msgstr "image:images/ja/Pcbnew_module_selection_option.png[]"
+msgstr "image:images/Pcbnew_module_selection_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:211
@@ -649,7 +648,7 @@ msgstr "フットプリント交換用オプション:"
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:213
 msgid "image:images/Pcbnew_footprint_exchange_options.png[]"
-msgstr "image:images/ja/Pcbnew_footprint_exchange_options.png[]"
+msgstr "image:images/Pcbnew_footprint_exchange_options.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:215
@@ -865,8 +864,8 @@ msgid ""
 "toolbar of Pcbnew. This allows creation or modification of a module in the "
 "library."
 msgstr ""
-"直接、Pcbnewの上部ツールバーの image:images/ja/icons/module_editor.png[] アイ"
-"コンより起動する方法。"
+"直接、Pcbnewの上部ツールバーの image:images/icons/module_editor.png[] アイコ"
+"ンより起動する方法。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:76
@@ -894,7 +893,7 @@ msgstr "モジュールエディタを呼び出すと、下記ような新規ウ
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:83 Pcbnew_managing_libs.adoc:56
 msgid "image:images/Modedit_main_window.png[]"
-msgstr "image:images/ja/Modedit_main_window.png[]"
+msgstr "image:images/Modedit_main_window.png[]"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:85
@@ -1009,21 +1008,21 @@ msgid ""
 "| image:images/icons/contrast_mode.png[]\n"
 "| Toggle high-contrast mode\n"
 msgstr ""
-"| image:images/ja/icons/grid.png[]\n"
+"| image:images/icons/grid.png[]\n"
 "| グリッドの表示。\n"
-"| image:images/ja/icons/polar_coord.png[]\n"
+"| image:images/icons/polar_coord.png[]\n"
 "| 直交座標系/極座標系切り替え。\n"
-"| image:images/ja/icons/unit_mm.png[] image:images/icons/unit_inch.png[]\n"
+"| image:images/icons/unit_mm.png[] image:images/icons/unit_inch.png[]\n"
 "| 単位系の切り替え(インチ/ミリメートル)\n"
-"| image:images/ja/icons/cursor_shape.png[]\n"
+"| image:images/icons/cursor_shape.png[]\n"
 "| 十字カーソルの表示。\n"
-"| image:images/ja/icons/pad_sketch.png[]\n"
+"| image:images/icons/pad_sketch.png[]\n"
 "| アウトラインモード(輪郭線)でパッドを表示する。\n"
-"| image:images/ja/icons/text_sketch.png[]\n"
+"| image:images/icons/text_sketch.png[]\n"
 "| アウトラインモード(輪郭線)でテキストを表示する。\n"
-"| image:images/ja/icons/show_mod_edge.png[]\n"
+"| image:images/icons/show_mod_edge.png[]\n"
 "| アウトラインモード(輪郭線)で外形シルクを表示する。\n"
-"| image:images/ja/icons/contrast_mode.png[]\n"
+"| image:images/icons/contrast_mode.png[]\n"
 "| ハイコントラストモードの切り替え\n"
 
 #. type: Title ~
@@ -1048,7 +1047,7 @@ msgstr "モジュールパラメータ編集用のコンテキストメニュー
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:155
 msgid "image:images/Modedit_context_menu_module_parameters.png[]"
-msgstr "image:images/ja/Modedit_context_menu_module_parameters.png[]"
+msgstr "image:images/Modedit_context_menu_module_parameters.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:157
@@ -1058,7 +1057,7 @@ msgstr "パッド編集用のコンテキストメニュー:"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:159
 msgid "image:images/Modedit_context_menu_pads.png[]"
-msgstr "image:images/ja/Modedit_context_menu_pads.png[]"
+msgstr "image:images/Modedit_context_menu_pads.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:161
@@ -1068,7 +1067,7 @@ msgstr "グラフィック要素編集用のコンテキストメニュー:"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:163
 msgid "image:images/Modedit_context_menu_graphics.png[]"
-msgstr "image:images/ja/Modedit_context_menu_graphics.png[]"
+msgstr "image:images/Modedit_context_menu_graphics.png[]"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:166
@@ -1088,7 +1087,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:172
 msgid "image:images/Modedit_module_properties_dialog.png[]"
-msgstr "image:images/ja/Modedit_module_properties_dialog.png[]"
+msgstr "image:images/Modedit_module_properties_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:174
@@ -1108,9 +1107,9 @@ msgid ""
 "png[]. The name of the new module will be requested. This will be the name "
 "by which the module will be identified in the library."
 msgstr ""
-"ボタン image:images/ja/icons/new_footprint.png[]. により新規モジュールを作成"
-"することが可能です。新規モジュールの名前が必要になります。これは、ライブラリ"
-"内でモジュールを識別するための名前です。"
+"ボタン image:images/icons/new_footprint.png[]. により新規モジュールを作成する"
+"ことが可能です。新規モジュールの名前が必要になります。これは、ライブラリ内で"
+"モジュールを識別するための名前です。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:185
@@ -1163,8 +1162,8 @@ msgid ""
 "images/icons/load_module_board.png[] or image:images/icons/import_module."
 "png[])."
 msgstr ""
-"似たようなモジュールを読み込む(image:images/ja/icons/load_module_lib.png[], "
-"image:images/ja/icons/load_module_board.png[] または image:images/ja/icons/"
+"似たようなモジュールを読み込む(image:images/icons/load_module_lib.png[], "
+"image:images/icons/load_module_board.png[] または image:images/icons/"
 "import_module.png[])。"
 
 #. type: Plain text
@@ -1208,9 +1207,9 @@ msgid ""
 "Pads can be added by clicking in the desired position with the left mouse "
 "button. Pad properties are predefined in the pad properties menu."
 msgstr ""
-"右側ツールバーから image:images/ja/icons/pad.png[] アイコンを選択します。希望"
-"する位置でマウスの左ボタンをクリックして、パッドを追加することが可能です。"
-"パッドプロパティメニューでパッドプロパティを事前に定義します。"
+"右側ツールバーから image:images/icons/pad.png[] アイコンを選択します。希望す"
+"る位置でマウスの左ボタンをクリックして、パッドを追加することが可能です。パッ"
+"ドプロパティメニューでパッドプロパティを事前に定義します。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:220
@@ -1263,7 +1262,7 @@ msgstr "最初の2つケースでは、次のダイアログウィンドウが�
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:237
 msgid "image:images/Modedit_pad_properties_dialog.png[]"
-msgstr "image:images/ja/Modedit_pad_properties_dialog.png[]"
+msgstr "image:images/Modedit_pad_properties_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:243
@@ -1397,7 +1396,7 @@ msgstr "パッド3はオフセットが Y = 15mil です。"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:292
 msgid "image:images/Modedit_pad_offset_example.png[]"
-msgstr "image:images/ja/Modedit_pad_offset_example.png[]"
+msgstr "image:images/Modedit_pad_offset_example.png[]"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:294
@@ -1413,7 +1412,7 @@ msgstr "パッド1はパラメータが Delta X = 10mil です。"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:299
 msgid "image:images/Modedit_pad_delta_example.png[]"
-msgstr "image:images/ja/Modedit_pad_delta_example.png[]"
+msgstr "image:images/Modedit_pad_delta_example.png[]"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:301
@@ -1512,7 +1511,7 @@ msgstr "フットプリントレベルの設定:"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:335
 msgid "image:images/Modedit_footprint_level_pad_settings.png[]"
-msgstr "image:images/ja/Modedit_footprint_level_pad_settings.png[]"
+msgstr "image:images/Modedit_footprint_level_pad_settings.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:337
@@ -1522,7 +1521,7 @@ msgstr "パッドレベルの設定:"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:339
 msgid "image:images/Modedit_pad_level_pad_settings.png[]"
-msgstr "image:images/ja/Modedit_pad_level_pad_settings.png[]"
+msgstr "image:images/Modedit_pad_level_pad_settings.png[]"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:341
@@ -1549,7 +1548,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:350
 msgid "image:images/Modedit_footprint_text_properties.png[]"
-msgstr "image:images/ja/Modedit_footprint_text_properties.png[]"
+msgstr "image:images/Modedit_footprint_text_properties.png[]"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:352
@@ -1570,7 +1569,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:359
 msgid "image:images/Modedit_module_autoplace_settings.png[]"
-msgstr "image:images/ja/Modedit_module_autoplace_settings.png[]"
+msgstr "image:images/Modedit_module_autoplace_settings.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:362
@@ -1619,7 +1618,7 @@ msgstr "属性ウィンドウは次の通りです:"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:380
 msgid "image:images/Modedit_module_attributes.png[]"
-msgstr "image:images/ja/Modedit_module_attributes.png[]"
+msgstr "image:images/Modedit_module_attributes.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:382
@@ -1677,7 +1676,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:400
 msgid "image:images/Modedit_module_properties_documentation_fields.png[]"
-msgstr "image:images/ja/Modedit_module_properties_documentation_fields.png[]"
+msgstr "image:images/Modedit_module_properties_documentation_fields.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:402
@@ -1736,7 +1735,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:424
 msgid "image:images/Modedit_module_3d_options.png[]"
-msgstr "image:images/ja/Modedit_module_3d_options.png[]"
+msgstr "image:images/Modedit_module_3d_options.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:426
@@ -1811,7 +1810,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:447
 msgid "image:images/Modedit_footprint_3d_preview.png[]"
-msgstr "image:images/ja/Modedit_footprint_3d_preview.png[]"
+msgstr "image:images/Modedit_footprint_3d_preview.png[]"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:449
@@ -1832,7 +1831,7 @@ msgid ""
 "The save command (modification of the file of the active library) is "
 "activated by the image:images/icons/save_library.png[] button."
 msgstr ""
-"保存コマンド(アクティブなライブラリのファイルの修正)は image:images/ja/icons/"
+"保存コマンド(アクティブなライブラリのファイルの修正)は image:images/icons/"
 "save_library.png[] ボタンで実行します。"
 
 #. type: Plain text
@@ -1870,7 +1869,7 @@ msgid ""
 "board."
 msgstr ""
 "編集したフットプリントが現在の基板からのものである場合、ボタン image:images/"
-"ja/icons/update_module_board.png[] により基板上のこのフットプリントを更新しま"
+"icons/update_module_board.png[] により基板上のこのフットプリントを更新しま"
 "す。"
 
 #. type: Title -
@@ -1974,7 +1973,7 @@ msgstr "直交座標入力での数値を指定して移動"
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:44
 msgid "image:images/Pcbnew_move_exact_cartesian.png[]"
-msgstr "image:images/ja/Pcbnew_move_exact_cartesian.png[]"
+msgstr "image:images/Pcbnew_move_exact_cartesian.png[]"
 
 #. type: Block title
 #: Pcbnew_editing_tools.adoc:45
@@ -1985,7 +1984,7 @@ msgstr "極座標入力での数値を指定して移動"
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:47
 msgid "image:images/Pcbnew_move_exact_polar.png[]"
-msgstr "image:images/ja/Pcbnew_move_exact_polar.png[]"
+msgstr "image:images/Pcbnew_move_exact_polar.png[]"
 
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:51
@@ -2114,7 +2113,7 @@ msgstr "グリッド配列の設定ダイアログは、以下のようになり
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:103
 msgid "image:images/Pcbnew_array_dialog_grid.png[]"
-msgstr "image:images/ja/Pcbnew_array_dialog_grid.png[]"
+msgstr "image:images/Pcbnew_array_dialog_grid.png[]"
 
 #. type: Title +
 #: Pcbnew_editing_tools.adoc:105 Pcbnew_editing_tools.adoc:172
@@ -2208,7 +2207,7 @@ msgstr "行の配列シフト（間隔２）を持つ 3x3 グリッド。"
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:128
 msgid "image:images/Pcbnew_array_grid_stagger_rows_2.png[]"
-msgstr "image:images/ja/Pcbnew_array_grid_stagger_rows_2.png[]"
+msgstr "image:images/Pcbnew_array_grid_stagger_rows_2.png[]"
 
 #. type: Block title
 #: Pcbnew_editing_tools.adoc:129
@@ -2219,7 +2218,7 @@ msgstr "行の配列シフト（間隔3）を持つ 3x3 グリッド。"
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:131
 msgid "image:images/Pcbnew_array_grid_stagger_cols_3.png[]"
-msgstr "image:images/ja/Pcbnew_array_grid_stagger_cols_3.png[]"
+msgstr "image:images/Pcbnew_array_grid_stagger_cols_3.png[]"
 
 #. type: Title +
 #: Pcbnew_editing_tools.adoc:133 Pcbnew_editing_tools.adoc:184
@@ -2330,7 +2329,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:170
 msgid "image:images/Pcbnew_array_dialog_circular.png[]"
-msgstr "image:images/ja/Pcbnew_array_dialog_circular.png[]"
+msgstr "image:images/Pcbnew_array_dialog_circular.png[]"
 
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:176
@@ -2468,7 +2467,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:21
 msgid "image:images/Pcbnew_final_preparation_example_board.png[]"
-msgstr "image:images/ja/Pcbnew_final_preparation_example_board.png[]"
+msgstr "image:images/Pcbnew_final_preparation_example_board.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:24
@@ -2476,8 +2475,8 @@ msgid ""
 "A color key for the 4 copper layers has also been included: image:images/"
 "Pcbnew_layer_colour_key.png[]"
 msgstr ""
-"4導体層のための主要色も含まれています: image:images/ja/"
-"Pcbnew_layer_colour_key.png[]"
+"4導体層のための主要色も含まれています: image:images/Pcbnew_layer_colour_key."
+"png[]"
 
 #. type: Title ~
 #: Pcbnew_fabrication_files.adoc:26
@@ -2500,13 +2499,13 @@ msgid ""
 "Zones are filled or refilled when starting a DRC. Press the button image:"
 "images/icons/drc.png[[] to launch the following DRC dialog:"
 msgstr ""
-"DRCテストを開始する際に、領域が塗りつぶされます。ボタン image:images/ja/"
-"icons/drc.png[] をクリックし、以下に示すようなDRCダイアログを表示させます。"
+"DRCテストを開始する際に、領域が塗りつぶされます。ボタン image:images/icons/"
+"drc.png[] をクリックし、以下に示すようなDRCダイアログを表示させます。"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:36
 msgid "image:images/Pcbnew_DRC_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_DRC_dialog.png[]"
+msgstr "image:images/Pcbnew_DRC_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:38
@@ -2534,13 +2533,13 @@ msgid ""
 msgstr ""
 "フォトプロッタやドリル穴あけ機のための原点座標を設定します。右部ツールバーよ"
 "り、置としたい座標でクリックすることにより、補助軸を移動させます。アイコン "
-"image:images/ja/icons/pcb_offset.png を選択し、原点位ファイルメニューよりプ"
-"ロットを選択し、作業を行います。 "
+"image:images/icons/pcb_offset.png を選択し、原点位ファイルメニューよりプロッ"
+"トを選択し、作業を行います。 "
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:50
 msgid "image:images/Pcbnew_setting_pcb_origin.png[]"
-msgstr "image:images/ja/Pcbnew_setting_pcb_origin.png[]"
+msgstr "image:images/Pcbnew_setting_pcb_origin.png[]"
 
 #. type: Title ~
 #: Pcbnew_fabrication_files.adoc:52
@@ -2559,7 +2558,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:58
 msgid "image:images/Pcbnew_plot_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_plot_dialog.png[]"
+msgstr "image:images/Pcbnew_plot_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:62
@@ -2576,7 +2575,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:64
 msgid "image:images/Pcbnew_plot_postscript_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_plot_postscript_dialog.png[]"
+msgstr "image:images/Pcbnew_plot_postscript_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:67
@@ -2590,7 +2589,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:69
 msgid "image:images/Pcbnew_plot_fine_scale_setting.png[]"
-msgstr "image:images/ja/Pcbnew_plot_fine_scale_setting.png[]"
+msgstr "image:images/Pcbnew_plot_fine_scale_setting.png[]"
 
 #. type: Title ^
 #: Pcbnew_fabrication_files.adoc:71
@@ -2728,7 +2727,7 @@ msgstr "ガーバーフォーマット:"
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:120
 msgid "image:images/Pcbnew_plot_options_gerber.png[]"
-msgstr "image:images/ja/Pcbnew_plot_options_gerber.png[]"
+msgstr "image:images/Pcbnew_plot_options_gerber.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:122
@@ -2738,7 +2737,7 @@ msgstr "その他のフォーマット:"
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:124
 msgid "image:images/Pcbnew_plot_options_other_formats.png[]"
-msgstr "image:images/ja/Pcbnew_plot_options_other_formats.png[]"
+msgstr "image:images/Pcbnew_plot_options_other_formats.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:126
@@ -2860,7 +2859,7 @@ msgstr "このオプションメニューは寸法メニューより利用でき
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:175
 msgid "image:images/Pcbnew_pad_mask_clearance_menu_item.png[]"
-msgstr "image:images/ja/Pcbnew_pad_mask_clearance_menu_item.png[]"
+msgstr "image:images/Pcbnew_pad_mask_clearance_menu_item.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:177
@@ -2870,7 +2869,7 @@ msgstr "表示されるダイアログボックスを下記に示します:"
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:179
 msgid "image:images/Pcbnew_pad_mask_settings_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_pad_mask_settings_dialog.png[]"
+msgstr "image:images/Pcbnew_pad_mask_settings_dialog.png[]"
 
 #. type: Title ^
 #: Pcbnew_fabrication_files.adoc:181
@@ -2979,7 +2978,7 @@ msgstr "ドリルファイル生成のダイアログを下記に示します:"
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:219
 msgid "image:images/Pcbnew_drill_file_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_drill_file_dialog.png[]"
+msgstr "image:images/Pcbnew_drill_file_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:221
@@ -2989,7 +2988,7 @@ msgstr "原点の設定では、下記に示すダイアログの設定が利用
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:223
 msgid "image:images/Pcbnew_drill_origin_setting.png[]"
-msgstr "image:images/ja/Pcbnew_drill_origin_setting.png[]"
+msgstr "image:images/Pcbnew_drill_origin_setting.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:225
@@ -3065,7 +3064,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:256
 msgid "image:images/Pcbnew_advanced_tracing_options.png[]"
-msgstr "image:images/ja/Pcbnew_advanced_tracing_options.png[]"
+msgstr "image:images/Pcbnew_advanced_tracing_options.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:258
@@ -3184,7 +3183,7 @@ msgstr "次のスクリーンショットは、利用可能な操作法のいく
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:25
 msgid "image:images/Right-click_legacy_menu.png[]"
-msgstr "image:images/ja/Right-click_legacy_menu.png[]"
+msgstr "image:images/Right-click_legacy_menu.png[]"
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:27
@@ -3471,7 +3470,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:131
 msgid "image:images/Pcbnew_coordinate_status_display.png[]"
-msgstr "image:images/ja/Pcbnew_coordinate_status_display.png[]"
+msgstr "image:images/Pcbnew_coordinate_status_display.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:133
@@ -3557,7 +3556,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:181
 msgid "image:images/Pcbnew_legacy_block_selection_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_legacy_block_selection_dialog.png[]"
+msgstr "image:images/Pcbnew_legacy_block_selection_dialog.png[]"
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:183
@@ -3641,7 +3640,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:213
 msgid "image:images/Pcbnew_top_menu_bar.png[]"
-msgstr "image:images/ja/Pcbnew_top_menu_bar.png[]"
+msgstr "image:images/Pcbnew_top_menu_bar.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:215
@@ -3652,7 +3651,7 @@ msgstr "ファイルメニュー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:218
 msgid "image:images/Pcbnew_file_menu.png[]"
-msgstr "image:images/ja/Pcbnew_file_menu.png[]"
+msgstr "image:images/Pcbnew_file_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:221
@@ -3679,7 +3678,7 @@ msgstr "包括的な編集ができます:"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:228
 msgid "image:images/Pcbnew_edit_menu.png[]"
-msgstr "image:images/ja/Pcbnew_edit_menu.png[]"
+msgstr "image:images/Pcbnew_edit_menu.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:231
@@ -3690,7 +3689,7 @@ msgstr "表示メニュー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:234
 msgid "image:images/Pcbnew_view_menu.png[]"
-msgstr "image:images/ja/Pcbnew_view_menu.png[]"
+msgstr "image:images/Pcbnew_view_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:236
@@ -3711,7 +3710,7 @@ msgstr "3D基板ビュアを開きます。サンプルを示します:"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:243
 msgid "image:images/Sample_3D_board.png[]"
-msgstr "image:images/ja/Sample_3D_board.png[]"
+msgstr "image:images/Sample_3D_board.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:245
@@ -3727,7 +3726,7 @@ msgstr "右のツールバーと同じ機能のものです."
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:250
 msgid "image:images/Pcbnew place menu.png[]"
-msgstr "image:images/ja/Pcbnew place menu.png[]"
+msgstr "image:images/Pcbnew place menu.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:252
@@ -3738,7 +3737,7 @@ msgstr "設定メニュー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:255 Pcbnew_routing.adoc:30
 msgid "image:images/Pcbnew_preferences_menu.png[]"
-msgstr "image:images/ja/Pcbnew_preferences_menu.png[]"
+msgstr "image:images/Pcbnew_preferences_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:257
@@ -3784,7 +3783,7 @@ msgstr "寸法メニュー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:269
 msgid "An important menu.  image:images/Pcbnew_dimensions_menu.png[]"
-msgstr "重要なメニューです。 image:images/ja/Pcbnew_dimensions_menu.png[]"
+msgstr "重要なメニューです。 image:images/Pcbnew_dimensions_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:271
@@ -3820,7 +3819,7 @@ msgstr "ツールメニュー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:281
 msgid "image:images/Pcbnew_place_menu.png[]"
-msgstr "image:images/ja/Pcbnew_place_menu.png[]"
+msgstr "image:images/Pcbnew_place_menu.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:283
@@ -3831,7 +3830,7 @@ msgstr "デザインルールメニュー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:286
 msgid "image:images/Pcbnew_design_rules_menu.png[]"
-msgstr "image:images/ja/Pcbnew_design_rules_menu.png[]"
+msgstr "image:images/Pcbnew_design_rules_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:289
@@ -3862,7 +3861,7 @@ msgstr "回路基板を 3 次元で表示する際に使用する3 D ビュー�
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:299
 msgid "image:images/Pcbnew_display_model_menu.png[]"
-msgstr "image:images/ja/Pcbnew_display_model_menu.png[]"
+msgstr "image:images/Pcbnew_display_model_menu.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:301
@@ -3893,7 +3892,7 @@ msgstr "このツールバーは、Pcbnewの主な機能へのアクセスを提
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:312
 msgid "image:images/Pcbnew_top_toolbar.png[]"
-msgstr "image:images/ja/Pcbnew_display_model_menu.png[]"
+msgstr "image:images/Pcbnew_display_model_menu.png[]"
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:355
@@ -4022,7 +4021,7 @@ msgstr "右手側のツールバー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:380
 msgid "image:images/Pcbnew_right_toolbar.png[float=\"right\"]"
-msgstr "image:images/ja/Pcbnew_right_toolbar.png[float=\"right\"]"
+msgstr "image:images/Pcbnew_right_toolbar.png[float=\"right\"]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:383
@@ -4131,9 +4130,9 @@ msgstr ""
 "    *注:*\n"
 "    もし、いくつかの重なった要素の場合、最も低い優先度が与えられたもの（優先度が下げられたトラック、テキスト、モジュール）が削除されます。\n"
 "    上部のツールバーの “元に戻す” 機能では、最後の削除をキャンセルできます。\n"
-"| image:images/ja/icons/pcb_offset.png[]\n"
+"| image:images/icons/pcb_offset.png[]\n"
 "    | ドリルの座標ファイルのためのオフセットを調整します。\n"
-"| image:images/ja/icons/grid_select_axis.png[]\n"
+"| image:images/icons/grid_select_axis.png[]\n"
 "    | グリッドの原点(グリッドのオフセット)。主にフットプリントの編集および配置するのに便利です。\n"
 "    また、寸法/グリッドメニューでも設定できます。\n"
 
@@ -4146,7 +4145,7 @@ msgstr "左手側のツールバー"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:440
 msgid "image:images/Pcbnew_left_toolbar.png[float=\"right\"]"
-msgstr "image:images/ja/Pcbnew_left_toolbar.png[float=\"right\"]"
+msgstr "image:images/Pcbnew_left_toolbar.png[float=\"right\"]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:443
@@ -4310,12 +4309,12 @@ msgid ""
 "| image:images/icons/mode_track.png[] enabled\n"
 "    | Tracks mode\n"
 msgstr ""
-"| image:images/ja/icons/mode_module.png[] と\n"
-"  image:images/ja/icons/mode_track.png[] オフ\n"
+"| image:images/icons/mode_module.png[] と\n"
+"  image:images/icons/mode_track.png[] オフ\n"
 "    | ノーマルモード\n"
-"| image:images/ja/icons/mode_track.png[] オフ\n"
+"| image:images/icons/mode_track.png[] オフ\n"
 "    | フットプリントモード\n"
-"| image:images/ja/icons/mode_track.png[] オフ\n"
+"| image:images/icons/mode_track.png[] オフ\n"
 "    | 配線モード\n"
 
 #. type: Title ^
@@ -4333,7 +4332,7 @@ msgstr "未選択時のポップアップ:"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:525
 msgid "image:images/Pcbnew_popup_normal_mode.png[]"
-msgstr "image:images/ja/Pcbnew_popup_normal_mode.png[]"
+msgstr "image:images/Pcbnew_popup_normal_mode.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:527 Pcbnew_general_operations.adoc:544
@@ -4344,7 +4343,7 @@ msgstr "配線上でポップアップ:"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:529
 msgid "image:images/Pcbnew_popup_normal_mode_track.png[]"
-msgstr "image:images/ja/Pcbnew_popup_normal_mode_track.png[]"
+msgstr "image:images/Pcbnew_popup_normal_mode_track.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:531 Pcbnew_general_operations.adoc:548
@@ -4355,7 +4354,7 @@ msgstr "フットプリント上でポップアップ"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:533
 msgid "image:images/Pcbnew_popup_normal_mode_footprint.png[]"
-msgstr "image:images/ja/Pcbnew_popup_normal_mode_footprint.png[]"
+msgstr "image:images/Pcbnew_popup_normal_mode_footprint.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:535
@@ -4368,22 +4367,22 @@ msgstr "フットプリントモード"
 msgid ""
 "Same cases in Footprint Mode (image:images/icons/mode_module.png[] enabled)"
 msgstr ""
-"フットプリントモードでの同じ例 (image:images/ja/icons/mode_module.png[] オン)"
+"フットプリントモードでの同じ例 (image:images/icons/mode_module.png[] オン)"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:542
 msgid "image:images/Pcbnew_popup_footprint_mode.png[]"
-msgstr "image:images/ja/Pcbnew_popup_footprint_mode.png[]"
+msgstr "image:images/Pcbnew_popup_footprint_mode.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:546
 msgid "image:images/Pcbnew_popup_footprint_mode_track.png[]"
-msgstr "image:images/ja/Pcbnew_popup_footprint_mode_track.png[]"
+msgstr "image:images/Pcbnew_popup_footprint_mode_track.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:550
 msgid "image:images/Pcbnew_popup_footprint_mode_footprint.png[]"
-msgstr "image:images/ja/Pcbnew_popup_footprint_mode_footprint.png[]"
+msgstr "image:images/Pcbnew_popup_footprint_mode_footprint.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:552
@@ -4394,22 +4393,22 @@ msgstr "配線モード"
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:555
 msgid "Same cases in Track Mode (image:images/icons/mode_track.png[] enabled)"
-msgstr "配線モードでの同じ例 (image:images/ja/icons/mode_track.png[] オン) "
+msgstr "配線モードでの同じ例 (image:images/icons/mode_track.png[] オン) "
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:559
 msgid "image:images/Pcbnew_popup_track_mode.png[]"
-msgstr "image:images/ja/Pcbnew_popup_track_mode.png[]"
+msgstr "image:images/Pcbnew_popup_track_mode.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:563
 msgid "image:images/Pcbnew_popup_track_mode_track.png[]"
-msgstr "image:images/ja/Pcbnew_popup_track_mode_track.png[]"
+msgstr "image:images/Pcbnew_popup_track_mode_track.png[]"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:566
 msgid "image:images/Pcbnew_popup_track_mode_footprint.png[]"
-msgstr "image:images/ja/Pcbnew_popup_track_mode_footprint.png[]"
+msgstr "image:images/Pcbnew_popup_track_mode_footprint.png[]"
 
 #. type: Title -
 #: Pcbnew_installation.adoc:3
@@ -4505,7 +4504,7 @@ msgstr "設定メニューからライブラリリストの初期設定へと進
 #. type: Plain text
 #: Pcbnew_installation.adoc:38
 msgid "image:images/Library_list_menu_item.png[]"
-msgstr "image:images/ja/Library_list_menu_item.png[]"
+msgstr "image:images/Library_list_menu_item.png[]"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:41
@@ -4517,7 +4516,7 @@ msgstr "下の図はフットプリントライブラリリストを設定する
 #. type: Plain text
 #: Pcbnew_installation.adoc:43
 msgid "image:images/Footprint_library_list.png[]"
-msgstr "image:images/ja/Footprint_library_list.png[]"
+msgstr "image:images/Footprint_library_list.png[]"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:54
@@ -4563,7 +4562,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_installation.adoc:64
 msgid "image:images/Library_tables_menu_item.png[]"
-msgstr "image:images/ja/Library_tables_menu_item.png[]"
+msgstr "image:images/Library_tables_menu_item.png[]"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:68
@@ -4575,7 +4574,7 @@ msgstr "下の図は、フットプリントライブラリテーブル編集ダ
 #. type: Plain text
 #: Pcbnew_installation.adoc:70
 msgid "image:images/Footprint_tables_list.png[]"
-msgstr "image:images/ja/Footprint_tables_list.png[]"
+msgstr "image:images/Footprint_tables_list.png[]"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:79
@@ -5802,7 +5801,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_layers.adoc:33
 msgid "image:images/Pcbnew_layer_setup_menu_item.png[]"
-msgstr "image:images/ja/Pcbnew_layer_setup_menu_item.png[]"
+msgstr "image:images/Pcbnew_layer_setup_menu_item.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:35
@@ -5812,7 +5811,7 @@ msgstr "この時、2〜16層の範囲で必要な配線層数を選択します
 #. type: Plain text
 #: Pcbnew_layers.adoc:37
 msgid "image:images/Pcbnew_layer_setup_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_layer_setup_dialog.png[]"
+msgstr "image:images/Pcbnew_layer_setup_dialog.png[]"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:39
@@ -5832,7 +5831,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_layers.adoc:45
 msgid "image:images/Pcbnew_layer_setup_dialog_layer_properties.png[]"
-msgstr "image:images/ja/Pcbnew_layer_setup_dialog_layer_properties.png[]"
+msgstr "image:images/Pcbnew_layer_setup_dialog_layer_properties.png[]"
 
 #. type: Title ~
 #: Pcbnew_layers.adoc:47
@@ -6008,7 +6007,7 @@ msgstr "レイヤーマネジャーを使用した選択"
 #. type: Plain text
 #: Pcbnew_layers.adoc:109
 msgid "image:images/Pcbnew_layer_manager_pane.png[]"
-msgstr "image:images/ja/Pcbnew_layer_manager_pane.png[]"
+msgstr "image:images/Pcbnew_layer_manager_pane.png[]"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:111
@@ -6019,7 +6018,7 @@ msgstr "上部ツールバーを使用した選択"
 #. type: Plain text
 #: Pcbnew_layers.adoc:114
 msgid "image:images/Pcbnew_layer_selection_dropdown.png[]"
-msgstr "image:images/ja/Pcbnew_layer_selection_dropdown.png[]"
+msgstr "image:images/Pcbnew_layer_selection_dropdown.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:116
@@ -6044,7 +6043,7 @@ msgstr "ポップアップウィンドウを使用した選択"
 #. type: Plain text
 #: Pcbnew_layers.adoc:123
 msgid "image:images/Pcbnew_layer_selection_popup.png[]"
-msgstr "image:images/ja/Pcbnew_layer_selection_popup.png[]"
+msgstr "image:images/Pcbnew_layer_selection_popup.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:126
@@ -6058,7 +6057,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_layers.adoc:128
 msgid "image:images/Pcbnew_layer_selection_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_layer_selection_dialog.png[]"
+msgstr "image:images/Pcbnew_layer_selection_dialog.png[]"
 
 #. type: Title ~
 #: Pcbnew_layers.adoc:130
@@ -6078,7 +6077,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_layers.adoc:137
 msgid "image:images/Pcbnew_via_layer_pair_popup.png[]"
-msgstr "image:images/ja/Pcbnew_via_layer_pair_popup.png[]"
+msgstr "image:images/Pcbnew_via_layer_pair_popup.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:140
@@ -6091,7 +6090,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_layers.adoc:142
 msgid "image:images/Pcbnew_via_layer_pair_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_via_layer_pair_dialog.png[]"
+msgstr "image:images/Pcbnew_via_layer_pair_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:145
@@ -6123,7 +6122,7 @@ msgid ""
 "This mode is entered when the tool (in the left toolbar) is activated: image:"
 "images/icons/contrast_mode.png[]"
 msgstr ""
-"ツール(左ツールバー)がアクティブの時、このモードになります: image:images/ja/"
+"ツール(左ツールバー)がアクティブの時、このモードになります: image:images/"
 "icons/contrast_mode.png[]"
 
 #. type: Plain text
@@ -6164,7 +6163,7 @@ msgstr "*ノーマルモード* (裏面導体層アクティブ):\n"
 #. type: Plain text
 #: Pcbnew_layers.adoc:169
 msgid "image:images/Pcbnew_copper_layers_contrast_normal.png[]"
-msgstr "image:images/ja/Pcbnew_copper_layers_contrast_normal.png[]"
+msgstr "image:images/Pcbnew_copper_layers_contrast_normal.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:171
@@ -6175,7 +6174,7 @@ msgstr "*ハイコントラストモード* (裏面導体層アクティブ):\n"
 #. type: Plain text
 #: Pcbnew_layers.adoc:173
 msgid "image:images/Pcbnew_copper_layers_contrast_high.png[]"
-msgstr "image:images/ja/Pcbnew_copper_layers_contrast_high.png[]"
+msgstr "image:images/Pcbnew_copper_layers_contrast_high.png[]"
 
 #. type: Title ^
 #: Pcbnew_layers.adoc:175
@@ -6206,7 +6205,7 @@ msgstr "*ノーマルモード* (表面レジスト層アクティブ):\n"
 #. type: Plain text
 #: Pcbnew_layers.adoc:185
 msgid "image:images/Pcbnew_technical_layers_contrast_normal.png[]"
-msgstr "image:images/ja/Pcbnew_technical_layers_contrast_normal.png[]"
+msgstr "image:images/Pcbnew_technical_layers_contrast_normal.png[]"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:187
@@ -6217,7 +6216,7 @@ msgstr "*ハイコントラストモード* (表面レジスト層アクティ�
 #. type: Plain text
 #: Pcbnew_layers.adoc:188
 msgid "image:images/Pcbnew_technical_layers_contrast_high.png[]"
-msgstr "image:images/ja/Pcbnew_technical_layers_contrast_high.png[]"
+msgstr "image:images/Pcbnew_technical_layers_contrast_high.png[]"
 
 #. type: Title -
 #: Pcbnew_managing_libs.adoc:2
@@ -6321,7 +6320,7 @@ msgid ""
 "Directly, via the icon image:images/icons/module_editor.png[] in the main "
 "toolbar of Pcbnew."
 msgstr ""
-"直接、Pcbnewのメインツールバーのアイコン image:images/ja/icons/module_editor."
+"直接、Pcbnewのメインツールバーのアイコン image:images/icons/module_editor."
 "png[] による。"
 
 #. type: Plain text
@@ -6336,7 +6335,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:46
 msgid "image:images/Pcbnew_module_properties.png[]"
-msgstr "image:images/ja/Pcbnew_module_properties.png[]"
+msgstr "image:images/Pcbnew_module_properties.png[]"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:48
@@ -6368,7 +6367,7 @@ msgstr "上部ツールバー"
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:62
 msgid "image:images/Modedit_top_toolbar.png[]"
-msgstr "image:images/ja/Modedit_top_toolbar.png[]"
+msgstr "image:images/Modedit_top_toolbar.png[]"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:64
@@ -6428,49 +6427,49 @@ msgid ""
 "| image:images/icons/module_check.png[]\n"
 "| Perform a check of module correctness\n"
 msgstr ""
-"| image:images/ja/icons/library.png[]\n"
+"| image:images/icons/library.png[]\n"
 "| アクティブなライブラリを選択する。\n"
-"| image:images/ja/icons/save_library.png[]\n"
+"| image:images/icons/save_library.png[]\n"
 "| アクティブなライブラリに現在のモジュールを保存し、ディスクに書き込む。\n"
-"| image:images/ja/icons/new_library.png[]\n"
+"| image:images/icons/new_library.png[]\n"
 "| 新規ライブラリを作成し、その中に現在のモジュールを保存する。\n"
-"| image:images/ja/icons/modview_icon.png[]\n"
+"| image:images/icons/modview_icon.png[]\n"
 "| モジュールビューアを開く\n"
-"| image:images/ja/icons/delete.png[]\n"
+"| image:images/icons/delete.png[]\n"
 "| アクティブなライブラリからモジュールを削除するためのダイアログにアクセスする。\n"
-"| image:images/ja/icons/new_footprint.png[]\n"
+"| image:images/icons/new_footprint.png[]\n"
 "| 新規モジュールを作成します。\n"
-"| image:images/ja/icons/module_wizard.png[]\n"
+"| image:images/icons/module_wizard.png[]\n"
 "| ウィザードを使用してモジュールを作成します\n"
-"| image:images/ja/icons/load_module_lib.png[]\n"
+"| image:images/icons/load_module_lib.png[]\n"
 "| アクティブなライブラリからモジュールを読み込む。\n"
 "| image:images/icons/load_module_board.png[]\n"
 "| プリント基板からモジュールを読み込む(インポートする)。\n"
-"| image:images/ja/icons/update_module_board.png[]\n"
+"| image:images/icons/update_module_board.png[]\n"
 "| 現在の基板からあらかじめモジュールをインポートしてある場合に、プリント基板に現在のモジュールをエクスポートする。\n"
 "基板上の対応するモジュールを置き換えます(つまり、位置および角度に関して)。\n"
-"| image:images/ja/icons/insert_module_board.png[]\n"
+"| image:images/icons/insert_module_board.png[]\n"
 "| プリント基板上にモジュールをコピーして、位置0に配置します\n"
 "ライブラリからモジュールを読み込んだ時に、その現在のモジュールをプリント基板にエクスポートする。\n"
 "| image:images/icons/import_module.png[]\n"
 "| エクスポートコマンドで作成したファイルからモジュールをインポートする。\n"
-"| image:images/ja/icons/export_module.png[]\n"
+"| image:images/icons/export_module.png[]\n"
 "| モジュールをエクスポートする。\n"
 "このコマンドは本質的にライブラリを作成するコマンドと同じですが、唯一の違いはユーザーディレクトリ内にライブラリを作成することです。\n"
-"| image:images/ja/icons/undo.png[] image:images/icons/redo.png[]\n"
+"| image:images/icons/undo.png[] image:images/icons/redo.png[]\n"
 "| 元に戻すとやり直し\n"
-"| image:images/ja/icons/module_options.png[]\n"
+"| image:images/icons/module_options.png[]\n"
 "| モジュールプロパティダイアログを呼び出す。\n"
-"| image:images/ja/icons/print_button.png[]\n"
+"| image:images/icons/print_button.png[]\n"
 "| 印刷ダイアログを呼び出す。\n"
-"| image:images/ja/icons/zoom_in.png[]\n"
-"image:images/ja/icons/zoom_out.png[]\n"
-"image:images/ja/icons/zoom_redraw.png[]\n"
-"image:images/ja/icons/zoom_fit_in_page.png[]\n"
+"| image:images/icons/zoom_in.png[]\n"
+"image:images/icons/zoom_out.png[]\n"
+"image:images/icons/zoom_redraw.png[]\n"
+"image:images/icons/zoom_fit_in_page.png[]\n"
 "| 標準ズームコマンド。\n"
-"| image:images/ja/icons/options_pad.png[]\n"
+"| image:images/icons/options_pad.png[]\n"
 "| パッドエディターを呼び出す。\n"
-"| image:images/ja/icons/module_check.png[]\n"
+"| image:images/icons/module_check.png[]\n"
 "| モジュールのチェックを行う\n"
 
 #. type: Plain text
@@ -6482,11 +6481,11 @@ msgid ""
 "which will be replaced by the final reference on the printed circuit board "
 "(U1, IC3, etc.)"
 msgstr ""
-"ボタン image:images/ja/icons/new_footprint.png[] により新規モジュールを作成す"
-"ることができます。その時、モジュール名の入力が必要になります。これによりライ"
-"ブラリ内でモジュールを識別します。このテキストはモジュールのリファレンスとし"
-"ての役割も果たしますが、プリント基板上で最終的なリファレンス((U1、IC3、など)"
-"に置き換えられます。"
+"ボタン image:images/icons/new_footprint.png[] により新規モジュールを作成する"
+"ことができます。その時、モジュール名の入力が必要になります。これによりライブ"
+"ラリ内でモジュールを識別します。このテキストはモジュールのリファレンスとして"
+"の役割も果たしますが、プリント基板上で最終的なリファレンス((U1、IC3、など)に"
+"置き換えられます。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:127
@@ -6523,9 +6522,9 @@ msgid ""
 "png[], image:images/icons/load_module_board.png[] or image:images/icons/"
 "import_module.png[]."
 msgstr ""
-"image:images/ja/icons/load_module_lib.png[], image:images/ja/icons/"
-"load_module_board.png[] および image:images/ja/icons/import_module.png[] ボタ"
-"ンにより似たようなモジュールを読み込む。"
+"image:images/icons/load_module_lib.png[], image:images/icons/"
+"load_module_board.png[] および image:images/icons/import_module.png[] ボタン"
+"により似たようなモジュールを読み込む。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:140
@@ -6546,10 +6545,10 @@ msgid ""
 "library directory or via the button image:images/icons/export_module.png[], "
 "in which case the file is created by default in your working directory."
 msgstr ""
-"新規ライブラリの作成はボタン image:images/ja/icons/new_library.png[] で行いま"
+"新規ライブラリの作成はボタン image:images/icons/new_library.png[] で行いま"
 "す。この場合、ファイルはデフォルトでライブラリのディレクトリに作成されます。"
-"あるいはボタン image:images/ja/icons/export_module.png[] を用います。その場合"
-"にはファイルはデフォルトで作業ディレクトリに作成されます。"
+"あるいはボタン image:images/icons/export_module.png[] を用います。その場合に"
+"はファイルはデフォルトで作業ディレクトリに作成されます。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:154
@@ -6585,7 +6584,7 @@ msgid ""
 "double-checking the module before saving."
 msgstr ""
 "モジュールの保存(アクティブなライブラリのファイルの変更)動作は、 image:"
-"images/ja/icons/save_library.png[] ボタンを使用して実行します。同じ名前のモ"
+"images/icons/save_library.png[] ボタンを使用して実行します。同じ名前のモ"
 "ジュールが既に存在する場合は、置き換えられます。今後の作業がライブラリのモ"
 "ジュールの正確さに左右されるので、モジュールを保存する前にチェックを怠らない"
 "ようにしてください。"
@@ -6610,15 +6609,14 @@ msgstr "ライブラリ間のモジュールの移動"
 msgid ""
 "Select the source library via the button image:images/icons/library.png[]."
 msgstr ""
-"ボタン image:images/ja/icons/library.png[] で移動元ライブラリを選択します。"
+"ボタン image:images/icons/library.png[] で移動元ライブラリを選択します。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:178
 msgid ""
 "Load the module via the button image:images/icons/load_module_lib.png[]."
 msgstr ""
-"ボタン image:images/ja/icons/load_module_lib.png[] でモジュールを読み込みま"
-"す。"
+"ボタン image:images/icons/load_module_lib.png[] でモジュールを読み込みます。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:180
@@ -6626,14 +6624,13 @@ msgid ""
 "Select the destination library via the button image:images/icons/library."
 "png[]."
 msgstr ""
-"ボタン image:images/ja/icons/library.png[] で移動先ライブラリを選択します。"
+"ボタン image:images/icons/library.png[] で移動先ライブラリを選択します。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:181
 msgid "Save the module via the button image:images/icons/save_library.png[]"
 msgstr ""
-"ボタン image:images/ja/icons/save_library.png[] で当該モジュールを保存しま"
-"す。"
+"ボタン image:images/icons/save_library.png[] で当該モジュールを保存します。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:183
@@ -6643,14 +6640,14 @@ msgstr "移動元のモジュールを削除したいと思うかもしれませ
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:185
 msgid "Reselect the source library with image:images/icons/library.png[]"
-msgstr "移動元ライブラリを再度選択し、 image:images/ja/icons/library.png[]"
+msgstr "移動元ライブラリを再度選択し、 image:images/icons/library.png[]"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:186
 msgid "Delete the old module via the button image:images/icons/delete.png[]"
 msgstr ""
-"ボタンとボタン image:images/ja/icons/delete.png[] により古いモジュールを削除"
-"します。"
+"ボタンとボタン image:images/icons/delete.png[] により古いモジュールを削除しま"
+"す。"
 
 #. type: Title ~
 #: Pcbnew_managing_libs.adoc:188
@@ -6716,7 +6713,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:210
 msgid "image:images/Modedit_module_properties.png[]"
-msgstr "image:images/ja/Modedit_module_properties.png[]"
+msgstr "image:images/Modedit_module_properties.png[]"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:212
@@ -6792,7 +6789,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:241
 msgid "image:images/Pcbnew_archive_footprints_menu.png[]"
-msgstr "image:images/ja/Pcbnew_archive_footprints_menu.png[]"
+msgstr "image:images/Pcbnew_archive_footprints_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:246
@@ -6825,7 +6822,7 @@ msgstr "以下はライブラリソースの例です:"
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:254
 msgid "image:images/Pcbnew_example_library.png[]"
-msgstr "image:images/ja/Pcbnew_example_library.png[]"
+msgstr "image:images/Pcbnew_example_library.png[]"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:256
@@ -6877,7 +6874,7 @@ msgid ""
 msgstr ""
 "配置補助モジュールを移動中、配置を補助するためにモジュールのラッツネスト(ネッ"
 "ト状の結線)を表示させることが可能\n"
-"です。これを有効にするには、左ツールバーの image:images/ja/icons/modratsnest."
+"です。これを有効にするには、左ツールバーの image:images/icons/modratsnest."
 "png[] アイコンをアクティブにしなければなりません。"
 
 #. type: Title ~
@@ -6908,7 +6905,7 @@ msgstr "移動中にモジュールのラッツネストの表示を見ること
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:25
 msgid "image:images/Pcbnew_ratsnest_during_move.png[]"
-msgstr "image:images/ja/Pcbnew_ratsnest_during_move.png[]"
+msgstr "image:images/Pcbnew_ratsnest_during_move.png[]"
 
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:27
@@ -6919,7 +6916,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:29
 msgid "image:images/Pcbnew_circuit_after_placement.png[]"
-msgstr "image:images/ja/Pcbnew_circuit_after_placement.png[]"
+msgstr "image:images/Pcbnew_circuit_after_placement.png[]"
 
 #. type: Title ~
 #: Pcbnew_module_placement.adoc:31
@@ -6952,7 +6949,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:43
 msgid "image:images/Pcbnew_footprints_orientation_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_footprints_orientation_dialog.png[]"
+msgstr "image:images/Pcbnew_footprints_orientation_dialog.png[]"
 
 #. type: Title ~
 #: Pcbnew_module_placement.adoc:45
@@ -7008,7 +7005,7 @@ msgstr "カーソルの下に何もない場合:"
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:65
 msgid "image:images/Pcbnew_context_module_mode_module_under_cursor.png[]"
-msgstr "image:images/ja/Pcbnew_context_module_mode_module_under_cursor.png[]"
+msgstr "image:images/Pcbnew_context_module_mode_module_under_cursor.png[]"
 
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:67
@@ -7018,8 +7015,7 @@ msgstr "カーソルの下に何もなければ:"
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:69
 msgid "image:images/Pcbnew_context_module_mode_no_module_under_cursor.png[]"
-msgstr ""
-"image:images/ja/Pcbnew_context_module_mode_no_module_under_cursor.png[]"
+msgstr "image:images/Pcbnew_context_module_mode_no_module_under_cursor.png[]"
 
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:71
@@ -7307,7 +7303,7 @@ msgstr "最も重要なパラメータは次のドロップダウンメニュー
 #. type: Plain text
 #: Pcbnew_routing.adoc:15
 msgid "image:images/Pcbnew_design_rules_dropdown.png[]"
-msgstr "image:images/ja/Pcbnew_design_rules_dropdown.png[]"
+msgstr "image:images/Pcbnew_design_rules_dropdown.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:17
@@ -7322,7 +7318,7 @@ msgstr "現在の設定現在の設定は上部ツールバーにより表示さ
 #. type: Plain text
 #: Pcbnew_routing.adoc:24
 msgid "image:images/Pcbnew_design_rules_top_toolbar.png[]"
-msgstr "image:images/ja/Pcbnew_design_rules_top_toolbar.png[]"
+msgstr "image:images/Pcbnew_design_rules_top_toolbar.png[]"
 
 #. type: Title ~
 #: Pcbnew_routing.adoc:26
@@ -7347,7 +7343,7 @@ msgstr "ダイアログメニューは次のように見えます。"
 #. type: Plain text
 #: Pcbnew_routing.adoc:34
 msgid "image:images/Pcbnew_general_options_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_general_options_dialog.png[]"
+msgstr "image:images/Pcbnew_general_options_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:36
@@ -7478,7 +7474,7 @@ msgstr "ネットクラスのグループ化。"
 #. type: Plain text
 #: Pcbnew_routing.adoc:79
 msgid "image:images/Pcbnew_design_rules_editor_netclass_tab.png[]"
-msgstr "image:images/ja/Pcbnew_design_rules_editor_netclass_tab.png[]"
+msgstr "image:images/Pcbnew_design_rules_editor_netclass_tab.png[]"
 
 #. type: Title ^
 #: Pcbnew_routing.adoc:81
@@ -7523,7 +7519,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:93
 msgid "image:images/Pcbnew_design_rules_editor_global_tab.png[]"
-msgstr "image:images/ja/Pcbnew_design_rules_editor_global_tab.png[]"
+msgstr "image:images/Pcbnew_design_rules_editor_global_tab.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:95
@@ -7620,7 +7616,7 @@ msgstr "特殊サイズ"
 #. type: Plain text
 #: Pcbnew_routing.adoc:129
 msgid "image:images/Pcbnew_specific_size_options.png[]"
-msgstr "image:images/ja/Pcbnew_specific_size_options.png[]"
+msgstr "image:images/Pcbnew_specific_size_options.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:133
@@ -7726,7 +7722,7 @@ msgstr "グラウンド線幅: 2.54mm(0.1インチ)。"
 #. type: Plain text
 #: Pcbnew_routing.adoc:176
 msgid "image:images/Pcbnew_dr_example_rustic.png[]"
-msgstr "image:images/ja/Pcbnew_dr_example_rustic.png[]"
+msgstr "image:images/Pcbnew_dr_example_rustic.png[]"
 
 #. type: Title ^
 #: Pcbnew_routing.adoc:178
@@ -7757,7 +7753,7 @@ msgstr "ビア: 1.27mm(0.0500インチ)。"
 #. type: Plain text
 #: Pcbnew_routing.adoc:186
 msgid "image:images/Pcbnew_dr_example_standard.png[]"
-msgstr "image:images/ja/Pcbnew_dr_example_standard.png[]"
+msgstr "image:images/Pcbnew_dr_example_standard.png[]"
 
 #. type: Title ~
 #: Pcbnew_routing.adoc:188
@@ -7799,8 +7795,8 @@ msgid ""
 "Pcbnew can display the full ratsnest, if the button image:images/icons/"
 "modratsnest.png[] is activated."
 msgstr ""
-"image:images/ja/icons/modratsnest.png[] ボタンがアクティブである場合にPcbnew"
-"で全ラッツネストを表示させることが可能です。"
+"image:images/icons/modratsnest.png[] ボタンがアクティブである場合にPcbnewで全"
+"ラッツネストを表示させることが可能です。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:210
@@ -7808,9 +7804,9 @@ msgid ""
 "The button image:images/icons/net_highlight.png[] allows to highlight a net "
 "(click to a pad or an existing track to highlight the corresponding net)."
 msgstr ""
-"image:images/ja/icons/net_highlight.png[] ボタンによりネットをハイライトにす"
-"ることができます(パッドまたは既存の配線をクリックし、対応するネットをハイライ"
-"トにします)。"
+"image:images/icons/net_highlight.png[] ボタンによりネットをハイライトにするこ"
+"とができます(パッドまたは既存の配線をクリックし、対応するネットをハイライトに"
+"します)。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:215
@@ -7838,15 +7834,15 @@ msgid ""
 "because Pcbnew must know the net used for the new track (in order to match "
 "the DRC rules)."
 msgstr ""
-"image:images/ja/icons/add_tracks.png[] ボタンをクリックして配線を作成すること"
-"が可能です。新規配線はパッドまたは他の配線上で開始しなければなりません。それ"
-"は(DRCルールに適合させるために)Pcbnewが新規配線に使用するネットを知っているは"
-"ずだからです。"
+"image:images/icons/add_tracks.png[] ボタンをクリックして配線を作成することが"
+"可能です。新規配線はパッドまたは他の配線上で開始しなければなりません。それは"
+"(DRCルールに適合させるために)Pcbnewが新規配線に使用するネットを知っているはず"
+"だからです。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:225
 msgid "image:images/Pcbnew_creating_new_track.png[]"
-msgstr "image:images/ja/Pcbnew_creating_new_track.png[]"
+msgstr "image:images/Pcbnew_creating_new_track.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:229
@@ -7866,7 +7862,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:233
 msgid "image:images/Pcbnew_track_in_progres_context.png[]"
-msgstr "image:images/ja/Pcbnew_track_in_progres_context.png[]"
+msgstr "image:images/Pcbnew_track_in_progres_context.png[]"
 
 #. type: Title ^
 #: Pcbnew_routing.adoc:235
@@ -7881,9 +7877,9 @@ msgid ""
 "where the cursor is positioned can be moved with the hotkey 'm'.  If you "
 "want to drag the track you can use the hotkey 'g'."
 msgstr ""
-"image:images/ja/icons/add_tracks.png[] ボタンがアクティブの時、カーソルが置か"
-"れた所の配線はホットキー 'm' で移動させることが可能です。配線をドラッグしたい"
-"場合、ホットキー ‘g’ を使用することができます。"
+"image:images/icons/add_tracks.png[] ボタンがアクティブの時、カーソルが置かれ"
+"た所の配線はホットキー 'm' で移動させることが可能です。配線をドラッグしたい場"
+"合、ホットキー ‘g’ を使用することができます。"
 
 #. type: Title ^
 #: Pcbnew_routing.adoc:242
@@ -7948,8 +7944,8 @@ msgid ""
 "track width can be selected from the pop-up menu (accessible as well when "
 "creating a track)."
 msgstr ""
-"image:images/ja/icons/add_tracks.png[] ボタンがアクティブの時、(配線の作成時"
-"にもアクセス可能な)ポップアップメニューから現在の配線幅を選択可能です。"
+"image:images/icons/add_tracks.png[] ボタンがアクティブの時、(配線の作成時にも"
+"アクセス可能な)ポップアップメニューから現在の配線幅を選択可能です。"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:263
@@ -7968,7 +7964,7 @@ msgstr "水平ツールバーの使用"
 #. type: Plain text
 #: Pcbnew_routing.adoc:268
 msgid "image:images/Pcbnew_track_toolbar.png[]"
-msgstr "image:images/ja/Pcbnew_track_toolbar.png[]"
+msgstr "image:images/Pcbnew_track_toolbar.png[]"
 
 #. type: delimited block |
 #: Pcbnew_routing.adoc:294
@@ -8040,7 +8036,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:303
 msgid "image:images/Pcbnew_track_context_menu.png[]"
-msgstr "image:images/ja/Pcbnew_track_context_menu.png[]"
+msgstr "image:images/Pcbnew_track_context_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:307
@@ -8076,7 +8072,7 @@ msgstr "新規配線(進行中):"
 #. type: Plain text
 #: Pcbnew_routing.adoc:319
 msgid "image:images/Pcbnew_new_track_in_progress.png[]"
-msgstr "image:images/ja/Pcbnew_new_track_in_progress.png[]"
+msgstr "image:images/Pcbnew_new_track_in_progress.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:321
@@ -8086,7 +8082,7 @@ msgstr "終了時は:"
 #. type: Plain text
 #: Pcbnew_routing.adoc:323
 msgid "image:images/Pcbnew_new_track_completed.png[]"
-msgstr "image:images/ja/Pcbnew_new_track_completed.png[]"
+msgstr "image:images/Pcbnew_new_track_completed.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:325
@@ -8111,7 +8107,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_routing.adoc:333
 msgid "image:images/Pcbnew_track_global_edit_context_menu.png[]"
-msgstr "image:images/ja/Pcbnew_track_global_edit_context_menu.png[]"
+msgstr "image:images/Pcbnew_track_global_edit_context_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:335
@@ -8133,7 +8129,7 @@ msgstr "基板全体。"
 #. type: Plain text
 #: Pcbnew_routing.adoc:339
 msgid "image:images/Pcbnew_track_global_edit_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_track_global_edit_dialog.png[]"
+msgstr "image:images/Pcbnew_track_global_edit_dialog.png[]"
 
 #. type: Title -
 #: Pcbnew_schematics.adoc:3
@@ -8319,7 +8315,7 @@ msgstr "ダイアログボックス"
 #. type: Plain text
 #: Pcbnew_schematics.adoc:72
 msgid "Accessible from the icon image:images/icons/netlist.png[]"
-msgstr "アイコン image:images/ja/icons/netlist.png[] からアクセスできます。"
+msgstr "アイコン image:images/icons/netlist.png[] からアクセスできます。"
 
 #. type: Title ^
 #: Pcbnew_schematics.adoc:76
@@ -8373,7 +8369,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_schematics.adoc:102
 msgid "image:images/Pcbnew_stacked_footprints.png[]"
-msgstr "image:images/ja/Pcbnew_stacked_footprints.png[]"
+msgstr "image:images/Pcbnew_stacked_footprints.png[]"
 
 #. type: Plain text
 #: Pcbnew_schematics.adoc:104
@@ -8388,7 +8384,7 @@ msgstr ""
 #: Pcbnew_schematics.adoc:106
 msgid "Activate footprint mode (image:images/icons/mode_module.png[])"
 msgstr ""
-"フットプリントモードをアクティブにします (image:images/ja/icons/mode_module."
+"フットプリントモードをアクティブにします (image:images/icons/mode_module."
 "png[])"
 
 #. type: Plain text
@@ -8403,7 +8399,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_schematics.adoc:111
 msgid "image:images/Pcbnew_move_all_modules.png[]"
-msgstr "image:images/ja/Pcbnew_move_all_modules.png[]"
+msgstr "image:images/Pcbnew_move_all_modules.png[]"
 
 #. type: Plain text
 #: Pcbnew_schematics.adoc:113
@@ -8425,7 +8421,7 @@ msgstr "次のスクリーンショットにその結果を示します。"
 #. type: Plain text
 #: Pcbnew_schematics.adoc:117
 msgid "image:images/Pcbnew_unstacked_footprints.png[]"
-msgstr "image:images/ja/Pcbnew_unstacked_footprints.png[]"
+msgstr "image:images/Pcbnew_unstacked_footprints.png[]"
 
 #. type: Title -
 #: Pcbnew_zones.adoc:3
@@ -8553,13 +8549,13 @@ msgid ""
 "copper layer. When clicking to start the zone outline, the following dialog "
 "box will be opened."
 msgstr ""
-"ツール image:images/ja/icons/add_zone.png[] 次のダイアログボックスが開きま"
-"す。を使用します。"
+"ツール image:images/icons/add_zone.png[] 次のダイアログボックスが開きます。を"
+"使用します。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:53
 msgid "image:images/Pcbnew_zone_properties_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_zone_properties_dialog.png[]"
+msgstr "image:images/Pcbnew_zone_properties_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:55
@@ -8642,7 +8638,7 @@ msgstr "ゾーン境界(薄い網掛けのポリゴン)の例を次に示しま�
 #. type: Plain text
 #: Pcbnew_zones.adoc:80
 msgid "image:images/Pcbnew_zone_limit_example.png[]"
-msgstr "image:images/ja/Pcbnew_zone_limit_example.png[]"
+msgstr "image:images/Pcbnew_zone_limit_example.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:85
@@ -8659,7 +8655,7 @@ msgid ""
 "png[]"
 msgstr ""
 "これは小さなゾーンが大きなゾーンよりも優先度が高い場合に可能です。Lebel設定: "
-"image:images/ja/Pcbnew_zone_priority_level_setting.png[]"
+"image:images/Pcbnew_zone_priority_level_setting.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:91
@@ -8669,7 +8665,7 @@ msgstr "次に例を示します:"
 #. type: Plain text
 #: Pcbnew_zones.adoc:93
 msgid "image:images/Pcbnew_zone_priority_example.png[]"
-msgstr "image:images/ja/Pcbnew_zone_priority_example.png[]"
+msgstr "image:images/Pcbnew_zone_priority_example.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:95
@@ -8679,7 +8675,7 @@ msgstr "塗りつぶし後:"
 #. type: Plain text
 #: Pcbnew_zones.adoc:97
 msgid "image:images/Pcbnew_zone_priority_example_after_filling.png[]"
-msgstr "image:images/ja/Pcbnew_zone_priority_example_after_filling.png[]"
+msgstr "image:images/Pcbnew_zone_priority_example_after_filling.png[]"
 
 #. type: Title ^
 #: Pcbnew_zones.adoc:99
@@ -8699,7 +8695,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:105
 msgid "image:images/Pcbnew_zone_context_menu.png[]"
-msgstr "image:images/ja/Pcbnew_zone_context_menu.png[]"
+msgstr "image:images/Pcbnew_zone_context_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:108
@@ -8713,7 +8709,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:110
 msgid "image:images/Pcbnew_zone_filling_result.png[]"
-msgstr "image:images/ja/Pcbnew_zone_filling_result.png[]"
+msgstr "image:images/Pcbnew_zone_filling_result.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:113
@@ -8746,7 +8742,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:121
 msgid "image:images/Pcbnew_zone_filled_with_cutout.png[]"
-msgstr "image:images/ja/Pcbnew_zone_filled_with_cutout.png[]"
+msgstr "image:images/Pcbnew_zone_filled_with_cutout.png[]"
 
 #. type: Title ~
 #: Pcbnew_zones.adoc:123
@@ -8757,7 +8753,7 @@ msgstr "塗り潰しオプション"
 #. type: Plain text
 #: Pcbnew_zones.adoc:126
 msgid "image:images/Pcbnew_zone_filling_options.png[]"
-msgstr "image:images/ja/Pcbnew_zone_filling_options.png[]"
+msgstr "image:images/Pcbnew_zone_filling_options.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:128
@@ -8854,7 +8850,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:161
 msgid "image:images/Pcbnew_zone_include_pads.png[]"
-msgstr "image:images/ja/Pcbnew_zone_include_pads.png[]"
+msgstr "image:images/Pcbnew_zone_include_pads.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:165
@@ -8870,7 +8866,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:167
 msgid "image:images/Pcbnew_zone_exclude_pads.png[]"
-msgstr "image:images/ja/Pcbnew_zone_exclude_pads.png[]"
+msgstr "image:images/Pcbnew_zone_exclude_pads.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:171
@@ -8885,7 +8881,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:173
 msgid "image:images/Pcbnew_zone_thermal_relief.png[]"
-msgstr "image:images/ja/Pcbnew_zone_thermal_relief.png[]"
+msgstr "image:images/Pcbnew_zone_thermal_relief.png[]"
 
 #. type: Title ^
 #: Pcbnew_zones.adoc:175
@@ -8896,7 +8892,7 @@ msgstr "サーマルパターンパラメータ"
 #. type: Plain text
 #: Pcbnew_zones.adoc:178
 msgid "image:images/Pcbnew_thermal_relief_settings.png[]"
-msgstr "image:images/ja/Pcbnew_thermal_relief_settings.png[]"
+msgstr "image:images/Pcbnew_thermal_relief_settings.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:180
@@ -8906,7 +8902,7 @@ msgstr "サーマルパターン用に2つのパラメータを設定するこ�
 #. type: Plain text
 #: Pcbnew_zones.adoc:182
 msgid "image:images/Pcbnew_thermal_relief_parameters.png[]"
-msgstr "image:images/ja/Pcbnew_thermal_relief_parameters.png[]"
+msgstr "image:images/Pcbnew_thermal_relief_parameters.png[]"
 
 #. type: Title ^
 #: Pcbnew_zones.adoc:184
@@ -8962,7 +8958,7 @@ msgstr "切り抜きの追加を選択します。"
 #. type: Plain text
 #: Pcbnew_zones.adoc:203
 msgid "image:images/Pcbnew_add_cutout_menu_item.png[]"
-msgstr "image:images/ja/Pcbnew_add_cutout_menu_item.png[]"
+msgstr "image:images/Pcbnew_add_cutout_menu_item.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:205
@@ -8972,7 +8968,7 @@ msgstr "新規外形を作成します。"
 #. type: Plain text
 #: Pcbnew_zones.adoc:207
 msgid "image:images/Pcbnew_zone_unfilled_cutout_outline.png[]"
-msgstr "image:images/ja/Pcbnew_zone_unfilled_cutout_outline.png[]"
+msgstr "image:images/Pcbnew_zone_unfilled_cutout_outline.png[]"
 
 #. type: Title ~
 #: Pcbnew_zones.adoc:209
@@ -9008,7 +9004,7 @@ msgstr "ポリゴンが重なっている場合、それらは結合されます
 #. type: Plain text
 #: Pcbnew_zones.adoc:220
 msgid "image:images/Pcbnew_zone_modification_menu_items.png[]"
-msgstr "image:images/ja/Pcbnew_zone_modification_menu_items.png[]"
+msgstr "image:images/Pcbnew_zone_modification_menu_items.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:223
@@ -9026,7 +9022,7 @@ msgstr "以下は切抜きの頂点を移動した例です。"
 #. type: Plain text
 #: Pcbnew_zones.adoc:227
 msgid "image:images/Pcbnew_zone_corner_move_during.png[]"
-msgstr "image:images/ja/Pcbnew_zone_corner_move_during.png[]"
+msgstr "image:images/Pcbnew_zone_corner_move_during.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:229
@@ -9036,7 +9032,7 @@ msgstr "最終結果です:"
 #. type: Plain text
 #: Pcbnew_zones.adoc:231
 msgid "image:images/Pcbnew_zone_corner_move_after.png[]"
-msgstr "image:images/ja/Pcbnew_zone_corner_move_after.png[]"
+msgstr "image:images/Pcbnew_zone_corner_move_after.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:233
@@ -9057,7 +9053,7 @@ msgstr "同様のゾーンを追加します:"
 #. type: Plain text
 #: Pcbnew_zones.adoc:240
 msgid "image:images/Pcbnew_zone_add_similar_during.png[]"
-msgstr "image:images/ja/Pcbnew_zone_add_similar_during.png[]"
+msgstr "image:images/Pcbnew_zone_add_similar_during.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:242
@@ -9067,7 +9063,7 @@ msgstr "最終結果:"
 #. type: Plain text
 #: Pcbnew_zones.adoc:244
 msgid "image:images/Pcbnew_zone_add_similar_after.png[]"
-msgstr "image:images/ja/Pcbnew_zone_add_similar_after.png[]"
+msgstr "image:images/Pcbnew_zone_add_similar_after.png[]"
 
 #. type: Title ~
 #: Pcbnew_zones.adoc:246
@@ -9105,8 +9101,7 @@ msgstr ""
 msgid ""
 "Activate the tool zones via the button image:images/icons/add_zone.png[]."
 msgstr ""
-"ボタン image:images/ja/icons/add_zone.png[] によりゾーンのツールを実行しま"
-"す。"
+"ボタン image:images/icons/add_zone.png[] によりゾーンのツールを実行します。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:258
@@ -9118,7 +9113,7 @@ msgstr "右クリックしてポップアップメニューを表示します。
 msgid ""
 "Use Fill or Refill All Zones: image:images/Pcbnew_fill_refill_all_zones.png[]"
 msgstr ""
-"“全てのゾーンを塗りつぶす” を使用します注意: image:images/ja/"
+"“全てのゾーンを塗りつぶす” を使用します注意: image:images/"
 "Pcbnew_fill_refill_all_zones.png[]"
 
 #. type: Plain text
@@ -9188,7 +9183,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:286
 msgid "image:images/Pcbnew_technical_layer_zone_dialog.png[]"
-msgstr "image:images/ja/Pcbnew_technical_layer_zone_dialog.png[]"
+msgstr "image:images/Pcbnew_technical_layer_zone_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:289
@@ -9224,7 +9219,7 @@ msgstr "キープアウトエリアの作成"
 #. type: Plain text
 #: Pcbnew_zones.adoc:300
 msgid "Select the tool image:images/icons/add_keepout_area.png[]"
-msgstr "ツール image:images/ja/icons/add_keepout_area.png[] を選択"
+msgstr "ツール image:images/icons/add_keepout_area.png[] を選択"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:302
@@ -9243,7 +9238,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:307
 msgid "image:images/Pcbnew_keepout_area_properties.png[]"
-msgstr "image:images/ja/Pcbnew_keepout_area_properties.png[]"
+msgstr "image:images/Pcbnew_keepout_area_properties.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:309
