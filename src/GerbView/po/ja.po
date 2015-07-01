@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GerbView-ja\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-06-25 01:20+0900\n"
+"PO-Revision-Date: 2015-07-01 20:13+0900\n"
 "Last-Translator: yoneken <yoneken@kicad.jp>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. type: Title =
 #: GerbView.adoc:8
@@ -155,7 +155,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:18
 msgid "image:images/3360000029F09D033B0.png[3360000029F09D033B0_png]"
-msgstr ""
+msgstr "image:images/ja/3360000029F09D033B0.png[3360000029F09D033B0_png]"
 
 #. type: Title ~
 #: GerbView_chapter_01.adoc:20
@@ -166,7 +166,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:23
 msgid "image:images/3150000002942B9EBC2.png[3150000002942B9EBC2_png]"
-msgstr ""
+msgstr "image:images/ja/3150000002942B9EBC2.png[3150000002942B9EBC2_png]"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:28
@@ -239,6 +239,8 @@ msgid ""
 "|image:images/09900000024E535CABE.png[09900000024E535CABE_png]\n"
 "|Layer selection\n"
 msgstr ""
+"|image:images/ja/09900000024E535CABE.png[09900000024E535CABE_png]\n"
+"| レイヤを選択\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:55
@@ -247,6 +249,8 @@ msgid ""
 "|image:images/098000000245059DA89.png[098000000245059DA89_png]\n"
 "|D Code selection (hight light items that use this dcode)\n"
 msgstr ""
+"|image:images/ja/098000000245059DA89.png[098000000245059DA89_png]\n"
+"|Dコード選択 (このDコードを使用するアイテムがハイライト表示される)\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:58
@@ -255,6 +259,8 @@ msgid ""
 "|image:images/099000000242A1CE20F.png[099000000242A1CE20F_png]\n"
 "|Info about Gerber file options loaded in the current layer\n"
 msgstr ""
+"|image:images/ja/099000000242A1CE20F.png[099000000242A1CE20F_png]\n"
+"| 選択中のレイヤに読み込まれているガバーファイルのオプション情報\n"
 
 #. type: Title ~
 #: GerbView_chapter_01.adoc:61
@@ -363,6 +369,9 @@ msgid ""
 "a|\n"
 "The layer manager has 2 purposes:\n"
 msgstr ""
+"|image:images/ja/0B3000001287840DA48.png[0B3000001287840DA48_png]\n"
+"a|\n"
+"レイヤ・マネージャには2つの目的があります。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:112
@@ -502,6 +511,8 @@ msgid ""
 "|image:images/177000000C0CEC3BA7F.png[177000000C0CEC3BA7F_png]\n"
 "|The layer 1 (green layer) is drawn after the layer 2\n"
 msgstr ""
+"|image:images/ja/177000000C0CEC3BA7F.png[177000000C0CEC3BA7F_png]\n"
+"| レイヤ1（緑のレイヤ）はレイヤ2の後に表示されます。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:179
@@ -510,6 +521,8 @@ msgid ""
 "|image:images/1AC000000DFCC4C960B.png[1AC000000DFCC4C960B_png]\n"
 "|The layer 2 (blue layer) is drawn after the layer 1\n"
 msgstr ""
+"|image:images/ja/1AC000000DFCC4C960B.png[1AC000000DFCC4C960B_png]\n"
+"| レイヤ2（青いレイヤ）はレイヤ1の後に表示されます。\n"
 
 #. type: Title ~
 #: GerbView_chapter_01.adoc:182
@@ -526,8 +539,8 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:190
 msgid ""
-"To print layers, use the image:images/02400000024A913E3D7.png"
-"[02400000024A913E3D7_png] tool, or the main menu (files)"
+"To print layers, use the image:images/02400000024A913E3D7."
+"png[02400000024A913E3D7_png] tool, or the main menu (files)"
 msgstr ""
 
 #. type: Title ^
@@ -589,7 +602,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:218
 msgid "image:images/0B00000014A8CB8D3BC.png[0B00000014A8CB8D3BC_png]"
-msgstr ""
+msgstr "image:images/ja/0B00000014A8CB8D3BC.png[0B00000014A8CB8D3BC_png]"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:220
@@ -671,7 +684,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:252
 msgid "image:images/0A1000000964D11366E.png[0A1000000964D11366E_png]"
-msgstr ""
+msgstr "image:images/ja/0A1000000964D11366E.png[0A1000000964D11366E_png]"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:254
@@ -687,7 +700,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_01.adoc:259
 msgid "image:images/07C000000A353743B55.png[07C000000A353743B55_png]"
-msgstr ""
+msgstr "image:images/ja/07C000000A353743B55.png[07C000000A353743B55_png]"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:261
@@ -716,8 +729,8 @@ msgstr ""
 #: GerbView_chapter_02.adoc:6
 msgid ""
 "image:images/dcodes_5EB0000016B59714152.png[dcodes_5EB0000016B59714152_png,"
-"scaledwidth=\"50%\"] image:images/dcodes_09D000000A3540174CA.png"
-"[dcodes_09D000000A3540174CA_png,scaledwidth=\"50%\"]"
+"scaledwidth=\"50%\"] image:images/dcodes_09D000000A3540174CA."
+"png[dcodes_09D000000A3540174CA_png,scaledwidth=\"50%\"]"
 msgstr ""
 
 #. type: Plain text
