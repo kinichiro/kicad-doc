@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-07-01 01:09+0900\n"
+"PO-Revision-Date: 2015-07-02 23:59+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -561,7 +561,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:236
 msgid "image:images/kicad_main_window.png[KiCad Main Window]"
-msgstr "image:images/kicad_main_window.png[KiCad Main Window]"
+msgstr "image:images/ja/kicad_main_window.png[KiCad Main Window]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:242
@@ -652,7 +652,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:272
 msgid "image:images/choose_component.png[Choose Component]"
-msgstr "image:images/choose_component.png[Choose Component]"
+msgstr "image:images/ja/choose_component.png[Choose Component]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:276
@@ -707,7 +707,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:293
 msgid "image:images/edit_component_dropdown.png[Edit component menu]"
-msgstr "image:images/edit_component_dropdown.png[Edit component menu]"
+msgstr "image:images/ja/edit_component_dropdown.png[Edit component menu]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:296
@@ -753,7 +753,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:310
 msgid "image:images/component_history.png[Component history]"
-msgstr "image:images/component_history.png[Component history]"
+msgstr "image:images/ja/component_history.png[Component history]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:315
@@ -1719,7 +1719,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:696
 msgid "image:images/design_rules.png[Design Rules Window]"
-msgstr "image:images/design_rules.png[Design Rules Window]"
+msgstr "image:images/ja/design_rules.png[Design Rules Window]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:700
@@ -1859,7 +1859,8 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:753
 msgid "image:images/select_top_copper.png[Select the Front top copper layer]"
-msgstr "image:images/select_top_copper.png[Select the Front top copper layer]"
+msgstr ""
+"image:images/ja/select_top_copper.png[Select the Front top copper layer]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:759
@@ -1896,7 +1897,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:769
 msgid "image:images/pcbnew_1.png[pcbnew_1_png]"
-msgstr "image:images/pcbnew_1.png[pcbnew_1_png]"
+msgstr "image:images/ja/pcbnew_1.png[pcbnew_1_png]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:775
@@ -1918,7 +1919,7 @@ msgid ""
 "image:images/1000000000000169000001178613965A.png"
 "[1000000000000169000001178613965A_png]"
 msgstr ""
-"image:images/1000000000000169000001178613965A.png"
+"image:images/ja/1000000000000169000001178613965A.png"
 "[1000000000000169000001178613965A_png]"
 
 #. type: Plain text
@@ -2012,7 +2013,7 @@ msgstr ""
 #: Getting_Started_in_KiCad.adoc:812
 #, no-wrap
 msgid "image:images/100000000000026E000002155D41D893.png[100000000000026E000002155D41D893_png]\n"
-msgstr "image:images/100000000000026E000002155D41D893.png[100000000000026E000002155D41D893_png]\n"
+msgstr "image:images/ja/100000000000026E000002155D41D893.png[100000000000026E000002155D41D893_png]\n"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:818
@@ -2410,7 +2411,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:983
 msgid "image:images/pin_properties.png[Pin Properties]"
-msgstr "image:images/pin_properties.png[Pin Properties]"
+msgstr "image:images/ja/pin_properties.png[Pin Properties]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:986
@@ -3036,7 +3037,7 @@ msgstr ""
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1242
 msgid "image:images/pad_properties.png[Pad Properties]"
-msgstr "image:images/pad_properties.png[Pad Properties]"
+msgstr "image:images/ja/pad_properties.png[Pad Properties]"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:1246
