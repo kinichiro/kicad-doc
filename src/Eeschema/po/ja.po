@@ -160,7 +160,7 @@ msgstr ""
 #: Eeschema_automatic_classification_annotation.adoc:18
 #: Eeschema_general_top_toolbar.adoc:116
 msgid "image:images/en/annotate-dialog.png[annotate-dialog_img]"
-msgstr "image:images/en/annotate-dialog.png[annotate-dialog_img]"
+msgstr "image:images/ja/annotate-dialog.png[annotate-dialog_img]"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:20
@@ -1292,7 +1292,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:334 Eeschema_main_top_menu.adoc:64
 msgid "image:images/en/libsettings.png[Library settings]"
-msgstr "image:images/en/libsettings.png[Library settings]"
+msgstr "image:images/ja/libsettings.png[Library settings]"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:342
@@ -2740,7 +2740,7 @@ msgid ""
 "Select the tool image:images/en/icon_netlist.png[Netlist icon] to open the "
 "netlist creation dialog box."
 msgstr ""
-"image:images/en/icon_netlist.png[Netlist icon] ツールを選択し、ネットリスト作"
+"image:images/ja/icon_netlist.png[Netlist icon] ツールを選択し、ネットリスト作"
 "成ダイアログボックスを開きます。"
 
 #. type: delimited block |
@@ -5351,7 +5351,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:899
 msgid "image:images/en/bom-netlist-tab.png[bom-netlist-tab_png]"
-msgstr "image:images/en/bom-netlist-tab.png[bom-netlist-tab_png]"
+msgstr "image:images/ja/bom-netlist-tab.png[bom-netlist-tab_png]"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:905
@@ -6399,7 +6399,7 @@ msgstr ""
 #: Eeschema_design_verification_with_erc.adoc:23
 #: Eeschema_general_top_toolbar.adoc:163
 msgid "image:images/en/dialog_erc.png[ERC dialog]"
-msgstr ""
+msgstr "image:images/ja/dialog_erc.png[ERC dialog]"
 
 #. type: Title ~
 #: Eeschema_design_verification_with_erc.adoc:26
@@ -6413,6 +6413,8 @@ msgid ""
 "ERC can be started by clicking on the icon image:images/en/icon_erc.png[ERC "
 "icon]."
 msgstr ""
+"ERC を実行するときは、アイコン image:images/ja/icon_erc.png[ERC icon] を"
+"クリックします。"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:33
@@ -6494,7 +6496,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:64
 msgid "image:images/en/erc_pointers_info.png[ERC pointers info]"
-msgstr ""
+msgstr "image:images/ja/erc_pointers_info.png[ERC pointers info]"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:67
@@ -6592,11 +6594,13 @@ msgid ""
 "icon], allows you to define the sheet size and the contents of the title "
 "block."
 msgstr ""
+"ページ設定アイコン image:images/ja/icon_sheetset.png[Sheet Settings icon]"
+" から紙のサイズとタイトル欄の内容を設定できます。"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:16
 msgid "image:images/en/page_settings.png[Page Settings]"
-msgstr ""
+msgstr "image:images/ja/page_settings.png[Page Settings]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:20
@@ -6621,7 +6625,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:30 Eeschema_main_top_menu.adoc:95
 msgid "image:images/en/options.png[Schematic Editor Options]"
-msgstr ""
+msgstr "image:images/ja/options.png[Schematic Editor Options]"
 
 #. type: Title ^
 #: Eeschema_general_top_toolbar.adoc:33
@@ -6639,7 +6643,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:39
 msgid "image:images/en/template_field_names.png[Template Field Names settings]"
-msgstr ""
+msgstr "image:images/ja/template_field_names.png[Template Field Names settings]"
 
 #. type: Title ~
 #: Eeschema_general_top_toolbar.adoc:42
@@ -6653,11 +6657,13 @@ msgid ""
 "The Find icon, image:images/en/icon_find.png[Find icon], can be used to "
 "access the search tool."
 msgstr ""
+"検索ツールは、検索アイコン image:images/ja/icon_find.png[Find icon] から"
+"呼び出します。"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:49
 msgid "image:images/en/find_dialog.png[Find dialog]"
-msgstr ""
+msgstr "image:images/ja/find_dialog.png[Find dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:53
@@ -6679,6 +6685,7 @@ msgid ""
 "The Netlist icon, image:images/en/icon_netlist.png[Netlist icon], opens the "
 "netlist generation tool."
 msgstr ""
+"ネットリスト作成ツーツは、ネットリストアイコン image:images/ja/icon_netlist.png[Netlist icon] から呼び出します。"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:63
@@ -6725,7 +6732,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:83
 msgid "image:images/en/netlist_dialog.png[Netlist dialog]"
-msgstr ""
+msgstr "image:images/ja/netlist_dialog.png[Netlist dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:85 Eeschema_general_top_toolbar.adoc:171
@@ -6874,6 +6881,7 @@ msgid ""
 "The icon image:images/en/icon_erc.png[ERC icon] gives access to the "
 "electrical rules check (ERC) tool."
 msgstr ""
+"アイコン image:images/ja/icon_erc.png[ERC icon] から ERC(Electronic Rules Check) ツールを呼び出せます。"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:154
@@ -6964,7 +6972,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:190
 msgid "image:images/en/dialog_erc_opts.png[ERC Options dialog]"
-msgstr ""
+msgstr "image:images/ja/dialog_erc_opts.png[ERC Options dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:193
@@ -7006,11 +7014,12 @@ msgid ""
 "materials (BOM) generator. This menu allows the generation of a file listing "
 "of the components and/or hierarchical connections (global labels)."
 msgstr ""
+"BOM（部品表）作成ツールは、アイコン image:images/ja/icon_bom.png[BOM icon] から呼び出します。このツールでコンポーネントとグローバルラベルをリストアップしたファイルを作成します。"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:211
 msgid "image:images/en/dialog_bom.png[BOM dialog]"
-msgstr ""
+msgstr "image:images/ja/dialog_bom.png[BOM dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:215
@@ -7061,6 +7070,7 @@ msgstr ""
 msgid ""
 "image:images/en/dialog_component_properties.png[Component Properties dialog]"
 msgstr ""
+"image:images/ja/dialog_component_properties.png[Component Properties dialog]"
 
 #. type: Title ~
 #: Eeschema_general_top_toolbar.adoc:230
@@ -7080,6 +7090,8 @@ msgid ""
 "The icon image:images/en/icon_import_footprint_names.png[Import Footprint "
 "Names icon] gives access to the back-annotate tool."
 msgstr ""
+"アイコン image:images/ja/icon_import_footprint_names.png[Import Footprint "
+"Names icon] はバック・アノテーション・ツールを呼び出します。"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:241
@@ -7152,7 +7164,7 @@ msgstr ""
 #: Eeschema_generic_commands.adoc:26
 #, no-wrap
 msgid "images/en/commands_overview.png"
-msgstr ""
+msgstr "images/ja/commands_overview.png"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:29
@@ -7256,7 +7268,7 @@ msgstr ""
 #: Eeschema_generic_commands.adoc:71
 #, no-wrap
 msgid "images/en/main_window_popup.png"
-msgstr ""
+msgstr "images/ja/main_window_popup.png"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:74
@@ -7404,7 +7416,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:144
 msgid "image:images/en/status_bar.png[]"
-msgstr ""
+msgstr "image:images/ja/status_bar.png[]"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:146
@@ -7422,7 +7434,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:152
 msgid "image:images/en/menu_bar.png[menubar]"
-msgstr ""
+msgstr "image:images/ja/menu_bar.png[menubar]"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:155
@@ -7497,6 +7509,8 @@ msgid ""
 "|image:images/en/icon_sheetset.png[Page Settings icon]\n"
 "|Select the sheet size and edit the title block.\n"
 msgstr ""
+"|image:images/ja/icon_sheetset.png[Page Settings icon]\n"
+"| 紙のサイズ選択とタイトル欄の編集\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:186
@@ -7618,6 +7632,8 @@ msgid ""
 "|ERC (Electrical Rules Check). ERC automatically validates electrical\n"
 "connections.\n"
 msgstr ""
+"|image:images/ja/icon_erc.png[ERC icon]\n"
+"|ERC (Electrical Rules Check)。ERC は電気的な接続を自動的に検証します。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:232
@@ -7626,6 +7642,8 @@ msgid ""
 "|image:images/en/icon_netlist.png[Netlist icon]\n"
 "|Export a netlist (Pcbnew, SPICE, and other formats).\n"
 msgstr ""
+"|image:images/ja/icon_netlist.png[Netlist icon]\n"
+"| ネットリストを Pcbnew、 SPICE 等の形式で出力。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:235
@@ -7634,6 +7652,8 @@ msgid ""
 "|image:images/en/icon_bom.png[BOM icon]\n"
 "|Generate the BOM (Bill of Materials).\n"
 msgstr ""
+"|image:images/ja/icon_bom.png[BOM icon]\n"
+"| BOM（部品表）作成\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:238
@@ -7658,6 +7678,8 @@ msgid ""
 "|image:images/en/icon_import_footprint_names.png[Import Footprint Names icon]\n"
 "|Back-import component footprints (selected using CvPcb) into the \"footprint\" fields.\n"
 msgstr ""
+"|image:images/ja/icon_import_footprint_names.png[Import Footprint Names icon]\n"
+"| \"フットプリント欄\" に CvPcb での選択に従ってフットプリントを取り込む。\n"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:247
@@ -7717,6 +7739,8 @@ msgid ""
 "|image:images/en/icon_new_component.png[New Component icon]\n"
 "|Display the component selector.\n"
 msgstr ""
+"|image:images/ja/icon_new_component.png[New Component icon]\n"
+"| コンポーネント選択画面を表示する。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:281
@@ -7725,6 +7749,8 @@ msgid ""
 "|image:images/en/icon_add_power.png[Add Power icon]\n"
 "|Display the power symbol selector.\n"
 msgstr ""
+"|image:images/ja/icon_add_power.png[Add Power icon]\n"
+"| 電源ポート選択画面を表示する。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:284
@@ -9326,7 +9352,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:11
 msgid "image:images/en/file_menu.png[File menu]"
-msgstr ""
+msgstr "image:images/ja/file_menu.png[File menu]"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:15
@@ -9412,7 +9438,7 @@ msgstr ""
 #: Eeschema_main_top_menu.adoc:46
 #, no-wrap
 msgid "images/en/menu_path_hotkey_editor.png"
-msgstr ""
+msgstr "images/ja/menu_path_hotkey_editor.png"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:57
@@ -9482,7 +9508,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:86
 msgid "image:images/en/color_settings.png[Color settings]"
-msgstr ""
+msgstr "image:images/ja/color_settings.png[Color settings]"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:89
@@ -10041,7 +10067,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:40
 msgid "image:images/en/dev-chain.png[dev-chain_png]"
-msgstr ""
+msgstr "image:images/ja/dev-chain.png[dev-chain_png]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:44
@@ -10070,11 +10096,12 @@ msgid ""
 "icon_new_component.png[New Component icon].  A dialog box allows you to type "
 "the name of the module to load."
 msgstr ""
+"コンポーネントを回路図に配置するには、 image:images/ja/icon_new_component.png[New Component icon] アイコンを使用します。ダイアログにモジュール名を入力して配置する部品の候補を制限することもできます。。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:58
 msgid "image:images/en/dialog_choose_component.png[Choose Component dialog]"
-msgstr ""
+msgstr "image:images/ja/dialog_choose_component.png[Choose Component dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:61
@@ -10101,6 +10128,7 @@ msgstr ""
 msgid ""
 "image:images/en/component_during_placement.png[component during placement]"
 msgstr ""
+"image:images/ja/component_during_placement.png[component during placement]"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:72
@@ -10117,6 +10145,8 @@ msgid ""
 "Power icon] tool is available. This tool is similar, except that the search "
 "is done directly in the ``power'' library."
 msgstr ""
+"電源ポート記号もコンポーネントの一種なので、コンポーネント選択の ``power'' から選んで配置できます。しかし電源を配置する操作は頻度が高いため image:images/ja/icon_add_power.png[Add "
+"Power icon] ツールが独立してあります。このツールは、 ``power'' ライブラリが事前に選ばれていることを除けばコンポーネントの選択と同じです。"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:83
@@ -10426,7 +10456,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:208
 msgid "image:images/en/sch_with_buses.png[Example schematic with buses]"
-msgstr ""
+msgstr "image:images/ja/sch_with_buses.png[Example schematic with buses]"
 
 #. type: Title +
 #: Eeschema_schematic_creation_and_editing.adoc:211
@@ -10548,7 +10578,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:268
 msgid "image:images/en/bus_junction.png[Bus junction example]"
-msgstr ""
+msgstr "image:images/ja/bus_junction.png[Bus junction example]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:272
@@ -10649,7 +10679,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:319
 msgid "image:images/en/power_ports_example.png[Power ports example]"
-msgstr ""
+msgstr "image:images/ja/power_ports_example.png[Power ports example]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:322
@@ -10724,7 +10754,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:363
 msgid "image:images/en/frame_example.png[Frame with comment example]"
-msgstr ""
+msgstr "image:images/ja/frame_example.png[Frame with comment example]"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:366
@@ -10738,16 +10768,18 @@ msgid ""
 "The title block is edited with the tool image:images/en/icon_sheetset.png"
 "[Page Settings tool]."
 msgstr ""
+"タイトル欄は、ツール image:images/ja/icon_sheetset.png"
+"[Page Settings tool] で編集します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:372
 msgid "image:images/en/page_settings.png[Page settings dialog]"
-msgstr ""
+msgstr "image:images/ja/page_settings.png[Page settings dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:374
 msgid "image:images/en/title_block.png[Title block]"
-msgstr ""
+msgstr "image:images/ja/title_block.png[Title block]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:376
