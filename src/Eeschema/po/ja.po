@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EeSchema-ja\n"
 "POT-Creation-Date: 2015-06-23 00:41+0900\n"
-"PO-Revision-Date: 2015-07-04 00:03+0900\n"
+"PO-Revision-Date: 2015-07-04 04:31+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -19,6 +19,7 @@ msgstr ""
 # 2nd:0000_06292015
 # 3rd:1800_06292015 freezed
 # 4th:0000_07042015 resumed
+# Last:0430_07042015 finished
 #. type: Title =
 #: Eeschema.adoc:8
 #, no-wrap
@@ -53,9 +54,9 @@ msgid ""
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あな"
-"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ), "
-"version 3以降、あるいはクリエイティブ·コモンズライセンス ( http://"
-"creativecommons.org/licenses/by/3.0/ ), version 3.0 以降のいずれかの条件の下"
+"たは、GNU General Public License  (http://www.gnu.org/licenses/gpl.html), "
+"version 3以降、あるいはクリエイティブ·コモンズライセンス  (http://"
+"creativecommons.org/licenses/by/3.0/), version 3.0 以降のいずれかの条件の下"
 "で、それを配布し、そして/または、それを変更することができます。"
 
 #. type: Plain text
@@ -266,10 +267,10 @@ msgid ""
 "annotation tool uses the number 200 and more, and annotation for sheet 2 "
 "will start from the next free number."
 msgstr ""
-"シートのRef番号を*100から開始し、最初の空き番号から使用する：シート1では101か"
-"ら，シート2では201から参照番号が振られます。それぞれ の部品記号（UやR）が1 "
-"シート内で99 を超えてしまった場合は、継続して200以降の参照番号が利用され、"
-"シート2では200番台の最初の空き数字から 参照番号が振られます。"
+"シートの Ref 番号を *100 から開始し、最初の空き番号から使用する：シート1では "
+"101 から，シート2では 201 から参照番号が振られます。それぞれ の部品記号（Uや"
+"R）が1 シート内で 99 を超えてしまった場合は、継続して 200 以降の参照番号が利"
+"用され、シート2では 200 番台の最初の空き数字から 参照番号が振られます。"
 
 #. type: Plain text
 #: Eeschema_automatic_classification_annotation.adoc:55
@@ -277,8 +278,8 @@ msgid ""
 "Start to sheet number*1000 and use first free number. Annotation start from "
 "1001 for the sheet 1, from 2001 for the sheet 2."
 msgstr ""
-"シートのRef番号を*1000から開始し、最初の空き番号から使用する：シート1では1001"
-"から参照番号が振られ、シート2では2001から参照番号が振られていきます。"
+"シートのRef番号を *1000 から開始し、最初の空き番号から使用する：シート1では "
+"1001 から参照番号が振られ、シート2では 2001 から参照番号が振られていきます。"
 
 #. type: Title ~
 #: Eeschema_automatic_classification_annotation.adoc:58
@@ -2053,9 +2054,9 @@ msgid ""
 msgstr ""
 "ピンはその形状(長さ、グラフィックな外観)、名前および“番号“で定義されます。“番"
 "号“は４つまでの英文字または数字で定義されます。（番号は常に数字であるとは限り"
-"ません。）ERC(Electronic Rules Check)ツールを機能させるためには、“電気的“タイ"
-"プ(入力、出力、３ステート...)も定義されていなければなりません。このタイプがう"
-"まく定義されていない場合には、ERC チェックが非効率になります。"
+"ません。）ERC(Electronic Rules Check) ツールを機能させるためには、“電気的“タ"
+"イプ(入力、出力、３ステート...)も定義されていなければなりません。このタイプが"
+"うまく定義されていない場合には、ERC チェックが非効率になります。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:634
@@ -6543,8 +6544,8 @@ msgid ""
 "ERC can be started by clicking on the icon image:images/en/icon_erc.png[ERC "
 "icon]."
 msgstr ""
-"アイコン  image:images/en/icon_erc.png[ERC icon] をクリックするとERC を開始し"
-"ます。"
+"アイコン  image:images/en/icon_erc.png[ERC icon] をクリックすると ERC を開始"
+"します。"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:33
@@ -8120,7 +8121,7 @@ msgid ""
 "pins are intentionally left not connected or are missed.\n"
 msgstr ""
 "|image:images/10000000000000210000001E229A5031.png[10000000000000210000001E229A5031_png]\n"
-"|“非接続”シンボルの配置。これは接続されないコンポーネントのピン上に配置します。\n"
+"|“空き端子” シンボルの配置。これは接続されないコンポーネントのピン上に配置します。\n"
 "これは ERC 機能において、ピンが意図的に接続されていないのか、誤って未接続なのか\n"
 "を確認するために使用されます。\n"
 
@@ -9220,13 +9221,13 @@ msgstr ""
 #: Eeschema_introduction.adoc:3
 #, no-wrap
 msgid "Introduction to Eeschema"
-msgstr ""
+msgstr "Eeschema入門"
 
 #. type: Title ~
 #: Eeschema_introduction.adoc:6
 #, no-wrap
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:10
@@ -9234,21 +9235,23 @@ msgid ""
 "Eeschema is powerful schematic capture software distributed as part of KiCad "
 "and available under the following operating systems:"
 msgstr ""
+"Eeschema は、KiCad の一部として配布されている強力な回路図エディターソフトウェ"
+"アであり、次のオペレーティングシステムの下で利用可能です。:"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:12
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:13
 msgid "Apple OS X"
-msgstr ""
+msgstr "Apple OS X"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:14
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:17
@@ -9256,6 +9259,8 @@ msgid ""
 "Regardless of the OS, all Eeschema files are 100% compatible from one OS to "
 "another."
 msgstr ""
+"OS に関係なく、すべての Eeschema ファイルは一方の OS から他方のものへ１００％"
+"互換性があります。 "
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:21
@@ -9264,6 +9269,9 @@ msgid ""
 "control, layout, library management and access to the PCB design software "
 "are carried out within Eeschema itself."
 msgstr ""
+"Eeschema は、図面、コントロール、レイアウト、ライブラリー管理および、PCB 設計"
+"ソフトウェアへのアクセスといったすべての機能が Eeschema 内で実行される統合ソ"
+"フトウェアです。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:25
@@ -9272,6 +9280,9 @@ msgid ""
 "design software. It can also export netlist files, which list all the "
 "electrical connections, for other packages."
 msgstr ""
+"Eeschema は、プリント基板設計ソフトウェア PcbNew とともに使用されることを想定"
+"しています。また、PCB の電気的接続を記述するネットリストファイルをエクスポー"
+"トすることも可能です。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:30
@@ -9281,18 +9292,23 @@ msgid ""
 "additional but essential functions needed for modern schematic capture "
 "software:"
 msgstr ""
+"Eeschema は、コンポーネントの作成／編集やライブラリの管理ができるコンポーネン"
+"トエディタを含んでいます。また、現代の回路図エディタソフトに必要不可欠な機能"
+"だけでなく、以下の追加機能も組み込まれています。：  "
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:33
 msgid ""
 "Design rules check (DRC) for the automatic control of incorrect and missing "
 "connections"
-msgstr ""
+msgstr "誤接続、未接続の自動的な検出を行うデザインルールチェック (DRC)。 "
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:34
 msgid "Export of plot files in many formats (Postscript, PDF, HPGL, and SVG)"
 msgstr ""
+"多くの形式 (Postscript, PDF, HPGL, and SVG)をサポートしたプロットファイルのエ"
+"クスポート。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:35
@@ -9300,12 +9316,14 @@ msgid ""
 "Bill of Materials generation (via Python scripts, which allow many "
 "configurable formats)."
 msgstr ""
+"(様々なフォーマットを設定できるよう Python スクリプトを使用した) 部品表 "
+"(BOM) の生成。"
 
 #. type: Title ~
 #: Eeschema_introduction.adoc:37
 #, no-wrap
 msgid "Technical overview"
-msgstr ""
+msgstr "技術的な概要"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:43
@@ -9315,23 +9333,27 @@ msgid ""
 "sheets.  In the case of multi-sheet diagrams, the representation is "
 "hierarchical."
 msgstr ""
+"Eeschema は、コンピュータで利用可能なメモリの大きさにのみ制限を受けます。コン"
+"ポーネント、ピン、接続、シート、の数に関して明示的な制限はありません。複数"
+"シートからなる回路図では、階層的な表示となります。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:45
 msgid "Eeschema can use multi-sheet diagrams of these types:"
 msgstr ""
+"Eeschema は、次のタイプの複数のシートからなる回路図を使うことができます:"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:47
 msgid "Simple hierarchies (each schematic is used only once)."
-msgstr ""
+msgstr "単一の階層 (各図が一度だけ使用される)。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:49
 msgid ""
 "Complex hierarchies (some schematics are used more than once with multiple "
 "instances)."
-msgstr ""
+msgstr "複雑な階層 (いくつかの図は、一度以上の複数回使用される)。 "
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:50
@@ -9339,27 +9361,29 @@ msgid ""
 "Flat hierarchies (schematics are not explicitly connected in a master "
 "diagram)."
 msgstr ""
+"平面的（フラット）な階層 (マスター図面の中、いくつかの図面は明示的に接続され"
+"ない)。"
 
 #. type: Title -
 #: Eeschema_libedit_complements.adoc:4
 #, no-wrap
 msgid "LibEdit – Complements"
-msgstr ""
+msgstr "LibEdit – 補足"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:10
 msgid "A component consist of the following elements"
-msgstr ""
+msgstr "コンポーネントは、次の要素で構成されています。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:12
 msgid "A graphical representation (geometrical shapes, texts)."
-msgstr ""
+msgstr "グラフィカル表現(幾何学的な図形、テキスト)。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:13
 msgid "Pins."
-msgstr ""
+msgstr "ピン。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:15
@@ -9367,6 +9391,8 @@ msgid ""
 "Fields or associated text used by the post processors: netlist, components "
 "list."
 msgstr ""
+"ポストプロセッサで使われる関連テキスト、フィールド：ネットリスト、部品リス"
+"ト。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:20
@@ -9376,6 +9402,9 @@ msgid ""
 "footprint, the other fields are the free fields, they can generally remain "
 "empty, and could be filled during schematic capture."
 msgstr ""
+"２つのフィールドが初期化されます: リファレンスと定数。コンポーネントと関連し"
+"た設計名、関連するフットプリント名、フリーフィールドであるその他フィールド"
+"は、一般に空欄のままにすることができ、回路図の編集中に追記できます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:24
@@ -9384,61 +9413,64 @@ msgid ""
 "facilitates the research, use and maintenance of libraries. The associated "
 "documentation consists of"
 msgstr ""
+"しかしながら、コンポーネントに関連付けられたドキュメントを管理することで、コ"
+"ンポーネントを調べたり、ライブラリの使用やメンテナンスをすることが容易になり"
+"ます。関連付けられたドキュメントは以下で構成されています："
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:26
 msgid "A line of comment."
-msgstr ""
+msgstr "コメント行。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:27
 msgid "A line of key words such as TTL CMOS NAND2, separated by spaces."
-msgstr ""
+msgstr "TTL CMOS NAND2 のように空白文字で区切られたキーワード行。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:28
 msgid "An attached file name (for example an application note or a pdf file)."
-msgstr ""
+msgstr "添付ファイル名(例：アプリケーションノートや pdf ファイル)。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:30
 msgid "The default directory for attached files:"
-msgstr ""
+msgstr "添付ファイルのデフォルトディレクトリ:"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:32
 msgid "kicad/share/library/doc"
-msgstr ""
+msgstr "kicad/share/library/doc"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:34
 msgid "If not found:"
-msgstr ""
+msgstr "見つからない場合:"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:36
 msgid "kicad/library/doc"
-msgstr ""
+msgstr "kicad/library/doc"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:38
 msgid "Under linux:"
-msgstr ""
+msgstr "linux の場合:"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:40
 msgid "/usr/local/kicad/share/library/doc"
-msgstr ""
+msgstr "/usr/local/kicad/share/library/doc"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:42
 msgid "/usr/share/kicad/library/doc"
-msgstr ""
+msgstr "/usr/share/kicad/library/doc"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:44
 msgid "/usr/local/share/kicad/library/doc"
-msgstr ""
+msgstr "/usr/local/share/kicad/library/doc"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:49
@@ -9447,6 +9479,9 @@ msgid ""
 "various selection criteria. Comments and key words are displayed in various "
 "menus, and particularly when you select a component from the libr ary."
 msgstr ""
+"キーワードにより、さまざまな選択基準に従って、コンポーネントを検索することが"
+"できます。コメントとキーワードは、様々なメニューや、ライブラリからコンポーネ"
+"ントを選択する場合に表示されます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:54
@@ -9455,6 +9490,9 @@ msgid ""
 "relatively to this anchor point and during a placement this point is used as "
 "a reference position. It is thus useful to position this anchor accurately."
 msgstr ""
+"コンポーネントはまた、アンカーポイントを持っています。回転やミラーは相対的"
+"に、このアンカーポイントに対して行われ、配置時にはこの点が、基準位置として使"
+"用されます。このように、このアンカーを正確に配置することは有用です。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:59
@@ -9463,6 +9501,10 @@ msgid ""
 "considerably reduce the number of components that need to be created (for "
 "example, a 74LS00 can have aliases such as 74000, 74HC00, 74HCT00…)."
 msgstr ""
+"コンポーネントは、エイリアス、つまり等価名(equivalent names)を持つことができ"
+"ます。これにより、作成する必要があるコンポーネントの数をかなり減らすことがで"
+"きます (たとえば、74LS00 は、74000、74HC00、74HCT00 ... といったエイリアスを"
+"持つことができます)。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:62
@@ -9470,19 +9512,21 @@ msgid ""
 "Finally, the components are distributed in libraries (classified by topics, "
 "or manufacturer) in order to facilitate their management."
 msgstr ""
+"最終的に、コンポーネントは、その管理を容易にするために、ライブラリ(メーカや"
+"テーマ別に分類された)で配布されます。"
 
 #. type: Title ~
 #: Eeschema_libedit_complements.adoc:65
 #, no-wrap
 msgid "Position a component anchor"
-msgstr ""
+msgstr "コンポーネントアンカーの配置"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:69
 msgid ""
 "The anchor is at the coordinates (0,0) and it is shown by the blue axes "
 "displayed on your screen."
-msgstr ""
+msgstr "アンカーは、座標（0,0）にあり、画面上青い軸で示されています。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:71
@@ -9490,6 +9534,8 @@ msgid ""
 "image:images/10000000000003830000027F3B1EDABD.png"
 "[10000000000003830000027F3B1EDABD_png]"
 msgstr ""
+"image:images/10000000000003830000027F3B1EDABD.png"
+"[10000000000003830000027F3B1EDABD_png]"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:76
@@ -9500,12 +9546,16 @@ msgid ""
 "anchor position. The drawing will be automatically re-centered on the new "
 "anchor point."
 msgstr ""
+"アンカーは、アイコン image:images/100000000000002300000023B57C73D3.png"
+"[100000000000002300000023B57C73D3_png] を選択し、新しくアンカーを配置したい位"
+"置をクリックすることで再配置できます。 図は自動的に新しいアンカーポイント上で"
+"再センタリングされます。"
 
 #. type: Title ~
 #: Eeschema_libedit_complements.adoc:79
 #, no-wrap
 msgid "Component aliases"
-msgstr ""
+msgstr "コンポーネントのエイリアス"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:85
@@ -9515,6 +9565,10 @@ msgid ""
 "by only one component, having several aliases (e.g. 7400 with alias 74LS00, "
 "74HC00, 74LS37 )."
 msgstr ""
+"エイリアスとは、ライブラリ内での同じコンポーネントに対応した別名のことです。"
+"類似したピン配列、表現を持つコンポーネントは、いくつかのエイリアスを持った、"
+"１つのコンポーネントで表すことができます。 (例えば 7400 は 74LS00、74HC00、"
+"74LS37 というエイリアスを持ちます)"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:89
@@ -9523,6 +9577,9 @@ msgid ""
 "addition these libraries, being much more compact, are easily loaded by "
 "KiCad."
 msgstr ""
+"エイリアスの使用により素早く完全なライブラリを構築することができます。これら"
+"のライブラリを使うことで、よりコンパクトにでき、kicad の読み込みを容易にしま"
+"す。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:94
@@ -9531,6 +9588,10 @@ msgid ""
 "via the icon image:images/10000000000000270000002682890866.png"
 "[10000000000000270000002682890866_png] and select the alias folder."
 msgstr ""
+"エイリアスのリストを変更するため、 image:"
+"images/10000000000000270000002682890866.png"
+"[10000000000000270000002682890866_png] アイコンによりメイン編集ウィンドウを選"
+"択し、エイリアスフォルダを選択する必要があります。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:96
@@ -9538,6 +9599,8 @@ msgid ""
 "image:images/10000000000001B50000013E8AB145A7.png"
 "[10000000000001B50000013E8AB145A7_png]"
 msgstr ""
+"image:images/10000000000001B50000013E8AB145A7.png"
+"[10000000000001B50000013E8AB145A7_png]"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:99
@@ -9545,6 +9608,8 @@ msgid ""
 "You can thus add or remove the desired alias. The current alias cannot "
 "obviously be removed since it is edited."
 msgstr ""
+"このように希望のエイリアスを追加したり、削除することができます。現在のエイリ"
+"アスは、編集されているので、明らかに削除することはできません。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:103
@@ -9553,12 +9618,15 @@ msgid ""
 "first component in the alias list in the window of selection of the main "
 "toolbar."
 msgstr ""
+"全てのエイリアスを削除するには、まずルートコンポーネントを選択することが必要"
+"です。エイリアスの最初のコンポーネントは、メインツールバーの選択ウィンドウに"
+"リスト表示されます。"
 
 #. type: Title ~
 #: Eeschema_libedit_complements.adoc:106
 #, no-wrap
 msgid "Component fields"
-msgstr ""
+msgstr "コンポーネントのフィールド"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:110
@@ -9567,6 +9635,8 @@ msgid ""
 "images/10000000000000240000002612FF054A.png"
 "[10000000000000240000002612FF054A_png]."
 msgstr ""
+"フィールドエディタは、 image:images/10000000000000240000002612FF054A.png"
+"[10000000000000240000002612FF054A_png] アイコンにより呼び出されます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:113
@@ -9574,6 +9644,8 @@ msgid ""
 "There are four special fields (texts attached to the component), and "
 "configurable user fields"
 msgstr ""
+"４つの特殊フィールド（コンポーネントに付属するテキスト）と、設定可能なユー"
+"ザー・フィールドがあります。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:115
@@ -9581,16 +9653,18 @@ msgid ""
 "image:images/10000000000002870000021DEC5337FC.png"
 "[10000000000002870000021DEC5337FC_png]"
 msgstr ""
+"image:images/10000000000002870000021DEC5337FC.png"
+"[10000000000002870000021DEC5337FC_png]"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:117
 msgid "Special fields"
-msgstr ""
+msgstr "特殊フィールド"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:119
 msgid "Reference."
-msgstr ""
+msgstr "リファレンス(Reference)"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:121
@@ -9598,6 +9672,8 @@ msgid ""
 "Value. It is the component name in the library and the default value field "
 "in schematic."
 msgstr ""
+"定数(Value)：ライブラリ内のコンポーネント名であり、回路図のデフォルト値フィー"
+"ルド。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:124
@@ -9605,17 +9681,20 @@ msgid ""
 "Footprint. It is the footprint name used for the board. Not very useful when "
 "using CvPcb to setup the footprint list, but mandatory if CvPcb is not used."
 msgstr ""
+"フットプリント(Footprint)： 基板で使用されるフットプリント名。CvPcb を使って"
+"フットプリントのリストを設定する場合にはそれほど有用ではありませんが、CvPcbが"
+"使用されていない場合には必須です。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:125
 msgid "Sheet. It is a reserved field, not used at the time of writing."
-msgstr ""
+msgstr "シート(Sheet)：現時点で使用されていない予約済フィールドです。"
 
 #. type: Title ~
 #: Eeschema_libedit_complements.adoc:128
 #, no-wrap
 msgid "Component documentation"
-msgstr ""
+msgstr "コンポーネントのドキュメント"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:134
@@ -9625,6 +9704,10 @@ msgid ""
 "images/10000000000000270000002682890866.png"
 "[10000000000000270000002682890866_png] and to select the document folder."
 msgstr ""
+"ドキュメントの情報を編集するためには、 image:"
+"images/10000000000000270000002682890866.png"
+"[10000000000000270000002682890866_png] アイコンを使用してコンポーネントのメイ"
+"ン編集ウィンドウを呼び出し、ドキュメントフォルダを選択する必要があります。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:136
@@ -9632,6 +9715,8 @@ msgid ""
 "image:images/10000000000001B70000014140B7CFE4.png"
 "[10000000000001B70000014140B7CFE4_png]"
 msgstr ""
+"image:images/10000000000001B70000014140B7CFE4.png"
+"[10000000000001B70000014140B7CFE4_png]"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:141
@@ -9641,12 +9726,16 @@ msgid ""
 "\"Copy Doc\" button allows you to copy the documentation information from "
 "the root component towards the currently edited alias."
 msgstr ""
+"このドキュメントはエイリアス間の違いを表す唯一のものとなるため、正しいエイリ"
+"アスあるいはルートコンポーネントを確実に選択してください。“CopyDoc” ボタンを"
+"クリックすると、現在編集しているエイリアスに対し、ルートコンポーネントからド"
+"キュメントの情報をコピーすることができます。"
 
 #. type: Title ^
 #: Eeschema_libedit_complements.adoc:144
 #, no-wrap
 msgid "Component keywords"
-msgstr ""
+msgstr "コンポーネントのキーワード"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:149
@@ -9654,6 +9743,8 @@ msgid ""
 "Keywords allow you to search in a selective way for a component according to "
 "specific selection criteria (function, technological family, etc.)"
 msgstr ""
+"キーワードにより、特定の選択基準（機能、技術的ファミリなど）に従って、コン"
+"ポーネントを選択的な方法で検索することができます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:152
@@ -9661,11 +9752,13 @@ msgid ""
 "The Eeschema research tool is not case sensitive. The most current key words "
 "used in the libraries are"
 msgstr ""
+"EESchema リサーチツールは、大文字と小文字を区別しません。ライブラリで使われる"
+"現状もっとも多いキーワードは次のものです。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:154
 msgid "CMOS TTL for the logic families"
-msgstr ""
+msgstr "CMOS TTL ：ロジックファミリ"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:156
@@ -9673,16 +9766,18 @@ msgid ""
 "AND2 NOR3 XOR2 INV… for the gates (AND2 = 2 inputs AND gate, NOR3 = 3 inputs "
 "NOR gate)."
 msgstr ""
+"AND2 NOR3 XOR2 INV…：論理ゲート (AND2 = 2入力 AND ゲート, NOR3 = 3入力 NOR "
+"ゲート)"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:157
 msgid "JKFF DFF... for JK or D flip-flop."
-msgstr ""
+msgstr "JKFF DFF… ：JK あるいはD flip-flop"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:158
 msgid "ADC, DAC, MUX…"
-msgstr ""
+msgstr "ADC, DAC, MUX…OpenCol ："
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:162
@@ -9691,12 +9786,15 @@ msgid ""
 "capture software, you search the component: by keys words NAND2 OpenCol EES "
 "chema will display the list of components having these 2 key words."
 msgstr ""
+"OpenCol はオープンコレクタ出力を持つ論理ゲートです。従って、回路図エディター"
+"内で NAND2 OpenCol というキーワードでコンポーネントを検索すると、EESchema は"
+"これら2つのキーワードを持つコンポーネントのリストを表示します。"
 
 #. type: Title ^
 #: Eeschema_libedit_complements.adoc:165
 #, no-wrap
 msgid "Component documentation (Doc)"
-msgstr ""
+msgstr "コンポーネントのドキュメント (Doc)"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:170
@@ -9705,6 +9803,9 @@ msgid ""
 "particularly when you select a component in the displayed components list of "
 "a library and in the ViewLib menu."
 msgstr ""
+"特に ViewLib メニューおよびライブラリで表示されたコンポーネントリストからコン"
+"ポーネントを選択する場合、様々なメニューにコメント行（およびキーワード）が表"
+"示されます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:174
@@ -9712,12 +9813,15 @@ msgid ""
 "If this Doc. file exists, it is also accessible in the schematic capture "
 "software, in the pop-up menu displayed by right-clicking on the component."
 msgstr ""
+"このドキュメントファイルが存在する場合、回路図エディターソフト内でドキュメン"
+"トファイルにアクセスが可能であり、コンポーネントを右クリックして表示される"
+"ポップアップメニューで利用できます。"
 
 #. type: Title ^
 #: Eeschema_libedit_complements.adoc:177
 #, no-wrap
 msgid "Associated documentation file (DocFileName)"
-msgstr ""
+msgstr "関連するドキュメントファイル (DocFileName)"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:181
@@ -9725,12 +9829,14 @@ msgid ""
 "Indicates an attached file (documentation, application schematic)  available "
 "( pdf file, schematic diagram, etc.)."
 msgstr ""
+"利用可能な添付ファイル (ドキュメント、アプリケーション回路) を示します（pdf "
+"ファイル、回路図等）。"
 
 #. type: Title ^
 #: Eeschema_libedit_complements.adoc:184
 #, no-wrap
 msgid "Footprint filtering for CvPcb"
-msgstr ""
+msgstr "CvPcb のフットプリントフィルタ"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:189
@@ -9739,6 +9845,9 @@ msgid ""
 "as a filter used by CvPcb to display only the allowed footprints. A void "
 "list does not filter anything."
 msgstr ""
+"コンポーネントで使用できるフットプリントのリストを入力できます。このリストは"
+"使用可能なフットプリントのみを表示するために Cvpcb で使われるフィルタとして働"
+"きます。空のリストは何もフィルターしません。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:191
@@ -9746,17 +9855,21 @@ msgid ""
 "image:images/10000000000001B8000001406BAFF1AF.png"
 "[10000000000001B8000001406BAFF1AF_png]"
 msgstr ""
+"image:images/10000000000001B8000001406BAFF1AF.png"
+"[10000000000001B8000001406BAFF1AF_png]"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:193
 msgid "Wild-card characters are allowed."
-msgstr ""
+msgstr "ワイルドカード文字が使用できます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:196
 msgid ""
 "S014* allows CvPcb to show all the footprints with a name starting by SO14."
 msgstr ""
+"S014* により、名称が SO14 で始まる全てのフットプリントを CvPcb で表示できま"
+"す。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:199
@@ -9764,11 +9877,13 @@ msgid ""
 "For a resistor, R? shows all the footprints with a 2 letters name starting "
 "by R."
 msgstr ""
+"抵抗については、R? により R で始まる２文字の全てのフットプリントを示すことが"
+"できます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:201
 msgid "Here are samples: with and without filtering"
-msgstr ""
+msgstr "フィルター有り、無しのサンプルを示します。"
 
 #. type: delimited block |
 #: Eeschema_libedit_complements.adoc:206
@@ -9777,6 +9892,8 @@ msgid ""
 "|image:images/1000000000000205000001F7190A1FAC.png[1000000000000205000001F7190A1FAC_png]\n"
 "|With filtering\n"
 msgstr ""
+"|image:images/1000000000000205000001F7190A1FAC.png[1000000000000205000001F7190A1FAC_png]\n"
+"|フィルター有り\n"
 
 #. type: delimited block |
 #: Eeschema_libedit_complements.adoc:209
@@ -9785,12 +9902,14 @@ msgid ""
 "|image:images/1000000000000202000001F61A671096.png[1000000000000202000001F61A671096_png]\n"
 "|Without filtering\n"
 msgstr ""
+"|image:images/1000000000000202000001F61A671096.png[1000000000000202000001F61A671096_png]\n"
+"|フィルターなし\n"
 
 #. type: Title ~
 #: Eeschema_libedit_complements.adoc:213
 #, no-wrap
 msgid "Symbol library"
-msgstr ""
+msgstr "シンボルライブラリ"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:219
@@ -9800,28 +9919,33 @@ msgid ""
 "the shape of AND, OR, Exclusive OR gates, etc.) for saving and subsequent re-"
 "use."
 msgstr ""
+"頻繁に使用されるシンボルを含んだグラフィックシンボルのライブラリ·ファイルを簡"
+"単にコンパイルすることができます。 これはコンポーネント（三角形、AND、OR、"
+"ExORゲートなどの形状）の作成や、節約と再利用に使うことができます。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:221
 msgid "These files are stored by default in the library directory and have a"
 msgstr ""
+"これらのファイルは、.sym という拡張子を持ち、デフォルトでライブラリディレクト"
+"リ"
 
 #. type: Block title
 #: Eeschema_libedit_complements.adoc:221
 #, no-wrap
 msgid "sym extension. The symbols are not gathered in libraries like the"
-msgstr ""
+msgstr "に保存されます。シンボルは一般的にそう多くないので、"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:223
 msgid "components because they are generally not so many."
-msgstr ""
+msgstr "コンポーネントのようにライブラリ内に収集されません。"
 
 #. type: Title ^
 #: Eeschema_libedit_complements.adoc:226
 #, no-wrap
 msgid "Export or create a symbol"
-msgstr ""
+msgstr "シンボルの作成、エクスポート"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:232
@@ -9831,12 +9955,16 @@ msgid ""
 "[10000000000000220000002619461B92_png].  You can generally create only one "
 "graphic, also it will be a good idea to delete all pins, if they exist."
 msgstr ""
+"コンポーネントは image:images/10000000000000220000002619461B92.png"
+"[10000000000000220000002619461B92_png] ボタンで、シンボルとしてエクスポートす"
+"ることができます。一般的に１つのグラフィックを作成でき、ピンがある場合には、"
+"全てのピンを削除することをお勧めします。"
 
 #. type: Title ^
 #: Eeschema_libedit_complements.adoc:235
 #, no-wrap
 msgid "Import a symbol"
-msgstr ""
+msgstr "シンボルのインポート"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:241
@@ -9846,53 +9974,57 @@ msgid ""
 "[Import graphic icon].  Imported graphics are added as they were created in "
 "existing graphics."
 msgstr ""
+"インポートすることで、編集しているコンポーネントにグラフィックを追加すること"
+"ができます。 シンボルは、 image:images/icons/import-graphic.png[Import "
+"graphic icon] ボタンでインポートされます。インポートされたグラフィックは、既"
+"存のグラフィックス内で作成されたものとして追加されます。"
 
 #. type: Title -
 #: Eeschema_main_top_menu.adoc:4
 #, no-wrap
 msgid "Main top menu"
-msgstr ""
+msgstr "メイントップメニュー"
 
 #. type: Title ~
 #: Eeschema_main_top_menu.adoc:8
 #, no-wrap
 msgid "File menu"
-msgstr ""
+msgstr "ファイルメニュー"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:11
 msgid "image:images/en/file_menu.png[File menu]"
-msgstr ""
+msgstr "image:images/en/file_menu.png[File menu]"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:15
 #, no-wrap
 msgid "|New Schematic Project |Clear current schematic and initialize a new one\n"
-msgstr ""
+msgstr "| 新規回路図プロジェクト | 現在の回路図をクリアし，新しい回路図を初期化する。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:17
 #, no-wrap
 msgid "|Open Schematic Project |Load a schematic hierarchy\n"
-msgstr ""
+msgstr "| 既存の回路図プロジェクトを開く | 回路図の階層を開く。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:19
 #, no-wrap
 msgid "|Open Recent |Open a list of recently opened files\n"
-msgstr ""
+msgstr "| 最近開いたファイル | 最近開いたファイルのリストから開く。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:21
 #, no-wrap
 msgid "|Append Schematic Sheet |Insert the contents of another sheet into the current one\n"
-msgstr ""
+msgstr "| 回路図シートの追加 | 現在の回路図へ別のシートの内容を追加する。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:23
 #, no-wrap
 msgid "|Save Schematic Project |Save current sheet and all its hierarchy.\n"
-msgstr ""
+msgstr "| 回路図プロジェクトの保存 | 現在のシートと全ての階層を保存する。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:26
@@ -9901,54 +10033,56 @@ msgid ""
 "|Save Current Sheet Only |Save current sheet, but not others in a\n"
 "hierarchy.\n"
 msgstr ""
+"| 現在のシートのみ保存 | 階層の他のシートを除く現在のシートを\n"
+"保存する。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:28
 #, no-wrap
 msgid "|Save Current Sheet As... |Save current sheet with a new name.\n"
-msgstr ""
+msgstr "| Save Current Sheet As | 名前を付けて現在のシートを保存。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:30
 #, no-wrap
 msgid "|Page Settings |Configure page dimensions and title block.\n"
-msgstr ""
+msgstr "| ページ設定 | ページの寸法とタイトルブロックを設定する。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:32
 #, no-wrap
 msgid "|Print |Print schematic hierarchy (See also chapter <<plot-and-print,Plot and Print>>).\n"
-msgstr ""
+msgstr "| 印刷 | 印刷メニューにアクセスする（ <<プロットと印刷>> の章を参照）。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:34
 #, no-wrap
 msgid "|Plot |Export to PDF, PostScript, HPGL or SVG format (See chapter <<plot-and-print,Plot and Print>>).\n"
-msgstr ""
+msgstr "| 出図（プロット） | Postscript HPGL あるいは SVF フォーマットで出図 (Export) する（ <<プロットと印刷>> の章を参照）。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:36
 #, no-wrap
 msgid "|Close |Quit without saving.\n"
-msgstr ""
+msgstr "| 閉じる | 保存せずに終了する。\n"
 
 #. type: Title ~
 #: Eeschema_main_top_menu.adoc:40
 #, no-wrap
 msgid "Preferences menu"
-msgstr ""
+msgstr "設定メニュー"
 
 #. type: Title ^
 #: Eeschema_main_top_menu.adoc:44
 #, no-wrap
 msgid "Preferences"
-msgstr ""
+msgstr "設定"
 
 #. type: Target for macro image
 #: Eeschema_main_top_menu.adoc:46
 #, no-wrap
 msgid "images/en/menu_path_hotkey_editor.png"
-msgstr ""
+msgstr "images/en/menu_path_hotkey_editor.png"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:57
@@ -9962,12 +10096,19 @@ msgid ""
 "|Save Preferences |Save the project settings to the .pro file.\n"
 "|Load Preferences |Load the project settings from a .pro file.\n"
 msgstr ""
+"| コンポーネントライブラリ | ライブラリとライブラリパスを選択。\n"
+"| 色の設定 | 印刷、プロット（出図）の色を選択。\n"
+"| 回路図エディタオプション | 一般的なオプション ( 単位、グリッドサイズ、ファイル名等)。\n"
+"| 言語 | インターフェイスの言語を選択。\n"
+"| ホットキー | リスト、編集、エクスポート、インポートのホットキー設定。\n"
+"| 設定の保存 | .pro ファイルへプロジェクトの設定を保存。\n"
+"| 設定の読込み | .pro ファイルからプロジェクトの設定を読込み。\n"
 
 #. type: Title ^
 #: Eeschema_main_top_menu.adoc:61
 #, no-wrap
 msgid "Preferences menu / Component Libraries"
-msgstr ""
+msgstr "設定メニュー / コンポーネントライブラリ"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:68
@@ -9976,16 +10117,19 @@ msgid ""
 "configuration parameters are saved in the .pro file. Different configuration "
 "files in different directories are also possible."
 msgstr ""
+"このダイアログは、コンポーネントライブラリと検索パスの設定に使用されます。設"
+"定パラメータは .pro ファイルに保存されます。異なるディレクトリでは、異なる設"
+"定ファイルを使用することも可能です。"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:70
 msgid "Eeschema searches, in order:"
-msgstr ""
+msgstr "EeSchema は次の優先度順に設定ファイルを検索します。:"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:72
 msgid "The configuration file (projectname.pro) in the current directory."
-msgstr ""
+msgstr "現在のディレクトリ内の設定ファイル (projectname.pro) 。"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:74
@@ -9993,6 +10137,8 @@ msgid ""
 "The kicad.pro configuration file in the kicad directory. This file can thus "
 "be the default configuration."
 msgstr ""
+"Kicad ディレクトリ内の kicad.pro という設定ファイル。このファイルはデフォルト"
+"設定として使用されます．"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:77
@@ -10000,6 +10146,8 @@ msgid ""
 "Default values if no file is found. It will at least then be necessary to "
 "fill out the list of libraries to load, and then save the configuration."
 msgstr ""
+"ファイルが見つからない場合のデフォルト値。少なくともロードするためのライブラ"
+"リのリストを記入し、設定を保存する必要があります。"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:80
@@ -10008,30 +10156,33 @@ msgid ""
 "configure the library conflict rescue behavior. See <<rescuing-cached-"
 "components,Rescuing Cached Components>> for more information about that."
 msgstr ""
+"“回路図の読込み時にキャッシュ／ライブラリの衝突をチェック” ボックスはライブラ"
+"リの衝突を救済する設定用に使われます。詳細は、<< キャッシュされたコンポーネン"
+"トのレスキュー >> を参照のこと。"
 
 #. type: Title ^
 #: Eeschema_main_top_menu.adoc:83
 #, no-wrap
 msgid "Preferences menu / Set Color Scheme"
-msgstr ""
+msgstr "設定メニュー / 描画色の設定"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:86
 msgid "image:images/en/color_settings.png[Color settings]"
-msgstr ""
+msgstr "image:images/en/color_settings.png[Color settings]"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:89
 msgid ""
 "Color scheme for various graphic elements, and background color selection "
 "(either black or white)."
-msgstr ""
+msgstr "様々な要素の描画色と背景色（黒または白のみ）の設定。"
 
 #. type: Title ^
 #: Eeschema_main_top_menu.adoc:92
 #, no-wrap
 msgid "Preferences menu / Schematic Editor Options"
-msgstr ""
+msgstr "設定メニュー / 回路図エディタオプション"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:100
@@ -10040,6 +10191,8 @@ msgid ""
 "|Measurement units: |Select the display and the cursor coordinate units\n"
 "(inches or millimeters).\n"
 msgstr ""
+"| 計測単位: | 表示とカーソル座標の単位\n"
+"（インチまたは mm ）を選択。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:103
@@ -10048,6 +10201,8 @@ msgid ""
 "|Grid Size: a|\n"
 "Grid size selection.\n"
 msgstr ""
+"| グリッドサイズ: |\n"
+"グリッドサイズの選択。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:106
@@ -10056,12 +10211,14 @@ msgid ""
 "**It is recommended to work with normal grid (0.050 inches or 1,27 mm)**. __Smaller\n"
 "grids are used for component building__.\n"
 msgstr ""
+"** 通常グリッド(0.050 インチあるいは 1.27mm)での作業を推奨 ** __より\n"
+"細かいグリッドはコンポーネント作成で使用__ \n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:108
 #, no-wrap
 msgid "|Default bus width: |Pen size used to draw buses.\n"
-msgstr ""
+msgstr "| デフォルトのバス線幅: | ペンのサイズはバスを描画するために使用される。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:111
@@ -10070,12 +10227,14 @@ msgid ""
 "|Default line width: |Pen size used to draw objects that do not have a\n"
 "specified pen size.\n"
 msgstr ""
+"| デフォルトの線幅: | ペンのサイズはペンサイズが指定されていないオブジェクトを\n"
+"描画するために使用される。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:113
 #, no-wrap
 msgid "|Default text size: |Text size used when creating new text items or labels\n"
-msgstr ""
+msgstr "| デフォルトのテキストサイズ: | 新しいテキストやラベルが新規作成される時に使用される。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:116
@@ -10084,6 +10243,8 @@ msgid ""
 "|Repeat draw item horizontal displacement a|\n"
 "increment on X axis during element duplication (usual value 0)\n"
 msgstr ""
+"| アイテムを水平方向にリピート |\n"
+" 要素複写する際のX軸のシフト値（通常値は0）\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:119
@@ -10092,6 +10253,8 @@ msgid ""
 "(after placing an item like a component, label or wire,::\n"
 "  a duplication is made by the _Insert_ key)\n"
 msgstr ""
+"（コンポーネント、ラベル、配線といったアイテムの配置後、 ::\n"
+" _インサート_ キーにより複写される。)\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:122
@@ -10100,6 +10263,8 @@ msgid ""
 "|Repeat draw item vertical displacement |increment on Y axis during\n"
 "element duplication (usual value is 0.100 inches or 2,54 mm)\n"
 msgstr ""
+"| アイテムを垂直方向にリピート | 要素複写する際のY軸の\n"
+"シフト値（通常、値は 0.100 inch あるいは 2,54 mm)\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:125
@@ -10108,24 +10273,26 @@ msgid ""
 "|Repeat label increment: |Increment of label value during duplication of texts ending\n"
 "in a number, such as bus members (usual value 1 or -1).\n"
 msgstr ""
+"| ラベルのカウントアップリピート: | バスの配線のように，一つずつカウントアップ\n"
+"する値 （通常、値は 1 か -1 ）。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:127
 #, no-wrap
 msgid "|Auto save time interval: |Time in minutes between saving backups.\n"
-msgstr ""
+msgstr "| 自動保存の間隔: | バックアップを保存する時間間隔（分）。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:129
 #, no-wrap
 msgid "|Part id notation: |Style of suffix that is used to denote component parts (U1A, U1.A, U1-1, etc.)\n"
-msgstr ""
+msgstr "| 部品 ID の表記方法: | コンポーネント名を示すために使われる接尾辞の形式 (U1A, U1.A, U1-1, etc.)\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:131
 #, no-wrap
 msgid "|Show Grid: |If checked: display grid.\n"
-msgstr ""
+msgstr "| グリッドの表示: | チェックがある場合：グリッドを表示。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:134
@@ -10134,18 +10301,20 @@ msgid ""
 "|Show hidden pins: |Display invisible (or __hidden__) pins, typically power pins. If checked,\n"
 "allows the display of power pins.\n"
 msgstr ""
+"| 非表示ピンの表示: | 非表示 ( または __hidden__) ピンを表示。チェックがある場合、\n"
+"電源ピンも表示される。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:136
 #, no-wrap
 msgid "|Do not center and warp cursor on zoom: |When zooming, keep the position and cursor where they are.\n"
-msgstr ""
+msgstr "| 拡大縮小時にカーソルを中心へ移動させない: | 拡大縮小時にカーソルの位置を変更しない。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:138
 #, no-wrap
 msgid "|Use middle mouse button to pan |When enabled, the sheet can be dragged around using the middle mouse button.\n"
-msgstr ""
+msgstr "| マウスの中ボタンを、画像のパンに利用する | 有効にすると、マウス中ボタンを押した時にカーソル移動に合わせてシート全体が移動する。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:141
@@ -10154,6 +10323,8 @@ msgid ""
 "|Limit panning to scroll size |When enabled, the middle mouse\n"
 "button cannot move the sheet area outside the displayed area.\n"
 msgstr ""
+"| パン可能な領域を、スクロールサイズ範囲内に制限する | 有効にすると、マウス中ボタンでの\n"
+"表示領域外へのシート移動はできません。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:144
@@ -10162,6 +10333,8 @@ msgid ""
 "|Pan while moving object |If checked, automatically shifts the window\n"
 "if the cursor leaves the window during drawing or moving.\n"
 msgstr ""
+"| オブジェクト移動時に表示領域を移動 | チェックがある場合、配線作業や要素移動中にウィンドウから\n"
+"カーソルが出ようとすると、自動的にウィンドウが追従する。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:147
@@ -10170,24 +10343,26 @@ msgid ""
 "|Allow buses and wires to be placed in H or V orientation only a|\n"
 "If checked, buses and wires can only be vertical or horizontal.\n"
 msgstr ""
+"| バス、配線の９０度入力 | \n"
+"チェックがある場合，バスや配線は垂直または水平になる。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:149
 #, no-wrap
 msgid "Otherwise, buses and wires can be placed at any orientation.\n"
-msgstr ""
+msgstr "チェックがない場合、バスと配線はどんな傾きにも配置できる。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:151
 #, no-wrap
 msgid "|Show page limits |If checked, shows the page boundaries on screen.\n"
-msgstr ""
+msgstr "| ページの境界を表示 | チェックがある場合、画面上にページの境界が表示される。\n"
 
 #. type: Title ^
 #: Eeschema_main_top_menu.adoc:155
 #, no-wrap
 msgid "Preferences and Language"
-msgstr ""
+msgstr "言語設定"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:159
@@ -10195,12 +10370,13 @@ msgid ""
 "Use default mode. Other languages are available mainly for development "
 "purposes."
 msgstr ""
+"デフォルトのモードで使用してください。他言語は主に開発目的で利用されます。"
 
 #. type: Title ~
 #: Eeschema_main_top_menu.adoc:162
 #, no-wrap
 msgid "Help menu"
-msgstr ""
+msgstr "ヘルプメニュー"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:166
@@ -10209,17 +10385,20 @@ msgid ""
 "KiCad. Use ``Copy Version Information'' when submitting bug reports to "
 "identify your build and system."
 msgstr ""
+"KiCad についての広範囲なチュートリアルについては、オンラインヘルプ（この文"
+"書）にアクセスします。ビルドと環境を明示してバグレポートを送る時は、“バージョ"
+"ン情報をコピー” を使って下さい。"
 
 #. type: Title -
 #: Eeschema_plot_and_print.adoc:4
 #, no-wrap
 msgid "Plot and Print"
-msgstr ""
+msgstr "プロットと印刷"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:10
 msgid "You can access both print and plot commands via the file menu."
-msgstr ""
+msgstr "ファイルメニューから印刷とプロット、両コマンドの実行が可能です。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:12
@@ -10227,6 +10406,8 @@ msgid ""
 "image:images/100000000000017E000001109CDAC612.png"
 "[100000000000017E000001109CDAC612_png]"
 msgstr ""
+"image:images/100000000000017E000001109CDAC612.png"
+"[100000000000017E000001109CDAC612_png]"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:15
@@ -10234,12 +10415,14 @@ msgid ""
 "The suported output formats are POSTSCRIPT, HPGL, SVG and DXF. You can as "
 "well directly print to your printer."
 msgstr ""
+"サポートしている出力フォーマットは、POSTSCRIPT、HPGL、SVG および DXF です。自"
+"分のプリンターで直接印刷することも可能です。"
 
 #. type: Title ~
 #: Eeschema_plot_and_print.adoc:18
 #, no-wrap
 msgid "Common printing commands"
-msgstr ""
+msgstr "共通印刷コマンド"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:22
@@ -10247,23 +10430,25 @@ msgid ""
 "“Plot All” allows you to plot the whole hierarchy (one print file is "
 "generated for each sheet)."
 msgstr ""
+"“全てをプロット” は全階層（各シート毎に印刷ファイルを１つ生成する）をプロット"
+"します。"
 
 #. type: Labeled list
 #: Eeschema_plot_and_print.adoc:23
 #, no-wrap
 msgid "Plot Current"
-msgstr ""
+msgstr "現在のものをプロットは"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:25
 msgid "prints one file for the current sheet only."
-msgstr ""
+msgstr "現在のシートのみ印刷します。"
 
 #. type: Title ~
 #: Eeschema_plot_and_print.adoc:28
 #, no-wrap
 msgid "Plot in HPGL"
-msgstr ""
+msgstr "HPGL のプロット"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:34
@@ -10272,36 +10457,40 @@ msgid ""
 "the icon image:images/10000000000000220000001E69EFEAC6.png"
 "[10000000000000220000001E69EFEAC6_png].  In this format you can define."
 msgstr ""
+"このコマンドにより HPGL ファイルを作成します。このオプションはアイコン image:"
+"images/10000000000000220000001E69EFEAC6.png"
+"[10000000000000220000001E69EFEAC6_png] で使用可能です。このフォーマットでは、"
+"以下を定義可能です。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:36
 msgid "Pen number"
-msgstr ""
+msgstr "ペンナンバー"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:37
 msgid "Pen thickness (in 0,001 inch)."
-msgstr ""
+msgstr "ペン幅（0.001 インチ単位）。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:38
 msgid "Drawing speed (in cm/S)."
-msgstr ""
+msgstr "ペン速度（cm/S）。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:39
 msgid "Sheet size."
-msgstr ""
+msgstr "シートサイズ。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:40
 msgid "Print offsets."
-msgstr ""
+msgstr "印刷オフセット。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:42
 msgid "The plotter setup dialog window looks like the following."
-msgstr ""
+msgstr "プロッター・セットアップ・ダイアログは次のようなものです。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:44
@@ -10309,17 +10498,19 @@ msgid ""
 "image:images/1000000000000196000001CC52FEA30B.png"
 "[1000000000000196000001CC52FEA30B_png]"
 msgstr ""
+"image:images/1000000000000196000001CC52FEA30B.png"
+"[1000000000000196000001CC52FEA30B_png]"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:46
 msgid "The output file name will be the sheet name plus the extension .plt."
-msgstr ""
+msgstr "出力ファイル名はシート名に拡張子 .plt を付加したものです。"
 
 #. type: Title ^
 #: Eeschema_plot_and_print.adoc:49
 #, no-wrap
 msgid "Sheet size selection"
-msgstr ""
+msgstr "シートサイズ選択"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:55
@@ -10329,12 +10520,16 @@ msgid ""
 "sheet size is selected (A4 with A0, or A with E), the scale is automatically "
 "adjusted to fill the page."
 msgstr ""
+"通常は、“回路図の大きさ” にチェックが付きます。この場合、タイトルブロックメ"
+"ニューで定義されているシートサイズが使用され、その時のスケールは１になりま"
+"す。異なるシートサイズ（ A4 ～ A0 あるいは A ～ E ）を選択すると、スケールが"
+"自動的に調整されてページにフィットします。"
 
 #. type: Title ^
 #: Eeschema_plot_and_print.adoc:58
 #, no-wrap
 msgid "Offset adjustments"
-msgstr ""
+msgstr "オフセット調整"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:64
@@ -10344,11 +10539,14 @@ msgid ""
 "the center or at the lower left corner of the sheet, it is necessary to be "
 "able to introduce an offset, in order to plot properly."
 msgstr ""
+"全ての標準的な寸法に対して、可能な限り正確に描画を中央に配置するようオフセッ"
+"トの調整ができます。プロッターは原点がシートの中央か左下角にあるので、適切に"
+"プロットするためにはオフセットを挿入できるようにする必要があります。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:66
 msgid "Generally speaking."
-msgstr ""
+msgstr "一般的に言えることですが、"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:69
@@ -10356,6 +10554,8 @@ msgid ""
 "For plotters having their origin point at the center of the sheet the offset "
 "must be negative and set at half of the sheet dimension."
 msgstr ""
+"シートの中央を原点とするプロッターの場合、オフセットは負の値で、シート寸法の "
+"1/2 に設定しなければなりません。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:71
@@ -10363,32 +10563,34 @@ msgid ""
 "For plotters having their origin point at the lower left corner of the sheet "
 "the offset must be set equal to 0."
 msgstr ""
+"シートの左下角を原点とするプロッターの場合、オフセットは０に設定しなければな"
+"りません。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:73
 msgid "To set an offset."
-msgstr ""
+msgstr "オフセットを設定するには次のことを行います。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:75
 msgid "Select sheet size."
-msgstr ""
+msgstr "シートサイズを選択。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:76
 msgid "Set offset X and offset Y."
-msgstr ""
+msgstr "オフセット X およびオフセット Y を設定。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:77
 msgid "Click on accept offset."
-msgstr ""
+msgstr "“オフセットを許可” をクリック。"
 
 #. type: Title ~
 #: Eeschema_plot_and_print.adoc:80
 #, no-wrap
 msgid "Plot in Postscript"
-msgstr ""
+msgstr "Postscript のプロット"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:85
@@ -10397,6 +10599,9 @@ msgid ""
 "via the icon image:images/100000000000002200000022A6211250.png"
 "[100000000000002200000022A6211250_png]."
 msgstr ""
+"このコマンドにより PostScript ファイルを生成します。このオプションはアイコン "
+"image:images/100000000000002200000022A6211250.png"
+"[100000000000002200000022A6211250_png] で使用可能です。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:87
@@ -10404,6 +10609,8 @@ msgid ""
 "image:images/100000000000017A000001555B390DD5.png"
 "[100000000000017A000001555B390DD5_png]"
 msgstr ""
+"image:images/100000000000017A000001555B390DD5.png"
+"[100000000000017A000001555B390DD5_png]"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:93
@@ -10414,12 +10621,17 @@ msgid ""
 "diagram in a word processing software. The message window displays the file "
 "names created."
 msgstr ""
+"ファイル名はシート名に拡張子 .ps を付加したものになります。“シートの図枠を印"
+"刷” オプションを無効にすることが可能です。これは文書編集ソフトウェアで図を挿"
+"入するためにしばしば使用されるカプセル化ポストスクリプトファイル（ .eps "
+"フォーマット）を生成する場合に便利です。メッセージ ウィンドウは生成されたファ"
+"イル名を表示します。"
 
 #. type: Title ~
 #: Eeschema_plot_and_print.adoc:96
 #, no-wrap
 msgid "Plot in SVG"
-msgstr ""
+msgstr "SVG のプロット"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:99
@@ -10427,6 +10639,8 @@ msgid ""
 "image:images/10000000000001D8000001A61AC74D2A.png"
 "[10000000000001D8000001A61AC74D2A_png]"
 msgstr ""
+"image:images/10000000000001D8000001A61AC74D2A.png"
+"[10000000000001D8000001A61AC74D2A_png]"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:104
@@ -10436,12 +10650,16 @@ msgid ""
 "[10000000000000220000001D43940ADA_png].  The file name is the sheet name "
 "with an extension .svg."
 msgstr ""
+"プロットファイルをベクターフォーマットの SVG で生成します。このオプションはア"
+"イコン image:images/10000000000000220000001D43940ADA.png"
+"[10000000000000220000001D43940ADA_png] で使用可能です。ファイル名はシート名に"
+"拡張子 .svg を付加したものになります。"
 
 #. type: Title ~
 #: Eeschema_plot_and_print.adoc:107
 #, no-wrap
 msgid "Plot in DXF"
-msgstr ""
+msgstr "DXF のプロット"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:110
@@ -10449,6 +10667,8 @@ msgid ""
 "image:images/10000000000000FB00000191F3D6461D.png"
 "[10000000000000FB00000191F3D6461D_png]"
 msgstr ""
+"image:images/10000000000000FB00000191F3D6461D.png"
+"[10000000000000FB00000191F3D6461D_png]"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:115
@@ -10458,12 +10678,16 @@ msgid ""
 "[10000000000000220000001D43940ADA_png].  The file name is the sheet name "
 "with an extension .dxf."
 msgstr ""
+"プロットファイルを DXF フォーマットで生成します。このオプションはアイコン "
+"image:images/10000000000000220000001D43940ADA.png"
+"[10000000000000220000001D43940ADA_png] で使用可能です。ファイル名はシート名に"
+"拡張子 .dxf を付加したものになります。"
 
 #. type: Title ~
 #: Eeschema_plot_and_print.adoc:118
 #, no-wrap
 msgid "Print on paper"
-msgstr ""
+msgstr "紙面印刷"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:124
@@ -10473,6 +10697,9 @@ msgid ""
 "[1000000000000022000000227E318ED2_png], allows you to visualize and generate "
 "design files for the standard printer."
 msgstr ""
+"このコマンド（アイコン image:images/1000000000000022000000227E318ED2.png"
+"[1000000000000022000000227E318ED2_png] で使用可能）により標準的なプリンター用"
+"のデザインファイル (design files) の確認 (visualize) や生成が可能です。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:126
@@ -10480,6 +10707,8 @@ msgid ""
 "image:images/100000000000015A000000C1CF6CC2C5.png"
 "[100000000000015A000000C1CF6CC2C5_png]"
 msgstr ""
+"image:images/100000000000015A000000C1CF6CC2C5.png"
+"[100000000000015A000000C1CF6CC2C5_png]"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:129
@@ -10487,6 +10716,8 @@ msgid ""
 "The “Print sheet reference and title block” option enables or disables sheet "
 "references and title block."
 msgstr ""
+"“シートのリファレンスと図枠の印刷” オプションは、シートのリファレンスおよびタ"
+"イトルブロックの有効／無効を切り替えます。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:133
@@ -10495,12 +10726,15 @@ msgid ""
 "option is generally necessary if you use a black and white laser printer, "
 "because colors are printed into half-tones that are often not so readable."
 msgstr ""
+"“モノクロ印刷” オプションはモノクロで印刷するように設定します。通常このオプ"
+"ションはモノクロのレーザープリンターを使用する場合に必要です。それは，カラー"
+"がハーフトーンで印刷されて非常に読みにくくなることがよくあるからです。"
 
 #. type: Title -
 #: Eeschema_schematic_creation_and_editing.adoc:4
 #, no-wrap
 msgid "Schematic Creation and Editing"
-msgstr ""
+msgstr "回路図の作成と編集"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:11
@@ -10508,6 +10742,8 @@ msgid ""
 "A schematic can be represented by a single sheet, but, if big enough, it "
 "will require several sheets."
 msgstr ""
+"回路図は1枚のシートのみを使用しても作成可能ですが、規模の大きな回路図の場合は"
+"複数のシートで構成することもできます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:17
@@ -10517,12 +10753,16 @@ msgid ""
 "project. The manipulation of hierarchical schematics will be described in "
 "the <<hierarchical-schematics,Hierarchical Schematics>> chapter."
 msgstr ""
+"回路図が複数のシートから構成される場合を階層構造と呼び、構成する全てのシート"
+"（各シートはそれぞれ１つのファイルから成っています）が Eeschema のプロジェク"
+"トを構成することになります。階層構造を持つ回路図については <<階層回路図>> の"
+"章に記述があります。"
 
 #. type: Title ~
 #: Eeschema_schematic_creation_and_editing.adoc:20
 #, no-wrap
 msgid "General considerations"
-msgstr ""
+msgstr "基本的な検討事項"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:25
@@ -10531,13 +10771,15 @@ msgid ""
 "representation of an electronic device. It is normally the entry point of a "
 "development chain that allows for:"
 msgstr ""
+"EeSchema を使う回路図設計は、単なる回路図画像の描画に留まりません。この回路図"
+"設計は，開発フローのスタートとなります。:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:27
 msgid ""
 "Validating against a set of rules (<<erc,Electrical Rules Check>>) to detect "
 "errors and omissions."
-msgstr ""
+msgstr "回路図の誤りや欠落の検出。 (<<ERC,Electrical Rules Check>>)"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:28
@@ -10545,6 +10787,8 @@ msgid ""
 "Automatically generating a bill of materials (<<creating-customized-netlists-"
 "and-bom-files,BOM>>)."
 msgstr ""
+"部品表（BOM： Bill Of Material）の自動生成。 (<<creating-customized-netlists-"
+"and-bom-files,BOM>>)"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:29
@@ -10552,6 +10796,8 @@ msgid ""
 "<<creating-customized-netlists-and-bom-files,Generating a netlist>> for "
 "simulation software such as SPICE."
 msgstr ""
+"Pspice などの回路シミュレータのためのネットリスト生成。 <<creating-"
+"customized-netlists-and-bom-files,Generating a netlist>>"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:30
@@ -10559,6 +10805,8 @@ msgid ""
 "<<creating-customized-netlists-and-bom-files,Generating a netlist>> for "
 "transferring to PCB layout."
 msgstr ""
+"PcbNew を利用したプリント基板設計のためのネットリスト生成。 <<creating-"
+"customized-netlists-and-bom-files,Generating a netlist>>"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:34
@@ -10567,17 +10815,20 @@ msgid ""
 "and power ports. For clarity in the schematic, you can place purely "
 "graphical elements like bus entries, comments, and dotted lines."
 msgstr ""
+"回路図は主にワイヤ、ラベル、ジャンクション、バス、電源から構成されます。また"
+"回路図を見易くするために、バスエントリ、コメント、破線などのグラフィック要素"
+"も配置できます。"
 
 #. type: Title ~
 #: Eeschema_schematic_creation_and_editing.adoc:37
 #, no-wrap
 msgid "The development chain"
-msgstr ""
+msgstr "開発フロー"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:40
 msgid "image:images/en/dev-chain.png[dev-chain_png]"
-msgstr ""
+msgstr "image:images/en/dev-chain.png[dev-chain_png]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:44
@@ -10586,18 +10837,21 @@ msgid ""
 "schematic is made, a netlist is generated, which is later used to import the "
 "set of connections and footprints into PcbNew."
 msgstr ""
+"コンポーネントはコンポーネントライブラリから回路図へと配置されます。回路図が"
+"完成すると、PcbNew が回路の接続情報とフットプリントをインポートして使用するた"
+"めのネットリストが作られます。"
 
 #. type: Title ~
 #: Eeschema_schematic_creation_and_editing.adoc:47
 #, no-wrap
 msgid "Component placement and editing"
-msgstr ""
+msgstr "コンポーネントの配置と編集"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:51
 #, no-wrap
 msgid "Find and place a component"
-msgstr ""
+msgstr "コンポーネントの検索と配置"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:56
@@ -10606,11 +10860,14 @@ msgid ""
 "icon_new_component.png[New Component icon].  A dialog box allows you to type "
 "the name of the module to load."
 msgstr ""
+"image:images/en/icon_new_component.png[New Component icon] アイコンを使って、"
+"回路図にコンポーネントをロードします。ダイアログボックスでは、ロードするモ"
+"ジュールの名前を指定することができます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:58
 msgid "image:images/en/dialog_choose_component.png[Choose Component dialog]"
-msgstr ""
+msgstr "image:images/en/dialog_choose_component.png[Choose Component dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:61
@@ -10618,6 +10875,8 @@ msgid ""
 "The Choose Component dialog will filter components by name, keywords, and "
 "description according to what you type into the search field."
 msgstr ""
+"コンポーネント選択ダイアログは、名前、キーワード、検索フィールドへの入力内容"
+"でコンポーネントをフィルタリングします。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:65
@@ -10626,23 +10885,28 @@ msgid ""
 "and edit its fields, by either using the hotkeys or the right-click context "
 "menu. This can be done the same way after placement."
 msgstr ""
+"コンポーネントを回路図へ配置する前に、ホットキーや右クリックで表示されるコン"
+"テキストメニューを使って、コンポーネントの回転（90度ごと）、横軸／縦軸でのミ"
+"ラー、フィールドの編集ができます。これらの変更は，部品を配置した後でも簡単に"
+"行うことができます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:67
 msgid "Here is a component during placement:"
-msgstr ""
+msgstr "配置中のコンポーネントは次のようになります。:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:69
 msgid ""
 "image:images/en/component_during_placement.png[component during placement]"
 msgstr ""
+"image:images/en/component_during_placement.png[component during placement]"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:72
 #, no-wrap
 msgid "Power ports"
-msgstr ""
+msgstr "電源ポート"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:80
@@ -10653,31 +10917,37 @@ msgid ""
 "Power icon] tool is available. This tool is similar, except that the search "
 "is done directly in the ``power'' library."
 msgstr ""
+"電源ポートもコンポーネントのひとつです（ “power” ライブラリに分類されていま"
+"す）。よって、これまで説明したコンポーネントの配置と同じ手順で配置することが"
+"できます。しかし、これら電源ポートは頻繁に配置されるものなので、 image:"
+"images/en/icon_add_power.png[Add Power icon] ツールが簡単に配置するために用意"
+"されています。このツールは直接 “power” ライブラリを参照するため、毎回 "
+"“power” ライブラリまでコンポーネントを辿る手間を省くことができます。"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:83
 #, no-wrap
 msgid "Component Editing and Modification (already placed component)"
-msgstr ""
+msgstr "（配置された）コンポーネントの編集と修正"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:86
 msgid "There are two ways to edit a component:"
-msgstr ""
+msgstr "コンポーネントの編集や修正は，下記の２種類に分類されます:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:88
 msgid ""
 "Modification of the component itself: position, orientation, unit selection "
 "on a multi-unit component."
-msgstr ""
+msgstr "コンポーネント自身の変更：部品の位置、向き、複数部品での部品選択。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:89
 msgid ""
 "Modification of one of the fields of the component: reference, value, "
 "footprint, etc."
-msgstr ""
+msgstr "コンポーネントフィールドの変更：参照番号、定数、フットプリント、等。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:95
@@ -10688,12 +10958,18 @@ msgid ""
 "components with locked units, which you have to assign manually). This can "
 "be done automatically by the annotation function."
 msgstr ""
+"コンポーネントが配置された直後に、必要に応じてそれらの部品定数を設定します"
+"（特に抵抗やコンデンサなど）。しかし、コンポーネントを配置した直後に部品の参"
+"照番号の割り当てを行ったり、あるいは7400のような複数部品からなるコンポーネン"
+"ト内の部品番号を設定したりすることは無駄になってしまうかもしれません。これら"
+"コンポーネントの参照番号や部品番号は、アノテーション機能を使うことで後から自"
+"動的に割り振ることができます。"
 
 #. type: Title +
 #: Eeschema_schematic_creation_and_editing.adoc:98
 #, no-wrap
 msgid "Component modification"
-msgstr ""
+msgstr "コンポーネントの変更"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:102
@@ -10701,11 +10977,15 @@ msgid ""
 "To modify some feature of a component, position the cursor on the component, "
 "and then either:"
 msgstr ""
+"コンポーネントのプロパティを編集するには、マウスカーソルをコンポーネント上へ"
+"移動させ、以下のいずれかの操作をします。:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:104
 msgid "Double-click on the component to open the full editing dialog."
 msgstr ""
+"コンポーネントをダブルクリックし、全てのプロパティを編集することができるダイ"
+"アログボックスを開く。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:106
@@ -10713,12 +10993,14 @@ msgid ""
 "Right-click to open the context menu and use one of the commands: Move, "
 "Orientation, Edit, Delete, etc."
 msgstr ""
+"右クリックしてコンテキストメニューを開き、表示された編集コマンドを選択する: "
+"移動、回転、編集、削除など。"
 
 #. type: Title +
 #: Eeschema_schematic_creation_and_editing.adoc:109
 #, no-wrap
 msgid "Text fields modification"
-msgstr ""
+msgstr "テキストフィールドの編集"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:113
@@ -10726,11 +11008,13 @@ msgid ""
 "You can modify the reference, value, position, orientation, text size and "
 "visibility of the fields:"
 msgstr ""
+"参照記号、定数、位置、向き、テキストサイズ、フィールドの可視性を変更できま"
+"す。:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:115
 msgid "Double-click on the text field to modify it."
-msgstr ""
+msgstr "テキストフィールドをダブルクリックし編集する。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:117
@@ -10738,6 +11022,8 @@ msgid ""
 "Right-click to open the context menu and use one of the commands: Move, "
 "Rotate, Edit, Delete, etc."
 msgstr ""
+"右クリックしてコンテキストメニューを開き、表示された編集コマンドを選択する: "
+"移動、回転、編集、削除など。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:121
@@ -10745,6 +11031,8 @@ msgid ""
 "For more options, or in order to create fields, double-click on the "
 "component to open the Component Properties dialog."
 msgstr ""
+"他のオプションの変更や新たにフィールド項目を作成する場合は、コンポーネントを"
+"ダブルクリックし、コンポーネントプロパティダイアログを開きます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:128
@@ -10754,6 +11042,9 @@ msgid ""
 "displayed component (no rotation or mirroring) and is relative to the anchor "
 "point of the component."
 msgstr ""
+"それぞれのフィールドについて表示/非表示と表示方向を設定することができます。表"
+"示位置は常に普通に表示される（回転やミラーがない）コンポーネントに対するもの"
+"で、コンポーネントのアンカー位置への相対座標で指定されます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:132
@@ -10763,12 +11054,15 @@ msgid ""
 "However, texts fields are not modified because this could break the "
 "schematic."
 msgstr ""
+"“ライブラリのデフォルト値にリセット” ボタンは、コンポーネントを元の向きにセッ"
+"トし、オプション、サイズ、位置、各フィールドを初期化します。しかし、回路図情"
+"報を壊してしまう可能性があるため、テキストフィールドの内容は変更されません。"
 
 #. type: Title ~
 #: Eeschema_schematic_creation_and_editing.adoc:135
 #, no-wrap
 msgid "Wires, Buses, Labels, Power ports"
-msgstr ""
+msgstr "ワイヤ、バス、ラベル、電源ポート"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:143
@@ -10776,108 +11070,110 @@ msgid ""
 "All these drawing elements can also be placed with the tools on the vertical "
 "right toolbar."
 msgstr ""
+"これら全ての描画要素は、画面右に縦表示されているツールバーに配置されて利用さ"
+"れます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:145
 msgid "These elements are:"
-msgstr ""
+msgstr "これらの要素を以下に示します:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:147
 #, no-wrap
 msgid "*Wires:* most connections between components.\n"
-msgstr ""
+msgstr "*ワイヤ:* コンポーネント間の接続\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:148
 #, no-wrap
 msgid "*Buses:* to graphically join bus labels\n"
-msgstr ""
+msgstr "*バス:* バス配線をまとめラベルを用いて接続\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:149
 #, no-wrap
 msgid "*Dotted lines:* for graphic presentation.\n"
-msgstr ""
+msgstr "*破線:* （画面を見やすくする）グラフィック表現用\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:150
 #, no-wrap
 msgid "*Junctions:* to create connections between crossing wires or buses.\n"
-msgstr ""
+msgstr "*ジャンクション:* ワイヤやバスの交差点で接続\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:151
 #, no-wrap
 msgid "*Bus entries:* to show connections between wires and buses. Graphical only!\n"
-msgstr ""
+msgstr "*バスエントリ:* バス配線とワイヤの接続。グラフィックのみ!\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:152
 #, no-wrap
 msgid "*Labels:* for labeling or creating connections.\n"
-msgstr ""
+msgstr "*ラベル:* 接続の作成やラベリング\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:153
 #, no-wrap
 msgid "*Global labels:* for connections between sheets.\n"
-msgstr ""
+msgstr "*グローバルラベル:* シート間での接続\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:154
 #, no-wrap
 msgid "*Texts:* for comments and annotations.\n"
-msgstr ""
+msgstr "*テキスト:* コメントとアノテーション用\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:155
 #, no-wrap
 msgid "*“No Connection” symbols:* to terminate a pin that does not need any connection.\n"
-msgstr ""
+msgstr "*“空き端子” シンボル:* 接続する必要のないピンを終端\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:156
 #, no-wrap
 msgid "**Hierarchical sheets**, and their connection pins.\n"
-msgstr ""
+msgstr "**階層シート**, とそのピン接続\n"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:159
 #, no-wrap
 msgid "Connections (Wires and Labels)"
-msgstr ""
+msgstr "接続 （ワイヤとラベル）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:162
 msgid "There are two ways to establish connection:"
-msgstr ""
+msgstr "接続を確立する方法は2つあります:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:164
 msgid "Pin to pin wires."
-msgstr ""
+msgstr "ピン間のワイヤ"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:165
 msgid "Labels."
-msgstr ""
+msgstr "ラベル"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:167
 msgid "The following figure shows the two methods:"
-msgstr ""
+msgstr "以下の図はこれら2種類の接続方法を示します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:169
 msgid "image:images/wires_labels.png[Wires labels]"
-msgstr ""
+msgstr "image:images/wires_labels.png[Wires labels]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:171
 #, no-wrap
 msgid "*Note 1:*\n"
-msgstr ""
+msgstr "*Note 1:*\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:175
@@ -10886,6 +11182,8 @@ msgid ""
 "letter of the label. This point is displayed with a small square when not "
 "connected."
 msgstr ""
+"ラベルが示す “接続” 点は、ラベル一文字目の左下になります。この点は、未接続時"
+"には小さな四角で表示されます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:178
@@ -10893,19 +11191,21 @@ msgid ""
 "This point must thus be in contact with the wire, or be superimposed at the "
 "end of a pin so that the label is seen as connected."
 msgstr ""
+"この点は、ワイヤに接しているか、ピンの接続位置に重なっていなければなりませ"
+"ん。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:180
 #, no-wrap
 msgid "*Note 2:*\n"
-msgstr ""
+msgstr "*Note 2:*\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:183
 msgid ""
 "To establish a connection, a segment of wire must be connected by its ends "
 "to an another segment or to a pin."
-msgstr ""
+msgstr "接続を確立するためには、ワイヤの端を他のセグメントかピンへ接続します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:186
@@ -10913,12 +11213,14 @@ msgid ""
 "If there is overlapping (if a wire passes over a pin, but without being "
 "connected to the pin end) there is no connection."
 msgstr ""
+"もしも配線やピンが重なりあった場合（ワイヤがピンを乗り越えた場合、但しピンの"
+"接続点の場合を除く）、これらは接続されません。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:188
 #, no-wrap
 msgid "*Note 3:*\n"
-msgstr ""
+msgstr "*Note 3:*\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:191
@@ -10926,6 +11228,8 @@ msgid ""
 "Wires that cross are not implicitly connected. It is necessary to join them "
 "with a junction dot if a connection is desired."
 msgstr ""
+"交差したワイヤは暗黙的に未接続となります。もし接続する必要がある場合は、ワイ"
+"ヤの交差点にジャンクション（接続点）シンボルの配置が必要になります。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:194
@@ -10933,12 +11237,14 @@ msgid ""
 "The previous figure (wires connected to DB25FEMALE pins 22, 21, 20, 19)  "
 "shows such a case of connection using a junction symbol."
 msgstr ""
+"以前示した図（ワイヤが DB25FEMALE 22, 21, 20, 19 ピンに接続されているもの）で"
+"は，このジャンクション（接続点）シンボルを使った場合を示しています。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:196
 #, no-wrap
 msgid "*Note 4:*\n"
-msgstr ""
+msgstr "*Note 4:*\n"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:200
@@ -10947,28 +11253,31 @@ msgid ""
 "together and become equivalent: all the other elements connected to one or "
 "the other labels are then connected to all of them."
 msgstr ""
+"１つのワイヤに２つの異なるラベルが配置されている場合、これらのラベルで示され"
+"る両方の信号同士が接続されます。どちらか一方のラベルで接続されている全ての信"
+"号が互いに接続されます。"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:203
 #, no-wrap
 msgid "Connections (Buses)"
-msgstr ""
+msgstr "接続（バス）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:206
 msgid "In the following schematic, many pins are connected to buses."
-msgstr ""
+msgstr "以下に示す回路図では、多くのピンがバスへ接続されています。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:208
 msgid "image:images/en/sch_with_buses.png[Example schematic with buses]"
-msgstr ""
+msgstr "image:images/en/sch_with_buses.png[Example schematic with buses]"
 
 #. type: Title +
 #: Eeschema_schematic_creation_and_editing.adoc:211
 #, no-wrap
 msgid "Bus members"
-msgstr ""
+msgstr "バスのメンバ"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:216
@@ -10977,6 +11286,9 @@ msgid ""
 "with a common prefix, and ending with a number. For example, PCA0, PCA1, and "
 "PCA2 are members of the PCA bus."
 msgstr ""
+"回路図を見易くするため、信号の集合体としてバスを利用し、接頭語＋数値という"
+"フォーマットで名前を付けています。上の図では、PCA0、PCA1、PCA2 は PCA バスの"
+"メンバとなります。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:221
@@ -10986,12 +11298,17 @@ msgid ""
 "complete bus is noted PCA[0..19]. A collection of signals like PCA0, PCA1, "
 "PCA2, WRITE, READ cannot be contained in a bus."
 msgstr ""
+"バスそのものを指す場合は、PCA[N..m] のように呼びます。この場合、N と m はバス"
+"の最初と最後のワイヤ番号になります。例えば、 PCA バスに０から１９までの２０本"
+"のメンバがある場合、バスの呼び名は PCA[0..19] となります。しかしながら、"
+"PCA0、PCA1、PCA2、WRITE、READ のような信号の集合の場合は、バスへ含めることが"
+"できません。"
 
 #. type: Title +
 #: Eeschema_schematic_creation_and_editing.adoc:224
 #, no-wrap
 msgid "Connections between bus members"
-msgstr ""
+msgstr "バスのメンバ同士の接続"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:229
@@ -11000,6 +11317,9 @@ msgid ""
 "labels. It is not possible to connect a pin directly to a bus; this type of "
 "connection will be ignored by Eeschema."
 msgstr ""
+"バスの同一メンバの間でピンを接続する場合は、ラベルによって接続しなければなり"
+"ません。（バスは信号の集合体であるため）ピンはバスへ直接接続できません。"
+"Eeschemaはこのような接続を無視します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:234
@@ -11008,6 +11328,10 @@ msgid ""
 "connected to the pins. Bus entries (wire segments at 45 degrees) to buses "
 "are graphical only, and are not necessary to form logical connections."
 msgstr ""
+"上に示したような例では、ピンに接続しているワイヤへ配置されたラベルによってピ"
+"ン間が接続されます。バスワイヤへのバスエントリ部（４５度曲がっているワイヤ部"
+"分）は外観上の見易さを目的としているだけで、Eeschema の回路図としての意味はあ"
+"りません。（論理的な接続である必要はありません）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:239
@@ -11017,11 +11341,14 @@ msgid ""
 "increasing order (a common case in practice on components such as memories, "
 "microprocessors...):"
 msgstr ""
+"もしコンポーネントのピン番号が昇順で並んでいるのであれば（メモリやマイクロプ"
+"ロセッサなどで良く見かけます）、以下の手順のように繰り返しコマンド (__イン"
+"サート__ キー ) を用いることで非常に速く接続を行う事ができます。:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:241
 msgid "Place the first label (for example PCA0)"
-msgstr ""
+msgstr "最初のラベルを配置します（例えば PCA0 ）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:244
@@ -11030,6 +11357,9 @@ msgid ""
 "will automatically create the next labels (PCA1, PCA2...)  vertically "
 "aligned, theoretically on the position of the other pins."
 msgstr ""
+"繰り返しコマンドを使用してメンバのラベルを配置します。Eeschemaは理論的に次の"
+"ピン位置に相当する縦方向に整列した次のラベル ( PCA1、PCA2、… ) を自動的に生成"
+"します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:246
@@ -11037,6 +11367,8 @@ msgid ""
 "Draw the wire under the first label. Then use the repetition command to "
 "place the other wires under the labels."
 msgstr ""
+"最初のラベルの下にワイヤを配置します。同様に繰り返しコマンドを利用し、ラベル"
+"の下へワイヤを配置していきます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:248
@@ -11044,33 +11376,39 @@ msgid ""
 "If needed, place the bus entries by the same way (Place the first entry, "
 "then use the repetition command)."
 msgstr ""
+"必要に応じて、同じ方法（最初のエントリを配置し，繰り返しコマンドを使用する）"
+"を用い、バスエントリを配置して下さい。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:252
 msgid "In the Preferences/Options menu, you can set the repetition parameters:"
 msgstr ""
+"メインメニュー “設定” → “回路図エディタオプション” で、繰り返しに関するパラ"
+"メータを設定することができます:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:254
 msgid "Vertical step."
-msgstr ""
+msgstr "アイテムを垂直方向にリピート（縦方向の間隔）。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:255
 msgid "Horizontal step."
-msgstr ""
+msgstr "アイテムを水平方向にリピート（横方向の間隔）。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:257
 msgid ""
 "Label increment (which can thus be incremented by 2, 3. or decremented)."
 msgstr ""
+"ラベルのカウントアップリピート（ 2, 3,… のようなインクリメント(加算)／または"
+"デクリメント(減算)）"
 
 #. type: Title +
 #: Eeschema_schematic_creation_and_editing.adoc:260
 #, no-wrap
 msgid "Global connections between buses"
-msgstr ""
+msgstr "バスのシート間接続"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:266
@@ -11080,11 +11418,13 @@ msgid ""
 "between different sheets. You can make these connections in the following "
 "way."
 msgstr ""
+"階層構造になっている回路図において、シート間で異なる名前のバス同士を接続する"
+"必要がある場合があります。この接続の手順を以下に示します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:268
 msgid "image:images/en/bus_junction.png[Bus junction example]"
-msgstr ""
+msgstr "image:images/en/bus_junction.png[Bus junction example]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:272
@@ -11093,6 +11433,8 @@ msgid ""
 "the junction here because the vertical bus wire joins the middle of the "
 "horizontal bus segment)."
 msgstr ""
+"バス PCA[0..15]，ADR[0..7]，BUS[5..10] は互いに接続されています。（接続点に注"
+"意してください。縦方向のバスが横方向のバスの中央で接続されています。）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:275
@@ -11100,6 +11442,8 @@ msgid ""
 "More precisely, the corresponding members are connected together : PCA0, "
 "ADR0 are connected, (as same as PCA1 and ADR1… PCA7 and ADR7)."
 msgstr ""
+"より正確に言うならば、バスを構成する対応するメンバ同士が接続されます。 : 例え"
+"ば、PCA0 とADR0が接続されています。（同様に、PCA1 と ADR1，…， PCA7 と ADR7）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:278
@@ -11107,18 +11451,22 @@ msgid ""
 "Furthermore, PCA5, BUS5 and ADR5 are connected (just as PCA6, BUS6 and ADR6 "
 "like PCA7, BUS7 and ADR7)."
 msgstr ""
+"さらに、PCA5 と BUS5 と ADR5 も接続されてます。（ PCA6 と BUS6 と ADR6，PCA7 "
+"と BUS7 と ADR7 も同様です）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:281
 msgid ""
 "PCA8 and BUS8 are also connected (just as PCA9 and BUS9, PCA10 and BUS10)"
 msgstr ""
+"PCA8 と BUS8 も接続されることになります。（ PCA9 と BUS9，PCA10 と BUS10 も同"
+"様です）"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:285
 #, no-wrap
 msgid "Power ports connection"
-msgstr ""
+msgstr "電源ポートの接続"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:289
@@ -11126,6 +11474,8 @@ msgid ""
 "When the power pins of the components are visible, they must be connected, "
 "as for any other signal."
 msgstr ""
+"コンポーネントに電源ピンがある場合も、他の信号と同様に接続する必要がありま"
+"す。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:292
@@ -11133,16 +11483,18 @@ msgid ""
 "Components such as gates and flip-flops may have invisible power pins.  Care "
 "must be taken with these because:"
 msgstr ""
+"ゲートやフリップフロップのようなコンポーネントは見えていない電源ピンを持って"
+"います。これらの扱いは少し厄介です。難点は以下の２つです:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:294
 msgid "You cannot connect wires, because of their invisibility."
-msgstr ""
+msgstr "電源ピンが非表示であるため、ワイヤを接続できない。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:295
 msgid "You do not know their names."
-msgstr ""
+msgstr "電源ピンの名前が解らない。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:299
@@ -11151,6 +11503,9 @@ msgid ""
 "them like the other pins, because the schematic would become unreadable and "
 "not in accordance with usual conventions."
 msgstr ""
+"これら電源ピンの設定を可視に変更し接続することはあまり良い方法とは言えませ"
+"ん。これをしてしまうと，回路図が読みにくくなってしまい、また普通の回路図の慣"
+"習に反することになってしまいます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:307
@@ -11160,6 +11515,10 @@ msgid ""
 "dialog box of the main menu, or the icon image:images/icons/hidden_pin.png[] "
 "on the left (options) toolbar."
 msgstr ""
+"これらの非表示となっている電源ピンを表示させたい場合は、メインメニュー “設"
+"定” → “回路図エディタオプション” をたどるか、左側ツールバー（オプションツール"
+"バー）の image:images/icons/hidden_pin.png[] アイコンをクリックして、“非表示"
+"ピンの表示” オプションをチェックします。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:312
@@ -11169,6 +11528,10 @@ msgid ""
 "names (for example, \"GND\" in TTL components and \"VSS\" in MOS "
 "components); use power ports for this."
 msgstr ""
+"Eeschema は、同じ名前の全ての非表示の電源ピンを自動的に接続します。異なる名前"
+"の非表示電源ピン（例えば、 TTL デバイスの “GND” と MOS デバイスの “VSS” ）を"
+"接続することが必要になることもあるでしょう。; このような場合に電源ポートシン"
+"ボルを使います。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:315
@@ -11176,23 +11539,25 @@ msgid ""
 "It is not recommended to use labels for power connection. These only have a "
 "“local” connection scope, and would not connect the invisible power pins."
 msgstr ""
+"ラベルを利用して電源ピンを接続することは推奨されません。ラベルは “局所的 "
+"(local)” な接続機能しか無く、非表示の電源ピンは接続されないでしょう。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:317
 msgid "The figure below shows an example of power port connections."
-msgstr ""
+msgstr "以下の図は、電源ポートの接続例です。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:319
 msgid "image:images/en/power_ports_example.png[Power ports example]"
-msgstr ""
+msgstr "image:images/en/power_ports_example.png[Power ports example]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:322
 msgid ""
 "In this example, ground (GND) is connected to power port VSS, and power port "
 "VCC is connected to VDD."
-msgstr ""
+msgstr "この例では、GND と VSS、VCC と VDD が接続されています。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:327
@@ -11201,17 +11566,22 @@ msgid ""
 "and GND are really connected to a power source.  Without these two flags, "
 "the ERC tool would diagnose: __Warning: power port not powered__."
 msgstr ""
+"２つの PWR_FLAG シンボルがあります。これは、２つの電源ポート VCC と GND が本"
+"当に電源(出力)へと接続されていることを示します。これら２つのフラグがない場"
+"合、ERCは __Warning: power port not powered__ という診断結果を出力します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:329
 msgid "All these symbols are components of the schematic library ``power''."
 msgstr ""
+"これらすべてのシンボルは、コンポーネントとして “power” ライブラリに収められて"
+"います。"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:332
 #, no-wrap
 msgid "“No Connection” symbols"
-msgstr ""
+msgstr "“空き端子” シンボル"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:337
@@ -11220,6 +11590,8 @@ msgid ""
 "rules check ensures that no connection has been accidentally left "
 "unconnected."
 msgstr ""
+"この空き端子用シンボルは、ERC チェック時に不要な警告を出さないようにするため"
+"に役立ちます。ERC で接続忘れの空きピンを確実に見つけることができます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:343
@@ -11229,18 +11601,21 @@ msgid ""
 "icon])  on these pins. These symbols do not have any influence on the "
 "generated netlists."
 msgstr ""
+"ピンを無接続の空き端子としたい場合、空き端子シンボル（ツール image:images/"
+"icons/no-connection.png[No connection icon] ）を配置することが必要です。これ"
+"らのシンボルは生成するネットリストに影響を与えません。"
 
 #. type: Title ~
 #: Eeschema_schematic_creation_and_editing.adoc:346
 #, no-wrap
 msgid "Drawing Complements"
-msgstr ""
+msgstr "回路図作成に関する補足"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:350
 #, no-wrap
 msgid "Text Comments"
-msgstr ""
+msgstr "テキストコメント"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:359
@@ -11251,22 +11626,26 @@ msgid ""
 "add_dashed_line.png[])  are intended for this use, contrary to labels and "
 "wires, which are connection elements."
 msgstr ""
+"図形テキストのような注釈（コメント）を配置することは（回路図を理解するため"
+"に）有用です。図形テキスト（ツール image:images/icons/add_text.png[] ）と破線"
+"（ツール image:images/icons/add_dashed_line.png[] ）は、素子同士の接続を行う"
+"ラベルやワイヤとは異なり、このような用途を意図しています。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:361
 msgid "Here you can find an example of a frame with a textual comment."
-msgstr ""
+msgstr "図形コメントの例を以下に示します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:363
 msgid "image:images/en/frame_example.png[Frame with comment example]"
-msgstr ""
+msgstr "image:images/en/frame_example.png[Frame with comment example]"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:366
 #, no-wrap
 msgid "Sheet title block"
-msgstr ""
+msgstr "シートの表題欄（タイトルブロック）"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:370
@@ -11274,27 +11653,29 @@ msgid ""
 "The title block is edited with the tool image:images/en/icon_sheetset.png"
 "[Page Settings tool]."
 msgstr ""
+"表題欄は、 image:images/en/icon_sheetset.png[Page Settings tool] ツールで編集"
+"することができます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:372
 msgid "image:images/en/page_settings.png[Page settings dialog]"
-msgstr ""
+msgstr "image:images/en/page_settings.png[Page settings dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:374
 msgid "image:images/en/title_block.png[Title block]"
-msgstr ""
+msgstr "image:images/en/title_block.png[Title block]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:376
 msgid "The sheet number (Sheet X/Y) is automatically updated."
-msgstr ""
+msgstr "シート番号（Sheet X/Y）は自動更新されます。"
 
 #. type: Title ~
 #: Eeschema_schematic_creation_and_editing.adoc:379
 #, no-wrap
 msgid "Rescuing cached components"
-msgstr ""
+msgstr "キャッシュされたコンポーネントのレスキュー"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:386
@@ -11306,6 +11687,12 @@ msgid ""
 "new versions. The new versions might not line up correctly or might be "
 "oriented differently, leading to a broken schematic."
 msgstr ""
+"デフォルトでは、Eeschema は設定されたパスに従ってライブラリからコンポーネント"
+"を読み込みます。これは古いプロジェクトを読み込む時に問題を引き起こします。: "
+"ライブラリにあるコンポーネントがプロジェクトで使われた時より後に変更されてい"
+"た場合、プロジェクトのコンポーネントは自動的に新しいバージョンへと置き換えら"
+"れます。新しいバージョンが互換性を失っていたり、違う方向を向いているようなこ"
+"とがあると、回路図の破損につながります。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:391
@@ -11316,11 +11703,16 @@ msgid ""
 "libraries, Eeschema will scan the libraries for conflicts. Any conflicts "
 "found will be listed in the following dialog:"
 msgstr ""
+"しかしながら、プロジェクトの保存時にはキャッシュされたライブラリも一緒に保存"
+"されます。これにより、プロジェクトは全てのライブラリがなくても配布できます。"
+"キャッシュとシステムライブラリの両方に存在するコンポーネントを使ったプロジェ"
+"クトを読み込むと、Eeschema は衝突検出のためにライブラリを調べるでしょう。発見"
+"された衝突は次のダイアログに一覧表示されます。:"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:393
 msgid "image:images/rescue-conflicts.png[Rescue conflicts dialog]"
-msgstr ""
+msgstr "image:images/rescue-conflicts.png[Rescue conflicts dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:398
@@ -11331,6 +11723,11 @@ msgid ""
 "the old symbol to be saved into a special ``rescue'' library, and all the "
 "components using that symbol will be renamed to avoid naming conflicts."
 msgstr ""
+"この例では、元々のプロジェクトはカソードが上向きのダイオードを使っています"
+"が、現在のライブラリはカソードが下向きのものを含んでいます。この変更はプロ"
+"ジェクトを台無しにします！ここで OK ボタンを押すと、古いコンポーネントのシン"
+"ボルは特別な “レスキュー” ライブラリへと保存され、このシンボルを使う全てのコ"
+"ンポーネントは名前の衝突を避けるために変更 (rename) されます。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:402
@@ -11340,6 +11737,10 @@ msgid ""
 "back and run the rescue function again: choose \"Rescue Cached Components\" "
 "in the Tools menu to call up the dialog again."
 msgstr ""
+"もし Cancel ボタンが押されると、レスキューは作成されず、Eeschema はデフォルト"
+"で全て新しいコンポーネントを読み込むでしょう。変更されなかった場合でも、前に"
+"戻ってレスキュー機能を再度実行できます。: ツールメニューから “キャッシュされ"
+"たコンポーネントのレスキュー” を選んで、ダイアログを再び呼び出します。"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:405
@@ -11349,12 +11750,16 @@ msgid ""
 "loaded. This option can be changed back in the Component Libraries "
 "preferences."
 msgstr ""
+"このダイアログを表示させたくない場合は、“次回から表示しない” ボタンを押してく"
+"ださい。デフォルトで何もせずに新しいコンポーネントを読み込むようになります。"
+"このオプションは、コンポーネントライブラリの設定で元に戻せます。（“回路図の読"
+"込み時にキャッシュ／ライブラリの衝突をチェック” ボックスをチェックする）"
 
 #. type: Title -
 #: Eeschema_viewlib.adoc:4
 #, no-wrap
 msgid "Viewlib"
-msgstr ""
+msgstr "ライブラリブラウザ (Viewlib)"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:14
@@ -11364,6 +11769,10 @@ msgid ""
 "[100000000000002400000023C03F2AE4_png] or by the “place component” tool "
 "available from the right-hand side toolbar."
 msgstr ""
+"ライブラリブラウザを利用すると、ライブラリの内容をすばやく確認することができ"
+"ます。ライブラリブラウザは、image:images/100000000000002400000023C03F2AE4.png"
+"[100000000000002400000023C03F2AE4_png] アイコンか、または右側ツールバーの “コ"
+"ンポーネントの配置” ツールより利用することができます。"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:16
@@ -11371,12 +11780,14 @@ msgid ""
 "image:images/100000000000016D000000E7007BA5B8.png"
 "[100000000000016D000000E7007BA5B8_png]"
 msgstr ""
+"image:images/100000000000016D000000E7007BA5B8.png"
+"[100000000000016D000000E7007BA5B8_png]"
 
 #. type: Title ~
 #: Eeschema_viewlib.adoc:19
 #, no-wrap
 msgid "Viewlib - main screen"
-msgstr ""
+msgstr "ライブラリブラウザ - メインウインドウ"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:22
@@ -11384,6 +11795,8 @@ msgid ""
 "image:images/100000000000028A000001DC54042D35.png"
 "[100000000000028A000001DC54042D35_png]"
 msgstr ""
+"image:images/100000000000028A000001DC54042D35.png"
+"[100000000000028A000001DC54042D35_png]"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:26
@@ -11392,6 +11805,8 @@ msgid ""
 "the list on the left-hand side. Available components will then appear in the "
 "second list which allow you to select a component."
 msgstr ""
+"ライブラリの内容を確認するには、ウインドウ左側のライブラリを選択する必要があ"
+"ります。利用可能なコンポーネントが２番目のリストに表示されます。"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:28
@@ -11399,17 +11814,19 @@ msgid ""
 "image:images/100000000000028B000001DD9FC13E33.png"
 "[100000000000028B000001DD9FC13E33_png]"
 msgstr ""
+"image:images/100000000000028B000001DD9FC13E33.png"
+"[100000000000028B000001DD9FC13E33_png]"
 
 #. type: Title ~
 #: Eeschema_viewlib.adoc:31
 #, no-wrap
 msgid "Viewlib top toolbar"
-msgstr ""
+msgstr "ライブラリブラウザ上部ツールバー"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:34
 msgid "The top tool bar in Viewlib is shown below."
-msgstr ""
+msgstr "ライブラリブラウザの上部に表示されているツールバーを以下に示します。"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:36
@@ -11417,6 +11834,8 @@ msgid ""
 "image:images/100000000000022F00000022F66E0B1E.png"
 "[100000000000022F00000022F66E0B1E_png]"
 msgstr ""
+"image:images/100000000000022F00000022F66E0B1E.png"
+"[100000000000022F00000022F66E0B1E_png]"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:39
@@ -11424,6 +11843,8 @@ msgid ""
 "or, when called by the place component dialog frame from Eeschema it appears "
 "as below."
 msgstr ""
+"また、Eeschema の “コンポーネントの配置” ツールより呼びだされた場合のツール"
+"バーを以下に示します。"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:41
@@ -11431,11 +11852,13 @@ msgid ""
 "image:images/1000000000000235000000254D7A0B58.png"
 "[1000000000000235000000254D7A0B58_png]"
 msgstr ""
+"image:images/1000000000000235000000254D7A0B58.png"
+"[1000000000000235000000254D7A0B58_png]"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:43
 msgid "The available commands are."
-msgstr ""
+msgstr "利用可能なコマンドは以下のとおりです。"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:49
@@ -11445,6 +11868,9 @@ msgid ""
 "|Selection of the desired library which can be also selected in the\n"
 "displayed list.\n"
 msgstr ""
+"|image:images/100000000000002100000020CF0B6ECF.png[100000000000002100000020CF0B6ECF_png]\n"
+"|一覧より、表示するライブラリ\n"
+"を選択します。\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:53
@@ -11454,6 +11880,9 @@ msgid ""
 "|Selection of the component which can be also selected in the displayed\n"
 "list.\n"
 msgstr ""
+"|image:images/10000000000000210000002012BEB43B.png[10000000000000210000002012BEB43B_png]\n"
+"|一覧より、表示するコンポーネント\n"
+"を選択します。\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:56
@@ -11462,6 +11891,8 @@ msgid ""
 "|image:images/1000000000000023000000210BFB143F.png[1000000000000023000000210BFB143F_png]\n"
 "|Display previous component.\n"
 msgstr ""
+"|image:images/1000000000000023000000210BFB143F.png[1000000000000023000000210BFB143F_png]\n"
+"|リストで選択されている、1つ前のコンポーネントを表示します。\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:59
@@ -11470,6 +11901,8 @@ msgid ""
 "|image:images/10000000000000210000002190EDA86B.png[10000000000000210000002190EDA86B_png]\n"
 "|Display next component.\n"
 msgstr ""
+"|image:images/10000000000000210000002190EDA86B.png[10000000000000210000002190EDA86B_png]\n"
+"|リストで選択されている、1つ次のコンポーネントを表示します。\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:62
@@ -11478,6 +11911,8 @@ msgid ""
 "|image:images/1000000000000085000000211D9BEE1C.png[1000000000000085000000211D9BEE1C_png]\n"
 "|Zoom tools.\n"
 msgstr ""
+"|image:images/1000000000000085000000211D9BEE1C.png[1000000000000085000000211D9BEE1C_png]\n"
+"|拡大／縮小（ズーム）ツールです。\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:65
@@ -11486,6 +11921,8 @@ msgid ""
 "|image:images/100000000000004500000023AD4B43C5.png[100000000000004500000023AD4B43C5_png]\n"
 "|Selection of the representation (normal or converted) if exist.\n"
 msgstr ""
+"|image:images/100000000000004500000023AD4B43C5.png[100000000000004500000023AD4B43C5_png]\n"
+"|（代替シンボル表現が存在する場合）表現を選択します。\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:68
@@ -11494,6 +11931,8 @@ msgid ""
 "|image:images/100000000000009B00000021DD8FE12C.png[100000000000009B00000021DD8FE12C_png]\n"
 "|Selection of the part (if multi-part component).\n"
 msgstr ""
+"|image:images/100000000000009B00000021DD8FE12C.png[100000000000009B00000021DD8FE12C_png]\n"
+"|（複数部品から構成されるコンポーネントの場合）パーツを選択します。\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:72
@@ -11503,6 +11942,9 @@ msgid ""
 "|If it exist, display the associated documents. Exists only when called\n"
 "by the place component dialog frame from Eeschema.\n"
 msgstr ""
+"|image:images/1000000000000021000000218A2DBF24.png[1000000000000021000000218A2DBF24_png]\n"
+"|存在する場合、コンポーネントに関連したドキュメントを参照します。Eeschema の\n"
+"“コンポーネントの配置” ツールよりより呼びだされた場合にのみ有効\n"
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:75
@@ -11511,3 +11953,5 @@ msgid ""
 "|image:images/1000000000000022000000211955814F.png[1000000000000022000000211955814F_png]\n"
 "|Close Viewlib and place the selected component in Eeschema.\n"
 msgstr ""
+"|image:images/1000000000000022000000211955814F.png[1000000000000022000000211955814F_png]\n"
+"|ライブラリブラウザを閉じ、選択されたコンポーネントを Eeschema 上に配置します。\n"
