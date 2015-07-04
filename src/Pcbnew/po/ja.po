@@ -1,4 +1,3 @@
-# Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -6,14 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-06-23 00:44+0900\n"
-"PO-Revision-Date: 2015-07-01 12:49+0900\n"
+"PO-Revision-Date: 2015-07-04 07:11+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title =
 #: Pcbnew.adoc:7
@@ -47,11 +46,11 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
-"このドキュメントは以下の貢献者により著作権所有 (©2010–2014) されています。あ"
-"なたは、GNUGeneralPublicLicense ( http://wwwgnuorg/licenses/gpl.html ),"
-"version3以降、あるいはクリエイティブ·コモンズライセンス ( http://"
-"creativecommonsorg/licenses/by/30/ ),version30以降のいずれかの条件の下で、そ"
-"れを配布し、そして/または、それを変更することができます。"
+"このドキュメントは以下の貢献者により著作権所有 ©2010–2014 されています。あな"
+"たは、GNUGeneralPublicLicense ( http://wwwgnuorg/licenses/gpl.html ),version3"
+"以降、あるいはクリエイティブ·コモンズライセンス ( http://creativecommonsorg/"
+"licenses/by/30/ ),version30以降のいずれかの条件の下で、それを配布し、そして/"
+"または、それを変更することができます。"
 
 #. type: Plain text
 #: Pcbnew.adoc:23
@@ -1159,8 +1158,8 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:201
 msgid ""
 "Load the similar module (image:images/icons/load_module_lib.png[], image:"
-"images/icons/load_module_board.png[] or image:images/icons/import_module."
-"png[])."
+"images/icons/load_module_board.png[] or image:images/icons/import_module.png"
+"[])."
 msgstr ""
 "似たようなモジュールを読み込む(image:images/icons/load_module_lib.png[], "
 "image:images/icons/load_module_board.png[] または image:images/icons/"
@@ -1920,13 +1919,13 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:26
 msgid ""
-"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line."
-"png[] image:images/icons/duplicate_text.png[] image:images/icons/"
+"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line.png"
+"[] image:images/icons/duplicate_text.png[] image:images/icons/"
 "duplicate_module.png[] image:images/icons/duplicate_target.png[] image:"
 "images/icons/duplicate_zone.png[]"
 msgstr ""
-"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line."
-"png[] image:images/icons/duplicate_text.png[] image:images/icons/"
+"image:images/icons/duplicate_pad.png[] image:images/icons/duplicate_line.png"
+"[] image:images/icons/duplicate_text.png[] image:images/icons/"
 "duplicate_module.png[] image:images/icons/duplicate_target.png[] image:"
 "images/icons/duplicate_zone.png[]"
 
@@ -3726,7 +3725,7 @@ msgstr "右のツールバーと同じ機能のものです."
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:250
 msgid "image:images/Pcbnew place menu.png[]"
-msgstr "image:images/Pcbnew place menu.png[]"
+msgstr "image:images/Pcbnew_place_menu.png[]"
 
 #. type: Title ^
 #: Pcbnew_general_operations.adoc:252
@@ -4576,6 +4575,7 @@ msgstr "下の図は、フットプリントライブラリテーブル編集ダ
 msgid "image:images/Footprint_tables_list.png[]"
 msgstr "image:images/Footprint_tables_list.png[]"
 
+# 追記＞これはまた、Eagle や GEDA のような別の PCB エディタからのライブラリを読み出しをサポートします。
 #. type: Plain text
 #: Pcbnew_installation.adoc:79
 msgid ""
@@ -4592,6 +4592,8 @@ msgstr ""
 "ブラリを使用する以前の方法に代わって、フットプリントを探す時に使われます。こ"
 "の仕組みによって適切なライブラリから正しいフットプリントを確実にロードできる"
 "ので、別のライブラリにある同じ名前のフットプリントを呼び出すことができます。"
+"これはまた、Eagle や GEDA のような別の PCB エディタからのライブラリを読み出し"
+"をサポートします。"
 
 #. type: Title ^
 #: Pcbnew_installation.adoc:81
@@ -4720,6 +4722,7 @@ msgstr ""
 msgid "Environment Variable Substitution"
 msgstr "環境変数の代替"
 
+# 変更＞デフォルトのフットプリントライブラリに代わって自分のライブラリを置けるよう `$KISYSMOD` を上書きできます。
 #. type: Plain text
 #: Pcbnew_installation.adoc:157
 msgid ""
@@ -4742,12 +4745,12 @@ msgstr ""
 "す。環境変数の代替は、フットプリントライブラリパスで `${ENV_VAR_NAME}` 構文を"
 "使うことにより、サポートされます。デフォルトでは、実行中 Pcbnew は環境変数 `"
 "$KISYSMOD` を定義します。ここは KiCad と一緒にインストールされたデフォルトの"
-"フットプリントライブラリの場所です。デフォルトのフットプリントライブラリの位"
-"置に自分のライブラリを代わりに置けるよう `$KISYSMOD` を上書きできます。基板が"
-"読み込まれると、Pcbnew はまた基板のファイルパスを使って、`$KPRJMOD` を定義し"
-"ます。これにより、プロジェクト固有のフットプリントライブラリテーブルでライブ"
-"ラリの絶対パスを定義することなく、プロジェクトのあるパスへライブラリを作るこ"
-"とができます。"
+"フットプリントライブラリの場所です。デフォルトのフットプリントライブラリに代"
+"わって自分のライブラリを置けるよう `$KISYSMOD` を上書きできます。基板が読み込"
+"まれると、Pcbnew はまた基板のファイルパスを使って、`$KPRJMOD` を定義します。"
+"これにより、プロジェクト固有のフットプリントライブラリテーブルでライブラリの"
+"絶対パスを定義することなく、プロジェクトのあるパスへライブラリを作ることがで"
+"きます。"
 
 #. type: Title ^
 #: Pcbnew_installation.adoc:159
@@ -4893,6 +4896,7 @@ msgstr ""
 "    | allow_pretty_writing_to_this_dir=${HOME}/pretty/github.pretty\n"
 "    | Liftoff's GH footprints\n"
 
+# 変更＞優先されます
 #. type: Plain text
 #: Pcbnew_installation.adoc:231
 msgid ""
@@ -4903,7 +4907,7 @@ msgid ""
 "loading a footprint with the same name as one for which you've saved locally."
 msgstr ""
 "フットプリントの読み込みは、`allow_pretty_writing_to_this_dir` オプションで指"
-"定されるパスにあるローカルフットプリントが常に優先される。フットプリントエ"
+"定されるパスにあるローカルフットプリントが常に優先されます。フットプリントエ"
 "ディタからフットプリントを保存することで COW ライブラリのローカルディレクトリ"
 "へフットプリントを保存すると、ローカルに保存したフットプリントと同じ名前の"
 "フットプリントを読み込む際に GitHub のアップデートは適用されなくなります。"
@@ -4934,8 +4938,8 @@ msgid ""
 "GitHub repository maintainer, you can help update the GitHub copy.  Simply "
 "email the individual `*.kicad_mod` files you find in your COW directories to "
 "the maintainer of the GitHub repository.  After you've received confirmation "
-"that your changes have been committed, you can safely delete your COW "
-"file(s)  and the updated footprint from the read only part of GitHub library "
+"that your changes have been committed, you can safely delete your COW file"
+"(s)  and the updated footprint from the read only part of GitHub library "
 "will flow down.  Your goal should be to keep the COW file set as small as "
 "possible by contributing frequently to the shared master copies at https://"
 "github.com."
@@ -4974,6 +4978,7 @@ msgstr ""
 msgid "Usage Patterns"
 msgstr "使用パターン"
 
+# 追加＞プロジェクト固有のフットプリントテーブルは、現在開かれているネットリストファイルに対してのみ有効です。
 #. type: Plain text
 #: Pcbnew_installation.adoc:273
 msgid ""
@@ -4992,9 +4997,10 @@ msgstr ""
 "たフットプリントライブラリは常に有効で、ユーザーのホームディレクトリにある "
 "`fp-lib-table` ファイル内に保存されます。グローバルフットプリントライブラリ"
 "は、プロジェクトのネットリストファイルを開いていない時でも、常にアクセスする"
-"ことができます。プロジェクト固有のフットプリントライブラリテーブルは現在開か"
-"れている基板ファイルのパスにある fp-lib-table ファイルに保存されます。どちら"
-"のテーブルにライブラリを定義しても構いません。"
+"ことができます。プロジェクト固有のフットプリントテーブルは、現在開かれている"
+"ネットリストファイルに対してのみ有効です。プロジェクト固有のフットプリントラ"
+"イブラリテーブルは現在開かれている基板ファイルのパスにある fp-lib-table ファ"
+"イルに保存されます。どちらのテーブルにライブラリを定義しても構いません。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:275
@@ -6320,8 +6326,8 @@ msgid ""
 "Directly, via the icon image:images/icons/module_editor.png[] in the main "
 "toolbar of Pcbnew."
 msgstr ""
-"直接、Pcbnewのメインツールバーのアイコン image:images/icons/module_editor."
-"png[] による。"
+"直接、Pcbnewのメインツールバーのアイコン image:images/icons/module_editor.png"
+"[] による。"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:44
@@ -6578,10 +6584,10 @@ msgstr "アクティブなライブラリへのモジュールの保存"
 #: Pcbnew_managing_libs.adoc:167
 msgid ""
 "The action of saving a module (thereby modifying the file of the active "
-"library) is performed using this button image:images/icons/save_library."
-"png[]. If a module of the same name already exists, it will be replaced. "
-"Since you will depend upon the accuracy of the library modules, it is worth "
-"double-checking the module before saving."
+"library) is performed using this button image:images/icons/save_library.png"
+"[]. If a module of the same name already exists, it will be replaced. Since "
+"you will depend upon the accuracy of the library modules, it is worth double-"
+"checking the module before saving."
 msgstr ""
 "モジュールの保存(アクティブなライブラリのファイルの変更)動作は、 image:"
 "images/icons/save_library.png[] ボタンを使用して実行します。同じ名前のモ"
@@ -6621,8 +6627,8 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:180
 msgid ""
-"Select the destination library via the button image:images/icons/library."
-"png[]."
+"Select the destination library via the button image:images/icons/library.png"
+"[]."
 msgstr ""
 "ボタン image:images/icons/library.png[] で移動先ライブラリを選択します。"
 
@@ -6874,8 +6880,8 @@ msgid ""
 msgstr ""
 "配置補助モジュールを移動中、配置を補助するためにモジュールのラッツネスト(ネッ"
 "ト状の結線)を表示させることが可能\n"
-"です。これを有効にするには、左ツールバーの image:images/icons/modratsnest."
-"png[] アイコンをアクティブにしなければなりません。"
+"です。これを有効にするには、左ツールバーの image:images/icons/modratsnest.png"
+"[] アイコンをアクティブにしなければなりません。"
 
 #. type: Title ~
 #: Pcbnew_module_placement.adoc:14
@@ -8384,8 +8390,8 @@ msgstr ""
 #: Pcbnew_schematics.adoc:106
 msgid "Activate footprint mode (image:images/icons/mode_module.png[])"
 msgstr ""
-"フットプリントモードをアクティブにします (image:images/icons/mode_module."
-"png[])"
+"フットプリントモードをアクティブにします (image:images/icons/mode_module.png"
+"[])"
 
 #. type: Plain text
 #: Pcbnew_schematics.adoc:109
