@@ -1105,7 +1105,7 @@ msgstr ""
 "[100002010000001A0000001ACED60702_png] で現在のライブラリを選択することが可能"
 "です。それにより使用可能なすべてのライブラリを表示し、ライブラリを選択するこ"
 "とができます。コンポーネントを読み込んだり保存する場合、このライブラリに対し"
-"て行われます。コンポーネントのライブラリ名はそのフィールド<<Value>>でもありま"
+"て行われます。コンポーネントのライブラリ名はそのvalueフィールドでもありま"
 "す。"
 
 #. type: Plain text
@@ -1499,7 +1499,7 @@ msgid ""
 msgstr ""
 "アイコン image:images/100002010000001A0000001A2D043F72.png"
 "[100002010000001A0000001A2D043F72_png] をクリックするかまたは名前を右クリック"
-"してテキスト<<Value>>を編集し、その名前を変更します。もしも現在のコンポーネン"
+"してvalueテキストを編集し、その名前を変更します。もしも現在のコンポーネン"
 "トと重複した名前を選ぶと、新しいコンポーネント名を入力するように求められるで"
 "しょう。"
 
@@ -10052,13 +10052,13 @@ msgstr "| ページ設定 | ページの寸法とタイトルブロックを設�
 #: Eeschema_main_top_menu.adoc:32
 #, no-wrap
 msgid "|Print |Print schematic hierarchy (See also chapter <<plot-and-print,Plot and Print>>).\n"
-msgstr "| 印刷 | 印刷メニューにアクセスする（ <<プロットと印刷>> の章を参照）。\n"
+msgstr "| 印刷 | 印刷メニューにアクセスする（ <<plot-and-print,プロットと印刷>> の章を参照）。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:34
 #, no-wrap
 msgid "|Plot |Export to PDF, PostScript, HPGL or SVG format (See chapter <<plot-and-print,Plot and Print>>).\n"
-msgstr "| 出図（プロット） | Postscript HPGL あるいは SVF フォーマットで出図 (Export) する（ <<プロットと印刷>> の章を参照）。\n"
+msgstr "| 出図（プロット） | Postscript HPGL あるいは SVF フォーマットで出図 (Export) する（ <<plot-and-print,プロットと印刷>> の章を参照）。\n"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:36
@@ -10157,8 +10157,8 @@ msgid ""
 "components,Rescuing Cached Components>> for more information about that."
 msgstr ""
 "“回路図の読込み時にキャッシュ／ライブラリの衝突をチェック” ボックスはライブラ"
-"リの衝突を救済する設定用に使われます。詳細は、<< キャッシュされたコンポーネン"
-"トのレスキュー >> を参照のこと。"
+"リの衝突を救済する設定用に使われます。詳細は、<<rescuing-cached-components,キャッシュされたコンポーネン"
+"トのレスキュー>> を参照のこと。"
 
 #. type: Title ^
 #: Eeschema_main_top_menu.adoc:83
@@ -10755,7 +10755,7 @@ msgid ""
 msgstr ""
 "回路図が複数のシートから構成される場合を階層構造と呼び、構成する全てのシート"
 "（各シートはそれぞれ１つのファイルから成っています）が Eeschema のプロジェク"
-"トを構成することになります。階層構造を持つ回路図については <<階層回路図>> の"
+"トを構成することになります。階層構造を持つ回路図については <<hierarchical-schematics,階層回路図>> の"
 "章に記述があります。"
 
 #. type: Title ~
@@ -10779,7 +10779,7 @@ msgstr ""
 msgid ""
 "Validating against a set of rules (<<erc,Electrical Rules Check>>) to detect "
 "errors and omissions."
-msgstr "回路図の誤りや欠落の検出。 (<<ERC,Electrical Rules Check>>)"
+msgstr "回路図の誤りや欠落の検出。 (<<erc,ERC（電気的ルールチェック）ツール>>)"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:28
@@ -10797,7 +10797,7 @@ msgid ""
 "simulation software such as SPICE."
 msgstr ""
 "Pspice などの回路シミュレータのためのネットリスト生成。 <<creating-"
-"customized-netlists-and-bom-files,Generating a netlist>>"
+"customized-netlists-and-bom-files,ネットリストの生成>>"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:30
@@ -10806,7 +10806,7 @@ msgid ""
 "transferring to PCB layout."
 msgstr ""
 "PcbNew を利用したプリント基板設計のためのネットリスト生成。 <<creating-"
-"customized-netlists-and-bom-files,Generating a netlist>>"
+"customized-netlists-and-bom-files,ネットリストの生成/ >>"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:34
