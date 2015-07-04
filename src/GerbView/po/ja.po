@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GerbView-ja\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-07-04 19:29+0900\n"
+"PO-Revision-Date: 2015-07-04 23:32+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -864,7 +864,7 @@ msgstr "<<<"
 #: GerbView_chapter_02.adoc:18 GerbView_chapter_03.adoc:15
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "イントロダクション"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:25
@@ -875,12 +875,17 @@ msgid ""
 "Misunderstandings between the PCB designer and photoplot operator account "
 "for a large percent of the bad film produced in this industry."
 msgstr ""
+"設計ソフトウェアがいかに強力であるかに関わらず、最終的にフィルムを作成するた"
+"めにガーバー形式のフォトプロットのファイルを作成する必要があります。いらだち"
+"は、フォトプロットのファイルに含まれていることをよく理解することによって減少"
+"できます。PCB設計者とフォトプロットオペレータ間の誤解が、この業界の不良フィル"
+"ム製造の責任の大部分を占めます。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:27
 #, no-wrap
 msgid "A Brief Description of the Photoplotter"
-msgstr ""
+msgstr "フォトプロッタの簡単な説明"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:36
@@ -893,6 +898,12 @@ msgid ""
 "controller converts Gerber commands into the appropriate table movements, "
 "wheel rotation and shutter opening."
 msgstr ""
+"フォトプロットファイルの詳細に入る前に、フォトプロッタに関する短い議論が、次"
+"の素材を容易に要約することができます。初期のフォトプロッタは、高コントラスト"
+"フィルム片が取り付けられた高精度のサーボ制御XYテーブルから成りました。明るい"
+"光源は、開口部ホイールを通して、シャッターを通して導かれ、フィルム上に集束さ"
+"れます。コントローラは、ガーバーのコマンドを、適切なテーブルの動き、ホイール"
+"の回転そしてシャッターのオープンにコマンド変換します。"
 
 #. type: Target for macro image
 #: GerbView_chapter_02.adoc:37
@@ -904,7 +915,7 @@ msgstr "images/dcodes_0DF000001099C83334C.png"
 #: GerbView_chapter_02.adoc:39
 #, no-wrap
 msgid "*Figure 1* Photoplotter Schematic\n"
-msgstr ""
+msgstr "*図１* フォトプロッタの図解\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:45
@@ -915,6 +926,11 @@ msgid ""
 "proper commands for table motion, aperture selection and shutter operations, "
 "one can construct just about any image on film."
 msgstr ""
+"シャッターが開いた時に、フィルムに開口部の画像を露光させるための開口部を通っ"
+"て光が輝きます。シャッターが開いている間にテーブルが同時に移動すると、線やス"
+"トライプがフィルム上に撮像されます。テーブル移動、開口部の選択そしてシャッ"
+"ター操作のための適切なコマンドを指定すると、あらゆる画像がフィルム上に構築さ"
+"れます。"
 
 #. type: Target for macro image
 #: GerbView_chapter_02.adoc:46
@@ -926,13 +942,13 @@ msgstr "images/dcodes_0EC000000CF385D8124.png"
 #: GerbView_chapter_02.adoc:48
 #, no-wrap
 msgid "*Figure 2* Plotter Operation\n"
-msgstr ""
+msgstr "*Figure 2* プロッタの操作\n"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:50
 #, no-wrap
 msgid "Simplicity: A double-edged sword"
-msgstr ""
+msgstr "シンプルさ： 両刃の剣"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:59
@@ -945,6 +961,12 @@ msgid ""
 "storage space is measured in hundreds of megabytes instead of hundreds of "
 "bytes."
 msgstr ""
+"ガーバーデータベースの美しさはそのシンプルさです。そこには必須のコマンド４つ"
+"と座標データだけがあります。データベースは、初期のマシンが脆弱なパンチ紙テー"
+"プによるものであったため、シンプルかつコンパクトでなければなりませんでした。"
+"ストレージ容量が数百バイトではなく数百メガバイトで計算される時代に、できるだ"
+"け少ないバイトにできるだけ多くの情報を詰め込んでいることが、今日遭遇する多く"
+"の \"問題\" の原因です。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:68
@@ -958,19 +980,26 @@ msgid ""
 "their machine. The result is that one man's feature is the next man's "
 "unsupported problem."
 msgstr ""
+"しかし、シンプルさはそれ相応の対価を求めます。ガーバーファイルは、プロッタを"
+"実行するために必要な基本的な情報を欠いています。この失われたデータは、別途プ"
+"ロッタオペレータにデザイナーから渡されますが、しばしばエラーの原因となりま"
+"す。また、非標準の拡張機能を作成する誘惑には抗えません。全てのフォトプロッタ"
+"メーカーは、基本的なガーバーコマンドに加えて、彼らが自分のマシンを差別化する"
+"ために必要と思う機能をサポートします。結果、ある人にとってお機能は、別の人に"
+"とっての未サポート問題となります。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:70
 #, no-wrap
 msgid "Gerber File Contents"
-msgstr ""
+msgstr "ガーバーファイルの内容"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:74
 msgid ""
 "Below is a simple Gerber file illustrating the structure and content of the "
 "format:"
-msgstr ""
+msgstr "以下は構造とフォーマットの内容を示す単純なガーバーファイルです:"
 
 #. type: delimited block -
 #: GerbView_chapter_02.adoc:88
@@ -1011,12 +1040,16 @@ msgid ""
 "the end of command character. There seems to be different kinds of commands: "
 "instructions beginning with G, D, M and x,y coordinate data."
 msgstr ""
+"右端の行番号は、ファイルの一部ではありません。ガーバーの予備知識なしでこの"
+"ファイルを調べても、各行が特定のマシンのコマンドを表し、アスタリスク（*）がコ"
+"マンド終端の文字であることを正しく推測できるでしょう。異なる種類のコマンドが"
+"あるようです： G 、 D 、 M で始まる命令と座標データ x 、 y 。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:98
 #, no-wrap
 msgid "G-Codes: Setting the Initial Conditions"
-msgstr ""
+msgstr "Gコード: 初期条件の設定"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:103
@@ -1025,12 +1058,15 @@ msgid ""
 "are used to prepare the machine's state prior to drawing. Several G codes "
 "are important to recognize:"
 msgstr ""
+"ガーバーは予備的コードの Gxx コマンドを呼びます。ほとんどの場合、これらのコー"
+"ドは、描画に先立ってマシンの状態を調節するために使用されます。いくつかの G "
+"コードを知っておくことが重要です:"
 
 #. type: Title ^
 #: GerbView_chapter_02.adoc:105
 #, no-wrap
 msgid "G90/G91 Incremental vs. Absolute Coordinates."
-msgstr ""
+msgstr "G90 / G91 増分座標 vs 絶対座標"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:112
@@ -1040,6 +1076,9 @@ msgid ""
 "The converse to absolute is incremental-each coordinate is measured relative "
 "the previous coordinate value and is set by issuing the G91 command."
 msgstr ""
+"1行目の G90 コマンドは、マシンにデータの座標が絶対であることを指示します。座"
+"標の各組は、テーブルの原点（0,0）を基準にしています。絶対の逆は増分で、各座標"
+"は前の座標値と比較して算出され、G91 コマンドを発行して設定されます。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:119
@@ -1051,12 +1090,17 @@ msgid ""
 "display similar to figure 3 on your CAM station you are probably trying to "
 "read a file written with incremental coordinates."
 msgstr ""
+"ほとんどのプログラムは絶対座標がデフォルトであり、G90 コマンドを気にしなくて"
+"よいので、ガーバーファイル中で G90 コマンドを見ないかもしれません。さらに悪い"
+"のは、多くの増分データベースが G91 コマンドも気にしなくてよいことです。CAMス"
+"テーションで図３のような \"星型\" 表示を見た場合、おそらく増分座標で書かれた"
+"ファイルを読み込もうとしているはずです。"
 
 #. type: Title ^
 #: GerbView_chapter_02.adoc:121
 #, no-wrap
 msgid "G70/G71 Inches vs. Millimeters"
-msgstr ""
+msgstr "G70 / G71 インチ vs ミリメートル"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:128
@@ -1067,6 +1111,11 @@ msgid ""
 "rest of the world may be in inches or millimeters. G71 indicates units of "
 "millimeters."
 msgstr ""
+"G70*（2行目）は、続くデータがインチ単位であることを示しています。これもめった"
+"にガーバーファイルで見かけない G コードの例です。米国ではガーバーファイルをイ"
+"ンチで出力することを前提としていますが、世界の他の地域で生成されたファイルは"
+"インチまたはミリメートルかもしれません。 G71 はミリメートルの単位を示していま"
+"す。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:130
@@ -1082,12 +1131,14 @@ msgid ""
 "*Figure 3* Left: correctly displayed. Right: Viewer set to incremental\n"
 "when data is absolute.\n"
 msgstr ""
+"*図 3* 左: 正しく表示されている。右: ビューアが増分座標の設定\n"
+"データが絶対座標の時に\n"
 
 #. type: Title ^
 #: GerbView_chapter_02.adoc:135
 #, no-wrap
 msgid "Tool Select G54"
-msgstr ""
+msgstr "G54 ツール選択"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:144
@@ -1100,12 +1151,18 @@ msgid ""
 "that by specificity Dxx (where xx is not 01,02,03) that the correct tool "
 "should be selected."
 msgstr ""
+"G54 、ツール選択（3行目）は、最も一般的に遭遇する G コードであり、 G54コマン"
+"ドのすぐ後の Dxx によって記述される位置に開口部ホイールを回転するようプロッタ"
+"に指示します。特定のファイル内に G54 が一切無くても慌てないで下さい。 G54 "
+"は、多くのフォトプロッタではオプションコマンドです。いくつかのプログラムはそ"
+"れを使用せず、フォトプロッタは特別な Dxx （ xx は01,02,03ではない）により正し"
+"いツールを選択する必要があることを認識します。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:146
 #, no-wrap
 msgid "Draw and Flash Commands D01, D02, D03"
-msgstr ""
+msgstr "描画とフラッシュのコマンド D01, D02, D03"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:151
@@ -1113,29 +1170,31 @@ msgid ""
 "D-codes are instructions to the photoplotter that naturally include the "
 "letter \"D.\" The first three D-codes control the movement of the x-y table."
 msgstr ""
+"D コードはフォトプロッタへの命令で、文字 \"D\" を含みます。最初の3つの D コー"
+"ドは x-y テーブルの移動を制御します。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:153
 msgid "D01 (D1): move to the x-y location specified with the shutter *open* ."
-msgstr ""
+msgstr "D01 (D1): シャッターを *オープン* にして x-y 位置に移動"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:155
 msgid ""
 "D02 (D2): move to the x-y location specified with the shutter *closed* ."
-msgstr ""
+msgstr "D02 (D2): シャッターを *クローズ* にして x-y 位置に移動"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:157
 msgid ""
 "D03 (D3): move to the x-y location specified with the shutter *closed* ;"
-msgstr ""
+msgstr "D03 (D3): シャッターを *クローズ* にして x-y 位置に移動 ;"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:159
 #, no-wrap
 msgid "*then open and close the shutter* -known as flashing the exposure.\n"
-msgstr ""
+msgstr "*そしてシャッターをオープンしてクローズ* - 露光フラッシュとして知られている\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:163
@@ -1144,6 +1203,9 @@ msgid ""
 "table without exposing any film. D01 and D02 correspond to moving the paper "
 "on a pen plotter with the pen down and pen up."
 msgstr ""
+"D01 は線を描画するコマンドです。 D02 はフィルムを露光せずにテーブルを移動する"
+"ためのコマンドです。 D01 と D02 が、ペンの上げ下げを伴うペンプロッタ上の用紙"
+"の移動に対応しています。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:169
@@ -1153,6 +1215,10 @@ msgid ""
 "leaving the image of the aperture on the film. The flash instruction is an "
 "efficient way to image the thousands of pads present on most circuit boards."
 msgstr ""
+"D03 は \"フラッシュ\" コマンドです。シャッターを閉じた状態でテーブルを移動さ"
+"せます。希望の x-y 座標に到着した時にシャッターが開いて閉じ、フィルム上に開口"
+"部の画像を残します。フラッシュ命令は、ほとんどの回路基板上に存在する大量の"
+"パッドを撮像する効率的な方法です。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:172
@@ -1160,6 +1226,8 @@ msgid ""
 "D01, D02 and D03 commands follow their coordinate data. For example the "
 "following sequence of commands:"
 msgstr ""
+"D01, D02 そして D03 コマンドはそれらの座標データを伴います。例えば次の一連の"
+"コマンドです:"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:176
@@ -1179,6 +1247,8 @@ msgid ""
 "would move the table position to 0,0 with the shutter closed and then would "
 "draw a line from 0,0 to 450,330. A flash would be located at 455,300."
 msgstr ""
+"これは、シャッターを閉じてテーブルを 0,0 位置に移動し、0,0 から 450,330 に線"
+"を引きます。455,300 でフラッシュがなされます。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:182
