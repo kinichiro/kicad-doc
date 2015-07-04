@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GerbView-ja\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-07-01 20:13+0900\n"
-"Last-Translator: yoneken <yoneken@kicad.jp>\n"
+"PO-Revision-Date: 2015-07-04 11:15+0900\n"
+"Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. type: Title =
 #: GerbView.adoc:8
@@ -26,18 +26,18 @@ msgstr "GerbView"
 #: GerbView.adoc:11
 #, no-wrap
 msgid "*GerbView*\n"
-msgstr ""
+msgstr "*GerbView*\n"
 
 #. type: Plain text
 #: GerbView.adoc:13
 msgid "_Reference manual_"
-msgstr ""
+msgstr "_リファレンス・マニュアル_ "
 
 #. type: Plain text
 #: GerbView.adoc:16
 #, no-wrap
 msgid "*Copyright*\n"
-msgstr ""
+msgstr "*著作権*\n"
 
 #. type: Plain text
 #: GerbView.adoc:22
@@ -48,28 +48,33 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
+"このドキュメントは以下の貢献者により著作権所有(© 2010-2014)されています。あな"
+"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
+"バージョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
+"で、配布または変更することができます 。"
 
 #. type: Plain text
 #: GerbView.adoc:24
 msgid "All trademarks within this guide belong to their legitimate owners."
-msgstr ""
+msgstr "このガイドの中のすべての商標は、正当な所有者に帰属します。"
 
 #. type: Plain text
 #: GerbView.adoc:27
 #, no-wrap
 msgid "*Contributors*\n"
-msgstr ""
+msgstr "*貢献者*\n"
 
 #. type: Plain text
 #: GerbView.adoc:29
 msgid "The KiCad Team."
-msgstr ""
+msgstr "The KiCad Team."
 
 #. type: Plain text
 #: GerbView.adoc:32
 #, no-wrap
 msgid "*Feedback*\n"
-msgstr ""
+msgstr "*フィードバック*\n"
 
 #. type: Plain text
 #: GerbView.adoc:35
@@ -77,57 +82,60 @@ msgid ""
 "Please direct any comments or suggestions about this document to the KiCad "
 "mailing list: _https://launchpad.net/~kicad-developers_"
 msgstr ""
+"このドキュメントに関するコメントや提案をKiCad メーリングリストに送ってくださ"
+"い:   _https://launchpad.net/~kicad-developers_"
 
 #. type: Plain text
 #: GerbView.adoc:38
 #, no-wrap
 msgid "*Acknowledgments*\n"
-msgstr ""
+msgstr "*謝辞*\n"
 
 #. type: Plain text
 #: GerbView.adoc:40
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #. type: Plain text
 #: GerbView.adoc:43
 #, no-wrap
 msgid "*Publication date and software version*\n"
-msgstr ""
+msgstr "*発行日とソフトウエアのバージョン*\n"
 
 #. type: Plain text
 #: GerbView.adoc:45
 msgid "Published on February 14, 2015."
-msgstr ""
+msgstr "2015年2月14日 発行"
 
 #. type: Plain text
 #: GerbView.adoc:48
 #, no-wrap
 msgid "*Note for Mac users*\n"
-msgstr ""
+msgstr "*Mac ユーザへの注記*\n"
 
 #. type: Plain text
 #: GerbView.adoc:50
 msgid "The KiCad support for the Apple OS X operating system is experimental."
 msgstr ""
+"Apple OS X のオペレーティングシステム用のKiCad のサポートは実験的なものです。"
 
 #. Since docbook "article" is more compact, I have to separate this page
 #. type: Plain text
 #: GerbView.adoc:53
 msgid "<<<<"
-msgstr ""
+msgstr "<<<<"
 
 #. type: Title -
 #: GerbView_chapter_01.adoc:2
 #, no-wrap
 msgid "Using GerbView"
-msgstr ""
+msgstr "GerbViewの使用"
 
 #. type: Title ~
 #: GerbView_chapter_01.adoc:5
 #, no-wrap
 msgid "Introduction to GerbView"
-msgstr ""
+msgstr "GerbView の紹介"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:9
@@ -135,22 +143,28 @@ msgid ""
 "GerbView is a Gerber files viewer (RS 274 X format), and also is able to "
 "display drill files from Pcbnew (Excellon format)."
 msgstr ""
+"GerbView は、ガーバーファイル (RS 274 X フォーマット)のビューアであり、 "
+"Pcbnew で作成したドリルファイル( Excellon フォーマット)も表示することができま"
+"す。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:11
 msgid "It accepts up to 32 files (Gerber and/or Drill files)"
 msgstr ""
+"合計32個のファイル (ガーバーファイル あるいは ドリルファイル)まで読込むことが"
+"できます。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:13
 msgid "Files can be displayed using a transparency mode or stacked mode."
 msgstr ""
+"ファイル（各レイヤ）は透過モードあるいはスタックモードを使って表示されます。"
 
 #. type: Title ~
 #: GerbView_chapter_01.adoc:15
 #, no-wrap
 msgid "Main Screen:"
-msgstr ""
+msgstr "メイン画面:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:18
@@ -161,7 +175,7 @@ msgstr "image:images/ja/3360000029F09D033B0.png[3360000029F09D033B0_png]"
 #: GerbView_chapter_01.adoc:20
 #, no-wrap
 msgid "Upper toolbar:"
-msgstr ""
+msgstr "上部のツールバー:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:23
@@ -175,6 +189,8 @@ msgid ""
 "|image:images/02300000024FBC55C9F.png[02300000024FBC55C9F_png]\n"
 "|Clear all layers\n"
 msgstr ""
+"|image:images/02300000024FBC55C9F.png[02300000024FBC55C9F_png]\n"
+"|全てのレイヤーをクリア\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:31
@@ -183,6 +199,8 @@ msgid ""
 "|image:images/0200000002457CCFCE9.png[0200000002457CCFCE9_png]\n"
 "|Load Gerber files\n"
 msgstr ""
+"|image:images/0200000002457CCFCE9.png[0200000002457CCFCE9_png]\n"
+"|ガーバーファイルの読み込み\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:34
@@ -191,6 +209,8 @@ msgid ""
 "|image:images/02100000024EB14912C.png[02100000024EB14912C_png]\n"
 "|Load drill files (Excellon format from Pcbnew)\n"
 msgstr ""
+"|image:images/02100000024EB14912C.png[02100000024EB14912C_png]\n"
+"|ドリルファイル(Pcbnewで作成したExcellon フォーマット )の読み込み\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:37
@@ -199,6 +219,8 @@ msgid ""
 "|image:images/02200000024BE5ADAA7.png[02200000024BE5ADAA7_png]\n"
 "|Set page size for printing and show/hide page limits\n"
 msgstr ""
+"|image:images/02200000024BE5ADAA7.png[02200000024BE5ADAA7_png]\n"
+"|印刷用の用紙サイズ設定、ページ制限の表示／非表示を設定\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:40
@@ -207,6 +229,8 @@ msgid ""
 "|image:images/02400000024A913E3D7.png[02400000024A913E3D7_png]\n"
 "|Open print dialog\n"
 msgstr ""
+"|image:images/02400000024A913E3D7.png[02400000024A913E3D7_png]\n"
+"|印刷ダイアログを開く\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:43
@@ -215,6 +239,8 @@ msgid ""
 "|image:images/045000000244408D83B.png[045000000244408D83B_png]\n"
 "|Zoom in and out\n"
 msgstr ""
+"|image:images/045000000244408D83B.png[045000000244408D83B_png]\n"
+"|ズームイン・アウト\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:46
@@ -223,6 +249,8 @@ msgid ""
 "|image:images/01F00000024DD76E9AF.png[01F00000024DD76E9AF_png]\n"
 "|Refresh screen\n"
 msgstr ""
+"|image:images/01F00000024DD76E9AF.png[01F00000024DD76E9AF_png]\n"
+"|画面を再描画\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:49
@@ -231,6 +259,8 @@ msgid ""
 "|image:images/0220000002491A62928.png[0220000002491A62928_png]\n"
 "|Zoom fit in page\n"
 msgstr ""
+"|image:images/0220000002491A62928.png[0220000002491A62928_png]\n"
+"|ページにズームを合わせる\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:52
@@ -266,13 +296,13 @@ msgstr ""
 #: GerbView_chapter_01.adoc:61
 #, no-wrap
 msgid "Left toolbar:"
-msgstr ""
+msgstr "左のツールバー:"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:64
 #, no-wrap
 msgid "Options:"
-msgstr ""
+msgstr "オプション設定:"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:71
@@ -282,6 +312,9 @@ msgid ""
 "|image:images/0230000002297132A4B.png[0230000002297132A4B_png]\n"
 "|Grid on / off\n"
 msgstr ""
+".10+^.^|image:images/026000001BEE0A3377E.png[026000001BEE0A3377E_png]\n"
+"|image:images/0230000002297132A4B.png[0230000002297132A4B_png]\n"
+"|グリッド表示のオン/オフ\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:74
@@ -290,6 +323,8 @@ msgid ""
 "|image:images/02200000024A5DABF2F.png[02200000024A5DABF2F_png]\n"
 "|Display polar coordinates on / off\n"
 msgstr ""
+"|image:images/02200000024A5DABF2F.png[02200000024A5DABF2F_png]\n"
+"|座標系の切り替え（直交座標/極座標）\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:77
@@ -298,6 +333,8 @@ msgid ""
 "|image:images/02200000040EBBD93BF.png[02200000040EBBD93BF_png]\n"
 "|Units selection to display coordinates\n"
 msgstr ""
+"|image:images/02200000040EBBD93BF.png[02200000040EBBD93BF_png]\n"
+"|単位系の選択(Inch/mm)\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:80
@@ -306,6 +343,8 @@ msgid ""
 "|image:images/02200000021210A7A5E.png[02200000021210A7A5E_png]\n"
 "|On grid cursor shape selection\n"
 msgstr ""
+"|image:images/02200000021210A7A5E.png[02200000021210A7A5E_png]\n"
+"|グリッド上のカーソル形状の選択\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:83
@@ -314,6 +353,8 @@ msgid ""
 "|image:images/0220000002219346E01.png[0220000002219346E01_png]\n"
 "|Display mode selection (solid or outlines) for flashed items\n"
 msgstr ""
+"|image:images/0220000002219346E01.png[0220000002219346E01_png]\n"
+"|フラッシュアイテム表示モードの選択（塗りつぶし表示/輪郭のみ）\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:86
@@ -322,6 +363,8 @@ msgid ""
 "|image:images/02200000021B60BCA1E.png[02200000021B60BCA1E_png]\n"
 "|Display mode selection (solid or outlines) for lines\n"
 msgstr ""
+"|image:images/02200000021B60BCA1E.png[02200000021B60BCA1E_png]\n"
+"|ラインアイテム表示モードの選択（塗りつぶし表示/輪郭のみ）\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:89
@@ -330,6 +373,8 @@ msgid ""
 "|image:images/022000000210325F1DA.png[022000000210325F1DA_png]\n"
 "|Display mode selection (solid or outlines) for polygons\n"
 msgstr ""
+"|image:images/022000000210325F1DA.png[022000000210325F1DA_png]\n"
+"|ポリゴンの表示モードの選択(塗りつぶし表示/輪郭のみ)\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:92
@@ -338,6 +383,8 @@ msgid ""
 "|image:images/022000000227C688616.png[022000000227C688616_png]\n"
 "|Show / hide D Codes values (for items using a dcode)\n"
 msgstr ""
+"|image:images/022000000227C688616.png[022000000227C688616_png]\n"
+"|D コード値の表示/非表示 ( D コードを使用したアイテムのみ )\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:95
@@ -346,6 +393,8 @@ msgid ""
 "|image:images/02200000064732E80FB.png[02200000064732E80FB_png]\n"
 "|Mode used by Gerbview to show layers.\n"
 msgstr ""
+"|image:images/02200000064732E80FB.png[02200000064732E80FB_png]\n"
+"|Gerbviewのレイヤー表示モードの切り替え\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:98
@@ -354,12 +403,14 @@ msgid ""
 "|image:images/02100000024D9139755.png[02100000024D9139755_png]\n"
 "|Show / hide the layers manager\n"
 msgstr ""
+"|image:images/02100000024D9139755.png[02100000024D9139755_png]\n"
+"|レイヤマネージャを表示/非表示\n"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:102
 #, no-wrap
 msgid "Layer Manager:"
-msgstr ""
+msgstr "レイヤーマネージャ:"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:109
@@ -380,12 +431,14 @@ msgid ""
 "* Select the active layer\n"
 "* Show/hide layers\n"
 msgstr ""
+"* アクティブレイヤーの選択\n"
+"* レイヤーの表示/非表示\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:114
 #, no-wrap
 msgid "The active layer is drawn after the other layers.\n"
-msgstr ""
+msgstr "アクティブレイヤーは最後に（最前面で）描画されます。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:117
@@ -393,13 +446,13 @@ msgstr ""
 msgid ""
 "When loading a new file, the active layer is used (the new data replace\n"
 "the previous data)\n"
-msgstr ""
+msgstr "新しいファイルをロードする際 には、アクティブレイヤーが使用されます (新しいデータは以前のデータを置き換えます)。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:119
 #, no-wrap
 msgid "Note:\n"
-msgstr ""
+msgstr "注記:\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:123
@@ -409,12 +462,15 @@ msgid ""
 "* Mouse right click on the layer manager: show/hide all layers\n"
 "* Mouse middle click on a icon: select the layer color.\n"
 msgstr ""
+"* 項目を左クリック: アクティブレイヤーを選択\n"
+"* レイヤーマネージャの上でマウスを右クリック: 全てのレイヤの表示/非表示を切替\n"
+"* カラーアイコンの上でマウスを中クリック：表示色の選択\n"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:127
 #, no-wrap
 msgid "Modes to show Gerber layers:"
-msgstr ""
+msgstr "ガーバーレイヤーの表示モード:"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:134
@@ -424,6 +480,9 @@ msgid ""
 "a|\n"
 "«Raw» mode.\n"
 msgstr ""
+"|image:images/022000000247878A42D.png[022000000247878A42D_png]\n"
+" |\n"
+"«Raw» モード\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:137
@@ -432,12 +491,14 @@ msgid ""
 "Each gerber file and each item is files are drawn in the order files are\n"
 "loaded.\n"
 msgstr ""
+"それぞれのガーバーファイルとアイテムはファイルが\n"
+"読込まれた順に描画されます。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:139
 #, no-wrap
 msgid "However the «active layer» is draw last.\n"
-msgstr ""
+msgstr "しかし、 «アクティブレイヤー» のみ最後に描画されます。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:142
@@ -446,12 +507,14 @@ msgid ""
 "When Gerber files have negative items (drawn in black) artefacts are\n"
 "visible on already drawn layers\n"
 msgstr ""
+"ガーバーファイルに（黒で描かれる）ネガのアイテムがある場合、\n"
+"すでに描画されたレイヤー上に画像の乱れが生じます。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:145 GerbView_chapter_01.adoc:161
 #, no-wrap
 msgid "|image:images/1E300000128112D054B.png[1E300000128112D054B_png]\n"
-msgstr ""
+msgstr "|image:images/1E300000128112D054B.png[1E300000128112D054B_png]\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:149
@@ -461,18 +524,21 @@ msgid ""
 "a|\n"
 "«Stacked» mode.\n"
 msgstr ""
+"|image:images/0220000001F3490EB21.png[0220000001F3490EB21_png]\n"
+" |\n"
+"«スタック» モード\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:151
 #, no-wrap
 msgid "Each gerber file is drawn in the order files are loaded.\n"
-msgstr ""
+msgstr "それぞれのガーバーファイルは、ファイルが読込まれた順に描画されます。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:153
 #, no-wrap
 msgid "The « active layer » is draw last.\n"
-msgstr ""
+msgstr "« アクティブレイヤー » のみ最後に描画されます。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:158
@@ -483,6 +549,10 @@ msgid ""
 "a local buffer before show it on screen. Negative items do not create\n"
 "artefacts.\n"
 msgstr ""
+"このモードでは、画面上に表示する前にローカル·バッファ内の各ファイルを描画するので、\n"
+"ガーバーファイルに（黒で描かれる）ネガのアイテムがある場合でも、\n"
+"すでに描画されたレイヤー上に画像の乱れは生じません。\n"
+"ネガのアイテムは、画像の乱れをおこしません。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:165
@@ -492,17 +562,20 @@ msgid ""
 "|Transparency mode\n"
 "|image:images/1E5000001173F9F077E.png[1E5000001173F9F077E_png]\n"
 msgstr ""
+"|image:images/02200000020BC136BD9.png[02200000020BC136BD9_png]\n"
+"|透過モード\n"
+"|image:images/1E5000001173F9F077E.png[1E5000001173F9F077E_png]\n"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:168
 #, no-wrap
 msgid "Effect of layer selection for drawings:"
-msgstr ""
+msgstr "図面のレイヤー選択の効果:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:171
 msgid "This effect is visible only in raw or stacked mode."
-msgstr ""
+msgstr "この効果はrawモード、スタックモードでのみ有効です。"
 
 #. type: delimited block |
 #: GerbView_chapter_01.adoc:176
@@ -528,26 +601,29 @@ msgstr ""
 #: GerbView_chapter_01.adoc:182
 #, no-wrap
 msgid "Print layers:"
-msgstr ""
+msgstr "レイヤーの印刷:"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:185
 #, no-wrap
 msgid "Print dialog access:"
-msgstr ""
+msgstr "印刷ダイアログへのアクセス:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:190
 msgid ""
-"To print layers, use the image:images/02400000024A913E3D7."
-"png[02400000024A913E3D7_png] tool, or the main menu (files)"
+"To print layers, use the image:images/02400000024A913E3D7.png"
+"[02400000024A913E3D7_png] tool, or the main menu (files)"
 msgstr ""
+"レイヤーを印刷するには、画面上部のツールバーより image:"
+"images/02400000024A913E3D7.png[02400000024A913E3D7_png] ツール、あるいはファ"
+"イルメニューより印刷を使用します。"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:192
 #, no-wrap
 msgid "Caution:"
-msgstr ""
+msgstr "注意:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:197
@@ -556,6 +632,9 @@ msgid ""
 "images/02200000024BE5ADAA7.png[02200000024BE5ADAA7_png] a suitable page "
 "format)."
 msgstr ""
+"印刷対象が、印刷範囲の中に含まれていること（ image:"
+"images/02200000024BE5ADAA7.png[02200000024BE5ADAA7_png] により適切なページ"
+"フォーマットが選択されていること）を確認して下さい。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:200
@@ -563,17 +642,21 @@ msgid ""
 "Do not forget photoplotters uses large plottable area, bigger than page "
 "sizes used by printers)"
 msgstr ""
+"一般的なフォトプロッタは、家庭/オフィス用のプリンタで印刷できる用紙サイズより"
+"大きなサイズで出力されることに注意して下さい。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:202
 msgid "Moving (by block move command) the entire layers is often needed."
 msgstr ""
+"場合によっては、全てのレイヤーをブロック移動コマンドによって移動する必要があ"
+"ります。"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:204
 #, no-wrap
 msgid "Move block command:"
-msgstr ""
+msgstr "ブロック移動コマンド:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:208
@@ -581,43 +664,45 @@ msgid ""
 "You can move items by select them (drag mouse with left button down) and "
 "move the selected area on screen."
 msgstr ""
+"マウス左ボタンを押しながらドラッグし、画面上で選択したい範囲を選択すること"
+"で、そこに含まれた対象を移動することができます。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:210
 msgid "Click the left button to place the moving area, currently selected."
-msgstr ""
+msgstr "現在選択され、移動中の領域は、左のボタンをクリックして 配置します。"
 
 #. type: Title ~
 #: GerbView_chapter_01.adoc:212
 #, no-wrap
 msgid "Commands in menu bar:"
-msgstr ""
+msgstr "メニューバーのコマンド:"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:215
 #, no-wrap
 msgid "Menu Files:"
-msgstr ""
+msgstr "ファイルメニュー:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:218
 msgid "image:images/0B00000014A8CB8D3BC.png[0B00000014A8CB8D3BC_png]"
-msgstr "image:images/ja/0B00000014A8CB8D3BC.png[0B00000014A8CB8D3BC_png]"
+msgstr "image:images/0B00000014A8CB8D3BC.png[0B00000014A8CB8D3BC_png]"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:220
 msgid "There are 2 special commands:"
-msgstr ""
+msgstr "2つの特別なコマンドがあります。:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:222
 msgid "Load Dcodes."
-msgstr ""
+msgstr "Dコード読み込み"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:223
 msgid "Export to Pcbnew."
-msgstr ""
+msgstr "Pcbnew へエクスポート"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:226
@@ -625,22 +710,25 @@ msgid ""
 "Load Dcodes is now obsolete. It is used to load a Dcode file definition when "
 "using old RS 274 D Gerber files."
 msgstr ""
+"D コードの読み込みは現在は廃止されています。 それは、古い RS274 D のガーバー"
+"ファイルを使用する場合 D コードのファイル定義を読み込むのに使用されています。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:228
 msgid "Unfortunately, Dcode file definition has no standard format."
-msgstr ""
+msgstr "残念ながら、D コードのファイル定義は、標準フォーマットではありません。"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:230
 #, no-wrap
 msgid "Export to Pcbnew"
-msgstr ""
+msgstr "Pcbnew へのエクスポート"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:233
 msgid "GerbView has a limited capability to export Gerber files to Pcbnew."
 msgstr ""
+"PcbnewへガーバーファイルをエクスポートするGerbViewの能力には限界があります。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:236
@@ -648,6 +736,8 @@ msgid ""
 "The final result depends on what features of RS 274 X format are used in "
 "Gerber Files."
 msgstr ""
+"最終結果はガーバーファイル内で RS 274 X フォーマットがどういった形で使われて"
+"いるかによります。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:239
@@ -655,11 +745,13 @@ msgid ""
 "RS 274 X format has raster oriented features that cannot be converted "
 "(mainly all features relative to negative objects)."
 msgstr ""
+"RS 274 X フォーマットは、変換できないラスター形式の特徴を持っています(主にネ"
+"ガのオブジェクトに関係する全ての機能)。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:241
 msgid "Flashed items are converted to vias."
-msgstr ""
+msgstr "フラッシュのアイテムはビアに変換されます。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:244
@@ -667,6 +759,8 @@ msgid ""
 "Lines items are converted to track segments (or graphic lines for non copper "
 "layers)"
 msgstr ""
+"ラインのアイテムはトラックセグメント、もしくは銅箔レイヤーではないレイヤーに"
+"線として変換されます。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:247
@@ -674,38 +768,41 @@ msgid ""
 "So the usability of the converted file is very dependent of the way Gerber "
 "files were built by the Pcb tool."
 msgstr ""
+"そのため、変換されたファイルの扱いやすさは、PCB ツールがガーバーファイルを作"
+"成した方法に大きく依存します。"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:249
 #, no-wrap
 msgid "Preference menu:"
-msgstr ""
+msgstr "設定メニュー:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:252
 msgid "image:images/0A1000000964D11366E.png[0A1000000964D11366E_png]"
-msgstr "image:images/ja/0A1000000964D11366E.png[0A1000000964D11366E_png]"
+msgstr "image:images/0A1000000964D11366E.png[0A1000000964D11366E_png]"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:254
 msgid "Gives access to the hot keys editor, and some options to display items."
-msgstr ""
+msgstr "ホットキーエディターと表示項目のオプションへのアクセスが可能です。"
 
 #. type: Title ^
 #: GerbView_chapter_01.adoc:256
 #, no-wrap
 msgid "Miscellaneous menu:"
-msgstr ""
+msgstr "その他のメニュー:"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:259
 msgid "image:images/07C000000A353743B55.png[07C000000A353743B55_png]"
-msgstr "image:images/ja/07C000000A353743B55.png[07C000000A353743B55_png]"
+msgstr "image:images/07C000000A353743B55.png[07C000000A353743B55_png]"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:261
 msgid "List Dcodes shows Dcodes in use and some of Dcodes parameters."
 msgstr ""
+"D コードのリスト：使用されている D コードと D コードパラメータを表示します。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:263
@@ -713,50 +810,55 @@ msgid ""
 "Show Source display the Gerber file content of the active layer in a text "
 "editor."
 msgstr ""
+"ソースの表示：テキストエディタにアクティブレイヤーとなっているガーバーファイ"
+"ルの内容を表示します。"
 
 #. type: Plain text
 #: GerbView_chapter_01.adoc:264
 msgid "Clear Layer erase the content of the active layer."
-msgstr ""
+msgstr "レイヤーのクリア : アクティブレイヤの内容を削除します。"
 
 #. type: Title -
 #: GerbView_chapter_02.adoc:2
 #, no-wrap
 msgid "Gerber Format Info"
-msgstr ""
+msgstr "ガーバーフォーマット情報"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:6
 msgid ""
 "image:images/dcodes_5EB0000016B59714152.png[dcodes_5EB0000016B59714152_png,"
-"scaledwidth=\"50%\"] image:images/dcodes_09D000000A3540174CA."
-"png[dcodes_09D000000A3540174CA_png,scaledwidth=\"50%\"]"
+"scaledwidth=\"50%\"] image:images/dcodes_09D000000A3540174CA.png"
+"[dcodes_09D000000A3540174CA_png,scaledwidth=\"50%\"]"
 msgstr ""
+"image:images/dcodes_5EB0000016B59714152.png[dcodes_5EB0000016B59714152_png,"
+"scaledwidth=\"50%\"] image:images/dcodes_09D000000A3540174CA.png"
+"[dcodes_09D000000A3540174CA_png,scaledwidth=\"50%\"]"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:8 GerbView_chapter_03.adoc:5
 msgid "mailto:steve@artwork.com[Steve DiBartolomeo]"
-msgstr ""
+msgstr "mailto:steve@artwork.com[Steve DiBartolomeo]"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:10 GerbView_chapter_03.adoc:7
 msgid "Applications Manager"
-msgstr ""
+msgstr "Applications Manager"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:12 GerbView_chapter_03.adoc:9
 msgid "Artwork Conversion Software, Inc."
-msgstr ""
+msgstr "Artwork Conversion Software, Inc."
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:14
 msgid "© 1991 Artwork Conversion Software, Inc."
-msgstr ""
+msgstr "© 1991 Artwork Conversion Software, Inc."
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:16 GerbView_chapter_03.adoc:13
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:18 GerbView_chapter_03.adoc:15
@@ -796,7 +898,7 @@ msgstr ""
 #: GerbView_chapter_02.adoc:37
 #, no-wrap
 msgid "images/dcodes_0DF000001099C83334C.png"
-msgstr ""
+msgstr "images/dcodes_0DF000001099C83334C.png"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:39
@@ -818,7 +920,7 @@ msgstr ""
 #: GerbView_chapter_02.adoc:46
 #, no-wrap
 msgid "images/dcodes_0EC000000CF385D8124.png"
-msgstr ""
+msgstr "images/dcodes_0EC000000CF385D8124.png"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:48
@@ -887,6 +989,18 @@ msgid ""
 "X0Y0D02*     11\n"
 "M02*         12\n"
 msgstr ""
+"G90*         1\n"
+"G70*         2\n"
+"G54D10*      3\n"
+"G01X0Y0D02*  4\n"
+"X450Y330D01* 5\n"
+"X455Y300D03* 6\n"
+"G54D11*      7\n"
+"Y250D03*     8\n"
+"Y200D03*     9\n"
+"Y150D03*     10\n"
+"X0Y0D02*     11\n"
+"M02*         12\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:96
@@ -959,6 +1073,7 @@ msgstr ""
 msgid ""
 "image:images/dcodes_0F5000000796F138525.png[dcodes_0F5000000796F138525_png]"
 msgstr ""
+"image:images/dcodes_0F5000000796F138525.png[dcodes_0F5000000796F138525_png]"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:133
@@ -1054,6 +1169,9 @@ msgid ""
 " X450Y330D01*\n"
 " X455Y300D03*\n"
 msgstr ""
+" X0Y0D02*\n"
+" X450Y330D01*\n"
+" X455Y300D03*\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:180
@@ -1109,6 +1227,20 @@ msgid ""
 " 70      11      72      23\n"
 " 71      12      73      24\n"
 msgstr ""
+"D-code Aperture D-code Aperture\n"
+"       Position        Position\n"
+" 10      1       20      13\n"
+" 11      2       21      14\n"
+" 12      3       22      15\n"
+" 13      4       23      16\n"
+" 14      5       24      17\n"
+" 15      6       25      18\n"
+" 16      7       26      19\n"
+" 17      8       27      20\n"
+" 18      9       28      21\n"
+" 19      10      29      22\n"
+" 70      11      72      23\n"
+" 71      12      73      24\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:219
@@ -1194,6 +1326,9 @@ msgid ""
 " X00670Y00305D01*\n"
 " X00700Y00305D01*\n"
 msgstr ""
+" X00560Y00320D02*\n"
+" X00670Y00305D01*\n"
+" X00700Y00305D01*\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:262
@@ -1265,6 +1400,10 @@ msgid ""
 "|X00670Y00305D01*   |X670Y305D1*\n"
 "|X00700Y00305D01*   |X700Y305D1*\n"
 msgstr ""
+"|No Zero Suppression|Leading Zero Suppression\n"
+"|X00560Y00320D02*   |X560Y230D2*\n"
+"|X00670Y00305D01*   |X670Y305D1*\n"
+"|X00700Y00305D01*   |X700Y305D1*\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:301
@@ -1290,6 +1429,10 @@ msgid ""
 "|X00670Y00305D01*   |X0067Y00305D1*\n"
 "|X00700Y00305D01*   |X007Y00305D1*\n"
 msgstr ""
+"|No Zero Suppression|Trailing Zero Suppression\n"
+"|X00560Y00320D02*   |X0056Y0032D2*\n"
+"|X00670Y00305D01*   |X0067Y00305D1*\n"
+"|X00700Y00305D01*   |X007Y00305D1*\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:315
@@ -1343,6 +1486,10 @@ msgid ""
 "|X670Y305D1*    |X670Y305D1*\n"
 "|X700Y305D1*    |X700D1*\n"
 msgstr ""
+"|All Coordinates|Modal Coordinates\n"
+"|X560Y230D2*    |X560Y230D2*\n"
+"|X670Y305D1*    |X670Y305D1*\n"
+"|X700Y305D1*    |X700D1*\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:349
@@ -1383,6 +1530,13 @@ msgid ""
 "|X760D1*     |X760D1*\n"
 "|Y335D1*     |Y335D1*\n"
 msgstr ""
+"|D1 not modal|D1 modal\n"
+"|X560Y230D2* |X560Y230D2*\n"
+"|X670Y305D1* |X670Y305D1*\n"
+"|X700D1*     |X700D1*\n"
+"|X730D1*     |X730D1*\n"
+"|X760D1*     |X760D1*\n"
+"|Y335D1*     |Y335D1*\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:373
@@ -1444,12 +1598,12 @@ msgstr ""
 #: GerbView_chapter_02.adoc:400
 #, no-wrap
 msgid " GNN XNNNN YNNNN INNNN JNNNN DNN *\n"
-msgstr ""
+msgstr " GNN XNNNN YNNNN INNNN JNNNN DNN *\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:402
 msgid "_Example:_ +G02X40Y30150J0D01*+"
-msgstr ""
+msgstr "_Example:_ +G02X40Y30150J0D01*+"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:407
@@ -1479,7 +1633,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:11
 msgid "© 1995 Artwork Conversion Software, Inc."
-msgstr ""
+msgstr "© 1995 Artwork Conversion Software, Inc."
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:21
@@ -1584,7 +1738,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:59
 msgid "http://www.barco.com/ets/data/rs274xc.pdf"
-msgstr ""
+msgstr "http://www.barco.com/ets/data/rs274xc.pdf"
 
 #. type: Title ~
 #: GerbView_chapter_03.adoc:61
@@ -1619,6 +1773,7 @@ msgstr ""
 msgid ""
 "image:images/rs274x_1E80000005C6AC0D0B8.png[rs274x_1E80000005C6AC0D0B8_png]"
 msgstr ""
+"image:images/rs274x_1E80000005C6AC0D0B8.png[rs274x_1E80000005C6AC0D0B8_png]"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:73
@@ -1695,7 +1850,7 @@ msgstr ""
 #: GerbView_chapter_03.adoc:102 GerbView_chapter_03.adoc:405
 #: GerbView_chapter_03.adoc:526
 msgid "%FSLAX24Y24*%"
-msgstr ""
+msgstr "%FSLAX24Y24*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:105
@@ -1706,7 +1861,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:107
 msgid "%FSTIX44Y44*%"
-msgstr ""
+msgstr "%FSTIX44Y44*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:110
@@ -1758,6 +1913,7 @@ msgstr ""
 msgid ""
 "image:images/rs274x_1F700000047006E6E3A.png[rs274x_1F700000047006E6E3A_png]"
 msgstr ""
+"image:images/rs274x_1F700000047006E6E3A.png[rs274x_1F700000047006E6E3A_png]"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:132
@@ -1805,27 +1961,27 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:153
 msgid "d10 round 0.010"
-msgstr ""
+msgstr "d10 round 0.010"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:155
 msgid "d11 square 0.030"
-msgstr ""
+msgstr "d11 square 0.030"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:157
 msgid "d12 rect 0.060 0.020"
-msgstr ""
+msgstr "d12 rect 0.060 0.020"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:159
 msgid "d13 thermal 0.050"
-msgstr ""
+msgstr "d13 thermal 0.050"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:161
 msgid "d14 oblong 0.060 0.025"
-msgstr ""
+msgstr "d14 oblong 0.060 0.025"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:165
@@ -1840,6 +1996,7 @@ msgstr ""
 msgid ""
 "image:images/rs274x_1540000006E37B1F5CF.png[rs274x_1540000006E37B1F5CF_png]"
 msgstr ""
+"image:images/rs274x_1540000006E37B1F5CF.png[rs274x_1540000006E37B1F5CF_png]"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:169
@@ -1910,7 +2067,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:195
 msgid "%ADD\\{code}C,\\{$1}X\\{$2}X\\{$3}*%"
-msgstr ""
+msgstr "%ADD\\{code}C,\\{$1}X\\{$2}X\\{$3}*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:197 GerbView_chapter_03.adoc:237
@@ -1964,16 +2121,17 @@ msgstr ""
 msgid ""
 "image:images/rs274x_20300000099C4F54E0A.png[rs274x_20300000099C4F54E0A_png]"
 msgstr ""
+"image:images/rs274x_20300000099C4F54E0A.png[rs274x_20300000099C4F54E0A_png]"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:218
 msgid "%ADD21C,.100*% _(a) 0.10 diameter circle on d21_"
-msgstr ""
+msgstr "%ADD21C,.100*% _(a) 0.10 diameter circle on d21_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:220
 msgid "%ADD22C,.100X.050*% _(b) 0.10 dia circle with 0.05 hole_"
-msgstr ""
+msgstr "%ADD22C,.100X.050*% _(b) 0.10 dia circle with 0.05 hole_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:222
@@ -1983,7 +2141,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:224
 msgid "%ADD23C,.100X.050X.050*% _(c) 0.10 dia circle with 0.05 square_"
-msgstr ""
+msgstr "%ADD23C,.100X.050X.050*% _(c) 0.10 dia circle with 0.05 square_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:226
@@ -1993,7 +2151,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:228
 msgid "%ADD24C,.100X.050X.025*% _(d) 0.10 dia circle with 0.05 x 0.025_"
-msgstr ""
+msgstr "%ADD24C,.100X.050X.025*% _(d) 0.10 dia circle with 0.05 x 0.025_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:230
@@ -2009,7 +2167,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:235
 msgid "%ADD\\{code}R,\\{$1}X\\{$2}X\\{$3}X\\{$4}*%"
-msgstr ""
+msgstr "%ADD\\{code}R,\\{$1}X\\{$2}X\\{$3}X\\{$4}*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:243
@@ -2195,16 +2353,17 @@ msgstr ""
 msgid ""
 "image:images/rs274x_1E8000000787CC18D07.png[rs274x_1E8000000787CC18D07_png]"
 msgstr ""
+"image:images/rs274x_1E8000000787CC18D07.png[rs274x_1E8000000787CC18D07_png]"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:326
 msgid "%AMTHERM100*7,0,0,0.100,0.050,0.025,0.0*%"
-msgstr ""
+msgstr "%AMTHERM100*7,0,0,0.100,0.050,0.025,0.0*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:328
 msgid "%ADD32THERM100*% _assigns THERM100 to d-code 32_"
-msgstr ""
+msgstr "%ADD32THERM100*% _assigns THERM100 to d-code 32_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:332
@@ -2274,52 +2433,52 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:360
 msgid "Film1: top"
-msgstr ""
+msgstr "Film1: top"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:362 GerbView_chapter_03.adoc:370
 msgid "targets.gbr pos"
-msgstr ""
+msgstr "targets.gbr pos"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:364
 msgid "comp.gbr pos"
-msgstr ""
+msgstr "comp.gbr pos"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:366 GerbView_chapter_03.adoc:374
 msgid "padmaster.gbr pos"
-msgstr ""
+msgstr "padmaster.gbr pos"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:368
 msgid "Film2: bottom"
-msgstr ""
+msgstr "Film2: bottom"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:372
 msgid "sold.gbr pos"
-msgstr ""
+msgstr "sold.gbr pos"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:376
 msgid "Film3: vcc"
-msgstr ""
+msgstr "Film3: vcc"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:378
 msgid "vcc1.gbr neg"
-msgstr ""
+msgstr "vcc1.gbr neg"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:380
 msgid "clearance.gbr neg"
-msgstr ""
+msgstr "clearance.gbr neg"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:382
 msgid "traces.gbr pos"
-msgstr ""
+msgstr "traces.gbr pos"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:389
@@ -2381,27 +2540,27 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:415 GerbView_chapter_03.adoc:532
 msgid "%ADD11C...*%"
-msgstr ""
+msgstr "%ADD11C...*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:417 GerbView_chapter_03.adoc:534
 msgid "%ADD12C...*%"
-msgstr ""
+msgstr "%ADD12C...*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:419
 msgid "%AMTHERMAL*...*%"
-msgstr ""
+msgstr "%AMTHERMAL*...*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:421
 msgid "%ADD13THERMAL*%"
-msgstr ""
+msgstr "%ADD13THERMAL*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:423 GerbView_chapter_03.adoc:536
 msgid "G04*"
-msgstr ""
+msgstr "G04*"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:425
@@ -2441,7 +2600,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:439
 msgid "G54D10*"
-msgstr ""
+msgstr "G54D10*"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:441 GerbView_chapter_03.adoc:443
@@ -2453,7 +2612,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:447
 msgid "G04 NEW LAYER _*_"
-msgstr ""
+msgstr "G04 NEW LAYER _*_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:449
@@ -2478,7 +2637,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:457
 msgid "G54D12*"
-msgstr ""
+msgstr "G54D12*"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:465
@@ -2562,6 +2721,7 @@ msgstr ""
 msgid ""
 "image:images/rs274x_20B000000D366AAA274.png[rs274x_20B000000D366AAA274_png]"
 msgstr ""
+"image:images/rs274x_20B000000D366AAA274.png[rs274x_20B000000D366AAA274_png]"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:519
@@ -2577,7 +2737,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:528
 msgid "%IPPOS*%"
-msgstr ""
+msgstr "%IPPOS*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:530
@@ -2587,17 +2747,17 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:538
 msgid "%LPD*%"
-msgstr ""
+msgstr "%LPD*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:540
 msgid "G54D10* select D10"
-msgstr ""
+msgstr "G54D10* select D10"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:542
 msgid "G01*"
-msgstr ""
+msgstr "G01*"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:544
@@ -2642,3 +2802,6 @@ msgid ""
 "|417 Ingalls St., Santa Cruz, CA 95060, Tel (831) 426-6163, Fax 426-2824, \n"
 "email: mailto:webmaster@artwork.com[info@artwork.com]\n"
 msgstr ""
+"|http://www.artwork.com/[ARTWORK CONVERSION SOFTWARE, INC.]\n"
+"|417 Ingalls St., Santa Cruz, CA 95060, Tel (831) 426-6163, Fax 426-2824, \n"
+"email: mailto:webmaster@artwork.com[info@artwork.com]\n"
