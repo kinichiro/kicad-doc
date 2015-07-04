@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GerbView-ja\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-07-04 23:32+0900\n"
+"PO-Revision-Date: 2015-07-05 04:05+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -1254,7 +1254,7 @@ msgstr ""
 #: GerbView_chapter_02.adoc:182
 #, no-wrap
 msgid "Wheel Positions D10-D999"
-msgstr ""
+msgstr "ホイール位置 D10-D999"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:188
@@ -1263,6 +1263,9 @@ msgid ""
 "commands. They represent apertures or positions on the photoplotter's wheel. "
 "Early photoplotters used a wheel with 24 positions."
 msgstr ""
+"D01 、 D02 そして D03 とは異なり、10-999の値を持つ D コードはコマンドではなく"
+"データです。それらはフォトプロッタのホイール上の開口部または位置を表します。"
+"初期のフォトプロッタは24の位置があるホイールを使用していました。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:192
@@ -1271,12 +1274,15 @@ msgid ""
 "desired aperture in the light path. Table 1 shows the correspondence between "
 "D-code and aperture position."
 msgstr ""
+"各スロットはフィルム片が充填されています。ホイールは、光路上に要求された開口"
+"部を配置し、回転させます。表1は D コードと開口部位置との対応関係を示していま"
+"す。"
 
 #. type: Block title
 #: GerbView_chapter_02.adoc:193
 #, no-wrap
 msgid "*Table 1.* D-codes vs. Apertures"
-msgstr ""
+msgstr "*表1* D コード vs 開口部"
 
 #. type: delimited block -
 #: GerbView_chapter_02.adoc:209
@@ -1297,8 +1303,8 @@ msgid ""
 " 70      11      72      23\n"
 " 71      12      73      24\n"
 msgstr ""
-"D-code Aperture D-code Aperture\n"
-"       Position        Position\n"
+"Dコード 開口部 Dコード 開口部\n"
+"       位置        位置\n"
 " 10      1       20      13\n"
 " 11      2       21      14\n"
 " 12      3       22      15\n"
@@ -1323,12 +1329,18 @@ msgid ""
 "aperture position. There are D-codes between 3 and 9 but they are "
 "specialized commands for rare or obsolete machines."
 msgstr ""
+"D10 から D19 が整然と並んでいます。そして、11番目の位置に D20 の代わりに D70 "
+"と D71 が侵入しています。マッピングは、D30 が出現することが期待される点まで続"
+"いて、2ヶ所は飛びます。代わりに D72 と D73 が飛び込んできます。多くのフォトプ"
+"ロッタとCAMソフトウェアは、D コードによる開口部の説明や、開口部の位置の参照の"
+"入力を求めてきます。D コードには 3 から 9 の間のものがありますが、それらは稀"
+"または廃止されたマシン用の専用のコマンドです。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:221
 #, no-wrap
 msgid "Miscellaneous M Codes"
-msgstr ""
+msgstr "その他の M コード"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:230
@@ -1341,12 +1353,19 @@ msgid ""
 "stopped - however many CAM softwares see the M02 at the beginning of the "
 "file and ignore anything following it."
 msgstr ""
+"ファイルの最後に M02*コマンドがあります。ガーバーは M コード、その他のコード"
+"を呼び出します。使用される唯一の一般的な M コードはファイルの最後にあり、"
+"M00、M01 そして M02 でこれらは全て異なるタイプのプログラムの \"停止\" コマン"
+"ドです。時折、ガーバーファイルの先頭に M02 があることがあります。どうやら一部"
+"のアプリケーションは、以前のファイルの実行が停止していることを保証するために"
+"これを発行するようです。しかし、多くのCAMソフトウェアは、ファイルの先頭の "
+"M02 を見て、それに続くものを無視します。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:232
 #, no-wrap
 msgid "X,Y Coordinate Data"
-msgstr ""
+msgstr "X,Y 座標データ"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:238
@@ -1356,27 +1375,30 @@ msgid ""
 "techniques to minimize the number of bytes required to represent the data. "
 "These are:"
 msgstr ""
+"座標データはガーバーファイルの大部分を構成します。手動で、テーブルの動きをプ"
+"リントアウトから追うことは困難です。なぜならガーバーはデータを表現するために"
+"必要なバイト数を最小限にするためにいくつかの技術を使うからです。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:240
 msgid "Suppress the decimal point in the x,y data"
-msgstr ""
+msgstr "x,y データの小数点を抑制"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:241
 msgid "Suppress either the leading or the trailing zeros"
-msgstr ""
+msgstr "先頭と末尾のゼロを抑制"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:242
 msgid "Only output changes in coordinate data"
-msgstr ""
+msgstr "座標データの変化のみを出力"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:244
 #, no-wrap
 msgid "Decimal Point Suppression"
-msgstr ""
+msgstr "小数点の抑制"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:251
@@ -1387,6 +1409,10 @@ msgid ""
 "make is to assume that the person receiving their data knows you data "
 "format. Consider the following Gerber commands:"
 msgstr ""
+"事前にあることを知っていれのなら小数点は冗長です。小数点は、適切な位置にフォ"
+"トプロッタ制御ソフトウェアによって再挿入する必要があります。初心者の設計者が"
+"やってしまう最も一般的なエラーは、データを受け取る人があなたのデータの書式を"
+"知っていると仮定することです。次のガーバーのコマンドを考えてみましょう："
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:255
@@ -1410,6 +1436,11 @@ msgid ""
 "4 integers after the decimal point then you know that 00560 represents 0.56 "
 "inch."
 msgstr ""
+"最初の2つのコマンドの間に、テーブルはX方向に 00560 から 00670 へ移動します。"
+"しかし 00560 は何を表しているのでしょうか？これは、5.6インチ、0.56インチ、"
+"0.056インチ、さらには（ではない可能性が高いですが）0.0056インチである可能性が"
+"あります。知る方法はありません。設計者が、小数点の前に2つの整数と小数点以下に"
+"4つの整数があると教えてくれたら、00560が0.56インチを表していると分かります。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:266
@@ -1419,6 +1450,9 @@ msgid ""
 "format. When you receive a Gerber file, always ask for the data\n"
 "format.__*\n"
 msgstr ""
+"*ルール 1* __ガーバーファイルを送る時は常にデータ書式も提供すること\n"
+"ガーバーファイルを受け取ったら常にデータ書式を\n"
+"要求すること__\n"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:273
@@ -1429,6 +1463,11 @@ msgid ""
 "are five digits in the coordinates so that the sum of integers before and "
 "after the decimal point must equal 5. The most likely candidate is 2.3."
 msgstr ""
+"もしあなたの顧客がルール1に反してデータ書式情報のないガーバーファイルを送って"
+"きたらどうしますか？あなたは死ぬほど働いており、今は23時で、次の朝の8時までに"
+"フィルムをプロットする必要があります。目星を付けましょう。座標は5桁なので、小"
+"数点の前後の整数の合計は5に等しくなければなりません。もっともそれらしい候補"
+"は 2.3 です。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:279
@@ -1439,12 +1478,16 @@ msgid ""
 "board shows up as 80 inches or 0.8 inches long you are probably off by a "
 "factor of 10 in one direction or the other."
 msgstr ""
+"なぜでしょう？99インチより長い基板や0.001インチ以下の精度で作られる基板はほと"
+"んどないからです。CAMステーションでボードを表示します。全体のサイズが良さそう"
+"ならば（例えば8インチ）先に進みます。ボードが80インチや0.8インチと表示される"
+"場合は、おそらくどちらかの向きに10倍間違えているのです。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:281
 #, no-wrap
 msgid "Leading and Trailing Zero Suppression"
-msgstr ""
+msgstr "先頭と末尾のゼロの抑制"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:285
@@ -1452,6 +1495,8 @@ msgid ""
 "The designers of the Gerber database didn't rest after eliminating the "
 "decimal point. They must have looked at a printout and thought,"
 msgstr ""
+"ガーバーのデータベースの設計者は小数点の問題を解決した後も休めませんでした。"
+"彼らは印刷出力を見て考えました。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:289
@@ -1460,6 +1505,8 @@ msgid ""
 "You can still figure out the coordinate value if you count decimal points "
 "from the right side of the number.\""
 msgstr ""
+"\"前方にある余分なゼロは必要だろうか？それらを取り去ると仮定しよう。数字の右"
+"側から小数点をカウントすれば座標の値を把握することはできる。\""
 
 #. type: delimited block |
 #: GerbView_chapter_02.adoc:296
@@ -1470,7 +1517,7 @@ msgid ""
 "|X00670Y00305D01*   |X670Y305D1*\n"
 "|X00700Y00305D01*   |X700Y305D1*\n"
 msgstr ""
-"|No Zero Suppression|Leading Zero Suppression\n"
+"|ゼロ抑制なし|先頭のゼロの抑制\n"
 "|X00560Y00320D02*   |X560Y230D2*\n"
 "|X00670Y00305D01*   |X670Y305D1*\n"
 "|X00700Y00305D01*   |X700Y305D1*\n"
@@ -1482,6 +1529,8 @@ msgid ""
 "bytes are required to represent the same information. In the days of paper "
 "tape this was a very significant reduction."
 msgstr ""
+"ゼロの抑制をしなければ48バイトが使われます。先頭ゼロを抑制すれば同じ情報を表"
+"すのに33バイトが必要です。紙テープの時代はこれはとても意義のある削減でした。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:304
@@ -1489,6 +1538,8 @@ msgid ""
 "Depending on the data you might be better off leaving the leading zeros on "
 "and suppressing the trailing zeros."
 msgstr ""
+"データによっては、先頭のゼロを残し、末尾のゼロを抑制したほうが良いかもしれま"
+"せん。"
 
 #. type: delimited block |
 #: GerbView_chapter_02.adoc:311
@@ -1499,7 +1550,7 @@ msgid ""
 "|X00670Y00305D01*   |X0067Y00305D1*\n"
 "|X00700Y00305D01*   |X007Y00305D1*\n"
 msgstr ""
-"|No Zero Suppression|Trailing Zero Suppression\n"
+"|ゼロ抑制なし|末尾のゼロの抑制\n"
 "|X00560Y00320D02*   |X0056Y0032D2*\n"
 "|X00670Y00305D01*   |X0067Y00305D1*\n"
 "|X00700Y00305D01*   |X007Y00305D1*\n"
@@ -1510,6 +1561,8 @@ msgid ""
 "To correctly interpret the data you must count from the left side of the "
 "number to locate the decimal point. Confusing? Yes. Leading to Rule 2:"
 msgstr ""
+"データを正しく解釈するために、数の左側から数えて小数点を置かねばなりません。"
+"混乱してますか？はい。ルール2 につながります:"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:319
@@ -1518,18 +1571,21 @@ msgid ""
 "zero suppression. When you receive a Gerber file, always ask about leading "
 "or trailing zero suppression.__*"
 msgstr ""
+"ルール 2 __ガーバーファイルを送る時は常に先頭か末尾のゼロの抑制を指示するこ"
+"と。ガーバーファイルを受け取った時は常に先頭か末尾のゼロの抑制について尋ねる"
+"こと。__"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:321
 msgid ""
 "It turns out that leading zero suppression is more commonly encountered."
-msgstr ""
+msgstr "先頭のゼロの抑制が一般的によく使われるようです。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:323
 #, no-wrap
 msgid "Modal Data Coordinates"
-msgstr ""
+msgstr "モーダルデータ座標"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:329
@@ -1539,6 +1595,9 @@ msgid ""
 "all. One sharp eyed programmer noticed that the same coordinate would appear "
 "over and over again when the table moved only along X or Y."
 msgstr ""
+"小数点と冗長なゼロの抑制を解決した後、データベース設計者は成果に満足すると思"
+"うかもしれません。そんなことはありません。慧眼のプログラマは、テーブルがX軸か"
+"Y軸だけに沿って動く時、同じ座標が何度も繰り返し現れることに気付きました。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:332
@@ -1546,6 +1605,8 @@ msgid ""
 "\"Why not remember the last value of X and Y; output a coordinate only if it "
 "changes!\""
 msgstr ""
+"\"最後のXとYの値を覚えておくというのはどうだろう; 変化した時だけ座標を出力す"
+"るのだ！\""
 
 #. type: delimited block |
 #: GerbView_chapter_02.adoc:339
@@ -1572,12 +1633,19 @@ msgid ""
 "modal or nonmodal - every photoplotter and CAM software supports modal data. "
 "In this example an additional 4 bytes were save by using modal coordinates."
 msgstr ""
+"プロッタが座標の最後の値を記憶している概念はモダリティと呼ばれています。PCの"
+"基板はたいていXまたはYに沿って大量のパッドを持っているので、適切にソートされ"
+"たガーバーファイルは冗長座標が解消された時にとても小さくなります。座標データ"
+"を常にモーダルにすることはとても基本的な概念です。データがモーダルであるか非"
+"モーダルであるかを相手に知らせる必要はありません。 - フォトプロッタとCAMソフ"
+"トウェアはモーダルデータをサポートしています。この例では、モーダル座標を使用"
+"することで更に4バイトを節約できました。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:351
 #, no-wrap
 msgid "Modal Commands"
-msgstr ""
+msgstr "モーダルコマンド"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:357
@@ -1587,6 +1655,10 @@ msgid ""
 "command again and again. Let it stay in effect until another command (D02 or "
 "D03) occurs to change it."
 msgstr ""
+"モダリティは、データにとって良い概念であると同様にコマンドにとっても良いで"
+"す。例えば文字列の描画コマンドがある場合に D01 を何度も何度も繰り返すでしょう"
+"か。別のコマンド（D02またはD03）がそれを変化させるまで、有効な状態を維持し続"
+"けるのです。"
 
 #. type: delimited block |
 #: GerbView_chapter_02.adoc:367
@@ -1600,7 +1672,7 @@ msgid ""
 "|X760D1*     |X760D1*\n"
 "|Y335D1*     |Y335D1*\n"
 msgstr ""
-"|D1 not modal|D1 modal\n"
+"|D1 非モーダル|D1 モーダル\n"
 "|X560Y230D2* |X560Y230D2*\n"
 "|X670Y305D1* |X670Y305D1*\n"
 "|X700D1*     |X700D1*\n"
@@ -1616,6 +1688,10 @@ msgid ""
 "there are a couple of erratic exceptions that occasionally cause trouble. "
 "The most curious is the D03 flash command."
 msgstr ""
+"ガーバー内の全てのコマンドはモーダルであるべきでしょう。一度コマンドが発行さ"
+"れたら、他のもので置き換えられたりオフされるまでは、有効であり続けるというこ"
+"とです。しかし時々問題を引き起こす不安定な例外がいくつかあります。最も興味深"
+"いのは D03 フラッシュコマンドです。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:377
@@ -1624,6 +1700,9 @@ msgid ""
 "expect to see D03 at the end of each flash command. We've encountered this "
 "on MDA's FIRE 9000 family of photoplotters."
 msgstr ""
+"D03 をモーダルとして扱わないフォトプロッタのメーカーもあります。つまり彼ら"
+"は、各フラッシュコマンドの最後に D03 を参照することを期待しています。MDAの"
+"FIRE9000ファミリのフォトプロッタでこれに出くわした事があります。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:382
@@ -1633,6 +1712,11 @@ msgid ""
 "D03's - Lavenir has a utility that does this and many CAM software's can be "
 "configured to treat D03 as either modal or non-modal."
 msgstr ""
+"CAMソフトウェアに表示されていたフラッシュが、フィルム上には表れませんでした。"
+"明示的に D03 を含んだガーバーデータを再出力することで問題は簡単に解決しまし"
+"た。Lavenir はこれを行うユーティリティを持っており、また多くのCAMソフトウェア"
+"は D03 をモーダルとしても非モーダルとしても扱えるよう設定することができるよう"
+"になっています。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:386
@@ -1641,12 +1725,15 @@ msgid ""
 "the G02/G03 command - circular interpolation. Many photoplotters revert to "
 "G01 (linear) after a G02/G03 (circular)."
 msgstr ""
+"その他の、コマンドの標準的なモーダル動作に対する不安定な例外は、G02/G03 コマ"
+"ンドです - 円弧補間。多くのフォトプロッタは、G02/ G03（円形）の後にG01（リニ"
+"ア）に戻ります。"
 
 #. type: Title ~
 #: GerbView_chapter_02.adoc:388
 #, no-wrap
 msgid "Circular Commands: G02/G03 and G75"
-msgstr ""
+msgstr "円形コマンド: G02/G03 そして G75"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:396
@@ -1658,11 +1745,16 @@ msgid ""
 "reading and writing Gerber data with arcs and few rude surprises are "
 "surfacing."
 msgstr ""
+"そうするように指示された場合ガーバーフォトプロッタは、円弧を描くことができま"
+"す。過去には、円形のコマンドはほとんどPCBの製造に使用しませんでした。フレック"
+"ス回路基板は、ストレスを低減するために湾曲配線を使用し、高速ロジックは信号反"
+"射を低減するために滑らかな半径を使用します。ガーバーデータの読み書きについて"
+"の関心が新たにされます。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:398
 msgid "The basic format for circular interpolation is:"
-msgstr ""
+msgstr "円弧補間のための基本的な形式は次のとおりです:"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:400
@@ -1673,7 +1765,7 @@ msgstr " GNN XNNNN YNNNN INNNN JNNNN DNN *\n"
 #. type: Plain text
 #: GerbView_chapter_02.adoc:402
 msgid "_Example:_ +G02X40Y30150J0D01*+"
-msgstr "_Example:_ +G02X40Y30150J0D01*+"
+msgstr "_例:_ +G02X40Y30150J0D01*+"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:407
@@ -1683,6 +1775,9 @@ msgid ""
 "coordinates required to locate the center of the arc. G02 and G03 commands "
 "are rarely treated as modal."
 msgstr ""
+"G02 は時計回りの回転を示し、G03は 反時計回りを示し、G75 は360度の円形を実行し"
+"ます。I、Jは円弧の中心を見つけるために必要な追加の座標です。  G02 と G03 コマ"
+"ンドはほとんどモーダルとして処理されていません。"
 
 #. type: Plain text
 #: GerbView_chapter_02.adoc:412
@@ -1693,6 +1788,10 @@ msgid ""
 "newer machines. The meaning of I, J changes depend on whether data "
 "coordinates are absolute or incremental."
 msgstr ""
+"発生する可能性のある様々な順列を取り扱うには、もっと紙面を割く必要がありま"
+"す。円形コマンドは、古いマシン上では四分円のデータに限定されるかもしれません"
+"し、新しいマシン上では360度の完全な円弧を記述できるかもしれません。I、Jの意味"
+"は、データ座標が絶対座標か増分座標であるかに依存して変化します。"
 
 #. type: Title -
 #: GerbView_chapter_03.adoc:2
