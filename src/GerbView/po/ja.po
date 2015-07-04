@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GerbView-ja\n"
 "POT-Creation-Date: 2015-06-23 00:43+0900\n"
-"PO-Revision-Date: 2015-07-04 11:15+0900\n"
+"PO-Revision-Date: 2015-07-04 19:29+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -1628,7 +1628,7 @@ msgstr ""
 #: GerbView_chapter_03.adoc:2
 #, no-wrap
 msgid "RS274X-Format-Info"
-msgstr ""
+msgstr "RS274Xフォーマット情報"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:11
@@ -1643,12 +1643,16 @@ msgid ""
 "either offer RS274X as an option or only output RS274X -- such as Cadence's "
 "Allegro."
 msgstr ""
+"あなたがPCBの設計者ならば、おそらくガーバー **RS274X** 拡張についてもっと多く"
+"のことを聞いているでしょう。多くのPCBレイアウトプログラムの最新バージョンは、"
+"オプションとしての RS274X 、または出力のみとしての RS274X のどちらかを提供し"
+"ています。 -- 丁度 Cadence の Allegro のようにです。"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:23
 #, no-wrap
 msgid "Benefits of RS274X"
-msgstr ""
+msgstr "RS274X の利点"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:29
@@ -1658,12 +1662,15 @@ msgid ""
 "RS274D which entailed passing a lot of critical information separately from "
 "the data file."
 msgstr ""
+"RS274X は多くのハイレベルのコマンドとコントロールを含み、ガーバーデータの作成"
+"者は非常に正確にフォトプロットを指定することができます。データファイルとは別"
+"に重要な多くの情報を渡すことを伴うRS274Dよりもです。"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:31
 #, no-wrap
 msgid "What is RS274X anyway?"
-msgstr ""
+msgstr "結局 RS274X って何？"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:35
@@ -1671,36 +1678,37 @@ msgid ""
 "It is an extension to standard RS274D (commonly known as Gerber) that "
 "includes:"
 msgstr ""
+"RS274D 標準（一般的にガーバーとして知られている）の拡張で以下を含みます:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:37
 msgid "embedded format, unit and data information"
-msgstr ""
+msgstr "埋め込まれたフォーマット、単位およびデータ情報"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:38
 msgid "embedded apertures"
-msgstr ""
+msgstr "埋め込まれた開口部"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:39
 msgid "custom aperture definitions"
-msgstr ""
+msgstr "カスタムの開口部定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:40
 msgid "film control statements"
-msgstr ""
+msgstr "フィルム制御文"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:41
 msgid "multiple layers embedded in a single file"
-msgstr ""
+msgstr "複数レイヤーの単一ファイルへの埋め込み"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:42
 msgid "special polygon definitions"
-msgstr ""
+msgstr "特別なポリゴン定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:46
@@ -1709,6 +1717,9 @@ msgid ""
 "if not you may wish to first review the article *Apertures, D-Codes and Plot "
 "Files* which summarizes basic Gerber."
 msgstr ""
+"このドキュメントでは、基本的なガーバーコマンドに精通していることを前提として"
+"います。そうでなければ、まずガーバーの基本をまとめた記事の *開口部、D-コード"
+"とプロットファイル* を読むのが良いでしょう。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:49
@@ -1716,17 +1727,19 @@ msgid ""
 "Some of the embedded information we mention here is actually available, "
 "although rarely used, in the RS274D specification."
 msgstr ""
+"ここに書かれている情報は利用可能ですが、RS274D 仕様の中ではめったに使われるこ"
+"とはありません。"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:51
 #, no-wrap
 msgid "Where to Get the Official RS274X Spec?"
-msgstr ""
+msgstr "どこで正式な RS274X 仕様を入手できるか？"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:54
 msgid "The RS274X specification was developed by Gerber Systems."
-msgstr ""
+msgstr "RS274X 仕様は Gerber Systems によって開発されました。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:57
@@ -1734,6 +1747,8 @@ msgid ""
 "Gerber was purchased by Barco, a Belgian company. The 427X spec is now "
 "available at:"
 msgstr ""
+"Gerber はベルギーの会社である Barco に買収されました。 RS274X 仕様は現在ここ"
+"で入手できます:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:59
@@ -1744,7 +1759,7 @@ msgstr "http://www.barco.com/ets/data/rs274xc.pdf"
 #: GerbView_chapter_03.adoc:61
 #, no-wrap
 msgid "Embedding Format Info in the 274X Header"
-msgstr ""
+msgstr "RS274X ヘッダの埋め込み形式の情報"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:65
@@ -1752,21 +1767,23 @@ msgid ""
 "RS274X includes a statement that embeds key information about the format, "
 "zero suppression and data mode into a single line:"
 msgstr ""
+"RS274X は、フォーマット、ゼロ抑制、そしてデータモードについての重要な情報を１"
+"行に埋め込むステートメントを含みます:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:67
 msgid "format (x,y)"
-msgstr ""
+msgstr "フォーマット (x,y)"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:68
 msgid "zero suppression (leading, trailing or none)"
-msgstr ""
+msgstr "ゼロ抑制（先頭、末尾、またはなし）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:69
 msgid "coordinates (absolute or incremental)"
-msgstr ""
+msgstr "座標（絶対または増分）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:71
@@ -1778,73 +1795,73 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:73
 msgid "where:"
-msgstr ""
+msgstr "どこに:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:75
 msgid "L = leading zeros omitted"
-msgstr ""
+msgstr "L = 先頭のゼロを省略"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:77
 msgid "T = trailing zeros omitted"
-msgstr ""
+msgstr "T = 末尾のゼロを省略"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:79
 msgid "D = explicit decimal point (i.e. no zeros omitted)"
-msgstr ""
+msgstr "D = 明示的な小数点（ゼロ省略なし）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:81
 msgid "A = absolute coordinate mode"
-msgstr ""
+msgstr "A = 絶対座標モード"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:83
 msgid "I = incremental coordinate mode"
-msgstr ""
+msgstr "I = 増分座標モード"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:85
 msgid "Nn = sequence number, where n is number of digits (rarely used)"
-msgstr ""
+msgstr "Nn = シーケンス番号、 n は桁数（ほとんど使用されない）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:87
 msgid "Gn = prepartory function code (rarely used)"
-msgstr ""
+msgstr "Gn = 予備的ファンクションコード（ほとんど使用されない）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:89
 msgid "Xa = format of input data (5.5 is max)"
-msgstr ""
+msgstr "Xa = 入力データのフォーマット（最大 5.5）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:91
 msgid "Yb = format of input data"
-msgstr ""
+msgstr "Yb = 入力データのフォーマット"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:93
 msgid "Zb = format of input data (Z is rarely if ever seen)"
-msgstr ""
+msgstr "Zb = 入力データのフォーマット（Z はほとんど見られない）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:95
 msgid "Dn = draft code"
-msgstr ""
+msgstr "Dn = ドラフトコード"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:97
 msgid "Mn = misc code"
-msgstr ""
+msgstr "Mn = その他のコード"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:99
 #, no-wrap
 msgid "Examples"
-msgstr ""
+msgstr "例"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:102 GerbView_chapter_03.adoc:405
@@ -1856,7 +1873,7 @@ msgstr "%FSLAX24Y24*%"
 #: GerbView_chapter_03.adoc:105
 msgid ""
 "Format Statement Leading Zeros Suppression, Absolute Coordinates format=2.4"
-msgstr ""
+msgstr "先頭ゼロの抑制、絶対座標モード、フォーマット=2.4 の書式ステートメント"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:107
@@ -1868,13 +1885,13 @@ msgstr "%FSTIX44Y44*%"
 msgid ""
 "Format Statement Trailing Zero Supression, Incremental Coordinates, "
 "format=4.4"
-msgstr ""
+msgstr "末尾ゼロの抑制、増分座標モード、フォーマット=4.4 の書式ステートメント"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:112
 #, no-wrap
 msgid "Embedded Units"
-msgstr ""
+msgstr "単位埋め込み"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:116
@@ -1882,22 +1899,24 @@ msgid ""
 "RS274X files can use coordinate and aperture units of either inches or "
 "millimeters. The statements:"
 msgstr ""
+"RS274X ファイルでは、座標と開口部の単位にインチとミリメートルのいずれかを使用"
+"できます。ステートメント:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:118
 msgid "%MOIN*% indicates inches"
-msgstr ""
+msgstr "%MOIN*% インチ指定"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:120
 msgid "%MOMM*% indicates millimeters"
-msgstr ""
+msgstr "%MOMM*% ミリメートル指定"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:122
 #, no-wrap
 msgid "Image Polarity"
-msgstr ""
+msgstr "画像極性"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:128
@@ -1907,6 +1926,10 @@ msgid ""
 "got confused then your film came out wrong. With RS274X a command near the "
 "beginning of the file can invert the film's polarity."
 msgstr ""
+"古い RS274D ではフォトプロットのオペレータに、所望するフィルムの極性を手動で"
+"指示する必要がありました。オペレータが注意を怠るか混乱してしまった場合には、"
+"フィルムは間違って出力されました。ファイルの先頭近くの RS274X コマンドは、"
+"フィルムの極性を反転することができます。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:130
@@ -1918,12 +1941,12 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:132
 msgid "%IPPOS*% - positive (left)"
-msgstr ""
+msgstr "%IPPOS*% - ポジ （左）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:134
 msgid "%IPNEG*% - negative (right)"
-msgstr ""
+msgstr "%IPNEG*% - ネガ （右）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:138
@@ -1932,12 +1955,15 @@ msgid ""
 "to build up a very complex plot by combining individual dark and clear plots "
 "and then setting the overall polarity of the film."
 msgstr ""
+"画像の極性と、個々のレイヤーの極性を間違えないようにしましょう。個々の暗いプ"
+"ロットとクリアなプロットを組み合わせてから、フィルムの全体の極性を設定するこ"
+"とで非情に複雑なプロットを構築することが可能です。"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:140
 #, no-wrap
 msgid "Embedded Aperture Definitions"
-msgstr ""
+msgstr "開口部定義の埋め込み"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:146
@@ -1946,42 +1972,45 @@ msgid ""
 "of each aperture was not part of data file; instead it was transferred "
 "manually on paper or as a text file similar to what is seen below:"
 msgstr ""
+"古い RS274D 仕様の主要な欠点の一つは、各開口部の定義がデータファイルの一部で"
+"はないということでした。代わりにそれは紙または以下のようなテキストファイルと"
+"して手動で転送されました："
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:148
 #, no-wrap
 msgid "Aperture Definitions"
-msgstr ""
+msgstr "開口部定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:151
 msgid "D-code Shape SizeX Size Y"
-msgstr ""
+msgstr "D コード  形状  サイズ X  サイズ Y"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:153
 msgid "d10 round 0.010"
-msgstr "d10 round 0.010"
+msgstr "d10 円形 0.010"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:155
 msgid "d11 square 0.030"
-msgstr "d11 square 0.030"
+msgstr "d11 方形 0.030"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:157
 msgid "d12 rect 0.060 0.020"
-msgstr "d12 rect 0.060 0.020"
+msgstr "d12 方形 0.060 0.020"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:159
 msgid "d13 thermal 0.050"
-msgstr "d13 thermal 0.050"
+msgstr "d13 サーマル 0.050"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:161
 msgid "d14 oblong 0.060 0.025"
-msgstr "d14 oblong 0.060 0.025"
+msgstr "d14 横長 0.060 0.025"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:165
@@ -1990,6 +2019,8 @@ msgid ""
 "oblong and the thermal are subject to the photoplot operator's "
 "interpretation as shown below."
 msgstr ""
+"明解な開口部もあります - 円形、正方形そして長方形です。しかし以下のように楕円"
+"形やサーマルはフォトプロットのオペレータの解釈次第となっています。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:167
@@ -2001,7 +2032,7 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:169
 msgid "Basic Thermal --- Rotated Thermal --- Square Thermal"
-msgstr ""
+msgstr "基本的なサーマル --- 回転したサーマル --- 方形のサーマル"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:173
@@ -2010,6 +2041,9 @@ msgid ""
 "operator; there was significant amount of effort and expense involved in "
 "creating these custom apertures and libraries had to be maintained."
 msgstr ""
+"RS274D では、正確なサーマルの形状を構築するのはフォトプロットのオペレータの仕"
+"事でした。これらのカスタムの開口部とライブラリの作成およびメンテナンスに、多"
+"大な努力と出費が掛かりました。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:176
@@ -2017,12 +2051,14 @@ msgid ""
 "With 274X even complex apertures are described using macros that the "
 "photoplotter (and hopefully your CAM software) synthesizes on-the-fly."
 msgstr ""
+"RS274X では、複雑な開口部でさえ、フォトプロッタ（できればあなたのCAMソフト"
+"ウェア）が即座に合成するマクロを使って記述されます。"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:178
 #, no-wrap
 msgid "The Basic Aperture Definitions"
-msgstr ""
+msgstr "開口部定義の基本"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:182
@@ -2030,26 +2066,28 @@ msgid ""
 "RS274x includes several \"standard\" apertures since these represent more "
 "than 90 percent of the flash types used:"
 msgstr ""
+"RS274X はいくつかの \"標準\" 開口部を含んでいます。使用されるフラッシュタイプ"
+"の90%以上が標準開口部だからです。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:184
 msgid "circle"
-msgstr ""
+msgstr "円形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:185
 msgid "rectangle"
-msgstr ""
+msgstr "方形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:186
 msgid "obround"
-msgstr ""
+msgstr "楕円形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:187
 msgid "polygon"
-msgstr ""
+msgstr "ポリゴン"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:190
@@ -2057,12 +2095,14 @@ msgid ""
 "These are all assumed to be centered and can be defined with a round or "
 "rectangular hole if desired."
 msgstr ""
+"これらは全てセンタリングされているものとし、必要に応じて円形又は方形の穴を定"
+"義できます。"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:192
 #, no-wrap
 msgid "Standard Circle"
-msgstr ""
+msgstr "標準の円形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:195
@@ -2073,48 +2113,48 @@ msgstr "%ADD\\{code}C,\\{$1}X\\{$2}X\\{$3}*%"
 #: GerbView_chapter_03.adoc:197 GerbView_chapter_03.adoc:237
 #: GerbView_chapter_03.adoc:330
 msgid "where"
-msgstr ""
+msgstr "どこに"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:199 GerbView_chapter_03.adoc:239
 msgid "AD -aperture description parameter"
-msgstr ""
+msgstr "AD - 開口部定義パラメータ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:201 GerbView_chapter_03.adoc:241
 msgid "D\\{code} d-code to which this aperture is assigned (10-999)"
-msgstr ""
+msgstr "D\\{code} - この開口部が割り当てられているDコード (10-999)"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:203
 msgid "C tells 274X this is a circle macro"
-msgstr ""
+msgstr "C - RS274X にこれが円形マクロであることを伝える"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:205
 msgid "$1 value (inches or mm) of the outside diameter"
-msgstr ""
+msgstr "$1 - 外形の値（インチまたは mm ）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:207
 msgid "$2 optional, if present defines the diameter of the hole"
-msgstr ""
+msgstr "$2 - オプション、存在する場合は穴の直径を定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:209
 msgid "$3 optional, if present the $2 and $3 represent the size of"
-msgstr ""
+msgstr "$3 - オプション、存在する場合は $2 と $3 はサイズを示す"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:211 GerbView_chapter_03.adoc:253
 msgid "a rectangular hole."
-msgstr ""
+msgstr "方形の穴"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:213
 #, no-wrap
 msgid "Circle Examples"
-msgstr ""
+msgstr "円形の例"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:216
@@ -2126,43 +2166,46 @@ msgstr ""
 #. type: Plain text
 #: GerbView_chapter_03.adoc:218
 msgid "%ADD21C,.100*% _(a) 0.10 diameter circle on d21_"
-msgstr "%ADD21C,.100*% _(a) 0.10 diameter circle on d21_"
+msgstr "%ADD21C,.100*% _(A) d21 の 直径 0.10 の円形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:220
 msgid "%ADD22C,.100X.050*% _(b) 0.10 dia circle with 0.05 hole_"
-msgstr "%ADD22C,.100X.050*% _(b) 0.10 dia circle with 0.05 hole_"
+msgstr "%ADD22C,.100X.050*% _(B) d22 の 直径 0.10 で穴径 0.05 の円形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:222
 msgid "_on d22._"
-msgstr ""
+msgstr "_ d22 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:224
 msgid "%ADD23C,.100X.050X.050*% _(c) 0.10 dia circle with 0.05 square_"
-msgstr "%ADD23C,.100X.050X.050*% _(c) 0.10 dia circle with 0.05 square_"
+msgstr ""
+"%ADD23C,.100X.050X.050*% _(C) d23 の 直径 0.10 で角穴サイズ 0.05 の方形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:226
 msgid "_hole on d23_"
-msgstr ""
+msgstr "_d23_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:228
 msgid "%ADD24C,.100X.050X.025*% _(d) 0.10 dia circle with 0.05 x 0.025_"
-msgstr "%ADD24C,.100X.050X.025*% _(d) 0.10 dia circle with 0.05 x 0.025_"
+msgstr ""
+"%ADD24C,.100X.050X.025*% _(D) d24 の 直径 0.10 で角穴サイズ 0.05 x 0.025 の円"
+"形 _"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:230
 msgid "_rectangular hole on d24_"
-msgstr ""
+msgstr "_rectangular hole on d24_"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:232
 #, no-wrap
 msgid "Standard Rectangles"
-msgstr ""
+msgstr "標準の方形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:235
@@ -2172,27 +2215,27 @@ msgstr "%ADD\\{code}R,\\{$1}X\\{$2}X\\{$3}X\\{$4}*%"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:243
 msgid "R tells 274X this is a rectangle macro"
-msgstr ""
+msgstr "R - RS274X にこれが方形マクロであることを伝える"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:245
 msgid "$1 value (inches or mm) of rect's length in X"
-msgstr ""
+msgstr "$1 - 方形のXの長さの値（インチまたは mm ）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:247
 msgid "$2 value if rect's height in Y"
-msgstr ""
+msgstr "$2 - 方形のYの高さの値（インチまたは mm ）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:249
 msgid "$3 optional, if present defines the diameter of the hole"
-msgstr ""
+msgstr "$3 - オプション、存在する場合は穴の直径を定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:251
 msgid "$4 optional, if present the $2 and $3 represent the size of"
-msgstr ""
+msgstr "$4 - オプション、存在する場合は $3 と $4 はサイズを示す"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:256
@@ -2200,12 +2243,14 @@ msgid ""
 "For details on the obround and polygon (which are rarely used) see _Gerber "
 "Format Guide, Doc 0000-000-RM-00._"
 msgstr ""
+"楕円形とポリゴン（ほとんど使われませんが）についての詳細は _Gerber Format "
+"Guide, Doc 0000-000-RM-00_ を参照して下さい。"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:258
 #, no-wrap
 msgid "Aperture Macros"
-msgstr ""
+msgstr "開口部マクロ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:264
@@ -2215,6 +2260,9 @@ msgid ""
 "simpler primitives. While this is a very powerful feature of RS274X, using "
 "it has its drawbacks."
 msgstr ""
+"一般的に、開口部マクロは一種のプログラミング言語と考えることができ、一連のシ"
+"ンプルな基本要素から複雑な開口部の定義を構築できます。これは RS274X の非常に"
+"強力な機能ですが、それを使うことによる欠点もあります。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:271
@@ -2226,6 +2274,12 @@ msgid ""
 "correctly or at all. Therefore most PCB layout programs do not make use of "
 "complex aperture macros."
 msgstr ""
+"RS274X は、本質的には Gerber Scientific の標準であることに注意してください - "
+"他メーカーのフォトプロッタは全く RS274X を読めない場合があります - 仮に "
+"RS274X を部分的に実装していても、大抵は単純なコマンドだけがサポートされ、開口"
+"部マクロのような複雑なコマンドは正しくあるいは全く解釈されない場合がありま"
+"す。そのため、ほとんどの PCB レイアウトプログラムは、複雑な開口部マクロを利用"
+"しません。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:275
@@ -2234,12 +2288,15 @@ msgid ""
 "thermal reliefs are very important in power and ground planes we'll do a "
 "detailed example of macros using the thermal primitive."
 msgstr ""
+"しかし、サーマルリリーフ定義のためにマクロは必要とされます - サーマルリリーフ"
+"は、電源とグランドプレーンにとって非常に重要なので、サーマルの基本要素を使用"
+"したマクロの詳細例をやります。"
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:277
 #, no-wrap
 msgid "Macro Primitives"
-msgstr ""
+msgstr "マクロの基本要素"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:282
@@ -2248,98 +2305,104 @@ msgid ""
 "aperture is built from one or more shapes called primitives. Available "
 "primitives include:"
 msgstr ""
+"マクロはプログラミング言語のようであると言った事を覚えておいて下さい - 複雑な"
+"開口部は一つ以上の基本要素と呼ばれる形状から構築されます。利用可能な基本要素"
+"を示します:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:284
 #, no-wrap
 msgid "*Primitive Name* *Primitive Number* *Description and Parameter Number*\n"
-msgstr ""
+msgstr "*基本要素名* *基本要素番号* *説明とパラメータ番号*\n"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:286
 msgid "Circle (1) round"
-msgstr ""
+msgstr "Circle (1) 円形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:288
 msgid "Line Vector (2 or 20) rectangle defined by endpoints"
-msgstr ""
+msgstr "Line Vector (2 or 20) 終点の幅と回転で定義される方形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:290
 msgid "width and rotation. Square ends."
-msgstr ""
+msgstr "width and rotation. Square ends."
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:292
 msgid "Line Center (21) rect - defined by center and length, width"
-msgstr ""
+msgstr "Line Center (21) 中心と長さ、幅と回転で定義される方形。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:294
 msgid "and rotation. Square ends."
-msgstr ""
+msgstr "and rotation. Square ends."
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:296
 msgid "Line-Lower Left (22) rect - defined by lower left coordinate,"
-msgstr ""
+msgstr "Line-Lower Left (22) 左下座標の長さ、幅そして回転で定義される方形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:298
 msgid "length, width and rotation."
-msgstr ""
+msgstr "length, width and rotation."
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:300
 msgid "Outline (4) outlines an area defined by coordinate pairs."
-msgstr ""
+msgstr "Outline (4) 座標のペアで定義された領域の外形"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:302
 msgid "max vertice=50."
-msgstr ""
+msgstr "最大頂点 = 50"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:304
 msgid "Polygon (5) a regular polygon with 3-10 sides. defined"
-msgstr ""
+msgstr "Polygon (5) 3-10辺を有するポリゴン。中心、外径そして回転で定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:306
 msgid "by center, outer diameter and rotation."
-msgstr ""
+msgstr "by center, outer diameter and rotation."
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:308
 msgid "Moire (6) target defined by center, number of circles"
 msgstr ""
+"Moire (6) 中心、円形の数、円形の厚み、十字線の長さ、厚み、および回転によって"
+"定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:310
 msgid "circle thickness, cross hair length, thickness"
-msgstr ""
+msgstr "circle thickness, cross hair length, thickness"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:312
 msgid "and rotation."
-msgstr ""
+msgstr "and rotation."
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:314
 msgid "Thermal (7) thermal relief defined by outer diameter, inner"
 msgstr ""
+"Thermal (7) 外径、内径、十字線の厚さ、そして回転で定義されるサーマルリリーフ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:316
 msgid "diameter, crosshair thickness and rotation."
-msgstr ""
+msgstr "diameter, crosshair thickness and rotation."
 
 #. type: Title +
 #: GerbView_chapter_03.adoc:318
 #, no-wrap
 msgid "Aperture Macro Example - Thermal Relief"
-msgstr ""
+msgstr "開口部マクロの例 - サーマルリリーフ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:322
@@ -2347,6 +2410,8 @@ msgid ""
 "The thermal relief is so important that it has its own primitive - even "
 "though it could be built from other primitives."
 msgstr ""
+"サーマルリリーフは重要なのでそれ自身の基本要素を持ちます - 他の基本要素から構"
+"築することができるにも関わらず、です。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:324
@@ -2363,58 +2428,58 @@ msgstr "%AMTHERM100*7,0,0,0.100,0.050,0.025,0.0*%"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:328
 msgid "%ADD32THERM100*% _assigns THERM100 to d-code 32_"
-msgstr "%ADD32THERM100*% _assigns THERM100 to d-code 32_"
+msgstr "%ADD32THERM100*% _THERM100 を Dコード 32 に割り当てる_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:332
 msgid "AM - aperture macro"
-msgstr ""
+msgstr "AM - 開口部マクロ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:334
 msgid "THERM100 - name of the macro"
-msgstr ""
+msgstr "THERM100 - マクロの名前"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:336
 msgid "- terminates name"
-msgstr ""
+msgstr "\"*\" - 名前を終了"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:338
 msgid "7 - primitive 7, which is a thermal relief"
-msgstr ""
+msgstr "7 - 基本要素 7 はサーマルリリーフです"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:340
 msgid "0,0 - first two parms: x,y center"
-msgstr ""
+msgstr "0,0 - 最初の2つのパラメータ: 中心の X、Y"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:342
 msgid "0.100 - third parm: outer diameter (solid black see (a) above)"
-msgstr ""
+msgstr "0.100 - 3番目のパラメータ: 外径（黒く塗りつぶし、上の(A)を参照）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:344
 msgid "0.050 - fourth parm: inner diameter (clear see (b) above)"
-msgstr ""
+msgstr "0.050 - 4番目のパラメータ: 内径（透明、上の(B)を参照）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:346
 msgid "0.025 - fifth parm: crosshair width (clear see (c) above)"
-msgstr ""
+msgstr "0.025 - 5番目のパラメータ: 十字線の幅（透明、上の(C)を参照）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:348
 msgid "0.0 - sixth parm: crosshair rotation (not used here)"
-msgstr ""
+msgstr "0.0 - 6番目のパラメータ: 十字線の回転（ここでは使いません）"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:350
 #, no-wrap
 msgid "Multiple Layers"
-msgstr ""
+msgstr "複数のレイヤー"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:356
@@ -2424,41 +2489,45 @@ msgid ""
 "photoplotter operator have always been manual - leaving room for errors and "
 "omissions. Here's how it used to be done:"
 msgstr ""
+"複数のガーバーファイルからフォトツールを構築することは、PCB業界では標準的に行"
+"われています。しかしフォトプロッタのオペレータへの指示はいつも手動でなされて"
+"きており、エラーと漏れの余地を残しています。ここにそれがどのようになされてき"
+"たのか示します:"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:358
 msgid "Plotting Instructions for XYZ"
-msgstr ""
+msgstr "XYZ へのプロットの指示"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:360
 msgid "Film1: top"
-msgstr "Film1: top"
+msgstr "Film1: 上"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:362 GerbView_chapter_03.adoc:370
 msgid "targets.gbr pos"
-msgstr "targets.gbr pos"
+msgstr "targets.gbr ポジ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:364
 msgid "comp.gbr pos"
-msgstr "comp.gbr pos"
+msgstr "comp.gbr ポジ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:366 GerbView_chapter_03.adoc:374
 msgid "padmaster.gbr pos"
-msgstr "padmaster.gbr pos"
+msgstr "padmaster.gbr ポジ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:368
 msgid "Film2: bottom"
-msgstr "Film2: bottom"
+msgstr "Film2: 下"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:372
 msgid "sold.gbr pos"
-msgstr "sold.gbr pos"
+msgstr "sold.gbr ポジ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:376
@@ -2468,17 +2537,17 @@ msgstr "Film3: vcc"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:378
 msgid "vcc1.gbr neg"
-msgstr "vcc1.gbr neg"
+msgstr "vcc1.gbr ネガ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:380
 msgid "clearance.gbr neg"
-msgstr "clearance.gbr neg"
+msgstr "clearance.gbr ネガ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:382
 msgid "traces.gbr pos"
-msgstr "traces.gbr pos"
+msgstr "traces.gbr ポジ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:389
@@ -2489,6 +2558,11 @@ msgid ""
 "ground planes quickly and easily. In the example below we will show how the "
 "LPD/LPC can be used to put a circuit trace easily on a power plane."
 msgstr ""
+"RS274X は２つの特別なコマンド、  *%LPD*%* と *%LPC*%* を持ち、ファイル内の"
+"データをレイヤー毎に整理します。いくつか賢く LPD / LPC コマンドを IP（画像極"
+"性）コマンドと組み合わせると、複雑なグランドプレーンを迅速かつ容易に構築する"
+"ことができます。以下の例では、電源プレーンに簡単に回路トレースを置くのに "
+"LPD / LPC がどんな風に使えるのかをお見せします。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:396
@@ -2499,6 +2573,11 @@ msgid ""
 "strokes the entire powerplane metal area except where the clearance would "
 "be. This results in a very large and unwieldy Gerber file."
 msgstr ""
+"電源プレーン上に回路トレースを置くことの主要な難しさは、回路トレースとそれに"
+"関連するパッドの周りから金属を引き離すことです。標準のガーバーでは、レイアウ"
+"トソフトウェアは、隙間が取れる場所を除いて、多くの場合、電源プレーンの金属エ"
+"リアを小さなストロークで埋めなければなりませんでした。これは非常に大きく、扱"
+"いにくいガーバーファイルになります。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:399
@@ -2506,36 +2585,38 @@ msgid ""
 "When creating such a Gerber file in 274X we can use the LPC (clear layer) to "
 "draw the trace."
 msgstr ""
+"RS274X でそのようなガーバーファイルを作成するとき、トレースを描画するために "
+"LPC （透明レイヤー）を使用することができます。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:401
 msgid "G04 Image Parameters _*_"
-msgstr ""
+msgstr "G04 Image Parameters _*_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:403 GerbView_chapter_03.adoc:524
 msgid "%MOIN*%"
-msgstr ""
+msgstr "%MOIN*%"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:407
 msgid "%IPNEG*% this will reverse polarity of the entire film,"
-msgstr ""
+msgstr "%IPNEG*% フィルム全体の極性を反転"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:409
 msgid "eliminating the need to stroke the metal area"
-msgstr ""
+msgstr "金属エリアへのストロークの必要性の排除"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:411
 msgid "of the powerplane."
-msgstr ""
+msgstr "電源プレーン"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:413
 msgid "%ADD10C,,,*% here we define some round apertures and a thermal"
-msgstr ""
+msgstr "%ADD10C,,,*% いくつか円形の開口部とサーマルを定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:415 GerbView_chapter_03.adoc:532
@@ -2565,37 +2646,37 @@ msgstr "G04*"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:425
 msgid "%LNINTERNAL_VCC*% this is our basic vcc powerplane layer consisting"
-msgstr ""
+msgstr "%LNINTERNAL_VCC*% 基本的な vcc 電源プレーンのレイヤー"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:427
 msgid "of clearance pads, thermal reliefs, the outer trace"
-msgstr ""
+msgstr "クリアランスパッド、サーマルリリーフ、外部トレース"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:429
 msgid "that defines the board edge, and the clearance"
-msgstr ""
+msgstr "基板の端を定義し、そしてクリアランス"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:431
 msgid "for the inner trace."
-msgstr ""
+msgstr "内部トレースのための"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:433
 msgid "%LPD*% indicates digitized data is dark. However when the"
-msgstr ""
+msgstr "%LPD*% デジタル化したデータが暗いことを指示"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:435
 msgid "entire film is reversed the digitzied data will be"
-msgstr ""
+msgstr "フィルム全体が反転されたらデジタル化したデータは"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:437
 msgid "clear."
-msgstr ""
+msgstr "透明"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:439
@@ -2607,7 +2688,7 @@ msgstr "G54D10*"
 #: GerbView_chapter_03.adoc:445 GerbView_chapter_03.adoc:459
 #: GerbView_chapter_03.adoc:461 GerbView_chapter_03.adoc:463
 msgid "data"
-msgstr ""
+msgstr "データ"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:447
@@ -2617,22 +2698,22 @@ msgstr "G04 NEW LAYER _*_"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:449
 msgid "%LNTRACE_VCC*% this defines the circuit trace and two pads A,B"
-msgstr ""
+msgstr "%LNTRACE_VCC*% 回路トレースと２つのパッド A と B を定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:451
 msgid "%LPC*% note that the data here is clear or reversed out."
-msgstr ""
+msgstr "%LPC*% ここのデータは透明か反転除外されたことに注意"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:453
 msgid "however when the entire film is negated the digitized"
-msgstr ""
+msgstr "しかしフィルム全体がネガにされたら"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:455
 msgid "data will be black on the film."
-msgstr ""
+msgstr "データはフィルム上で黒になる"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:457
@@ -2642,7 +2723,7 @@ msgstr "G54D12*"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:465
 msgid "M02* end of the job"
-msgstr ""
+msgstr "M02* ジョブの終了"
 
 #. type: delimited block |
 #: GerbView_chapter_03.adoc:471
@@ -2652,6 +2733,9 @@ msgid ""
 "a trace within the ground plane is placed and substracted, and the\n"
 "entire image is then reversed.\n"
 msgstr ""
+"|以下の一連の画像は、グランドプレーンを簡単に描けること、\n"
+"グランドプレーン内のトレースが配置されていること、\n"
+"そして画像全体が反転されていることを示しています。\n"
 
 #. type: delimited block |
 #: GerbView_chapter_03.adoc:478
@@ -2664,6 +2748,12 @@ msgid ""
 "  [[section]]\n"
 "  |\n"
 msgstr ""
+"a|\n"
+"image:images/rs274x_1A5000001A1F9ACE4FA.png[rs274x_1A5000001A1F9ACE4FA_png]\n"
+"| *Internal_VCC データ。 A と B の大きなパッドと隙間の大きさに注意。\n"
+"trace.*::\n"
+"  [[section]]\n"
+"  |\n"
 
 #. type: delimited block |
 #: GerbView_chapter_03.adoc:486
@@ -2673,6 +2763,9 @@ msgid ""
 "|*The inner TRACE data. Since the layer is defined as LPC it will be\n"
 "subtracted from the INTERNAL_VCC plane data.*\n"
 msgstr ""
+"|image:images/rs274x_1A70000019C743C9F64.png[rs274x_1A70000019C743C9F64_png]\n"
+"|*内部 TRACE データ。レイヤーは LPC として定義されているので、\n"
+"INTERNAL_VCC プレーンのデータから減算されます。 *\n"
 
 #. type: delimited block |
 #: GerbView_chapter_03.adoc:493
@@ -2682,6 +2775,9 @@ msgid ""
 "|*The dark VCC layer merged with the clear TRACE layer but before\n"
 "polarity reversal.*\n"
 msgstr ""
+"|image:images/rs274x_193000000A0EEBFF4ED.png[rs274x_193000000A0EEBFF4ED_png]\n"
+"|*黒い VCC レイヤーは透明の TRACE レイヤーと統合されます、\n"
+"極性の反転の前に。*\n"
 
 #. type: delimited block |
 #: GerbView_chapter_03.adoc:500
@@ -2691,12 +2787,15 @@ msgid ""
 "|*The dark VCC layer merged with the clear TRACE layer after polarity\n"
 "reversal* .\n"
 msgstr ""
+"|image:images/rs274x_1C5000000B9443DD856.png[rs274x_1C5000000B9443DD856_png]\n"
+"|*黒い VCC レイヤーは透明の TRACE レイヤーと統合されます、\n"
+"極性反転の前に。*\n"
 
 #. type: Title ^
 #: GerbView_chapter_03.adoc:503
 #, no-wrap
 msgid "G36/G37 Polygons"
-msgstr ""
+msgstr "G36/G37 ポリゴン"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:510
@@ -2706,6 +2805,10 @@ msgid ""
 "will see more use in the future for describing complex data often "
 "encountered in IC packages, RF and microwave circuits and analog devices."
 msgstr ""
+"G36 / G37 のポリゴンコマンドは RS274X 仕様に先行しており、新しいガーバーフォ"
+"トプロッタだけがサポートしています。しかし、それは非常に強力なコマンドであ"
+"り、ICパッケージ、RFおよびマイクロ波回路やアナログ機器で遭遇する複雑なデータ"
+"を記述するために今後さらに利用されていくでしょう。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:515
@@ -2715,6 +2818,10 @@ msgid ""
 "a polygon to be filled in. The application creating the Gerber file should "
 "create simple clean polygons."
 msgstr ""
+"フォトプロッタは、G36* コマンドを見つけるとすぐにモードを変更します - それに"
+"より、すべての開口部の設定を無視し、すべての描画コマンドをポリゴンの端を埋め"
+"るためのものとして処理します。ガーバーファイルを作成するアプリケーションはシ"
+"ンプルでクリーンなポリゴンを作成すべきです。"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:517
@@ -2727,12 +2834,12 @@ msgstr ""
 #: GerbView_chapter_03.adoc:519
 #, no-wrap
 msgid "Sample Usage of G36/G37"
-msgstr ""
+msgstr "G36 / G37 の使用例"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:522
 msgid "G04 G36/G37 Polygon Example _*_"
-msgstr ""
+msgstr "G04 G36/G37 Polygon Example _*_"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:528
@@ -2742,7 +2849,7 @@ msgstr "%IPPOS*%"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:530
 msgid "%ADD10C,,,*% here we define some apertures"
-msgstr ""
+msgstr "%ADD10C,,,*% ここで開口部を定義"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:538
@@ -2752,7 +2859,7 @@ msgstr "%LPD*%"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:540
 msgid "G54D10* select D10"
-msgstr "G54D10* select D10"
+msgstr "G54D10* D10 を選択"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:542
@@ -2762,37 +2869,37 @@ msgstr "G01*"
 #. type: Plain text
 #: GerbView_chapter_03.adoc:544
 msgid "G36* switch into polygon mode. The diameter and"
-msgstr ""
+msgstr "G36* ポリゴンモードに切り替え。直径と"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:546
 msgid "shape of D10 no longer matters."
-msgstr ""
+msgstr "D10 の形状はもう関係ない"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:548
 msgid "X123Y123D02* move to initial position with pen up"
-msgstr ""
+msgstr "X123Y123D02* ペンを上げて最初のポジションに移動"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:550 GerbView_chapter_03.adoc:554
 msgid "X234D01* draw a line (edge)"
-msgstr ""
+msgstr "X234D01* 線を描く（端）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:552
 msgid "Y456D01* draw a line (edge)"
-msgstr ""
+msgstr "Y456D01* 線を描く（端）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:556
 msgid "Y123D01* draw a line (edge) back to original start"
-msgstr ""
+msgstr "Y123D01* 開始点に戻るように線を描く（端）"
 
 #. type: Plain text
 #: GerbView_chapter_03.adoc:558
 msgid "G37* end polygon mode."
-msgstr ""
+msgstr "G37* ポリゴンモードの終了"
 
 #. type: delimited block |
 #: GerbView_chapter_03.adoc:564
