@@ -8469,7 +8469,7 @@ msgid ""
 "establish connection to the net +5V), with a pin number of 1 (number of no "
 "importance), a length of 0, and a “Line” “Graphic Style”."
 msgstr ""
-"+ 5V(+5Vのネットに接続を行う(establish)ので重要)という名前で “電源入力”タイプ"
+"+5V(+5Vのネットに接続を行う(establish)ので重要)という名前で “電源入力”タイプ"
 "のピンを追加します。ピンの番号は１(番号は重要ではない)で、長さは０、 形状（グ"
 "ラフィックスタイル）は“ライン”とします。"
 
