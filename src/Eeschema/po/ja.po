@@ -3096,7 +3096,10 @@ msgid ""
 "|image:images/sch_editor_right_toolbar.png[images/sch_editor_right_toolbar.png]\n"
 "a|\n"
 "This toolbar contains tools to:\n"
-msgstr "image:images/icons/sch_editor_main_toolbar.png[sch editor main toolbar]"
+msgstr ""
+"|image:images/sch_editor_right_toolbar.png[images/sch_editor_right_toolbar.png]\n"
+"a|\n"
+"このツールバーは次のツールを含んでいます:\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:264

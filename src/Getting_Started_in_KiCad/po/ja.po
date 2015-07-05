@@ -3622,7 +3622,7 @@ msgid ""
 " /usr/share/doc/kicad/help/en/\n"
 " /usr/local/kicad/doc/tutorials/en/ \n"
 " kicad/doc/tutorials/en/\n"
-msgstr "/usr/share/doc/kicad/en/ /usr/share/doc/kicad/help/en/ /usr/local/kicad/doc/tutorials/en/ kicad/doc/tutorials/en/"
+msgstr "/usr/share/doc/kicad/en/\n /usr/share/doc/kicad/help/en/\n /usr/local/kicad/doc/tutorials/en/\n kicad/doc/tutorials/en/\n"
 
 #. type: Title ~
 #: Getting_Started_in_KiCad.adoc:1464
