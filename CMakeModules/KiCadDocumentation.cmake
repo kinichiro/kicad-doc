@@ -74,6 +74,11 @@ macro( KiCadDocumentation DOCNAME )
 		COMMAND ${PO4A_COMMAND}-translate -f asciidoc -a ${CMAKE_CURRENT_SOURCE_DIR}/po/addendum.${LANGUAGE} -A utf-8 -M utf-8 -m ${CMAKE_CURRENT_SOURCE_DIR}/${DOCNAME}.adoc -p ${CMAKE_CURRENT_SOURCE_DIR}/po/${LANGUAGE}.po -k -0 -l ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/${DOCNAME}.adoc )
 	endif()
 
+	# Non-ascii languages needs some special treatments
+	if( "${LANGUAGE}" MATCHES "ja" )
+		add_dblatex_option( -b xetex -p ${CMAKE_CURRENT_SOURCE_DIR}/../style/dblatex-pdf-ja.xsl )
+	endif()
+
 	# Deal with chapters for all languages...
 	foreach( CHAPTER ${DOCCHAPTERS} )
 	    add_custom_target( ${DOCNAME}_translate_${CHAPTER}_${LANGUAGE}
