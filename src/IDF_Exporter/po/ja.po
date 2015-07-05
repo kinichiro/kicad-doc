@@ -233,7 +233,7 @@ msgstr "IDF コンポーネントアウトラインセクション"
 #: IDF_Exporter.adoc:103
 #, no-wrap
 msgid "images/idf_select.png"
-msgstr "images/idf_select.png"
+msgstr "images/ja/idf_select.png"
 
 #. type: Block title
 #: IDF_Exporter.adoc:107
