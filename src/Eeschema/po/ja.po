@@ -1,11 +1,10 @@
-# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: EeSchema-ja\n"
 "POT-Creation-Date: 2015-07-05 11:45+0900\n"
-"PO-Revision-Date: 2015-07-06 04:23+0900\n"
+"PO-Revision-Date: 2015-07-07 00:08+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -1441,7 +1440,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:16
 msgid "image:images/en/page_settings.png[Page Settings]"
-msgstr "image:images/en/page_settings.png[Page Settings]"
+msgstr "image:images/ja/page_settings.png[Page Settings]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:20
@@ -1469,7 +1468,7 @@ msgstr "全般オプション"
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:30 Eeschema_main_top_menu.adoc:95
 msgid "image:images/en/options.png[Schematic Editor Options]"
-msgstr "image:images/en/options.png[Schematic Editor Options]"
+msgstr "image:images/ja/options.png[Schematic Editor Options]"
 
 #. type: Title ^
 #: Eeschema_general_top_toolbar.adoc:33
@@ -1490,7 +1489,7 @@ msgstr ""
 #: Eeschema_general_top_toolbar.adoc:39
 msgid "image:images/en/template_field_names.png[Template Field Names settings]"
 msgstr ""
-"image:images/en/template_field_names.png[Template Field Names settings]"
+"image:images/ja/template_field_names.png[Template Field Names settings]"
 
 #. type: Title ~
 #: Eeschema_general_top_toolbar.adoc:42
@@ -1513,7 +1512,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:49
 msgid "image:images/en/find_dialog.png[Find dialog]"
-msgstr "image:images/en/find_dialog.png[Find dialog]"
+msgstr "image:images/ja/find_dialog.png[Find dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:53
@@ -1602,7 +1601,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:83
 msgid "image:images/en/netlist_dialog.png[Netlist dialog]"
-msgstr "image:images/en/netlist_dialog.png[Netlist dialog]"
+msgstr "image:images/ja/netlist_dialog.png[Netlist dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:85 Eeschema_general_top_toolbar.adoc:171
@@ -1691,7 +1690,7 @@ msgstr ""
 #: Eeschema_general_top_toolbar.adoc:116
 #: Eeschema_automatic_classification_annotation.adoc:18
 msgid "image:images/en/annotate-dialog.png[annotate-dialog_img]"
-msgstr "image:images/en/annotate-dialog.png[annotate-dialog_img]"
+msgstr "image:images/ja/annotate-dialog.png[annotate-dialog_img]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:118
@@ -1812,7 +1811,7 @@ msgstr "ERC メインダイアログ"
 #: Eeschema_general_top_toolbar.adoc:163
 #: Eeschema_design_verification_with_erc.adoc:23
 msgid "image:images/en/dialog_erc.png[ERC dialog]"
-msgstr "image:images/en/dialog_erc.png[ERC dialog]"
+msgstr "image:images/ja/dialog_erc.png[ERC dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:165
@@ -1885,7 +1884,7 @@ msgstr "ERC オプションダイアログ"
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:190
 msgid "image:images/en/dialog_erc_opts.png[ERC Options dialog]"
-msgstr "image:images/en/dialog_erc_opts.png[ERC Options dialog]"
+msgstr "image:images/ja/dialog_erc_opts.png[ERC Options dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:193
@@ -1941,7 +1940,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:211
 msgid "image:images/en/dialog_bom.png[BOM dialog]"
-msgstr "image:images/en/dialog_bom.png[BOM dialog]"
+msgstr "image:images/ja/dialog_bom.png[BOM dialog]"
 
 #. type: Plain text
 #: Eeschema_general_top_toolbar.adoc:215
@@ -1995,7 +1994,7 @@ msgstr "例:"
 msgid ""
 "image:images/en/dialog_component_properties.png[Component Properties dialog]"
 msgstr ""
-"image:images/en/dialog_component_properties.png[Component Properties dialog]"
+"image:images/ja/dialog_component_properties.png[Component Properties dialog]"
 
 #. type: Title ~
 #: Eeschema_general_top_toolbar.adoc:230
@@ -2369,7 +2368,7 @@ msgstr "以下は様々なコマンドの配置です。:"
 #: Eeschema_generic_commands.adoc:26
 #, no-wrap
 msgid "images/en/commands_overview.png"
-msgstr "images/en/commands_overview.png"
+msgstr "images/ja/commands_overview.png"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:29
@@ -2489,7 +2488,7 @@ msgstr ""
 #: Eeschema_generic_commands.adoc:71
 #, no-wrap
 msgid "images/en/main_window_popup.png"
-msgstr "images/en/main_window_popup.png"
+msgstr "images/ja/main_window_popup.png"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:74
@@ -2658,7 +2657,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:144
 msgid "image:images/en/status_bar.png[]"
-msgstr "image:images/en/status_bar.png[]"
+msgstr "image:images/ja/status_bar.png[]"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:146
@@ -2678,7 +2677,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:152
 msgid "image:images/en/menu_bar.png[menubar]"
-msgstr "image:images/en/menu_bar.png[menubar]"
+msgstr "image:images/ja/menu_bar.png[menubar]"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:155
@@ -3674,7 +3673,7 @@ msgstr "開発フロー"
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:40
 msgid "image:images/en/dev-chain.png[dev-chain_png]"
-msgstr "image:images/en/dev-chain.png[dev-chain_png]"
+msgstr "image:images/ja/dev-chain.png[dev-chain_png]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:44
@@ -3717,7 +3716,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:58
 msgid "image:images/en/dialog_choose_component.png[Choose Component dialog]"
-msgstr "image:images/en/dialog_choose_component.png[Choose Component dialog]"
+msgstr "image:images/ja/dialog_choose_component.png[Choose Component dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:61
@@ -3750,7 +3749,7 @@ msgstr "配置中のコンポーネントは次のようになります。:"
 msgid ""
 "image:images/en/component_during_placement.png[component during placement]"
 msgstr ""
-"image:images/en/component_during_placement.png[component during placement]"
+"image:images/ja/component_during_placement.png[component during placement]"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:72
@@ -4127,7 +4126,7 @@ msgstr "以下に示す回路図では、多くのピンがバスへ接続され
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:208
 msgid "image:images/en/sch_with_buses.png[Example schematic with buses]"
-msgstr "image:images/en/sch_with_buses.png[Example schematic with buses]"
+msgstr "image:images/ja/sch_with_buses.png[Example schematic with buses]"
 
 #. type: Title +
 #: Eeschema_schematic_creation_and_editing.adoc:211
@@ -4290,7 +4289,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:268
 msgid "image:images/en/bus_junction.png[Bus junction example]"
-msgstr "image:images/en/bus_junction.png[Bus junction example]"
+msgstr "image:images/ja/bus_junction.png[Bus junction example]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:272
@@ -4416,7 +4415,7 @@ msgstr "以下の図は、電源ポートの接続例です。"
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:319
 msgid "image:images/en/power_ports_example.png[Power ports example]"
-msgstr "image:images/en/power_ports_example.png[Power ports example]"
+msgstr "image:images/ja/power_ports_example.png[Power ports example]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:322
@@ -4510,7 +4509,7 @@ msgstr "図形コメントの例を以下に示します。"
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:363
 msgid "image:images/en/frame_example.png[Frame with comment example]"
-msgstr "image:images/en/frame_example.png[Frame with comment example]"
+msgstr "image:images/ja/frame_example.png[Frame with comment example]"
 
 #. type: Title ^
 #: Eeschema_schematic_creation_and_editing.adoc:366
@@ -4533,12 +4532,12 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:372
 msgid "image:images/en/page_settings.png[Page settings dialog]"
-msgstr "image:images/en/page_settings.png[Page settings dialog]"
+msgstr "image:images/ja/page_settings.png[Page settings dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:374
 msgid "image:images/en/title_block.png[Title block]"
-msgstr "image:images/en/title_block.png[Title block]"
+msgstr "image:images/ja/title_block.png[Title block]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:376
@@ -5412,7 +5411,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:64
 msgid "image:images/en/erc_pointers_info.png[ERC pointers info]"
-msgstr "image:images/en/erc_pointers_info.png[ERC pointers info]"
+msgstr "image:images/ja/erc_pointers_info.png[ERC pointers info]"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:67
@@ -5522,7 +5521,7 @@ msgstr "ファイルメニュー"
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:11
 msgid "image:images/en/file_menu.png[File menu]"
-msgstr "image:images/en/file_menu.png[File menu]"
+msgstr "image:images/ja/file_menu.png[File menu]"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:15
@@ -5610,7 +5609,7 @@ msgstr "設定"
 #: Eeschema_main_top_menu.adoc:46
 #, no-wrap
 msgid "images/en/menu_path_hotkey_editor.png"
-msgstr "images/en/menu_path_hotkey_editor.png"
+msgstr "images/ja/menu_path_hotkey_editor.png"
 
 #. type: delimited block |
 #: Eeschema_main_top_menu.adoc:57
@@ -5641,7 +5640,7 @@ msgstr "設定メニュー / コンポーネントライブラリ"
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:64 Eeschema_component_library_editor.adoc:337
 msgid "image:images/en/libsettings.png[Library settings]"
-msgstr "image:images/en/libsettings.png[Library settings]"
+msgstr "image:images/ja/libsettings.png[Library settings]"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:68
@@ -5702,7 +5701,7 @@ msgstr "設定メニュー / 描画色の設定"
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:86
 msgid "image:images/en/color_settings.png[Color settings]"
-msgstr "image:images/en/color_settings.png[Color settings]"
+msgstr "image:images/ja/color_settings.png[Color settings]"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:89
@@ -11314,7 +11313,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:899
 msgid "image:images/en/bom-netlist-tab.png[bom-netlist-tab_png]"
-msgstr "image:images/en/bom-netlist-tab.png[bom-netlist-tab_png]"
+msgstr "image:images/ja/bom-netlist-tab.png[bom-netlist-tab_png]"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:905
