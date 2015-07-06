@@ -5990,7 +5990,7 @@ msgstr "このツールバーは、Pcbnewの主な機能へのアクセスを提
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:312
 msgid "image:images/Pcbnew_top_toolbar.png[]"
-msgstr "image:images/Pcbnew_display_model_menu.png[]"
+msgstr "image:images/Pcbnew_top_toolbar.png[]"
 
 #. type: delimited block |
 #: Pcbnew_general_operations.adoc:355
