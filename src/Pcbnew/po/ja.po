@@ -488,7 +488,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:148
 msgid "image:images/Pcbnew_bad_tracks_deletion_option.png[]"
-msgstr "image:images/Pcbnew_bad_tracks_deletion_option.png[]"
+msgstr "image:images/ja/Pcbnew_bad_tracks_deletion_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:151
@@ -527,7 +527,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:163
 msgid "image:images/Pcbnew_extra_footprints_deletion_option.png[]"
-msgstr "image:images/Pcbnew_extra_footprints_deletion_option.png[]"
+msgstr "image:images/ja/Pcbnew_extra_footprints_deletion_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:168
@@ -574,7 +574,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:180
 msgid "image:images/Pcbnew_exchange_module_option.png[]"
-msgstr "image:images/Pcbnew_exchange_module_option.png[]"
+msgstr "image:images/ja/Pcbnew_exchange_module_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:183
@@ -615,7 +615,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:196
 msgid "image:images/Pcbnew_module_selection_option.png[]"
-msgstr "image:images/Pcbnew_module_selection_option.png[]"
+msgstr "image:images/ja/Pcbnew_module_selection_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:201
@@ -1523,7 +1523,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_zones.adoc:286
 msgid "image:images/Pcbnew_technical_layer_zone_dialog.png[]"
-msgstr "image:images/Pcbnew_technical_layer_zone_dialog.png[]"
+msgstr "image:images/ja/Pcbnew_technical_layer_zone_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:289
@@ -3437,7 +3437,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:69
 msgid "image:images/Pcbnew_plot_fine_scale_setting.png[]"
-msgstr "image:images/Pcbnew_plot_fine_scale_setting.png[]"
+msgstr "image:images/ja/Pcbnew_plot_fine_scale_setting.png[]"
 
 #. type: Title ^
 #: Pcbnew_fabrication_files.adoc:71
@@ -3926,7 +3926,7 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:256
 msgid "image:images/Pcbnew_advanced_tracing_options.png[]"
-msgstr "image:images/Pcbnew_advanced_tracing_options.png[]"
+msgstr "image:images/ja/Pcbnew_advanced_tracing_options.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:258
@@ -5273,7 +5273,7 @@ msgstr "次のスクリーンショットは、利用可能な操作法のいく
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:25
 msgid "image:images/Right-click_legacy_menu.png[]"
-msgstr "image:images/Right-click_legacy_menu.png[]"
+msgstr "image:images/ja/Right-click_legacy_menu.png[]"
 
 #. type: Title ~
 #: Pcbnew_general_operations.adoc:27
@@ -9076,7 +9076,7 @@ msgstr "設定メニューからライブラリリストの初期設定へと進
 #. type: Plain text
 #: Pcbnew_installation.adoc:38
 msgid "image:images/Library_list_menu_item.png[]"
-msgstr "image:images/Library_list_menu_item.png[]"
+msgstr "image:images/ja/Library_list_menu_item.png[]"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:41
@@ -9088,7 +9088,7 @@ msgstr "下の図はフットプリントライブラリリストを設定する
 #. type: Plain text
 #: Pcbnew_installation.adoc:43
 msgid "image:images/Footprint_library_list.png[]"
-msgstr "image:images/Footprint_library_list.png[]"
+msgstr "image:images/ja/Footprint_library_list.png[]"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:54
