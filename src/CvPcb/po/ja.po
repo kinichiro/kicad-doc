@@ -1,4 +1,3 @@
-# Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -6,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CvPcb-ja\n"
 "POT-Creation-Date: 2015-07-05 11:44+0900\n"
-"PO-Revision-Date: 2015-07-05 22:11+0900\n"
+"PO-Revision-Date: 2015-07-07 01:27+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -323,7 +322,7 @@ msgstr "以下は、CvPcb のメイン画面です。"
 #. type: Plain text
 #: CvPcb.adoc:122
 msgid "image:images/en/cvpcb_main_window.png[]"
-msgstr "image:images/en/cvpcb_main_window.png[]"
+msgstr "image:images/ja/cvpcb_main_window.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:130
@@ -571,7 +570,7 @@ msgstr "CvPcbの設定"
 #. type: Plain text
 #: CvPcb.adoc:214
 msgid "image:images/en/cvpcb_preference_menu.png[]"
-msgstr "image:images/en/cvpcb_preference_menu.png[]"
+msgstr "image:images/ja/cvpcb_preference_menu.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:217
@@ -677,7 +676,7 @@ msgstr ""
 #. type: Plain text
 #: CvPcb.adoc:259
 msgid "image:images/en/footprint_view.png[]"
-msgstr "image:images/en/footprint_view.png[]"
+msgstr "image:images/ja/footprint_view.png[]"
 
 #. type: Title ^
 #: CvPcb.adoc:261
@@ -760,7 +759,7 @@ msgstr "コンテキストメニュー"
 #. type: Plain text
 #: CvPcb.adoc:299
 msgid "image:images/en/context_menu.png[]"
-msgstr "image:images/en/context_menu.png[]"
+msgstr "image:images/ja/context_menu.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:301
@@ -932,7 +931,7 @@ msgstr "選択中の3Dモデルを見る"
 #. type: Plain text
 #: CvPcb.adoc:365
 msgid "image:images/en/3d_window.png[]"
-msgstr "image:images/en/3d_window.png[]"
+msgstr "image:images/ja/3d_window.png[]"
 
 #. type: delimited block |
 #: CvPcb.adoc:374
@@ -1159,7 +1158,7 @@ msgstr "フィルタなし"
 #. type: Plain text
 #: CvPcb.adoc:463
 msgid "image:images/en/filter_none.png[]"
-msgstr "image:images/en/filter_none.png[]"
+msgstr "image:images/ja/filter_none.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:467
@@ -1180,7 +1179,7 @@ msgstr "選択中されたコンポーネントのフットプリントフィル
 #. type: Plain text
 #: CvPcb.adoc:471
 msgid "image:images/en/filter_comp.png[]"
-msgstr "image:images/en/filter_comp.png[]"
+msgstr "image:images/ja/filter_comp.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:475
@@ -1196,7 +1195,7 @@ msgstr ""
 #. type: Plain text
 #: CvPcb.adoc:477
 msgid "image:images/en/eeschema_filter.png[]"
-msgstr "image:images/en/eeschema_filter.png[]"
+msgstr "image:images/ja/eeschema_filter.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:479
@@ -1206,7 +1205,7 @@ msgstr "選択中されたコンポーネントのピン数によるフィルタ
 #. type: Plain text
 #: CvPcb.adoc:481
 msgid "image:images/en/filter_pincount.png[]"
-msgstr "image:images/en/filter_pincount.png[]"
+msgstr "image:images/ja/filter_pincount.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:483
@@ -1216,7 +1215,7 @@ msgstr "選択中されたライブラリによるフィルタあり"
 #. type: Plain text
 #: CvPcb.adoc:485
 msgid "image:images/en/filter_library.png[]"
-msgstr "image:images/en/filter_library.png[]"
+msgstr "image:images/ja/filter_library.png[]"
 
 #. type: Plain text
 #: CvPcb.adoc:488
@@ -1236,7 +1235,7 @@ msgstr ""
 #. type: Plain text
 #: CvPcb.adoc:492
 msgid "image:images/en/filter_comp_and_pincount.png[]"
-msgstr "image:images/en/filter_comp_and_pincount.png[]"
+msgstr "image:images/ja/filter_comp_and_pincount.png[]"
 
 #. type: Title -
 #: CvPcb.adoc:494
@@ -1536,7 +1535,7 @@ msgstr ""
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:24
 msgid "image:images/en/lib_table.png[ lib table dlg]"
-msgstr "image:images/en/lib_table.png[ lib table dlg]"
+msgstr "image:images/ja/lib_table.png[ lib table dlg]"
 
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:30
@@ -2200,7 +2199,7 @@ msgid ""
 "image:images/en/fplib_wizard_locallibstartpage.png[ fplib wizard "
 "locallibstartpage]"
 msgstr ""
-"image:images/en/fplib_wizard_locallibstartpage.png[ fplib wizard "
+"image:images/ja/fplib_wizard_locallibstartpage.png[ fplib wizard "
 "locallibstartpage]"
 
 #. type: Plain text
@@ -2214,7 +2213,7 @@ msgid ""
 "image:images/en/fplib_wizard_startpage_github.png[ fplib wizard "
 "startpage_github]"
 msgstr ""
-"image:images/en/fplib_wizard_startpage_github.png[ fplib wizard "
+"image:images/ja/fplib_wizard_startpage_github.png[ fplib wizard "
 "startpage_github]"
 
 #. type: Plain text
@@ -2237,7 +2236,7 @@ msgid ""
 "image:images/en/fplib_wizard_locallibselection.png[ fplib wizard local lib "
 "selection]"
 msgstr ""
-"image:images/en/fplib_wizard_locallibselection.png[ fplib wizard local lib "
+"image:images/ja/fplib_wizard_locallibselection.png[ fplib wizard local lib "
 "selection]"
 
 #. type: Plain text
@@ -2251,7 +2250,7 @@ msgid ""
 "image:images/en/fplib_wizard_githubselection.png[ fplib wizard github "
 "selection]"
 msgstr ""
-"image:images/en/fplib_wizard_githubselection.png[ fplib wizard github "
+"image:images/ja/fplib_wizard_githubselection.png[ fplib wizard github "
 "selection]"
 
 #. type: Plain text
@@ -2268,7 +2267,7 @@ msgstr "ライブラリセットが選択され後で、次のページが選択
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:311
 msgid "image:images/en/fplib_wizard_validate.png[ fplib wizard validate]"
-msgstr "image:images/en/fplib_wizard_validate.png[ fplib wizard validate]"
+msgstr "image:images/ja/fplib_wizard_validate.png[ fplib wizard validate]"
 
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:314
@@ -2297,7 +2296,7 @@ msgstr "ローカルテーブル（プロジェクト固有のライブラリテ
 #. type: Plain text
 #: CvPcb_footprint_libraries_tables.adoc:321
 msgid "image:images/en/fplib_wizard_chooseflt.png[ fplib wizard chooseflt]"
-msgstr "image:images/en/fplib_wizard_chooseflt.png[ fplib wizard chooseflt]"
+msgstr "image:images/ja/fplib_wizard_chooseflt.png[ fplib wizard chooseflt]"
 
 #~ msgid ""
 #~ "footprint library table allows *direct use of footprint libraries* from"
