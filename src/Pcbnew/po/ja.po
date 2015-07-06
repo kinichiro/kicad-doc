@@ -677,7 +677,7 @@ msgstr "モジュールの変更にアクセスします"
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:219
 msgid "image:images/Pcbnew_change_modules_button.png[]"
-msgstr "image:images/Pcbnew_module_selection_option.png[]"
+msgstr "image:images/Pcbnew_change_modules_button.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:221
