@@ -8628,7 +8628,7 @@ msgstr "パッド1はパラメータが Delta X = 10mil です。"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:299
 msgid "image:images/Modedit_pad_delta_example.png[]"
-msgstr "image:images/ja/Modedit_pad_delta_example.png[]"
+msgstr "image:images/Modedit_pad_delta_example.png[]"
 
 #. type: Title ^
 #: Pcbnew_creating_editing_modules.adoc:301
