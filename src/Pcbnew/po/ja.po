@@ -8611,7 +8611,7 @@ msgstr "パッド3はオフセットが Y = 15mil です。"
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:292
 msgid "image:images/Modedit_pad_offset_example.png[]"
-msgstr "image:images/ja/Modedit_pad_offset_example.png[]"
+msgstr "image:images/Modedit_pad_offset_example.png[]"
 
 #. type: Title +
 #: Pcbnew_creating_editing_modules.adoc:294
