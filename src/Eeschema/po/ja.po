@@ -6132,7 +6132,7 @@ msgstr ""
 #| msgid ""
 #| "image:images/icons/sch_editor_main_toolbar.png[sch editor main toolbar]"
 msgid "image:images/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
-msgstr "image:images/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
+msgstr "image:images/ja/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:85
