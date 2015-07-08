@@ -4586,7 +4586,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:393
 msgid "image:images/rescue-conflicts.png[Rescue conflicts dialog]"
-msgstr "image:images/rescue-conflicts.png[Rescue conflicts dialog]"
+msgstr "image:images/ja/rescue-conflicts.png[Rescue conflicts dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:398
@@ -7161,7 +7161,7 @@ msgid ""
 "image:images/100000000000030A00000205F0A88B4F.png"
 "[100000000000030A00000205F0A88B4F_png]"
 msgstr ""
-"image:images/100000000000030A00000205F0A88B4F.png"
+"image:images/ja/100000000000030A00000205F0A88B4F.png"
 "[100000000000030A00000205F0A88B4F_png]"
 
 #. type: Title ^
