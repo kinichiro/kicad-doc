@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: EeSchema-ja\n"
+"Project-Id-Version: Eeschema-ja\n"
 "POT-Creation-Date: 2015-07-05 11:45+0900\n"
 "PO-Revision-Date: 2015-07-09 00:42+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
@@ -1579,7 +1579,7 @@ msgid ""
 "Label lengths have no limitations in Eeschema, but the software exploiting "
 "the generated netlist can be limited on this point."
 msgstr ""
-"EeSchema にはラベルの長さの制限はありませんが、生成されたネットリストを利用す"
+"Eeschema にはラベルの長さの制限はありませんが、生成されたネットリストを利用す"
 "るソフトウェアには制限がある場合があります。"
 
 #. type: Plain text
@@ -1595,7 +1595,7 @@ msgid ""
 "assume that a label has no spaces."
 msgstr ""
 "区切られた単語として表示されてしまうため、ラベルの中では空白文字(スペース)を"
-"使うべきではありません。それは EeSchema の制限ではなく、多くのネットリスト"
+"使うべきではありません。それは Eeschema の制限ではなく、多くのネットリスト"
 "フォーマットのおいて、ラベルは空白文字を含んでいないものと定義されているから"
 "です。"
 
@@ -1798,7 +1798,7 @@ msgid ""
 "The diagnosis can then be given by left clicking on the marker. An error "
 "file can also be generated."
 msgstr ""
-"一度 ERC を実行すると、EeSchema はラベルやピン上に問題を目立たせるマーカーを"
+"一度 ERC を実行すると、Eeschema はラベルやピン上に問題を目立たせるマーカーを"
 "配置します。マーカー上で左クリックすると診断結果を表示します。エラーファイル"
 "を生成させることもできます。"
 
@@ -2689,7 +2689,7 @@ msgstr "上部のツールバー"
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:158
 msgid "This toolbar gives access to the main functions of Eeschema."
-msgstr "このツールバーから、EeSchema の主な機能へアクセスできます。"
+msgstr "このツールバーから、Eeschema の主な機能へアクセスできます。"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:160
@@ -3617,7 +3617,7 @@ msgid ""
 "representation of an electronic device. It is normally the entry point of a "
 "development chain that allows for:"
 msgstr ""
-"EeSchema を使う回路図設計は、単なる回路図画像の描画に留まりません。この回路図"
+"Eeschema を使う回路図設計は、単なる回路図画像の描画に留まりません。この回路図"
 "設計は，開発フローのスタートとなります。:"
 
 #. type: Plain text
@@ -5657,7 +5657,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:70
 msgid "Eeschema searches, in order:"
-msgstr "EeSchema は次の優先度順に設定ファイルを検索します。:"
+msgstr "Eeschema は次の優先度順に設定ファイルを検索します。:"
 
 #. type: Plain text
 #: Eeschema_main_top_menu.adoc:72
