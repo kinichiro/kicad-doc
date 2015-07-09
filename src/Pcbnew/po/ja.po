@@ -4731,7 +4731,7 @@ msgid ""
 "of components (connectors, discretes,...), since Pcbnew is able to search "
 "many libraries when loading modules."
 msgstr ""
-"PcbNewはモジュール読み込みの際に多くのライブラリを検索することが出来るので、"
+"Pcbnewはモジュール読み込みの際に多くのライブラリを検索することが出来るので、"
 "異なる種類の部品用にそれぞれ異なるライブラリー(コネクタ用、ディスクリート"
 "用・・・)を作成することは、通常、良い考えです。"
 
