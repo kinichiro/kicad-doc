@@ -1,10 +1,9 @@
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema-ja\n"
 "POT-Creation-Date: 2015-07-05 11:45+0900\n"
-"PO-Revision-Date: 2015-07-09 00:42+0900\n"
-"Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
+"PO-Revision-Date: 2015-07-10 18:17+0900\n"
+"Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -12,13 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
-# 1st:0800_06282015
-# 2nd:0000_06292015
-# 3rd:1800_06292015 freezed
-# 4th:0000_07042015 resumed
-# Last:0430_07042015 finished
-# UD1:0400_07062015
-# UD2:0300_07072015
+# PR1:07102015 proofreading - chapter1
 #. type: Title =
 #: Eeschema.adoc:8
 #, no-wrap
@@ -53,10 +46,10 @@ msgid ""
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あな"
-"たは、GNU General Public License  (http://www.gnu.org/licenses/gpl.html), "
-"version 3以降、あるいはクリエイティブ·コモンズライセンス  (http://"
-"creativecommons.org/licenses/by/3.0/), version 3.0 以降のいずれかの条件の下"
-"で、それを配布し、そして/または、それを変更することができます。"
+"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
+"バージョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
+"で、配布または変更することができます 。"
 
 #. type: Plain text
 #: Eeschema.adoc:26
@@ -127,7 +120,7 @@ msgstr ""
 #: Eeschema_introduction.adoc:3
 #, no-wrap
 msgid "Introduction to Eeschema"
-msgstr "Eeschema入門"
+msgstr "Eeschema 入門"
 
 #. type: Title ~
 #: Eeschema_introduction.adoc:6
@@ -175,9 +168,9 @@ msgid ""
 "control, layout, library management and access to the PCB design software "
 "are carried out within Eeschema itself."
 msgstr ""
-"Eeschema は、図面、コントロール、レイアウト、ライブラリー管理および、PCB 設計"
-"ソフトウェアへのアクセスといったすべての機能が Eeschema 内で実行される統合ソ"
-"フトウェアです。"
+"Eeschema は、図面、コントロール、レイアウト、ライブラリ管理および、PCB 設計ソ"
+"フトウェアへのアクセスといったすべての機能が Eeschema 内で実行される統合ソフ"
+"トウェアです。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:25
@@ -2776,7 +2769,7 @@ msgid ""
 msgstr ""
 "|image:images/icons/save.png[icons/save_png]\n"
 "a|\n"
-"回路図全体を保存する（階層も含む）。\n"
+"|回路図全体を保存する（階層も含む）。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:183
@@ -4586,7 +4579,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:393
 msgid "image:images/rescue-conflicts.png[Rescue conflicts dialog]"
-msgstr "image:images/ja/rescue-conflicts.png[Rescue conflicts dialog]"
+msgstr "image:images/rescue-conflicts.png[Rescue conflicts dialog]"
 
 #. type: Plain text
 #: Eeschema_schematic_creation_and_editing.adoc:398
@@ -5034,7 +5027,7 @@ msgid ""
 "The Eeschema research tool is not case sensitive. The most current key words "
 "used in the libraries are"
 msgstr ""
-"EESchema リサーチツールは、大文字と小文字を区別しません。ライブラリで使われる"
+"Eeschema リサーチツールは、大文字と小文字を区別しません。ライブラリで使われる"
 "現状もっとも多いキーワードは次のものです。"
 
 #. type: Plain text
@@ -5061,6 +5054,7 @@ msgstr "JKFF DFF… ：JK あるいはD flip-flop"
 msgid "ADC, DAC, MUX…"
 msgstr "ADC, DAC, MUX…OpenCol ："
 
+# 07102015：変更（原文誤り）
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:162
 msgid ""
@@ -5069,7 +5063,7 @@ msgid ""
 "chema will display the list of components having these 2 key words."
 msgstr ""
 "OpenCol はオープンコレクタ出力を持つ論理ゲートです。従って、回路図エディター"
-"内で NAND2 OpenCol というキーワードでコンポーネントを検索すると、EESchema は"
+"内で NAND2 OpenCol というキーワードでコンポーネントを検索すると、Eeschema は"
 "これら2つのキーワードを持つコンポーネントのリストを表示します。"
 
 #. type: Title ^
@@ -7162,7 +7156,7 @@ msgid ""
 "image:images/100000000000030A00000205F0A88B4F.png"
 "[100000000000030A00000205F0A88B4F_png]"
 msgstr ""
-"image:images/ja/100000000000030A00000205F0A88B4F.png"
+"image:images/100000000000030A00000205F0A88B4F.png"
 "[100000000000030A00000205F0A88B4F_png]"
 
 #. type: Title ^
