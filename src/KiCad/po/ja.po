@@ -1092,7 +1092,7 @@ msgid ""
 "template files are stored. The metadata directory (METADIR) contains pre-"
 "defined files which provide information about the template."
 msgstr ""
-"テンプレートファイルはテンプレートシステム名(SYSNAME)で指定されるディレクトに"
+"テンプレートファイルはテンプレートシステム名(SYSNAME)で指定されるディレクトリに"
 "置かれます。メタデータ・ディレクトリ(METADIR)にはテンプレート情報のファイルが"
 "あります。"
 
@@ -1323,7 +1323,7 @@ msgid ""
 "template/kicad.pro to the current folder.\n"
 msgstr ""
 "*新規プロジェクト* template/kicad.proのみを現在の\n"
-"フォルダーにコピーした空白プロジェクトを作成します。\n"
+"フォルダにコピーした空白プロジェクトを作成します。\n"
 
 #. type: Plain text
 #: KiCad.adoc:552
