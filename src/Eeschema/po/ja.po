@@ -2,16 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema-ja\n"
 "POT-Creation-Date: 2015-07-05 11:45+0900\n"
-"PO-Revision-Date: 2015-07-10 18:17+0900\n"
+"PO-Revision-Date: 2015-07-12 22:25+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.2\n"
 
 # PR1:07102015 proofreading - chapter1
+# PR2:07122015 proofreading - chapter2,3
 #. type: Title =
 #: Eeschema.adoc:8
 #, no-wrap
@@ -45,10 +46,10 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
-"このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あな"
-"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
-"バージョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
-"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
+"このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あなた"
+"は、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) のバー"
+"ジョン 3 以降、あるいはクリエイティブ・コモンズ・ライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン 3.0 以降のいずれかの条件の下"
 "で、配布または変更することができます 。"
 
 #. type: Plain text
@@ -80,7 +81,7 @@ msgid ""
 "mailing list: https://launchpad.net/~kicad-developers[]"
 msgstr ""
 "このドキュメントに関するコメントや提案をKiCad メーリングリストに送ってくださ"
-"い: https://launchpad.net/~kicad-developers[]"
+"い : https://launchpad.net/~kicad-developers[]"
 
 #. type: Plain text
 #: Eeschema.adoc:40
@@ -134,8 +135,8 @@ msgid ""
 "Eeschema is powerful schematic capture software distributed as part of KiCad "
 "and available under the following operating systems:"
 msgstr ""
-"Eeschema は、KiCad の一部として配布されている強力な回路図エディターソフトウェ"
-"アであり、次のオペレーティングシステムの下で利用可能です。:"
+"Eeschema は、KiCad の一部として配布されている強力な回路図エディタソフトウェアで"
+"あり、次のオペレーティングシステムの下で利用可能です。:"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:12
@@ -158,8 +159,8 @@ msgid ""
 "Regardless of the OS, all Eeschema files are 100% compatible from one OS to "
 "another."
 msgstr ""
-"OS に関係なく、すべての Eeschema ファイルは一方の OS から他方のものへ１００％"
-"互換性があります。 "
+"OS に関係なく、すべての Eeschema ファイルは一方の OS から他方のものへ１００％互"
+"換性があります。 "
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:21
@@ -168,9 +169,9 @@ msgid ""
 "control, layout, library management and access to the PCB design software "
 "are carried out within Eeschema itself."
 msgstr ""
-"Eeschema は、図面、コントロール、レイアウト、ライブラリ管理および、PCB 設計ソ"
-"フトウェアへのアクセスといったすべての機能が Eeschema 内で実行される統合ソフ"
-"トウェアです。"
+"Eeschema は、図面、コントロール、レイアウト、ライブラリ管理および、PCB 設計ソフ"
+"トウェアへのアクセスといったすべての機能が Eeschema 内で実行される統合ソフトウェ"
+"アです。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:25
@@ -179,9 +180,9 @@ msgid ""
 "design software. It can also export netlist files, which list all the "
 "electrical connections, for other packages."
 msgstr ""
-"Eeschema は、プリント基板設計ソフトウェア PcbNew とともに使用されることを想定"
-"しています。また、PCB の電気的接続を記述するネットリストファイルをエクスポー"
-"トすることも可能です。"
+"Eeschema は、プリント基板設計ソフトウェア PcbNew とともに使用されることを想定し"
+"ています。また、PCB の電気的接続を記述するネットリストファイルをエクスポートする"
+"ことも可能です。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:30
@@ -191,23 +192,23 @@ msgid ""
 "additional but essential functions needed for modern schematic capture "
 "software:"
 msgstr ""
-"Eeschema は、コンポーネントの作成／編集やライブラリの管理ができるコンポーネン"
-"トエディタを含んでいます。また、現代の回路図エディタソフトに必要不可欠な機能"
-"だけでなく、以下の追加機能も組み込まれています。：  "
+"Eeschema は、コンポーネントの作成／編集やライブラリの管理ができるコンポーネント"
+"エディタを含んでいます。また、現代の回路図エディタソフトに必要不可欠な機能だけで"
+"なく、以下の追加機能も組み込まれています。：  "
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:33
 msgid ""
 "Design rules check (DRC) for the automatic control of incorrect and missing "
 "connections"
-msgstr "誤接続、未接続の自動的な検出を行うデザインルールチェック (DRC)。 "
+msgstr "誤接続、未接続の自動的な検出を行うデザイン・ルール・チェック (DRC)。 "
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:34
 msgid "Export of plot files in many formats (Postscript, PDF, HPGL, and SVG)"
 msgstr ""
-"多くの形式 (Postscript, PDF, HPGL, and SVG)をサポートしたプロットファイルのエ"
-"クスポート。"
+"多くの形式 (Postscript, PDF, HPGL, and SVG)をサポートしたプロットファイルのエク"
+"スポート。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:35
@@ -215,8 +216,8 @@ msgid ""
 "Bill of Materials generation (via Python scripts, which allow many "
 "configurable formats)."
 msgstr ""
-"(様々なフォーマットを設定できるよう Python スクリプトを使用した) 部品表 "
-"(BOM) の生成。"
+"(様々なフォーマットを設定できるよう Python スクリプトを使用した) 部品表 (BOM) の"
+"生成。"
 
 #. type: Title ~
 #: Eeschema_introduction.adoc:37
@@ -233,14 +234,13 @@ msgid ""
 "hierarchical."
 msgstr ""
 "Eeschema は、コンピュータで利用可能なメモリの大きさにのみ制限を受けます。コン"
-"ポーネント、ピン、接続、シート、の数に関して明示的な制限はありません。複数"
-"シートからなる回路図では、階層的な表示となります。"
+"ポーネント、ピン、接続、シート、の数に関して明示的な制限はありません。複数シート"
+"からなる回路図では、階層的な表示となります。"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:45
 msgid "Eeschema can use multi-sheet diagrams of these types:"
-msgstr ""
-"Eeschema は、次のタイプの複数のシートからなる回路図を使うことができます:"
+msgstr "Eeschema は、次のタイプの複数のシートからなる回路図を使うことができます:"
 
 #. type: Plain text
 #: Eeschema_introduction.adoc:47
@@ -260,8 +260,8 @@ msgid ""
 "Flat hierarchies (schematics are not explicitly connected in a master "
 "diagram)."
 msgstr ""
-"平面的（フラット）な階層 (マスター図面の中、いくつかの図面は明示的に接続され"
-"ない)。"
+"平面的（フラット）な階層 (マスター図面の中、いくつかの図面は明示的に接続されな"
+"い)。"
 
 #. type: Title -
 #: Eeschema_plot_and_print.adoc:4
@@ -324,7 +324,7 @@ msgstr ""
 #: Eeschema_plot_and_print.adoc:23
 #, no-wrap
 msgid "Plot Current"
-msgstr "現在のものをプロットは"
+msgstr "現在のものをプロット"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:25
@@ -411,9 +411,9 @@ msgid ""
 "adjusted to fill the page."
 msgstr ""
 "通常は、“回路図の大きさ” にチェックが付きます。この場合、タイトルブロックメ"
-"ニューで定義されているシートサイズが使用され、その時のスケールは１になりま"
-"す。異なるシートサイズ（ A4 ～ A0 あるいは A ～ E ）を選択すると、スケールが"
-"自動的に調整されてページにフィットします。"
+"ニューで定義されているシートサイズが使用され、その時のスケールは１になります。異"
+"なるシートサイズ（ A4 ～ A0 あるいは A ～ E ）を選択すると、スケールが自動的に調"
+"整されてページにフィットします。"
 
 #. type: Title ^
 #: Eeschema_plot_and_print.adoc:58
@@ -453,8 +453,8 @@ msgid ""
 "For plotters having their origin point at the lower left corner of the sheet "
 "the offset must be set equal to 0."
 msgstr ""
-"シートの左下角を原点とするプロッターの場合、オフセットは０に設定しなければな"
-"りません。"
+"シートの左下角を原点とするプロッターの場合、オフセットは０に設定しなければなりま"
+"せん。"
 
 #. type: Plain text
 #: Eeschema_plot_and_print.adoc:73
@@ -1589,7 +1589,7 @@ msgid ""
 msgstr ""
 "区切られた単語として表示されてしまうため、ラベルの中では空白文字(スペース)を"
 "使うべきではありません。それは Eeschema の制限ではなく、多くのネットリスト"
-"フォーマットのおいて、ラベルは空白文字を含んでいないものと定義されているから"
+"フォーマットにおいて、ラベルは空白文字を含んでいないものと定義されているから"
 "です。"
 
 #. type: Plain text
@@ -2356,7 +2356,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:25
 msgid "Here are the various possible command locations:"
-msgstr "以下は様々なコマンドの配置です。:"
+msgstr "下図に様々なコマンドの配置を示します。:"
 
 #. type: Target for macro image
 #: Eeschema_generic_commands.adoc:26
@@ -2388,15 +2388,15 @@ msgid ""
 "Single click: displays the characteristics of the component or text under "
 "the cursor in the status bar."
 msgstr ""
-"シングルクリック: カーソル下のコンポーネントあるいはテキストの特性をステータ"
-"スバーへ表示する。"
+"シングルクリック: カーソルに下にあるコンポーネントあるいはテキストの属性をステー"
+"タスバーへ表示する。"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:39
 msgid "Double click: edit (if the element is editable) the component or text."
 msgstr ""
-"ダブルクリック: コンポーネントあるいはテキストを編集 （要素が編集可能な場合）"
-"する。"
+"ダブルクリック: コンポーネントあるいはテキストを編集する。（要素が編集可能な場"
+"合）"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:41
@@ -2645,8 +2645,8 @@ msgid ""
 "The relative coordinates can be reset to zero with the space bar. This is "
 "useful for making measurements between two points."
 msgstr ""
-"相対座標値 (x, y) はスペースキーで０へリセットされます。これは２点間の距離を"
-"測る時に役立ちます。"
+"相対座標値 (x, y) はスペースキーで (0, 0) へリセットされます。これは２点間の距離"
+"を測る時に役立ちます。"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:144
@@ -2657,7 +2657,7 @@ msgstr "image:images/ja/status_bar.png[]"
 #: Eeschema_generic_commands.adoc:146
 #, no-wrap
 msgid "Top menu bar"
-msgstr "トップメニューバー"
+msgstr "トップ・メニューバー"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:150
@@ -2665,8 +2665,8 @@ msgid ""
 "The top menu bar allows the opening and saving of schematics, program "
 "configuration, and viewing the documentation."
 msgstr ""
-"トップメニューバーでは、回路図やプログラム設定を開いたり、保存したり、ヘルプ"
-"メニューを開いたりできます。"
+"トップ・メニューバーでは、回路図やプログラム設定を開いたり、保存したり、ヘルプメ"
+"ニューを開いたりできます。"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:152
@@ -2741,7 +2741,7 @@ msgid ""
 "|Create a new schematic (only in standalone mode).\n"
 msgstr ""
 "|image:images/icons/new_sch.png[new schematic icon]\n"
-"|新規回路図の作成 (単独実行時のみ)。\n"
+"|新規回路図の作成（単独実行時のみ）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:176
@@ -2754,7 +2754,7 @@ msgid ""
 "|Open a schematic (only in standalone mode).\n"
 msgstr ""
 "|image:images/icons/open_document.png[Open schematic icon]\n"
-"|回路図を開く (単独実行時のみ)。\n"
+"|既存回路図を開く（単独実行時のみ）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:180
@@ -2768,8 +2768,7 @@ msgid ""
 "Save complete (hierarchical) schematic.\n"
 msgstr ""
 "|image:images/icons/save.png[icons/save_png]\n"
-"a|\n"
-"|回路図全体を保存する（階層も含む）。\n"
+"|回路図プロジェクトの保存（階層も含む）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:183
@@ -2782,7 +2781,7 @@ msgid ""
 "|Select the sheet size and edit the title block.\n"
 msgstr ""
 "|image:images/icons/sheetset.png[Page Settings icon]\n"
-"|用紙サイズと表題欄の編集。\n"
+"|ページの設定（用紙サイズと表題欄の編集）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:186
@@ -2795,7 +2794,7 @@ msgid ""
 "|Open print dialog.\n"
 msgstr ""
 "|image:images/icons/print_button.png[icons/print_button_png]\n"
-"|プリントメニューを開く。\n"
+"|回路図の印刷（プリントダイアログを開く）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:189
@@ -2808,7 +2807,7 @@ msgid ""
 "|Remove the selected elements during a block move.\n"
 msgstr ""
 "|image:images/icons/cut_button.png[icons/cut_button_png]\n"
-"|ブロック移動の間に選択された要素を削除。\n"
+"|選択したアイテムを切り取り（ブロック移動の間に選択された要素を削除）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:192
@@ -2821,7 +2820,7 @@ msgid ""
 "|Copy selected elements to the clipboard during a block move.\n"
 msgstr ""
 "|image:images/icons/copyblock.png[icons/copyblock_png]\n"
-"|ブロック移動時に選択された要素をクリップボードにコピー。\n"
+"|選択したアイテムをコピー（ブロック移動時に選択された要素をクリップボードにコピー）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:195
@@ -2834,7 +2833,7 @@ msgid ""
 "|Copy last selected element or block in the current sheet.\n"
 msgstr ""
 "|image:images/icons/paste.png[icons/paste_png]\n"
-"|現在のシートで最後に選択した要素，あるいはブロックをコピー。\n"
+"|貼り付け（現在のシートで最後に選択した要素，あるいはブロックを貼り付け）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:198
@@ -2847,7 +2846,7 @@ msgid ""
 "|Undo: Cancel the last change (up to 10 levels).\n"
 msgstr ""
 "|image:images/icons/undo.png[icons/undo_png]\n"
-"|取り消し: 最後の変更を取り消す（10段階まで）。\n"
+"|一つ前のコマンドを元に戻す（10段階まで）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:201
@@ -2860,7 +2859,7 @@ msgid ""
 "|Redo (up to 10 levels).\n"
 msgstr ""
 "|image:images/icons/redo.png[icons/redo_png]\n"
-"|やり直し（10段階まで）。\n"
+"|一つ前のコマンドをやり直し（10段階まで）。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:204
@@ -2873,7 +2872,7 @@ msgid ""
 "|Call the dialog to search components and texts in the schematic.\n"
 msgstr ""
 "|image:images/icons/find.png[search icon]\n"
-"|回路図中のコンポーネントとテキストを探索するダイアログの呼び出し。\n"
+"|コンポーネントとテキストの検索（ダイアログの呼び出し）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:207
@@ -2886,7 +2885,7 @@ msgid ""
 "|Call the dialog to search and replace texts in the schematic.\n"
 msgstr ""
 "|image:images/icons/find_replace.png[search replace icon]\n"
-"|回路図中のテキストを置換するダイアログの呼び出し。\n"
+"|テキストの検索と置換（ダイアログの呼び出し）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:210
@@ -2896,7 +2895,7 @@ msgid ""
 "|Zoom in and out.\n"
 msgstr ""
 "|image:images/icons/zoom_in.png[icons/zoom_in] image:images/icons/zoom_out.png[icons/zoom_out]\n"
-"|画面中央近辺をズームイン・アウト。\n"
+"|ズームイン／ズームアウト（画面中央近辺）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:213
@@ -2906,7 +2905,7 @@ msgid ""
 "|Refresh screen; zoom to fit.\n"
 msgstr ""
 "|image:images/icons/zoom_redraw.png[icons/zoom_redraw] image:images/icons/zoom_fit_in_page.png[icons/zoom_fit_in_page_png]\n"
-"|画面の再描画とズームの最適化。\n"
+"|回路図ビューの再描画 ; 回路図表示を画面サイズに合わせる\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:216
@@ -2919,7 +2918,7 @@ msgid ""
 "|View and navigate the hierarchy tree.\n"
 msgstr ""
 "|image:images/icons/hierarchy_nav.png[hierarchy navigator icon]\n"
-"|図面階層のツリー構造（サブシートがある場合）と階層のシートの即時選択を表示するナビゲータウィンドウの呼び出し。\n"
+"|図面図の階層ナビゲータを表示（ツリー構造（サブシートがある場合）と階層を表示）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:219
@@ -2932,7 +2931,7 @@ msgid ""
 "|Leave the current sheet and go up in the hierarchy.\n"
 msgstr ""
 "|image:images/icons/leave_sheet.png[icons/leave_sheet]\n"
-"|現在のシートをそのままにして、階層を一つ上がる。\n"
+"|上の階層へ（現在のシートをそのままにして、階層を一つ上がる）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:222
@@ -2945,7 +2944,7 @@ msgid ""
 "|Call component editor _Libedit_ to view and modify libraries and component symbols.\n"
 msgstr ""
 "|image:images/icons/libedit.png[icons/libedit_png]\n"
-"|コンポーネントエディタ _Libedit_ (ライブラリコンポーネントの編集、修正、検査)の呼び出し。\n"
+"|ライブラリエディタ - コンポーネントの作成と編集（ _Libedit_ の呼び出し）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:225
@@ -2955,7 +2954,7 @@ msgid ""
 "|Display libraries (Viewlib).\n"
 msgstr ""
 "|image:images/icons/library_browse.png[icons/library_browse_png]\n"
-"|ライブラリの表示 (Viewlib)。\n"
+"|ライブラリブラウザ - コンポーネントの参照（ Viewlib ）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:228
@@ -2965,7 +2964,7 @@ msgid ""
 "|Annotate components.\n"
 msgstr ""
 "|image:images/icons/annotate.png[icons_annotate_png]\n"
-"|コンポーネントのアノテーション。\n"
+"|回路図のアノテーション。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:231
@@ -2979,8 +2978,7 @@ msgid ""
 "|Electrical rules check (ERC), automatically validate electrical connections.\n"
 msgstr ""
 "|image:images/icons/erc.png[ERC icon]\n"
-"|ERC (Electrical Rules Check)。自動で電気的接続を\n"
-"チェックする。\n"
+"|ERC (Electrical Rules Check)。自動で電気的接続をチェックする。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:234
@@ -2993,7 +2991,7 @@ msgid ""
 "|Export a netlist (Pcbnew, SPICE, and other formats).\n"
 msgstr ""
 "|image:images/icons/netlist.png[Netlist icon]\n"
-"|ネットリスト（Pcbnew，Spice フォーマット及びその他フォーマット）の書き出し (Export)\n"
+"|ネットリストの作成（Pcbnew，Spice フォーマット及びその他フォーマットでエクスポート）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:237
@@ -3017,7 +3015,7 @@ msgid ""
 "|Edit module.\n"
 msgstr ""
 "|image:images/icons/edit_module.png[edit_module icon]\n"
-"|モジュールの編集。\n"
+"|フットプリントエディタ\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:243
@@ -3030,7 +3028,7 @@ msgid ""
 "|Call CvPvb to assign footprints to components.\n"
 msgstr ""
 "|image:images/icons/cvpcb.png[run cvpcb icon]\n"
-"|コンポーネントへフットプリントを関連付ける CvPvb の呼び出し。\n"
+"|CvPvb（コンポーネントとフットプリントの関連付け）を実行\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:246
@@ -3043,7 +3041,7 @@ msgid ""
 "|Call Pcbnew to perform a PCB layout.\n"
 msgstr ""
 "|image:images/icons/pcbnew.png[icons/pcbnew_png]\n"
-"|基板のレイアウトを行う Pcbnew の呼び出し。\n"
+"|Pcbnew （プリント基板のレイアウト）の実行\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:249
@@ -3056,7 +3054,7 @@ msgid ""
 "|Back-import component footprints (selected using CvPcb) into the \"footprint\" fields.\n"
 msgstr ""
 "|image:images/icons/import_footprint_names.png[Import Footprint Names icon]\n"
-"|“フットプリント” フィールドへ (CvPcbから) コンポーネントのフットプリントをバックインポート。\n"
+"|CvPcb の .cmp ファイルより、コンポーネント・フットプリント・フィールドの情報をバックインポート\n"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:252
@@ -3097,8 +3095,8 @@ msgid ""
 "The detailed use of these tools is described in the chapter “Diagram "
 "Creation/Editing”. An outline of their use is given below."
 msgstr ""
-"これらのツールの詳しい使用法は、「ダイアグラムの作成/編集」にあります。使用法"
-"の概要は、以下のとおりです。"
+"これらのツールの詳しい使用法は、 “回路図の作成と編集” の章にあります。使用法の概"
+"要は、以下のとおりです。"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:274
@@ -3130,10 +3128,10 @@ msgid ""
 "the schematic).\n"
 msgstr ""
 "|image:images/icons/hierarchy_cursor.png[icons/hierarchy_cursor_png]\n"
-"|階層ナビゲーション: サブシートのシンボルを\n"
-"クリックしてサブシートを開いたり、サブシート\n"
-"の何もないエリアでクリックすることで階層から\n"
-"上に戻ったりできる。\n"
+"|階層の上下移動: サブシートを開いたり（サブシートの\n"
+"シンボルをクリック）、階層を戻ったり\n"
+"できます。（サブシートの何もないエリア\n"
+"でクリック）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:283
@@ -3159,7 +3157,7 @@ msgid ""
 "|Display the power symbol selector.\n"
 msgstr ""
 "|image:images/icons/add_power.png[Add Power icon]\n"
-"|電源の配置。\n"
+"|電源ポートの配置。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:289
@@ -3172,7 +3170,7 @@ msgid ""
 "|Draw a wire.\n"
 msgstr ""
 "|image:images/icons/add_line.png[icons/add_line_png]\n"
-"|ワイヤを配置。\n"
+"|ワイヤの配置。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:292
@@ -3200,7 +3198,7 @@ msgid ""
 "a connection, thus they should not be used to connect wires together.\n"
 msgstr ""
 "|image:images/icons/add_line2bus.png[icons/add_line2bus_png]\n"
-"|バス接続へのワイヤの配置。これらの要素は装飾的な役割だけなので、\n"
+"|ワイヤ - バスエントリを配置。これらの要素は装飾的な役割だけなので、\n"
 "配線間の接続に使用すべきではありません。\n"
 
 #. type: delimited block |
@@ -3214,7 +3212,7 @@ msgid ""
 "|Draw bus-to-bus entry points.\n"
 msgstr ""
 "|image:images/icons/add_bus2bus.png[icons/add_bus2bus_png]\n"
-"|バス接続へのバス。これは2本のバス同士をつなぐだけです。\n"
+"|バス - バスエントリを配置。これは2本のバス同士をつなぐだけです。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:304
@@ -3231,7 +3229,7 @@ msgid ""
 "pins are intentionally left not connected or are missed.\n"
 msgstr ""
 "|image:images/icons/noconn.png[icons/noconn_png]\n"
-"|“空き端子” シンボルの配置。これは接続されないコンポーネントのピン上に配置します。\n"
+"|空き端子フラグを配置。接続されないコンポーネントのピン上に配置します。\n"
 "これは ERC 機能において、ピンが意図的に接続されていないのか、誤って未接続なのか\n"
 "を確認するために使用されます。\n"
 
@@ -3250,7 +3248,8 @@ msgid ""
 "connected to one of the ends of the other wire).\n"
 msgstr ""
 "|image:images/icons/add_junction.png[icons/add_junction_png]\n"
-"|接続点の配置。 接続状況がはっきりしない2本の交差する配線や、\n"
+"|ジャンクション（接続点）の配置。 接続状況が\n"
+"はっきりしない2本の交差する配線や、\n"
 "ピン同士を接続します。\n"
 
 #. type: delimited block |
@@ -3268,7 +3267,7 @@ msgid ""
 "have to use global or hierarchical labels.\n"
 msgstr ""
 "|image:images/icons/add_line_label.png[icons/add_line_label_png]\n"
-"|ローカルラベルの配置。異なるワイヤは、 **同じシート内** で\n"
+"|ネット名（ローカルラベル）の配置。異なるワイヤは、 **同じシート内** で\n"
 "同一のラベルを使用すると接続されます。異なるシート間の接続の\n"
 "場合は、グローバルラベルを使用してください。\n"
 
@@ -3304,7 +3303,7 @@ msgid ""
 "connection between a sheet and the parent sheet that contains it.\n"
 msgstr ""
 "|image:images/icons/add_hierarchical_label.png[icons/add_hierarchical_label_png]\n"
-"|階層ラベルの配置。シートと、そのシートシンボルを含む\n"
+"|階層のラベル入力。シートと、そのシートシンボルを含む\n"
 "親シート間の接続を配置します。\n"
 
 #. type: delimited block |
@@ -3318,7 +3317,7 @@ msgid ""
 "|Place a hierarchical subsheet. You must specify the file name for this subsheet.\n"
 msgstr ""
 "|image:images/icons/add_hierarchical_subsheet.png[icons/add_hierarchical_subsheet_png]\n"
-"|階層サブシートの配置。サブシートのデータを保存するためには，ファイル名を指定する必要があります。\n"
+"|階層シートの作成。サブシートのデータを保存するためには，ファイル名を指定する必要があります。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:332
@@ -3338,9 +3337,9 @@ msgid ""
 msgstr ""
 "|image:images/icons/import_hierarchical_label.png[icons/import_hierarchical_label_png]\n"
 "a|\n"
-"サブシートからのグローバルラベルのインポート。グローバルラベルはサブシートに\n"
-"配置されていなければなりません。こうして作った階層シンボルは通常のコンポーネント\n"
-"のピン同様、必ずワイヤを接続しなければなりません。\n"
+"シート内の対応する階層ラベルからインポートされた階層ピンを入力。グローバルラベルは\n"
+"サブシートに配置されていなければなりません。こうして作った階層シンボルは通常の\n"
+"コンポーネントのピン同様、必ずワイヤを接続しなければなりません。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:336
@@ -3355,7 +3354,7 @@ msgid ""
 "label to already exist in the subsheet itself.\n"
 msgstr ""
 "|image:images/icons/add_hierar_pin.png[icons/add_hierar_pin_png]\n"
-"|サブシートの接続点を作るグローバルラベルの作成。この機能は上のものとほとんど同じですが、\n"
+"|階層ピンをシートに配置。この機能は上のものとほとんど同じですが、\n"
 "事前にグローバルシンボルをサブシートに配置しておく必要がありません。\n"
 
 #. type: delimited block |
@@ -3369,7 +3368,7 @@ msgid ""
 "|Draw a line. These are only graphical and do not connect anything.\n"
 msgstr ""
 "|image:images/icons/add_dashed_line.png[icons/add_dashed_line_png]\n"
-"|線シンボル。装飾用です。ワイヤと異なり接続されません。\n"
+"|図形ラインかポリゴンを配置。装飾用です。ワイヤと異なり接続されません。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:342
@@ -3382,7 +3381,7 @@ msgid ""
 "|Place textual comments. These are only graphical.\n"
 msgstr ""
 "|image:images/icons/add_text.png[icons/add_text_png]\n"
-"|コメントテキストの配置。装飾用。\n"
+"|（コメント）テキストの配置。装飾用。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:345
@@ -3395,7 +3394,7 @@ msgid ""
 "|Place a bitmap image.\n"
 msgstr ""
 "|image:images/icons/image.png[icons/image_png]\n"
-"|ビットマップイメージの挿入。\n"
+"|ビットマップイメージの追加。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:349
@@ -3410,7 +3409,7 @@ msgid ""
 msgstr ""
 "|image:images/icons/delete.png[icons/cancel_png]\n"
 "a|\n"
-"選択された要素の削除。\n"
+"アイテム削除。\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:355
@@ -3448,7 +3447,7 @@ msgid ""
 "| Show/Hide the grid.\n"
 msgstr ""
 "|image:images/icons/grid.png[icons/grid]\n"
-"| グリッドの表示／非表示。\n"
+"| グリッドを非表示（トグル動作）\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:371
@@ -3461,7 +3460,7 @@ msgid ""
 "|Switch to inches.\n"
 msgstr ""
 "|image:images/icons/unit_inch.png[icons/unit_inch]\n"
-"| インチへ切替。\n"
+"| 単位をインチ系へ設定\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:374
@@ -3474,7 +3473,7 @@ msgid ""
 "|Switch to millimeters.\n"
 msgstr ""
 "|image:images/icons/unit_mm.png[icons/unit_mm]\n"
-"| mm へ切替。\n"
+"| 単位を mm 系へ設定\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:377
@@ -3487,7 +3486,7 @@ msgid ""
 "| Choose the cursor shape.\n"
 msgstr ""
 "|image:images/icons/cursor_shape.png[icons/cursor_shape]\n"
-"| カーソル形状の選択。\n"
+"| カーソルの形を変える\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:380
@@ -3497,7 +3496,7 @@ msgid ""
 "| Visibility of \"invisible\" pins.\n"
 msgstr ""
 "|image:images/icons/hidden_pin.png[icons/hidden_pin]\n"
-"| “ 不可視ピン ” の可視性。\n"
+"| 非表示のピンを表示しない\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:383
@@ -3507,7 +3506,7 @@ msgid ""
 "| Allowed orientation of wires and buses.\n"
 msgstr ""
 "|image:images/icons/lines90.png[icons/lines90]\n"
-"| ワイヤとバスの許容方向。\n"
+"| 配線、バスを自由角度で描画\n"
 
 #. type: Title ~
 #: Eeschema_generic_commands.adoc:388
