@@ -1934,7 +1934,7 @@ msgid ""
 "Move the mouse cursor to a suitable (free of component) area, and click on "
 "the right button:"
 msgstr ""
-"マウスのカーソルを適切な(コンポーンネントが置かれていない)領域に移動させ、右"
+"マウスのカーソルを適切な(コンポーネントが置かれていない)領域に移動させ、右"
 "ボタンをクリックします:"
 
 # 07072015：/ja/へ変更
@@ -5046,7 +5046,7 @@ msgstr "(マウスの右ボタンで開く)ポップアップウィンドウ使�
 #. type: Plain text
 #: Pcbnew_layers.adoc:103
 msgid "Using the + and – keys (works on copper layers only)."
-msgstr "+とキ-を使用する(導体層上のみで動作)。"
+msgstr "+と-キーを使用する(導体層上のみで動作)。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:104
@@ -5648,7 +5648,7 @@ msgid ""
 "icon on the left hand side toolbar."
 msgstr ""
 "さらに、カーソルの相対位置は、極座標(半径+角度)を使用して表示できます。これ"
-"は、左側のツールバーのアイコ ンを使用して切り替えることができます。"
+"は、左側のツールバーのアイコンを使用して切り替えることができます。"
 
 # 07072015：/ja/へ変更
 #. type: Plain text
