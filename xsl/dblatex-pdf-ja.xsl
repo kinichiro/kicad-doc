@@ -3,11 +3,11 @@
   <xsl:param name="xetex.font">
     <xsl:text>\usepackage{xeCJK}
     </xsl:text>
-    <xsl:text>\setCJKmainfont{VL-Gothic-Regular}
+    <xsl:text>\setCJKmainfont[Scale=0.92]{VL-Gothic-Regular}
     </xsl:text>
-    <xsl:text>\setCJKsansfont{VL-Gothic-Regular}
+    <xsl:text>\setCJKsansfont[Scale=0.92]{VL-Gothic-Regular}
     </xsl:text>
-    <xsl:text>\setCJKmonofont{VL-Gothic-Regular}
+    <xsl:text>\setCJKmonofont[Scale=0.92]{VL-Gothic-Regular}
     </xsl:text>
     <xsl:text>\XeTeXlinebreaklocale{ja}
     </xsl:text>
