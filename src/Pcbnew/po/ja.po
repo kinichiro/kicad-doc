@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
-"POT-Creation-Date: 2015-07-05 11:48+0900\n"
+"POT-Creation-Date: 2015-07-14 23:01+0900\n"
 "PO-Revision-Date: 2015-07-13 22:18+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
@@ -213,10 +213,6 @@ msgstr "基板外形のためのDXF図形のインポート"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:44
-#| msgid ""
-#| "As an alternative to drawing the board outline in Pcbnew directly, an "
-#| "outline can also be imported from a DXF drawing. Using this feature much "
-#| "more complex board shapes can be created."
 msgid ""
 "As an alternative to drawing the board outline in Pcbnew directly, an "
 "outline can also be imported from a DXF drawing. Using this feature allows "
@@ -251,7 +247,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:54
-#| msgid "To import a board shape from a DXF file:"
 msgid "To import a board shape from a *DXF R12* file:"
 msgstr "*DXF R12* ファイルから基板形状を入力するためには:"
 
@@ -358,9 +353,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:90
-#| msgid ""
-#| "Here is an example of such an DXF import with a board that has several "
-#| "elliptical segments:"
 msgid ""
 "Here is an example of such an DXF import with a board that had several "
 "elliptical segments approximated by a number of short line segments:"
@@ -553,11 +545,6 @@ msgstr "image:images/ja/Pcbnew_extra_footprints_deletion_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:168
-#| msgid ""
-#| "If the \"Remove Extra Footprints\" option is checked, a footprint "
-#| "corresponding to a component not found in netlist will be deleted, unless "
-#| "they have the option \"Locked\" active. It is a good idea to activate "
-#| "this option for \"mechanical\" footprints:"
 msgid ""
 "If the \"Remove Extra Footprints\" option is checked, a footprint "
 "corresponding to a component not found in the netlist will be deleted, "
@@ -602,9 +589,6 @@ msgstr "image:images/ja/Pcbnew_exchange_module_option.png[]"
 
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:183
-#| msgid ""
-#| "Changing a module (replacing a resistance with one of a different size, "
-#| "for instance) can be effected directly by editing the module."
 msgid ""
 "Changing a module (replacing a resistor with one of a different size, for "
 "instance) can be effected directly by editing the module."
@@ -734,9 +718,6 @@ msgstr "*同じフットプリントを変更* 現在のフットプリントの
 #. type: Plain text
 #: Pcbnew_create_and_modify_board.adoc:230
 #, no-wrap
-#| msgid ""
-#| "*Change same module+value* for all footprints like the current \n"
-#| "footprint, restricted to components which have the same value.\n"
 msgid ""
 "*Change same module+value* for all footprints like the current\n"
 "footprint, restricted to components which have the same value.\n"
@@ -783,9 +764,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:19
-#| msgid ""
-#| "Each option has its advantages and its disadvantages, mainly when redraw "
-#| "screen. The final result is however the same."
 msgid ""
 "Each option has its advantages and its disadvantages, the main disadvantage "
 "being increased screen redraw time on slower machines. The final result is "
@@ -830,9 +808,6 @@ msgstr "導体ゾーンを作成するために、以下を行います:"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:34
-#| msgid ""
-#| "Select parameters (net name, layer...).  To switch on the layer and "
-#| "highlight this net is not mandatory but is a good practice."
 msgid ""
 "Select parameters (net name, layer...).  To switch on the layer and "
 "highlight this net is not mandatory but it is good practice."
@@ -852,11 +827,6 @@ msgstr "ゾーンを塗り潰す。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:41
-#| msgid ""
-#| "Pcbnew tries to fill all zones in one piece, and usually, there will be "
-#| "no unconnected copper blocks. So it can happens that some areas remain "
-#| "not filled. Zones having no net are not cleaned and can have insulated "
-#| "areas."
 msgid ""
 "Pcbnew tries to fill all zones in one piece, and usually, there will be no "
 "unconnected copper blocks. So it can happens that some areas remain "
@@ -968,9 +938,6 @@ msgstr "DRCエラーとなるような角はPcbnewは受け付けません。"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:78
-#| msgid ""
-#| "Here=follow you can see and example of a zone limit (polygon in thin "
-#| "hatched line)"
 msgid ""
 "In the following image you can see an example of a zone limit (polygon in "
 "thin hatched line)"
@@ -1030,9 +997,6 @@ msgstr "ゾーンの塗り潰し"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:103
-#| msgid ""
-#| "When filling a zone, Pcbnew remove all not connected copper islands.  To "
-#| "access the zone filling command, right click on the edge zone."
 msgid ""
 "When filling a zone, Pcbnew removes all unconnected copper islands.  To "
 "access the zone filling command, right click on the edge zone."
@@ -1109,7 +1073,6 @@ msgstr "image:images/ja/Pcbnew_zone_filling_options.png[]"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:128
-#| msgid "When you fill and area, you must choose:"
 msgid "When you fill an area, you must choose:"
 msgstr "領域を塗り潰す時は以下を選択する必要があります:"
 
@@ -1131,7 +1094,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:133
-#| msgid "Thermal reliefs parameters."
 msgid "Thermal relief parameters."
 msgstr "サーマル・パターン・パラメータ。"
 
@@ -1280,10 +1242,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:192
-#| msgid ""
-#| "Additionally, a too large value for this parameter or for antipad size "
-#| "does not allow to create a thermal relief for small pads (like pads sizes "
-#| "used for SMD components)."
 msgid ""
 "Additionally, a too large value for this parameter or for antipad size does "
 "not allow one to create a thermal relief for small pads (like pad sizes used "
@@ -1443,10 +1401,6 @@ msgstr "ゾーンの編集: パラメータ"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:249
-#| msgid ""
-#| "When right clicking on an outline, and using 'Edit Zone Params' the Zone "
-#| "params Dialog box will open. Initial parameters can be imputed . If the "
-#| "zone is already filled, refilling it will be necessary."
 msgid ""
 "When right clicking on an outline, and using 'Edit Zone Params' the Zone "
 "params Dialog box will open. Initial parameters can be inputted . If the "
@@ -1464,8 +1418,6 @@ msgstr "最終ゾーン塗り潰し"
 
 #. type: Plain text
 #: Pcbnew_zones.adoc:255
-#| msgid ""
-#| "When the board is finished, one must fill or refill all zones. To do that:"
 msgid ""
 "When the board is finished, one must fill or refill all zones. To do this:"
 msgstr ""
@@ -1674,17 +1626,6 @@ msgstr "プリント基板への回路図のリンク"
 
 #. type: Plain text
 #: Pcbnew_schematics.adoc:18
-#| msgid ""
-#| "Generally speaking, a schematic sheet is linked to its printed circuit "
-#| "board by means of the netlist file, which is normally generated by the "
-#| "schematic editor used to make the schematic. Pcbnew accepts netlist files "
-#| "made with Eeschema or Orcad PCB 2. The netlist file, generated from the "
-#| "schematic is usually missing the footprint modules that correspond to the "
-#| "various components. Consequently an intermediate stage is necessary. "
-#| "During this intermediate process the association components/modules is "
-#| "performed. In KiCad, CvPcb is used to create this association and a file "
-#| "named `*.cmp` is produced. CvPcb also updates the netlist file using this "
-#| "information."
 msgid ""
 "Generally speaking, a schematic sheet is linked to its printed circuit board "
 "by means of the netlist file, which is normally generated by the schematic "
@@ -1764,9 +1705,6 @@ msgstr "Eeschema を使用してネットリストを生成します。"
 
 #. type: Plain text
 #: Pcbnew_schematics.adoc:41
-#| msgid ""
-#| "Assign each component in you netlist file to the corresponding module "
-#| "(often called footprint) used on the printed circuit using Cvpcb."
 msgid ""
 "Assign each component in your netlist file to the corresponding module "
 "(often called footprint) used on the printed circuit using Cvpcb."
@@ -1983,10 +1921,6 @@ msgstr "インタラクティブ・ルーター"
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:8
-#| msgid ""
-#| "The Interactive Router lets you quickly and efficient route your PCBs by "
-#| "shoving off or walking around items on the PCB that collide with the "
-#| "trace you are currently drawing."
 msgid ""
 "The Interactive Router lets you quickly and efficiently route your PCBs by "
 "shoving off or walking around items on the PCB that collide with the trace "
@@ -2108,12 +2042,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_interactive_router.adoc:55
-#| msgid ""
-#| "Move the mouse to define shape of the track. The router will try to "
-#| "follow mouse trail, hugging unmovable obstacles (such as pads) and "
-#| "shoving colliding traces/vias, depending on the mode. Retreating mouse "
-#| "cursor will cause the shoved items to spring back to their former "
-#| "locations."
 msgid ""
 "Move the mouse to define shape of the track. The router will try to follow "
 "the mouse trail, hugging unmovable obstacles (such as pads) and shoving "
@@ -2485,9 +2413,6 @@ msgstr "ネットクラス"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:52
-#| msgid ""
-#| "Pcbnew allows you to define different routing parameters foe each net. "
-#| "Parameters are defined by a group of nets."
 msgid ""
 "Pcbnew allows you to define different routing parameters for each net. "
 "Parameters are defined by a group of nets."
@@ -2682,9 +2607,6 @@ msgstr "デフォルトでは、すべてのビアはドリルと同じ値を持
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:118
-#| msgid ""
-#| "This dialog specify the smallest acceptable values for vias parameters. "
-#| "On a board, a via smaller than specified here generates a DRC error."
 msgid ""
 "This dialog specifies the smallest acceptable values for via parameters. On "
 "a board, a via smaller than specified here generates a DRC error."
@@ -2749,15 +2671,15 @@ msgstr "可能な値で最大のものを使用し、ここで与えた最小サ
 
 #. type: delimited block |
 #: Pcbnew_routing.adoc:148
-#, no-wrap
+#, fuzzy, no-wrap
 #| msgid ""
 #| "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
 #| "| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
 #| "| mils | 31 | 20 | 16 | 10 | 6\n"
 msgid ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
-"| mils | 31 | 20 | 16 | 10 | 6\n"
+"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
+"| mils | 31 | 20 | 16 | 10 | 6\n"
 msgstr ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
 "| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
@@ -2771,15 +2693,15 @@ msgstr "絶縁(クリアランス)"
 
 #. type: delimited block |
 #: Pcbnew_routing.adoc:158
-#, no-wrap
+#, fuzzy, no-wrap
 #| msgid ""
 #| "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
 #| "| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
 #| "| mils | 27 | 20 | 14 | 9 | 6\n"
 msgid ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
-"| mils | 27 | 20 | 14 | 9 | 6\n"
+"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
+"| mils | 27 | 20 | 14 | 9 | 6\n"
 msgstr ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
 "| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
@@ -2874,16 +2796,6 @@ msgstr "手動配線"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:200
-#| msgid ""
-#| "Manual routing is often recommended, because it is the only method "
-#| "offering control over routing priorities. For example, is is preferable "
-#| "to start by routing power tracks, making them wide and short and keeping "
-#| "analog and digital supplies well separated. Later, sensitive signal "
-#| "tracks should be routed. Amongst other problems, automatic routing often "
-#| "requires many vias. However, automatic routing can offer useful insight "
-#| "into the positioning of modules.  With experience, you will probably find "
-#| "that the automatic router is useful for quickly routing the 'obvious' "
-#| "tracks, but the remaining tracks will best be routed by hand."
 msgid ""
 "Manual routing is often recommended, because it is the only method offering "
 "control over routing priorities. For example, is is preferable to start by "
@@ -2921,10 +2833,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:210
-#| msgid ""
-#| "The button image:images/icons/net_highlight.png[] allows to highlight a "
-#| "net (click to a pad or an existing track to highlight the corresponding "
-#| "net)."
 msgid ""
 "The button image:images/icons/net_highlight.png[] allows one to highlight a "
 "net (click to a pad or an existing track to highlight the corresponding net)."
@@ -3042,10 +2950,6 @@ msgstr "配線幅およびビアサイズの選択/編集"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:254
-#| msgid ""
-#| "When clicking on a track or a pad, Pcbnew automatically selects the "
-#| "corresponding Netclass, and the track size and vias dimensions from this "
-#| "netclass."
 msgid ""
 "When clicking on a track or a pad, Pcbnew automatically selects the "
 "corresponding Netclass, and the track size and vias dimensions are derived "
@@ -3165,9 +3069,6 @@ msgstr "ポップアップメニューの使用"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:301
-#| msgid ""
-#| "One can select a new size for routing, or to change a previously created "
-#| "via or track segment:"
 msgid ""
 "One can select a new size for routing, or change to a previously created via "
 "or track segment:"
@@ -3183,10 +3084,6 @@ msgstr "image:images/ja/Pcbnew_track_context_menu.png[]"
 
 #. type: Plain text
 #: Pcbnew_routing.adoc:307
-#| msgid ""
-#| "If you want to change many vias (or tracks) size, the best way is to use "
-#| "a specific Netclass to for the net(s) that must be edited (see global "
-#| "changes)."
 msgid ""
 "If you want to change many via (or track) sizes, the best way is to use a "
 "specific Netclass for the net(s) that must be edited (see global changes)."
@@ -3290,9 +3187,6 @@ msgstr "基板製造のためのファイル出力"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:5
-#| msgid ""
-#| "Let us see now what are the step necessary for the creations of the "
-#| "necessary files for the production of your printed circuit board."
 msgid ""
 "Let us see now what are the steps necessary for the creations of the "
 "necessary files for the production of your printed circuit board."
@@ -3417,8 +3311,6 @@ msgstr "image:images/ja/Pcbnew_DRC_dialog.png[]"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:38
-#| msgid ""
-#| "Adjust parameters accordingly and then press the \"Start DRC\" button."
 msgid ""
 "Adjust the parameters accordingly and then press the \"Start DRC\" button."
 msgstr "パラメータを適宜変更し、 “DRC 開始 ” をクリックします。"
@@ -3436,10 +3328,16 @@ msgstr "原点座標の設定"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:48
+#, fuzzy
+#| msgid ""
+#| "Set the coordinates origin for the photo plot and drill files, one must "
+#| "place the auxiliary axis on this origin. Activate the icon image:images/"
+#| "icons/pcb_offset.png. Move the auxiliary axis to the chosen location by "
+#| "clicking for instance on this location."
 msgid ""
 "Set the coordinates origin for the photo plot and drill files, one must "
 "place the auxiliary axis on this origin. Activate the icon image:images/"
-"icons/pcb_offset.png. Move the auxiliary axis to the chosen location by "
+"icons/pcb_offset.png[]. Move the auxiliary axis to the chosen location by "
 "clicking for instance on this location."
 msgstr ""
 "フォトプロッタやドリル穴あけ機のための原点座標を設定します。右部ツールバーよ"
@@ -3692,7 +3590,6 @@ msgstr "標準の拡張子は、出力ファイルの種類によって異なり
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:143
-#| msgid "Some options can be not available for some formats."
 msgid "Some options are not available for some formats."
 msgstr "幾つかのオプションはフォーマットによっては使用できません。"
 
@@ -3720,10 +3617,6 @@ msgstr "「全てのレイヤにシートリファレンスを出力」オプシ
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:158
-#| msgid ""
-#| "Masks clearances values can be set globally for the solder mask layers "
-#| "and the solder paste layers. These clearances can be set following these "
-#| "steps."
 msgid ""
 "Mask clearance values can be set globally for the solder mask layers and the "
 "solder paste layers. These clearances can be set at the following levels."
@@ -3803,9 +3696,6 @@ msgstr "レジストのクリアランス"
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:185
-#| msgid ""
-#| "A value near to 0.2 mm is usually good. This value is positive because "
-#| "the mask usually is bigger than the pad."
 msgid ""
 "A value near to 0.2 mm is usually good. This value is positive because the "
 "mask is usually bigger than the pad."
@@ -3844,8 +3734,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_fabrication_files.adoc:199
-#| msgid ""
-#| "This value is negative because the mask usually is smaller than the pad."
 msgid ""
 "This value is negative because the mask is usually smaller than the pad."
 msgstr ""
@@ -4061,12 +3949,6 @@ msgstr "PCB footprint editorの概要"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:13
-#| msgid ""
-#| "Pcbnew can simultaneously maintain several libraries. Thus, when a module "
-#| "is loaded, all libraries that appear in the library list are searched "
-#| "until the first instance of the module is found. In what follows, note "
-#| "that the active library is the library selected within the Module Editor "
-#| "(ModEdit), the program we be now described"
 msgid ""
 "Pcbnew can simultaneously maintain several libraries. Thus, when a module is "
 "loaded, all libraries that appear in the library list are searched until the "
@@ -4233,55 +4115,6 @@ msgstr "このツールバーから、次の機能が使用可能です:"
 #. type: delimited block |
 #: Pcbnew_managing_libs.adoc:115
 #, no-wrap
-#| msgid ""
-#| "| image:images/icons/library.png[]\n"
-#| "| Select the active library.\n"
-#| "| image:images/icons/save_library.png[]\n"
-#| "| Save the current module to the active library, and write it on disk.\n"
-#| "| image:images/icons/new_library.png[]\n"
-#| "| Create a new library and save the current module in it.\n"
-#| "| image:images/icons/modview_icon.png[]\n"
-#| "| Open the footprint viewer\n"
-#| "| image:images/icons/delete.png[]\n"
-#| "| Access a dialog for deleting a module from the active library.\n"
-#| "| image:images/icons/new_footprint.png[]\n"
-#| "| Create a new module.\n"
-#| "| image:images/icons/module_wizard.png[]\n"
-#| "| Create a module using a wizard\n"
-#| "| image:images/icons/load_module_lib.png[]\n"
-#| "| Load a module from the active library.\n"
-#| "| image:images/icons/load_module_board.png[]\n"
-#| "| Load (import) a module from the printed circuit board.\n"
-#| "| image:images/icons/update_module_board.png[]\n"
-#| "| Export the current module to the printed circuit board. when the\n"
-#| "module was previously imported from the current board. It will replace\n"
-#| "the corresponding module on the board (i.e., respecting position and\n"
-#| "orientation).\n"
-#| "| image:images/icons/insert_module_board.png[]\n"
-#| "| Export the current module to the printed circuit board. It will be\n"
-#| "copied on to the printed circuit board at position 0.\n"
-#| "| image:images/icons/import_module.png[]\n"
-#| "| Import a module from a file created by the Export command.\n"
-#| "| image:images/icons/export_module.png[]\n"
-#| "| Export a module. This command is essentially identical to that for\n"
-#| "creating a library, the only difference being that  creates a library\n"
-#| "in the user directory, while  creates a library in the standard library\n"
-#| "directory (usually kicad/modules).\n"
-#| "| image:images/icons/undo.png[] image:images/icons/redo.png[]\n"
-#| "| Undo and Redo\n"
-#| "| image:images/icons/module_options.png[]\n"
-#| "| Invokes the module properties dialog.\n"
-#| "| image:images/icons/print_button.png[]\n"
-#| "| Call the print dialog.\n"
-#| "| image:images/icons/zoom_in.png[]\n"
-#| "image:images/icons/zoom_out.png[]\n"
-#| "image:images/icons/zoom_redraw.png[]\n"
-#| "image:images/icons/zoom_fit_in_page.png[]\n"
-#| "| Standard zoom commands.\n"
-#| "| image:images/icons/options_pad.png[]\n"
-#| "| Call the pad editor.\n"
-#| "| image:images/icons/module_check.png[]\n"
-#| "| Perform a check of module correctness\n"
 msgid ""
 "| image:images/icons/library.png[]\n"
 "| Select the active library.\n"
@@ -4797,23 +4630,29 @@ msgstr "作業レイヤのセットアップ"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:6
-msgid "Pcbnew can work on 29 different layers:"
+#, fuzzy
+#| msgid "Pcbnew can work on 29 different layers:"
+msgid "Pcbnew can work on 50 different layers:"
 msgstr "Pcbnew は５０の異なるレイヤで作業することが可能です:"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:8
-msgid "16 layers of copper (or of routing of tracks)"
+#, fuzzy
+#| msgid "16 layers of copper (or of routing of tracks)"
+msgid "32 copper layers. (or of routing of tracks)"
 msgstr "３２の導体（または配線）レイヤ"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:9
-msgid "12 auxiliary technical layers."
-msgstr "１４のテクニカルレイヤ（１つの基板外形レイヤを含む）"
+msgid "14 technical layers. (include 1 board outlines layer)"
+msgstr ""
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:10
-msgid "1 board outlines layer"
-msgstr "４つの予備レイヤ"
+#, fuzzy
+#| msgid "12 auxiliary technical layers."
+msgid "4 auxiliary layers."
+msgstr "１４のテクニカルレイヤ（１つの基板外形レイヤを含む）"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:13
@@ -5062,7 +4901,9 @@ msgstr "(マウスの右ボタンで開く)ポップアップウィンドウ使�
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:103
-msgid "Using the + and – keys (works on copper layers only)."
+#, fuzzy
+#| msgid "Using the + and – keys (works on copper layers only)."
+msgid "Using the + and - keys (works on copper layers only)."
 msgstr "+ と - キーを使用する(導体レイヤ上のみで動作)。"
 
 #. type: Plain text
@@ -5315,7 +5156,6 @@ msgstr "ツールバーとコマンド"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:9
-#| msgid "In Pcbnew it is possible to executes command via various means:"
 msgid "In Pcbnew it is possible to execute commands using various means:"
 msgstr "Pcbnew では様々な方法によりコマンドを実行することが可能です:"
 
@@ -5364,9 +5204,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:23
-#| msgid ""
-#| "The screen-shot below illustrates some of the possible accesses to the "
-#| "operations:"
 msgid ""
 "The screen-shot below illustrates some of the possible accesses to these "
 "operations:"
@@ -5545,9 +5382,6 @@ msgstr "グリッドサイズの選択"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:95
-#| msgid ""
-#| "During elements layout the cursor moves on a grid. The grid can be turned "
-#| "on or off using the icon on the left toolbar."
 msgid ""
 "During element layout the cursor moves on a grid. The grid can be turned on "
 "or off using the icon on the left toolbar."
@@ -5582,9 +5416,6 @@ msgstr "ズームレベルを変更するには:"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:107
-#| msgid ""
-#| "Open the pop-up window (using the right mouse button) and to select the "
-#| "desired zoom."
 msgid ""
 "Open the pop-up window (using the right mouse button) and then select the "
 "desired zoom."
@@ -5594,10 +5425,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:112
-#| msgid ""
-#| "Or use the function keys: ** `F1`: Enlarge (zoom in)  ** `F2`: Reduce "
-#| "(zoom out)  ** `F3`: Redraw the display ** `F4`: Centre view at the "
-#| "current cursor position"
 msgid ""
 "Or use the following function keys: ** `F1`: Enlarge (zoom in)  ** `F2`: "
 "Reduce (zoom out)  ** `F3`: Redraw the display ** `F4`: Centre view at the "
@@ -6741,12 +6568,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:41
-#| msgid ""
-#| "To use this tools, select the items you with to move and use either the "
-#| "hotkey (defaults to Ctrl-M) or the context menu items to invoke the "
-#| "dialog. You can also invoke the dialog with the hotkey which moving or "
-#| "duplicating items, which can make it easy to repeatedly apply an offset "
-#| "to multiple components."
 msgid ""
 "To use this tools, select the items you wish to move and then use either the "
 "hotkey (defaults to Ctrl-M) or the context menu items to invoke the dialog. "
@@ -7146,9 +6967,6 @@ msgstr ""
 #. type: Plain text
 #: Pcbnew_editing_tools.adoc:178
 #, no-wrap
-#| msgid ""
-#| "*Angle*: The angular difference between two adjacent items in the\n"
-#| "array. Set this to zero to event divide the circle with \"count\" elements.\n"
 msgid ""
 "*Angle*: The angular difference between two adjacent items in the\n"
 "array. Set this to zero to evenly divide the circle with \"count\" elements.\n"
@@ -7217,12 +7035,6 @@ msgstr "手動配置"
 
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:21
-#| msgid ""
-#| "Select the module with the right mouse button then chose the Move command "
-#| "from the menu. Move the module to the required position and place it with "
-#| "the left mouse button. If required the selected module can also be "
-#| "rotated, inverted or edited. Select Cancel from the menu (or press the "
-#| "Esc key) to abort."
 msgid ""
 "Select the module with the right mouse button then choose the Move command "
 "from the menu. Move the module to the required position and place it with "
@@ -7324,50 +7136,54 @@ msgstr ""
 "よび配置を容易にするためにフットプリントの自動分散を行うことができます。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:60
+#: Pcbnew_module_placement.adoc:59
+#, fuzzy
+#| msgid ""
+#| "Select the option “Module Mode” (Icon image:images/icons/mode_module.png "
+#| "on the upper toolbar)."
 msgid ""
-"Select the option “Module Mode” (Icon image:images/icons/mode_module.png on "
-"the upper toolbar)."
+"Select the option \"Module Mode\" (Icon image:images/icons/mode_module.png[] "
+"on the upper toolbar)."
 msgstr ""
 "\"フットプリントモード\" オプション(上部ツールバーのアイコン)を選択します。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:61
+#: Pcbnew_module_placement.adoc:60
 msgid "The pop-up window activated by the right mouse button becomes:"
 msgstr ""
 "マウスの右ボタンでアクティブとなったポップアップウィンドウはこのようになりま"
 "す:カーソルの下にフットプリントがある場合:"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:63
+#: Pcbnew_module_placement.adoc:62
 msgid "If there is a module under the cursor:"
 msgstr "カーソルの下に何もない場合:"
 
 # 07072015：/ja/へ変更
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:65
+#: Pcbnew_module_placement.adoc:64
 msgid "image:images/Pcbnew_context_module_mode_module_under_cursor.png[]"
 msgstr "image:images/ja/Pcbnew_context_module_mode_module_under_cursor.png[]"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:67
+#: Pcbnew_module_placement.adoc:66
 msgid "If there is nothing under the cursor:"
 msgstr "カーソルの下に何もなければ:"
 
 # 07072015：/ja/へ変更
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:69
+#: Pcbnew_module_placement.adoc:68
 msgid "image:images/Pcbnew_context_module_mode_no_module_under_cursor.png[]"
 msgstr ""
 "image:images/ja/Pcbnew_context_module_mode_no_module_under_cursor.png[]"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:71
+#: Pcbnew_module_placement.adoc:70
 msgid "In both cases the following commands are available:"
 msgstr "両方の場合に次のコマンドが使用可能です:"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:75
+#: Pcbnew_module_placement.adoc:74
 #, no-wrap
 msgid ""
 "*Move all Modules* allows the automatic distribution of all the\n"
@@ -7376,7 +7192,7 @@ msgid ""
 msgstr "*全てのフットプリントを移動* により固定されていない全フットプリントの自動分散を行うことができます。通常はネットリストの初回読み込み後にこれを使用します。\n"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:79
+#: Pcbnew_module_placement.adoc:78
 #, no-wrap
 msgid ""
 "*Move new Modules* allows the automatic distribution of the modules\n"
@@ -7386,23 +7202,19 @@ msgid ""
 msgstr "*新規フットプリントを移動* によりPCB外形の内側に配置済みでないフットプリントの自動分散を行うことができます。このコマンドは、どのフットプリントを自動的に分散させることが可能であるかを決めるために基板の外形が作成されている必要があります。\n"
 
 #. type: Title ~
-#: Pcbnew_module_placement.adoc:81
+#: Pcbnew_module_placement.adoc:80
 #, no-wrap
 msgid "Automatic placement of modules"
 msgstr "フットプリントの自動配置"
 
 #. type: Title ^
-#: Pcbnew_module_placement.adoc:84
+#: Pcbnew_module_placement.adoc:83
 #, no-wrap
 msgid "Characteristics of the automatic placer"
 msgstr "自動配置処理の特徴"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:89
-#| msgid ""
-#| "The automatic module of placement allows the placement of the modules "
-#| "onto the 2 faces of the circuit board (however switching a module onto "
-#| "the copper layer is not automatic)."
+#: Pcbnew_module_placement.adoc:88
 msgid ""
 "The automatic placement feature allows the placement of modules onto the 2 "
 "faces of the circuit board (however switching a module onto the copper layer "
@@ -7413,7 +7225,7 @@ msgstr ""
 "ありません）。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:96
+#: Pcbnew_module_placement.adoc:95
 msgid ""
 "It also seeks the best orientation (0, 90, -90, 180 degrees) of the module. "
 "The placement is made according to an optimization algorithm, which seeks to "
@@ -7428,13 +7240,13 @@ msgstr ""
 "置順序を最適化します。"
 
 #. type: Title ^
-#: Pcbnew_module_placement.adoc:98
+#: Pcbnew_module_placement.adoc:97
 #, no-wrap
 msgid "Preparation"
 msgstr "準備"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:103
+#: Pcbnew_module_placement.adoc:102
 msgid ""
 "Pcbnew can thus place the modules automatically, however it is necessary to "
 "guide this placement, because no software can guess what the user wants to "
@@ -7445,12 +7257,12 @@ msgstr ""
 "できないからです。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:105
+#: Pcbnew_module_placement.adoc:104
 msgid "Before an automatic placement is carried out one must:"
 msgstr "自動配置を実行する前に次のことを行わなければなりません:"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:108
+#: Pcbnew_module_placement.adoc:107
 msgid ""
 "Create the outline of the board (It can be complex, but it must be closed if "
 "the form is not rectangular)."
@@ -7459,7 +7271,7 @@ msgstr ""
 "合、閉じていなければなりません)。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:110
+#: Pcbnew_module_placement.adoc:109
 msgid ""
 "Manually place the components whose positions are imposed (Connectors, clamp "
 "holes, etc)."
@@ -7468,7 +7280,7 @@ msgstr ""
 "します。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:113
+#: Pcbnew_module_placement.adoc:112
 msgid ""
 "Similarly, certain SMD modules and critical components (large modules for "
 "example) must be on a specific side or position on the board and this must "
@@ -7479,11 +7291,18 @@ msgstr ""
 "たこれは手作業で行わなければなりません。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:118
+#: Pcbnew_module_placement.adoc:117
+#, fuzzy
+#| msgid ""
+#| "Having completed any manual placement these modules must be \"Fixed\" to "
+#| "prevent them being moved. With the Module Mode icon image:images/icons/"
+#| "mode_module.png selected right click on the module and pick \"Fix Module"
+#| "\" on the Pop-up menu. This can also be done through the Edit/Module Pop-"
+#| "up menu."
 msgid ""
 "Having completed any manual placement these modules must be \"Fixed\" to "
 "prevent them being moved. With the Module Mode icon image:images/icons/"
-"mode_module.png selected right click on the module and pick \"Fix Module\" "
+"mode_module.png[] selected right click on the module and pick \"Fix Module\" "
 "on the Pop-up menu. This can also be done through the Edit/Module Pop-up "
 "menu."
 msgstr ""
@@ -7493,7 +7312,7 @@ msgstr ""
 "す。これは編集/フットプリントポップアップメニューで行うことも可能です。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:121
+#: Pcbnew_module_placement.adoc:120
 msgid ""
 "Automatic placement can then be carried out. With the Module Mode icon "
 "selected, right click and select Glob(al) Move and Place – then Autoplace "
@@ -7504,7 +7323,7 @@ msgstr ""
 "リントの自動配置を選択します。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:125
+#: Pcbnew_module_placement.adoc:124
 msgid ""
 "During automatic placement, if required, Pcbnew can optimize the orientation "
 "of the modules. However rotation will only be attempted if this has been "
@@ -7515,11 +7334,7 @@ msgstr ""
 "(フットプリントの編集オプションを参照)。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:129
-#| msgid ""
-#| "Usually resistances and non-polarized capacitors are authorized for 180 "
-#| "degrees rotation. Some modules (small transistors for example)  can be "
-#| "authorized for +/- 90 and 180 degrees rotation."
+#: Pcbnew_module_placement.adoc:128
 msgid ""
 "Usually resistors and non-polarized capacitors are authorized for 180 "
 "degrees rotation. Some modules (small transistors for example)  can be "
@@ -7530,7 +7345,7 @@ msgstr ""
 "転が可能です。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:134
+#: Pcbnew_module_placement.adoc:133
 msgid ""
 "For each module one slider authorizes 90 degree Rot(ation) and a second "
 "slider authorizes 180 degree Rot(ation). A setting of 0 prevents rotation, a "
@@ -7542,7 +7357,7 @@ msgstr ""
 "許可します。また中間の値は回転の設定を示します。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:139
+#: Pcbnew_module_placement.adoc:138
 msgid ""
 "The rotation authorization can be done by editing the module once it is "
 "placed on the board. However it is preferable to set the required options to "
@@ -7555,13 +7370,13 @@ msgstr ""
 "き継がれるからです。"
 
 #. type: Title ^
-#: Pcbnew_module_placement.adoc:141
+#: Pcbnew_module_placement.adoc:140
 #, no-wrap
 msgid "Interactive auto-placement"
 msgstr "インタラクティブな自動配置"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:147
+#: Pcbnew_module_placement.adoc:146
 msgid ""
 "It may be necessary during automatic placement to stop (press Esc key) and "
 "manually re-position a module. Using the command Autoplace Next Module will "
@@ -7572,7 +7387,7 @@ msgstr ""
 "使用すると停止したところから自動配置を再スタートします。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:152
+#: Pcbnew_module_placement.adoc:151
 msgid ""
 "The command Autoplace new modules allows the automatic placement of the "
 "modules which have not been placed already within the PCB outline. It will "
@@ -7583,7 +7398,7 @@ msgstr ""
 "い場合でもPCB外形の内側のフットプリントを移動させることはありません。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:156
+#: Pcbnew_module_placement.adoc:155
 msgid ""
 "The command Autoplace Module makes it possible to re-place the module "
 "pointed to by the mouse, even if its 'fixed' attribute is active."
@@ -7592,13 +7407,13 @@ msgstr ""
 "ウスで選択した(pointed)フットプリントの再配置が可能です。"
 
 #. type: Title ^
-#: Pcbnew_module_placement.adoc:158
+#: Pcbnew_module_placement.adoc:157
 #, no-wrap
 msgid "Additional note"
 msgstr "補注"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:163
+#: Pcbnew_module_placement.adoc:162
 msgid ""
 "Pcbnew automatically determines the possible zone of placement of the "
 "modules by respecting the shape of the board outline, which is not "
@@ -7609,7 +7424,7 @@ msgstr ""
 "抜きがあってもよい)。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:168
+#: Pcbnew_module_placement.adoc:167
 msgid ""
 "If the board is not rectangular, the outline must be closed, so that Pcbnew "
 "can determine what is inside and what is outside the outline.  In the same "
@@ -7620,7 +7435,7 @@ msgstr ""
 "同様に、内部に切り抜きがある場合、その輪郭線は閉じている必要があります。"
 
 #. type: Plain text
-#: Pcbnew_module_placement.adoc:172
+#: Pcbnew_module_placement.adoc:171
 msgid ""
 "Pcbnew calculates the possible zone of placement of the modules using the "
 "outline of the board, then passes each module in turn over this area in "
@@ -7654,10 +7469,6 @@ msgstr ""
 # 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:14
-#| msgid ""
-#| "Pcbnew is used in association with the schematic capture software program "
-#| "Eeschema, which provides the Netlist file - this describes the electrical "
-#| "connections of the PCB to design."
 msgid ""
 "Pcbnew is used in association with the schematic capture software program "
 "Eeschema, which provides the Netlist file - this describes the electrical "
@@ -7696,12 +7507,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:31
-#| msgid ""
-#| "Pcbnew integrates, automatically and immediately, any circuit "
-#| "modification, by removal of any erroneous tracks, addition of the new "
-#| "components, or by modifying any value (and under certain conditions any "
-#| "reference) of the old or new modules, according to the electrical "
-#| "connections appearing in the scheme."
 msgid ""
 "Pcbnew integrates, automatically and immediately, any circuit modification, "
 "by removal of any erroneous tracks, addition of the new components, or by "
@@ -7728,9 +7533,6 @@ msgstr ""
 # 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:38
-#| msgid ""
-#| "Pcbnew has an active Design Rules Check (DRC) which automatically "
-#| "indicates any error of track layout in real time."
 msgid ""
 "Pcbnew has an active Design Rules Check (DRC) function which automatically "
 "indicates any error of track layout in real time."
@@ -7751,10 +7553,6 @@ msgstr ""
 # 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:45
-#| msgid ""
-#| "Pcbnew has a simple but effective autorouter to assist in the production "
-#| "of the circuit. An Export/Import in SPECCTRA dsn format allows to use "
-#| "more advanced auto-routers."
 msgid ""
 "Pcbnew has a simple but effective autorouter to assist in the production of "
 "the circuit board. An Export/Import in SPECCTRA dsn format allows the use of "
@@ -7766,10 +7564,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:49
-#| msgid ""
-#| "Pcbnew provides options specifically for the production of ultra high "
-#| "frequency circuits (such as pads of trapezoidal and complex form, "
-#| "automatic layout of coils on the printed circuit, etc)."
 msgid ""
 "Pcbnew provides options specifically provided for the production of ultra "
 "high frequency microwave circuits (such as pads of trapezoidal and complex "
@@ -7780,9 +7574,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:52
-#| msgid ""
-#| "Pcbnew displays the elements (tracks, pads, texts, drawings and more) as "
-#| "actual size and according to personal preferences:"
 msgid ""
 "Pcbnew displays the elements (tracks, pads, texts, drawings and more) as "
 "actual size and according to the following personal preferences:"
@@ -7814,10 +7605,17 @@ msgstr "Pcbnew は 1/10000 インチの内部分解能を持っています。"
 # 07102015：変更
 #. type: Plain text
 #: Pcbnew_introduction.adoc:65
+#, fuzzy
+#| msgid ""
+#| "Pcbnew works on 16 layers of copper, plus 12 technical layers (silk "
+#| "screen, solder mask, component adhesive, solder paste, drawings and "
+#| "comments...) and manages in real time the hairline indication (rats nest) "
+#| "of missing tracks."
 msgid ""
-"Pcbnew works on 16 layers of copper, plus 12 technical layers (silk screen, "
-"solder mask, component adhesive, solder paste, drawings and comments...) and "
-"manages in real time the hairline indication (rats nest) of missing tracks."
+"Pcbnew works on 32 layers of copper, 14 technical layers (silk screen, "
+"solder mask, component adhesive, solder paste and edge cuts) plus 4 "
+"auxiliary layers (drawings and comments) and manages in real time the "
+"hairline indication (rats nest) of missing tracks."
 msgstr ""
 "Pcbnew は３２の導体レイヤ、１４のテクニカルレイヤ（シルクスクリーン、ソルダマ"
 "スク（レジスト）、コンポーネント接着剤、ソルダペースト、基板外形）、さらに４"
@@ -7852,9 +7650,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_introduction.adoc:77
-#| msgid ""
-#| "For the complex circuits, the display of layers, zones, components can be "
-#| "removed in a selective way for a better legibility of the screen."
 msgid ""
 "For the complex circuits, the display of layers, zones, components can be "
 "removed in a selective way for clarity on screen."
@@ -7996,9 +7791,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:12
-#| msgid ""
-#| "Changing pad properties (shape, layer), for individual pads or for all "
-#| "pads in a module."
 msgid ""
 "Changing pad properties (shape, layer), for individual pads or for all the "
 "pads in a module."
@@ -8142,10 +7934,6 @@ msgstr "フットプリント・エディタは次の3つの方法で使用す�
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:72
-#| msgid ""
-#| "Directly via the image:images/icons/module_editor.png[] icon from the "
-#| "main toolbar of Pcbnew. This allows creation or modification of a module "
-#| "in the library."
 msgid ""
 "Directly via the image:images/icons/module_editor.png[] icon from the main "
 "toolbar of Pcbnew. This allows the creation or modification of a module in "
@@ -8699,7 +8487,6 @@ msgstr "ハンダ・レジストおよびハンダ・ペースト・マスク(�
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:304
-#| msgid "Setting clearance can be made at 3 levels:"
 msgid "Setting a clearance can be made at 3 levels:"
 msgstr "クリアランスの設定は３つのレベルで行うことが可能です:"
 
@@ -8720,7 +8507,6 @@ msgstr "パッドレベル。"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:310
-#| msgid "Pcbnew uses the following to calculate clearance:"
 msgid "Pcbnew uses the following to calculate clearances:"
 msgstr "Pcbnew はクリアランスを計算するために以下を使用します:"
 
@@ -9064,9 +8850,6 @@ msgstr "スケールの設定により次のことができます:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:439
-#| msgid ""
-#| "To use the same 3D file for footprints which have similar shapes b ut "
-#| "different sizes (resistors, capacitors, SMD components...)"
 msgid ""
 "To use the same 3D file for footprints which have similar shapes but "
 "different sizes (resistors, capacitors, SMD components...)"
@@ -9193,8 +8976,6 @@ msgstr ""
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:19
-#| msgid ""
-#| "This configuration file can be modified to change libraries to be loaded"
 msgid ""
 "This configuration file can be modified to change the libraries to be loaded"
 msgstr "この設定により、ロードされるライブラリを変更するよう修正できます。"
@@ -9246,9 +9027,6 @@ msgstr "フットプリント・ライブラリの管理: 以前のバージョ�
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:36
-#| msgid ""
-#| "You can access to the library list initialization from the Preferences "
-#| "menu:"
 msgid ""
 "You can have access to the library list initialization from the Preferences "
 "menu:"
@@ -9275,16 +9053,6 @@ msgstr "image:images/ja/Footprint_library_list.png[]"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:54
-#| msgid ""
-#| "You must to add all libraries that contain the footprints required for "
-#| "your project. You should also remove unused libraries from new projects "
-#| "to prevent footprint name clashes. Please note, there is a issue with the "
-#| "footprint library list when duplicate footprint names exist in more than "
-#| "one library.  When this occurs, the footprint will be loaded from the "
-#| "first library found in the list. This is an issue (you cannot load the "
-#| "footprint you want), either change the library list order using the “Up” "
-#| "and “Down” buttons in the dialog above or give the footprint a unique "
-#| "name in using the footprint editor."
 msgid ""
 "You can use this to add all the libraries that contain the footprints "
 "required for your project. You should also remove unused libraries from new "
@@ -9373,11 +9141,6 @@ msgstr "グローバル・フットプリント・ライブラリ・テーブル
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:88
-#| msgid ""
-#| "The global footprint library table contains the list of libraries that "
-#| "are always available irregardless of the currently loaded project file.  "
-#| "The table is saved in the file `fp-lib-table` in the user's home folder.  "
-#| "The location of this folder is dependent on the operating system."
 msgid ""
 "The global footprint library table contains the list of libraries that are "
 "always available regardless of the currently loaded project file.  The table "
@@ -9823,6 +9586,9 @@ msgstr ""
 "使用パターンの一つは、よく使うライブラリをグローバル、そのプロジェクトでのみ"
 "必要とされるライブラリはプロジェクト固有のライブラリテーブルに定義することで"
 "しょう。ライブラリを定義するにあたっての制約は特にありません。"
+
+#~ msgid "1 board outlines layer"
+#~ msgstr "４つの予備レイヤ"
 
 #~ msgid "Notes on DXF imports"
 #~ msgstr "DXFインポートの注意"
