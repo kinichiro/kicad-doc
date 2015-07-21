@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-07-18 12:39+0900\n"
-"PO-Revision-Date: 2015-07-19 20:59+0900\n"
+"PO-Revision-Date: 2015-07-21 19:13+0900\n"
 "Last-Translator: yoneken <midpika@hotmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -17,6 +17,7 @@ msgstr ""
 # PR4:07152015 proofreading - chapter5-8
 # PR5:07172015 proofreading - chapter9-14
 # PR6:07192015 correcting typos - pt.1
+# PR7:07212015 correcting typos - pt.2
 #. type: Title =
 #: Pcbnew.adoc:7
 #, no-wrap
@@ -70,9 +71,7 @@ msgstr "*貢献者*\n"
 #. type: Plain text
 #: Pcbnew.adoc:28
 msgid "Jean-Pierre Charras, Fabrizio Tappero."
-msgstr ""
-"Jean-PierreCharras, FabrizioTappero\n"
-"日本語翻訳:Silvermoon, Zenyouji, Yoneken, Millo, Nenokuni(順不同、kicadjp)"
+msgstr "Jean-PierreCharras, FabrizioTappero"
 
 #. type: Plain text
 #: Pcbnew.adoc:31
@@ -87,8 +86,7 @@ msgid ""
 "mailing list: _https://launchpad.net/~kicad-developers_"
 msgstr ""
 "このドキュメントに関するコメントや提案をKiCadメーリングリストに送ってくださ"
-"い : _https://launchpadnet/~kicad-developers_\n"
-" _http://kicadjp/_ (日本語ユーザコミュニティ)"
+"い : _https://launchpadnet/~kicad-developers_"
 
 #. type: Plain text
 #: Pcbnew.adoc:37
@@ -3964,13 +3962,13 @@ msgstr ""
 #: Pcbnew_managing_libs.adoc:2
 #, no-wrap
 msgid "ModEdit - Managing Libraries"
-msgstr "PCB フットプリントエディタ - ライブラリ管理"
+msgstr "フットプリントエディタ - ライブラリ管理"
 
 #. type: Title ~
 #: Pcbnew_managing_libs.adoc:6
 #, no-wrap
 msgid "Overview of ModEdit"
-msgstr "PCB フットプリントエディタの概要"
+msgstr "フットプリントエディタの概要"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:13
@@ -3990,8 +3988,8 @@ msgstr ""
 #: Pcbnew_managing_libs.adoc:15
 msgid "ModEdit enables the creation and the editing of modules:"
 msgstr ""
-"PCB フットプリントエディタを使うと、以下のようなフットプリントの作成および編"
-"集作業を行うことができます:"
+"フットプリントエディタを使うと、以下のようなフットプリントの作成および編集作"
+"業を行うことができます:"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:17 Pcbnew_creating_editing_modules.adoc:10
@@ -4026,8 +4024,8 @@ msgstr "関連ドキュメント（説明、キーワード）の編集。"
 #: Pcbnew_managing_libs.adoc:24
 msgid "ModEdit allows the maintenance of the active library as well by:"
 msgstr ""
-"PCB フットプリントエディタでは、以下のようにアクティブなライブラリの保守も可"
-"能です:"
+"フットプリントエディタでは、以下のようにアクティブなライブラリの保守も可能で"
+"す:"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:26
@@ -4063,7 +4061,7 @@ msgstr "このライブラリの拡張子は `.mod` です。"
 #: Pcbnew_managing_libs.adoc:36
 #, no-wrap
 msgid "Accessing ModEdit"
-msgstr "PCB フットプリントエディタへのアクセス"
+msgstr "フットプリントエディタへのアクセス"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:39
@@ -4108,12 +4106,12 @@ msgstr ""
 #: Pcbnew_managing_libs.adoc:51
 #, no-wrap
 msgid "ModEdit user interface"
-msgstr "PCB フットプリントエディタ・ユーザインタフェース"
+msgstr "フットプリントエディタ・ユーザインタフェース"
 
 #. type: Plain text
 #: Pcbnew_managing_libs.adoc:54
 msgid "By calling ModEdit the following window will appear:"
-msgstr "PCB フットプリントエディタを呼び出すと、次のウィンドウが現れます。"
+msgstr "フットプリントエディタを呼び出すと、次のウィンドウが現れます。"
 
 # 07072015：/ja/へ変更
 #. type: Plain text
@@ -6519,8 +6517,8 @@ msgid ""
 "There are some more advanced editing tools available in Pcbnew and Modedit, "
 "which can help you to efficiently lay out components on the canvas."
 msgstr ""
-"Pcbnew と PCB フットプリントエディタには、キャンバスへ効率的にコンポーネント"
-"を配置できるよう、いくつかのより進化した編集ツールがあります。"
+"Pcbnew と フットプリントエディタには、キャンバスへ効率的にコンポーネントを配"
+"置できるよう、いくつかのより進化した編集ツールがあります。"
 
 #. type: Title ~
 #: Pcbnew_editing_tools.adoc:9
@@ -7786,20 +7784,20 @@ msgstr ""
 #: Pcbnew_creating_editing_modules.adoc:2
 #, no-wrap
 msgid "ModEdit - Creating and Editing Modules"
-msgstr "PCB フットプリントエディタ - フットプリントの作成と編集"
+msgstr "フットプリントエディタ - フットプリントの作成と編集"
 
 #. type: Title ~
 #: Pcbnew_creating_editing_modules.adoc:5
 #, no-wrap
 msgid "ModEdit overview"
-msgstr "PCB フットプリントエディタ の概要"
+msgstr "フットプリントエディタ の概要"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:8
 msgid "ModEdit is used for editing and creating PCB modules. This includes:"
 msgstr ""
-"PCBのフットプリントを編集したり作成するためにPCB フットプリントエディタを使用"
-"します。これは以下を含みます:"
+"基板 (PCB) のフットプリントを編集したり作成するためにフットプリントエディタを"
+"使用します。これは以下を含みます:"
 
 #. type: Plain text
 #: Pcbnew_creating_editing_modules.adoc:12
@@ -9258,18 +9256,18 @@ msgstr ""
 "(nickname) を持つ必要があります。これは実際のファイル名やファイルパスとは全く"
 "関係ありません。コロン ( : ) は別名の中のいかなる場所でも使用できません。各ラ"
 "イブラリの入力項目は、そのライブラリの種類で有効なファイルパス、ファイル名を"
-"持つ必要があります。パスは、絶対、相対、または環境変数で指定できます。（下記 "
-"2.4.5 セクションを参照）プラグインの種類は、ライブラリが正しく読み込まれるよ"
-"う、適切に選択しなければなりません。Pcbnew は今のところ KiCad の古い種類、"
-"KiCad Pretty、Eagle と GEDA フットプリントライブラリをサポートしています。こ"
-"れらは、ライブラリ入力項目の説明フィールドに記述されます。オプションフィール"
-"ドはこの時点では使われていませんので、オプションフィールドへの追加はライブラ"
-"リの読み込みに影響を与えません。同じテーブルには重複した別名を持てないことに"
-"注意して下さい。しかしながら、グローバルとプロジェクト固有のフットプリント・"
-"ライブラリ・テーブルの両方で重複した別名を持つことは可能です。もし名前の衝突"
-"が起こったなら、プロジェクト固有のテーブルがグローバルテーブルに優先します。"
-"プロジェクト固有のテーブルに項目が入力されると、入力項目を含む fp-lib-table "
-"ファイルは現在開かれているネットリストのあるディレクトリに書き込まれます。"
+"持つ必要があります。パスは、絶対、相対、または環境変数で指定できます。プラグ"
+"インの種類は、ライブラリが正しく読み込まれるよう、適切に選択しなければなりま"
+"せん。Pcbnew は今のところ KiCad の古い種類、KiCad Pretty、Eagle と GEDA フッ"
+"トプリントライブラリをサポートしています。これらは、ライブラリ入力項目の説明"
+"フィールドに記述されます。オプションフィールドはこの時点では使われていません"
+"ので、オプションフィールドへの追加はライブラリの読み込みに影響を与えません。"
+"同じテーブルには重複した別名を持てないことに注意して下さい。しかしながら、グ"
+"ローバルとプロジェクト固有のフットプリント・ライブラリ・テーブルの両方で重複"
+"した別名を持つことは可能です。もし名前の衝突が起こったなら、プロジェクト固有"
+"のテーブルがグローバルテーブルに優先します。プロジェクト固有のテーブルに項目"
+"が入力されると、入力項目を含む fp-lib-table ファイルは現在開かれているネット"
+"リストのあるディレクトリに書き込まれます。"
 
 #. type: Title ^
 #: Pcbnew_installation.adoc:141
@@ -9475,11 +9473,12 @@ msgid ""
 "Path” setting."
 msgstr ""
 "常に GitHub ライブラリごとに個別のローカル `*.pretty` ディレクトリを確保し、"
-"何回も同じディレクトリを参照することでこれらを結合してはいけません。また、"
-"フットプリント・ライブラリ・テーブルの入力項目に同じ COW (`*.pretty`) ディレ"
-"クトリを使用してはいけません。 これは恐らく混乱を招くでしょう。オプション "
-"`allow_pretty_writing_to_this_dir` の値は、 “ライブラリパス” の設定と同様、パ"
-"スを作るにあたって `${}` 表示を使い、環境変数を拡大できます。"
+"別のライブラリから複数回にわたって同じディレクトリを参照することでこれらを結"
+"合してはいけません。また、フットプリント・ライブラリ・テーブルの入力項目に同"
+"じ COW (`*.pretty`) ディレクトリを使用してはいけません。 これは恐らく混乱を招"
+"くでしょう。オプション `allow_pretty_writing_to_this_dir` の値は、 “ライブラ"
+"リパス” の設定と同様、パスを作るにあたって `${}` 表示を使い、環境変数を拡大で"
+"きます。"
 
 #. type: Plain text
 #: Pcbnew_installation.adoc:251
