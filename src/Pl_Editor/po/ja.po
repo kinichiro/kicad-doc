@@ -118,7 +118,7 @@ msgid ""
 "frame references."
 msgstr ""
 "Pl_Editorはタイトルブロックや図枠を作成/編集するためのページレイアウトエディ"
-"タです。\n"
+"タです。"
 
 #. type: Plain text
 #: Pl_Editor.adoc:52
@@ -130,8 +130,8 @@ msgid ""
 "The title block, associated to frame references, and other graphic items "
 "(logos) is called here a page layout"
 msgstr ""
-"このタイトルブロックや図形（ロゴなど）をまとめて図枠として定義しており、\n"
-"ここではこれらをまとめて”ページレイアウト”と呼びます。\n"
+"このタイトルブロックや図形（ロゴなど）をまとめて図枠として定義しており、"
+"ここではこれらをまとめて”ページレイアウト”と呼びます。"
 
 #. type: Plain text
 #: Pl_Editor.adoc:54 Pl_Editor.adoc:96
@@ -184,9 +184,9 @@ msgid ""
 "Bitmaps can be plotted only by few plotters (PDF and PS only) Therefore, for "
 "other plotters, only a bounding box will be plotted."
 msgstr ""
-"注意：ビットマップ(Bitmap)は一部の出力形式（PDFとPS）でのみ\n"
-"プロットできます。それ以外の出力形式では、ただの四角形として\n"
-"出力されます。\n"
+"注意：ビットマップ(Bitmap)は一部の出力形式（PDFとPS）でのみ"
+"プロットできます。それ以外の出力形式では、ただの四角形として"
+"出力されます。"
 
 #. type: Plain text
 #: Pl_Editor.adoc:67
@@ -196,7 +196,7 @@ msgstr ""
 msgid "Items can be repeated, and texts and poly_polygons can be rotated."
 msgstr ""
 "* これら要素は繰り返し配置が可能です。またテキスト(Text)と重畳された多角形"
-"(Poly)は回転させることができます。\n"
+"(Poly)は回転させることができます。"
 
 #. type: Title ==
 #: Pl_Editor.adoc:69
