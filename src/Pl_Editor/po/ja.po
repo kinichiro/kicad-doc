@@ -1,4 +1,3 @@
-# Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -6,15 +5,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pl_Editor-ja\n"
 "POT-Creation-Date: 2015-07-22 22:42+0900\n"
-"PO-Revision-Date: 2015-07-18 01:17+0900\n"
+"PO-Revision-Date: 2015-07-23 00:47+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.2\n"
 
+# CC1:07232015 corresponding changes 1
 #. type: Title =
 #: Pl_Editor.adoc:7
 #, no-wrap
@@ -47,11 +47,11 @@ msgid ""
 "or the Creative Commons Attribution License (http://creativecommons.org/"
 "licenses/by/3.0/), version 3.0 or later."
 msgstr ""
-"このドキュメントは以下の貢献者により著作権所有(© 2015)されています。あなた"
+"このドキュメントは以下の貢献者により著作権所有 © 2015 されています。あなた"
 "は、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
-"バージョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
-"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
-"で、配布または変更することができます 。"
+"バージョン 3 以降、あるいはクリエイティブ・コモンズライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン 3.0 以降のいずれかの条件"
+"の下で、配布または変更することができます 。"
 
 #. type: Plain text
 #: Pl_Editor.adoc:25
@@ -109,29 +109,21 @@ msgstr "*Pl_Editor* について"
 
 #. type: Plain text
 #: Pl_Editor.adoc:49
-#, fuzzy
-#| msgid ""
-#| "Pl_Editor is a page layout editor tool to create custom title blocks,\n"
-#| "and frame references.\n"
 msgid ""
 "Pl_Editor is a page layout editor tool to create custom title blocks, and "
 "frame references."
 msgstr ""
-"Pl_Editorはタイトルブロックや図枠を作成/編集するためのページレイアウトエディ"
-"タです。"
+"Pl_Editor はタイトルブロックや図枠を作成／編集するためのページレイアウトエ"
+"ディタです。"
 
 #. type: Plain text
 #: Pl_Editor.adoc:52
-#, fuzzy
-#| msgid ""
-#| "The title block, associated to frame references, and other graphic items\n"
-#| "(logos) is called here a page layout\n"
 msgid ""
 "The title block, associated to frame references, and other graphic items "
 "(logos) is called here a page layout"
 msgstr ""
-"このタイトルブロックや図形（ロゴなど）をまとめて図枠として定義しており、"
-"ここではこれらをまとめて”ページレイアウト”と呼びます。"
+"このタイトルブロックや図形（ロゴなど）をまとめて図枠として定義しており、ここ"
+"ではこれらをまとめて ”ページレイアウト” と呼びます。"
 
 #. type: Plain text
 #: Pl_Editor.adoc:54 Pl_Editor.adoc:96
@@ -152,10 +144,7 @@ msgstr "*矩形(Rect)*\n"
 
 #. type: Plain text
 #: Pl_Editor.adoc:59
-#, fuzzy, no-wrap
-#| msgid ""
-#| "*Texts* (with format symbols, with will be replaced by the actual\n"
-#| "text, like the date, page number...) in Eeschema or Pcbnew.\n"
+#, no-wrap
 msgid ""
 "*Texts* (with format symbols, that will be replaced by the actual text,\n"
 "like the date, page number...) in Eeschema or Pcbnew.\n"
@@ -165,34 +154,25 @@ msgstr "*テキスト(Text)* （EeschemaやPcbnewの実際の図面で日付や�
 #: Pl_Editor.adoc:60
 #, no-wrap
 msgid "*Poly-polygons* (mainly to place logos and special graphic shapes)\n"
-msgstr ""
+msgstr "*重畳された多角形(Poly)* （主にロゴや特別な図形を配置するためのもの）\n"
 
 #. type: Plain text
 #: Pl_Editor.adoc:61
 #, no-wrap
 msgid "*Bitmaps*.\n"
-msgstr ""
+msgstr "*ビットマップ(Bitmap)* 。\n"
 
 #. type: Plain text
 #: Pl_Editor.adoc:65
-#, fuzzy
-#| msgid ""
-#| "WARNING: Bitmaps can be plotted only by few plotters (PDF and\n"
-#| "PS only) Therefore, for other plotters, only a bounding box will be\n"
-#| "plotted.\n"
 msgid ""
 "Bitmaps can be plotted only by few plotters (PDF and PS only) Therefore, for "
 "other plotters, only a bounding box will be plotted."
 msgstr ""
-"注意：ビットマップ(Bitmap)は一部の出力形式（PDFとPS）でのみ"
-"プロットできます。それ以外の出力形式では、ただの四角形として"
-"出力されます。"
+"注意：ビットマップ(Bitmap)は一部の出力形式（PDFとPS）でのみプロットできます。"
+"それ以外の出力形式では、ただの四角形として出力されます。"
 
 #. type: Plain text
 #: Pl_Editor.adoc:67
-#, fuzzy
-#| msgid ""
-#| "* Items can be repeated, and texts and poly_polygons can be rotated.\n"
 msgid "Items can be repeated, and texts and poly_polygons can be rotated."
 msgstr ""
 "* これら要素は繰り返し配置が可能です。またテキスト(Text)と重畳された多角形"
@@ -200,10 +180,9 @@ msgstr ""
 
 #. type: Title ==
 #: Pl_Editor.adoc:69
-#, fuzzy, no-wrap
-#| msgid "Pl_Editor"
+#, no-wrap
 msgid "Pl_Editor files"
-msgstr "Pl_Editor"
+msgstr "Pl_Editor のファイル"
 
 #. type: Title ===
 #: Pl_Editor.adoc:72
@@ -1707,14 +1686,16 @@ msgstr ""
 #~ msgid ""
 #~ "* *Lines*\n"
 #~ "* *Rectangles*\n"
-#~ "* *Texts* (with format symbols, that will be replaced by the actual text,\n"
+#~ "* *Texts* (with format symbols, that will be replaced by the actual "
+#~ "text,\n"
 #~ "  like the date, page number...) in Eeschema or Pcbnew.\n"
 #~ "* *Poly-polygons* (mainly to place logos and special graphic shapes)\n"
 #~ "* *Bitmaps*.\n"
 #~ msgstr ""
 #~ "* *線(Line)*\n"
 #~ "* *矩形(Rect)*\n"
-#~ "* *テキスト(Text)* （EeschemaやPcbnewの実際の図面で日付やページ番号に自動的に置換えられる書式指定文字を含む）\n"
+#~ "* *テキスト(Text)* （EeschemaやPcbnewの実際の図面で日付やページ番号に自動"
+#~ "的に置換えられる書式指定文字を含む）\n"
 #~ "* *重畳された多角形(Poly)* （主にロゴや特別な図形を配置するためのもの）\n"
 #~ "* *ビットマップ(Bitmap)*\n"
 

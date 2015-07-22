@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema-ja\n"
 "POT-Creation-Date: 2015-07-22 22:41+0900\n"
-"PO-Revision-Date: 2015-07-19 21:07+0900\n"
+"PO-Revision-Date: 2015-07-23 00:45+0900\n"
 "Last-Translator: starfort <starfort@nifty.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -17,6 +17,7 @@ msgstr ""
 # PR4:07152015 proofreading - chapter5-8
 # PR5:07172015 proofreading - chapter9-14
 # PR6:07192015 correct image issues
+# CC1:07232015 corresponding changes 1
 #. type: Title =
 #: Eeschema.adoc:7
 #, no-wrap
@@ -2449,46 +2450,43 @@ msgstr "ホットキー"
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:71
 msgid "The “?” key displays the current hotkey list."
-msgstr ""
+msgstr "“?” で現在のホットキーのリストを表示します。"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:72
 msgid ""
 "Hotkeys can be managed by choosing \"Edit Hotkeys\" in the Preferences menu."
 msgstr ""
+"ホットキーは、上部メニューバーの \"設定\" から \"ホットキーの編集\" を選択す"
+"ると変更できます。"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:74
-#, fuzzy
-#| msgid "Or use the function keys:"
 msgid "Here is the default hot key list:"
-msgstr "あるいはファンクションキーを使って:"
+msgstr "以下はデフォルトのホットキーのリストです:"
 
 #. type: Target for macro image
 #: Eeschema_generic_commands.adoc:75
-#, fuzzy, no-wrap
-#| msgid "images/en/menu_path_hotkey_editor.png"
+#, no-wrap
 msgid "images/en/default_hot_key_list.png"
-msgstr "images/ja/menu_path_hotkey_editor.png"
+msgstr "images/ja/default_hot_key_list.png"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:78
 msgid "All hot keys can be redefined by the user via the hotkey editor:"
-msgstr ""
+msgstr "全てのホットキーは、ホットキーエディタでユーザが再定義できます。"
 
 #. type: Target for macro image
 #: Eeschema_generic_commands.adoc:79
-#, fuzzy, no-wrap
-#| msgid "images/en/menu_path_hotkey_editor.png"
+#, no-wrap
 msgid "images/en/shortcuts_editor.png"
-msgstr "images/ja/menu_path_hotkey_editor.png"
+msgstr "images/ja/shortcuts_editor.png"
 
 #. type: Title ===
 #: Eeschema_generic_commands.adoc:81
-#, fuzzy, no-wrap
-#| msgid "Select sheet size."
+#, no-wrap
 msgid "Selecting grid size"
-msgstr "シートサイズを選択。"
+msgstr "グリッドサイズの選択"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:85
@@ -2688,6 +2686,8 @@ msgid ""
 "image:images/toolbar_schedit_standalone.png[images/"
 "toolbar_schedit_standalone.png]"
 msgstr ""
+"image:images/toolbar_schedit_standalone.png[images/"
+"toolbar_schedit_standalone.png]"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:153
@@ -2700,12 +2700,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:155
-#, fuzzy
-#| msgid ""
-#| "image:images/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
 msgid "image:images/toolbar_schedit.png[images/toolbar_schedit.png]"
-msgstr ""
-"image:images/ja/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
+msgstr "image:images/toolbar_schedit.png[images/toolbar_schedit.png]"
 
 #. type: Plain text
 #: Eeschema_generic_commands.adoc:157
@@ -2987,18 +2983,15 @@ msgstr "右ツールバー"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:247
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/sch_editor_right_toolbar.png[images/sch_editor_right_toolbar.png]\n"
-#| "a|\n"
-#| "This toolbar contains tools to:\n"
+#, no-wrap
 msgid ""
 "|image:images/toolbar_schedit_rightside.png[images/toolbar_schedit_rightside.png]\n"
 "a|\n"
 "This toolbar contains tools to:\n"
 msgstr ""
-"|image:images/sch_editor_right_toolbar.png[images/sch_editor_right_toolbar.png]\n"
-"|このツールバーは次のツールを含んでいます:\n"
+"|image:images/toolbar_schedit_rightside.png[images/toolbar_schedit_rightside.png]\n"
+"a|\n"
+"このツールバーは次のツールを含んでいます:\n"
 
 #. type: delimited block |
 #: Eeschema_generic_commands.adoc:252
@@ -5226,7 +5219,7 @@ msgstr ""
 #: Eeschema_design_verification_with_erc.adoc:66
 #, no-wrap
 msgid "Power pins and Power flags"
-msgstr "電源および電源フラグ"
+msgstr "電源ピンと電源フラグ"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:72
@@ -5236,6 +5229,10 @@ msgid ""
 "power is provided by connectors, that are not power sources (like regulator "
 "output, which is declared as Power out)."
 msgstr ""
+"電源ピンにエラーまたは警告を出すのは一般的です。たとえ、すべて正常のように思"
+"われるとしてもです。上の例を参照して下さい。大抵の設計では電源はコネクタに"
+"よって供給されますが、そのコネクタは（電源出力として宣言されているレギュレー"
+"タ出力のような）電源ではありません。"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:75
@@ -5243,6 +5240,8 @@ msgid ""
 "The ERC thus won't detect any Power out pin to control this wire and will "
 "declare them not driven by a power source."
 msgstr ""
+"このためERCは、電源出力ピンを検出してこの配線を操作するということはせず、電源"
+"で駆動されていないものと判断します。"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:78
@@ -5250,24 +5249,22 @@ msgid ""
 "To avoid this warning you have to place a “PWR_FLAG” on such a power port. "
 "Take a look at the following example."
 msgstr ""
+"この警告を避けるには、そのような電源ポートに “PWR_FLAG” を配置しなければなり"
+"ません．次の例を参照して下さい。"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:80
-#, fuzzy
-#| msgid ""
-#| "image:images/2000000800003D8000002550D6E11DAF."
-#| "png[2000000800003D8000002550D6E11DAF_png]"
 msgid ""
 "image:images/20000008000030E4000026DDFDF3D5E2."
 "png[20000008000030E4000026DDFDF3D5E2_png]"
 msgstr ""
-"image:images/2000000800003D8000002550D6E11DAF."
-"png[2000000800003D8000002550D6E11DAF_png]"
+"image:images/20000008000030E4000026DDFDF3D5E2."
+"png[20000008000030E4000026DDFDF3D5E2_png]"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:82
 msgid "The error marker will then disappear."
-msgstr ""
+msgstr "このようにすると、エラーマーカーが消えます。"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:87
@@ -5277,12 +5274,16 @@ msgid ""
 "power out (the normal attribute is power in), so grounds never appear "
 "connected to a power source without a pwr_flag."
 msgstr ""
+"大抵の場合、PWR_FLAG は GND に接続されていなければなりません。それは普通、レ"
+"ギュレータは電源出力として宣言された出力を持ちますが、グラウ ンドピンは電源出"
+"力ではなく（通常の属性は電源入力）、その結果、グラウンドは PWR_FLAG がなけれ"
+"ば電源に接続されたことにはならないからです。"
 
 #. type: Title ===
 #: Eeschema_design_verification_with_erc.adoc:89
 #, no-wrap
 msgid "Configuration"
-msgstr ""
+msgstr "ルールの設定"
 
 #. type: Plain text
 #: Eeschema_design_verification_with_erc.adoc:93
@@ -5976,12 +5977,8 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:73
-#, fuzzy
-#| msgid ""
-#| "image:images/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
 msgid "image:images/toolbar_libedit.png[images/toolbar_libedit.png]"
-msgstr ""
-"image:images/ja/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
+msgstr "image:images/toolbar_libedit.png[images/toolbar_libedit.png]"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:80
@@ -6218,33 +6215,25 @@ msgstr ""
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:153
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/100000000000007A0000002651F79CA5.png[100000000000007A0000002651F79CA5_png]\n"
-#| "|Select the unit to display. The drop down control will be disable if\n"
-#| "the current component is not derived from multiple units.\n"
+#, no-wrap
 msgid ""
 "|image:images/toolbar_libedit_part.png[images/toolbar_libedit_part.png]\n"
 "|Select the unit to display. The drop down control will be disable if\n"
 "the current component is not derived from multiple units.\n"
 msgstr ""
-"|image:images/ja/100000000000007A0000002651F79CA5.png[100000000000007A0000002651F79CA5_png]\n"
+"|image:images/toolbar_libedit_part.png[images/toolbar_libedit_part.png]\n"
 "|表示するパーツを選択する。（多パーツコンポーネントではない場合、\n"
 "ドロップダウンは無効です）\n"
 
 #. type: delimited block |
 #: Eeschema_component_library_editor.adoc:157
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/100000000000007A00000026D48F1971.png[100000000000007A00000026D48F1971_png]\n"
-#| "|Selection the alias. The drop down control will be disabled if the\n"
-#| "current component does not have any aliases.\n"
+#, no-wrap
 msgid ""
 "|image:images/toolbar_libedit_alias.png[images/toolbar_libedit_part.png]\n"
 "|Selection the alias. The drop down control will be disabled if the\n"
 "current component does not have any aliases.\n"
 msgstr ""
-"|image:images/100000000000007A00000026D48F1971.png[100000000000007A00000026D48F1971_png]\n"
+"|image:images/toolbar_libedit_alias.png[images/toolbar_libedit_part.png]\n"
 "|エイリアスを選択する。（エイリアスを持っていない場合、\n"
 "ドロップダウンは無効です）\n"
 
@@ -6554,15 +6543,6 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:287
-#, fuzzy
-#| msgid ""
-#| "If a component selected by it's alias, the name of the loaded component "
-#| "is displayed on the window title bar instead of selected alias. The list "
-#| "of component aliases is always loaded with each component and can be "
-#| "edited. You can create a new component by selecting an alias of the "
-#| "current component from the image:images/100000000000007A00000026D48F1971."
-#| "png[100000000000007A00000026D48F1971_png].  The first item in the alias "
-#| "list is the root name of the component."
 msgid ""
 "If a component selected by it's alias, the name of the loaded component is "
 "displayed on the window title bar instead of selected alias. The list of "
@@ -6575,11 +6555,10 @@ msgstr ""
 "コンポーネントのエイリアスを選択すると、選択したエイリアスに代わって実際に読"
 "み込んだコンポーネントの名前が常にウィンドウのタイトルに表示されます。（メイ"
 "ンのコンポーネントが読み込まれます。）コンポーネントのエイリアスのリストは常"
-"に各コンポーネントと共に読み込まれ、編集することができます。 image:"
-"images/100000000000007A00000026D48F1971."
-"png[100000000000007A00000026D48F1971_png] から現在のコンポーネントのエイリア"
-"スを選択することで、新しいコンポーネントを作ることができます。リストの最初の"
-"項目はルートコンポーネントです。"
+"に各コンポーネントと共に読み込まれ、編集することができます。 image:images/"
+"toolbar_libedit_alias.png[images/étoolbar_libedit_alias.png] から現在のコン"
+"ポーネントのエイリアスを選択することで、新しいコンポーネントを作ることができ"
+"ます。リストの最初の項目はルートコンポーネントです。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:295
@@ -7006,13 +6985,6 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:462
-#, fuzzy
-#| msgid ""
-#| "To edit the alternate symbol click on the image:images/icons/morgan2."
-#| "png[icons/morgan2_png].  Use the image:"
-#| "images/100000000000007A0000002651F79CA5."
-#| "png[100000000000007A0000002651F79CA5_png] show below to select the unit "
-#| "you wish to edit."
 msgid ""
 "To edit the alternate symbol click on the image:images/icons/morgan2."
 "png[icons/morgan2_png].  Use the image:images/toolbar_libedit_alias."
@@ -7020,10 +6992,9 @@ msgid ""
 "to edit."
 msgstr ""
 "代替シンボルを編集するには、image:images/icons/morgan2.png[icons/"
-"morgan2_png] をクリックします。編集対象のユニットを選ぶには image:"
-"images/100000000000007A0000002651F79CA5."
-"png[100000000000007A0000002651F79CA5_png] を使って、ドロップダウンリストから"
-"選択します。次の画面に例を示します。"
+"morgan2_png] をクリックします。編集対象のユニットを選ぶには image:images/"
+"toolbar_libedit_alias.png[images/toolbar_libedit_alias.png]  を使って、ドロッ"
+"プダウンリストから選択します。次の画面に例を示します。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:464
@@ -7729,18 +7700,6 @@ msgstr ""
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:728
-#, fuzzy
-#| msgid ""
-#| "An example is the output pin 7400 quad dual input NAND gate. Since there "
-#| "are four units and two symbolic representations, there are eight separate "
-#| "output pins defined in the component definition. When creating a new 7400 "
-#| "component, unit A of the normal symbolic representation will be shown in "
-#| "the library editor. To edit the pin style in alternate symbolic "
-#| "representation, it must first be enabled by clicking the image:images/"
-#| "icons/morgan2.png[icons/morgan2_png] button on the tool bar. To edit the "
-#| "pin number for each unit, select the appropriate unit using the image:"
-#| "images/100000000000007A0000002651F79CA5."
-#| "png[100000000000007A0000002651F79CA5_png] drop down control."
 msgid ""
 "An example is the output pin 7400 quad dual input NAND gate. Since there are "
 "four units and two symbolic representations, there are eight separate output "
@@ -7759,9 +7718,9 @@ msgstr ""
 "パーツＡがライブラリエディタに表示されるでしょう。別のシンボル表現のピン形状"
 "（スタイル）を編集するには、まずツールバーのボタン image:images/icons/"
 "morgan2.png[icons/morgan2_png] をクリックして有効にしなければなりません。各"
-"パーツのピン番号を編集するには、ドロップダウン image:"
-"images/100000000000007A0000002651F79CA5."
-"png[100000000000007A0000002651F79CA5_png] を使ってパーツを選択します。"
+"パーツのピン番号を編集するには、ドロップダウン image:images/"
+"toolbar_libedit_alias.png[images/toolbar_libedit_alias.png] を使ってパーツを"
+"選択します。"
 
 #. type: Title ===
 #: Eeschema_component_library_editor.adoc:730
@@ -12029,12 +11988,8 @@ msgstr "ライブラリブラウザの上部に表示されているツールバ
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:32
-#, fuzzy
-#| msgid ""
-#| "image:images/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
 msgid "image:images/toolbar_viewlib.png[images/toolbar_viewlib.png]"
-msgstr ""
-"image:images/ja/lib_editor_main_toolbar.png[lib_editor_main_toolbar_png]"
+msgstr "image:images/toolbar_viewlib.png[images/toolbar_viewlib.png]"
 
 #. type: Plain text
 #: Eeschema_viewlib.adoc:34
@@ -12109,15 +12064,12 @@ msgstr ""
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:60
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/icons/morgan1.png[] image:images/icons/morgan2.png[]\n"
-#| "|Selection of the representation (normal or converted) if exist.\n"
+#, no-wrap
 msgid ""
 "|image:images/toolbar_viewlib_part.png[images/toolbar_viewlib_part.png]\n"
 "|Selection of the part, only for multi-part components.\n"
 msgstr ""
-"|image:images/icons/morgan1.png[] image:images/icons/morgan2.png[]\n"
+"|image:images/toolbar_viewlib_part.png[images/toolbar_viewlib_part.png]\n"
 "|（代替シンボル表現が存在する場合）表現を選択します。\n"
 
 #. type: delimited block |
@@ -12134,10 +12086,7 @@ msgstr ""
 
 #. type: delimited block |
 #: Eeschema_viewlib.adoc:68
-#, fuzzy, no-wrap
-#| msgid ""
-#| "|image:images/icons/export.png[icons/export_png]\n"
-#| "|Close Viewlib and place the selected component in Eeschema.\n"
+#, no-wrap
 msgid ""
 "|image:images/icons/export.png[icons/export_png]\n"
 "|Close Viewlib and place the selected component in Eeschema.\n"
@@ -12145,6 +12094,7 @@ msgid ""
 msgstr ""
 "|image:images/icons/export.png[icons/export_png]\n"
 "|ライブラリブラウザを閉じ、選択されたコンポーネントを Eeschema 上に配置します。\n"
+"このアイコンは、ライブラリブラウザ(Viewlib)が Eeschema から呼び出された時だけ表示されます。（“コンポーネントの選択”の画面左下のシンボル表示部を左クリック）\n"
 
 #~ msgid "image:images/sch_editor_main_toolbar.png[sch editor main toolbar]"
 #~ msgstr "image:images/sch_editor_main_toolbar.png[sch editor main toolbar]"
@@ -12178,10 +12128,12 @@ msgstr ""
 #~ "png[1000000000000235000000254D7A0B58_png]"
 
 #~ msgid ""
-#~ "|image:images/100000000000009B00000021DD8FE12C.png[100000000000009B00000021DD8FE12C_png]\n"
+#~ "|image:images/100000000000009B00000021DD8FE12C."
+#~ "png[100000000000009B00000021DD8FE12C_png]\n"
 #~ "|Selection of the part (if multi-part component).\n"
 #~ msgstr ""
-#~ "|image:images/100000000000009B00000021DD8FE12C.png[100000000000009B00000021DD8FE12C_png]\n"
+#~ "|image:images/100000000000009B00000021DD8FE12C."
+#~ "png[100000000000009B00000021DD8FE12C_png]\n"
 #~ "|（複数ユニットを持つコンポーネントの場合）ユニットを選択します。\n"
 
 #~ msgid ""

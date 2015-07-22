@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-07-22 22:42+0900\n"
-"PO-Revision-Date: 2015-07-21 19:13+0900\n"
+"PO-Revision-Date: 2015-07-23 00:47+0900\n"
 "Last-Translator: yoneken <midpika@hotmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -18,6 +18,7 @@ msgstr ""
 # PR5:07172015 proofreading - chapter9-14
 # PR6:07192015 correcting typos - pt.1
 # PR7:07212015 correcting typos - pt.2
+# CC1:07232015 corresponding changes 1
 #. type: Title =
 #: Pcbnew.adoc:6
 #, no-wrap
@@ -51,7 +52,7 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
-"このドキュメントは以下の貢献者により著作権所有 ©2010–2014 されています。あな"
+"このドキュメントは以下の貢献者により著作権所有 © 2010–2014 されています。あな"
 "たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
 "バージョン 3 以降、あるいはクリエイティブ・コモンズ・ライセンス ( http://"
 "creativecommons.org/licenses/by/3.0/ ) のバージョン 3.0 以降のいずれかの条件"
@@ -2695,15 +2696,11 @@ msgstr ""
 
 #. type: delimited block |
 #: Pcbnew_routing.adoc:134
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-#| "| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
-#| "| mils | 31 | 20 | 16 | 10 | 6\n"
+#, no-wrap
 msgid ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
-"| mils | 31 | 20 | 16 | 10 | 6\n"
+"| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
+"| mils | 31 | 20 | 16 | 10 | 6\n"
 msgstr ""
 "| 単位 | クラス 1 | クラス 2 | クラス 3 | クラス 4 | クラス 5\n"
 "| mm | 0.8 | 0.5 | 0.4 | 0.25 | 0.15\n"
@@ -2717,15 +2714,11 @@ msgstr "絶縁（クリアランス）"
 
 #. type: delimited block |
 #: Pcbnew_routing.adoc:143
-#, fuzzy, no-wrap
-#| msgid ""
-#| "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-#| "| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
-#| "| mils | 27 | 20 | 14 | 9 | 6\n"
+#, no-wrap
 msgid ""
 "| Units | CLASS 1 | CLASS 2 | CLASS 3 | CLASS 4 | CLASS 5\n"
-"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
-"| mils | 27 | 20 | 14 | 9 | 6\n"
+"| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
+"| mils | 27 | 20 | 14 | 9 | 6\n"
 msgstr ""
 "| 単位 | クラス 1 | クラス 2 | クラス 3 | クラス 4 | クラス 5\n"
 "| mm | 0.7 | 0.5 | 0.35 | 0.23 | 0.15\n"
@@ -5542,6 +5535,9 @@ msgid ""
 "either upper or lower case. Most hot keys are shown in menus. Some hot keys "
 "that do not appear are:"
 msgstr ""
+"多くのコマンドは、直接キーボードにより操作可能です。大文字または小文字のどち"
+"らを選んでもかまいません。ほとんどのホットキーは、メニューに表示されます。表"
+"示されていないホットキーは、以下のとおりです。:"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:129
@@ -5549,6 +5545,8 @@ msgid ""
 "`Delete`: deletes a module or a track. (_Available only if the Module tool "
 "or the track tool is active_)"
 msgstr ""
+"`Delete` キー (または Del)：モジュールや配線を削除します。（ _モジュールツー"
+"ルまたはトラックツールが有効な場合のみ実行可能です。_ ）"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:130
@@ -5556,26 +5554,27 @@ msgid ""
 "`V`: if the track tool is active switches working layer or place via, if a "
 "track is in progress."
 msgstr ""
+"`V` キー：作業中のレイヤをペアで設定されたレイヤに切り替えます。配線中はビア"
+"が配置され、ペアのレイヤ側の作業に移行します。"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:131
 msgid "`+` and `-`: select next or previous layer."
-msgstr ""
+msgstr "`＋` と `－` キー：アクティブレイヤを次、あるいは前のレイヤとします。"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:132
 msgid "`?`: display the list off all hot keys."
-msgstr ""
+msgstr "`？` キー：全てのホットキーのリストを表示します。"
 
 #. type: Plain text
 #: Pcbnew_general_operations.adoc:133
 msgid "`Space`: reset relative coordinates."
-msgstr ""
+msgstr "`スペース` キー：相対座標をリセットします。"
 
 #. type: Title ===
 #: Pcbnew_general_operations.adoc:134
-#, fuzzy, no-wrap
-#| msgid "Operations on blocks"
+#, no-wrap
 msgid "Operation on blocks"
 msgstr "ブロックでの操作"
 
