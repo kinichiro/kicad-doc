@@ -51,6 +51,12 @@ macro( KiCadDocumentation DOCNAME )
 
         string( SUBSTRING "${LANGUAGE}" 0 2 LANGUAGE )
 
+        if(EXISTS "${CMAKE_SOURCE_DIR}/CMakeSupport/lang-${LANGUAGE}.conf")
+            set( LANGUAGE_OPTIONS "-f${CMAKE_SOURCE_DIR}/CMakeSupport/lang-${LANGUAGE}.conf" )
+        else()
+            set( LANGUAGE_OPTIONS "-a lang=${LANGUAGE}" ) # Fall back to the default config file for this language.
+        endif()
+
         if( "${LANGUAGE}" MATCHES "en" )
             # No need to translate, so just make a renamed copy of the source instead such
             # that we have the same source target as every other language
@@ -124,6 +130,21 @@ macro( KiCadDocumentation DOCNAME )
             add_dependencies( ${DOCNAME} ${DOCNAME}_pdf_${LANGUAGE} )
 
             install( FILES ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/${DOCNAME}.pdf DESTINATION ./${LANGUAGE}/${DOCNAME}/pdf )
+        endif()
+
+
+        # EPUB Generation
+        list( FIND BUILD_FORMATS "epub" EPUB_BUILD )
+        if( NOT "${EPUB_BUILD}" EQUAL "-1" )
+            add_adoc_epub_target( ${DOCNAME}_epub_${LANGUAGE}
+                    ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/${DOCNAME}.adoc
+                    ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/${DOCNAME}.epub
+                    ${LANGUAGE} )
+
+            add_dependencies( ${DOCNAME}_epub_${LANGUAGE} ${DOCNAME}_translate_${LANGUAGE} )
+            add_dependencies( ${DOCNAME} ${DOCNAME}_epub_${LANGUAGE} )
+
+            install( FILES ${CMAKE_CURRENT_BINARY_DIR}/${LANGUAGE}/${DOCNAME}.epub DESTINATION ./${LANGUAGE}/${DOCNAME}/epub )
         endif()
     endforeach()
 
