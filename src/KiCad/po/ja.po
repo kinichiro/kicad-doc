@@ -50,7 +50,7 @@ msgid ""
 msgstr ""
 "このドキュメントは以下の貢献者により著作権所有(© 2015)されています。GNU "
 "General Public License ( http://www.gnu.org/licenses/gpl.html ) のバージョン3"
-"以降、あるいはクリエイティブ・コモンズライセンス ( http://creativecommons."
+"以降、あるいはクリエイティブ・コモンズ・ライセンス ( http://creativecommons."
 "org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下で、配布または変"
 "更することができます 。"
 
@@ -144,7 +144,7 @@ msgstr ""
 #: KiCad.adoc:61
 #, no-wrap
 msgid "*Kicad* : project manager\n"
-msgstr "*KiCad* : プロジェクト・マネージャ\n"
+msgstr "*KiCad* : プロジェクトマネージャ\n"
 
 #. type: Plain text
 #: KiCad.adoc:62
@@ -162,13 +162,13 @@ msgstr "*CvPcb* : フットプリント選択ヘルパー (常にEeschemaから�
 #: KiCad.adoc:64
 #, no-wrap
 msgid "*Pcbnew* : circuit board layout editor and footprint editor\n"
-msgstr "*Pcbnew* : 回路基板レイアウト・エディタとフットプリント・エディタ\n"
+msgstr "*Pcbnew* : 回路基板レイアウトエディタとフットプリントエディタ\n"
 
 #. type: Plain text
 #: KiCad.adoc:65
 #, no-wrap
 msgid "*GerbView* : Gerber viewer\n"
-msgstr "*GerbView* : ガーバー・ビューア\n"
+msgstr "*GerbView* : ガーバービューア\n"
 
 #. type: Plain text
 #: KiCad.adoc:67
@@ -257,7 +257,7 @@ msgid ""
 "projects oriented towards the creation of electronic hardware with an open-"
 "source flavour."
 msgstr ""
-"KiCadはGPLライセンスに基づくオープン・ソースのため、オープン・ソース志向の電"
+"KiCadはGPLライセンスに基づくオープンソースのため、オープンソース志向の電"
 "子機器作成プロジェクトに理想的なツールです。"
 
 #. type: Plain text
@@ -314,7 +314,7 @@ msgid ""
 msgstr ""
 "|*.sch |回路図ファイル。ただし使用しているコンポーネント自身の情報は含まない。\n"
 "|*.lib |回路図コンポーネント・ライブラリ・ファイル。各コンポーネントの情報(コンポーネント記号、ピンとフィールド情報)を含む。\n"
-"|*.dcm |回路図コンポーネント・ライブラリの説明ドキュメント。\n"
+"|*.dcm |回路図コンポーネントライブラリの説明ドキュメント。\n"
 "各コンポーネントに対するコメント、キーワード、データシートへの参照。\n"
 "|*_cache.lib |回路図コンポーネント・ライブラリ・キャッシュファイル。回路図で使用しているコンポーネントのコピーを保存する。\n"
 
@@ -341,13 +341,13 @@ msgid ""
 msgstr ""
 "|*.kicad_pcb |ページレイアウト以外のすべての基板情報を含むファイル。\n"
 "|*.pretty |フットプリント **ライブラリ・フォルダ** 。フォルダ自体がライブラリになっています。\n"
-"|*.kicad_mod |説明を含んだフットプリント・ファイル。各ファイルにフットプリントが1つ。\n"
+"|*.kicad_mod |説明を含んだフットプリントファイル。各ファイルにフットプリントが1つ。\n"
 "|*.brd |古いフォーマットの基板ファイル。\n"
 "基板エディタで読み込みは可能ですが、書き込みはできません。\n"
-"|*.mod |古いフォーマットのフットプリント・ライブラリ。\n"
+"|*.mod |古いフォーマットのフットプリントライブラリ。\n"
 "フットプリントと基板エディタで読み込みは可能ですが、書き込みはできません。\n"
-"|fp-lib-table |フットプリント・ライブラリのリスト (_フットプリント・ライブラリ・テーブル_):\n"
-"基板エディタやフットプリント・エディタ、CvPcbで読み込まれる様々なフォーマットのフットプリント・ライブラリのリスト。\n"
+"|fp-lib-table |フットプリントライブラリのリスト (_フットプリント・ライブラリ・テーブル_):\n"
+"基板エディタやフットプリントエディタ、CvPcbで読み込まれる様々なフォーマットのフットプリントライブラリのリスト。\n"
 
 #. type: Plain text
 #: KiCad.adoc:134
@@ -367,7 +367,7 @@ msgid ""
 msgstr ""
 "|*.kicad_wks |修正したワークシートを使用したいユーザ向けの\n"
 "ページレイアウト説明ファイル。\n"
-"|*.net |回路図エディタが作成するネットリスト・ファイル。基板エディタは\n"
+"|*.net |回路図エディタが作成するネットリストファイル。基板エディタは\n"
 "このファイルを読み込みます。\n"
 "このファイルは、コンポーネントとフットプリントの対応を別ファイルにしておきたい\n"
 "ユーザ向けに .cmpファイルと関連付けられています。\n"
@@ -530,7 +530,7 @@ msgstr ""
 "KiCadからPcbnewを起動します。フットプリント・ライブラリ・リストなどPcbnewの設"
 "定を修正します。Pcbnewは、 **フットプリント・ライブラリ・テーブル** というラ"
 "イブラリファイルを作成・更新します。 fp-lib-tableは、二箇所にライブラリファイ"
-"ルがあります。ユーザホーム・ディレクトリにあるfp-lib-tableファイルは、すべて"
+"ルがあります。ホームディレクトリにあるfp-lib-tableファイルは、すべて"
 "のプロジェクトで使用されます。そしてプロジェクトのディレクトリにもある場合"
 "は、そのプロジェクト専用に使われます。"
 
@@ -622,7 +622,7 @@ msgid ""
 "like this, when using the KISYSMOD environment variable to define the full "
 "path: ${KISYSMOD}/connect.pretty"
 msgstr ""
-"例えばフットプリント・ライブラリ _connect.pretty_ のフルパスを環境変数"
+"例えばフットプリントライブラリ _connect.pretty_ のフルパスを環境変数"
 "KISYSMODを使って定義すると次のようになります: ${KISYSMOD}/connect.pretty"
 
 #. type: Plain text
@@ -654,11 +654,11 @@ msgid ""
 "|KISYSMOD |default base path of footprint library folders,\n"
 "and must be defined, if an absolute path is not used in footprint library names.\n"
 msgstr ""
-"|KIGITHUB |フットプリント・ライブラリのテーブルでよく使用されます。\n"
+"|KIGITHUB |フットプリントライブラリのテーブルでよく使用されます。\n"
 "この変数を使用する場合には、ユーザが設定する必要があります。\n"
-"|KISYS3DMOD |3Dシェイプファイルのデフォルト・ベースパス。\n"
+"|KISYS3DMOD |3Dシェイプファイルのデフォルト・ベース・パス。\n"
 "絶対パスは通常使用しないので設定する必要があります。\n"
-"|KISYSMOD |フットプリント・ライブラリ・フォルダのデフォルト・ベースパス。\n"
+"|KISYSMOD |フットプリント・ライブラリ・フォルダのデフォルト・ベース・パス。\n"
 "フットプリントライブラリの名前に絶対パスを使用しない場合は設定する必要があります。\n"
 
 #. type: Plain text
@@ -694,7 +694,7 @@ msgid ""
 "project folder_**."
 msgstr ""
 "例えば *_$\\{KIPRJMOD\\}/connect.pretty_* だったとすると、prettyフットプリン"
-"ト・ライブラリの *_connect.pretty_* フォルダは **_現在のプロジェクトフォルダ"
+"トライブラリの *_connect.pretty_* フォルダは **_現在のプロジェクトフォルダ"
 "内に_** あります。"
 
 #. type: Plain text
@@ -847,7 +847,7 @@ msgid ""
 msgstr ""
 "|example.pro |プロジェクト管理ファイル\n"
 "|example.sch |メインの回路図ファイル\n"
-"|example.kicad_pcb |PCBアートワークファイル\n"
+"|example.kicad_pcb |PCBファイル\n"
 "|example.net |ネットリストファイル\n"
 "|example.xxx |他のユーティリティ プログラムによって作成される各種ファイル\n"
 "|example-cache.lib|回路図エディタが使用するライブラリファイル\n"
@@ -918,7 +918,7 @@ msgid ""
 "window. The menu and the toolbar can be used to create, read and save "
 "project files."
 msgstr ""
-"KiCad のメインウィンドウは、プロジェクト・ツリービューおよび、様々なソフト"
+"KiCad のメインウィンドウは、プロジェクト・ツリー・ビューおよび、様々なソフト"
 "ウェア·ツールを起動するボタンがある起動ペイン、そしてメッセージ·ウィンドウで"
 "構成されています。メニューとツールバーは、プロジェクトファイルを作成したり、"
 "読み込んだり、保存したりするために使用します。"
@@ -968,12 +968,12 @@ msgstr ""
 "|1 |*Eeschema* |回路図エディタ\n"
 "|2 |*Part Library Editor* |コンポーネント・ライブラリ・エディタとコンポーネント・ライブラリ・マネージャ\n"
 "|3 |*Pcbnew* |基板レイアウトエディタ\n"
-"|4 |*Footprint Editor* |フットプリント・エディタとフットプリント・ライブラリ・マネージャ\n"
-"|5 |*GerbView* |ガーバーファイル・ビューア。 穴あけファイルも閲覧可能\n"
+"|4 |*Footprint Editor* |フットプリントエディタとフットプリント・ライブラリ・マネージャ\n"
+"|5 |*GerbView* |ガーバー・ファイル・ビューア。 穴あけファイルも閲覧可能\n"
 "|6 |*Bitmap2component* |白黒のビットマップ画像からロゴ用の\n"
 "フットプリントとコンポーネントを作成するツール\n"
 "|7 |*PCB Calculator* |線幅などの計算ツール\n"
-"|8 |*Pl_Editor* |図枠の作成と修正をするページレイアウト・エディタ\n"
+"|8 |*Pl_Editor* |図枠の作成と修正をするページ・レイアウト・エディタ\n"
 
 #. type: Title ===
 #: KiCad.adoc:380
@@ -1017,7 +1017,7 @@ msgstr ""
 #: KiCad.adoc:394
 #, no-wrap
 msgid "Top toolbar"
-msgstr "トップ・ツールバー"
+msgstr "トップツールバー"
 
 #. type: Plain text
 #: KiCad.adoc:397
@@ -1028,7 +1028,7 @@ msgstr "image:images/main_toolbar.png[]"
 #: KiCad.adoc:400
 msgid ""
 "Kicad top toolbar allows for some basic files operation (from left to right)."
-msgstr "KiCadトップ・ツールバーからは、次の基本的なファイル操作を行えます。"
+msgstr "KiCadのトップツールバーからは、次の基本的なファイル操作を行えます。"
 
 #. type: delimited block |
 #: KiCad.adoc:417
@@ -1093,7 +1093,7 @@ msgid ""
 "defined files which provide information about the template."
 msgstr ""
 "テンプレートファイルはテンプレートシステム名(SYSNAME)で指定されるディレクトリ"
-"に置かれます。メタデータ・ディレクトリ(METADIR)にはテンプレート情報のファイル"
+"に置かれます。メタデータディレクトリ(METADIR)にはテンプレート情報のファイル"
 "があります。"
 
 #. type: Plain text
@@ -1103,7 +1103,7 @@ msgid ""
 "when a project is created using a template, except METADIR."
 msgstr ""
 "テンプレートからプロジェクトを作成すると、そのテンプレートのファイルとディレ"
-"クトリ(ただしMETADIRを除く)の内容はすべて新しいプロジェクト・パスにコピーされ"
+"クトリ(ただしMETADIRを除く)の内容はすべて新しいプロジェクトパスにコピーされ"
 "ます。"
 
 #. type: Plain text
@@ -1128,7 +1128,7 @@ msgid ""
 "as pre-defined board outlines, connector positions, schematic elements, "
 "design rules, etc. ."
 msgstr ""
-"テンプレートは、事前に決められている基板外形やコネクターの位置、回路図の要"
+"テンプレートは、事前に決められている基板外形やコネクタの位置、回路図の要"
 "素、デザインルールなど共通部分があるプロジェクトのセットアップを簡単にしま"
 "す。"
 
@@ -1184,13 +1184,13 @@ msgstr ""
 #. type: Plain text
 #: KiCad.adoc:460
 msgid "Only a basic HTML language can be used to format this document."
-msgstr "このドキュメントの整形には基本的なHTML言語だけが使用できます。"
+msgstr "このドキュメントの整形には基本的な HTML 言語だけが使用できます。"
 
 #. type: Title ====
 #: KiCad.adoc:461
 #, no-wrap
 msgid "Optional Files:"
-msgstr "オプショナル・ファイル:"
+msgstr "オプショナルファイル:"
 
 #. type: Plain text
 #: KiCad.adoc:464
@@ -1226,7 +1226,7 @@ msgstr "image:images/template_tree.png[]"
 #. type: Plain text
 #: KiCad.adoc:475
 msgid "And the meta data info:"
-msgstr "そしてメタデータ情報:"
+msgstr "メタデータ情報:"
 
 #. type: Plain text
 #: KiCad.adoc:477
@@ -1236,7 +1236,7 @@ msgstr "image:images/template_tree_meta.png[]"
 #. type: Plain text
 #: KiCad.adoc:479
 msgid "brd.png is an optional file"
-msgstr "brd.pngは、オプショナル・ファイルです。"
+msgstr "brd.pngは、オプショナルファイルです。"
 
 #. type: Plain text
 #: KiCad.adoc:481
@@ -1340,7 +1340,7 @@ msgid ""
 msgstr ""
 "*テンプレートから新規プロジェクトを作成* テンプレート選択ダイアログが開きます。\n"
 "テンプレート選択ダイアログには、アイコン一覧と表示用ウィンドウがあります。\n"
-"左側のテンプレート・アイコンをクリックするとテンプレートのinfo.htmlメタ\n"
+"左側のテンプレートアイコンをクリックするとテンプレートのinfo.htmlメタ\n"
 "データファイルがロードされ、その内容がウィンドウに表示されます。OKボタンを\n"
 "クリックすると、新しいプロジェクトが作成されます。テンプレートは、文字置換\n"
 "ルールに基づいて新しいプロジェクト名を反映するようにファイル名が変更されて\n"
@@ -1377,7 +1377,7 @@ msgstr "使用可能なテンプレートのリストは以下の場所から収
 #. type: Plain text
 #: KiCad.adoc:540
 msgid "For system templates: <kicad bin dir>/../share/template/"
-msgstr "システム・テンプレート: <kicad bin dir>/../share/template/"
+msgstr "システムテンプレート: <kicad bin dir>/../share/template/"
 
 #. type: Plain text
 #: KiCad.adoc:542
@@ -1428,5 +1428,5 @@ msgid ""
 "path."
 msgstr ""
 "環境変数KICAD_PTEMPLATESが設定されていた場合は、ポータブル・テンプレート・"
-"ページがあります。ポータブル・テンプレートは、KICAD_PTEMPLATESのパスで見つ"
+"ページがあります。ポータブルテンプレートは、KICAD_PTEMPLATESのパスで見つ"
 "かったテンプレートをリストにしたものです。"
