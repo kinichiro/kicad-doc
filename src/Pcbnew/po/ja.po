@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-07-25 10:24+0900\n"
-"PO-Revision-Date: 2015-07-25 20:50+0900\n"
+"PO-Revision-Date: 2015-08-03 02:54+0900\n"
 "Last-Translator: yoneken <midpika@hotmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -20,6 +20,7 @@ msgstr ""
 # PR7:07212015 correcting typos - pt.2
 # CC1:07232015 corresponding changes 1
 # CC2:07252015 corresponding changes 2
+# PR8:08032015 correcting typos - pt.3
 #. type: Title =
 #: Pcbnew.adoc:6
 #, no-wrap
@@ -4037,7 +4038,7 @@ msgstr "“ハイコントラスト表示モード” ツール（左ツール�
 #. type: Plain text
 #: Pcbnew_layers.adoc:150
 msgid "When using this mode, the active layer is displayed like in the normal mode, but all others layers are displayed in gray color."
-msgstr "このモードを使用すると、アクティブなレイヤはノーマルモードで表示されますが、他の全てのレイヤはグレイカラー表示になります。"
+msgstr "このモードを使用すると、アクティブなレイヤはノーマルモードで表示されますが、他の全てのレイヤはグレイカラー表示（グレイスケール）になります。"
 
 #. type: Plain text
 #: Pcbnew_layers.adoc:152
