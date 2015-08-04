@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eeschema-ja\n"
 "POT-Creation-Date: 2015-07-22 22:41+0900\n"
-"PO-Revision-Date: 2015-08-04 20:12+0900\n"
+"PO-Revision-Date: 2015-08-04 20:23+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -4722,7 +4722,7 @@ msgid ""
 "configurable user fields"
 msgstr ""
 "４つの特殊フィールド（コンポーネントに付属するテキスト）と、設定可能なユー"
-"ザー・フィールドがあります。"
+"ザ・フィールドがあります。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:110
@@ -4864,9 +4864,9 @@ msgid ""
 "capture software, you search the component: by keys words NAND2 OpenCol "
 "Eeschema will display the list of components having these 2 key words."
 msgstr ""
-"OpenCol はオープンコレクタ出力を持つ論理ゲートです。例えば、回路図エディター"
-"内で NAND2 OpenCol というキーワードでコンポーネントを検索すると、Eeschema は"
-"これら２つのキーワードを持つコンポーネントのリストを表示します。"
+"OpenCol はオープンコレクタ出力を持つ論理ゲートです。例えば、回路図エディタ内"
+"で NAND2 OpenCol というキーワードでコンポーネントを検索すると、Eeschema はこ"
+"れら２つのキーワードを持つコンポーネントのリストを表示します。"
 
 #. type: Title ====
 #: Eeschema_libedit_complements.adoc:157
@@ -4892,8 +4892,8 @@ msgid ""
 "software, in the pop-up menu displayed by right-clicking on the component."
 msgstr ""
 "コンポーネントプロパティの “ドキュメントファイル名” が存在する場合、回路図エ"
-"ディターソフト内でドキュメントファイルにアクセスが可能であり、コンポーネント"
-"を右クリックして表示されるコンテキストメニューから利用できます。"
+"ディタソフト内でドキュメントファイルにアクセスが可能であり、コンポーネントを"
+"右クリックして表示されるコンテキストメニューから利用できます。"
 
 #. type: Title ====
 #: Eeschema_libedit_complements.adoc:168
@@ -4927,7 +4927,7 @@ msgstr ""
 "コンポーネントで使用できるフットプリントのリストを入力できます。編集するには "
 "“フットプリントフィルタ” タブを開きます。このリストは Cvpcb で（使用可能な"
 "フットプリントのみを表示するための）フィルタとして働きます。空のリストは何も"
-"フィルターしません。"
+"フィルタしません。"
 
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:181
@@ -4963,7 +4963,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_libedit_complements.adoc:191
 msgid "Here are samples: with and without filtering"
-msgstr "フィルター有り、無しのサンプルを示します。"
+msgstr "フィルタ有り、無しのサンプルを示します。"
 
 #. type: delimited block |
 #: Eeschema_libedit_complements.adoc:196
@@ -4973,7 +4973,7 @@ msgid ""
 "|With filtering\n"
 msgstr ""
 "|image:images/ja/1000000000000205000001F7190A1FAC.png[1000000000000205000001F7190A1FAC_png]\n"
-"|フィルター有り\n"
+"|フィルタ有り\n"
 
 #. type: delimited block |
 #: Eeschema_libedit_complements.adoc:199
@@ -4983,7 +4983,7 @@ msgid ""
 "|Without filtering\n"
 msgstr ""
 "|image:images/ja/1000000000000202000001F61A671096.png[1000000000000202000001F61A671096_png]\n"
-"|フィルターなし\n"
+"|フィルタなし\n"
 
 #. type: Title ===
 #: Eeschema_libedit_complements.adoc:202
@@ -6766,13 +6766,13 @@ msgid ""
 msgstr ""
 "image:images/icons/new_component.png[icons/new_component_png] ボタンの "
 "NewPart コマンドを使用して新規コンポーネントの作成が可能です。コンポーネント"
-"名（名前は回路図エディターで定数フィールドのデフォルト値として使用される）、"
-"リファレンス（U、IC、R ...）、パッケージ内のパーツ数（例えば、標準コンポーネ"
-"ントの 7400 は１つのパッケージ内に４つのパーツを持っている）、（ド・モルガン"
-"と呼ぶこともある）代替ボディスタイルが存在するかどうかの入力が要求されます。"
-"もしリファレンスフィールドが空白のままであると、デフォルトの “U“ になります。"
-"これらのプロパティはすべて後で設定することが可能ですが、コンポーネントの作成"
-"時に設定した方がいいでしょう。"
+"名（名前は回路図エディタで定数フィールドのデフォルト値として使用される）、リ"
+"ファレンス（U、IC、R ...）、パッケージ内のパーツ数（例えば、標準コンポーネン"
+"トの 7400 は１つのパッケージ内に４つのパーツを持っている）、（ド・モルガンと"
+"呼ぶこともある）代替ボディスタイルが存在するかどうかの入力が要求されます。も"
+"しリファレンスフィールドが空白のままであると、デフォルトの “U“ になります。こ"
+"れらのプロパティはすべて後で設定することが可能ですが、コンポーネントの作成時"
+"に設定した方がいいでしょう。"
 
 #. type: Plain text
 #: Eeschema_component_library_editor.adoc:381
@@ -10683,7 +10683,7 @@ msgstr ""
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:850
 msgid "%O => complete filename and path of the user chosen output file."
-msgstr "%O => ユーザーが選んだ出力ファイルの完全なパスとファイル名。"
+msgstr "%O => ユーザが選んだ出力ファイルの完全なパスとファイル名。"
 
 #. type: Plain text
 #: Eeschema_creating_customized_netlists_and_bom_files.adoc:852
