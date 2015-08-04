@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCadことはじめ\n"
 "POT-Creation-Date: 2015-07-22 22:42+0900\n"
-"PO-Revision-Date: 2015-07-20 16:10+0900\n"
+"PO-Revision-Date: 2015-08-04 20:14+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -52,16 +52,16 @@ msgid ""
 "later, or the Creative Commons Attribution License (http://creativecommons."
 "org/licenses/by/3.0/), version 3.0 or later."
 msgstr ""
-"このドキュメントは以下の貢献者により著作権所有(© 2015)されています。あなた"
-"は、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
-"バージョン3以降、あるいはクリエイティブ・コモンズライセンス ( http://"
-"creativecommons.org/licenses/by/3.0/ ) のバージョン3以降のいずれかの条件の下"
-"で、配布または変更することができます 。"
+"このドキュメントは以下の貢献者により著作権所有© 2010–2015 されています。あな"
+"たは、GNU General Public License ( http://www.gnu.org/licenses/gpl.html ) の"
+"バージョン 3 以降、あるいはクリエイティブ・コモンズ・ライセンス ( http://"
+"creativecommons.org/licenses/by/3.0/ ) のバージョン 3.0 以降のいずれかの条件"
+"の下で、配布または変更することができます。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:22
 msgid "All trademarks within this guide belong to their legitimate owners."
-msgstr "このガイドに含まれるすべての商標はそれぞれの所有者に帰属しています。"
+msgstr "このガイドの中のすべての商標は、正当な所有者に帰属します。"
 
 #. type: Plain text
 #: Getting_Started_in_KiCad.adoc:25
