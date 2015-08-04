@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2015-07-25 10:24+0900\n"
-"PO-Revision-Date: 2015-08-04 20:16+0900\n"
+"PO-Revision-Date: 2015-08-04 20:25+0900\n"
 "Last-Translator: kinichiro <kinichiro.inoguchi@gmail.com>\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "Language: ja\n"
@@ -6000,7 +6000,7 @@ msgstr "準備"
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:94
 msgid "Pcbnew can thus place the modules automatically, however it is necessary to guide this placement, because no software can guess what the user wants to achieve."
-msgstr "前述のように Pcbnew はフットプリントを自動的に配置することが可能ですが、ソフトウェアは全てを推測できないので実行にはユーザーの補助が必要です。"
+msgstr "前述のように Pcbnew はフットプリントを自動的に配置することが可能ですが、ソフトウェアは全てを推測できないので実行にはユーザの補助が必要です。"
 
 #. type: Plain text
 #: Pcbnew_module_placement.adoc:96
