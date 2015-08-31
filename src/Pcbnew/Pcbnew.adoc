@@ -29,7 +29,7 @@ Jean-Pierre Charras, Fabrizio Tappero.
 *Feedback*
 
 Please direct any comments or suggestions about this document to the
-kicad mailing list: _https://launchpad.net/~kicad-developers_
+KiCad mailing list: _https://launchpad.net/~kicad-developers_
 
 [[acknowledgments]]
 *Acknowledgments*
@@ -58,7 +58,7 @@ include::Pcbnew_layers.adoc[po4a]
 
 include::Pcbnew_create_and_modify_board.adoc[po4a]
 
-include::Pcbnew_module_placement.adoc[po4a]
+include::Pcbnew_footprint_placement.adoc[po4a]
 
 include::Pcbnew_routing.adoc[po4a]
 
@@ -70,6 +70,6 @@ include::Pcbnew_fabrication_files.adoc[po4a]
 
 include::Pcbnew_managing_libs.adoc[po4a]
 
-include::Pcbnew_creating_editing_modules.adoc[po4a]
+include::Pcbnew_creating_editing_footprints.adoc[po4a]
 
 include::Pcbnew_editing_tools.adoc[po4a]
