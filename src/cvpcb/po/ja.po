@@ -34,7 +34,7 @@ msgstr "*著作権*\n"
 #. type: Plain text
 #: cvpcb.adoc:18
 msgid ""
-"This document is Copyright (C) 2010-2015 by it’s contributors as listed "
+"This document is Copyright (C) 2010-2015 by it's contributors as listed "
 "below. You may distribute it and/or modify it under the terms of either the "
 "GNU General Public License (http://www.gnu.org/licenses/gpl.html), version 3 "
 "or later, or the Creative Commons Attribution License (http://"
@@ -128,7 +128,7 @@ msgstr ""
 #: cvpcb.adoc:54
 msgid ""
 "This is the case when component footprints are associated during schematic "
-"capture by setting the component’s footprint field, or it is set in the "
+"capture by setting the component's footprint field, or it is set in the "
 "schematic library when loading the symbol."
 msgstr ""
 "この場合、コンポーネントのフットプリントは、コンポーネントのフットプリント"
@@ -153,7 +153,7 @@ msgstr ""
 msgid ""
 "Components can be assigned to their corresponding footprints manually or "
 "automatically by creating equivalence files (.equ files).  Equivalence files "
-"are lookup tables associating each component with it’s footprint."
+"are lookup tables associating each component with it's footprint."
 msgstr ""
 "コンポーネントは、等価ファイル (.equ files) を作成することによって、手動また"
 "は自動でそれらに対応するフットプリントに割り当てることができます。等価ファイ"
@@ -1281,11 +1281,9 @@ msgstr "*'component value' 'footprint name'*\n"
 #. type: Plain text
 #: cvpcb.adoc:493
 msgid ""
-"Each name must be single quoted by the ’ character and the component and "
+"Each name must be single quoted by the ' character and the component and "
 "footprint names must be separated by one or more spaces."
-msgstr ""
-"それぞれの名前はシングルクォート (’) キャラクタで囲む必要があり、コンポーネン"
-"トとフットプリント名は１つ以上のスペースで区切る必要があります。"
+msgstr "それぞれの名前はシングルクォート (') キャラクタで囲む必要があり、コンポーネントとフットプリント名は１つ以上のスペースで区切る必要があります。"
 
 #. type: Plain text
 #: cvpcb.adoc:495
@@ -2259,6 +2257,3 @@ msgstr "ローカル テーブル（プロジェクト固有のライブラリ �
 #: cvpcb_footprint_libraries_tables.adoc:314
 msgid "image:images/en/fplib_wizard_chooseflt.png[ fplib wizard chooseflt]"
 msgstr "image:images/ja/fplib_wizard_chooseflt.png[ fplib wizard chooseflt]"
-
-#~ msgid "the reasons are:"
-#~ msgstr "これは以下の理由によります。:"
