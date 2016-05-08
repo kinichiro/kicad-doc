@@ -1,0 +1,44 @@
+language: bash
+dist: trusty
+sudo: false
+cache: apt
+
+addons:
+  apt:
+    sources:
+      - debian-sid
+    packages:
+      - asciidoc
+      - pandoc
+      - gettext
+      - po4a
+      - dblatex
+      - source-highlight
+      - fonts-freefont-ttf
+      - fonts-vlgothic
+      - texlive-xetex
+      - texlive-lang-cjk
+      - texlive-lang-cyrillic
+      - texlive-lang-dutch
+      - texlive-lang-english
+      - texlive-lang-french
+      - texlive-lang-german
+      - texlive-lang-italian
+      - texlive-lang-polish
+      - texlive-lang-spanish
+      - docbook-xml
+      - texlive
+      - texlive-base
+      - texlive-bibtex-extra
+      - texlive-binaries
+      - texlive-common
+      - texlive-extra-utils
+      - texlive-latex-base
+      - texlive-latex-extra
+      - texlive-math-extra
+      - python
+      - perl
+      - perl-modules
+      - libsgmls-perl
+
+script: mkdir build && cd build && cmake .. && make -j4
